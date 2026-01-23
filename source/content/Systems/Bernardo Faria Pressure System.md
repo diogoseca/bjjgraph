@@ -8,7 +8,7 @@ description: "Master Bernardo Faria's legendary pressure passing system. Learn s
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -383,15 +383,6 @@ Begin with static positional drilling focusing on proper weight distribution and
 - [[Arm Triangle]] (Submission) - High-percentage submission from consolidated side control position
 - [[Ezekiel Choke]] (Submission) - Primary submission attack from consolidated mount position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The genius of Bernardo Faria's pressure system lies in its systematic approach to energy conservation through proper biomechanics. Rather than relying on muscular strength or explosive athleticism, this methodology employs precise weight distribution and skeletal alignment to create pressure that exhausts opponents while preserving the practitioner's energy. The system's emphasis on controlling the distance between your center of gravity and opponent's center of gravity creates a mechanical advantage that transcends strength disparities. The half guard passing protocol within this system represents perhaps the most technically refined approach to this common defensive position, utilizing crossface control and underhook dominance to systematically flatten and pass opponents. What separates this system from other pressure-based methodologies is its patience and timing emphasis—understanding that rushing the passing sequence undermines the very pressure principles that make the system effective. The progression from grip establishment through passing execution to position consolidation represents a complete theoretical framework for top position dominance.
-- **Gordon Ryan**: Bernardo's pressure system proved incredibly effective at the highest levels of competition, winning multiple world championships through pure technical execution rather than athleticism. The beauty of this approach in tournament settings is its sustainability—you can maintain this style of passing throughout an entire competition day without burning out because you're using technique and weight rather than explosive energy. The knee slice variations within this system are among the highest percentage passes in modern competition when executed with proper timing and pressure. What I've incorporated from this methodology is the patience aspect—understanding that a systematic three-minute pressure pass that results in dominant position is more valuable than a quick explosive pass that leaves you scrambled. The half guard passing elements are competition gold; winning the underhook battle and establishing crossface control gives you such dominant position that opponents often concede the pass to prevent worse outcomes. In my own competition preparation, drilling these pressure principles improved my top game sustainability and submission finishing rates because I wasn't exhausting myself during passing sequences.
-- **Eddie Bravo**: While Bernardo's system is definitely gi-focused, the fundamental pressure principles translate beautifully to no-gi grappling when you understand the core concepts behind the techniques. The bodylock passing elements are pure gold in no-gi competition where you can't rely on collar and sleeve grips—connecting your hands around opponent's torso and using weight drops creates incredible pressure without grip fighting. What's interesting about this system from an innovation perspective is how it challenges the modern speed passing meta-game; Bernardo proved that patient, technical pressure can beat explosive, athletic passing when executed with proper timing and technique. I've adapted several of his half guard pressure concepts into our 10th Planet system, particularly the emphasis on flattening opponents and controlling their breathing through chest pressure. The position consolidation principles are universal—whether gi or no-gi, immediately securing dominant grips and weight placement after passing prevents those scramble situations where positions get lost. For students developing their top game, this system provides an excellent framework that doesn't require freak athleticism or strength, just technical precision and understanding of pressure mechanics.
 
 </section>
 

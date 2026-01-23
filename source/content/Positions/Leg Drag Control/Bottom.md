@@ -8,7 +8,7 @@ description: "Navigate leg drag control from bottom position. Master defensive t
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -434,24 +434,6 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 **Average Time in Position**: 3-8 seconds before position transitions to side control, back control, or guard recovery
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg drag control position from the bottom represents a critical failure point in your guard retention system. The crossed leg creates what I call a 'control fulcrum'—a single point where the opponent can manipulate your entire lower body with minimal effort. Your defensive hierarchy must be absolutely clear: back protection supersedes all other concerns. Many practitioners make the fatal error of attempting guard recovery while their back is exposed, essentially solving a minor positional problem while creating a catastrophic one. The biomechanics of escape center on disrupting the opponent's control fulcrum through strategic framing at the shoulder and hip, creating angles that force them to choose between maintaining leg control and preventing your rotation. Your frames must be structural, not pushing—elbows tight to your body, forearms creating barriers at load-bearing points. Time your extraction attempts to moments when the opponent adjusts their position, as these micro-transitions represent brief windows where their control system is incomplete. The position teaches a valuable lesson: once your guard structure is fully compromised, accepting a transitional position like turtle may be superior to fighting for an impossible guard recovery.
-
-### Gordon Ryan
-
-From competition experience, being caught in leg drag control is one of the worst positions in modern grappling because the top player has so many high-percentage options. My defensive approach focuses on never letting it fully establish in the first place—as soon as I feel that leg being pulled across, I'm fighting grips and creating distance. But if you're already there, you need to act within 1-2 seconds maximum. The longer you wait, the more the top player settles their weight and connects their control points. I prioritize the technical standup when possible because it completely resets the engagement and eliminates all the passing momentum they've built. If my leg is too controlled for that, I go immediately to turtle rather than staying on my back and hoping. Staying flat might feel safer, but it just lets them choose whether they want side control, mount, or your back. Turtle at least limits their options and gives you a chance to scramble. The key detail most people miss is the shoulder frame—if you can prevent them from getting shoulder control, you can usually create enough space to either stand up or recapture half guard. Without that frame, they're going to flatten you and take whatever they want.
-
-### Eddie Bravo
-
-The leg drag position is interesting because it's relatively new to jiu-jitsu's evolution—old school practitioners didn't really deal with this the way modern competitors do. From the 10th Planet perspective, we approach the defense with the same principle we use everywhere: stay active and creative, never accept the position. The standard response is trying to frame and recover guard, but I like teaching students to explore the granby roll escape when the opponent commits heavy to the shoulder control. That rolling motion takes you completely off the line of their pressure and can reset you right back to guard if you time it correctly. Another option people sleep on is actually accepting the position briefly to bait the back take attempt, then using that momentum to roll through to a leg entanglement—if they're driving forward to take your back and you suddenly change directions, you can often catch their leg and end up in your own attack. The key is understanding that this position exists in a scramble state, not a static control state. The more you can extend that scramble and keep moving, the more likely you are to find an escape route or even a counter-attack. Don't just accept it and try to muscle your leg back—flow with the position and look for the creative exit.
 
 </section>
 

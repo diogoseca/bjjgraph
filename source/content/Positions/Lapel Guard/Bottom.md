@@ -8,7 +8,7 @@ description: "Control opponents with innovative lapel grips and configurations. 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -460,24 +460,6 @@ From established lapel guard, partner defends first submission attempt (triangle
 
 **Average Time in Position**: 2-4 minutes in competition exchanges with experienced practitioners
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Lapel guard represents a profound evolution in guard theory by extending the control matrix beyond the natural reach of human limbs. The fabric becomes a biomechanical lever that multiplies the bottom player's control capacity without corresponding energy expenditure. What makes lapel guard particularly sophisticated is the persistence of control—unlike grip-dependent guards that require constant readjustment, lapel configurations maintain their control properties even when hands are released to attack. This creates a control hierarchy where the lapel maintains position while the hands pursue submission, a strategic advantage that mirrors the control-position-submission progression from top positions. The technical challenge for the bottom player is establishing these configurations under resistance while maintaining guard retention, and the challenge for the top player is recognizing that standard passing approaches are geometrically blocked by the fabric barriers.
-
-### Gordon Ryan
-
-From a competition perspective, lapel guard is exceptionally effective against athletic passers who rely on pressure and explosiveness rather than technical precision. The fabric configurations neutralize much of the physical advantage because you can't muscle through a mechanical barrier—you have to understand it technically. I've seen world-class wrestlers with tremendous pressure games completely shut down by moderate-level players with solid lapel guard systems. The key is establishing the configuration early before the explosive passer can build momentum. Once it's set, you're playing a different game where technical knowledge matters more than physical attributes. Against high-level technical passers, lapel guard becomes about creating movement chains—using the lapel to set up sweeps that lead to back takes, or sweeps that open submission entries. You're never hunting just one thing; the lapel configuration is the starting point for multiple attack sequences.
-
-### Eddie Bravo
-
-Lapel guard is where gi grappling gets creative in ways that no-gi can't match—you're literally using their uniform against them in ways they never anticipated. What I love about it is the innovation factor; there are still new configurations being discovered because the possibilities are nearly endless when you start wrapping fabric around different body parts. From a 10th Planet perspective, we focus on the control principles rather than specific gi grips, but understanding lapel guard mechanics helps you appreciate how control can be extended beyond your natural reach. The concept of using environmental elements—whether that's the gi, the cage in MMA, or other factors—to multiply your control is fundamentally sound. For gi players, lapel guard represents cutting-edge technique where creativity and technical understanding can overcome significant size and strength disadvantages. The confusion factor alone makes it valuable—most people simply don't know what to do when their own lapel is wrapped around their leg.
 
 </section>
 

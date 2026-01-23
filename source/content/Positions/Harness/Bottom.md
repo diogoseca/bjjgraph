@@ -8,7 +8,7 @@ description: "Master defensive strategies from Harness Bottom Position in BJJ. L
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -429,24 +429,6 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 
 **Average Time in Position**: 30-90 seconds before escape attempt or submission threat
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The harness bottom position represents a critical defensive junction in the back attack sequence where systematic hand fighting becomes paramount. The fundamental principle here is understanding the biomechanical hierarchy of threats: the rear naked choke is the immediate danger that must be addressed before any positional escape can be attempted. Your defensive structure must prioritize a two-on-one grip control on the choking arm, utilizing both hands to control the wrist and prevent the forearm from crossing your neck. The chin must remain tucked to the chest creating a barrier, while the shoulders are elevated to narrow the gap through which the choking arm might slide. Only after establishing this defensive frame can you address the secondary concern of preventing hooks and creating escape angles. The escape pathway invariably involves turning toward the under-hook side, as this disrupts the opponent's structural alignment and creates the geometry necessary for hip escape. Understanding that defense in this position is a systematic progression rather than a single explosive movement is essential for survival against high-level back attack systems.
-
-### Gordon Ryan
-
-From competition experience, harness bottom is where matches get finished if you don't have your defensive priorities absolutely dialed in. The reality is you're in a bad spot and the guy on top has multiple paths to submission and better position. What works at the highest level is staying ice cold and working your defenses in the right order - hands first, always hands first. I'm controlling that choking arm like my life depends on it because in a match, my victory depends on it. Two hands on one, wrist control, preventing any sliding motion across the neck. While I'm doing that, I'm actively preventing hooks with my leg positioning and looking for the moment when his pressure reduces even slightly to start my escape. The hip escape to turtle is my highest percentage move because it's simple, it works against everyone, and I can hit it quickly when I feel the opportunity. I'm not trying to be fancy from bottom harness - I'm trying to survive first, then escape to a position where I can start working my game. The competitors who get submitted here are the ones who panic or try to force escapes before controlling the immediate threats. Stay systematic, stay patient, and take what the position gives you.
-
-### Eddie Bravo
-
-Harness bottom is one of those positions where the traditional defensive approach works, but there's also room for some creative problem-solving if you understand the mechanics. The standard two-on-one on the choking arm is solid, but what I teach is also being aware of creating dilemmas for the top guy. If he's worried about you standing up, he has to adjust his weight. If he's focused on getting his hooks in, there's a window for the Granby roll escape that can completely reset the position. The key innovation we work on at 10th Planet is not just surviving harness bottom but using opponent reactions to create escape opportunities. When he tries to finish the choke, that's when his base becomes vulnerable to the forward roll. When he focuses on controlling your hips, that's when you can work the technical standup. It's about reading his intentions through his weight distribution and grip adjustments, then exploiting the windows that open up. We drill this position a lot because it shows up constantly in no-gi, and having multiple escape paths based on what the opponent is doing makes you unpredictable and harder to control. Don't just defend - make him defend his position too.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Spider Guard Top in BJJ. Learn grip breaking, passing strat
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -439,24 +439,6 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 
 **Average Time in Position**: 1-3 minutes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Spider Guard represents one of the most systematically sound distance management systems in Brazilian Jiu-Jitsu, utilizing biomechanical principles of leverage through extended limbs controlling the opponent's arms while the feet create frames against the torso. For the top player, the fundamental understanding must be that Spider Guard is a grip-dependent position - once the grips are broken, the position collapses entirely. The methodology for passing must therefore be systematic grip breaking followed by immediate leg control before the bottom player can re-establish their guard structure. The most common error I observe is practitioners attempting to pass with grips intact, which is biomechanically inefficient and tactically unsound. Instead, utilize proper grip-breaking mechanics that attack the thumb or use two-hands-on-one leverage, then immediately transition to passing grips on the pants or legs while maintaining distance to prevent re-gripping. The passing sequences from Spider Guard should exploit the fundamental weakness of the position: when the bottom player's feet are on your biceps or torso, their legs are extended and vulnerable to being pressured down and controlled.
-
-### Gordon Ryan
-
-In competition, Spider Guard is one of the most annoying guards to deal with because it's designed purely to stall and create distance - it's a negative position that prevents you from passing but doesn't really threaten you if you stay disciplined. My approach is aggressive and systematic: I immediately attack the grips with violent grip breaks, step back to create distance if they're threatening sweeps, then as soon as I break the grips I'm pressuring forward hard with toreando or leg drag passes before they can reset. The key is never giving them time to re-establish - you break grips and immediately pass in one continuous motion. I've found that most Spider Guard players rely heavily on their grips and don't have good answers when you break them efficiently and attack immediately. Also, I specifically target the single-side Spider Guard moment when they're transitioning between grips or moving to lasso - that's when they're most vulnerable. In ADCC and no-gi, this position barely exists because sleeve grips aren't available, which tells you everything about how grip-dependent it really is. Stay patient, break grips systematically, then explode through with your passing sequence.
-
-### Eddie Bravo
-
-Spider Guard from the top is all about understanding that the bottom guy is using his feet like hands to control distance and create frames - it's an intelligent design but it has weaknesses you can exploit. In the 10th Planet system, we approach this differently than traditional gi passers because we're thinking about the no-gi equivalent and translating those concepts. The key innovation is recognizing that when someone has their feet on your biceps, they're essentially giving you their legs - you just need to trap them and pass around. I like the cartwheel pass and other dynamic movements that completely change the angle and make their foot pressure irrelevant. Also, we use a lot of pressure on the legs themselves, like pushing their knees together or stepping over one leg while controlling the other. The traditional approach is too respectful of the guard - instead, I advocate for aggressive leg attacks and constant angle changes that force them to choose between maintaining their grips or defending their legs. Remember, Spider Guard is a stalling position in many ways, so if you're dynamic and constantly changing angles, you're forcing them to react rather than control. Get creative, use your wrestling, and don't be afraid to abandon traditional passing sequences for more unorthodox attacks.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Standing Guard Bottom in BJJ. Defensive position with dista
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -483,24 +483,6 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 **Average Time in Position**: 15-45 seconds before guard pull or takedown
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Standing Guard Bottom represents a critical decision-making phase in the positional hierarchy where the practitioner must balance defensive responsibility with offensive opportunity. The fundamental principle governing this position is distance management through active grip fighting and superior footwork. Biomechanically, the standing position offers maximum mobility but minimum structural stability compared to ground-based positions, creating a natural tension between defensive security and offensive potential. The key technical detail that separates competent practitioners from experts in this position is understanding that grip fighting is not merely about establishing grips, but about controlling the distance at which engagement occurs. Superior practitioners use hand fighting to create a buffer zone that allows them to dictate whether engagement leads to guard pulling from advantageous position or takedown attempts from safe entries. The position demands constant threat assessment: evaluate opponent's takedown ability, your guard pulling proficiency, and the risk-reward ratio of attempting offensive techniques versus safely establishing guard. Master practitioners understand this position as a gate-keeping phase where correct decisions multiply effectiveness of subsequent positions.
-
-### Gordon Ryan
-
-In competition, Standing Guard Bottom is where most matches are won or lost before anyone hits the ground. I use this position to control the pace and dictate terms of engagement - if my opponent is a better wrestler, I pull guard early from my strongest grip configuration. If I'm confident in my takedown defense and want to tire them out, I make them work for 30-45 seconds in the standup phase before pulling to my best guard. The reality in high-level no-gi competition is that almost everyone pulls guard eventually, so this position is really about pulling guard on YOUR terms with YOUR grips. I focus on three things: first, never let them get the grips they want - if they need a collar tie to pass, make that grip hell to establish. Second, stay mobile and make them chase you, burning their energy while you stay fresh. Third, when you do pull guard, pull to a position where you immediately threaten something dangerous - closed guard for triangles, shin-to-shin for entries to leg attacks, or seated guard for dynamic entries. The worst thing you can do is pull guard passively and give them a free passing opportunity. Every guard pull should either threaten a submission or force them into a position where you have superior knowledge and technique.
-
-### Eddie Bravo
-
-Standing Guard Bottom is all about being unpredictable and creative with your entries. In 10th Planet system, we don't waste time with traditional grip fighting - we're looking to create chaos and confusion before pulling into our game. The key is to fake high, go low, fake takedowns to set up guard pulls, or vice versa. I teach my guys to use constant level changes and feints to keep opponents guessing - maybe you drop for an ankle pick but it's really a setup for pulling to lockdown half guard, or you reach high like you're pulling closed guard but you actually sit to butterfly. The standing phase is psychological warfare - make them uncertain about what's coming next. We also use a lot of unconventional grips and angles. Instead of traditional collar-and-sleeve, we might grab the back of the head with one hand and the tricep with the other to set up a sitting pull to rubber guard. Or we use wrist control combined with sudden direction changes to create openings for guard pulls that land us directly in offensive positions like mission control or invisible collar setups. Don't be predictable - every standing engagement should keep your opponent on edge, never knowing if you're shooting, pulling, or creating some weird entry they've never seen before.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Triangle Control defense from top position in BJJ. Learn de
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -431,24 +431,6 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The triangle control position from top represents a failure in fundamental guard passing mechanics—specifically the failure to maintain proper posture and hand positioning that prevents the guard player from securing head and arm control. Once caught in the triangle, the escape becomes a matter of systematic progression through clearly defined stages: first, you must address the immediate choking pressure through chin positioning and space creation; second, you must recover your posture to reduce the opponent's mechanical advantage; third, you must address the leg configuration itself through proper stacking, circling, or standing techniques. The key principle is understanding that the triangle is a position of mechanical efficiency for the bottom player—they are using skeletal structure and leverage to compress your carotid arteries with minimal muscular effort. Therefore, your defense cannot rely on strength alone but must disrupt the geometric configuration that makes the choke effective. Time is your enemy in this position as the longer you remain, the more opportunity your opponent has to optimize their positioning and increase pressure. This makes immediate, decisive defensive action essential while maintaining composure and technical precision rather than panicked, explosive movements that worsen the situation.
-
-### Gordon Ryan
-
-Being in triangle control top is a position I've had to defend countless times at the highest levels of competition, and the reality is that good triangle players will finish you if you don't have systematic, proven defenses. The first thing I focus on is preventing the triangle from getting fully locked in the first place through proper posture and hand positioning in guard, but once I'm caught, I have a hierarchy of escapes based on how tight the triangle is. If it's early and loose, I'm immediately working to posture up and create space, often combining this with pressure into their hips to prevent them from achieving the angle they need. If it's tighter, I switch to stack-based escapes where I'm driving my shoulder into their hamstring and working to either pass to the side or force them to release. The key is recognizing that triangle specialists like Eddie Cummings or Ryan Hall are going to transition to armbars or omoplatas the moment you start escaping, so you have to be ready to defend multiple threats simultaneously. In competition, I've found that staying calm and methodically working through your escape sequence is far more effective than explosive, panicked movements. I also make sure my trapped arm stays glued to my body—if they can isolate that arm, you're getting armbarred immediately. Time your breathing, stay composed, and remember that every second you survive is an opportunity for them to make a mistake or tire from maintaining the position.
-
-### Eddie Bravo
-
-Triangle defense is something we drill extensively in 10th Planet because we use the triangle so much ourselves—you have to understand both sides of the position to be complete. From top in triangle control, the conventional escapes definitely work, but I like to add some unconventional elements that catch people off guard. First, if someone's got a triangle locked on me, I'm looking at their leg configuration and thinking about ways to compromise it—sometimes that means grabbing their foot and working a straight ankle lock defense where they have to release to defend their own leg. Other times, I'm looking at the rolling escape where instead of fighting the triangle conventionally, I'm actually going with their pressure and rolling through, which can leave them in bottom side control or create scrambles. The key with triangle defense is not being predictable—if you always do the same posture and pass escape, good triangle players will shut it down and armbar you. I teach my guys to mix in standing escapes, stack escapes, and even some wrestling-style limp arm escapes where you're pulling your arm out in unexpected ways. But the most important thing is prevention—understanding the triangle setups from closed guard, rubber guard, and omoplata positions so you never get there in the first place. When we roll, I'm constantly feeling for that moment when my posture starts to break or my arm gets isolated, and I'm addressing it immediately before they can lock anything up. Defense is as much about awareness and prevention as it is about the actual escape techniques once you're caught.
 
 </section>
 

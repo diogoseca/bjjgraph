@@ -17,8 +17,7 @@
     "common_obstacles",
     "assessment_metrics",
     "training_methodology",
-    "related_content",
-    "expert_insights"
+    "related_content"
   ],
   "properties": {
     "name": {
@@ -285,30 +284,8 @@
     },
     "expert_insights": {
       "type": "object",
-      "description": "Insights from all 3 experts (REQUIRED, 200+ characters each)",
-      "additionalProperties": false,
-      "required": [
-        "danaher",
-        "gordon_ryan",
-        "eddie_bravo"
-      ],
-      "properties": {
-        "danaher": {
-          "type": "string",
-          "minLength": 200,
-          "description": "John Danaher - systematic frameworks"
-        },
-        "gordon_ryan": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Gordon Ryan - competition application"
-        },
-        "eddie_bravo": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Eddie Bravo - innovative approaches"
-        }
-      }
+      "description": "DEPRECATED - Expert insights removed for copyright reasons",
+      "additionalProperties": true
     }
   }
 }

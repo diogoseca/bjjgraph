@@ -8,7 +8,7 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -479,24 +479,6 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 **Average Time in Position**: 45-90 seconds until submission or position advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The mounted crucifix represents an optimal expression of control hierarchy in Brazilian Jiu-Jitsu, demonstrating how systematic removal of defensive options creates submission opportunities. The position's effectiveness stems from its dual-layer control system: first, mount establishes positional dominance and point advantage; second, leg-based arm entanglement removes the opponent's primary defensive tools - their frames. This creates an asymmetric scenario where your offensive capabilities remain fully intact while your opponent's defensive capabilities are severely compromised. The biomechanical superiority is evident in the leverage structures - your legs control their arms with relatively minimal effort while your hands remain free to attack vulnerable targets. The key to maximizing this position lies in understanding the control-to-submission progression. You must first establish unquestionable positional control before committing to finishing attempts. The transition from mount to crucifix requires precise timing, typically capitalizing on moments when the opponent extends arms defensively or attempts to create frames. Thread your leg over the exposed arm using hip movement rather than forcing the position, maintaining mount stability throughout. Once established, your attack methodology should create tactical dilemmas through multiple simultaneous threats - attack the neck forcing arm defense, then immediately switch to armbar on the defending arm. This forced choice situation where all defensive options lead to different offensive opportunities exemplifies high-level strategic thinking. The mounted crucifix also serves as an excellent platform for back takes, as you already control the arms and can easily transition when the opponent turns away defensively. The systematic approach is clear: establish position, secure arm control, create submission dilemmas, and finish or advance position based on defensive responses.
-
-### Gordon Ryan
-
-Mounted crucifix is one of the highest percentage finishing positions in all of jiu-jitsu, and I've finished dozens of matches from here including against elite opponents. The key to making it work at the highest levels is understanding that getting there is often harder than finishing once you're there, so you need to be patient and systematic in setting it up from mount. What I do is work from high mount or S-mount, and when they try to push my hips away with their arms - which everyone does eventually - that arm extension is my entry. I immediately thread my leg over their arm, keep my knee tight, and now they're trapped. The beauty of crucifix from mount versus traditional crucifix from back is that you have more weight on them and they can't turn into you as easily. My finishing sequence is always the same: attack the choke first because their arms are trapped and they can't defend properly. If they somehow defend the choke by tucking their chin and turning away, they're giving me their back which is even better. If they try to extract their trapped arm by extending it, that's an immediate armbar and nobody survives that because they have no defensive structure. The competition mindset here is crucial - don't rush the finish. Once you have this position, you've essentially won unless you make an error. Take your time, feel their defensive reactions, and methodically attack whatever they give you. In ADCC-level competition, I've held this position for over a minute just breaking down their defense systematically before finishing. The other thing that makes this so effective is the opponent's psychology - they know they're in deep trouble, their arms are trapped, and that mental pressure often makes them panic and give you the finish faster.
-
-### Eddie Bravo
-
-Mounted crucifix is devastating, and it fits perfectly into the 10th Planet system's philosophy of creating positions where the opponent is completely stuck with no good options. We call this the 'jail' concept - once you lock them in crucifix from mount, they're in jail and every escape attempt just makes things worse. What I love about this position is how it combines old-school mount control with modern crucifix arm-trap mechanics. We teach a specific entry from what we call the 'Jiu-Claw' position in mount where you trap their arm with your leg while maintaining control. The submission game from here is endless - you can go for cross-chokes, arm triangles, armbars on either arm, or transition to the back and hit them with the twister or rear naked choke. The thing that makes mounted crucifix so sick is that it works in both gi and no-gi, though in no-gi you have to be tighter with your control since you don't have cloth to grab. One variation we do in the 10th Planet system is combining crucifix with the zombie position, where you trap their arm and then work to their back with the arm still trapped. It's like a mounted zombie and it's incredibly hard to escape. The mentality I teach with this position is to stay fluid and creative - don't just hunt one submission, flow between chokes and armbars and back takes based on how they're defending. If they turn into you, you might even catch a twister setup. The position is about creating maximum problems with minimum effort, which is exactly what efficient jiu-jitsu is all about. And remember, in MMA this position is even more deadly because you can throw strikes while they can't defend properly with trapped arms.
 
 </section>
 

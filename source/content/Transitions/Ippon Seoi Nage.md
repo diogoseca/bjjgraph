@@ -8,7 +8,7 @@ description: "Master Ippon Seoi Nage in BJJ. Complete judo-to-BJJ adaptation wit
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -337,15 +337,6 @@ Ippon Seoi Nage serves as a high-percentage entry into BJJ's top game from stand
 - [[Kouchi Gari]] - Setup attack to create forward momentum for Seoi Nage entry
 - [[Ankle Pick]] - Counter option when throw is defended with sprawl
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: Ippon Seoi Nage represents the classical intersection of judo biomechanics and Brazilian Jiu-Jitsu positional strategy. The technique's success depends entirely on understanding the mechanical principle of creating a fulcrum point below opponent's center of mass - your hips and shoulders become the axis over which they must rotate. The critical error most BJJ practitioners make is attempting the throw without proper kuzushi; they try to compensate for poor off-balancing with strength and speed, which fails against skilled opposition. Study how judoka use grip fighting to create micro-adjustments in opponent's balance, then exploit these moments of instability with explosive entries. The real mastery lies not in the throwing motion itself, but in recognizing the precise moment when opponent's balance is broken sufficiently to make the throw high-percentage. Additionally, understand that in BJJ context, the throw's value extends beyond scoring points - the forward momentum and dominant landing position often allow you to bypass guard entirely, moving directly into submission chains or mount transitions that would otherwise require extensive guard passing effort.
-- **Gordon Ryan**: I use Ippon Seoi Nage primarily as a psychological weapon more than a primary takedown in my game, but when it hits, it completely demoralizes opponents while giving you instant dominant position. The key to making it work in high-level no-gi is adapting the grips to overhook and wrist control, then hitting it when guys are reaching to establish their own grips. Most BJJ guys don't train throw defense seriously, so if you can drill this technique until the entry is automatic, you can catch people who are way better grapplers than you just because they never developed takedown awareness. That said, don't be stubborn with it - if you hit your entry and feel resistance, immediately bail to Single Leg or pull guard with your established grips. The throw works best as part of a standup system where you're threatening multiple attacks; when guys are worried about your Single Leg, they defend differently and create the upright posture that makes Seoi Nage available. One thing I emphasize is controlling the landing aggressively - don't just throw them and stand up celebrating, drive through them into side control and immediately start your passing or submission sequences while they're still disoriented from the impact.
-- **Eddie Bravo**: Seoi Nage is old school judo but it's actually perfect for no-gi if you modify it right, and most people sleep on it because they think throws don't work without the gi. What I teach my guys is to use the overhook control version and hit it off the fake guard pull, which creates this sick setup where they're expecting you to jump guard and suddenly you're rotating under them for the throw. The 10th Planet variation emphasizes using the throw to land directly in Lockdown or Truck position instead of traditional side control - you maintain that sleeve control during the throw but as you land, you're already establishing your leg position for your ground game. This is way more efficient than landing in side control and then having to work through their frames. Another adaptation we use is the Drop Seoi variation, which I actually prefer because it's lower commitment and you can transition to leg attacks if the throw gets stuffed. The drop version lets you threaten the throw but if they defend well, you're already in position to attack legs or sweep. Don't sleep on this technique just because it looks traditional - when you blend it with modern no-gi strategy and unorthodox positions, it becomes this unpredictable weapon that catches everyone off guard.
 
 </section>
 

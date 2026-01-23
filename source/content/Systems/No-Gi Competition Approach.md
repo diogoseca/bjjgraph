@@ -8,7 +8,7 @@ description: "Master no-gi competition strategy in BJJ. Complete framework cover
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -363,15 +363,6 @@ No-gi competition training should emphasize specific situational drilling with p
 - [[B-Team Dilemma System]] (System) - Modern approach to creating offensive opportunities
 - [[Modern No-Gi Passing System]] (System) - Contemporary passing framework for no-gi competition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The fundamental difference between gi and no-gi competition lies not in the absence of fabric grips, but in the requirement for constant dynamic pressure maintenance. In gi competition, a properly established grip creates a static control point that requires minimal energy to maintain. In no-gi, every connection requires active pressure and constant micro-adjustments to prevent slippage. This necessitates a completely different energy management approach and technical framework. The most successful no-gi competitors understand that position advancement must be systematic and relentless rather than opportunistic. Establish clear hierarchical rules for position improvement, grip fighting sequences, and submission chains. The leg entanglement game has fundamentally altered no-gi competition, creating new pathways to dominant position and submission that simply did not exist in traditional approaches. Study these systems not as isolated techniques but as integrated frameworks that connect standing, passing, and finishing phases into cohesive tactical approaches.
-- **Gordon Ryan**: No-gi competition success comes down to imposing your game while preventing opponents from establishing theirs. I build my entire strategy around controlling the pace, establishing dominant grips first, and systematically advancing position through proven sequences. The bodylock pass and leg drag are my foundational attacks because they work at the highest levels of competition against elite resistance. When everyone knows your game and still can't stop it, that's when you know your system is truly effective. Mental game is equally important as technical proficiency. I enter every match knowing I will break my opponent's spirit through relentless pressure and superior positioning. The key is maintaining offensive output even when tired, never allowing opponent recovery time, and finishing aggressively when opportunities present. Study your opponents, identify their weaknesses, and attack those systematically throughout the match.
-- **Eddie Bravo**: No-gi competition allows for creative expression that gi grappling constraints eliminate. The reduced friction environment creates scramble opportunities where unorthodox techniques and unconventional pathways become available. I emphasize developing signature techniques and unique approaches that opponents haven't specifically prepared for. While systematic approaches provide reliability, innovation creates competitive advantages. The leg lock revolution has opened entirely new strategic dimensions in no-gi competition. Positions that were considered neutral or defensive ten years ago are now recognized as offensive platforms. Stay ahead of the meta-game evolution by experimenting with emerging techniques and integrating them before they become universally understood. The rubber guard system translates beautifully to no-gi when adapted for sweat and reduced friction, creating control mechanisms that surprise opponents expecting traditional approaches.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master systematic escape prioritization in BJJ. Learn to assess po
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Prioritize escaping from most dangerous positions first (back control, mount, then side control)
 - Attempt highest-percentage escapes before lower-percentage alternatives
 - Conserve energy by selecting efficient escapes over forceful techniques when possible
@@ -179,9 +179,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Positional Danger Assessment**: The ability to rapidly evaluate relative threat levels of different positions, recognizing that back control represents highest submission danger, mount offers high control with submission threats, side control provides dominant control with lower immediate submission danger, and positions like knee on belly offer transitional control with specific escape windows.
 
 **Energy Cost Calculation**: Understanding the metabolic demands of different escape mechanics, recognizing that explosive bridge-and-roll escapes consume significant energy, hip escape sequences require moderate sustained effort, frame-based escapes demand isometric strength, and timing-based escapes rely on minimal force application with precise execution.
@@ -202,28 +202,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value and danger of positions is essential for establishing escape priorities, as positional hierarchy defines which positions demand immediate escape versus which allow methodical improvement.
-- **[[Escape Fundamentals]]** (Prerequisite): Basic escape mechanics must be developed before hierarchical decision-making becomes relevant, as hierarchy determines which fundamental escapes to apply but relies on technical proficiency in those escapes.
-- **[[Energy Management System]]** (Complementary): Energy conservation principles work synergistically with escape hierarchy, as both concepts prioritize efficiency and recognize that defensive situations require strategic resource allocation to maintain escape capacity throughout matches.
-- **[[Pin Escape Methodology]]** (Extension): Pin escape methodology represents specialized application of escape hierarchy specifically to pinning positions, extending hierarchical principles to detailed escape mechanics from mount, side control, and knee on belly.
-- **[[Risk Assessment]]** (Complementary): Risk evaluation integrates with escape hierarchy by determining acceptable risk levels for different escape attempts, balancing potential positional improvement against dangers of failed escapes creating worse situations.
-- **[[Defensive Strategy]]** (Extension): Broader defensive strategy encompasses escape hierarchy as one component within comprehensive defensive framework, extending hierarchical thinking to include prevention, survival, and counterattack elements beyond pure escape mechanics.
-- **[[Frame Management]]** (Complementary): Frame management principles support escape hierarchy by providing structural foundations that enable escape attempts while maintaining defensive integrity throughout escape sequences.
-- **[[Space Creation]]** (Complementary): Space creation techniques serve as tactical tools within escape hierarchy, enabling positional improvements that facilitate higher-percentage escape attempts from various positions.
-- **[[Mount Escape Hierarchy]]** (Extension): Position-specific hierarchy for mount escapes demonstrates detailed application of general hierarchical principles to one of the most critical escape scenarios in BJJ.
-- **[[Guard Recovery]]** (Extension): Guard recovery represents ultimate goal of many escape sequences, with hierarchy determining optimal paths to achieve guard position from various inferior positions.
-- **[[Hip Escape Mechanics]]** (Prerequisite): Fundamental hip escape mechanics form the technical foundation for many high-percentage escapes within the hierarchy, requiring mastery before strategic selection becomes relevant.
-- **[[Defensive Framing]]** (Prerequisite): Defensive framing capabilities are essential prerequisites for maintaining safety during escape attempts, with frames preventing position deterioration when escapes are partially successful.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: From mount bottom, escape hierarchy prioritizes creating frames to prevent upper body submissions first, then attempting elbow escape or bridge-and-roll based on opponent's posture, accepting side control as intermediate improvement when direct guard recovery is unavailable.
 
 **Back Control**: Under back control, hierarchy demands immediate hand fighting to prevent rear naked choke, followed by hip escape to face opponent, with willingness to accept inferior positions like turtle or half guard as successful escapes from this highest-danger position.
@@ -258,9 +239,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess immediate submission danger in current position**: If high submission threat exists (back control, mounted triangle, tight armbar), prioritize defending specific submission before addressing positional escape; if submission threat is moderate or low, proceed to positional escape selection.
 2. **Evaluate current energy levels and match context**: If energy is high and match situation allows, select highest-percentage escape regardless of energy cost; if fatigued or leading on points, prioritize energy-efficient escapes even if success probability is slightly lower; if desperate situation exists, accept high-energy explosive escapes.
 3. **Identify highest-priority escape based on position danger**: Attempt primary escape appropriate to position (bridge-and-roll from mount if opponent is high, elbow escape if opponent is low, hip escape from side control, hand fighting from back control), executing with proper technical mechanics.
@@ -273,9 +254,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting same escape repeatedly without variation
   - **Consequence**: Opponent develops defensive timing and progressively improves position with each failed attempt, leading to energy depletion without positional improvement and potential advancement to more dangerous positions.
   - **Correction**: After two unsuccessful attempts of same escape, transition to alternative escape that addresses different angle or exploits opponent's defensive commitment, using escape variation to prevent opponent's defensive adaptation.
@@ -301,9 +282,9 @@ Escape Hierarchy represents the systematic framework for prioritizing and select
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring Cycles** (Focus: Building muscle memory for position-specific escape priorities and developing realistic assessment of escape difficulty across position spectrum.)
 Start rounds from specific inferior positions with goal of achieving defined escape objectives within time limits, rotating through position hierarchy from least to most dangerous, developing both escape execution and prioritization instincts.
 
@@ -326,9 +307,9 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes basic position hierarchy (mount worse than side control, back control most dangerous) and attempts appropriate escapes for each position type
 - Executes fundamental escapes with proper mechanics from common positions, though may require multiple attempts and significant energy expenditure
@@ -364,10 +345,26 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value and danger of positions is essential for establishing escape priorities, as positional hierarchy defines which positions demand immediate escape versus which allow methodical improvement.
+- **[[Escape Fundamentals]]** (Prerequisite): Basic escape mechanics must be developed before hierarchical decision-making becomes relevant, as hierarchy determines which fundamental escapes to apply but relies on technical proficiency in those escapes.
+- **[[Energy Management System]]** (Complementary): Energy conservation principles work synergistically with escape hierarchy, as both concepts prioritize efficiency and recognize that defensive situations require strategic resource allocation to maintain escape capacity throughout matches.
+- **[[Pin Escape Methodology]]** (Extension): Pin escape methodology represents specialized application of escape hierarchy specifically to pinning positions, extending hierarchical principles to detailed escape mechanics from mount, side control, and knee on belly.
+- **[[Risk Assessment]]** (Complementary): Risk evaluation integrates with escape hierarchy by determining acceptable risk levels for different escape attempts, balancing potential positional improvement against dangers of failed escapes creating worse situations.
+- **[[Defensive Strategy]]** (Extension): Broader defensive strategy encompasses escape hierarchy as one component within comprehensive defensive framework, extending hierarchical thinking to include prevention, survival, and counterattack elements beyond pure escape mechanics.
+- **[[Frame Management]]** (Complementary): Frame management principles support escape hierarchy by providing structural foundations that enable escape attempts while maintaining defensive integrity throughout escape sequences.
+- **[[Space Creation]]** (Complementary): Space creation techniques serve as tactical tools within escape hierarchy, enabling positional improvements that facilitate higher-percentage escape attempts from various positions.
+- **[[Mount Escape Hierarchy]]** (Extension): Position-specific hierarchy for mount escapes demonstrates detailed application of general hierarchical principles to one of the most critical escape scenarios in BJJ.
+- **[[Guard Recovery]]** (Extension): Guard recovery represents ultimate goal of many escape sequences, with hierarchy determining optimal paths to achieve guard position from various inferior positions.
+- **[[Hip Escape Mechanics]]** (Prerequisite): Fundamental hip escape mechanics form the technical foundation for many high-percentage escapes within the hierarchy, requiring mastery before strategic selection becomes relevant.
+- **[[Defensive Framing]]** (Prerequisite): Defensive framing capabilities are essential prerequisites for maintaining safety during escape attempts, with frames preventing position deterioration when escapes are partially successful.
+
+
+### Related Content
 - [[Positional Hierarchy]] (Principle) - Foundational concept that defines relative danger levels used to establish escape priorities
 - [[Escape Fundamentals]] (Principle) - Provides technical escape mechanics that hierarchy determines when to apply
 - [[Pin Escape Methodology]] (Principle) - Specialized application of escape hierarchy specifically to pinning positions
@@ -381,15 +378,6 @@ Start from highly disadvantaged scenarios (flattened under mount, seat belt lock
 - [[Side Control]] (Position) - Intermediate-priority position allowing methodical energy-efficient escape selection
 - [[Elbow Escape]] (Transition) - High-percentage escape from mount demonstrating proper hierarchy application
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches escape hierarchy as a systematic diagnostic process where position evaluation precedes technique selection, with each position category having defined high-percentage escapes that should be attempted in priority order. Emphasizes what he terms 'positional triage' where most dangerous positions receive immediate attention while less threatening positions can be addressed methodically. Systematizes escapes based on mechanical efficiency, arguing that understanding which escapes require least energy for maximum positional gain enables survival in extended defensive situations where energy conservation is critical. Teaches hierarchy as decision tree where each position has primary, secondary, and tertiary escape options ranked by success probability, with clear criteria for when to transition between options based on opponent's defensive reactions. Views escape hierarchy as inseparable from submission defense hierarchy, arguing that preventing finishes while improving position represents integrated defensive system rather than separate skillsets.
-- **Gordon Ryan**: Views escape hierarchy as fundamentally context-dependent rather than following rigid priority rules, focusing on how match situation (score, time, fatigue) dramatically affects optimal escape selection. Emphasizes what he calls 'tactical escapes' where escape choices serve broader strategic objectives beyond immediate positional improvement, such as forcing opponent to expend energy or creating specific tactical situations. Prioritizes escapes that lead to offensive opportunities rather than merely achieving safety, arguing that best escapes transition seamlessly from defense to offense. Demonstrates how escape hierarchy shifts against different opponent types, using aggressive explosive escapes against slower grapplers while employing patient technical escapes against explosive athletes. Advocates developing personal escape hierarchies based on individual attributes, suggesting that practitioners identify which escape mechanics suit their body type and physical capabilities, then structure hierarchies around highest-percentage personal options rather than theoretical ideals. Shows how world-class competitors often invert traditional hierarchies in specific situations, accepting positional risks to create offensive opportunities.
-- **Eddie Bravo**: Has developed unique escape hierarchies within his 10th Planet system that often prioritize unconventional escape paths based on flexibility and positioning advantages specific to his methodology. When teaching escape hierarchy, emphasizes importance of what he calls 'flow escapes' where continuous movement creates cumulative positional improvement even when discrete escape attempts are partially defended. Advocates for personalizing escape hierarchies based on individual attributes, encouraging practitioners to identify which escape types suit their physical capabilities and to prioritize those in their defensive frameworks. Integrates psychological elements into escape hierarchy, discussing how accepting inferior positions temporarily can create opponent overconfidence that enables subsequent explosive escapes. Demonstrates creative escape sequencing where intentionally 'failing' primary escape creates specific reactions that set up unconventional secondary escapes, using hierarchy as strategic framework rather than rigid prescription. Teaches that escape hierarchy should evolve continuously based on meta-game developments, arguing that static hierarchies become predictable while adaptive hierarchies maintain effectiveness against evolving opposition strategies.
 
 </section>
 

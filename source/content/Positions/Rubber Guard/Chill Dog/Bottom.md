@@ -8,7 +8,7 @@ description: "Master defensive Chill Dog position from bottom. Learn compact tur
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 **Average Time in Position**: 20-45 seconds before escape or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Chill Dog represents an intelligent application of defensive positioning principles where the practitioner creates a protective shell through specific body mechanics. The key technical element is the connection between the elbows and knees - this closed frame prevents the opponent from establishing the fundamental controls necessary for back attacks. From a biomechanical perspective, keeping the back rounded and head tucked removes the opponent's ability to use your spine as a lever for control. The position works because it denies your opponent the primary entries they need while maintaining your ability to execute explosive escapes. However, understand that this is fundamentally a transitional position - the goal is always to escape to a more favorable position, not to remain in Chill Dog indefinitely. The patient practitioner waits for the opponent to overcommit their weight or grips, then capitalizes on that momentary imbalance to execute their escape. This requires both technical precision in maintaining the defensive frame and tactical awareness to recognize the escape window.
-
-### Gordon Ryan
-
-In competition, Chill Dog is a strategic position I use when I know my opponent is hunting for the back or trying to set up their specific turtle attacks. The reality is that in no-gi especially, you can't stay here long against high-level opponents, but you can use it to frustrate their offense and create escape opportunities. When guys like Garry Tonon or Craig Jones are behind you, they're looking for very specific reactions - if you give them the traditional turtle posture, they'll take your back in seconds. Chill Dog gives you a different defensive look that disrupts their timing and preferred attack sequences. The key to making this work at elite levels is not just holding the position, but being ready to explode into your escape the moment you feel their weight shift or their grips loosen. Against world-class guys, I'm usually looking for the technical stand-up or the Granby roll, and I'm making my decision based on which direction they're pressuring. The position buys you time to make smart decisions rather than panicking and getting submitted from turtle.
-
-### Eddie Bravo
-
-Chill Dog is straight out of the 10th Planet system and it's all about being defensively sound while setting up your escapes to positions where you can actually work. In our system, we're not trying to win from turtle - we're trying to survive long enough to get back to our game, which usually means some variation of the rubber guard or lockdown. The beauty of Chill Dog is that it protects you from the traditional turtle attacks while giving you multiple exit strategies. If they're pressuring heavy from behind, you've got the Granby roll to guard. If they're lighter or going for front headlock, you can stand up and potentially even score a takedown. The compact posture with elbows to knees is critical - this is what prevents them from establishing the truck or getting the twister setup, which are serious threats in no-gi. We drill this position extensively because in modern no-gi competition, you're going to end up in some form of turtle, and you need to know how to survive and escape without getting your back taken or getting caught in a submission. The mental game is important too - stay chill, don't panic, feel what they're doing, and execute your escape when the moment is right.
 
 </section>
 

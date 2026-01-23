@@ -8,7 +8,7 @@ description: "Master Reverse Half Guard Top in BJJ. Complete guide covering cont
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -417,24 +417,6 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 
 **Average Time in Position**: 10-20 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The reverse half guard represents a critical bifurcation point in the passing sequence where the biomechanical advantages heavily favor the top player. The key mechanical principle is that the bottom player's defensive structure is oriented for frontal attacks, not posterior threats. When you circle to the reverse angle, you've fundamentally broken their defensive geometry. The two primary pathways—back control and pass completion—are not separate techniques but rather responses to the opponent's defensive choice. If they prioritize preventing the pass by staying flat, they expose their back. If they turn to prevent the back take, they surrender the pass. This is not a position to be held, but rather a moment of decision that must be capitalized upon immediately. The positional dominance window is approximately 3-5 seconds before skilled opponents can begin recovery sequences.
-
-### Gordon Ryan
-
-In competition, I actively seek the reverse half guard through backstep movements because it creates such a dominant passing angle. Once you get here, the opponent is effectively choosing between giving up their back or being passed—both result in significant point advantages. The psychological pressure is immense because every movement they make to defend one threat opens the other. I typically prefer the back take from this position as it scores more points and leads to submissions, but if they commit fully to preventing the back by flattening, the pass becomes effortless. The key is maintaining heavy pressure throughout the transition so they can't create any recovery space. Against high-level opponents, you have maybe 5-10 seconds in this position before they start executing complex recovery sequences, so decisiveness is critical.
-
-### Eddie Bravo
-
-The reverse half guard is one of the worst positions for the lockdown player because it neutralizes the leg entanglement advantage completely. From the 10th Planet perspective, we teach aggressive inversion and knee recovery to escape this position before the pass is completed, because once someone establishes reverse half with good pressure, you're basically choosing which way you want to lose. If you're on top, this is your opportunity to finish the pass immediately—don't give them time to work their defensive systems or hit those funky rubber guard recoveries. The reverse angle also sets up some sick truck entries if they try to turn into turtle, which can lead to calf slicers and back takes. Just don't hang out here thinking you're safe, because skilled 10th Planet guys will find weird inversions to recover if you give them time.
 
 </section>
 

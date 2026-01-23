@@ -8,7 +8,7 @@ description: "Master Omoplata Control Bottom in BJJ. Complete guide covering sho
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -401,24 +401,6 @@ Bottom practitioner establishes omoplata control. Top practitioner attempts vari
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The omoplata control position represents a critical junction in the guard game where mechanical advantage must be converted into either positional advancement or submission. The key to understanding this position lies in recognizing that the shoulder joint is being attacked through rotational stress, which requires precise hip positioning and angle creation. Your hips must remain in constant motion, circling around the opponent's trapped shoulder to maintain and increase rotational pressure on the joint capsule. The common error is treating this as a static position—it is inherently dynamic. The leg across the back functions as both a controlling mechanism and a lever, and the pressure must be constant and directed. When the opponent attempts to defend by rolling forward, they are actually feeding into the sweep mechanics, which is why the omoplata sweep has such a high success rate. The position teaches the fundamental principle that in Brazilian Jiu-Jitsu, we create dilemmas where every defensive option leads to a different offensive opportunity. Master the hip movement, understand the biomechanics of shoulder rotation, and you will find this position becomes a reliable pathway to both submissions and dominant positions.
-
-### Gordon Ryan
-
-Omoplata control is one of those positions where you need to be ready to switch gears instantly. In competition, very few people actually tap to the omoplata because everyone knows the basic defenses, so you have to think of this position as a sweep setup that sometimes catches a submission. The moment I secure the omoplata control, I'm already planning the sweep because I know my opponent is going to try to roll forward or posture out. That's when you ride them over and take side control or mount. The key is not to get stubborn about finishing the shoulder lock—if they're defending well, take the sweep and the points. That said, against certain body types or less experienced opponents, the submission is absolutely there. I like to combine the omoplata threat with constant off-balancing to keep them guessing. If they defend the submission, sweep them. If they defend the sweep, go to their back. If they're stuck defending both, finish the shoulder lock. The position is all about maintaining offensive pressure and not allowing them to settle into a defensive structure. Keep moving your hips, stay tight to their shoulder, and be ready to capitalize on whatever opening they give you. This is a position where activity level directly correlates with success rate.
-
-### Eddie Bravo
-
-The omoplata control is sick because it's one of those positions where you're attacking from the bottom with your legs, which is what 10th Planet is all about. We use this position constantly, especially coming out of the Rubber Guard system or when we're working spider guard stuff. The beauty of the omoplata is that even if you don't finish it, you're setting up so many other attacks. I tell my students to think of the omoplata control as a gateway position—it opens doors to triangles, armbars, sweeps, back takes, all kinds of stuff. The key is to not be too committed to one outcome. If they're defending the shoulder lock, switch to the sweep or the back take. If they're worried about getting swept, tighten up the submission. The no-gi version requires even more hip movement and control because you don't have the gi grips to hold them in place, so you need to really understand the body mechanics. One thing we emphasize is using the free leg actively—you can use it to block their escape routes, control their posture, or even start setting up the next attack. The omoplata control is also great for wearing people out because they have to defend multiple threats simultaneously, and that mental and physical fatigue creates openings. Stay creative, stay active, and don't be afraid to chain this into other attacks from the bottom.
 
 </section>
 

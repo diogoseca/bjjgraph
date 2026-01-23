@@ -8,7 +8,7 @@ description: "Master shrimping in BJJ. Learn hip escape mechanics, space creatio
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Hip mobility and rotation are the primary drivers of defensive movement
 - Creating space is a prerequisite for most escapes and position improvements
 - The shrimp combines bridge, hip rotation, and leg extension in one fluid motion
@@ -183,9 +183,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Bridge Initiation**: The ability to elevate hips off the ground using leg drive and core engagement, creating the initial lifting force that enables hip rotation and escape movement. This bridging action unweights the hips momentarily, allowing them to move.
 
 **Hip Rotation**: Rotating the hips away from the opponent while maintaining upper body position, typically rotating 45-90 degrees to create the angle necessary for space creation. This rotation is the core of the shrimping motion and determines escape direction.
@@ -206,25 +206,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping work together as the two fundamental bottom movements, with bridging creating vertical space and displacement while shrimping creates horizontal space and angular escape routes.
-- **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics is the broader biomechanical framework that includes shrimping as one specific application. Understanding hip escape mechanics provides the theoretical foundation for effective shrimping.
-- **[[Frame Creation]]** (Prerequisite): Effective frames must be established before shrimping to prevent opponent from following the escaping hips. Shrimping without proper frames often results in the opponent simply advancing with the movement.
-- **[[Space Creation]]** (Advanced form): Shrimping is the primary method for implementing space creation principles from bottom positions. It represents the practical application of the broader space creation concept.
-- **[[Escape Hierarchy]]** (Complementary): Shrimping fits into the escape hierarchy as typically the first movement attempted from most bottom positions, serving as the foundation for more specific escape sequences.
-- **[[Mount Escape Series]]** (Complementary): Shrimping is a core component of most mount escape sequences, either as the primary escape movement or as a complementary action to bridging and trap-and-roll escapes.
-- **[[Defensive Framing]]** (Prerequisite): Proper defensive frames must be maintained throughout shrimping movements to create the structural barrier that prevents opponent advancement. Frames and shrimps work in tandem for effective escapes.
-- **[[Guard Recovery]]** (Extension): Shrimping is the primary mechanism through which guard recovery is achieved from most bottom positions. The space created by shrimping enables the reinsertion of guard structures.
-- **[[Hip Movement]]** (Extension): Shrimping represents a specific application of the broader hip movement principle, demonstrating how hip mobility translates to defensive capability and positional improvement.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Shrimp to create space for knee insertion after establishing frames on hips or using the elbow escape sequence. Multiple shrimps often required to move hips far enough to recover guard.
 
 **Side Control**: Shrimp away from opponent while maintaining frames to create space for knee shield insertion or guard recovery. Direction typically toward opponent's legs to create guard retention opportunities.
@@ -257,9 +241,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and identify primary threat (submission, position advancement, or consolidation)**: Determine urgency of escape and whether immediate explosive shrimping or progressive movement is appropriate
 2. **Establish defensive frames on appropriate body parts (hips, shoulders, neck, or arms)**: Create rigid structural frames that will prevent opponent from following escaping hips
 3. **Identify optimal shrimp direction based on opponent's weight distribution and base**: Choose to shrimp toward legs (for guard recovery), away from pressure, or toward open space
@@ -272,9 +256,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Shrimping without establishing frames first
   - **Consequence**: Opponent simply follows the escaping hips, maintaining the same relative position with no space gained. Energy is wasted on ineffective movement.
   - **Correction**: Always establish rigid frames on appropriate body parts before initiating shrimp movement. Frames must be strong enough to prevent opponent from closing distance.
@@ -300,9 +284,9 @@ Mastery of shrimping extends beyond the basic movement pattern to include unders
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Solo Shrimp Drilling** (Focus: Develop muscle memory for correct shrimping mechanics, improve hip mobility, and build conditioning for repetitive shrimp movements)
 Practicing shrimp movement patterns without a partner, focusing on proper mechanics, hip rotation, and progressive movement across the mat. Typically done as warm-up activity.
 
@@ -325,9 +309,9 @@ Partner moves between different top positions randomly and practitioner must imm
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can perform basic shrimp movement pattern on demand with coaching
 - Understands need to create space but often shrimps without frames or in incorrect direction
@@ -369,10 +353,23 @@ Partner moves between different top positions randomly and practitioner must imm
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping work together as the two fundamental bottom movements, with bridging creating vertical space and displacement while shrimping creates horizontal space and angular escape routes.
+- **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics is the broader biomechanical framework that includes shrimping as one specific application. Understanding hip escape mechanics provides the theoretical foundation for effective shrimping.
+- **[[Frame Creation]]** (Prerequisite): Effective frames must be established before shrimping to prevent opponent from following the escaping hips. Shrimping without proper frames often results in the opponent simply advancing with the movement.
+- **[[Space Creation]]** (Advanced form): Shrimping is the primary method for implementing space creation principles from bottom positions. It represents the practical application of the broader space creation concept.
+- **[[Escape Hierarchy]]** (Complementary): Shrimping fits into the escape hierarchy as typically the first movement attempted from most bottom positions, serving as the foundation for more specific escape sequences.
+- **[[Mount Escape Series]]** (Complementary): Shrimping is a core component of most mount escape sequences, either as the primary escape movement or as a complementary action to bridging and trap-and-roll escapes.
+- **[[Defensive Framing]]** (Prerequisite): Proper defensive frames must be maintained throughout shrimping movements to create the structural barrier that prevents opponent advancement. Frames and shrimps work in tandem for effective escapes.
+- **[[Guard Recovery]]** (Extension): Shrimping is the primary mechanism through which guard recovery is achieved from most bottom positions. The space created by shrimping enables the reinsertion of guard structures.
+- **[[Hip Movement]]** (Extension): Shrimping represents a specific application of the broader hip movement principle, demonstrating how hip mobility translates to defensive capability and positional improvement.
+
+
+### Related Content
 - [[Bridge and Shrimp]] (Principle) - Complementary fundamental movement that combines with shrimping in most escape sequences
 - [[Elbow Escape]] (Transition) - Specific escape technique from mount that uses shrimping as its primary movement mechanism
 - [[Hip Escape Mechanics]] (Principle) - Broader biomechanical framework that includes shrimping as primary application
@@ -385,15 +382,6 @@ Partner moves between different top positions randomly and practitioner must imm
 - [[Guard Recovery]] (Principle) - Strategic objective that shrimping movements enable from bottom positions
 - [[Escape Hierarchy]] (Principle) - Framework within which shrimping serves as foundational first-level escape movement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The shrimp is the fundamental movement pattern of bottom position in jiu-jitsu, and yet it remains one of the most poorly understood and executed movements even among relatively experienced practitioners. The essence of effective shrimping lies not in the power of the movement itself, but in the strategic combination of unweighting through bridging, maintaining structural frames to prevent the opponent from following, and timing the movement with moments of opponent instability. A properly executed shrimp is a complex orchestration of upper body stability, core rotation, and lower body extension that creates space through mechanical advantage rather than pure strength. The most common error I observe is practitioners attempting to shrimp without first establishing the frames that will prevent their opponent from simply moving with them, rendering the entire movement futile. Proper shrimping mechanics can be reduced to this principle: create a stable upper body frame, bridge to unweight the hips, rotate the hips while extending the bottom leg, and immediately utilize the created space before it closes. This is not merely a technique but a fundamental movement vocabulary that must become as natural as walking.
-- **Gordon Ryan**: From a competition standpoint, shrimping is what separates fighters who can survive bad positions from those who get dominated and submitted. I've been in matches against world-class opponents where the difference between winning and losing came down to my ability to create just enough space through perfectly timed shrimps to prevent them from locking in their control or finishing submissions. The key insight I've developed through thousands of rounds is that shrimping at full strength all the time is a losing strategy—you gas out and the space you create is temporary. Instead, I use small maintenance shrimps constantly to prevent opponents from ever fully settling their weight, and I save explosive shrimps for the exact moments when I feel their weight shift or their grips change. When I'm escaping side control or mount against elite grapplers, I'm not trying to escape in one big movement; I'm shrimping incrementally, maybe six inches at a time, but I'm doing it the moment they move, before they can re-establish their position. That timing is everything. Also, people sleep on using shrimps offensively from guard—I use hip escapes constantly to create angles for leg attacks and back takes, not just for defensive purposes.
-- **Eddie Bravo**: Most people think of shrimping as just this boring drill you do during warmups, but when you really understand the principle, it's one of the most creative movement patterns in jiu-jitsu. In the 10th Planet system, we don't just shrimp to escape—we shrimp to transition into lockdown, to set up electric chairs, to create angles for rubber guard entries. The shrimp is how you express your hip mobility and create the chaos that opens up all these unorthodox positions. Here's what changed my understanding of shrimping: it's not just about moving away from your opponent, it's about creating angles they're not prepared for. Sometimes the best shrimp is toward your opponent, into their legs, where you can establish your guard systems. I teach my students to think of shrimping as painting with your hips—you're using that movement to draw the patterns that set up your entire game. And the timing element is huge, especially in no-gi where you can't rely on grips. You have to feel when their pressure shifts and hit that shrimp at exactly the right moment. When students tell me they're getting stuck in bad positions, ninety percent of the time it's because they're not shrimping early enough or frequently enough. Stay mobile, keep those hips moving, and you become a nightmare to control.
 
 </section>
 

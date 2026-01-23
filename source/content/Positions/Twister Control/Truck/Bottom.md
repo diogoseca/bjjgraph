@@ -8,7 +8,7 @@ description: "Defensive survival position requiring systematic escape mechanics 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -427,24 +427,6 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 
 **Average Time in Position**: 20-45 seconds (high urgency position requiring immediate action)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The truck bottom position represents a biomechanical nightmare from a defensive standpoint, as the practitioner's spine is placed under rotational stress while one leg is completely immobilized. The key to survival lies in understanding the hierarchical nature of control points: the opponent must control your far arm, your trapped leg, and create sufficient spinal rotation to finish the twister. By systematically addressing these control points in reverse order of their establishment, you create a defensive framework. First, prevent the far arm from being captured by keeping it posted and creating frames. Second, immediately begin working to extract the trapped leg through ankle flexibility and hip rotation, as this leg serves as the fulcrum for all twisting submissions. Third, manage your spinal position by limiting rotation through core engagement and positional awareness. The position's danger comes not from any single control point but from the combination of all three, so denying even one significantly reduces submission probability. From a training perspective, this position should be practiced with progressive resistance, starting with pure technical drilling of escape mechanics before advancing to live resistance, as the submission threats are severe enough to warrant careful skill development.
-
-### Gordon Ryan
-
-From competition experience, the truck bottom is one of those positions where you need to make a decision immediately—you either escape in the first 10-15 seconds or you're going to be in serious danger. I've seen this position finish matches at the highest levels, particularly when Eddie Bravo black belts are involved, so you cannot take it lightly. My approach is always to prevent the position from being established in the first place by being very aware in turtle and half guard situations, but when you do end up here, your first priority is protecting that far arm. Once they get your far arm, the twister becomes a real threat and you're essentially playing a losing game. The leg extraction is critical—I use a lot of ankle flexibility and timing to slip my leg out when they adjust their lockdown position. In competition, I've found that being willing to give up the back is sometimes better than staying in truck, because at least from back control you have more defined escape paths and the submission threats are ones you've trained against your entire career. The truck has that wild card element where if you don't know the specific defenses, you can get caught by things you've never experienced before. Train this position regularly with partners who actually know the attacking game, because drilling escapes against someone who doesn't know how to finish from truck won't prepare you for reality.
-
-### Eddie Bravo
-
-The truck is the gateway to the twister and it's one of my favorite positions to attack from, so when you're on bottom in truck, you need to understand you're in my world now. That being said, there are escapes and I teach them to all my students because you need to know both sides. The key thing people don't understand is that the truck isn't just about the twister—I can hit calf slicers, I can take the back, I can go to banana split, there's a whole system here. So when you're defending, you can't just focus on one threat. My advice is to stay calm first of all, because people panic in this position and that's when they make mistakes. Keep that far arm safe, that's rule number one. Rule number two is start working that trapped leg immediately, use your flexibility, circle it, don't just accept it. And rule number three is be ready to scramble because sometimes the best escape is an explosive movement when they're transitioning between attacks. I've tapped a lot of people from truck over the years, but the ones who escape are the ones who stay composed, protect their key points, and wait for that moment when my weight shifts or my grip loosens just a little bit. That's when you make your move. Also, if you're training in the gi, the grips make it way harder to escape, so in no-gi you actually have better chances if you're technical about it. Train your leg flexibility, train your granby rolls, and drill the hell out of this position because if you compete at a high level, especially in no-gi, you're going to end up here eventually.
 
 </section>
 

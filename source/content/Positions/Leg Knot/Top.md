@@ -8,7 +8,7 @@ description: "Master Leg Knot Top in BJJ. Advanced leg entanglement control with
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -444,24 +444,6 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 
 **Average Time in Position**: 45-90 seconds in competitive scenarios, longer in training
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg knot configuration represents a sophisticated application of systematic entanglement theory where multiple points of control create geometric disadvantage for the defensive player. The critical insight is understanding that leg knot is not a static position but rather a dynamic control system where the top player maintains constant pressure through crossed leg configuration while systematically breaking down defensive layers. The biomechanics of the position create natural mechanical disadvantage for the bottom player - their ability to rotate the hip, extend the knee, or protect the heel is compromised through the crossing pattern. Superior practitioners recognize that leg knot serves as a control platform from which multiple submission systems can be accessed, with the position itself creating the breaking mechanics necessary for heel hook finishes. The key technical element is maintaining optimal distance through upper body posture - too close and opponent establishes frames, too far and the leg entanglement loosens. Master this distance relationship and the position becomes a systematic pathway to dominant leg lock finishes.
-
-### Gordon Ryan
-
-Leg knot top is one of my highest percentage positions in competition because it puts the opponent in an impossible defensive situation where every movement creates submission opportunity. The practical application is straightforward - once you establish the crossed leg configuration with proper knee pressure on their thigh, they're basically done if you stay patient and work systematically. What makes this position so effective competitively is that it neutralizes the opponent's leg lock game while giving you complete offensive control. I use leg knot as a transition hub - if they defend the heel hook, I go to toe hold; if they defend that, I transition to saddle; if they try to sit up, I take inside ashi. The competition-tested approach is to never force a single submission but instead use the position to create a constant chain of threats that eventually breaks their defense. Most opponents panic in leg knot because they feel the control and try to explode out, which just tightens the entanglement and creates finishing opportunities. Stay heavy on top, maintain the crossing pressure, and let their defensive movements guide you to the finish.
-
-### Eddie Bravo
-
-Leg knot top position is a beautiful example of how complex entanglement can create submission opportunities that don't exist in simpler positions. From a 10th Planet perspective, we see this as an advanced expression of the lockdown concept - using crossed leg configuration to trap and control while creating offensive opportunities. The innovation here is recognizing that leg knot doesn't just set up heel hooks - it creates a whole ecosystem of attacks including toe holds, calf slicers, and even transitions to electric chair setups if you're creative with the leg weaving. What I love about this position is how it rewards unconventional thinking and willingness to experiment with leg positioning angles that traditional BJJ might overlook. The creative application is using leg knot as a platform for combination attacks - set up the heel hook to make them defend, then switch to toe hold, then back to heel hook from different angle. The constant angle changes and submission threats break down even the best defensive players. Don't be afraid to get weird with the leg positioning and try different crossing patterns - sometimes the most effective control comes from configurations that look unconventional but create superior mechanical advantage.
 
 </section>
 

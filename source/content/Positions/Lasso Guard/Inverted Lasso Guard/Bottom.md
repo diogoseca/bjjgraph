@@ -8,7 +8,7 @@ description: "Master bottom inverted lasso guard mechanics. Complete guide to in
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -461,24 +461,6 @@ Bottom player alternates between upright lasso guard and inverted lasso continuo
 
 **Average Time in Position**: 5-15 seconds (transitional position)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Inverted lasso guard represents a sophisticated application of lever mechanics combined with angular momentum principles. The position's effectiveness stems from converting the lasso hook from a perpendicular pressure point into an oblique fulcrum by inverting the body position. When you invert, your entire body mass now creates rotational force through the lasso connection, rather than simple pulling force. This geometric transformation multiplies the effective force by approximately 300%, making the sweep nearly impossible to stop with static resistance alone. The key technical detail most practitioners miss is maintaining the lasso angle constant throughout the inversion - many allow the hook to flatten as they roll, which destroys the lever arm geometry. The angle between your shin and their arm must remain acute, approximately 60-70 degrees, throughout the movement. This requires conscious adjustment of the knee angle as body position changes. Additionally, the inverted position creates a decision tree where every defensive option the opponent chooses opens a specific attack vector. If they maintain upright posture, the overhead sweep becomes geometrically inevitable. If they post the hand, the berimbolo is gifted. If they extract the arm, the omoplata appears. This systematic forcing of choices is the essence of positional dominance.
-
-### Gordon Ryan
-
-Inverted lasso is money in competition when you can chain it seamlessly with upright positions without telegraphing. I use it primarily as a sweep generator against opponents who defend traditional lasso well by staying low and heavy. The second they drop their weight to smash my upright lasso, I invert and suddenly their weight is working against them - now they're falling forward instead of applying pressure. The critical thing is developing the muscle memory to invert explosively without thinking. In competition, you have maybe a 1-2 second window where they're vulnerable during their pass attempt. If your inversion is slow or hesitant, they adjust and shut it down. I drill the entry motion hundreds of times until it's reflexive. For berimbolo specifically, the inverted lasso angle is superior to traditional berimbolo entries because you already have the sleeve grip and lasso connection - you're not establishing control mid-movement. Against high-level guys who know the position, I fake the berimbolo then hit the overhead sweep, or vice versa. The position works best when opponent doesn't know which attack is coming. I'll also use it late in matches when I'm ahead on points - the inverted position stalls their passing attempts and runs clock while maintaining offensive threat. One technical detail: keep your head turned away from the lassoed side. This protects your neck and makes the shoulder roll smoother.
-
-### Eddie Bravo
-
-Inverted lasso fits perfectly into 10th Planet's philosophy of using unconventional angles to create opportunities against bigger, stronger opponents. The position works because it looks weird and uncomfortable, so people don't train defending it as systematically as they defend standard passes. I teach it as part of the overall inversion game, connecting to rubber guard, triangle setups, and submission chains. The key is not thinking of it as a separate position but as a moment in the flow where you're upside down while maintaining the lasso connection. From inverted lasso, you can hit electric chair sweeps if you're in half guard, you can transition to twister control if they give up the back wrong, you can catch them in overhead triangles. The position requires good flexibility but not insane flexibility - most people can do it with consistent stretching work focusing on hip mobility and shoulder flexibility. I also teach a variation where you don't fully invert but go into a side-tilted position, which is easier to hold and still creates great sweep angles. For smaller guys against much bigger opponents, inverted lasso is a game-changer because it lets you use their weight and momentum against them in ways that pure strength can't overcome. The advanced application is combining inverted lasso with calf slicers and kneebar entries - when they defend the sweep by stepping back, the leg lock suddenly appears.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -420,24 +420,6 @@ Flow through all major passing options from SLX Top: headquarters, knee slice, l
 
 **Average Time in Position**: 30-90 seconds depending on skill differential and strategic approach
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Single Leg X-Guard Top position represents a critical juncture in the leg entanglement game where systematic understanding separates effective passers from those who struggle. The fundamental principle revolves around understanding the mechanical hierarchy of the position—the bottom hook provides the primary sweeping power through its ability to elevate and off-balance, while the top hook controls distance and prevents pressure application. Consequently, our systematic approach prioritizes neutralizing the bottom hook first through proper angle creation and strategic weight distribution. The biomechanical reality is that once the bottom hook loses its leverage, the position's offensive capacity diminishes dramatically. From this weakened state, methodical advancement becomes significantly more feasible through established passing frameworks like headquarters or knee slice sequences. The key to mastery lies in recognizing that this position is not merely an obstacle to overcome but rather an opportunity to demonstrate systematic problem-solving under pressure.
-
-### Gordon Ryan
-
-In competition, Single Leg X Top is where a lot of guys panic and make mistakes that cost them matches. The key thing I've learned is you can't just muscle your way out—that's exactly what the bottom guy wants. You need to stay calm, maintain your base wide, and work systematically. I like to control the upper body first with a cross face or collar tie because it stops them from sitting up and creating those crazy angles. Once I've got that control, I work on clearing the bottom hook by changing my knee angle and applying pressure at the right time. If they make a mistake and extend too hard for a sweep, that's when I go for the kneebar—I've finished a lot of guys that way. The position looks scary but if you understand the mechanics and stay disciplined, it's actually a great place to attack from. Against elite competition, you have to be patient and methodical, never giving them the reactions they need to complete their attacks.
-
-### Eddie Bravo
-
-Single Leg X from top is one of those positions where you can get super creative if you understand the principles. Most people just try to pass or escape, but there's a whole world of attacks available if you stay aware. The kneebar is obvious when they extend, but I've had a lot of success with transitioning to different leg entanglements when they try to adjust. The key is staying mobile and not getting locked into one response. If they're playing tight, sometimes the best move is to stand up completely and reset to a different passing approach. Don't be afraid to experiment with unconventional pressure angles or even pulling guard yourself if the position isn't working—the goal is to win, not to prove you can pass from every position. Stay loose, stay creative, and capitalize on their mistakes rather than forcing your game plan when it's not there. The 10th Planet approach emphasizes adaptability and recognizing when to switch strategies rather than stubbornly committing to a single path.
 
 </section>
 

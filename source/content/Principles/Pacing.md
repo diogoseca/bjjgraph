@@ -8,7 +8,7 @@ description: "Master tempo control and energy management in BJJ. Learn to regula
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Establish sustainable baseline tempo that can be maintained throughout typical match or training duration
 - Modulate pace deliberately between explosive bursts and recovery periods based on tactical objectives
 - Recognize opponent's pace preferences and deliberately disrupt their preferred rhythm
@@ -179,9 +179,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Cardiovascular Base Development**: Building aerobic and anaerobic capacity through systematic conditioning that enables sustained technical output across extended duration without performance degradation. This foundation determines maximum sustainable pace and recovery speed between explosive efforts.
 
 **Tempo Recognition**: Developing awareness of current match rhythm, opponent's preferred pace, and situational tempo demands. This perceptual skill enables deliberate pace selection rather than unconscious reaction to opponent's imposed rhythm, creating strategic control over engagement speed.
@@ -202,22 +202,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Energy Management System]]** (Complementary): Pacing operates as primary control mechanism within broader energy management framework. While energy management encompasses all aspects of resource conservation and expenditure, pacing specifically governs temporal distribution of effort intensity and recovery integration throughout engagement duration.
-- **[[Match Strategy]]** (Complementary): Strategic match planning determines appropriate pacing approach for specific opponent and competitive context. Strategy defines when to implement particular pace levels while pacing provides execution mechanism for strategic tempo objectives, creating synergistic relationship between planning and implementation.
-- **[[Timing and Rhythm]]** (Extension): Timing focuses on precise moment of technique initiation while pacing governs overall tempo across extended sequences. Mastery of rhythm and timing at micro-level enables more sophisticated pacing control at macro-level, as superior timing efficiency reduces energy cost per exchange.
-- **[[Cardio Conditioning]]** (Prerequisite): Cardiovascular capacity establishes physiological ceiling for pacing capability. Without adequate conditioning base, sophisticated pace control becomes impossible as fatigue forces tempo reduction regardless of tactical intentions. Conditioning provides physical foundation enabling strategic pace manipulation.
-- **[[Positional Hierarchy]]** (Complementary): Understanding positional value informs pace adjustment decisions—accelerating from inferior positions to escape before energy depletion, slowing from dominant positions to recover while maintaining control. Positional awareness guides when to expend energy aggressively versus conserve resources strategically.
-- **[[Pressure Application]]** (Complementary): Sustained pressure creates cumulative fatigue effect on opponents, implementing pacing strategy through continuous positional stress. Pressure application serves as primary mechanism for imposing energetically costly pace on opponents while maintaining more economical pace for oneself through superior positioning and technique efficiency.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Control pace through grip fighting intensity, sweep attempt frequency, and submission threat timing. Can slow pace to recover through defensive frames while maintaining attacking threats, or accelerate through rapid sequence combinations when opponent shows postural vulnerabilities or fatigue indicators.
 
 **Mount**: Dictate tempo from energetically favorable position through pressure application cycles—periods of heavy settling pressure for recovery alternating with explosive submission attacks or position advancement when opportunity presents. Superior position enables pace control that compounds opponent fatigue while conserving own energy.
@@ -254,9 +241,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current energy state and opponent's apparent fatigue level**: Evaluate own cardiovascular status, muscular fatigue, and technical execution quality alongside observable opponent fatigue markers—breathing rate, movement speed, defensive reaction quality, postural maintenance capability. This assessment determines available pace range and opponent vulnerability to tempo manipulation.
 2. **Identify positional context and its energy implications**: Determine whether current position favors energy conservation or demands expenditure. Dominant positions enable recovery through pressure maintenance; inferior positions may require energy investment for escape. Position type fundamentally constrains pace options and tactical tempo decisions.
 3. **Consider tactical situation—score differential and time remaining**: If ahead on points with significant time remaining, implement slower controlled pace to manage energy while protecting advantage. If behind or time-pressured, accelerate pace to create scoring opportunities or defensive urgency. Strategic context determines appropriate tempo selection regardless of energy preference.
@@ -269,9 +256,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Matching opponent's preferred pace unconsciously
   - **Consequence**: Allows opponent to dictate engagement rhythm, creating comfort and familiarity that enhances their performance while preventing strategic tempo manipulation that could create competitive advantages through rhythm disruption.
   - **Correction**: Consciously recognize opponent's tempo preference early in engagement, then deliberately implement contrasting pace—slowing against aggressive opponents, accelerating against methodical ones. Make pace selection strategic decision rather than unconscious reaction to opponent's imposed rhythm.
@@ -294,9 +281,9 @@ Pacing represents the fundamental skill of controlling match tempo and energy ex
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Interval-Based Pace Control Drilling** (Focus: Building physiological capacity for pace variation while developing conscious awareness of different tempo levels and transitions between them. Trains both physical capability and mental control over pace selection.)
 Structured training using timed intervals at specified intensity levels—30 seconds explosive, 90 seconds moderate, 30 seconds slow, etc.—to develop conscious pace modulation control and build capacity to shift between tempo levels deliberately.
 
@@ -319,9 +306,9 @@ Drilling sequences that deliberately transition into positions allowing recovery
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Matches opponent's pace unconsciously without deliberate tempo selection or strategic rhythm variation
 - Exhausts rapidly from constant high-intensity effort without integrated recovery periods or pace modulation
@@ -360,10 +347,20 @@ Drilling sequences that deliberately transition into positions allowing recovery
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Energy Management System]]** (Complementary): Pacing operates as primary control mechanism within broader energy management framework. While energy management encompasses all aspects of resource conservation and expenditure, pacing specifically governs temporal distribution of effort intensity and recovery integration throughout engagement duration.
+- **[[Match Strategy]]** (Complementary): Strategic match planning determines appropriate pacing approach for specific opponent and competitive context. Strategy defines when to implement particular pace levels while pacing provides execution mechanism for strategic tempo objectives, creating synergistic relationship between planning and implementation.
+- **[[Timing and Rhythm]]** (Extension): Timing focuses on precise moment of technique initiation while pacing governs overall tempo across extended sequences. Mastery of rhythm and timing at micro-level enables more sophisticated pacing control at macro-level, as superior timing efficiency reduces energy cost per exchange.
+- **[[Cardio Conditioning]]** (Prerequisite): Cardiovascular capacity establishes physiological ceiling for pacing capability. Without adequate conditioning base, sophisticated pace control becomes impossible as fatigue forces tempo reduction regardless of tactical intentions. Conditioning provides physical foundation enabling strategic pace manipulation.
+- **[[Positional Hierarchy]]** (Complementary): Understanding positional value informs pace adjustment decisions—accelerating from inferior positions to escape before energy depletion, slowing from dominant positions to recover while maintaining control. Positional awareness guides when to expend energy aggressively versus conserve resources strategically.
+- **[[Pressure Application]]** (Complementary): Sustained pressure creates cumulative fatigue effect on opponents, implementing pacing strategy through continuous positional stress. Pressure application serves as primary mechanism for imposing energetically costly pace on opponents while maintaining more economical pace for oneself through superior positioning and technique efficiency.
+
+
+### Related Content
 - [[Energy Management System]] (Principle) - Pacing serves as primary control mechanism within broader energy management framework, governing temporal distribution of effort intensity and recovery integration
 - [[Match Strategy]] (Principle) - Strategic planning determines appropriate pacing approach for specific competitive context, with pace execution implementing strategic tempo objectives
 - [[Cardio Conditioning]] (Principle) - Cardiovascular capacity establishes physiological ceiling for pacing capability, providing foundation that enables sophisticated tempo control
@@ -377,15 +374,6 @@ Drilling sequences that deliberately transition into positions allowing recovery
 - [[Half Guard]] (Position) - Defensive position permitting tactical pace slowing through lockdown or frames while preventing pass, enabling energy management without complete control concession
 - [[Turtle]] (Position) - Defensive position requiring precise pace calibration—too slow invites back take, too fast depletes escape energy, demanding careful tempo management for successful defense
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches pacing as biomechanical optimization problem where energy efficiency derives from technical precision and economic movement patterns rather than simple tempo reduction. Emphasizes developing what he terms 'energy-neutral positions' where control can be maintained without significant caloric expenditure, creating recovery opportunities within dominant positions. Systematizes pacing through positional hierarchy where energy-expensive positions like standing and turtle defense should be transitioned through quickly while energy-efficient dominance such as back control and mount with proper technique can be sustained indefinitely. Views pacing not merely as tempo control but as technical efficiency problem where superior mechanics enable sustained high-level performance while inferior technique causes rapid energy depletion regardless of pace. His methodology focuses on building 'pace independence' where technical quality remains constant across tempo spectrum through such refined mechanics that energy cost stays minimal even during acceleration phases.
-- **Gordon Ryan**: Views pacing as competitive weapon to be actively wielded against opponent rather than merely personal resource management tool. Focuses on developing superior conditioning that enables what he describes as 'pace dominance' where he can sustain tempos that break opponent's will and technical capability through cumulative fatigue effects. Emphasizes importance of recognizing opponent's pace preferences through early engagement observation, then deliberately implementing opposite rhythm to create discomfort and unfamiliar engagement patterns—slowing pace against opponents who prefer fast scrambles, accelerating against those who prefer methodical control. In his approach, pacing operates tactically as way to compound technical advantages, using superior conditioning to maintain pressure when opponents fatigue, creating situations where even technically proficient opponents cannot execute effectively due to energy deficit. Advocates for building such dominant cardiovascular capacity that pace selection becomes purely tactical choice rather than being constrained by personal fatigue limitations, enabling unrestricted tempo manipulation based solely on strategic objectives.
-- **Eddie Bravo**: Has developed pacing approaches within 10th Planet system that often emphasize controlled, pressure-heavy rhythms from bottom positions, disrupting opponent's preferred pace through grip control and positional frames that force energy expenditure while enabling own recovery. Teaches pacing concept he calls 'active rest' where maintaining threatening positions from guard like Rubber Guard or Lockdown allows cardiovascular recovery while forcing opponent to expend energy defending submissions and maintaining posture against constant offensive pressure. Advocates for position-specific pacing strategies where techniques like Lockdown Half Guard enable pace slowing while maintaining offensive threats, creating energy management opportunities unavailable in more conventional guard positions. Views competition pacing as psychological as much as physical phenomenon, using tempo control to frustrate opponents accustomed to particular rhythms, creating mental fatigue alongside physical exertion through rhythm disruption. His system emphasizes developing pace control capability specifically from bottom positions where conventional wisdom assumes inferior energy management, demonstrating how strategic position selection and technical refinement enable tempo dominance even from theoretically disadvantaged positions.
 
 </section>
 

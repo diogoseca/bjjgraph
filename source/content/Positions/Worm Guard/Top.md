@@ -8,7 +8,7 @@ description: "Master Worm Guard Top position in BJJ. Complete passing guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -418,24 +418,6 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 **Average Time in Position**: 45-90 seconds for successful pass
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The worm guard presents a fascinating biomechanical problem that separates systematic thinkers from reactive players. The lapel wrapped around your leg creates a mechanical lever system where the bottom player can generate sweeping force far exceeding their actual strength through proper leverage application. Your primary objective must be to nullify this mechanical advantage before attempting traditional passing mechanics. Think of it as a two-stage problem: first, you must dismantle the structural control system (the lapel entanglement), and only then can you apply standard passing principles. The key insight is recognizing that the lapel creates a closed kinetic chain around your leg - breaking this chain requires either removing your leg from the entanglement or stripping the grip that creates tension. Most failed passing attempts occur because practitioners try to solve both problems simultaneously, leading to neither being addressed effectively. Systematic progression demands you solve the lapel problem completely, then transition to passing mechanics with full commitment.
-
-### Gordon Ryan
-
-In competition, worm guard is one of those positions where patience completely determines the outcome. I've lost rounds early in my career trying to force passes against quality worm guard players, and I've won matches by taking 90 seconds to methodically dismantle the position. The competition reality is that most opponents will attempt desperate sweeps if you maintain steady pressure without giving them openings - they know the position is difficult to maintain under intelligent pressure. My approach focuses on controlling their far collar immediately, which cuts their rotation options in half. Then I work systematic lapel stripping while maintaining enough pressure that they can't reset their grips. The moment you feel the lapel tension break, that's when you commit to the pass with full intensity. Before that moment, everything is preparation and setup. Against world-class worm guard players like the Miyao brothers, I've found that the leg drag becomes available much more frequently than other passes because it naturally addresses the lapel angle problem while advancing position.
-
-### Eddie Bravo
-
-Worm guard is one of those positions that looks like chaos but it's actually super systematic from the bottom, which means there's a clear formula for beating it from top. The Miyao brothers revolutionized this position and we had to develop specific counters at 10th Planet because our no-gi system didn't prepare us for lapel-based attacks initially. What I teach my guys is to treat the lapel like it's a locked seatbelt - you can't just rip it off, you gotta unbuckle it methodically. The innovation we brought is using the lockdown and truck concepts in reverse - if they're wrapping your leg with lapels, you can create counter-wrapping pressure that neutralizes their leverage. Also, don't sleep on the backstep counter when they invert - that's straight out of our leg attack defense system and it works perfectly here. The psychological battle is huge too - if you show frustration or rush, they've won mentally before the technique even matters. Stay calm, work the system, and remember that complexity works both ways - their position is hard to maintain if you understand the mechanics.
 
 </section>
 

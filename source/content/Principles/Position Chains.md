@@ -8,7 +8,7 @@ description: "Master position chains in BJJ. Learn systematic progression throug
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Plan sequences of 2-4 positions in advance based on current state and opponent tendencies
 - Each position in the chain should improve control or create submission opportunities
 - Maintain flexibility to adapt chains when opponent disrupts planned progression
@@ -179,9 +179,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Pattern Recognition**: The ability to identify common positional sequences and recognize when opponent defensive patterns create opportunities for specific chain progressions. Includes recognizing when opponent's reactions to initial position create vulnerability to subsequent positions in planned sequence.
 
 **Sequential Planning**: Mental mapping of multi-step progressions from current position through intermediate states to desired dominant position. Involves working backward from goal position to identify logical pathway through available transitions with highest cumulative success probability.
@@ -202,28 +202,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value of positions is essential foundation for constructing effective chains, as chains must progress toward increasingly dominant positions to be strategically sound.
-- **[[Position Transitions]]** (Prerequisite): Technical proficiency in individual transitions forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence.
-- **[[Submission Chains]]** (Complementary): Position chains and submission chains work synergistically, with positional progression creating submission opportunities while submission threats force defensive reactions that enable positional advancement.
-- **[[Transition Management]]** (Complementary): Effective transition management ensures smooth execution of position chains by maintaining control points throughout sequential movements and preventing opponent from interrupting progression between positions.
-- **[[Dilemma Creation]]** (Extension): Advanced application of position chains involves constructing sequences where opponent defensive choices at each position create vulnerabilities to subsequent positions, forcing selection between multiple unfavorable outcomes.
-- **[[System Building]]** (Advanced form): Systematic development of position chains around core positions represents advanced evolution where practitioner constructs comprehensive network of interconnected sequences forming cohesive strategic system.
-- **[[Control Point Hierarchy]]** (Prerequisite): Understanding which control points are most important at each position enables construction of chains where grips and frames from one position naturally enable the next transition.
-- **[[Energy Management System]]** (Complementary): Energy management principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence.
-- **[[Guard Passing]]** (Extension): Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway.
-- **[[Guard Retention]]** (Extension): Defensive position chains for guard retention involve sequential fallback positions where each stage represents controlled retreat toward guard recovery rather than complete position loss.
-- **[[Match Strategy]]** (Complementary): Competition match strategy determines which position chains are prioritized based on point accumulation needs, time management, and opponent's known defensive patterns.
-- **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles allows construction of chains where opponent's defensive actions to one position create the setup conditions for subsequent positions in sequence.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Common chain: Hip Bump Sweep → Mount → Armbar Control. Practitioner plans sweep-to-mount progression with armbar as terminal option, using opponent's posture-up defense against sweep to create mount entry, then exploiting mount control to establish armbar.
 
 **Half Guard**: Typical chain: Underhook Battle → Deep Half Guard → Sweep to top → Pass to Side Control. Sequential progression uses underhook establishment to enable deep half entry, sweep from deep half to reverse positions, immediate pass to consolidate top control.
@@ -258,9 +239,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and identify desired end-state position or submission**: Evaluate current control points, opponent's defensive structure, and determine realistic goal position that represents significant improvement in positional hierarchy or submission opportunity.
 2. **Map logical intermediate positions between current and goal states**: Identify 1-3 intermediate positions that create natural pathway from current position to goal, selecting positions where each transition has reasonable success rate at your skill level and opponent resistance.
 3. **Evaluate success probability and energy cost of complete chain**: Calculate approximate success likelihood by considering cumulative probability across all transitions, and assess whether energy expenditure justifies potential positional gain relative to current state.
@@ -273,9 +254,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Planning overly complex chains with 5+ positions that have low cumulative success probability
   - **Consequence**: Practitioner invests significant energy executing early transitions only to have chain break down at later stages, leaving them in intermediate position without clear offensive direction and depleted energy reserves.
   - **Correction**: Limit chains to 2-4 positions maximum with each transition having 50%+ success rate at current skill level, ensuring cumulative probability remains reasonable and energy expenditure is justified by positional gain.
@@ -298,9 +279,9 @@ Position Chains represents the strategic principle of linking multiple positiona
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Flow Drilling** (Focus: Technical precision in transitional movements and proper establishment of control points at each position before advancing to next, building familiarity with chain execution under controlled conditions.)
 Structured drilling where partners cooperate to move through planned position chains, practicing smooth transitions between positions with minimal resistance to establish technical foundation and muscle memory for sequential movements.
 
@@ -323,9 +304,9 @@ Video analysis of high-level competition matches identifying successful position
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Executes individual techniques reactively without planning subsequent positions, treating each transition as isolated event without strategic connection to follow-up movements
 - Successfully links 2-position chains in drilling scenarios with cooperative partner, demonstrating basic ability to connect simple sequences like sweep-to-mount or pass-to-side-control
@@ -357,10 +338,26 @@ Video analysis of high-level competition matches identifying successful position
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value of positions is essential foundation for constructing effective chains, as chains must progress toward increasingly dominant positions to be strategically sound.
+- **[[Position Transitions]]** (Prerequisite): Technical proficiency in individual transitions forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence.
+- **[[Submission Chains]]** (Complementary): Position chains and submission chains work synergistically, with positional progression creating submission opportunities while submission threats force defensive reactions that enable positional advancement.
+- **[[Transition Management]]** (Complementary): Effective transition management ensures smooth execution of position chains by maintaining control points throughout sequential movements and preventing opponent from interrupting progression between positions.
+- **[[Dilemma Creation]]** (Extension): Advanced application of position chains involves constructing sequences where opponent defensive choices at each position create vulnerabilities to subsequent positions, forcing selection between multiple unfavorable outcomes.
+- **[[System Building]]** (Advanced form): Systematic development of position chains around core positions represents advanced evolution where practitioner constructs comprehensive network of interconnected sequences forming cohesive strategic system.
+- **[[Control Point Hierarchy]]** (Prerequisite): Understanding which control points are most important at each position enables construction of chains where grips and frames from one position naturally enable the next transition.
+- **[[Energy Management System]]** (Complementary): Energy management principles determine which chain progressions are sustainable versus which deplete reserves prematurely, influencing selection of transitional movements throughout sequence.
+- **[[Guard Passing]]** (Extension): Guard passing chains represent specific application of position chain concepts where progression from open guard through passing stages to dominant top control follows systematic pathway.
+- **[[Guard Retention]]** (Extension): Defensive position chains for guard retention involve sequential fallback positions where each stage represents controlled retreat toward guard recovery rather than complete position loss.
+- **[[Match Strategy]]** (Complementary): Competition match strategy determines which position chains are prioritized based on point accumulation needs, time management, and opponent's known defensive patterns.
+- **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles allows construction of chains where opponent's defensive actions to one position create the setup conditions for subsequent positions in sequence.
+
+
+### Related Content
 - [[Positional Hierarchy]] (Principle) - Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements
 - [[Position Transitions]] (Principle) - Foundational technical elements that form building blocks of chains, with reliable transitions enabling construction of high-percentage sequences
 - [[Submission Chains]] (Principle) - Complementary chaining concept where submission sequences integrate with positional chains to create comprehensive offensive systems
@@ -374,15 +371,6 @@ Video analysis of high-level competition matches identifying successful position
 - [[Half Guard]] (Position) - Strategic position in many bottom chains serving as recovery point when full guard is lost or entry point for sweeping sequences
 - [[Guard Pass]] (Transition) - Critical transition in top position chains, connecting open guard positions to dominant top control positions like side control or mount
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Position chains represent the mathematical optimization of pathways through the BJJ state machine, where each position serves as a node and transitions as edges with associated probability values. The most sophisticated practitioners construct chains by working backward from desired dominant positions, identifying which intermediary states create highest cumulative success probability when considering their personal technique proficiency levels. I emphasize to students that effective chains must account for what I call 'control point continuity' where grips, frames, or hooks established in position N directly enable the technical requirements for transition to position N+1. This creates momentum where each successful advance makes the subsequent transition more probable rather than treating each move as independent event. The critical insight is that opponent defensive patterns at each position should ideally create the setup conditions for your next planned position, transforming their defensive success into your offensive opportunity through what I term 'reactive chain progression' where their attempts to defend position A inadvertently compromise their defense of position B.
-- **Gordon Ryan**: In competition, I construct position chains around what I call 'guaranteed progression' principles where every position in the sequence either scores points or significantly improves my control even if the ultimate submission fails. This means my chains from bottom positions prioritize getting to sweeps that score before attempting submissions, while my top chains ensure I pass the guard and establish mount or back control before committing fully to finishing attempts. The key difference between training chains and competition chains is that training allows you to explore lower-percentage sequences for development, but competition demands you chain together your absolute highest-percentage techniques in logical order. I've built my entire game around position chains that lead to my strongest positions, the back and mount, rather than trying to submit from everywhere. When drilling position chains, I test them against progressively better training partners until I can execute the full sequence against black belt resistance, because if a chain breaks down against tough opponents in the gym, it will definitely fail in competition when everything is on the line.
-- **Eddie Bravo**: Position chains in the 10th Planet system often incorporate what we call 'confusion sequences' where the chain includes positions most opponents haven't trained to defend, making the overall chain more likely to succeed because they're defending unfamiliar territory. Our Rubber Guard to Triangle to Omoplata chains work not just because the positions connect technically, but because the unusual control points and angles keep opponents guessing about what's coming next. I teach students to think of chains as flexible frameworks rather than rigid scripts, where you have a general direction like 'Lockdown to Electric Chair to back take' but you're ready to abandon or modify based on what the opponent gives you. The biggest mistake I see is people getting married to their planned chain and trying to force it when the opponent has clearly shut down a key transition. Sometimes the best chain is the one you didn't plan but recognized in the moment because you stayed aware and adaptive. For building chains, I recommend constructing them around your absolute best positions, the ones where you've put in serious time, because chains only work if each link is solid when tested under pressure.
 
 </section>
 

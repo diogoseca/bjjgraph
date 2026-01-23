@@ -8,7 +8,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 
 **Average Time in Position**: 2-4 minutes per passing sequence
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The open guard top position represents the most complex positional battle in all of grappling because of the sheer variety of guard types that must be addressed with distinct passing strategies. My systematic approach emphasizes categorizing guards into families based on their structural characteristics - distance guards require movement and angle-based passing, close guards require pressure and smash-based passing, and leg entanglement guards require specific defensive protocols before passing can commence. The critical error most practitioners make is attempting to use a single passing style against all guard types rather than developing a comprehensive passing system that addresses each guard family appropriately. Superior passing begins with superior grip fighting - you must win the grip battle before you can win the passing battle. Establish dominant grips on the pants and control the opponent's legs before committing to any passing sequence, and always maintain proper postural alignment to prevent sweeps and guard recovery. The biomechanical principle is simple: control the connection points (grips), manage the distance (posture), and create the angle (lateral movement) before committing to the pass.
-
-### Gordon Ryan
-
-Open guard passing at the highest competition level is about creating impossible dilemmas for the guard player through strategic pressure application and grip configurations that force predictable defensive reactions. I use the Headquarters position as my central hub because it allows me to threaten multiple passing directions simultaneously while maintaining safe positioning against most sweep attempts. The key is not trying to pass immediately but instead applying specific pressure patterns that force the opponent to make defensive choices - when they defend the knee slice, I transition to leg drag; when they defend leg drag, I come back to knee slice or long step. My passing success comes from making opponents choose between bad options rather than trying to force a single pass through strong defense. Against elite guard players, you must be patient and systematic, building pressure over time and capitalizing on small defensive errors rather than attempting explosive single-attempt passes. Pattern recognition is critical - within the first 2-3 seconds of engagement, I identify which guard variation they're entering and immediately implement the counter-passing strategy specific to that guard family.
-
-### Eddie Bravo
-
-Traditional guard passing has been revolutionized by understanding the nuances of no-gi passing strategies that translate effectively to gi work as well. My approach to open guard top emphasizes creating unique pressure angles that most guard players haven't developed specific defenses against because they fall outside traditional passing frameworks. The electric chair sweep defense concepts from 10th Planet translate directly to open guard passing - when you understand how to defend against leg entanglements from bottom, you understand how to neutralize them from top. I focus heavily on the whizzer control and shoulder pressure combinations that break down guard structures systematically. The biggest innovation in modern passing is understanding that you don't always need to clear both legs simultaneously - controlling one leg properly while passing the other creates asymmetrical situations that are extremely difficult to defend. Develop creative pressure angles, use misdirection constantly, and never let the guard player settle into their preferred configuration. The moment they establish their ideal guard structure, you've already lost half the battle.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Technical Mount Top in BJJ. Complete offensive guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -425,24 +425,6 @@ Partner defends armbar by turning away (specific instruction to expose back). Pr
 
 **Average Time in Position**: 3-8 seconds (highly transitional)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Technical Mount represents a fundamental principle in submission grappling: the willingness to sacrifice positional stability for finishing opportunity. The position works because it exploits a biomechanical reality—when an opponent extends their arm defensively from mount, they create the exact angle and leverage required for armbar mechanics. The posted leg serves a dual purpose: it acts as a stabilizing pillar against rolling attempts while simultaneously positioning your center of mass for the swing-over motion. What makes Technical Mount effective is not the position itself, but the timing of entry and commitment to finishing. You must recognize the moment of arm extension and immediately capitalize before the opponent can retract the limb. The position also creates what I call a submission fork—if they defend the armbar by turning, you take the back; if they defend the back by staying flat, you complete the armbar. This binary choice is the essence of high-level submission strategy where every defensive option leads to a corresponding offensive opportunity.
-
-### Gordon Ryan
-
-I use Technical Mount primarily as an armbar entry rather than a position I consciously seek. When someone extends their arm defensively from mount, I immediately transition to Technical Mount and attack the armbar. The key is not telegraphing the transition—I maintain mount pressure and control right up until the moment I post my leg and swing over. In no-gi especially, Technical Mount is brief because opponents can recover their arm quickly without gi grips slowing them down. My sequence is: feel the arm extend, secure wrist and elbow control, post leg out, swing over—all in one fluid motion taking less than two seconds. If they defend the armbar by pulling their arm back, that's when I take the back, as their defensive reaction naturally exposes it. The position is about creating a dilemma: defend the armbar and expose the back, or defend the back and give up the arm. Against high-level opponents, I'm often in Technical Mount for less than two seconds before committing to the finish, and that speed is what makes it work at the highest levels of competition.
-
-### Eddie Bravo
-
-Technical Mount fits into the 10th Planet system as a gateway to several finishing positions. We connect it to both the traditional armbar and to our truck system entries. When the opponent defends the armbar by turning, we're ready to immediately transition to the back or truck, creating submission chains they can't defend. The posted leg position is also useful for setting up the reverse triangle from mount—when they defend the armbar, we can bring our posted leg over their head for the triangle. The key innovation is recognizing that Technical Mount isn't just about the armbar—it's about creating a decision tree where every defensive option leads to a different submission or positional threat. We drill Technical Mount not as a static position but as a dynamic transition point in our submission chains. From our perspective, you should never be holding Technical Mount—you should be flowing through it on your way to a finish. That transitional mindset is what makes the position dangerous, because the opponent never knows which attack is coming next in the chain.
 
 </section>
 

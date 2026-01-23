@@ -8,7 +8,7 @@ description: "Master Russian Leg Lasso Top position. Complete guide for passing 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -429,24 +429,6 @@ From standing position, partner establishes Russian Leg Lasso. Top player practi
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Russian Leg Lasso represents one of the most mechanically sophisticated guard variations in modern jiu-jitsu, utilizing principles of leverage and rotational force that make it formidable against even elite passers. From the top position, your success depends entirely on understanding that you are fighting against a pulley system - the opponent's leg creates a fulcrum point around which they can generate tremendous rotational force with minimal energy expenditure. The cardinal sin in this position is leaning forward, as this converts your bodyweight into the very force that powers their sweep mechanics. Instead, you must maintain an upright posture with your hips positioned behind your center of gravity, effectively removing the fuel from their mechanical advantage. The systematic approach requires addressing control points in proper sequence: first neutralize the sleeve grip which controls your posture, then control the non-lasso leg which provides their base for sweeps, and only then address the lasso itself through angle creation rather than strength application. Understanding that the lasso becomes geometrically weaker as you create certain angles allows you to solve this puzzle through position rather than power. The specific angle that defeats Russian Leg Lasso involves moving your body toward the side of the lasso while controlling their non-lasso leg - this creates a configuration where their leg can no longer generate rotational force and the lasso binding becomes ineffective. From this compromised position, multiple passes become available including knee slice, leg drag, and toreando variations. The key insight is recognizing that you don't need to remove the lasso through force - you simply need to move to positions where the lasso cannot function mechanically.
-
-### Gordon Ryan
-
-Russian Leg Lasso is one of those guards that looks terrifying but becomes manageable once you understand the game plan - the key is never giving them the grips and posture control they need to make it work. In competition, when I face this guard, my immediate focus is on the sleeve grip because without that, they can't control my posture and the whole system falls apart. I keep my hips back and my weight distributed through both legs wide, which makes their rotational sweeps basically impossible even if they have the lasso established. The mistake I see competitors make constantly is trying to force a pass while the opponent has full control - that's just giving them the sweep. Instead, I work patiently to break the sleeve, control their other leg with a pants grip, and then I can start creating the angles I need to pass. Once I have their non-lasso leg controlled, I can work the Toreando or Leg Drag which are both high-percentage against this guard. The thing about Russian Leg Lasso is that it's energy-intensive for the bottom player to maintain, so if you prevent their immediate sweep threats and make them hold the position, they'll often transition to something else, giving you easier passing opportunities. Time is on your side if you maintain good base and deny their grips. One specific detail that really helped my passing is understanding that when they have the lasso tight, I'm not fighting to get my arm out - instead I'm controlling their body position and moving to angles where the lasso becomes ineffective. It's a positional solution rather than a strength solution, which is way more efficient especially in longer matches.
-
-### Eddie Bravo
-
-The Russian Leg Lasso is some next-level lasso game, man - it's like regular lasso on steroids with extra control points that create all kinds of problems for the top guy. But here's the thing - it's also super complicated for the bottom player to maintain, which means if you stay calm and work your counters, you can turn their complexity against them. When I'm teaching guys to pass this, I tell them to think about it like defusing a bomb - you gotta cut the right wires in the right order. First wire is that sleeve grip they have on your trapped arm because that's what lets them break your posture and create the angles for sweeps. Without that grip, the whole thing loses like 60% of its power. I like to fight that grip aggressive, using two hands if I need to, because once it's gone, I can start working my passing game. The other key is staying super wide with your stance - think sumo wrestler wide - because that base makes their rotational sweeps way less effective. From there, I like the leg drag because you're working with their momentum instead of against it, and it gets you around all that lasso chaos. Don't sleep on the backstep either - sometimes the best way to deal with lasso is to go where they're not expecting and circle behind them. The Russian version tries to prevent that with their positioning, but if you time it right when they're transitioning or adjusting, you can catch them. The main thing is not panicking when you get caught in this guard - yeah, it's complex and they've got a lot of control, but if you work your systematic approach and don't give them the reactions they want, you're gonna get through it. Most people who play this guard are relying on you making mistakes, so if you just don't make those mistakes and work your game patiently, you win.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master systematic side control escape frameworks in BJJ. Learn fra
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - **Frame Early, Frame Often**: Establish defensive frames before opponent consolidates control—prevention is infinitely easier than recovery once full pressure is established
 - **Progressive Space Creation**: Build space systematically through small incremental movements rather than explosive attempts that waste energy and create opportunities for opponent advancement
 - **Hip Mobility Priority**: Maintain hip mobility as the primary defensive objective—once hips are completely controlled, all escape pathways become exponentially more difficult
@@ -181,9 +181,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Defensive Frame Construction**: The ability to establish and maintain structural frames using forearms, elbows, and knees to create distance between torso and opponent's chest pressure. Effective framing requires understanding leverage angles, when to extend frames versus when to retain them close to the body, and how to prevent opponent from collapsing frames through superior pressure or angle changes.
 
 **Hip Escape Mechanics**: Technical execution of shrimping movements to create angular space and recover guard position. This includes proper sequencing of bridge-and-turn, ability to chain multiple small shrimps rather than single large movements, and understanding when hip escape is appropriate versus when alternative escape pathways are required based on opponent pressure distribution.
@@ -204,28 +204,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Escape Hierarchy]]** (Prerequisite): Side control escapes represent a specific application of the broader escape hierarchy framework—understanding positional hierarchy and systematic escape prioritization is essential before developing situation-specific techniques
-- **[[Frame Creation]]** (Complementary): Defensive framing serves as the foundational mechanical skill that enables all side control escape attempts—frames create the initial space required for hip movement and guard recovery
-- **[[Hip Escape Mechanics]]** (Complementary): Shrimping and hip mobility represent the primary movement pattern for converting created space into actual guard recovery—technical proficiency in hip escapes directly determines escape success rates
-- **[[Energy Conservation]]** (Complementary): Efficient energy usage while defending side control determines whether practitioner can survive long enough to exploit escape opportunities—energy conservation enables sustained defensive effort
-- **[[Dealing with Pressure]]** (Prerequisite): Understanding how to maintain breathing, posture, and composure under heavy top pressure is required before attempting technical escape sequences—psychological composure precedes technical execution
-- **[[Mount Escape Series]]** (Extension): Side control escape concepts extend logically into mount escape frameworks when opponent successfully advances—the same principles of frame creation, space generation, and hip escape apply with position-specific modifications
-- **[[Bridge and Shrimp]]** (Complementary): The fundamental movement patterns of bridging and shrimping form the mechanical foundation for all side control escape execution—technical mastery of these movements is essential
-- **[[Space Creation]]** (Complementary): All side control escapes depend on systematic space generation between defender and attacker—understanding space creation principles determines escape pathway selection
-- **[[Connection Breaking]]** (Prerequisite): Identifying and breaking opponent's key connection points must occur before escape movement can be effective—connection breaking precedes positional change
-- **[[Guard Recovery]]** (Extension): Successful side control escapes culminate in guard recovery—understanding guard recovery principles ensures defender can consolidate escaped position
-- **[[Defensive Framing]]** (Complementary): Specific framing techniques and angles for side control defense provide the tactical implementation of frame creation principles in this positional context
-- **[[Pin Escape Methodology]]** (Prerequisite): General pin escape methodology provides the overarching framework within which side control specific techniques are organized and selected
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Primary application environment where defender employs systematic frame establishment, underhook battle, and progressive hip escape sequences to recover closed guard, half guard, or butterfly guard while preventing opponent advancement to mount or north-south
 
 **Knee on Belly**: Modified escape framework emphasizing inside position recovery and frame angles adjusted for vertical rather than horizontal pressure—concepts of space creation and hip mobility apply with position-specific technical modifications for the elevated pressure point
@@ -254,9 +235,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's control points and weight distribution immediately upon being taken to side control**: Identify which connection points (crossface, underhook, hip control) opponent has established and where their weight is concentrated to determine primary escape pathway and immediate defensive priorities
 2. **Establish initial defensive frames before opponent consolidates full pressure**: Create near-side frame with forearm against opponent's neck/shoulder and far-side frame blocking hip movement—establish these structures while space still exists rather than attempting to create frames after pressure is set
 3. **Determine if opponent is attempting to advance position (mount/north-south) or settle into control**: If opponent is advancing, prioritize preventing the advancement by maintaining elbow-knee connection and blocking mount entry—if opponent is settling, shift focus to creating escape opportunities through underhook battle or hip escape preparation
@@ -269,9 +250,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Explosive struggling without systematic space creation
   - **Consequence**: Rapid energy depletion without positional improvement, making defender progressively weaker while opponent maintains fresh and consolidated pressure—often leads to submission or mount advancement when exhaustion sets in
   - **Correction**: Employ systematic frame establishment and small progressive movements rather than explosive scrambles—conserve energy for precise escape attempts timed to opponent's base vulnerabilities rather than constant struggling
@@ -297,9 +278,9 @@ Mastery of side control escapes fundamentally changes a practitioner's defensive
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Drilling** (Focus: Technical precision of frame angles, hip escape mechanics, and underhook acquisition under controlled but realistic pressure conditions)
 Partner provides incrementally increasing pressure levels (30%, 50%, 70%, 90%) while practitioner executes standard escape sequences—allows technical refinement before adding realistic pressure variables
 
@@ -322,9 +303,9 @@ Study escape concepts and techniques during instruction but deliberately apply t
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Establishes basic defensive frames but frames collapse under moderate pressure—struggles to maintain frame structure while opponent consolidates control
 - Executes hip escape movement but does so without creating necessary space first—opponent easily follows movement maintaining same relative position
@@ -361,10 +342,26 @@ Study escape concepts and techniques during instruction but deliberately apply t
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Escape Hierarchy]]** (Prerequisite): Side control escapes represent a specific application of the broader escape hierarchy framework—understanding positional hierarchy and systematic escape prioritization is essential before developing situation-specific techniques
+- **[[Frame Creation]]** (Complementary): Defensive framing serves as the foundational mechanical skill that enables all side control escape attempts—frames create the initial space required for hip movement and guard recovery
+- **[[Hip Escape Mechanics]]** (Complementary): Shrimping and hip mobility represent the primary movement pattern for converting created space into actual guard recovery—technical proficiency in hip escapes directly determines escape success rates
+- **[[Energy Conservation]]** (Complementary): Efficient energy usage while defending side control determines whether practitioner can survive long enough to exploit escape opportunities—energy conservation enables sustained defensive effort
+- **[[Dealing with Pressure]]** (Prerequisite): Understanding how to maintain breathing, posture, and composure under heavy top pressure is required before attempting technical escape sequences—psychological composure precedes technical execution
+- **[[Mount Escape Series]]** (Extension): Side control escape concepts extend logically into mount escape frameworks when opponent successfully advances—the same principles of frame creation, space generation, and hip escape apply with position-specific modifications
+- **[[Bridge and Shrimp]]** (Complementary): The fundamental movement patterns of bridging and shrimping form the mechanical foundation for all side control escape execution—technical mastery of these movements is essential
+- **[[Space Creation]]** (Complementary): All side control escapes depend on systematic space generation between defender and attacker—understanding space creation principles determines escape pathway selection
+- **[[Connection Breaking]]** (Prerequisite): Identifying and breaking opponent's key connection points must occur before escape movement can be effective—connection breaking precedes positional change
+- **[[Guard Recovery]]** (Extension): Successful side control escapes culminate in guard recovery—understanding guard recovery principles ensures defender can consolidate escaped position
+- **[[Defensive Framing]]** (Complementary): Specific framing techniques and angles for side control defense provide the tactical implementation of frame creation principles in this positional context
+- **[[Pin Escape Methodology]]** (Prerequisite): General pin escape methodology provides the overarching framework within which side control specific techniques are organized and selected
+
+
+### Related Content
 - [[Escape Hierarchy]] (Principle) - Overarching framework that side control escapes exist within—understanding positional hierarchy determines when to prevent advancement versus when to accept position change for better escape opportunity
 - [[Frame Creation]] (Principle) - Foundational mechanical skill required for all side control escape attempts—quality of defensive frames directly determines escape success probability
 - [[Hip Escape Mechanics]] (Principle) - Primary movement pattern for converting created space into guard recovery—technical proficiency in hip escapes is essential for completing escape sequences
@@ -376,15 +373,6 @@ Study escape concepts and techniques during instruction but deliberately apply t
 - [[Mount Escape Series]] (Principle) - Extension of side control escape concepts into more disadvantageous position—same principles of frame maintenance and progressive escape apply with position-specific modifications
 - [[Back Defense Protocol]] (System) - Parallel defensive framework for different pin position—comparison between side control and back escape systems reveals universal principles of defensive hierarchy
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The conceptual framework of side control escapes must be understood as a hierarchical decision tree with clear prioritization at each decision node. Your first priority is always preventing advancement to a worse position—mount or north-south represent catastrophic failures of your defensive system. Only after you have secured this baseline defensive achievement can you shift focus to creating escape opportunities. The mechanical execution of escapes revolves entirely around connection breaking—opponent controls you through specific anatomical contact points, primarily the crossface and hip control. Your systematic approach must identify which connections can be broken most efficiently given current pressure distribution, then exploit the broken connection through immediate space creation before opponent can re-establish control. The efficiency of your defensive frames determines your energy expenditure rate—proper frame angles allow you to support opponent's weight through bone structure rather than muscular effort, enabling you to survive extended periods while waiting for optimal escape timing. Advanced practitioners develop exquisite sensitivity to pressure distribution changes, recognizing the precise moment when opponent's base becomes vulnerable during weight shifts or submission attempts, and executing escape sequences timed to these vulnerabilities rather than forcing escapes against consolidated pressure.
-- **Gordon Ryan**: In competition, your side control escape capability directly determines your survival probability and competitive viability. When I'm defending side control, I'm not panicking or scrambling—I'm systematically working through my escape hierarchy while managing my energy to ensure I have enough in the tank for the full match. The underhook battle is absolutely critical because achieving the underhook fundamentally changes the position's dynamic, giving me the primary pathway to either recover guard or take the back. If opponent is heavy and consolidated, I'm not wasting energy trying to force escapes that won't work—I'm maintaining my frames, controlling my breathing, and waiting for them to make a mistake or attempt a submission that creates the space I need. Most competitors lose position from side control because they give up mount or back trying to escape too aggressively at the wrong time. My approach is patient and systematic—I'd rather spend two minutes in side control waiting for the right moment than escape desperately into an even worse position. When the escape opportunity appears, I'm executing with maximum commitment and precision, chaining multiple movements together so opponent can't recover before I'm back to guard. The difference between elite and intermediate escape capability is timing and technical precision—knowing exactly when to go and executing perfectly when you do.
-- **Eddie Bravo**: Side control escapes in the 10th Planet system integrate our philosophy of creating chaos and using unconventional pathways that opponents don't expect. The standard elbow escape is fine, but when it's not there, I'm looking at inverted escapes, granby rolls, and other creative solutions that catch opponent off guard. The lockdown can be employed even from bottom side control if you can capture their leg—suddenly you're not just escaping, you're attacking with electric chair and old school sweeps from what appeared to be a fully defensive position. Energy management is huge—I teach my students to think of side control defense like you're underwater holding your breath. You need to be relaxed and efficient because panicking and thrashing will drown you. Use the rubber guard concepts even from bottom side—control their posture with overhooks and creative grips while you work your hips free. The mission control position can sometimes be entered from bottom side control if you can get your leg configurations right, completely changing the dynamic. Don't just accept the traditional escape pathways—be creative, be unconventional, and make them defend positions they've never seen before. When everyone expects you to shrimp to closed guard, maybe you invert and come up on a single leg instead. The unpredictability itself becomes a weapon because they can't settle into their control when they don't know what weird escape you're about to attempt.
 
 </section>
 

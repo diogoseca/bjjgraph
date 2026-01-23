@@ -8,7 +8,7 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -475,24 +475,6 @@ Start from turtle position. Practice taking back, establishing seat belt control
 
 **Average Time in Position**: 1-3 minutes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The seat belt control configuration represents the most mechanically sound structure for back control because it creates a diagonal line of force across opponent's body that is biomechanically extremely difficult to break. When we analyze the physics of this position, the over-under grip creates opposing vectors of force - one shoulder pulled back while the opposite side is compressed forward - that prevent rotational movement in either direction. The hands must remain connected at all costs, as this connection point is the structural keystone of the entire position. I teach students to think of the seat belt as creating a straight jacket effect where opponent's upper body becomes increasingly constrained the more they struggle. The hook placement must be deep in the thighs, as shallow hooks near the knees create mechanical leverage for opponent's escape. When properly established, this position should feel effortless to maintain because the structure itself, rather than muscular effort, creates the control. The primary attacking sequence should be systematic: establish perfect control, create defensive reactions through small adjustments, then exploit the openings these reactions create.
-
-### Gordon Ryan
-
-In competition, seat belt back control is my highest-percentage position for securing submissions and controlling matches. I prioritize establishing perfect seat belt configuration before attempting submissions, often spending 15-30 seconds ensuring hooks are deep, grip is tight, and chest pressure is constant. The common error I see is practitioners rushing to attack the neck without proper control foundation, which allows escape. Once I have dominant seat belt, I create specific reactions through small adjustments—pulling slightly on the seat belt to make opponent defend grips, then attacking the neck when their hands move. The position works through creating dilemmas where every defensive choice opens a different attack, and proper seat belt control enables this systematic approach better than any other back control variation. Against high-level opponents, I use the seat belt to wear them down mentally and physically before committing to submissions, as the psychological pressure of being controlled on the back often leads to mistakes. The body triangle variation provides even better control but reduces mobility, so I switch between traditional hooks and body triangle based on whether I need control or mobility.
-
-### Eddie Bravo
-
-The seat belt or harness control has been fundamental in 10th Planet system since the beginning, particularly in no-gi contexts where it's one of few reliable upper body controls without gi grips. What makes it particularly powerful is the psychological effect on opponent—being on someone's back with proper seat belt creates sense of helplessness that affects their decision-making and often leads to panic-based reactions rather than systematic escapes. I emphasize to students the importance of staying patient in this position, using the control to exhaust opponent mentally and physically before committing to submissions, as the rushed attacks are what allow escapes from this otherwise dominant position. The body triangle variation of hooks provides even better control but reduces mobility, so I teach both options depending on tactical situation and whether you need maximum control or transition capabilities. When opponents turtle or turn away defensively, establishing seat belt back control should be automatic response—it's one of highest-value positions in all of grappling. From here, the entire back attack system opens up with multiple submission chains all flowing from this one control configuration.
 
 </section>
 

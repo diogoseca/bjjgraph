@@ -8,7 +8,7 @@ description: "Master Speed Passing in BJJ. Learn rapid guard passing through exp
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Continuous Motion - Never allow the guard player to establish static control or set their grips
 - Angle Multiplication - Rapidly shift between multiple passing angles to create defensive confusion
 - Explosive Pressure Application - Use bursts of forward pressure at critical moments to overwhelm defensive frames
@@ -183,9 +183,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Dynamic Footwork Patterns**: The ability to execute rapid, balanced footwork adjustments while maintaining forward pressure and base stability. This includes lateral movement, forward penetration steps, backward disengagement, and circular movement around the guard player's legs. The passer must move efficiently without crossing feet or creating balance vulnerabilities that skilled guard players can exploit for sweeps.
 
 **Explosive Hip Pressure**: The capacity to generate sudden forward hip pressure at critical moments to pin the guard player's hips or legs, preventing escape or recovery. This pressure must be timed precisely when the guard player's frames collapse or their legs are misaligned, creating brief windows of vulnerability that speed passers exploit before defensive structures can rebuild.
@@ -206,25 +206,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Pressure Passing Framework]]** (Alternative): Speed Passing and Pressure Passing represent contrasting methodologies - pressure passing emphasizes slow, methodical control while speed passing relies on rapid movement and overwhelming pace. Many elite passers blend both approaches, using pressure passing to establish initial control before transitioning to speed passing sequences.
-- **[[Guard Passing]]** (Extension): Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error.
-- **[[Timing and Rhythm]]** (Prerequisite): Effective speed passing requires advanced timing and rhythm understanding to identify windows of opportunity during high-speed exchanges. The passer must recognize when the guard player's defensive structures are vulnerable and exploit these moments with explosive attacks before they can recover.
-- **[[Energy Management System]]** (Complementary): Speed passing demands sophisticated energy management to sustain high-intensity output without exhaustion. Passers must learn to identify when to apply maximum effort versus when to maintain circulation at lower intensity, preserving energy for critical passing opportunities.
-- **[[Angle Creation]]** (Prerequisite): Speed passing relies heavily on rapid angle creation and transition. The passer must understand how to generate advantageous passing angles through footwork and body positioning, then transition between these angles faster than the guard player can defend.
-- **[[Explosive Power]]** (Prerequisite): The physical capacity for explosive movement underpins speed passing effectiveness. Without the ability to generate sudden bursts of speed and pressure, the passing attempts become predictable and easier to defend. Explosive power training is essential for developing high-level speed passing.
-- **[[Base Maintenance]]** (Complementary): Maintaining stable base while executing rapid movements is crucial for speed passing success. The passer must develop the ability to move quickly without compromising balance, preventing sweep opportunities that guard players can exploit during high-velocity passing attempts.
-- **[[Grip Fighting]]** (Complementary): Speed passing requires constant grip fighting to prevent the guard player from establishing control points that slow down the passer's circulation. Grip breaking must be integrated seamlessly into the movement patterns rather than treated as a separate phase.
-- **[[Guard Retention]]** (Complementary): Understanding guard retention principles helps speed passers anticipate and counter defensive reactions. Knowledge of how guard players attempt to retain position informs which angles to attack and when to transition between passing approaches.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Open Guard**: Speed passing is most effective against open guard variations where the guard player relies on reaction-based defense. The passer circulates rapidly between toreando, knee slice, and leg drag angles, preventing the guard player from establishing stable grips or foot placement. The high pace creates cumulative defensive errors that eventually lead to passing opportunities.
 
 **De La Riva Guard**: Against De La Riva, speed passing involves immediately clearing the hook with explosive backward movement or forward pressure, then rapidly transitioning to passing angles before the guard player can re-establish the position. The key is breaking the DLR hook faster than the guard player can transition to alternative guards.
@@ -251,9 +235,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Initial Guard Engagement - Assess guard type and grip establishment speed**: If grips are being established, immediately break them with aggressive hand fighting before they solidify. If guard player has weak or no grips, begin rapid circulation between passing angles to prevent grip establishment. Never allow the guard player to settle into a stable position with established control points.
 2. **Angle Selection - Identify highest percentage passing angle based on leg configuration**: Evaluate whether the guard player's legs are aligned for toreando, spread for leg drag, or tight for smash passing. Begin circulation toward the identified angle while maintaining grip fighting. If the guard player adjusts leg position, immediately switch to the new optimal angle rather than committing to the original path.
 3. **Commitment Timing - Determine when to transition from circulation to committed attack**: When the guard player's defensive frames collapse, their grips break, or their legs misalign, immediately commit to the passing angle with explosive forward pressure. If defensive structures remain strong, continue circulation to create additional opportunities. Avoid premature commitment that allows focused defense on a single angle.
@@ -266,9 +250,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Sacrificing Base for Speed - Moving so rapidly that balance becomes compromised, creating sweep opportunities
   - **Consequence**: Guard players with good timing can exploit brief instability moments to execute sweeps or create scrambles that negate the passer's offensive momentum. This is especially problematic against butterfly guard and X-guard players who specialize in off-balancing.
   - **Correction**: Develop footwork patterns that maintain base stability at high speed. Practice speed passing drills with emphasis on recovering balance instantly when it's challenged. Focus on keeping weight centered and feet positioned to prevent lateral sweeps while maintaining forward momentum.
@@ -291,9 +275,9 @@ Speed passing requires exceptional conditioning, precise footwork, and understan
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Pace Training** (Focus: Building the foundation of proper mechanics before layering speed on top. Track maximum sustainable pace and work to increase it systematically over weeks and months.)
 Begin practicing speed passing sequences at moderate pace with emphasis on technical precision, then gradually increase speed over multiple training sessions. This allows the neuromuscular system to adapt to executing complex movements at high velocity without compromising technique.
 
@@ -316,9 +300,9 @@ Dedicate training blocks to speed passing specific guard types - two weeks focus
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can maintain continuous movement while attempting to pass, but often stops or slows significantly when encountering resistance
 - Shows basic understanding of multiple passing angles but has difficulty transitioning between them smoothly
@@ -364,10 +348,23 @@ Dedicate training blocks to speed passing specific guard types - two weeks focus
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Pressure Passing Framework]]** (Alternative): Speed Passing and Pressure Passing represent contrasting methodologies - pressure passing emphasizes slow, methodical control while speed passing relies on rapid movement and overwhelming pace. Many elite passers blend both approaches, using pressure passing to establish initial control before transitioning to speed passing sequences.
+- **[[Guard Passing]]** (Extension): Speed Passing applies fundamental guard passing principles at accelerated pace. The core concepts of controlling hips, managing distance, and preventing guard recovery remain constant, but the execution occurs at higher velocity with less margin for error.
+- **[[Timing and Rhythm]]** (Prerequisite): Effective speed passing requires advanced timing and rhythm understanding to identify windows of opportunity during high-speed exchanges. The passer must recognize when the guard player's defensive structures are vulnerable and exploit these moments with explosive attacks before they can recover.
+- **[[Energy Management System]]** (Complementary): Speed passing demands sophisticated energy management to sustain high-intensity output without exhaustion. Passers must learn to identify when to apply maximum effort versus when to maintain circulation at lower intensity, preserving energy for critical passing opportunities.
+- **[[Angle Creation]]** (Prerequisite): Speed passing relies heavily on rapid angle creation and transition. The passer must understand how to generate advantageous passing angles through footwork and body positioning, then transition between these angles faster than the guard player can defend.
+- **[[Explosive Power]]** (Prerequisite): The physical capacity for explosive movement underpins speed passing effectiveness. Without the ability to generate sudden bursts of speed and pressure, the passing attempts become predictable and easier to defend. Explosive power training is essential for developing high-level speed passing.
+- **[[Base Maintenance]]** (Complementary): Maintaining stable base while executing rapid movements is crucial for speed passing success. The passer must develop the ability to move quickly without compromising balance, preventing sweep opportunities that guard players can exploit during high-velocity passing attempts.
+- **[[Grip Fighting]]** (Complementary): Speed passing requires constant grip fighting to prevent the guard player from establishing control points that slow down the passer's circulation. Grip breaking must be integrated seamlessly into the movement patterns rather than treated as a separate phase.
+- **[[Guard Retention]]** (Complementary): Understanding guard retention principles helps speed passers anticipate and counter defensive reactions. Knowledge of how guard players attempt to retain position informs which angles to attack and when to transition between passing approaches.
+
+
+### Related Content
 - [[Guard Passing]] (Principle) - Parent concept - speed passing applies fundamental guard passing principles at accelerated pace
 - [[Pressure Passing Framework]] (Principle) - Alternative methodology - contrasts with speed passing's rapid movement approach
 - [[Toreando Pass]] (Transition) - Primary technique within speed passing arsenal for attacking open guard positions
@@ -380,15 +377,6 @@ Dedicate training blocks to speed passing specific guard types - two weeks focus
 - [[Timing and Rhythm]] (Principle) - Essential concept for recognizing when to apply explosive attacks during high-speed passing
 - [[Guard Retention]] (Principle) - Opposing concept - understanding retention principles helps identify vulnerabilities to exploit
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Speed passing represents a high-risk, high-reward methodology that succeeds by overwhelming the opponent's decision-making capacity through rapid presentation of multiple threats. The fundamental principle is creating cognitive overload - by the time the guard player recognizes and begins responding to one passing angle, you've already transitioned to the next. This creates a cumulative lag between their perception and action that eventually results in defensive breakdown. However, speed passing without technical precision is merely athletic scrambling that skilled opponents can exploit. The key is maintaining technical standards at high velocity - your knee slice at maximum speed must be as mechanically sound as your knee slice in slow drilling. This requires thousands of repetitions to ingrain proper movement patterns that persist under fatigue and pressure. I emphasize to my students that speed passing should be built on a foundation of pressure passing competency. Learn to pass slowly and methodically first, understanding the mechanical principles of hip control, frame management, and base maintenance. Only after these fundamentals are automatic should you layer speed on top. The common error is attempting to compensate for technical deficiencies with pure athleticism - this fails against opponents with superior technical understanding who can redirect your momentum and capitalize on the balance vulnerabilities inherent in rapid movement. Elite speed passing requires the conditioning to sustain explosive output, the technical precision to maintain proper mechanics at high speed, and the tactical intelligence to recognize when speed passing is advantageous versus when pressure passing is more appropriate.
-- **Gordon Ryan**: Speed passing is incredibly effective in modern competition jiu-jitsu, especially in no-gi where reduced grip options make it harder for guard players to slow you down. I use speed passing extensively when I'm confident in my cardio advantage or when I need to score quickly due to time constraints. The key is making the guard player defend multiple angles simultaneously - I'll threaten toreando, then switch to leg drag, then back to toreando, then smash pass, constantly forcing them to adjust their defensive positioning. Eventually they make a mistake - they're half a second too slow recovering their frames, or they grip one side while I attack the other, and that's when I explode through and consolidate the pass. The biggest thing people get wrong is thinking speed passing means being reckless. I'm extremely calculated about when I commit fully to a passing angle versus when I keep circulating. If their defensive structure is strong, I don't force it - I keep moving and wait for the opening. But when I see that their frames collapse or their grips break, I immediately capitalize with maximum pressure before they can recover. I also use speed passing strategically to tire opponents - even if I don't pass immediately, maintaining high pace for 2-3 minutes significantly fatigues their legs and arms from constantly defending, making them more vulnerable to pressure passing later in the match. Against high-level guys, I'll blend speed and pressure - use rapid circulation to create an opening, then switch to heavy pressure to prevent recovery once I've advanced position. Pure speed passing rarely works against elite opponents, but speed passing to create opportunities followed by pressure consolidation is extremely effective.
-- **Eddie Bravo**: Speed passing is all about creating chaos and forcing your opponent to play your game at your pace. In 10th Planet, we incorporate speed passing elements into our no-gi passing system because it complements our aggressive submission hunting mentality. The beautiful thing about speed passing is that even when it doesn't result in immediate passing, it creates scrambles and transitional moments where we can hit submissions. I teach my guys to look for guillotines, darces, and front headlock attacks during the scrambles that speed passing creates. You're not just passing to get to side control - you're creating dynamic situations where submission opportunities present themselves. The key innovation we've brought to speed passing is integrating it with our truck entries and twister attacks. When you're circulating rapidly and the opponent defends one passing angle, sometimes you can immediately transition to taking the back or entering the truck rather than continuing to try to pass. This makes the guard player defend both passing AND back takes simultaneously, which is cognitively overwhelming. We also emphasize the importance of unorthodox angles in speed passing - not just the traditional toreando and knee slice, but incorporating cartwheel passes, matrix passes, and leg weave passes that opponents don't see as frequently. The element of surprise amplifies the effectiveness of speed. One drill we use extensively is what I call 'chaos passing' - you have 30 seconds to pass by any means necessary, encouraging creativity and explosive attacks from unconventional angles. This builds the comfort with high-speed, dynamic passing situations that makes speed passing second nature under competition pressure.
 
 </section>
 

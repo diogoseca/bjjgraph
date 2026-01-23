@@ -8,7 +8,7 @@ description: "Defensive perspective in reversed leg entanglement. Learn escape s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -438,24 +438,6 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 
 **Average Time in Position**: 8-15 seconds (transitional position, not sustainable)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Ushiro ashi-garami represents a critical decision point in leg entanglement escape systems where biomechanical principles determine success or failure. The reversed hip orientation fundamentally changes the mechanical leverage available for heel hooks, creating a brief window during the attacker's adjustment phase where escape becomes possible. However, this same inversion can trap defenders in worse positions if not executed with precise understanding of leg clearing sequences. The key biomechanical principle is that rotation must be completed fully—partial inversion creates maximum vulnerability by maintaining entanglement while removing defensive hip positioning. Students must understand that ushiro ashi-garami is never a destination but always a transitional state that must be resolved through systematic clearing of the opponent's legs or acceptance of safer recovery positions like turtle. The decision between forcing complete escape versus accepting positional transition should be based on opponent's control depth and grip security, not ego or frustration.
-
-### Gordon Ryan
-
-In competition, ushiro ashi-garami appears constantly when opponents try to invert away from my leg attacks. Most competitors make the mistake of stopping their inversion halfway when they feel the position getting tight, which is exactly when I can attack most effectively. The winning approach is committing fully to turtle or continuing through to standing—never hanging out in the reversed entanglement. I use ushiro positioning myself when I'm defending leg attacks from high-level opponents; the key is controlling their inside leg with my hands while rotating, preventing them from following my inversion into saddle or honey hole. Against elite leg lockers, accepting turtle position from ushiro ashi-garami is often the highest percentage defensive option. The athletes who consistently escape my leg attacks understand that ushiro is part of the escape sequence, not the escape itself. They're already planning their turtle defense or standing recovery before they hit the reversed position. Timing is everything—if you're still thinking about what to do when you hit ushiro, you're already too late.
-
-### Eddie Bravo
-
-The whole ushiro ashi-garami situation is interesting because it shows how leg lock games have evolved—people are inverting and rolling in ways that would have seemed crazy twenty years ago. From the 10th Planet perspective, we look at inverted positions as opportunities, not just escapes. When you're in ushiro ashi-garami bottom, you've got access to some creative counter-attacks if you're comfortable upside down. The lockdown principles apply here in modified form—you can trap their inside leg with your free leg in some variations, creating control that lets you work escapes more safely. But the fundamental truth is you can't hang out there. Either complete the inversion to turtle and start working our turtle game, or if you've got the conditioning and the opponent makes a mistake, counter-attack for their legs. The flexibility and inversion comfort that rubber guard training develops translates directly to surviving and escaping these reversed leg entanglement situations. Your comfort level with being inverted and your hip flexibility determine whether ushiro ashi-garami is a crisis or just another transition in the scramble.
 
 </section>
 

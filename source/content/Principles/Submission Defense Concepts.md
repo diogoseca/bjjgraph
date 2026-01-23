@@ -8,7 +8,7 @@ description: "Master submission defense in BJJ. Learn escape hierarchies, frame 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Recognize submission threats early through positional awareness and grip patterns
 - Prioritize defensive frames that prevent submission completion while maintaining structure
 - Understand the hierarchy of defenses: prevent the setup, defend the position, escape the submission
@@ -179,9 +179,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Threat Recognition**: The ability to identify submission setups through grip patterns, body positioning, and weight distribution before the attack is fully committed. This includes recognizing arm positioning for armbars, collar grips for chokes, and leg entanglements for lower body attacks.
 
 **Frame Construction**: Creating and maintaining structural frames using forearms, hands, and body positioning to prevent opponents from closing distance or completing submissions. Frames must be strong enough to manage pressure while flexible enough to allow movement and adjustment.
@@ -202,31 +202,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Submission Defense]]** (Extension): Submission Defense Concepts provides the theoretical framework while Submission Defense covers specific technical applications
-- **[[Escape Hierarchy]]** (Complementary): Escape Hierarchy defines the priority system for which escapes to attempt first in multi-threat scenarios
-- **[[Frame Creation]]** (Complementary): Frame Creation is a core mechanical skill used throughout submission defense to prevent completion
-- **[[Space Creation]]** (Prerequisite): Space Creation provides the fundamental movement patterns necessary for executing submission escapes
-- **[[Defensive Framing]]** (Complementary): Defensive Framing specializes in structural principles that support submission defense positioning
-- **[[Escape Fundamentals]]** (Prerequisite): Escape Fundamentals teaches basic movement mechanics that form the foundation of submission defenses
-- **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics provides the specific shrimping and bridging techniques used in most submission escapes
-- **[[Pressure Reduction]]** (Complementary): Pressure Reduction techniques decrease opponent's control, making submission escapes more feasible
-- **[[Defensive Posture]]** (Prerequisite): Defensive Posture establishes body positioning that protects vulnerable targets from submission attacks
-- **[[Chin Protection]]** (Complementary): Chin Protection is a specific application of defensive concepts focused on choke prevention
-- **[[Hand Fighting from Back]]** (Complementary): Hand Fighting from Back applies submission defense principles to the specific context of back control escapes
-- **[[Armbar Escape]]** (Extension): Armbar Escape applies submission defense concepts to the specific mechanics of armbar situations
-- **[[RNC Defense]]** (Extension): RNC Defense specializes submission defense principles for rear naked choke scenarios
-- **[[Connection Breaking]]** (Complementary): Connection Breaking disrupts opponent's control structure, supporting submission escape opportunities
-- **[[Position-Over-Submission Approach]]** (Alternative): Position-Over-Submission philosophy informs when to prioritize positional escape over defending submissions in place
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Defend armbars through arm positioning, americanas through elbow connection to ribs, and collar chokes through chin tucking while creating frames to escape position
 
 **Back Control**: Protect neck through hand fighting and chin tucking, prevent body triangle lock by controlling hooks, and create escape angles through hip movement and shoulder pressure
@@ -261,9 +239,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Recognize submission threat through opponent's grips, body positioning, or weight distribution**: Immediately assess which submission is being set up and determine the appropriate defensive priority (prevent setup vs defend position vs escape submission)
 2. **Evaluate current defensive posture and identify vulnerable targets being attacked**: Establish protective positioning for threatened limb or neck (chin tuck, elbow connection, leg positioning) while maintaining structural frames
 3. **Determine if submission can be prevented through grip fighting or if position must be defended**: Execute appropriate grip breaks or hand fighting to disrupt submission setup, or establish defensive frames if submission is already initiated
@@ -276,9 +254,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Panic responses and explosive scrambling without technical structure
   - **Consequence**: Wastes energy, creates additional submission opportunities, and often leads to worse positions or completed submissions due to lack of systematic defense
   - **Correction**: Maintain composure and execute technical defenses step-by-step, focusing on specific defensive tasks (protect neck, create frame, escape hip) rather than general struggling
@@ -307,9 +285,9 @@ Submission Defense Concepts represent the foundational framework for surviving a
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Submission Survival Drills** (Focus: Building muscle memory for late-stage submission defenses and developing composure under pressure when submissions are close to completion)
 Partner starts with submission nearly locked in, defender practices technical escapes from high-danger positions with controlled resistance, focusing on specific defensive sequences
 
@@ -332,9 +310,9 @@ Partner applies submission slowly with pause points, defender identifies optimal
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes common submissions after they are fully locked in, often requiring partner or coach notification
 - Executes basic defenses (chin tuck for chokes, clasped hands for armbars) but often too late or with inconsistent technique
@@ -371,10 +349,29 @@ Partner applies submission slowly with pause points, defender identifies optimal
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Submission Defense]]** (Extension): Submission Defense Concepts provides the theoretical framework while Submission Defense covers specific technical applications
+- **[[Escape Hierarchy]]** (Complementary): Escape Hierarchy defines the priority system for which escapes to attempt first in multi-threat scenarios
+- **[[Frame Creation]]** (Complementary): Frame Creation is a core mechanical skill used throughout submission defense to prevent completion
+- **[[Space Creation]]** (Prerequisite): Space Creation provides the fundamental movement patterns necessary for executing submission escapes
+- **[[Defensive Framing]]** (Complementary): Defensive Framing specializes in structural principles that support submission defense positioning
+- **[[Escape Fundamentals]]** (Prerequisite): Escape Fundamentals teaches basic movement mechanics that form the foundation of submission defenses
+- **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics provides the specific shrimping and bridging techniques used in most submission escapes
+- **[[Pressure Reduction]]** (Complementary): Pressure Reduction techniques decrease opponent's control, making submission escapes more feasible
+- **[[Defensive Posture]]** (Prerequisite): Defensive Posture establishes body positioning that protects vulnerable targets from submission attacks
+- **[[Chin Protection]]** (Complementary): Chin Protection is a specific application of defensive concepts focused on choke prevention
+- **[[Hand Fighting from Back]]** (Complementary): Hand Fighting from Back applies submission defense principles to the specific context of back control escapes
+- **[[Armbar Escape]]** (Extension): Armbar Escape applies submission defense concepts to the specific mechanics of armbar situations
+- **[[RNC Defense]]** (Extension): RNC Defense specializes submission defense principles for rear naked choke scenarios
+- **[[Connection Breaking]]** (Complementary): Connection Breaking disrupts opponent's control structure, supporting submission escape opportunities
+- **[[Position-Over-Submission Approach]]** (Alternative): Position-Over-Submission philosophy informs when to prioritize positional escape over defending submissions in place
+
+
+### Related Content
 - [[Escape Hierarchy]] (Principle) - Defines prioritization system for which escapes to attempt first in multi-threat scenarios
 - [[Frame Creation]] (Principle) - Core mechanical skill used throughout submission defense to prevent completion and create escape space
 - [[Armbar Escape]] (Principle) - Specific application of submission defense concepts to armbar situations from various positions
@@ -388,15 +385,6 @@ Partner applies submission slowly with pause points, defender identifies optimal
 - [[Triangle Choke]] (Submission) - Submission requiring posture maintenance and strategic decision-making about when to roll versus stack
 - [[Kimura]] (Submission) - Shoulder lock requiring grip fighting defense and understanding of when to roll with submission versus resist
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Submission defense is fundamentally about understanding the mechanical requirements for submission completion and systematically denying each one. Every submission requires specific body positioning, specific angles, and specific pressure application to work. Your defensive task is to identify which of these elements your opponent is trying to establish and prevent them in order of priority. For example, an armbar requires arm isolation, hip placement near the shoulder, leg positioning across the chest, and backward pressure with hip extension. If you prevent arm isolation through hand clasping, the subsequent steps become impossible. This is the essence of hierarchical defense - stop the attack at its earliest point. When prevention fails, your defensive response must match the stage of the attack. Early-stage defenses focus on posture and position, mid-stage defenses emphasize frames and space creation, and late-stage defenses require explosive commitment to escape sequences. The highest level of submission defense is positioning your game so that submissions are difficult to set up in the first place, minimizing the situations where you must defend with reactive techniques.
-- **Gordon Ryan**: In competition, submission defense is what separates competitors who can maintain their game under pressure from those who fold when pushed. I've built my entire approach around the idea that I can take calculated risks in my attacks because my submission defense is reliable enough to recover if things go wrong. The key is training your defenses with the same intensity you train your attacks - most people drill submissions hundreds of times but only defend them when caught in sparring. I do specific submission defense work regularly, starting from the worst possible position and working to escape against fully resisting opponents. The mental component is huge too - when you know your defenses work, you can stay calm and execute technique instead of panicking. Against elite opponents, your defense has to be proactive, not reactive. You need to recognize submission setups two or three moves before they happen and shut them down through positioning and grip fighting. If you're waiting until the submission is locked to start defending, you're already in trouble against high-level guys who finish quickly and efficiently.
-- **Eddie Bravo**: Submission defense in no-gi is a completely different animal because there's nowhere to hide - no gi material to stall with, no collar grips to prevent. This forces you to develop real defensive skills based on frames, angles, and timing rather than relying on grip fighting. The 10th Planet system emphasizes specific defensive positions for common attacks, like the defense sequence for back control that protects against rear naked chokes while maintaining the ability to escape. One thing people miss is that defense and offense are connected - the best submission defense often involves threatening your own submissions to force your opponent to adjust their attack. If I'm defending an armbar, I'm thinking about triangle opportunities or sweep options that force my opponent to choose between finishing their attack or defending mine. We also train a lot of unusual submissions, which means when students defend them regularly, they develop pattern recognition for weird positions that surprise other people. The creativity aspect extends to defense too - sometimes the best defense is something unconventional that your opponent hasn't prepared for, like spinning in unexpected directions or using unorthodox escapes that work because they're unfamiliar.
 
 </section>
 

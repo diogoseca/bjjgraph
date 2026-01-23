@@ -8,7 +8,7 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -497,24 +497,6 @@ Hold high mount position for extended periods while partner attempts to survive 
 
 **Average Time in Position**: 45-90 seconds before submission or advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-High mount represents the optimal position for the mount attack sequence because it eliminates the bottom player's most powerful escape mechanism - the bridge. When you walk your knees high towards the armpits, you remove the opponent's ability to generate upward force through hip extension. This is biomechanically critical because the bridge depends on creating an angle between the hips and shoulders that allows explosive elevation. By positioning your weight on their upper chest and sternum, you compress this angle to near zero degrees, making the bridge mechanically impossible. The systematic progression must be: establish high mount control, isolate one arm through constant threat and pressure, execute armbar or transition to S-mount based on their defensive response. The key principle is patience combined with constant pressure - never rush the submission, allow the position to create the submission opportunity through sustained dominance.
-
-### Gordon Ryan
-
-High mount is the final checkpoint before submission in my competition game. Once I establish high mount, I view it as a guaranteed finish within 60-90 seconds if I maintain proper positioning. The psychological pressure of being so completely dominated often causes opponents to make critical defensive mistakes or adopt passive defense that only delays the inevitable. In competition, I prefer to transition immediately to S-mount when high mount is established because it offers even greater control with similar submission options and eliminates the small risk of bridge escapes. The mental warfare aspect is crucial - when an opponent feels your weight high on their chest, restricting breathing and eliminating all escape options, their will to resist diminishes rapidly. I use high mount to force opponent mistakes rather than forcing submissions, making the finish a natural conclusion of sustained positional dominance.
-
-### Eddie Bravo
-
-While the 10th Planet system emphasizes back control and leg attacks over traditional mount positions, I recognize high mount as extremely effective for submission hunting, especially in gi competition where collar attacks become devastating. The key innovation is using high mount as an entry point to gift wrap position and technical mount variations rather than staying static. I teach students to stay active and mobile from high mount - opponent movements create submission openings, so constant motion and threat generation is more valuable than rigid control. When the opponent defends the armbar by pulling their elbow in tight, that's your opportunity to transition to gift wrap or swim for the back take. High mount should feel dynamic and flowing rather than heavy and static - you're surfing on top of their defensive movements, using their escape attempts to advance position or catch submissions. The psychological element is powerful too - making opponent feel hopeless through sustained dominance often creates the mental surrender that precedes physical submission.
 
 </section>
 

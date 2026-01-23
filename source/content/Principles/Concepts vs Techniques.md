@@ -8,7 +8,7 @@ description: "Master the critical distinction between BJJ concepts and technique
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Techniques are specific movement sequences; concepts are transferable principles that guide multiple techniques
 - Conceptual understanding enables adaptation and innovation when specific techniques are unavailable or countered
 - The same concept can manifest differently across various positions while maintaining core principles
@@ -183,9 +183,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Pattern Recognition Across Positions**: The ability to identify common conceptual principles operating in different positions and situations. This involves recognizing that the same fundamental concept—such as breaking connection or creating frames—manifests differently in mount escape, guard retention, and back defense, but serves similar strategic purposes in each context.
 
 **Principle Extraction from Techniques**: The capacity to analyze a specific technique and identify the underlying concepts that make it effective. Rather than simply memorizing movement sequences, practitioners learn to ask why each step works, what principles are being applied, and how those principles might transfer to other situations.
@@ -206,26 +206,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is essential before grasping the concept-technique distinction, as it provides the strategic framework within which both operate. Techniques are methods for changing position, while concepts explain why certain positional changes are valuable.
-- **[[System Building]]** (Extension): System building represents the practical application of conceptual thinking, organizing techniques into coherent systems based on shared principles. Understanding concepts versus techniques is prerequisite to building effective systems.
-- **[[Maximum Efficiency Principle]]** (Complementary): Maximum efficiency is itself a meta-concept that informs both technique selection and conceptual prioritization. Understanding this relationship helps practitioners recognize that concepts exist at different levels of abstraction.
-- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance methodology must account for the distinction between technical and conceptual development, as these require different training approaches. Technical drilling develops mechanical proficiency, while conceptual understanding requires reflective practice and varied application.
-- **[[Game Planning]]** (Extension): Effective game planning requires both technical repertoire and conceptual understanding. The concept-technique distinction informs how practitioners organize their games around principles rather than isolated movements.
-- **[[Drilling Methodology]]** (Complementary): Drilling methodology must be adapted based on whether the goal is technical refinement or conceptual understanding. Technique drilling emphasizes repetition and precision, while conceptual drilling emphasizes variation and adaptive problem-solving.
-- **[[Biomechanical Principles]]** (Prerequisite): Biomechanical principles represent foundational concepts that underlie all technique execution. Understanding body mechanics is essential for extracting conceptual knowledge from technical practice.
-- **[[Leverage Principles]]** (Prerequisite): Leverage is a core concept that operates across all positions and techniques. Understanding leverage principles helps practitioners recognize why techniques work and how to adapt them.
-- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy is a conceptual framework that informs countless techniques. Understanding this relationship demonstrates how concepts organize and prioritize technical applications.
-- **[[Guard Passing]]** (Extension): Guard passing principles represent conceptual frameworks that unite diverse passing techniques. This exemplifies how concepts provide coherence to otherwise disparate technical knowledge.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: In closed guard, techniques include specific sweeps and submissions, while concepts include posture breaking, angle creation, and connection control. Understanding this distinction allows practitioners to adapt when their preferred techniques are defended, applying the same concepts through alternative movements.
 
 **Mount**: Mount attacks involve specific techniques like americana or armbar, but underlying concepts of weight distribution, base isolation, and submission chains guide when and how to apply each technique. Conceptual understanding enables seamless transitions between attacks based on opponent reactions.
@@ -262,9 +245,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **When learning a new technique, identify what problem it solves**: Before drilling mechanics, understand the strategic purpose—what positional or tactical problem does this technique address? This establishes the conceptual context for the movement.
 2. **Extract the underlying principles that make the technique effective**: Analyze each step of the technique to identify which concepts are being applied—frame creation, connection breaking, base disruption, etc. Ask why each movement works, not just how to execute it.
 3. **Identify other positions where similar concepts apply**: Look for pattern recognition opportunities—where else might these same principles be relevant? This builds cross-positional conceptual understanding rather than position-specific technique collection.
@@ -277,9 +260,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Treating all techniques as equally important without understanding conceptual hierarchies
   - **Consequence**: Practitioners accumulate large technique collections without strategic organization, unable to access appropriate movements under pressure because they lack conceptual frameworks for selection
   - **Correction**: Organize techniques based on shared concepts and strategic importance, recognizing that some techniques represent fundamental principles while others are specialized variations
@@ -305,9 +288,9 @@ Mastering this distinction requires a shift in learning methodology. Rather than
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Conceptual Drilling with Variation** (Focus: Develops pattern recognition and conceptual understanding by highlighting principles across different technical applications)
 Rather than drilling a single technique repetitively, practice multiple techniques that apply the same concept in different ways. For example, drill various sweeps that all use the principle of base disruption, explicitly noting the shared concept.
 
@@ -330,9 +313,9 @@ Structure sparring rounds around specific concepts rather than positions or tech
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Focused primarily on learning and executing individual techniques with mechanical accuracy
 - Struggles to adapt when preferred techniques don't work, often attempting the same movement repeatedly
@@ -369,10 +352,24 @@ Structure sparring rounds around specific concepts rather than positions or tech
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is essential before grasping the concept-technique distinction, as it provides the strategic framework within which both operate. Techniques are methods for changing position, while concepts explain why certain positional changes are valuable.
+- **[[System Building]]** (Extension): System building represents the practical application of conceptual thinking, organizing techniques into coherent systems based on shared principles. Understanding concepts versus techniques is prerequisite to building effective systems.
+- **[[Maximum Efficiency Principle]]** (Complementary): Maximum efficiency is itself a meta-concept that informs both technique selection and conceptual prioritization. Understanding this relationship helps practitioners recognize that concepts exist at different levels of abstraction.
+- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance methodology must account for the distinction between technical and conceptual development, as these require different training approaches. Technical drilling develops mechanical proficiency, while conceptual understanding requires reflective practice and varied application.
+- **[[Game Planning]]** (Extension): Effective game planning requires both technical repertoire and conceptual understanding. The concept-technique distinction informs how practitioners organize their games around principles rather than isolated movements.
+- **[[Drilling Methodology]]** (Complementary): Drilling methodology must be adapted based on whether the goal is technical refinement or conceptual understanding. Technique drilling emphasizes repetition and precision, while conceptual drilling emphasizes variation and adaptive problem-solving.
+- **[[Biomechanical Principles]]** (Prerequisite): Biomechanical principles represent foundational concepts that underlie all technique execution. Understanding body mechanics is essential for extracting conceptual knowledge from technical practice.
+- **[[Leverage Principles]]** (Prerequisite): Leverage is a core concept that operates across all positions and techniques. Understanding leverage principles helps practitioners recognize why techniques work and how to adapt them.
+- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy is a conceptual framework that informs countless techniques. Understanding this relationship demonstrates how concepts organize and prioritize technical applications.
+- **[[Guard Passing]]** (Extension): Guard passing principles represent conceptual frameworks that unite diverse passing techniques. This exemplifies how concepts provide coherence to otherwise disparate technical knowledge.
+
+
+### Related Content
 - [[Positional Hierarchy]] (Principle) - Provides the strategic framework within which both concepts and techniques operate—understanding positional value is prerequisite to evaluating technical effectiveness
 - [[System Building]] (Principle) - Represents practical application of conceptual thinking, organizing techniques into coherent systems based on shared principles
 - [[Maximum Efficiency Principle]] (Principle) - Meta-concept that informs both technique selection and conceptual prioritization, demonstrating that concepts exist at different levels of abstraction
@@ -384,15 +381,6 @@ Structure sparring rounds around specific concepts rather than positions or tech
 - [[Biomechanical Principles]] (Principle) - Foundational concepts that underlie all technique execution and enable conceptual understanding
 - [[Leverage Principles]] (Principle) - Core concept operating across all positions, exemplifying how principles transcend specific technical applications
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The distinction between concepts and techniques represents perhaps the most critical epistemological framework in jiu-jitsu education. A technique is a specific instance of principle application—a particular answer to a particular problem. A concept is the underlying principle itself, which can generate multiple answers to multiple problems. The tragedy of most jiu-jitsu education is that we teach techniques as discrete, disconnected units without making explicit the conceptual principles that unite them. This creates practitioners with large vocabularies but no grammar—they can recite individual words but cannot construct coherent sentences. True mastery requires recognizing that techniques are surface-level manifestations of deeper principles. When you understand the concept of breaking opponent structure, you can generate countless techniques spontaneously. When you only know techniques mechanically, you are trapped by your limited repertoire. The transition from technique-focused to concept-focused training marks the boundary between intermediate and advanced development. Before this transition, you are accumulating knowledge; after it, you are generating understanding. This is not to diminish technical proficiency—mechanics matter enormously. But mechanical skill without conceptual understanding is inherently limited. The goal is integration: conceptual frameworks guiding technical application, with technical refinement providing the vehicle for conceptual expression. This integration cannot be rushed. Beginners must first build a sufficient technical foundation before conceptual patterns become visible. Attempting to teach concepts abstractly, disconnected from technical practice, produces superficial understanding. But once technical foundations exist, the deliberate extraction and articulation of underlying concepts accelerates development dramatically. The instructor's responsibility is to make implicit conceptual knowledge explicit, naming and explaining the principles at work in every technique. This metacognitive practice—thinking about thinking, analyzing why movements work—is what transforms practitioners from mechanical executors into strategic thinkers.
-- **Gordon Ryan**: In competition, the difference between conceptual and technical understanding shows up immediately under pressure. Guys who only know techniques mechanically freeze when their preferred moves get shut down. They try the same thing harder instead of adapting because they don't understand the principle behind the movement. I can't tell you how many times I've seen this at high levels—someone has a killer technique in the gym, but in competition when it gets countered, they have no backup because they never understood the concept. My approach is building systems around concepts, not just collecting techniques. Take my passing game—it's not about knowing a hundred different passes. It's about understanding the core concepts of distance management, posture control, and pressure application. Once you get those concepts, you can adapt your passing to whatever guard you're facing. The technique is just how you express the concept in that specific situation. When I prepare for opponents, I'm not worried about their specific techniques. I'm analyzing their conceptual approach. What principles are they operating from? What's their strategic framework? Then I can counter not just individual techniques but their entire game plan because I'm addressing the concepts, not the surface-level movements. The training has to reflect this. I don't just drill techniques repetitively—I drill concepts with variation. If I'm working on back attacks, I'm not just hitting the same rear naked choke entry fifty times. I'm practicing the concept of defensive hand control through different grips, angles, and setups. That way, in competition, I'm not locked into one technique—I'm flowing through whatever expression of the concept works in that moment. This is what separates world-class grapplers from good ones. Good grapplers have techniques. Great grapplers have conceptual frameworks that let them solve problems in real-time. You can't prepare for every specific situation you'll face, but if your concepts are sound, you can handle anything.
-- **Eddie Bravo**: The beautiful thing about understanding concepts versus just techniques is that it opens up infinite creativity. When you're stuck on techniques, you're basically copying what everyone else does. But when you understand the underlying concepts, you can innovate, create new stuff, find your own path. That's how I developed the whole 10th Planet system—I wasn't just learning rubber guard as a technique, I was exploring the concepts of breaking posture, controlling distance, creating angles from guard. Once I understood those concepts, I could develop all these different paths and positions that apply the same principles in new ways. Most people get stuck because they're taught techniques like recipes—do this, then this, then this. But what happens when the opponent doesn't cooperate with step two? If you only know the recipe, you're screwed. If you understand the cooking principles, you can improvise. That's the difference. I always tell my students, don't just learn the lockdown as a specific technique. Understand the concept of what it's doing—restricting mobility, controlling distance, creating angle opportunities. Then you can apply that concept from different positions, create your own variations, develop your own game. The concept is the seed; techniques are just different ways that seed can grow. And here's the thing about innovation—you can't innovate if you're just copying techniques. Innovation comes from understanding concepts deeply enough to apply them in new contexts. All the creative stuff I've developed came from conceptual understanding, not technique collection. When you understand concepts, you become a creator, not just a consumer. You can look at positions and problems and generate solutions based on principles, not just rely on techniques someone showed you. That's where the real freedom in jiu-jitsu comes from. It's the difference between speaking a language and just memorizing phrases from a phrasebook. Techniques are the phrases; concepts are the grammar that lets you create infinite new sentences.
 
 </section>
 

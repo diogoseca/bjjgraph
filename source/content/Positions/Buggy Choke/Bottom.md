@@ -8,7 +8,7 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -412,24 +412,6 @@ Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75
 
 **Average Time in Position**: 15-30 seconds before submission or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The defensive problem presented by the buggy choke is fundamentally structural rather than technical. When we analyze the position biomechanically, the threading arm creates a lever system where your own turtle posture becomes the mechanism that facilitates the choke. The critical insight for defensive players is understanding that the traditional turtle defensive priorities—maintaining base, keeping elbows tight, protecting the back—actually accelerate this particular submission. The defensive window exists primarily in the pre-threading phase where proprioceptive awareness of the opponent's arm movement allows immediate postural adjustments or proactive escape initiation. Once both grips are secured with proper depth, the position has transitioned from 'defendable with good technique' to 'extremely low percentage escape requiring opponent error.' From a training perspective, bottom players must develop the discipline to abandon turtle position proactively when buggy choke threats emerge rather than attempting to survive in a structurally compromised defensive position.
-
-### Gordon Ryan
-
-In competition, getting caught in a developed buggy choke usually means you've already made multiple defensive errors. The high-level defensive approach is preventing the position from ever materializing by maintaining aggressive turtle posture, keeping the near elbow clamped tight, and being willing to sit to guard immediately when you feel threading attempts. Against elite competitors, trying to strip grips once the position is set is extremely low percentage because they're not going to give you the time or space needed for grip fighting. My defensive priority order is: prevent threading, strip first grip aggressively, sit to guard immediately if first grip establishes, accept back control if both grips set. The key competitive insight is that sometimes accepting back control with your defensive structure intact is smarter than allowing the buggy choke to develop fully, because back defense has higher success rates than deep buggy choke escapes. This represents good risk assessment—choosing the less dangerous of two bad options rather than stubbornly defending a position that's already lost.
-
-### Eddie Bravo
-
-The buggy choke is one of those positions that shows why passive turtle defense doesn't work in modern jiu-jitsu. In 10th Planet training, we teach that turtle should always be transitional—you're either escaping to guard immediately or you're accepting that you're about to defend worse positions like back control or twister system attacks. When someone starts threading for the buggy choke, you have maybe one to two seconds to either strip that grip or start your escape movement. After that window closes, you're basically choosing between getting choked or getting your back taken, and neither option is good. The defensive mindset needs to be aggressive and proactive rather than reactive. Instead of waiting to feel the choke tighten and then trying to defend, you should be sitting to half guard or rolling to deep half the moment you feel that threading motion. In no-gi especially, where the grips are harder to strip but also slightly less secure, that immediate explosive escape movement is often your only realistic defense once the threading starts.
 
 </section>
 

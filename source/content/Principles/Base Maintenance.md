@@ -8,7 +8,7 @@ description: "Understand Base Maintenance in BJJ. Learn stability principles, we
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Distribute weight optimally across multiple support points
 - Maintain proper alignment between base points and center of gravity
 - Adapt base configuration dynamically in response to opponent's actions
@@ -179,9 +179,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Weight Distribution Management**: The ability to consciously allocate body weight across available support points to create optimal stability. This involves understanding how to shift weight between hands, knees, feet, and hips depending on positional requirements and opponent pressure.
 
 **Postural Alignment**: Maintaining proper spinal alignment and head position relative to base points to ensure center of gravity remains within the stability zone. This includes keeping the spine neutral and avoiding overextension that compromises structural integrity.
@@ -202,25 +202,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Posture Breaking]]** (Complementary): Base maintenance and posture breaking are opposing concepts that define offensive and defensive priorities. Understanding base maintenance enhances ability to recognize and exploit base vulnerabilities in opponents.
-- **[[Weight Distribution]]** (Prerequisite): Weight distribution is the foundational component of base maintenance. Effective base maintenance requires sophisticated understanding and application of weight distribution principles across all positions.
-- **[[Biomechanical Principles]]** (Prerequisite): Base maintenance is fundamentally an applied biomechanics concept. Understanding leverage, force vectors, and structural alignment is essential for developing sophisticated base maintenance skills.
-- **[[Off-Balancing]]** (Alternative): Base maintenance represents the defensive counter to off-balancing techniques. These concepts exist in dynamic opposition, with base maintenance skills directly neutralizing off-balancing attempts.
-- **[[Sweep Mechanics]]** (Complementary): Understanding base maintenance provides insight into sweep mechanics from both offensive and defensive perspectives. Strong base maintenance neutralizes sweep attempts, while recognizing base weaknesses enables sweep execution.
-- **[[Posture Up]]** (Extension): Posture Up represents base maintenance applied specifically to guard positions. It extends base maintenance principles to the vertical dimension of maintaining upright posture against breakdown attempts.
-- **[[Defensive Frame]]** (Complementary): Defensive framing works synergistically with base maintenance to create comprehensive defensive structure. Frames manage distance while base provides stability.
-- **[[Pressure Application]]** (Extension): Effective pressure application requires solid base maintenance as its foundation. Quality of applied pressure is directly proportional to stability of the base structure supporting it.
-- **[[Guard Retention]]** (Complementary): Guard retention relies heavily on base maintenance principles adapted to bottom positions. Maintaining hip mobility and connection points follows same fundamental concepts as top base maintenance.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Maintaining wide knee base with proper posture, distributing weight to prevent sweeps while keeping hands ready for grip fighting. Base width prevents hip bump and scissor sweeps.
 
 **Combat Base**: Establishing tripod structure with one knee down and opposite foot posted, creating stable platform for passing while maintaining mobility. Weight distribution prevents opponent from disrupting base.
@@ -257,9 +241,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and stability requirements**: Evaluate whether position demands maximum stability (defensive) or mobile base (offensive/transitional). Determine primary threats to base from opponent.
 2. **Identify available support points**: Recognize which body parts can serve as base points (hands, knees, feet, hips, head). Consider mat contact and connection points with opponent's body.
 3. **Establish optimal base configuration**: Create appropriate base width and structure based on stability needs. Wider base for maximum stability, narrower base for mobility. Ensure support points form stable geometric structure.
@@ -272,9 +256,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Creating excessively wide base that limits mobility
   - **Consequence**: While maximizing stability, overly wide base prevents necessary movement and allows opponent to establish controls or execute techniques unopposed.
   - **Correction**: Calibrate base width to task requirements. Use wider base only when stability is primary concern. Narrow base when mobility is needed for passing, transitioning, or attacking.
@@ -297,9 +281,9 @@ Base Maintenance represents the fundamental skill of establishing and preserving
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Static Base Stress Testing** (Focus: Developing awareness of base stability thresholds and understanding how much pressure properly configured base can withstand before requiring adjustment.)
 Partner applies progressively increasing directional pressure while practitioner maintains base without moving. Tests base strength and weight distribution under controlled conditions.
 
@@ -322,9 +306,9 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Establishes basic wide base in static positions but struggles to maintain under pressure
 - Recognizes when base is completely compromised but misses early warning signs
@@ -362,10 +346,23 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Posture Breaking]]** (Complementary): Base maintenance and posture breaking are opposing concepts that define offensive and defensive priorities. Understanding base maintenance enhances ability to recognize and exploit base vulnerabilities in opponents.
+- **[[Weight Distribution]]** (Prerequisite): Weight distribution is the foundational component of base maintenance. Effective base maintenance requires sophisticated understanding and application of weight distribution principles across all positions.
+- **[[Biomechanical Principles]]** (Prerequisite): Base maintenance is fundamentally an applied biomechanics concept. Understanding leverage, force vectors, and structural alignment is essential for developing sophisticated base maintenance skills.
+- **[[Off-Balancing]]** (Alternative): Base maintenance represents the defensive counter to off-balancing techniques. These concepts exist in dynamic opposition, with base maintenance skills directly neutralizing off-balancing attempts.
+- **[[Sweep Mechanics]]** (Complementary): Understanding base maintenance provides insight into sweep mechanics from both offensive and defensive perspectives. Strong base maintenance neutralizes sweep attempts, while recognizing base weaknesses enables sweep execution.
+- **[[Posture Up]]** (Extension): Posture Up represents base maintenance applied specifically to guard positions. It extends base maintenance principles to the vertical dimension of maintaining upright posture against breakdown attempts.
+- **[[Defensive Frame]]** (Complementary): Defensive framing works synergistically with base maintenance to create comprehensive defensive structure. Frames manage distance while base provides stability.
+- **[[Pressure Application]]** (Extension): Effective pressure application requires solid base maintenance as its foundation. Quality of applied pressure is directly proportional to stability of the base structure supporting it.
+- **[[Guard Retention]]** (Complementary): Guard retention relies heavily on base maintenance principles adapted to bottom positions. Maintaining hip mobility and connection points follows same fundamental concepts as top base maintenance.
+
+
+### Related Content
 - [[Posture Breaking]] (Principle) - Opposing concept that targets base maintenance vulnerabilities from offensive perspective
 - [[Weight Distribution]] (Principle) - Foundational component concept that underlies effective base maintenance
 - [[Combat Base]] (Position) - Primary position exemplifying base maintenance principles in passing context
@@ -379,15 +376,6 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 - [[Posture Up]] (Principle) - Specialized application of base maintenance in guard passing scenarios
 - [[Sweep Mechanics]] (Principle) - Concept that targets base vulnerabilities, understanding both concepts enhances performance
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Base maintenance represents one of the most scientifically precise applications of biomechanical principles in Brazilian Jiu-Jitsu. The concept fundamentally concerns the relationship between an individual's center of gravity and the geometric area defined by their support points - what we term the 'stability polygon.' Effective base maintenance requires understanding that stability is not a binary state but rather a continuum that must be calibrated to task requirements. The common error among developing grapplers is treating maximum stability as always optimal, when in reality we must create what I call 'functional base' - the minimum stability necessary to accomplish the current objective while maintaining maximum mobility and offensive capability. This requires sophisticated understanding of force vectors, weight distribution mechanics, and the dynamic relationship between base configuration and technical execution. The truly advanced practitioner develops the ability to make preemptive base adjustments based on reading opponent intentions, creating a defensive base structure before the attack is fully manifested, which represents the highest expression of base maintenance skill.
-- **Gordon Ryan**: In competition, base maintenance separates winners from losers more than any single technical factor. I've won countless matches not through superior technique execution but simply through maintaining better base than my opponent throughout the match. The key understanding that transformed my base maintenance was recognizing it as a dynamic, constantly evolving system rather than static positions. Against elite opponents, you cannot simply establish a wide base and expect it to remain effective - they will constantly probe, adjust pressure angles, and create situations where your base becomes vulnerable. I focus heavily on what I call 'preemptive base adjustment' where I'm modifying my base structure before the opponent's attack fully develops, staying one step ahead of their off-balancing attempts. This requires deep positional experience and the ability to recognize the subtle setup movements that precede sweep attempts. In my guard passing, base maintenance enables me to apply sustained pressure without becoming vulnerable to counters - I can drive forward aggressively because my base structure provides safety if the pass fails. The integration of offensive pressure with defensive base awareness is what allows high-level competitors to maintain relentless attacks without getting reversed.
-- **Eddie Bravo**: Traditional base maintenance concepts get challenged heavily in the 10th Planet system because we're often working from positions where conventional base doesn't exist. In rubber guard, lockdown, and truck positions, you're creating what I call 'connected base' where your stability comes from integration with the opponent's structure rather than independent support points. This requires completely rethinking base principles - instead of trying to maintain base separate from your opponent, you're using their body as part of your base structure. It's a more sophisticated concept but incredibly powerful once you understand it. In our system, we also emphasize base manipulation more than base maintenance in some situations - actively disrupting your own base to create momentum for techniques like the vaporizer or electric chair. This violates conventional wisdom but works because the momentum generated by controlled base disruption exceeds what you could generate from static base. However, this only works if you have exceptional base recovery skills and deep understanding of when temporary base sacrifice is worth the offensive opportunity created. For most students, I emphasize mastering conventional base maintenance first before experimenting with these more advanced concepts of using base dynamically as an offensive tool rather than purely defensive concern.
 
 </section>
 

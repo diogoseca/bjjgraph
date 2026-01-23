@@ -25,11 +25,26 @@
   align-items: center;
   justify-content: center;
 
+  a {
+    color: var(--gray);
+    font-weight: 400;
+
+    &:hover {
+      color: var(--secondary) !important;
+    }
+
+    .breadcrumb-tld {
+      font-size: 0.8em;
+      opacity: 0.7;
+    }
+  }
+
   p {
     margin: 0;
     margin-left: 0.5rem;
     padding: 0;
     line-height: normal;
+    color: var(--gray);
   }
 
   @media all and ($mobile) {

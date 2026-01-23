@@ -8,7 +8,7 @@ description: "Master Head Control in BJJ. Learn biomechanical principles, contro
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Control the head to control the spine and subsequently the entire body structure
 - Establish head position that limits opponent's ability to generate effective frames or escape mechanics
 - Apply pressure through the head to disrupt opponent's postural alignment and base
@@ -179,9 +179,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Establishing Initial Head Contact**: The ability to first secure contact with the opponent's head through grips, frames, or positional pressure. This foundational skill involves recognizing opportunities when the head becomes accessible and efficiently converting those moments into control points before the opponent can establish defensive posture.
 
 **Directional Head Positioning**: Understanding how to position the opponent's head in specific directions relative to their body to maximize control effectiveness. This includes pushing the head away from the hips to prevent guard recovery, pulling it toward submission angles, or pinning it to eliminate rotation and escape options.
@@ -202,25 +202,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Control Point Hierarchy]]** (Prerequisite): Head control exists within the broader control point hierarchy as typically the highest-value single control point. Understanding control point hierarchy provides the framework for when to prioritize head control versus other control points and how to coordinate multiple control points effectively.
-- **[[Posture Breaking]]** (Complementary): Head control and posture breaking work synergistically, as controlling the head is often the most effective method of breaking opponent posture. Understanding posture breaking principles enhances head control application by clarifying which head positions most effectively collapse opponent structure.
-- **[[Chin Protection]]** (Alternative): Chin protection represents the primary defensive response to head control attempts, particularly against choke attacks. Understanding both concepts creates the offensive-defensive relationship where head control seeks to overcome chin protection, while chin protection seeks to neutralize head control effectiveness.
-- **[[Frame Management]]** (Extension): Head control often serves as the mechanism that prevents opponent from establishing effective frames. Advanced frame management understanding includes recognizing how head control eliminates opponent's ability to create space through frames and how to maintain head control while countering framing attempts.
-- **[[Leverage Principles]]** (Prerequisite): Effective head control application relies on fundamental leverage principles, as the head serves as a lever arm for controlling the entire body. Understanding leverage mechanics explains why head control provides such comprehensive body control despite being a single point of contact.
-- **[[Forward Pressure]]** (Complementary): Forward pressure and head control combine powerfully in top positions, where driving pressure through the opponent's head collapses their defensive structure. Understanding forward pressure application enhances head control effectiveness by clarifying optimal pressure vectors and weight distribution.
-- **[[Cross Face Control]]** (Extension): Cross-face represents one of the most common and effective applications of head control principles in top positions, serving as a specialized technique within the broader head control framework.
-- **[[Connection Principles]]** (Prerequisite): Head control relies on understanding connection principles to maintain contact throughout opponent movements and reactions. Strong connection principles inform how to adjust grip and pressure to maintain head control despite dynamic resistance.
-- **[[Defensive Posture]]** (Alternative): Defensive posture represents the opponent's attempt to maintain head position and prevent head control establishment. Understanding both offensive head control and defensive posture creates the complete tactical picture.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: From closed guard bottom, head control prevents opponent from breaking posture and establishing offensive grips. Controlling the head by pulling it down or to the side eliminates the opponent's ability to create the upright posture necessary for guard opening and passing, while positioning the head for sweep and submission setups.
 
 **Side Control**: In side control, head control through cross-face pressure or head-and-arm positioning prevents opponent's ability to turn into you or create frames. The head control establishes the foundational pressure that pins the shoulder and eliminates hip escape mechanics while setting up transitions to mount or submission attacks.
@@ -253,9 +237,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess head accessibility and current control status**: Evaluate whether opponent's head is currently controlled, vulnerable, or protected. Identify which type of head control is possible from current position (cross-face, front headlock, chin strap, head-and-arm, etc.) and whether head control should be the immediate priority.
 2. **Determine optimal head position for current objective**: Based on whether your goal is position maintenance, transition, or submission, select the head position that best supports that objective. For position maintenance, position the head away from escape routes. For submissions, position the head toward submission angles. For transitions, maintain head control through the movement.
 3. **Establish initial head contact and grip configuration**: Secure first contact with opponent's head through appropriate grips, frames, or pressure points. If opponent is defending head position, use grip fighting, pressure, or positional adjustment to create head access before attempting to establish full control.
@@ -268,9 +252,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Releasing head control during transitions or submission attempts
   - **Consequence**: Opponent recovers posture, establishes frames, or escapes position during the brief moment when head control is lost. This is one of the most common reasons for failed techniques in competition, as the transition moment when head control is released creates the escape window.
   - **Correction**: Practice maintaining head control through entire technical sequences, using drills that specifically focus on control maintenance during movement. Develop grip transitions and pressure adjustments that allow head control to persist through position changes rather than requiring full release and re-establishment.
@@ -293,9 +277,9 @@ Head Control represents the fundamental principle of controlling an opponent's h
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Head Control Emphasis** (Focus: Developing practical head control maintenance under resistance and learning realistic defensive responses to various head control types. This approach builds the pressure sensitivity and adjustment capability necessary for maintaining head control during dynamic exchanges.)
 Conduct position-specific sparring sessions where one partner must maintain head control while the other attempts to regain head freedom. Start from various positions (side control, mount, turtle, etc.) with head control already established and focus exclusively on control maintenance versus escape.
 
@@ -312,9 +296,9 @@ Create training circuits where you start in various positions with opponent havi
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes when opponent has established head control and experiences the resulting limitation of movement options
 - Can establish basic head control in static positions like side control using cross-face pressure
@@ -350,10 +334,23 @@ Create training circuits where you start in various positions with opponent havi
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Control Point Hierarchy]]** (Prerequisite): Head control exists within the broader control point hierarchy as typically the highest-value single control point. Understanding control point hierarchy provides the framework for when to prioritize head control versus other control points and how to coordinate multiple control points effectively.
+- **[[Posture Breaking]]** (Complementary): Head control and posture breaking work synergistically, as controlling the head is often the most effective method of breaking opponent posture. Understanding posture breaking principles enhances head control application by clarifying which head positions most effectively collapse opponent structure.
+- **[[Chin Protection]]** (Alternative): Chin protection represents the primary defensive response to head control attempts, particularly against choke attacks. Understanding both concepts creates the offensive-defensive relationship where head control seeks to overcome chin protection, while chin protection seeks to neutralize head control effectiveness.
+- **[[Frame Management]]** (Extension): Head control often serves as the mechanism that prevents opponent from establishing effective frames. Advanced frame management understanding includes recognizing how head control eliminates opponent's ability to create space through frames and how to maintain head control while countering framing attempts.
+- **[[Leverage Principles]]** (Prerequisite): Effective head control application relies on fundamental leverage principles, as the head serves as a lever arm for controlling the entire body. Understanding leverage mechanics explains why head control provides such comprehensive body control despite being a single point of contact.
+- **[[Forward Pressure]]** (Complementary): Forward pressure and head control combine powerfully in top positions, where driving pressure through the opponent's head collapses their defensive structure. Understanding forward pressure application enhances head control effectiveness by clarifying optimal pressure vectors and weight distribution.
+- **[[Cross Face Control]]** (Extension): Cross-face represents one of the most common and effective applications of head control principles in top positions, serving as a specialized technique within the broader head control framework.
+- **[[Connection Principles]]** (Prerequisite): Head control relies on understanding connection principles to maintain contact throughout opponent movements and reactions. Strong connection principles inform how to adjust grip and pressure to maintain head control despite dynamic resistance.
+- **[[Defensive Posture]]** (Alternative): Defensive posture represents the opponent's attempt to maintain head position and prevent head control establishment. Understanding both offensive head control and defensive posture creates the complete tactical picture.
+
+
+### Related Content
 - [[Control Point Hierarchy]] (Principle) - Head control functions as the highest-value control point within the overall control point hierarchy framework
 - [[Cross Face Control]] (Principle) - Cross-face represents one of the most common and effective applications of head control principles in top positions
 - [[Posture Breaking]] (Principle) - Head control serves as the primary mechanism for breaking and preventing opponent posture across most positions
@@ -367,15 +364,6 @@ Create training circuits where you start in various positions with opponent havi
 - [[Chin Protection]] (Principle) - Chin protection serves as the primary defensive counter to head control in choke situations
 - [[Frame Management]] (Principle) - Head control often eliminates opponent's ability to establish effective defensive frames
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: I approach head control as the highest-value control point in the control point hierarchy, emphasizing that controlling the head provides leverage over the entire spinal structure and subsequently all body movements. The systematic teaching of head control begins with understanding it as prerequisite for position establishment, viewing it as the 'steering wheel' that directs opponent's movement possibilities. The concept I emphasize heavily is 'directional head control' where the specific direction of head placement determines which defensive and offensive options remain available to the opponent. This makes head position selection a strategic rather than merely technical consideration. When students understand that pushing the head in one direction opens certain submissions while closing others, they begin to see head control not as binary (controlled or not controlled) but as a spectrum of positioning options each with distinct tactical implications. The integration of head control with other control points creates what I term 'control point hierarchy' where maintaining head control often takes precedence over other control priorities because of its comprehensive effect on opponent's entire body structure.
-- **Gordon Ryan**: I view head control as a dynamic element that must be constantly reinforced and adjusted rather than a static achievement you establish once and maintain passively. What I focus on is 'active head control' where pressure and position are modulated continuously to respond to opponent's reactions while preventing escape windows from opening. The critical element most people miss is maintaining head control through transitions and position changes - losing head control during technical execution is the primary cause of failed techniques at the highest levels of competition. In my matches, I'm constantly thinking about head control even when executing seemingly unrelated techniques because that brief moment when you release head control to change positions or attempt submissions is when opponents create their escapes. I've developed a specific approach to what I call creating 'no-win scenarios' through head control, where the opponent's defensive reactions to head control pressure open alternative attacks. For example, when they fight to free their head in one direction, that reaction creates openings in another direction that I'm already positioned to exploit. The competition mindset around head control is that you're never satisfied with the current level of control - you're always working to increase the comprehensiveness of the control structure.
-- **Eddie Bravo**: Within the 10th Planet system, we've developed specialized head control approaches particularly in our turtle attacks and front headlock positions that go beyond traditional applications. What I emphasize to my students is 'head hunting' as a primary objective - once opponent exposes their head, controlling it becomes the top priority because of how much it opens up. The psychological element of head control is something that doesn't get discussed enough in traditional BJJ instruction. When you control someone's head effectively, you're not just creating mechanical advantage, you're creating disorientation and panic responses that amplify your technical effectiveness beyond the purely mechanical considerations. I teach head control as both a physical and psychological pressure point, and the combination creates submission opportunities that wouldn't exist from mechanical advantage alone. In our system, we use a lot of unconventional head control methods - using the legs in ways most people don't think about, creating head control through lapel configurations in gi, and using dynamic head control where you're constantly switching the type of control to prevent opponent from developing effective defensive responses. The innovation in head control comes from understanding that there are far more ways to control the head than the standard cross-face and front headlock positions that dominate traditional instruction.
 
 </section>
 

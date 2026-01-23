@@ -8,7 +8,7 @@ description: "Master control point hierarchy in BJJ. Learn systematic control ac
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Control points have hierarchical value - certain grips and positions provide exponentially more control than others
 - Progressive control advancement - systematically upgrade control points rather than attempting to skip levels
 - Multiple simultaneous control points create compound dominance that exceeds the sum of individual controls
@@ -183,9 +183,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Control Point Recognition**: The ability to instantly identify which control points are currently established and which are available for acquisition. This includes recognizing partial control, contested control, and opportunities to upgrade existing control to higher-value positions.
 
 **Progressive Control Acquisition**: Systematically advancing from lower-value to higher-value control points without losing established controls. This requires maintaining current control while extending to capture additional control points, creating cumulative dominance through layered control.
@@ -206,25 +206,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Complementary): Control Point Hierarchy operates within Positional Hierarchy - while positional hierarchy ranks positions themselves, control point hierarchy determines dominance within each position
-- **[[Position-Over-Submission Approach]]** (Prerequisite): Control Point Hierarchy extends the position-over-submission philosophy by providing the systematic framework for achieving positional dominance before attempting submissions
-- **[[Control Maintenance]]** (Extension): Control Maintenance focuses on sustaining established control, while Control Point Hierarchy provides the strategic framework for determining which controls to establish and upgrade
-- **[[Pressure Application]]** (Complementary): Pressure Application provides the mechanical means to enforce control points identified as high-value within the hierarchy
-- **[[Frame Management]]** (Alternative): From the defensive perspective, Frame Management represents the inverse of Control Point Hierarchy, focusing on preventing opponent control point acquisition
-- **[[Submission Control Position]]** (Advanced form): Submission Control Position represents the apex of the Control Point Hierarchy where sufficient control points have been acquired to safely attempt finishing techniques
-- **[[Guard Retention]]** (Complementary): Guard Retention from bottom applies hierarchical understanding to prevent opponent's control point acquisition during guard passing attempts
-- **[[Transition Management]]** (Extension): Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy
-- **[[Base Maintenance]]** (Prerequisite): Base Maintenance provides the foundational stability required to establish and maintain control points without being swept or reversed
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: In mount, the hierarchy prioritizes head control (gable grip, palm-to-palm, or cross-collar grips), followed by hip control (high mount positioning), then arm isolation. Each control point incrementally increases submission opportunities while decreasing escape potential.
 
 **Back Control**: Back control hierarchy emphasizes seatbelt control (arm across chest), then second hook establishment, then head control for finishing. The progression from single hook to double hooks to head isolation represents clear hierarchical advancement toward submission.
@@ -259,9 +243,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current control point status in your position**: Identify which control points you currently hold, which are contested, and which are available for acquisition. Recognize gaps in your control that opponent might exploit for escape or counter-attack.
 2. **Determine highest-value available control point for your position**: Based on position-specific hierarchy (head control in side control, underhook in half guard, seatbelt in back control), identify the single most valuable control point currently accessible to you.
 3. **Evaluate whether current control is sufficient to pursue upgrade**: Determine if your existing control points are stable enough to support attempting acquisition of higher-value control. If current control is tenuous, consolidate before advancing.
@@ -274,9 +258,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting to establish multiple control points simultaneously without securing any individual control first
   - **Consequence**: Results in weak, easily broken control where opponent can escape because no single control point is properly established. Creates scrambles where neither practitioner has clear control.
   - **Correction**: Focus on establishing one high-value control point completely before attempting to add secondary controls. Build control progressively rather than attempting to establish everything at once.
@@ -302,9 +286,9 @@ Mastery of Control Point Hierarchy requires understanding both the offensive and
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Control Point Constraints** (Focus: Develops recognition of which control points unlock advancement and how to systematically pursue them under resistance. Builds defensive awareness of critical control points to defend.)
 Practice specific positions (mount, side control, back control) where each partner focuses explicitly on acquiring/denying specific control points within the hierarchy. Reset whenever key control point is lost or gained.
 
@@ -327,9 +311,9 @@ Compare maintenance of position with dispersed control (six different grip/conta
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes basic control points (grips, head position, hip position) but does not yet understand hierarchical relationships between them
 - Tends to establish random controls based on what feels available rather than systematically pursuing high-value controls
@@ -367,10 +351,23 @@ Compare maintenance of position with dispersed control (six different grip/conta
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Complementary): Control Point Hierarchy operates within Positional Hierarchy - while positional hierarchy ranks positions themselves, control point hierarchy determines dominance within each position
+- **[[Position-Over-Submission Approach]]** (Prerequisite): Control Point Hierarchy extends the position-over-submission philosophy by providing the systematic framework for achieving positional dominance before attempting submissions
+- **[[Control Maintenance]]** (Extension): Control Maintenance focuses on sustaining established control, while Control Point Hierarchy provides the strategic framework for determining which controls to establish and upgrade
+- **[[Pressure Application]]** (Complementary): Pressure Application provides the mechanical means to enforce control points identified as high-value within the hierarchy
+- **[[Frame Management]]** (Alternative): From the defensive perspective, Frame Management represents the inverse of Control Point Hierarchy, focusing on preventing opponent control point acquisition
+- **[[Submission Control Position]]** (Advanced form): Submission Control Position represents the apex of the Control Point Hierarchy where sufficient control points have been acquired to safely attempt finishing techniques
+- **[[Guard Retention]]** (Complementary): Guard Retention from bottom applies hierarchical understanding to prevent opponent's control point acquisition during guard passing attempts
+- **[[Transition Management]]** (Extension): Transition Management governs how practitioners move between positions while maintaining established control points identified by the hierarchy
+- **[[Base Maintenance]]** (Prerequisite): Base Maintenance provides the foundational stability required to establish and maintain control points without being swept or reversed
+
+
+### Related Content
 - [[Positional Hierarchy]] (Principle) - Parent concept that ranks positions themselves, while Control Point Hierarchy addresses dominance within positions
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy that Control Point Hierarchy operationalizes through systematic control acquisition
 - [[Control Maintenance]] (Principle) - Complementary concept focusing on sustaining controls identified as high-value by hierarchy
@@ -384,15 +381,6 @@ Compare maintenance of position with dispersed control (six different grip/conta
 - [[Crucifix]] (Position) - Exemplifies maximum control point density with both arms and back simultaneously controlled
 - [[Transition Management]] (Principle) - Governs how practitioners move between positions while maintaining established control points
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Control Point Hierarchy represents one of the most significant conceptual frameworks in systematic jiu-jitsu. The fundamental insight is that grappling control is not binary - you do not simply have control or lack control. Instead, control exists on a spectrum defined by the specific points of contact and constraint you maintain on your opponent's body. By understanding this hierarchy, you transform grappling from an art of random grip fighting into a systematic science of progressive control acquisition. The hierarchy teaches us that head control typically represents the highest value across most positions because controlling the head controls the body's orientation and mobility. Similarly, controlling the hips provides mobility management while arm control opens submission pathways. The critical advancement in understanding comes from recognizing that these control points have multiplicative rather than additive effects - establishing head control and one arm control creates exponentially more dominance than the sum of those individual controls. This is the principle of control density, where concentrating multiple controls on fewer body parts generates compound effects that exceed dispersed control across many points. My systematic approach to position advancement always emphasizes this hierarchical progression: establish fundamental control, consolidate that control, then systematically upgrade to higher-value control points before attempting submissions. This patient, progressive methodology may appear slower initially, but it generates far higher success rates because submissions attempted from proper control hierarchies become nearly inevitable rather than speculative.
-- **Gordon Ryan**: In competition, understanding control point hierarchy is the difference between dominating opponents and getting stuck in stalemates. I learned from Danaher that you can't just randomly grab stuff and hope it works - you need to know exactly which controls open up which attacks and position advancements. When I'm on top in side control, my immediate priority is establishing a crossface or head control, not just laying heavy. That head control is what prevents the hip escape and the turn-in, which are the two fundamental side control escapes. Once I have that locked down, then I work for arm control or transition to mount, but never before the head control is solid. Same thing from back control - the seatbelt is non-negotiable before I even think about going for the choke. I see so many competitors throw on a body triangle or grab a collar grip without securing the seatbelt first, and good opponents immediately escape because the foundational control was never established. The hierarchy teaches you to be patient and systematic, building control progressively rather than gambling on low-percentage attacks from insufficient control. This is how I maintain such high control time in my matches - I'm not doing anything fancy, I'm just religiously following the control point hierarchy for each position. It's also why my submission rate is so high - by the time I attempt a submission, I've stacked so many control points that my opponent has virtually no defensive options remaining. The hierarchy tells you exactly what needs to be in place before you can safely attack, eliminating the guesswork and dramatically increasing your finishing percentage.
-- **Eddie Bravo**: The beautiful thing about understanding control point hierarchy is it gives you a framework for inventing new positions and techniques. Once you understand which controls matter most - head, hips, arms - you can start experimenting with unconventional ways to establish those controls. That's how positions like the Lockdown Half Guard and the Truck developed - I recognized that the lockdown gave me hip control from bottom half guard, which is high-value in the hierarchy even though it looks completely different from traditional half guard control. The rubber guard system is entirely built on control point hierarchy principles, just applied from closed guard bottom. By controlling the head with my leg and controlling the arm with my hands, I'm establishing two high-value control points simultaneously, which is why the position enables so many attacks despite being unconventional. What I've found is that the hierarchy isn't about specific grips or orthodox positions - it's about the fundamental control points themselves. You can establish head control with a crossface, with your leg, with a collar grip, with an overhook - the mechanical details vary, but the hierarchical value remains constant. This understanding freed me to experiment with creative control methods that traditional jiu-jitsu might dismiss but that achieve the same hierarchical objectives through different mechanics. The other insight is that understanding the hierarchy helps you create control point dilemmas where defending one high-value control necessarily exposes another. That's the essence of 10th Planet strategy - force opponents to choose which critical control they'll give up, then exploit whichever option they choose. It's chess with the body, and the control point hierarchy gives you the strategic framework to think multiple moves ahead.
 
 </section>
 

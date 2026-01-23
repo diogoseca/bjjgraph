@@ -8,7 +8,7 @@ description: "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -423,24 +423,6 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Z-Lock Half Guard represents an intelligent evolution of lockdown mechanics that addresses fundamental weaknesses in traditional lockdown systems. The standard lockdown creates powerful control of one leg but leaves the practitioner vulnerable to pressure passing and crossface control from opponents who understand proper defensive posture. By incorporating a butterfly hook element with the outside leg, the Z-Lock creates a dual-threat system that forces the top player into genuine dilemmas - they cannot simultaneously defend against lockdown-based attacks to one side and butterfly-based attacks to the other. The biomechanical principle at work is the creation of opposing vectors of force that destabilize the opponent's base regardless of which direction they commit their weight. However, the position requires excellent hip mobility and sophisticated timing to execute properly - practitioners must master the ability to maintain the Z-configuration under pressure while continuously threatening attacks to prevent the opponent from methodically breaking down their defenses.
-
-### Gordon Ryan
-
-In competition, I've found the Z-Lock to be one of the most effective half guard variations against opponents who have excellent pressure passing games and understand traditional lockdown counters. The beauty of this position is that it keeps me offensive even when I'm technically on bottom - I'm constantly threatening sweeps and electric chair submissions that force my opponent to stay defensive and cautious. The key to making it work at the highest levels is maintaining relentless offensive pressure and never allowing the opponent to settle into a comfortable passing rhythm. I'll fake the old school sweep to get them to base out wide, then immediately switch to a butterfly sweep when their weight shifts. Or I'll threaten the electric chair to get them backing up, then transition to deep half when they try to pull their leg out. The position works because it creates genuine uncertainty - my opponent literally cannot defend everything simultaneously, so they have to choose what to give me. That's the kind of position control I want to have even from bottom positions.
-
-### Eddie Bravo
-
-The Z-Lock is one of my favorite developments in the 10th Planet system because it takes the lockdown to the next level of complexity and offensive capability. Traditional lockdown is powerful, but experienced grapplers learn to counter it by basing out wide and applying heavy shoulder pressure. The Z-Lock solves this problem by adding the butterfly hook element that creates attacks to the opposite side - when they base out wide to defend the old school, you've got the butterfly sweep ready; when they try to pressure through the middle, you've got the electric chair and deep half. It's all about creating multiple layers of offensive threats that keep your opponent guessing and defensive. The position also fits perfectly into no-gi competition where you don't have gi grips to rely on - the lockdown control and butterfly hook work entirely through leg positioning and hip movement. To really master it, you need to drill the hell out of transitioning smoothly between the different attacks while maintaining that lockdown control throughout. It's technical, it's dynamic, and it frustrates the shit out of people who think they can just smash through half guard.
 
 </section>
 

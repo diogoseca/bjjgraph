@@ -8,7 +8,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -486,24 +486,6 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 
 **Average Time in Position**: 30-90 seconds before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Inside Sankaku represents the pinnacle of leg entanglement control, offering the most comprehensive mechanical advantage over the opponent's defensive options. The position succeeds through systematic breakdown of defensive barriers - first establish the fundamental entanglement structure, then control the hip mobility, next dominate the knee line to prevent rotation, and finally isolate the heel exposure for the finishing attack. The key is never rushing to the submission before the positional control is absolute. Many practitioners fail because they hunt the heel hook prematurely, before establishing hip connection and knee line control. The opponent must be completely trapped in your systematic framework before the submission attempt. Understanding the biomechanics of how the inside heel hook works - the internal rotation of the hip combined with lateral pressure on the knee - allows you to create the optimal angle for maximum mechanical advantage while minimizing the opponent's ability to defend or escape. The position also creates strategic depth beyond simple submission hunting; you can use it to drain the opponent's energy, force them into worse positions when they panic, and create submission chains where defending one attack opens others.
-
-### Gordon Ryan
-
-Inside Sankaku is my highest percentage leg attack position in competition because it offers superior control compared to other leg entanglements while maintaining multiple submission threats. The position allows me to control the pace and create submission opportunities without taking excessive risks. In competition, I focus on establishing tight hip connection immediately upon entry, which prevents my opponent from creating the space they need to escape. Most opponents make the mistake of trying to clear the knee line by rotating away, which actually exposes them to outside heel hook attacks or allows me to follow into Saddle position. The key in high-level competition is patience - maintain the dominant position, tire out your opponent's defensive efforts, and wait for the perfect moment when their heel becomes exposed with optimal angle. I also use Inside Sankaku strategically to force opponents into bad positions, as many will sacrifice their back or accept inferior positions to defend the leg attack, which gives me multiple paths to victory. The systematic approach of position before submission is critical at the highest levels where opponents understand the defenses.
-
-### Eddie Bravo
-
-Inside Sankaku, which we've incorporated into the 10th Planet system as part of our leg lock game, represents an evolution in modern no-gi grappling that perfectly complements our existing positions like the Lockdown and Truck. The beauty of this position is how it fits into our systematic approach - we can enter from our Lockdown sweeps, transition from the Truck position, or flow into it from our rubber guard attacks when opponents try to stand. What makes Inside Sankaku special for our system is the ability to combine it with upper body attacks, creating dilemmas where defending the leg attack exposes the neck or back, and vice versa. We also emphasize creative entries that opponents don't expect, like transitioning from traditional half guard positions or using our signature 10th Planet grips to facilitate the leg entanglement. The position works perfectly in our competition strategy because it's legal in most no-gi formats and provides high-percentage finishes that align with our submission-focused philosophy. We drill the systematic breakdown extensively - establishing position, controlling the knee line, then attacking - because rushing to submissions gets you nowhere against trained opponents.
 
 </section>
 

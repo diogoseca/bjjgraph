@@ -8,7 +8,7 @@ description: "Master the Double Leg Finish in BJJ. Complete execution from penet
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -361,15 +361,6 @@ The double leg finish also integrates defensively within the scrambling system. 
 - [[Standing Position]] - Starting context - the neutral standing position from which takedown sequences are initiated
 - [[Side Control]] - Primary ending position - most common positional outcome of successful double leg finish
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The double leg finish represents a perfect study in biomechanical efficiency and the transfer of force from lower body power generation to opponent displacement. The common error of attempting to lift with arm strength reveals a fundamental misunderstanding of mechanical advantage - the arms serve as connection points, not primary movers. The true power comes from the kinetic chain beginning with leg drive into the mat, transferring through hip extension, and expressing through the structural frame created by your torso and arms. The angle of trajectory is critical: driving purely forward allows opponent to maintain base through hand posting or backward stepping, while the optimal 45-degree upward angle creates rotational force that is geometrically more difficult to counter. The finish must be understood as a continuous motion that doesn't end when opponent's back touches the mat - the technique is incomplete until dominant position is fully established with appropriate controls. Many practitioners lose positional advantage during the 1-2 second gap between landing and control establishment, which represents a technical failure to understand that takedowns and position establishment are one integrated sequence, not separate techniques.
-- **Gordon Ryan**: In competition, the double leg finish is one of the highest percentage techniques when executed properly, but it requires absolute commitment and explosive execution - hesitation kills the technique and opens you up to guillotine counters. I focus heavily on the drive-through variation because it's more reliable against elite-level sprawl defense and doesn't rely on lifting strength which can fail against larger opponents or when fatigue sets in during long matches. The key competition detail is managing the guillotine threat - I keep my head on the side away from their strong arm and I accelerate the finish if I feel them setting up the choke rather than trying to fight it while static. For points strategy, I prefer finishing to side control rather than mount because it gives me more immediate control and prevents them from using the transition scramble to recover guard. The biggest mistake I see competitors make is pausing after the takedown instead of immediately securing the position - those 2-3 seconds of hesitation are when opponents escape or recover guard, which can cost you the match in close competitions.
-- **Eddie Bravo**: The double leg finish needs some street-smart adaptations for no-gi and MMA contexts because the traditional wrestling finish assumes you have reliable grips that won't slip from sweat. I teach students to modify the grip to a gable grip or s-grip rather than traditional finger interlock when finishing in no-gi, because it's more secure when everything is slippery. The drive-through variation is money in no-gi because you're not depending on maintaining grips during a lifting motion. One innovation from the 10th Planet system is deliberately finishing to positions that set up our leg lock entries - if you finish the double leg with their legs still elevated and controlled, you're already in position to transition to saddle or ashi garami rather than traditional side control or mount. This catches a lot of people off guard because they're defending the takedown and thinking about preventing side control, but suddenly they're in leg entanglement positions. The other adaptation is using the double leg finish as an entry to truck position - if they turn away during the finish or you angle it correctly, you can ride the finish directly into truck control which opens up the whole twister side control system.
 
 </section>
 

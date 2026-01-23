@@ -8,7 +8,7 @@ description: "Master strength development for BJJ. Learn functional power traini
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Functional strength emphasizes connected, whole-body power rather than isolated muscle development
 - Grip strength and endurance directly correlate with control maintenance and submission success rates
 - Postural strength enables defensive frames and offensive pressure application across all positions
@@ -183,9 +183,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Grip Strength and Endurance**: The ability to maintain controlling grips on gi fabric, wrists, or body parts under sustained resistance. Includes both maximum grip strength for establishing initial control and grip endurance for maintaining control throughout extended exchanges. Critical for guard retention, passing control, and submission finishing sequences.
 
 **Core and Postural Strength**: The capacity to maintain rigid spinal alignment and resist torque forces from multiple angles. Essential for creating defensive frames, maintaining base under pressure, executing effective bridges and shrimps, and transferring power efficiently through the kinetic chain during offensive movements.
@@ -206,28 +206,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Explosive Power]]** (Complementary): Explosive power represents the rate at which strength can be applied, working synergistically with maximum strength to create rapid force generation for sweeps, escapes, and dynamic transitions.
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding leverage, force vectors, and mechanical advantage allows strength to be applied efficiently through proper body alignment and positioning, multiplying the effectiveness of raw strength.
-- **[[Energy Management System]]** (Complementary): Strength development must be balanced with energy conservation strategies—knowing when to apply maximum force versus when to use minimal strength with superior positioning prevents premature fatigue.
-- **[[Cardio Conditioning]]** (Complementary): Cardiovascular fitness enables repeated strength application throughout extended training sessions and matches, while strength training improves overall work capacity and metabolic efficiency.
-- **[[Flexibility Training]]** (Complementary): Mobility and flexibility work in conjunction with strength development to create functional range of motion strength, allowing force generation through complete movement patterns while reducing injury risk.
-- **[[Progressive Resistance Training]]** (Extension): Systematic progression of training loads and intensities forms the foundation for continuous strength adaptation, applying overload principles to create consistent improvement in force production capacity.
-- **[[Maximum Efficiency Principle]]** (Complementary): Strength must be applied intelligently within the framework of maximum efficiency with minimum effort, ensuring power application is strategic rather than wasteful.
-- **[[Leverage Principles]]** (Prerequisite): Understanding mechanical leverage allows practitioners to multiply strength effectiveness through optimal body positioning, making limited strength more effective than superior strength poorly applied.
-- **[[Base Maintenance]]** (Complementary): Core and postural strength directly support base maintenance principles, providing the physical capacity to resist off-balancing attempts and maintain stable positioning.
-- **[[Frame Management]]** (Complementary): Isometric and pushing strength enable effective frame creation and maintenance, allowing practitioners to manage distance and prevent opponent pressure application.
-- **[[Grip Fighting]]** (Complementary): Grip strength and endurance directly determine success in grip fighting exchanges, allowing sustained control establishment and prevention of opponent's gripping strategies.
-- **[[Pressure Application]]** (Extension): Developed strength capacity enables consistent pressure application in top positions, creating the physical foundation for pressure-based control and submission systems.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Grip strength maintains sleeve and collar control, core strength enables hip movement and posture breaking, pulling strength closes distance and controls opponent's upper body, leg strength maintains closed guard position and creates sweeping force.
 
 **Mount**: Isometric strength maintains weight distribution and base, core strength resists bridge and roll attempts, pressing strength creates forward pressure for submission setups, hip strength maintains high mount position against escape attempts.
@@ -262,9 +243,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess position-specific strength demands and current limitations**: Identify which strength qualities (maximum strength, strength endurance, explosive power, isometric strength) are most relevant to improving performance in specific positions or situations where technical gaps exist.
 2. **Evaluate technical efficiency versus strength application**: Determine if performance limitations stem from lack of strength or from inefficient technique—prioritize technical refinement before increasing strength training volume, as improved mechanics multiply strength effectiveness.
 3. **Design periodized training program balancing strength and skill development**: Structure training blocks emphasizing general strength development during off-season periods while reducing strength volume during competition phases to prioritize technical training and recovery.
@@ -277,9 +258,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Prioritizing maximum strength development over technical efficiency and positional understanding
   - **Consequence**: Creates over-reliance on muscling through positions rather than developing proper mechanics, leading to premature fatigue, increased injury risk, and performance plateaus against technically superior opponents who neutralize strength advantages through superior positioning.
   - **Correction**: Establish solid technical foundation first, then add strength training as a supplement to enhance already-efficient movement patterns. Use strength to amplify technique, not replace it—focus 70-80% of training time on skill development and 20-30% on strength and conditioning.
@@ -305,9 +286,9 @@ Critically, strength development in BJJ must be contextualized within the princi
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **General Physical Preparation (GPP) Foundation** (Focus: Deadlifts, squats, pressing and pulling variations, loaded carries, mobility work, and general conditioning to create robust foundation for advanced training demands and injury prevention.)
 Systematic development of baseline strength, work capacity, and movement quality through fundamental compound exercises and conditioning work. Emphasizes building structural resilience, correcting movement dysfunctions, and establishing sustainable training capacity before advancing to specialized strength development.
 
@@ -330,9 +311,9 @@ Strategic manipulation of training variables across training phases to peak stre
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Relies primarily on arm strength rather than connected whole-body power, frequently experiencing premature grip and arm fatigue during rolling sessions
 - Demonstrates adequate strength in isolated exercises but struggles to generate force from compromised grappling positions or under dynamic resistance
@@ -372,10 +353,26 @@ Strategic manipulation of training variables across training phases to peak stre
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Explosive Power]]** (Complementary): Explosive power represents the rate at which strength can be applied, working synergistically with maximum strength to create rapid force generation for sweeps, escapes, and dynamic transitions.
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding leverage, force vectors, and mechanical advantage allows strength to be applied efficiently through proper body alignment and positioning, multiplying the effectiveness of raw strength.
+- **[[Energy Management System]]** (Complementary): Strength development must be balanced with energy conservation strategies—knowing when to apply maximum force versus when to use minimal strength with superior positioning prevents premature fatigue.
+- **[[Cardio Conditioning]]** (Complementary): Cardiovascular fitness enables repeated strength application throughout extended training sessions and matches, while strength training improves overall work capacity and metabolic efficiency.
+- **[[Flexibility Training]]** (Complementary): Mobility and flexibility work in conjunction with strength development to create functional range of motion strength, allowing force generation through complete movement patterns while reducing injury risk.
+- **[[Progressive Resistance Training]]** (Extension): Systematic progression of training loads and intensities forms the foundation for continuous strength adaptation, applying overload principles to create consistent improvement in force production capacity.
+- **[[Maximum Efficiency Principle]]** (Complementary): Strength must be applied intelligently within the framework of maximum efficiency with minimum effort, ensuring power application is strategic rather than wasteful.
+- **[[Leverage Principles]]** (Prerequisite): Understanding mechanical leverage allows practitioners to multiply strength effectiveness through optimal body positioning, making limited strength more effective than superior strength poorly applied.
+- **[[Base Maintenance]]** (Complementary): Core and postural strength directly support base maintenance principles, providing the physical capacity to resist off-balancing attempts and maintain stable positioning.
+- **[[Frame Management]]** (Complementary): Isometric and pushing strength enable effective frame creation and maintenance, allowing practitioners to manage distance and prevent opponent pressure application.
+- **[[Grip Fighting]]** (Complementary): Grip strength and endurance directly determine success in grip fighting exchanges, allowing sustained control establishment and prevention of opponent's gripping strategies.
+- **[[Pressure Application]]** (Extension): Developed strength capacity enables consistent pressure application in top positions, creating the physical foundation for pressure-based control and submission systems.
+
+
+### Related Content
 - [[Explosive Power]] (Principle) - Complementary concept focusing on rate of force development and speed-strength, working synergistically with maximum strength to create dynamic force application
 - [[Progressive Resistance Training]] (Principle) - Training methodology providing systematic framework for continuous strength adaptation through proper load progression and periodization principles
 - [[Energy Management System]] (Principle) - Strategic concept governing when and how to apply strength versus when to conserve energy through superior positioning and technical efficiency
@@ -389,15 +386,6 @@ Strategic manipulation of training variables across training phases to peak stre
 - [[Back Control]] (Position) - Dominant position requiring grip endurance for maintaining controls, core strength for hook retention, and isometric strength for sustaining body triangle or seat belt connections
 - [[Rear Naked Choke]] (Submission) - High-percentage submission requiring grip strength for collar control, pulling strength for proper choking mechanics, and isometric strength to maintain position during finishing sequence
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The relationship between strength and technical efficiency in jiu-jitsu represents one of the most misunderstood elements of grappling development. Strength, properly understood, is not the enemy of technique—rather, it is the amplifier of technique. The error lies not in developing strength but in attempting to substitute strength for proper mechanical advantage and positional hierarchy. When you examine the physics of grappling, you quickly realize that even perfect leverage creates force multiplication of only 5:1 or 6:1—substantial, but not infinite. Against an opponent with a 50-100 pound weight advantage, even perfect technique requires significant baseline strength to be effective. The key insight is that strength development must be directed toward the specific force production patterns required in grappling: isometric strength for maintaining positions, eccentric strength for controlling opponent movement, and explosive concentric strength for sweeps and takedowns. Generic bodybuilding protocols that isolate muscles in predictable ranges of motion provide minimal transfer to the chaotic, multi-directional forces encountered in live rolling. Instead, prioritize compound movements that develop total body strength, supplemented with position-specific exercises that replicate the exact force vectors and muscle recruitment patterns used in actual grappling situations.
-- **Gordon Ryan**: Strength has been absolutely critical to my competitive success, but not in the way most people think. It's not about being able to bench press more than my opponents or having the biggest muscles—it's about being able to maintain my grips when someone is desperately trying to break them, sustain crushing pressure for an entire match without my control weakening, and finish submissions on opponents who are fighting with everything they have. My strength training is completely focused on these practical applications. I do heavy pulling work because that directly improves my ability to finish heel hooks and maintain back control. I do grip-specific training because losing a grip at the wrong moment can cost you a match. I train my core obsessively because every position in jiu-jitsu requires rock-solid core strength to transfer power efficiently. The biggest mistake I see competitors make is getting strong in ways that don't translate to actual grappling. You can deadlift 500 pounds but if you can't maintain a body triangle for ten minutes straight against a world-class opponent, that strength is useless. Everything in my strength program has a direct line to improving my performance in specific positions or finishing specific submissions. I also think people drastically underestimate how much strength you need at the highest level. When you're competing against the best in the world, everyone has great technique—strength becomes a legitimate differentiator when combined with that technical excellence.
-- **Eddie Bravo**: People get too caught up in this false dichotomy between strength and technique, like you have to choose one or the other. That's complete bullshit. Look at the highest-level competitors in any combat sport—they're all strong as hell AND technically exceptional. The 10th Planet approach recognizes that strength, flexibility, and technique form an integrated system where each element enhances the others. We specifically develop strength that serves our system—we need exceptional grip strength for maintaining lockdown control, powerful hip drive for our sweeping sequences, and the pulling strength necessary for rubber guard positions. But we develop that strength through movements that mimic our actual techniques, not just generic weight room exercises. We do loaded lockdown holds, we practice explosive hip escapes with resistance, we train our rubber guard setups against heavy resistance. This builds strength that's neurologically integrated with our technical movement patterns. The other aspect people miss is that strength gives you options when your technique breaks down or when you're in a bad position. Sometimes you need to muscle your way out of a bad spot to survive—that's reality. The goal is to have both worlds: the technical precision to use minimal strength in most situations, combined with the physical capacity to apply overwhelming force when the situation demands it. That versatility is what makes a complete grappler.
 
 </section>
 

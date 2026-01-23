@@ -8,7 +8,7 @@ description: "Establish New York control from bottom position with overhook and 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -470,24 +470,6 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 **Average Time in Position**: 20-40 seconds before transitioning to next position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-New York represents a fascinating study in biomechanical control systems where the practitioner sacrifices traditional closed guard stability in exchange for enhanced attacking angles and submission accessibility. The position's effectiveness stems from its exploitation of multiple control points simultaneously - the overhook eliminates lateral base, the shin across the back prevents posterior movement, and the grip on the shin creates a closed kinetic chain that the opponent cannot easily disrupt. From a systems perspective, New York functions as a decision node where the opponent's defensive choices directly determine the optimal offensive pathway. This reactive rather than proactive approach is particularly effective because it forces the opponent into a series of lose-lose scenarios where every escape attempt opens a different submission or positional advancement. The key technical element that most practitioners miss is the necessity of maintaining constant hip mobility; static hip positioning allows the opponent to build pressure incrementally, whereas dynamic hip adjustment maintains the opponent in a perpetually off-balanced state. Understanding New York requires recognizing it not as a destination but as a transitional hub in a larger systematic framework.
-
-### Gordon Ryan
-
-In competition, New York is one of those positions that looks really flashy and complicated but once you understand the system, it's actually pretty straightforward and high-percentage. The biggest thing people get wrong is they try to force it against guys with really strong posture and base - that's a mistake. You need to set it up properly by breaking their posture first, then flowing into it when they're already compromised. What I like about New York is that it keeps the opponent constantly defending, which means they're not thinking about passing or attacking, they're just trying to survive. Against guys who don't know the rubber guard well, you can literally cycle through the attacks forever and they'll just keep defending the wrong things. The overhook is everything in this position - if you don't have a deep overhook, you don't have New York, you just have some weird guard position that's going to get smashed. In no-gi especially, New York is super effective because there's no collar grips to worry about and the whole system works off body control rather than gi grips. I've hit triangles, omoplatas, and sweeps from New York in major competitions, and it's one of those positions where if you're flexible enough to use it, you should definitely add it to your game.
-
-### Eddie Bravo
-
-New York is the heart of the Rubber Guard system, man. It's the position where everything connects. You can go to Invisible Collar, you can go to Zombie, you can go to Chill Dog, you can go to Carni - it's all right there from New York. The whole idea behind the position is that you're controlling their structure in a way that makes it really hard for them to generate any offense while you're constantly threatening submissions. A lot of traditional guys look at rubber guard and think it's too complicated or whatever, but once you understand the roadmap, it's actually super logical. New York is like the main intersection on that roadmap. What makes it work so well in MMA is that the overhook controls one arm completely, the leg across the back controls their posture, and they can't hit you effectively from there. I developed this system specifically for MMA but it works great in pure grappling too. The key is flexibility - if you're not flexible, you're going to struggle with rubber guard, there's no way around it. But if you put in the work on your flexibility, New York becomes this incredibly powerful position where you're always one move away from finishing the fight. Don't stay in New York too long though - it's a transitional position, not a resting position. Keep moving, keep attacking, keep them guessing.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -338,15 +338,6 @@ The Hitchhiker Escape represents a critical last-line defensive option within th
 - [[Elbow Escape]] - Earlier positional escape that should be attempted before armbar is locked
 - [[Defensive Position]] - Position to recover after escape - establishing defensive structure
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Hitchhiker Escape exemplifies the critical principle that escapes must be executed within specific biomechanical windows - attempt too early and the escape is unnecessary, too late and it becomes impossible or catastrophically dangerous. The rotation mechanics work because they fundamentally alter the angle of force application on the elbow joint, transforming what was a direct hyperextension vector into a twisting motion that the joint can better tolerate. However, this tolerance is limited and time-dependent. The escape requires not just physical execution but superior timing recognition and threat assessment. Students must develop the sensitivity to feel the exact moment when opponent commits to full extension, as this represents the closing of the escape window. The thumb rotation is mechanically sound because it externally rotates the entire arm structure, but this advantage disappears once full extension is achieved. From a systematic perspective, this escape should be trained but positioned correctly within the defensive hierarchy - it's a last resort after positional defenses have failed, not a primary defensive strategy.
-- **Gordon Ryan**: In high-level competition, the Hitchhiker Escape is extremely rare because good armbar finishers control the shoulder before extending, which completely eliminates the rotation option. I've seen it work maybe three times in major ADCC or IBJJF competitions, usually when someone makes a desperation attempt and gets lucky with timing. The reality is that if you're in a position where you need this escape, you've already made multiple defensive errors. That said, knowing it exists adds a psychological element - if opponents know you're capable of attempting it, they may overcommit to shoulder control, which can create other defensive opportunities. When I attack armbars, I specifically prevent the thumb rotation by controlling the wrist and shoulder simultaneously, which makes this escape mechanically impossible. If you're going to train this, understand it's a 1% scenario skill. Focus 99% of your defensive energy on preventing the armbar earlier through better guard retention and arm positioning. The escape also requires exceptional shoulder mobility that most grapplers don't possess - forcing it without adequate flexibility just trades an elbow injury for a shoulder injury.
-- **Eddie Bravo**: The Hitchhiker Escape is pure desperation innovation - exactly the kind of technique that shows the creative adaptation possible in BJJ when you refuse to accept conventional defensive limitations. In 10th Planet, we've explored similar rotation-based escapes from various joint locks because we compete no-gi where everything happens faster and submissions are tighter. The key insight is that most joint locks have a rotational vulnerability if you can identify the exact angle that reduces pressure. For the armbar, it's that thumb-out rotation combined with turning into the pressure, which feels completely wrong until you understand the mechanics. We drill this with rubber guard flexibility training because that shoulder mobility is absolutely essential. I've modified the escape by combining it with lockdown mechanics when escaping from bottom positions - if you can trap opponent's leg while rotating, it prevents them from following your movement and re-attacking. The biggest mistake people make is thinking of this as a technique rather than a principle. The principle is: identify the rotational weakness in any joint lock and exploit it before full extension. That same concept applies to kimuras, toe holds, and other submissions if you're creative and flexible enough.
 
 </section>
 

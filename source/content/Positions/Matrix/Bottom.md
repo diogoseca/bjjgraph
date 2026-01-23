@@ -8,7 +8,7 @@ description: "Execute the Matrix back take from bottom position. Technical guide
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -446,24 +446,6 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 
 **Average Time in Position**: 2-4 seconds for rotation execution, 5-10 seconds total to establish back control
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Matrix back take represents a masterclass in exploiting rotational mechanics and spatial geometry. The technique succeeds because it creates three-dimensional movement in an environment where most practitioners think two-dimensionally. When your opponent is in turtle, they defend against linear attacks—forward pressure, sideways movement—but the inverted rotation attacks from an axis they're not structurally prepared to resist. The key biomechanical principle involves using your shoulder as a fixed pivot point while your hips trace an arc around that fulcrum, generating rotational momentum through the simple physics of lever arms. The critical technical detail that separates successful from unsuccessful Matrix attempts is hook insertion timing—advanced practitioners thread the first hook at approximately 90 degrees of rotation, while the body is still inverted, ensuring the hook is already established before the opponent recognizes the back take is occurring.
-
-### Gordon Ryan
-
-In competition, the Matrix has become one of my highest-percentage back takes specifically because it's so difficult to defend once you commit to it. Most opponents are prepared for traditional back attacks—arm drags, seat belt advancement, hook insertion battles—but the Matrix bypasses all those defensive sequences. The timing I look for is when opponents are posting statically in turtle or when they're transitioning between positions and have momentarily stopped moving. That split second of stillness is your entry window. One thing I've found crucial is pairing the Matrix with conventional attacks so opponents can't just defend one approach. If they're constantly defending my arm drags and traditional back takes, they create perfect Matrix opportunities, and vice versa. The technique also works exceptionally well in no-gi because without grips to control, opponents struggle to prevent the rotation once it begins. Against elite opponents, I often use the Matrix threat to force reactions that open other attacks rather than finishing the actual rotation every time.
-
-### Eddie Bravo
-
-The Matrix is one of those techniques that looks wild but is actually super systematic once you understand the mechanics. We've integrated it extensively into the 10th Planet system because it fits perfectly with our philosophy of dynamic, momentum-based movement. What makes it especially effective is how it messes with opponents' spatial awareness—they're tracking you at ground level, then suddenly you're inverted and circling around them, and their brain can't process the position change fast enough. I teach students to think of it as a continuous rolling motion rather than discrete steps, almost like a breakdancing move. The athletic component is significant, which is why we drill it extensively in warm-ups to develop the necessary body control and rotational awareness. One variation we use a lot is the Matrix from failed lockdown positions in half guard—when they defend the lockdown sweep, that same rotational energy can convert directly into a Matrix back take. The technique also pairs beautifully with our truck and twister system, creating a comprehensive back attack approach that attacks from every angle.
 
 </section>
 

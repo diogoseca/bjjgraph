@@ -8,7 +8,7 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,24 +443,6 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Passing Seated Guard requires understanding the unique biomechanical challenge it presents: your opponent has excellent base, complete leg mobility, and the constant threat of standing. Unlike passing supine guards where you can use pressure and weight, Seated Guard forces you to respect opponent's structural advantages. The key is systematic grip control before any forward movement. You must neutralize their ability to stand first - typically through collar or sleeve control - then address their leg mobility through angle changes and distance management. The common error is treating this like closed guard passing where you can simply drive forward. That approach walks directly into sweeps. Instead, think of it as a standing wrestling exchange where you happen to have slight height advantage. Use that advantage to control their upper body while circling to angles that minimize their legs' defensive utility. The pass is won through superior grips and positioning, not through force.
-
-### Gordon Ryan
-
-When I'm passing Seated Guard, I'm thinking grip fighting first. If they get good grips on me, they can stand up or hit sweeps all day. But if I control their collar and one sleeve, now I'm dictating the engagement. I like to stay standing initially because it gives me mobility to avoid their sweeps and ankle picks. When I see an opportunity - usually when they overcommit to stopping me from passing one way - I quickly change directions with a toreando or leg drag. The key is not giving them time to set up their attacks. Keep them reacting to your grips and angle changes. And here's important: don't be afraid to backstep and reset if you don't like the position. Better to restart than walk into a sweep trying to force a pass that isn't there. Seated Guard passing is about patience and timing. Wait for them to extend their legs or reach for grips, then explode past their legs before they can recover their structure.
-
-### Eddie Bravo
-
-Passing Seated Guard is all about not getting frustrated and doing something stupid. Your opponent is sitting there, looking all comfortable, and you want to just smash through. Don't do it. That's exactly what they want. Instead, use your grips to mess with their base. Grab a collar, pull them off balance, make them post that hand forward. Now they can't sit as comfortably. Or grab both sleeves and lift - now they can't base out. Once you disrupt their structure, that's when you pass. I like leg drags against seated guard because you're going around their legs instead of through them. Control one leg, step to the side, pull them into you as you move past. Also, don't sleep on the snap down. When they try to stand, snap them down to front headlock. Now you're hunting darces and guillotines instead of passing guard. In no-gi, this position happens a lot, so you better have a game plan. Stay mobile, control the grips, pass from angles, and be ready to attack when they try to stand. Simple but effective.
 
 </section>
 

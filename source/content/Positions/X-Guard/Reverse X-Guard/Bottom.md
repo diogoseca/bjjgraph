@@ -8,7 +8,7 @@ description: "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -433,24 +433,6 @@ Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Gu
 
 **Average Time in Position**: 30-60 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse X-Guard Bottom represents an evolution in guard systems, utilizing inverted hook configurations to create biomechanical advantages unavailable from traditional guards. The critical factor is understanding that both hooks must work in concert to control the opponent's base—the primary hook behind the knee prevents backward movement and establishes vertical control, while the secondary hook on the hip controls rotation and lateral stability. The positioning creates a kinetic chain where elevating pressure through the hooks directly transfers force into off-balancing the opponent. Practitioners must recognize that this is fundamentally a transitional hub position within modern guard systems. Success comes not from remaining static in Reverse X-Guard, but from using it as a platform to access multiple positions based on opponent reactions. The inverted body angle creates unique leverage advantages for sweeps, but also requires superior hip mobility and core strength to maintain. Study the relationship between hook angle, grip placement, and opponent's center of gravity to maximize effectiveness.
-
-### Gordon Ryan
-
-In competition, Reverse X-Guard Bottom is one of my go-to positions when opponents try to stand and disengage from standard guard systems. The beauty of this position is that it gives you incredible control over one leg while setting up multiple high-percentage sweeps and back takes. When I establish Reverse X, I'm immediately thinking about elevation sweeps or transitioning to Single Leg X if they try to pull away. The key is being aggressive with your hooks—you can't just hold the position, you need to constantly be lifting and off-balancing them. Against high-level opponents, I often use Reverse X as a transitional position rather than a destination. If they defend the sweep well, I'm already moving to Ashi Garami or inverting to take the back. The position works exceptionally well in no-gi because you can maintain connection through the hooks even without gi grips. My advice is to drill the entries religiously because getting to Reverse X cleanly from standing guards or De La Riva is what separates good guard players from great ones. Once you're there, stay active and trust your sweep mechanics.
-
-### Eddie Bravo
-
-Reverse X-Guard is a sick position that fits perfectly into the 10th Planet system because it's all about creating angles and attacking from unconventional positions. We've integrated Reverse X as a key component of our no-gi guard game, especially when transitioning between different leg entanglement positions. The inverted configuration lets you create unique sweeping angles that opponents don't expect, and it sets up perfectly for our lockdown entries and back attacks. What I love about Reverse X is how it forces your opponent to deal with constant elevation pressure while you're already thinking three steps ahead. From Reverse X, you can flow to Honey Hole, hit technical stand-ups, or invert for back takes—it's a total system position. The key is understanding that your hips are your engine in this position. You need to be constantly moving, creating angles, and making your opponent react. Don't get stuck holding static Reverse X; use it as a launching pad for attacks. We drill Reverse X entries from butterfly, seated guard, and even from bottom half as part of our guard recovery sequences. Master this position and your sweep game becomes incredibly dynamic and hard to defend.
 
 </section>
 

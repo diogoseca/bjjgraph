@@ -8,7 +8,7 @@ description: "Master Tani Otoshi (Valley Drop) in BJJ. Step-by-step execution fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -336,15 +336,6 @@ Tani Otoshi serves as a critical bridge between standing grappling and ground fi
 - [[Grip Fighting]] - Essential prerequisite skill for establishing throwing position
 - [[Guard Pull]] - Alternative strategy that Tani Otoshi can disguise or replace
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: Tani Otoshi represents a fascinating study in mechanical efficiency and the principle of sacrificing position for overwhelming tactical advantage. The biomechanics are elegant in their simplicity: you create a fixed point obstacle below the opponent's center of gravity while simultaneously generating rotational force through their upper body. What makes this throw scientifically interesting is that it inverts the normal risk-reward calculation of sacrifice techniques. Typically, sacrificing your base is catastrophic in grappling, but here the sacrifice is so brief and the resulting positional advantage so substantial that the equation tilts heavily in your favor. The key technical detail most practitioners miss is the relationship between the blocking leg height and the rotational pull vector - these must be precisely coordinated. Block too high and opponent steps over; pull in the wrong direction and opponent simply posts. When executed correctly, however, the opponent has essentially zero defensive options once you've committed to the drop. This is why timing and setup are paramount - the technique itself is nearly unstoppable when conditions are correct, but those conditions must be deliberately created through superior gripping and movement strategy.
-- **Gordon Ryan**: I've used Tani Otoshi extensively in no-gi competition because it's one of the few judo throws that translates almost perfectly without the gi. The beauty of this throw in a competitive context is that it's unexpected - most people are defending shots, body locks, and snap downs, not lateral sacrifice throws. I particularly like using it against opponents who are stiff-arming and keeping distance, because the lateral angle step combined with the drop completely bypasses their defensive frames. The key to making it work at the highest levels is disguising it within your grip fighting flow - you can't just randomly shoot for it. I'll typically threaten with collar ties or Russian ties, get them moving, and hit the Tani Otoshi when they step into my throwing direction. The other competitive advantage is the position you land in - I'm coming up directly into side control or knee on belly, which means I'm immediately in my pressure passing game without having to pass guard. Against high-level guard players, this is massive. Practice the hell out of the transition from throw completion to established top control, because that's where competitions are won.
-- **Eddie Bravo**: Tani Otoshi is slept on in the BJJ world because everyone's focused on wrestling takedowns, but this throw is perfect for the BJJ meta-game. Think about it - most BJJ guys have terrible takedown defense but they're hard to take down with traditional wrestling because they'll just pull guard. Tani Otoshi completely sidesteps that problem because you're dropping with them, but you're landing on top. It's like pulling guard but reverse-engineering it so you get the dominant position. I teach variations where you can flow into it from failed guard pulls or use it to counter when someone's defending your other standing attacks. The no-gi version from over-under or collar tie is especially nasty because people don't see it coming. One thing I emphasize is don't be afraid to bail on it and convert to something else - if you feel them stepping over or sprawling, immediately transition to a leg attack or regular guard pull. The technique is about creating chaos and opportunities, not forcing a specific outcome. Also experiment with using it from weird positions like when you're both seated and they stand up - you can hit a modified Tani Otoshi as they're rising. Keep your mind open to all the creative applications.
 
 </section>
 

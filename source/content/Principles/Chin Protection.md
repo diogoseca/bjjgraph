@@ -8,7 +8,7 @@ description: "Master neck defense mechanics in BJJ. Learn protective posture pri
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Keep chin tucked toward chest at all times when under choking threat or in vulnerable positions
 - Maintain neck alignment with chin pulled down rather than extending upward which exposes throat
 - Elevate shoulders toward ears to create additional protective barrier around neck's lateral surfaces
@@ -179,9 +179,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Chin Tucking Mechanics**: The ability to pull the chin down toward the sternum while maintaining neck alignment, creating a protective barrier that prevents opponent's forearm from sliding under the jaw and accessing the carotid arteries and trachea.
 
 **Shoulder Elevation Coordination**: The coordinated raising of shoulders toward the ears while maintaining chin tuck, effectively reducing the available space on the lateral sides of the neck and creating additional defensive layers against collar grips and arm positioning.
@@ -202,28 +202,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Hand Fighting from Back]]** (Complementary): Chin protection provides the structural foundation that enables effective hand fighting by denying immediate submission access while hands work to clear attacking arms and create escape opportunities.
-- **[[Defensive Frame]]** (Complementary): Chin protection represents specialized framing for neck defense, applying the same principles of creating structural barriers between opponent and vulnerable targets that define framing in other defensive contexts.
-- **[[RNC Defense]]** (Prerequisite): Proper chin protection is the essential first step in defending the rear naked choke, preventing the choking arm from achieving the required depth under the chin that enables the submission to be completed.
-- **[[Escape Fundamentals]]** (Complementary): Chin protection must be maintained throughout all escape sequences from vulnerable positions, serving as the defensive anchor that prevents submission while escape techniques are being executed.
-- **[[Submission Defense]]** (Extension): Chin protection is the specific application of general submission defense principles to choking attacks, demonstrating how defensive concepts are adapted to counter specific submission categories.
-- **[[Pressure Reduction]]** (Complementary): While chin protection creates structural barriers against submissions, pressure reduction techniques work to create the space and positioning needed to escape the controlling position entirely, with both concepts working together for complete defense.
-- **[[Defensive Posture]]** (Extension): Chin protection exemplifies proper defensive posture specifically applied to neck defense, demonstrating the principle of maintaining protective body positioning under threat.
-- **[[Head Control]]** (Complementary): Chin protection works in conjunction with head control principles, using proper head positioning to deny opponent control while maintaining defensive integrity.
-- **[[Control Point Hierarchy]]** (Complementary): Understanding that the neck represents a critical control point in the hierarchy, chin protection focuses defensive resources on protecting this high-value target from opponent exploitation.
-- **[[Frame Management]]** (Extension): Chin protection applies frame management principles to neck defense, using structural positioning to manage distance and deny opponent access to submission targets.
-- **[[Defensive Strategy]]** (Complementary): Chin protection represents a key component of overall defensive strategy, providing reliable structural defense that enables other defensive techniques to function effectively.
-- **[[Guard Retention]]** (Complementary): When working guard retention from bottom positions, chin protection prevents opponent from capitalizing on transitional moments to secure choking submissions during position changes.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Back Control**: Chin tucked down with pressure directed backward into opponent's choking arm, shoulders elevated to protect neck sides, creating maximum barrier against rear naked choke attempts while hands fight to clear attacking arms.
 
 **Standing Back Control**: Maintain chin protection while opponent has back control in standing positions, preventing guillotine and rear naked choke setups while working to break opponent's grips and regain neutral positioning.
@@ -264,9 +245,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Recognize position with choking threat potential (back control, mount, front headlock, side control transitions)**: Immediately adopt protective posture with chin tucked down toward sternum and shoulders elevated toward ears before opponent establishes grips
 2. **Assess opponent's current grip and arm positioning relative to neck access points**: Adjust chin protection direction based on attack angle—down and back against rear attacks, down and forward against front attacks, down and lateral against side attacks
 3. **Evaluate breathing capacity and mental state under protective posture**: Establish controlled breathing pattern through nose despite chin tuck, maintaining calm and preventing panic that could compromise defensive technique
@@ -279,9 +260,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Extending neck upward or backward when feeling pressure from choke attempt
   - **Consequence**: Creates the exact opening opponent needs to complete the choke by exposing the front and sides of the neck, dramatically increasing submission success probability
   - **Correction**: Fight the instinctive urge to pull away from pressure; instead, drive chin down harder and maintain downward head pressure to deny opponent the space needed for completion
@@ -307,9 +288,9 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Choking Focus** (Focus: Developing reflexive protective posture and building confidence in technique's effectiveness through repeated exposure to realistic finishing attempts while maintaining proper defensive structure)
 Train starting from vulnerable positions (back control, mount, front headlock) with specific emphasis on maintaining chin protection under maximum submission pressure from skilled training partners
 
@@ -332,9 +313,9 @@ Work on maintaining chin protection during dynamic scrambles and rapid position 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can adopt basic chin tuck position when reminded or when threat is obvious and stationary
 - Maintains protective posture when opponent is not actively applying pressure or advancing position
@@ -371,10 +352,26 @@ Work on maintaining chin protection during dynamic scrambles and rapid position 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Hand Fighting from Back]]** (Complementary): Chin protection provides the structural foundation that enables effective hand fighting by denying immediate submission access while hands work to clear attacking arms and create escape opportunities.
+- **[[Defensive Frame]]** (Complementary): Chin protection represents specialized framing for neck defense, applying the same principles of creating structural barriers between opponent and vulnerable targets that define framing in other defensive contexts.
+- **[[RNC Defense]]** (Prerequisite): Proper chin protection is the essential first step in defending the rear naked choke, preventing the choking arm from achieving the required depth under the chin that enables the submission to be completed.
+- **[[Escape Fundamentals]]** (Complementary): Chin protection must be maintained throughout all escape sequences from vulnerable positions, serving as the defensive anchor that prevents submission while escape techniques are being executed.
+- **[[Submission Defense]]** (Extension): Chin protection is the specific application of general submission defense principles to choking attacks, demonstrating how defensive concepts are adapted to counter specific submission categories.
+- **[[Pressure Reduction]]** (Complementary): While chin protection creates structural barriers against submissions, pressure reduction techniques work to create the space and positioning needed to escape the controlling position entirely, with both concepts working together for complete defense.
+- **[[Defensive Posture]]** (Extension): Chin protection exemplifies proper defensive posture specifically applied to neck defense, demonstrating the principle of maintaining protective body positioning under threat.
+- **[[Head Control]]** (Complementary): Chin protection works in conjunction with head control principles, using proper head positioning to deny opponent control while maintaining defensive integrity.
+- **[[Control Point Hierarchy]]** (Complementary): Understanding that the neck represents a critical control point in the hierarchy, chin protection focuses defensive resources on protecting this high-value target from opponent exploitation.
+- **[[Frame Management]]** (Extension): Chin protection applies frame management principles to neck defense, using structural positioning to manage distance and deny opponent access to submission targets.
+- **[[Defensive Strategy]]** (Complementary): Chin protection represents a key component of overall defensive strategy, providing reliable structural defense that enables other defensive techniques to function effectively.
+- **[[Guard Retention]]** (Complementary): When working guard retention from bottom positions, chin protection prevents opponent from capitalizing on transitional moments to secure choking submissions during position changes.
+
+
+### Related Content
 - [[RNC Defense]] (Principle) - Chin protection is the foundational first layer of rear naked choke defense that prevents the choking arm from achieving required depth
 - [[Hand Fighting from Back]] (Principle) - Works in conjunction with chin protection as the active defensive layer that clears attacking arms while structural positioning buys time
 - [[Defensive Frame]] (Principle) - Applies general framing principles specifically to neck defense, creating structural barriers between opponent and submission targets
@@ -388,15 +385,6 @@ Work on maintaining chin protection during dynamic scrambles and rapid position 
 - [[Darce Choke]] (Submission) - Front headlock choke that chin protection helps defend against by preventing deep arm positioning around the neck
 - [[Defensive Posture]] (Principle) - Chin protection exemplifies proper defensive posture specifically applied to neck defense contexts
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches chin protection as the foundational layer in hierarchical submission defense architecture, treating it as non-negotiable defensive discipline that must become reflexive rather than deliberate. Emphasizes understanding the biomechanical requirements for effective choking—opponent must access neck surface and create circumferential pressure—which creates clear defensive objective of denying that access through structural positioning. Systematizes chin protection protocols according to attack type and direction, distinguishing between defenses against attacks from rear (chin down, pressure back), front (chin down, pressure forward), and lateral positions (chin to near shoulder, lateral pressure). Treats chin protection as necessary but insufficient defense in isolation, always integrating it with active hand fighting and escape protocols for comprehensive defensive system. Stresses that proper chin protection is not about strength but about precise positioning and understanding of anatomical vulnerabilities, making it accessible to practitioners of all physical attributes when executed with proper technical understanding.
-- **Gordon Ryan**: Views chin protection as fundamental survival skill that must be trained to unconscious reflex level through extensive positional sparring under maximum finishing pressure. Focuses on what he terms 'aggressive chin tucking' where defensive posture is maintained forcefully rather than passively, creating sufficient structural barrier to buy time for hand fighting and escape execution. Emphasizes the importance of maintaining chin protection even when initiating escape attempts, treating defensive posture maintenance as non-negotiable regardless of concurrent technical objectives. Advocates for realistic training that includes exposure to near-completion choking scenarios where chin protection is the primary factor preventing submission, developing confidence in defensive technique's effectiveness. Has refined his own chin protection through countless competition rounds against elite back attackers, demonstrating that proper defensive posture combined with systematic escape sequences creates reliable defense even against world-class finishing skills. Notes that many competitors lose matches not from lack of escape knowledge but from momentary lapses in chin protection discipline during transitions.
-- **Eddie Bravo**: Has integrated chin protection principles throughout 10th Planet defensive protocols while emphasizing dynamic application rather than static positioning. When teaching neck defense, focuses on maintaining chin protection during continuous movement and escape sequences rather than treating defense and offense as sequential phases. Emphasizes creative defensive combinations where chin positioning is coordinated with unconventional body positioning that creates additional choking barriers beyond traditional approaches. Advocates for understanding chin protection as active defensive weapon rather than passive survival technique, teaching students to use head positioning strategically to create counterattacking opportunities while maintaining protective posture. Has developed specific drilling protocols that combine chin protection with rubber guard entries, lockdown sweeps, and other 10th Planet techniques, demonstrating how fundamental defensive discipline integrates with system-specific offensive weapons. Stresses importance of remaining comfortable and breathing normally while maintaining protection, as panic and oxygen deprivation compromise both defensive technique and escape execution in high-pressure situations.
 
 </section>
 

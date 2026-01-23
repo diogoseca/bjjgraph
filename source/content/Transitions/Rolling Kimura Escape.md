@@ -8,7 +8,7 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -345,15 +345,6 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 - [[Escape Fundamentals]] - Conceptual foundation for all escape techniques
 - [[Bridge and Roll]] - Related rolling escape mechanics from different position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The rolling Kimura escape represents a fascinating intersection of biomechanics and risk management in Brazilian Jiu-Jitsu. From a mechanical perspective, the effectiveness stems from the temporary change in the force vector acting on the shoulder joint during rotation. When you roll forward in the direction of the lock, you momentarily transform a static submission hold into a dynamic situation where the opponent must choose between maintaining their grip and maintaining their base. Most importantly, this escape highlights a critical principle in submission defense: the hierarchy of defensive responses. This technique should only be employed after all superior defensive options have been exhausted, as it carries inherent injury risk. The intelligent practitioner develops a layered defensive system where early preventative measures are prioritized, and high-risk escapes like this serve as final safety valves rather than primary responses.
-- **Gordon Ryan**: In high-level competition, I view the rolling Kimura escape as a technique you need to know exists but hope you never have to use. The reality is that if your opponent has locked in a tight Kimura and you're forced to consider this escape, you've already made several defensive mistakes earlier in the sequence. That said, understanding this escape has value beyond its practical application - it teaches you to recognize the Kimura's danger zones and motivates better preventative positioning. When I train this technique, I focus heavily on the timing recognition aspect because that's what separates a successful escape from a torn shoulder. In competition, I've seen this escape work at the highest levels, but always with practitioners who had exceptional body control and had drilled the mechanics thousands of times. If you're going to add this to your defensive arsenal, commit to mastering it completely or don't use it at all - there's no middle ground with techniques this risky.
-- **Eddie Bravo**: The rolling escape from the Kimura is one of those techniques that looks absolutely crazy the first time you see it, but it's actually based on sound mechanical principles once you understand the physics involved. In the 10th Planet system, we spend a lot of time working on dynamic movement and unconventional escapes, and this technique fits perfectly into that philosophy. What I love about this escape is that it completely violates your opponent's expectations - they're expecting you to defend statically or try to hand fight, and suddenly you're rolling through and changing the entire dynamic of the position. However, I always tell my students that this is a technique that requires absolute commitment and extensive practice before you even think about using it live. We drill the rolling mechanics constantly in warm-ups specifically to prepare people for escapes like this. The key innovation we've added is combining this with the rubber guard recovery system, where after the roll, you immediately look to establish mission control or other high guard positions rather than just settling for closed guard. This creates an opportunity to turn a desperate defensive situation into an attacking position if you can execute with precision.
 
 </section>
 

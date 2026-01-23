@@ -8,7 +8,7 @@ description: "Defend Invisible Collar position from bottom with grip removal tac
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -402,24 +402,6 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 
 **Average Time in Position**: 15-45 seconds from establishment to submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending the invisible collar requires understanding that recognition speed is the critical variable determining survival probability. The mechanical advantage this position provides to the attacker is substantial once the grip reaches full depth—at that point, the defender faces a mathematical problem rather than a technical one. Your best defensive window exists in the first 3-5 seconds after the grip begins to establish, before finger positioning becomes locked in. During this window, aggressive two-on-one hand fighting combined with systematic neck protection can still neutralize the threat. Once you feel the knuckles firmly against your carotid artery with significant grip depth, your defensive options narrow dramatically and you must commit to emergency protocols. The key technical detail most practitioners miss is that effective collar grip defense requires accepting temporary vulnerability to other attacks—you cannot simultaneously defend the collar, protect against rear naked chokes, and work hook removal. You must make intelligent choices about which threats to prioritize based on grip depth and opponent positioning.
-
-### Gordon Ryan
-
-When I'm defending invisible collar in training or competition, I've learned that early aggression is everything. The moment I feel someone's hand start to dig into my collar beyond a certain depth, I'm immediately going two hands on that wrist and fighting like it's a life or death situation—because positionally, it basically is. Most people make the mistake of trying to fight the collar grip with one hand while keeping the other hand free to defend other stuff, but that's a losing strategy against high-level guys. You need to commit fully to removing that grip first, even if it means temporarily giving up on other defensive priorities. The other key thing is understanding the submission chain the attacker is setting up—they want you to defend the collar so they can hit the RNC, or defend the neck so they can take your arm. I focus on removing hooks as quickly as possible while hand fighting the collar, because once those hooks are gone, even if they have a good grip, I can start creating the space I need to escape. It's about making the position less sustainable for them rather than trying to perfectly defend everything at once.
-
-### Eddie Bravo
-
-The invisible collar is basically the gi version of the concealed threat principle we use throughout the 10th Planet system—make your attack look like something else until it's too late to defend. When you're on the defensive side of this, you need to develop that same awareness we teach for defending positions like the Twister or Vaporizer—constant paranoia about hand positioning and grip changes. The second someone's hand goes deeper into your collar than normal controlling depth, you need to react immediately because that setup time is your only real window. What a lot of people don't understand is that once this grip is locked in, it's not about strength or toughness—the mechanics are too good and you're going to tap or go out. Your defensive strategy should be built around preventing the full establishment rather than trying to escape after it's set. When I coach people on this defense, I emphasize the mental game aspect: stay calm, don't panic-bridge or make explosive movements that just tighten the choke, and work systematic hand fighting and hip escape in coordination. If you do end up fully caught, protect your neck, try to create space by removing hooks, and look for the moment when they commit to finishing—that's sometimes when a small window opens for escape, though I'll be honest, at that point you're really just fighting to survive rather than expecting to win the position.
 
 </section>
 

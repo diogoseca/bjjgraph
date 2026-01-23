@@ -8,7 +8,7 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -444,24 +444,6 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 
 **Average Time in Position**: 30-60 seconds before submission or escape attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From high mount bottom, you must understand that traditional escape mechanics have been geometrically eliminated. The opponent's elevated knee position removes your ability to create the angle required for effective bridging. Your only realistic opportunities emerge during transitional moments when the opponent shifts weight to attack submissions. This requires exceptional timing awareness and the discipline to remain still during static control while exploding during momentary weight shifts. The key defensive principle is protecting your neck and arms as absolute priorities—never allow full arm extension for frames as this creates immediate armbar vulnerability. When the opponent reaches for collar grips or posts a hand high to establish submission control, that microsecond of base compromise represents your window for explosive bridge or elbow escape attempts. Accept that escape success rates from high mount are inherently low; your goal is surviving until the opponent makes a technical error during submission execution.
-
-### Gordon Ryan
-
-Being stuck under high mount in competition is one of the worst positions because your opponent has almost unlimited submission options with minimal risk. My defensive strategy focuses on never allowing this position to be established in the first place—high mount typically results from failed standard mount defenses. If you find yourself here, your mental approach must shift immediately from escape to survival mode. The psychological pressure of feeling helpless often causes defensive mistakes that accelerate submissions. Stay calm, protect your neck with tucked chin and defensive hand positioning, and never extend arms straight to push. The moment your opponent transitions to attack an armbar or choke, their base becomes momentarily compromised—this is your only window for explosive elbow escape or bridge attempts. In my experience, patience is more valuable than desperate movement from this position. Wait for your opportunity rather than creating it through force.
-
-### Eddie Bravo
-
-High mount bottom is not where you want to be, but it's not game over if you stay mentally strong and technically sharp. The 10th Planet system emphasizes movement and creating angles, but from high mount you're so compressed that traditional movement is nearly impossible. Your defensive focus should be preventing the finish rather than forcing escapes until the right moment appears. When opponent reaches for submissions, their weight distribution changes—use that moment to attempt elbow escape back to half guard or even lockdown if you can get a leg in. The psychological element is huge here—staying calm while someone sits on your chest restricting your breathing takes serious mental toughness. Practice high mount survival regularly in training so you develop comfort in discomfort. Also, learn to recognize high mount setups early so you can prevent them during standard mount escapes. Prevention is always easier than escape from this position.
 
 </section>
 

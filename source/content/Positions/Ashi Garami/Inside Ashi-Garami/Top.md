@@ -8,7 +8,7 @@ description: "Foundational leg entanglement for ankle locks and heel hooks. Entr
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -460,24 +460,6 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 **Average Time in Position**: 30-90 seconds before submission attempt or advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Inside ashi garami represents the foundational position in the systematic approach to leg attacks. The position's effectiveness derives from its mechanical simplicity—one leg is controlled between your legs while your inside leg blocks hip rotation. This creates a clear hierarchy of control that beginners can understand while offering advanced practitioners a platform for complex attacks. The key biomechanical principle is the perpendicular alignment, which maximizes your mechanical advantage over the opponent's leg while minimizing their ability to generate defensive force. When teaching this position, I emphasize that it serves as the entry point to an entire system of leg attacks. Students must master inside ashi retention before advancing to more complex positions like honey hole or saddle. The straight ankle lock from inside ashi should be viewed not just as a submission but as a forcing mechanism—opponent's defensive reactions to the ankle lock create opportunities for advancement to superior positions.
-
-### Gordon Ryan
-
-Inside ashi is my entry point for almost all leg attacks. I look for this position constantly—from guard passing, from failed takedowns, from opponent's guard pulls. Once I secure inside ashi, I immediately evaluate whether to stay and attack from here or transition to honey hole or saddle. The straight ankle lock from inside ashi is extremely high percentage, especially when opponent is focused on defending heel hooks. In competition, I use inside ashi as both a finishing position and a transitional position depending on opponent's reactions. The key is understanding when to stay and when to advance—this decision-making separates good leg lockers from great ones. Against less experienced opponents, I finish directly from inside ashi with ankle locks. Against elite competition, I use the position to force reactions that allow advancement to honey hole where I have even more control. The position's versatility makes it essential for modern no-gi grappling.
-
-### Eddie Bravo
-
-While inside ashi isn't traditionally part of the 10th Planet system, I've incorporated it because it connects beautifully with our existing positions. From inside ashi, you can transition to positions we already use like the truck and leg attacks we've developed. The position fits our philosophy of control before submission—establish inside ashi, control their leg completely, then attack. I teach students to think of inside ashi as a gateway position—it's rarely where you finish, but it's often where you start. The position also works well in combination with upper body attacks, which is important in our system. If leg locks aren't available, you can transition to back attacks or other submissions using the control you've established. The creativity comes from mixing inside ashi entries with our unorthodox guard systems like rubber guard and lockdown, creating unexpected paths to leg entanglements that opponents don't anticipate.
 
 </section>
 

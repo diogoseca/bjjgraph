@@ -8,7 +8,7 @@ description: "Master saddle position mechanics with systematic entries, control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -441,24 +441,6 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 **Average Time in Position**: 30-90 seconds from entry to finish or opponent escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Saddle is the most mechanically sophisticated position in Brazilian Jiu-Jitsu because it requires simultaneous control of multiple joint systems while maintaining dynamic balance against an opponent's defensive movements. The position's effectiveness stems from what I call 'structural lockdown'—your entire body functions as an integrated lever system that immobilizes the opponent's leg regardless of their size or strength. The key to mastery is understanding the hierarchy of controls: perpendicular alignment creates the foundation, hip pressure maintains positional dominance, inside position prevents rotation, and systematic grip progression enables finishing mechanics. Most practitioners fail at the Saddle not because they lack submission knowledge, but because they attempt to finish before establishing these prerequisite controls. When properly executed, the Saddle creates what I term a 'submission constellation'—multiple attacking options that defend each other, forcing the opponent into defensive dilemmas where every protective action opens new attacking pathways.
-
-### Gordon Ryan
-
-In competition, the Saddle is my highest-percentage finishing position when I can establish it against elite opposition. The difference between a loose leg entanglement and a dominant Saddle comes down to small technical details that most people overlook: exactly where you place your hip pressure, how you angle your shoulders, which grip sequence you use to control the heel. I've submitted world champions from this position not because I'm stronger, but because I've drilled the systematic entry pathways thousands of times until they're automatic. Against lower-level opponents, you can often get away with sloppy Saddle mechanics and still finish. Against high-level guys who know the defenses, you need perfect technical execution. My approach is to establish the position systematically from Outside Ashi, clear all their defensive frames methodically, and only attempt the finish when I know their escape windows are completely closed. That patience and systematic progression is what separates training room leg locks from competition finishes.
-
-### Eddie Bravo
-
-The Saddle, or Honey Hole as we call it in 10th Planet, revolutionized no-gi grappling when it started becoming mainstream in competition. What makes this position so effective is that it combines the leg control of wrestling with the submission sophistication of jiu-jitsu. You're not just holding a leg—you're creating a mechanical trap where the opponent's natural defensive instincts work against them. In our system, we teach specific entry pathways from positions like electric chair and lockdown because those are high-percentage setups where the opponent is already compromised. The key innovation we've added is emphasizing the submission chains—if they defend the heel hook by hiding their heel, immediately attack the straight ankle lock or toe hold. If they defend those by pulling their toes back, the heel is exposed again. This creates a submission loop where you're constantly attacking and the opponent is constantly defending, which is exhausting both mentally and physically. Train this position slowly and with control, because the injury potential is real if you're reckless with the submissions.
 
 </section>
 

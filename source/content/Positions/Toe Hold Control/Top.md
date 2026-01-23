@@ -8,7 +8,7 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Partner in bottom position performs specific escape attempts including hip escap
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The toe hold control position represents a critical node in the leg entanglement hierarchy where the practitioner has achieved ankle isolation but must maintain systematic control before attempting the finish. The common error is rushing to the rotational pressure without establishing absolute positional dominance, as control must always precede submission in leg lock methodology. The key mechanical principle is understanding that the toe hold requires not just grip configuration but proper body positioning that prevents the opponent from sitting up and generating hip extension power. Your chest pressure over their lower leg creates the postural control that makes the ankle vulnerable, while your arm configuration isolates the joint from the protective musculature. The position demands understanding of the relationship between knee line control and ankle vulnerability, if you cannot control where their knee points, you cannot reliably finish the submission. This is why systematic practitioners emphasize the progression from entry to control to finish, with each phase requiring complete mastery before advancing to the next. The toe hold control position teaches the fundamental principle that submission positions are not static endpoints but dynamic control scenarios where your body positioning and grip refinement determine success far more than strength or speed of rotation.
-
-### Gordon Ryan
-
-In competition, toe hold control top is one of the highest percentage leg lock positions because most opponents don't understand the hierarchy of escapes and make critical errors trying to pull their leg straight back. When I have someone in toe hold control, I'm looking for one of two reactions: either they stay flat and I finish the toe hold directly, or they sit up and I transition to saddle where I have even better control. The key to making this position work at the highest levels is understanding that your chest pressure is what prevents them from sitting up, if you're too upright, they'll escape every time. I keep my weight distributed forward over their lower leg while maintaining enough base to adjust angles when they try to rotate. Against high-level opponents, I rarely finish the toe hold from the initial entry position, instead I use their defensive reactions to move into outside ashi or saddle where my control is more absolute. The position is incredibly effective because even if they escape the immediate toe hold danger, I'm collecting their leg and entering my leg lock system where I have multiple attacking options. In training, focus on keeping your grips tight and your elbows close to your body, the space you allow in your arm configuration is directly proportional to their escape probability. Time management is also critical in competition, if you have 30 seconds left and toe hold control, go for the finish immediately, but if you have 2 minutes, be patient and use their defensive movements to improve your position.
-
-### Eddie Bravo
-
-Toe hold control from top is one of those positions that separates the leg lock players who just know techniques from the ones who understand the system. In 10th Planet methodology, we approach this position as part of the saddle entry sequence rather than an isolated submission position, it's a transitional control point where you're forcing the opponent to react so you can advance. The beautiful thing about toe hold control is that it creates instant panic in opponents who don't train leg locks regularly, and that panic leads to explosive movements that open up back takes and position improvements. When I'm teaching this, I emphasize the importance of staying mobile and ready to flow, you're not trying to muscle the toe hold, you're using it as a threat that makes them give you something better. If they pull their leg back hard, you're coming up into saddle. If they try to kick free, you're transitioning to a kneebar. If they rotate the wrong way, you're moving to outside ashi. The position is about creating a dilemma where every defensive option they choose gives you a different attacking opportunity. We also use toe hold control as an entry point for calf slicer setups when we're in the truck position, it's not just about ankle locks. The innovation in modern leg locking is understanding that these positions are interconnected, and toe hold control sits at a critical junction where you can flow in multiple directions based on what the opponent gives you.
 
 </section>
 

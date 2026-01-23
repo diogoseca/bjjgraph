@@ -8,7 +8,7 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -452,24 +452,6 @@ From established Stoner Control, flow continuously between triangle setup, omopl
 
 **Average Time in Position**: 20-60 seconds before transitioning to submission or sweep
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Stoner Control represents a sophisticated application of mechanical advantage through coordinated limb entanglement and postural destruction, manifesting in two distinct but conceptually related variations within the 10th Planet system. Both the rubber guard and lockdown versions operate on the same fundamental principle: creating opposing vectors of force where leg control generates downward or rotational pressure while the deep overhook eliminates structural support on one side. What makes this position particularly valuable from a systematic perspective is its role as a decision point in the guard hierarchy. The opponent faces a series of losing options - in the rubber guard version, posting with the free arm triggers triangle mechanics, driving forward initiates omoplata sweeps, and attempting to extract the trapped arm opens arm triangle attacks. In the lockdown version, defending the back take opens sweep opportunities while defending sweeps exposes the back. This multi-directional threat matrix is the hallmark of elite guard play, where every defensive action creates a specific offensive opportunity. The key to mastering both variations lies in understanding that leg control and overhook must work in perfect coordination - the leg control prevents escape and breaks posture, while the overhook creates the specific attacking opportunities.
-
-### Gordon Ryan
-
-In high-level no-gi competition, Stoner Control is one of the few 10th Planet positions I've found legitimately effective against elite opponents, though I primarily utilize the concepts rather than the exact positions. The rubber guard variation works best as a rapid-fire transition checkpoint rather than a holding position - against world-class competitors, you have maybe 5-10 seconds before they develop a counter-strategy, so immediate attacks are essential. The lockdown variation I've had more success with in competition because it forces top players into terrible positions where they can't establish the pressure passing game most modern grapplers rely on. The lockdown prevents them from stepping their leg out for knee slice passes, and the overhook prevents them from getting their weight over you for smash passes. What makes this championship-level is the back take threat from the truck transition - once opponents become worried about defending their back, they leave themselves wide open for the old school sweep. One critical detail most people miss: the overhook needs to be impossibly deep, almost uncomfortable, because good passers will fight tooth and nail to extract that arm. If they succeed, your entire position collapses instantly. The key in competition is patience - hold the position, break their posture completely, then attack when you feel them commit to a defensive priority.
-
-### Eddie Bravo
-
-Stoner Control is a crucial checkpoint in the 10th Planet roadmap and represents the moment where you've successfully broken your opponent's defensive structure in either the rubber guard or lockdown game. I developed both variations to create that signature 10th Planet dilemma - they can't defend everything simultaneously. From the rubber guard version, the triangle is your bread and butter, but the omoplata sweep opens when they fight the triangle, and the gogoplata appears when they defend differently. I named it Stoner Control because once you lock it in properly, you've 'stoned' their ability to move effectively - they're frozen in a bad position. The lockdown version is all about that same philosophy but from half guard - they defend the back, you sweep them; they defend the sweep, you take the back. It's beautiful, man. The position requires serious hip flexibility for the rubber guard version or solid lockdown mechanics for the half guard version, which is why we emphasize stretching and fundamental position mastery at 10th Planet gyms. If you can't get your ankle behind their head comfortably or can't maintain a tight lockdown, you're not ready for these positions yet - stick with Mission Control or basic lockdown until your fundamentals improve. When you hit Stoner Control clean in either variation, your opponent knows they're in serious trouble because you have multiple paths to victory and they're fighting a losing battle.
 
 </section>
 

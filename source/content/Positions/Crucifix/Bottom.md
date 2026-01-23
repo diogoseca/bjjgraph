@@ -8,7 +8,7 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -430,24 +430,6 @@ From established crucifix, bottom player works specific pathway to turtle positi
 
 **Average Time in Position**: 20-45 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The crucifix represents the most systematically devastating control position in grappling because it achieves what I call bilateral limb isolation—the simultaneous neutralization of both arms through different mechanisms. One arm is mechanically trapped by leverage, the other by direct control. This creates a scenario where the defensive hierarchy completely collapses. From a biomechanical standpoint, the bottom player cannot create frames, cannot establish barriers, and cannot generate the angular momentum necessary for most escape sequences. The critical insight for defensive purposes is understanding that escape windows exist primarily during transition phases before full consolidation. Once both arms are fully secured and the opponent has established stable base, the mathematics of the position become overwhelmingly unfavorable. The intelligent defensive approach focuses on immediate recognition of entry patterns, aggressive hand fighting during transition, and accepting positional regression to back control as a successful defensive outcome rather than seeking complete escape to neutral.
-
-### Gordon Ryan
-
-I've been caught in crucifix exactly twice in competition at black belt, and both times I recognized it early enough to prevent full consolidation. That's the key—you cannot allow your training partners or opponents to fully lock this in during practice or matches. In competition, the moment I feel one arm getting isolated behind an opponent's leg, I'm immediately working my hips, changing angles, and using my free arm aggressively to prevent the second arm from being controlled. The reality is that if someone like Garry Tonon gets full crucifix on you with both arms secured, you're getting finished—the question is just which submission they choose. The high-percentage defensive approach is prevention through early recognition and aggressive positional movement during entry. If you do end up fully caught, your only realistic goal is surviving the submission attempts while working micro-adjustments for arm freedom. Don't waste energy on explosive movements; work systematic small adjustments and wait for your opponent to make positional adjustments that create brief escape windows.
-
-### Eddie Bravo
-
-The crucifix is one of those positions where the 10th Planet approach of constant movement and unconventional angles becomes absolutely critical for defense. Traditional defensive postures don't work here because your arms are compromised—you need to think three-dimensionally about creating space through hip movement, shoulder rolls, and using whatever mobility remains in your legs. What I teach my students is that if you end up in full crucifix, you've already made multiple defensive errors, so the focus shifts to damage control and opportunistic escape attempts. We drill a lot of scenarios where you use your free arm not just for neck defense but as a posting mechanism to create brief moments of space for hip movement. The leg position becomes critical too—if you can get your legs involved in creating frames or barriers, you add another defensive dimension. Competition-wise, I've seen guys escape fully locked crucifix by staying mentally calm, conserving energy, and waiting for the top player to make positional adjustments for submissions. Those transition moments create brief windows where systematic hip escape becomes possible. The key is never accepting the position mentally and always staying ready to exploit those micro-opportunities.
 
 </section>
 

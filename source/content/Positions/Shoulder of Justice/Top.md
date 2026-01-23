@@ -8,7 +8,7 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -482,24 +482,6 @@ Partner in bottom position actively moves their head to different defensive posi
 
 **Average Time in Position**: 1-3 minutes depending on opponent's pain tolerance and defensive skill
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Shoulder of Justice Top position represents one of the most biomechanically efficient applications of pressure in all of Brazilian Jiu-Jitsu. From a systematic perspective, this position exploits a fundamental weakness in human anatomy - the temporomandibular joint cannot effectively resist pressure applied at an oblique angle toward the far shoulder when the opponent is supine. The key to mastering this position from the top perspective lies in understanding the pressure vector: your center of mass must travel through your shoulder blade and into the opponent's jaw at approximately 45 degrees toward their far shoulder. This creates a situation where their defensive structure cannot mechanically resist the force being applied. What makes this position particularly effective is the dilemma structure it creates - the opponent must choose between enduring significant discomfort or making defensive movements that open specific offensive pathways for you. When they attempt to frame with their near arm to relieve pressure, you have the kimura. When they turn away to escape the pressure, you have north-south or the back. When they bring their far arm across to shield their face, you have the arm triangle. Every defensive option they have is technically inferior to simply accepting the position, yet psychologically that is the most difficult choice. This is systematic control at its finest - forcing your opponent into a position where all their options lead to your victory.
-
-### Gordon Ryan
-
-From the top in Shoulder of Justice, you're basically torturing someone in a technically legal way, and it's one of my favorite positions in competition because it absolutely destroys people's will to fight. I've used this position to submit black belts, win ADCC matches, and break opponents who thought they had good defense. The secret isn't just the pressure - it's the combination of physical misery and technical dominance. When you get your shoulder in there deep and at the right angle, they can't think about anything except getting away from that pressure, and that's when you capitalize. Every single defensive movement they make is predictable and creates an opportunity. They frame with their near arm? Kimura. They turn into you? North-south or take the back. They shrimp? Follow them to mount or knee-on-belly. They bring their far arm over? Arm triangle all day. In my matches, I use this position specifically against opponents who have good defensive awareness because even when they know what I'm doing, the pressure is so uncomfortable that they make mistakes anyway. The retention rate from this position at the high level is probably over 90% if you do it right, and the submission rate is insanely high because people would rather tap to a kimura than spend another thirty seconds with your shoulder in their face. This is one of those positions where physical and technical dominance meet, and from the top perspective, you control absolutely everything.
-
-### Eddie Bravo
-
-Shoulder of Justice Top is straight up one of the most evil positions in no-gi especially, and I teach this extensively in the 10th Planet system as part of our top pressure game. What I love about this position from the top perspective is that it's creative torture, man. You're not just controlling someone - you're making them so miserable that they forget everything they know and just react on pure survival instinct. In no-gi, this position is even more effective because they can't grab your gi to create frames or distance, so that shoulder just sinks deeper and deeper into their jaw. From the top, you have infinite options and they have zero good options. You can adjust your shoulder angle, walk your feet up toward their head for more pressure, threaten mount, threaten north-south, threaten submissions - you're in complete creative control while they're in survival mode. I like to think of this as offensive meditation because you're in this relaxed state of applying constant pressure while they're panicking and making mistakes. We drill specific pressure angles in 10th Planet, and we practice reading reactions instantly so you can flow from pressure to submission seamlessly. The position also translates perfectly to MMA, where this kind of shoulder pressure can absolutely gas someone out in the first round and make them quit mentally before you even go for a submission. From the top perspective, Shoulder of Justice is pure dominance with unlimited creative expression.
 
 </section>
 

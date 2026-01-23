@@ -8,7 +8,7 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -473,24 +473,6 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 **Average Time in Position**: 15-45 seconds before finish or transition required
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The kneebar from bottom position represents a critical component of any complete leg lock system, functioning not merely as an isolated submission but as a hub position that creates access to the entire spectrum of leg attacks. The mechanical principle underlying effective kneebar control involves creating a rigid lever system where your torso becomes the fixed point, your arms the binding mechanism, and your hips the force-generating component. The opponent's knee joint, positioned at the fulcrum of this lever, experiences hyperextension when proper alignment is achieved. However, what separates elite leg lock practitioners from intermediate students is the understanding that the kneebar finish itself has relatively low percentage compared to heel hooks in modern competition, making the position's primary value its role as a transitional hub. When the opponent defends the kneebar by rotating their hips, maintaining bent knee posture, or creating distance, these defensive reactions create predictable pathways to inside ashi garami, saddle, and other superior attacking positions. The systematic approach involves using the kneebar threat to generate movement, then capitalizing on that movement with higher-percentage attacks.
-
-### Gordon Ryan
-
-In high-level no-gi competition, bottom kneebar control serves primarily as a forcing mechanism rather than a primary finishing position. My approach centers on using the kneebar threat to create specific defensive reactions that open pathways to heel hooks and positional advancement. When I establish kneebar control from bottom, I'm immediately evaluating whether the opponent's defensive structure allows for a quick finish or whether I need to use their defense to enter saddle or inside ashi. The key competitive advantage comes from developing the sensitivity to recognize within 2-3 seconds whether the finish is available - if their leg straightens and posture breaks, I commit to the finish; if they maintain strong defensive structure, I'm already transitioning before they can consolidate their escape. Against elite opponents, the kneebar from bottom rarely finishes directly, but the threat creates the movement patterns necessary to access heel hooks, which represent far more reliable finishing mechanics. The position also serves as an excellent entry point for leg lock exchanges in 50-50 configurations, where understanding the timing of when to attack versus when to defend becomes the determining factor in who secures the submission first.
-
-### Eddie Bravo
-
-The kneebar from bottom fits into the overall leg attack game as an entry-level position that opens up more sophisticated attacks as the opponent tries to defend. In the 10th Planet system, we use kneebar control as a waypoint rather than a destination - it's where you end up when you're transitioning between different leg entanglement configurations. The beauty of the position is that it's relatively easy to enter from scrambles, failed guard passes, or anytime you can grab a leg, making it an accessible entry point even for less experienced students. However, the finish itself requires precise timing and often depends on the opponent making mistakes in their defense. Where the position really shines is in creating the framework for more advanced attacks like the Twister variations from truck position, or transitioning into electric chair setups from lockdown when the opponent tries to pressure pass through your leg entanglement. The psychological aspect also matters - once you threaten a few kneebars, opponents start reacting predictively, which opens up other attacks throughout the match. My advice is to develop comfort maintaining the control position under pressure, then systematically add the transitions to other leg attacks rather than over-committing to low-percentage finishes against prepared opponents.
 
 </section>
 

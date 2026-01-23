@@ -8,7 +8,7 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -451,24 +451,6 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 
 **Average Time in Position**: 30-60 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Backside 50-50 bottom represents a significant tactical disadvantage within the leg entanglement hierarchy, primarily due to the asymmetric visibility and leverage dynamics inherent in the configuration. When your back faces the opponent, you surrender critical visual information about their leg positioning and attacking mechanics while simultaneously granting them superior chest pressure leverage to control your movement. The fundamental principle here is that leg entanglements are contests of mechanical advantage, and backside 50-50 bottom provides your opponent with multiple mechanical advantages simultaneously. Your priority must be systematic position improvement rather than speculative attacks. First, establish frames to prevent complete flattening - your top arm posting on their chest or shoulder, maintaining separation necessary for hip mobility. Second, work methodically to rotate your body to face them, converting backside 50-50 into standard 50-50 where visibility and leverage are equalized. Third, remain vigilant against back control attempts, as this represents the most dangerous transition from this position. Only after securing these defensive priorities should you consider opportunistic leg attacks when the opponent overcommits or makes positional errors. The hierarchy is clear: prevent back control, improve position, then attack.
-
-### Gordon Ryan
-
-I've been in backside 50-50 bottom plenty of times in competition, and my first thought is always to reverse position or rotate to face them. The top player has too many advantages - they can pressure you, they can see your leg better, and they can threaten your back. If I'm stuck here, I'm immediately working to sweep or rotate to standard 50-50. Now, if they make a mistake with their leg positioning, I'll attack the heel hook, but that's opportunistic, not my primary plan. Too many guys get stuck in backside 50-50 bottom and try to force leg locks - they end up getting passed or having their back taken. Smart leg lockers know this position is temporary and work to improve it immediately. The key is staying active with your hips, never letting them flatten you completely, and being ready to capitalize when they shift their weight forward or loosen their control. I've hit heel hooks from here when guys get greedy and overcommit to their own attacks, but I'd much rather be in literally any other leg entanglement position than backside 50-50 bottom.
-
-### Eddie Bravo
-
-Backside 50-50 comes up a lot in 10th Planet because we play a lot of leg locks and we're not afraid of inverted positions. My guys train to be comfortable here because it's part of the scramble game. But even we don't want to stay here long. You use it to set up the reversal or to bait them into overcommitting so you can attack their legs. It's like being in a phone booth with someone - it's chaotic, both of you are in danger, so you better know what you're doing. We drill transitions from here constantly because the position appears and disappears quickly in live rolling. If you're stuck here and you don't know the escapes, you're going to have a bad time. The 10th Planet approach is to stay loose, keep moving your hips, and look for the opportunity to either get to their back or rotate to a better leg entanglement. Sometimes you can catch them sleeping with a heel hook, but that's not the strategy - that's just them making a mistake. Train the position so you're not panicking when you end up here, because you will end up here if you play leg locks.
 
 </section>
 

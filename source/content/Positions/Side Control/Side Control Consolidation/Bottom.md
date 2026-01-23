@@ -8,7 +8,7 @@ description: "Master Side Control Consolidation Bottom defensive strategies. Com
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -432,24 +432,6 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 
 **Average Time in Position**: 45-120 seconds under pressure
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The bottom position during side control consolidation represents a critical test of defensive hierarchy understanding and psychological composure under duress. The fundamental reality is that the opponent's consolidation phase creates a progressively narrowing window of escape opportunity, making timing recognition paramount to defensive success. The biomechanics of effective defense require understanding that breathing capacity is your first priority - without oxygen delivery to working muscles, no escape technique will function effectively regardless of technical knowledge. The defensive frame with your far arm must be maintained with bent elbow structure creating a strut between your body and opponent's chest or hip, never extending straight which transforms the frame into a lever for arm isolation attacks. The escape hierarchy during consolidation prioritizes first establishing breathing, second maintaining at least one defensive frame, third creating small hip movements to test opponent's pressure distribution, and finally committing to full escape sequences during opponent's transitional moments. Most practitioners fail because they attempt step four before completing steps one through three, exhausting themselves through premature explosive movements that accomplish nothing while the opponent's pressure remains optimally distributed.
-
-### Gordon Ryan
-
-Being stuck in bottom side control consolidation is one of the worst positions in competition, and your survival depends entirely on not panicking and not wasting energy on low-percentage movements. The reality is that if your opponent is good at consolidation, you're probably going to be there for 15-30 seconds minimum, and fighting that reality just burns your gas tank for when you actually get an escape opportunity. What I learned through hard experience is that the consolidation phase has a rhythm - they settle pressure, you survive and maintain frames, they adjust for advancement, you escape in that adjustment window. If you try to escape during their settled pressure phase, you're just giving them free energy and making their control easier. The key is using their breathing against them - when they exhale, they lose about 20-30% of their pressure temporarily, and that's when you can create your small improvements in position. I focus on keeping my far arm frame active no matter what, even if that means giving up my near arm to the crossface completely. One frame is enough to survive and eventually escape; zero frames means you're completely at their mercy and probably getting submitted soon.
-
-### Eddie Bravo
-
-The bottom side control consolidation game is where you really find out who's been training their defensive game properly, because it's probably the most uncomfortable position in all of jiu-jitsu when someone's doing it right. At 10th Planet we teach what we call the 'defensive breathing protocol' where you literally practice getting crushed and maintaining your composure through controlled breathing - sounds simple but most people panic and start thrashing which is exactly what the top guy wants. The secret to surviving consolidation is understanding that small defensive victories add up to escape opportunities, so instead of trying one big explosive escape that probably won't work, you're looking to improve your situation by 10% every few seconds. Maybe you improve your frame angle by 10%, then you create a tiny bit of hip space for another 10%, then you time a shrimp with their pressure adjustment for another 20%, and suddenly you've got enough space for the full elbow escape. We also teach using the consolidation phase to read what kind of attacker they are - are they hunting the mount, going for kimura, looking for arm triangle? Once you know their consolidation-to-attack pattern, you can start setting up your escapes to coincide with their attack attempts, turning their offense into your escape opportunity.
 
 </section>
 

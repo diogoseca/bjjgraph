@@ -8,7 +8,7 @@ description: "{{description}}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -82,7 +82,7 @@ description: "{{description}}"
   🐛 BJJ Graph A/B Testing Debug Mode (Concept)
 
   Content Type: principles
-  Section Count: 11
+  Section Count: 9
   Week Seed: {{ week_seed }}
   Visual Variant: {{ visual_elements }}
 
@@ -108,18 +108,18 @@ description: "{{description}}"
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 {% for principle in key_principles -%}
 - {{principle}}
 {% endfor %}
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 {% for skill in component_skills -%}
 **{{skill.skill_name}}**: {{skill.description}}
 
@@ -127,18 +127,9 @@ description: "{{description}}"
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-{% for rel in principle_relationships -%}
-- **[[{{rel.principle_name}}]]** ({{rel.relationship_type}}): {{rel.description}}
-{% endfor %}
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 {% for context in application_contexts -%}
 **{{context.context}}**: {{context.how_applied}}
 
@@ -146,18 +137,18 @@ description: "{{description}}"
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 {% for step in decision_framework -%}
 {{step.step_number}}. **{{step.decision_point}}**: {{step.action}}
 {% endfor %}
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 {% for error in common_errors -%}
 - **Mistake**: {{error.error}}
   - **Consequence**: {{error.consequence}}
@@ -166,9 +157,9 @@ description: "{{description}}"
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 {% for approach in training_approaches -%}
 **{{approach.approach_name}}** (Focus: {{approach.focus}})
 {{approach.description}}
@@ -177,9 +168,9 @@ description: "{{description}}"
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 {% for metric in developmental_metrics -%}
 **{{metric.level}} Level**:
 {% for behavior in metric.observable_behaviors -%}
@@ -190,22 +181,19 @@ description: "{{description}}"
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+{% for rel in principle_relationships -%}
+- **[[{{rel.principle_name}}]]** ({{rel.relationship_type}}): {{rel.description}}
+{% endfor %}
+
+### Related Content
 {% for item in related_content -%}
 - [[{{item.name}}]] ({{item.content_type}}) - {{item.relationship}}
 {% endfor %}
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: {{expert_insights.danaher}}
-- **Gordon Ryan**: {{expert_insights.gordon_ryan}}
-- **Eddie Bravo**: {{expert_insights.eddie_bravo}}
 
 </section>
 

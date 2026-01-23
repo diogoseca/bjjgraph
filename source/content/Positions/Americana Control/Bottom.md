@@ -8,7 +8,7 @@ description: "Master Americana defense and escape strategies. Complete defensive
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -392,24 +392,6 @@ Partner has figure-four locked but not extended. Practice explosive bridge and t
 
 **Average Time in Position**: 5-15 seconds (extremely brief - tap or escape quickly)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Americana is a mechanically efficient shoulder lock that creates extreme leverage disadvantage for the bottom player. Once the figure-four grip is completed and the attacker begins rotation, the submission window closes rapidly. Defense must be proactive - prevent the grip from ever being completed by keeping your elbows connected to your body and using both hands to fight the attempted control. If caught in a locked Americana, recognize that attempting to muscle out is futile and dangerous. The intelligent response is immediate tap to preserve shoulder health for future training.
-
-### Gordon Ryan
-
-I see people get hurt from Americanas in training because they don't tap fast enough. In competition, I use the Americana constantly from mount because people panic and make mistakes. From the bottom, your only real defense is preventing the setup entirely - once I have the figure-four locked, you're done. Don't be a hero, just tap and reset. Shoulder injuries will keep you off the mat for months.
-
-### Eddie Bravo
-
-The Americana is old school but effective, especially in gi where you can trap the sleeve. From bottom, you need to be explosive - bridge hard and hand fight like crazy. If you're caught, don't wait around hoping it gets better. In 10th Planet we emphasize the truck and twister over Americana, but the shoulder lock principles are similar - tap early, train tomorrow.
 
 </section>
 

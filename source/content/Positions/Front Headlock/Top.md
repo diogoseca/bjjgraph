@@ -8,7 +8,7 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -473,24 +473,6 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 
 **Average Time in Position**: 30-90 seconds (position to submission or transition)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The front headlock represents one of the most sophisticated control systems in Brazilian Jiu-Jitsu because it perfectly demonstrates the principle of integrated control and attack. Unlike positions where you must choose between maintaining control and hunting submissions, the front headlock's control mechanics are inseparable from its attack mechanics. Your chest pressure that prevents escape simultaneously loads your guillotine. Your far shoulder control that prevents rolling simultaneously sets up your anaconda and darce. This integration creates what I call 'offensive control' - control that naturally leads to finishing positions. The key to mastering front headlock is understanding it as a decision tree rather than a collection of techniques. When your opponent stays tight, you attack with arm-in submissions. When they try to stand, you attack with guillotines. When they circle away, you take the back. Each defensive choice they make opens a specific offensive pathway for you. Your role is to recognize which pathway has opened and execute the appropriate attack with technical precision. This systematic approach transforms front headlock from an opportunistic scramble position into a deliberate strategic destination. Advanced practitioners should also understand the temporal dynamics of front headlock control. There is a window of maximum control immediately after you establish the position, before your opponent has fully adjusted their defensive structure. This window typically lasts only a few seconds, and your highest-percentage attacks occur within it. As time passes and your opponent establishes their defensive frames, your attack options shift from direct submissions toward positional transitions. Recognizing these temporal shifts and adapting your tactics accordingly separates elite front headlock attackers from intermediate practitioners who rely solely on technique knowledge without strategic timing.
-
-### Gordon Ryan
-
-Front headlock is probably my favorite position in all of grappling because it gives you so many options and the opponent has so few good answers. In competition, I deliberately set up situations to get front headlock because I know once I'm there, I'm either finishing a choke or taking the back within 30 seconds. The key difference between how I use front headlock versus how most people use it is aggression and commitment. A lot of grapplers get front headlock and then just hold it, waiting for the opponent to make a mistake. That's backwards. You need to immediately attack hard with your first submission option, which forces them to defend, and that defensive movement opens your second attack. For me, it's usually anaconda first if they're tight, guillotine first if they lift their head, and back take first if they start circling. But I'm not tentatively testing these options - I'm committing 100% to each attack until their defense clearly shows me I need to switch. This aggressive commitment makes them panic and creates mistakes. The other factor that makes my front headlock effective is I never settle for just holding the position. If my first two submission attempts don't finish, I immediately transition to back or mount rather than staying in front headlock and getting stale. Front headlock should feel like a violent storm to the opponent, not a position they can survive through patience. That psychological pressure combined with technical precision is what makes it so high percentage at the highest levels of competition.
-
-### Eddie Bravo
-
-Front headlock has become huge in 10th Planet system, especially for no-gi competition where turtle happens constantly. What we've found is that most people way overthink front headlock and try to hit perfect textbook techniques when really it's about reading the situation and being aggressive. Our approach is super simplified: if they keep their head down, we're going anaconda or darce. If they try to stand, we're going guillotine. If they start circling, we're taking the back. That's it. Three simple rules that cover 95% of situations. The specific technical details matter of course, but the decision-making framework is dead simple. Where 10th Planet approach differs is we're super comfortable following front headlock into wild scrambles. A lot of traditional grapplers lose front headlock when things get chaotic because they're trying to maintain perfect control. We embrace the chaos. If opponent tries to roll through, we're following them to crucifix. If they turtle hard, we're going to truck. If they explode up, we're jumping guard with guillotine. We're not trying to keep everything calm and controlled - we're trying to create maximum chaos while maintaining our attack structure. The other thing that makes our front headlock effective is we attack it from everywhere. Most people only think about front headlock from turtle, but we're hitting it from standing, from guard passing, even from bottom positions if opponent makes mistakes. It's become a central hub in our system where tons of different pathways converge. Once our guys get that front headlock grip, they know they've got multiple high-percentage options no matter how the opponent reacts.
 
 </section>
 

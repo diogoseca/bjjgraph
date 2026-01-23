@@ -8,7 +8,7 @@ description: "Master top butterfly half guard defense and passing. Learn to coun
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -403,24 +403,6 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 
 **Average Time in Position**: 45-120 seconds before pass or sweep occurs
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From the top position in butterfly half guard, your primary challenge is managing the asymmetric base problem created by having one leg trapped while the other is exposed to butterfly hook elevation. The mechanical solution requires understanding weight distribution principles - you must keep enough weight on the free leg to prevent butterfly hook elevation while maintaining enough pressure through the trapped leg side to threaten passing sequences. The key is recognizing that pure forward pressure is dangerous when opponent has active butterfly hook with upright posture, but becomes safe when you've controlled their upper body through crossface or broken their posture. Your passing strategy should focus on systematically removing their offensive tools in order: first control upper body to prevent upright posture, then manage butterfly hook elevation through hip positioning, finally work to free trapped leg when their sweep threats are neutralized. The sophisticated approach treats butterfly half guard top not as a position to escape immediately but as a platform for methodical problem-solving where each defensive element is addressed sequentially rather than simultaneously.
-
-### Gordon Ryan
-
-When I'm on top in butterfly half guard, I'm hyper-aware that this is one of the most dangerous positions to be in against high-level guard players because they have multiple high-percentage sweeps and back take opportunities. My first priority is always controlling their upper body - if they can sit up and establish underhook on the butterfly side, I'm in serious danger of being swept. I use aggressive crossface pressure or overhook control to break their posture and prevent them from generating the upright position they need for effective sweeps. Once I have upper body control, I focus on managing the butterfly hook by keeping my hips low and my weight distributed so they can't elevate effectively. The mistake I see most people make is trying to pass too quickly and forcing movements that create perfect sweep timing for the bottom player. Instead, I work methodically to consolidate position first, then advance the pass when I've neutralized their primary threats. If they're really good at maintaining butterfly half and I can't pass cleanly, I'll sometimes accept a scramble situation by driving hard into a smash pass, knowing that even if they defend the initial pass, the scramble favors me because I'm dictating the action.
-
-### Eddie Bravo
-
-From top butterfly half guard, you're in one of the most dangerous positions in the 10th Planet system because the bottom player has direct access to our highest percentage sweeps and transitions to lockdown, deep half, and truck positions. When I'm teaching defense against butterfly half, I emphasize that you cannot give them the upright posture they need - you must be aggressive with your crossface and constantly working to flatten them or break their posture. The butterfly hook is deadly when combined with an underhook, so your priority is controlling their upper body before they can establish that connection. One thing that's unique about defending against 10th Planet butterfly half is that you have to be aware of the lockdown transition - if you're not careful about how you pressure, they can quickly convert to lockdown and enter the electric chair sequence which is extremely dangerous. I teach a pressure-passing approach where you use your crossface and chest pressure to flatten them, then work to clear the butterfly hook by controlling their knee and driving it to the mat. The key is being proactive rather than reactive - don't wait for them to attack and then defend, instead impose your passing game on them before they can fully establish their offensive threats.
 
 </section>
 

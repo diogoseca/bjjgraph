@@ -8,7 +8,7 @@ description: "Master strategic game planning in BJJ. Learn pre-match preparation
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Game plans should be built around your highest-percentage positions and techniques rather than aspirational skills
 - Effective game plans identify 2-3 primary pathways to victory based on realistic assessment of abilities
 - Plans must account for likely opponent strategies and include specific counters to their strengths
@@ -179,9 +179,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Self-Assessment and Strengths Analysis**: The ability to objectively evaluate your technical repertoire, identifying which positions, transitions, and submissions you execute most reliably under pressure. This includes honest analysis of competition results, training performance, and technical proficiency across different scenarios to determine your actual high-percentage game rather than techniques you merely practice.
 
 **Opponent Analysis and Pattern Recognition**: The systematic study of opponent tendencies through video analysis, reputation research, and observation of previous matches to identify technical preferences, positional comfort zones, defensive weaknesses, and strategic patterns. This skill involves extracting actionable intelligence that can be exploited through deliberate tactical approaches.
@@ -202,26 +202,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Match Strategy]]** (Complementary): Match Strategy focuses on in-match tactical decision-making while Game Planning provides the pre-match framework that guides those real-time decisions. Effective game planning creates the strategic foundation that match strategy executes.
-- **[[Match Preparation]]** (Prerequisite): Match preparation provides the broader framework of physical, technical, and mental readiness within which game planning operates. Game planning cannot succeed without adequate preparation in conditioning, technique refinement, and mental readiness.
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is essential for game planning as it determines which positions you seek to achieve and which you seek to avoid. Game plans are fundamentally pathways through positional hierarchy toward dominant positions.
-- **[[Energy Management System]]** (Complementary): Energy management principles inform how game plans allocate effort across match duration. Effective game planning incorporates energy management strategies to ensure technical execution throughout entire matches.
-- **[[System Building]]** (Extension): System Building represents the development of cohesive technical systems that become the building blocks of game plans. Game planning connects individual systems into comprehensive strategic frameworks for specific competitive scenarios.
-- **[[Risk Assessment]]** (Complementary): Risk assessment helps determine which strategic approaches are appropriate for specific match scenarios and opponents. Game planning uses risk assessment to balance aggressive and conservative elements based on match importance and position.
-- **[[Competition Mindset]]** (Complementary): Competition mindset provides the mental framework that enables effective game plan execution under pressure. Game planning requires the competitive mentality to commit to prepared strategies despite stress and uncertainty.
-- **[[Dilemma Creation]]** (Extension): Dilemma creation principles inform how game plans construct attack sequences that force opponents into no-win scenarios. Effective game planning incorporates deliberate dilemma structures into strategic approaches.
-- **[[Position Chains]]** (Extension): Position chains represent the linked sequences of positions that form the pathways within game plans. Game planning connects position chains into comprehensive strategic frameworks with clear progression logic.
-- **[[Offensive Combinations]]** (Extension): Offensive combinations are the tactical building blocks that game plans organize into coherent strategic sequences. Game planning determines which combinations to emphasize based on opponent weaknesses and your technical strengths.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Game plans from closed guard determine whether to prioritize sweeps, submissions, or transitions to other guard systems based on opponent passing style and your highest-percentage attacks. Planning includes identifying specific sweep-submission combinations and contingencies for when opponent establishes strong posture or begins passing sequences.
 
 **Mount**: Game planning for mount involves predetermined attack sequences that create submission dilemmas, with clear decision trees for transitioning between collar chokes, armbars, and positional advances based on defensive responses. Plans include energy allocation for maintaining position versus pursuing submissions.
@@ -256,9 +239,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess your technical strengths and highest-percentage positions**: Conduct honest inventory of competition results and training performance to identify which positions, transitions, and submissions you execute most reliably under pressure, forming the foundation of your strategic approach
 2. **Analyze opponent tendencies and technical patterns**: Study available footage, competitive record, and reputation to identify opponent's preferred positions, common attack sequences, defensive weaknesses, and strategic tendencies that can be exploited
 3. **Determine optimal pathways based on strengths versus opponent weaknesses**: Identify 2-3 primary strategic pathways that leverage your strengths against opponent's weaknesses while accounting for rule set optimization and realistic success probabilities
@@ -271,9 +254,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Building game plans around aspirational techniques rather than proven high-percentage skills
   - **Consequence**: Strategic approaches rely on techniques that fail under competition pressure, leading to reactive scrambling when planned attacks don't materialize and inability to execute coherent strategy
   - **Correction**: Base game plans exclusively on techniques you have successfully executed in hard training and previous competitions, accepting current technical level and planning around actual capabilities rather than wished-for abilities
@@ -299,9 +282,9 @@ Game Planning represents the strategic framework for developing comprehensive pr
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Game Plan Focus** (Focus: Developing automatic execution of game plan elements through repeated practice in realistic resistance scenarios that simulate competition positioning)
 Conduct positional training rounds starting from specific positions central to your game plan, with exclusive focus on executing planned sequences and transitions rather than random exploration
 
@@ -324,9 +307,9 @@ Training rounds conducted under specific rule sets you'll compete under, with co
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can identify 1-2 favorite positions or techniques they prefer to work toward
 - Understands basic match objectives (submit opponent, achieve dominant position, avoid being submitted)
@@ -364,10 +347,24 @@ Training rounds conducted under specific rule sets you'll compete under, with co
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Match Strategy]]** (Complementary): Match Strategy focuses on in-match tactical decision-making while Game Planning provides the pre-match framework that guides those real-time decisions. Effective game planning creates the strategic foundation that match strategy executes.
+- **[[Match Preparation]]** (Prerequisite): Match preparation provides the broader framework of physical, technical, and mental readiness within which game planning operates. Game planning cannot succeed without adequate preparation in conditioning, technique refinement, and mental readiness.
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is essential for game planning as it determines which positions you seek to achieve and which you seek to avoid. Game plans are fundamentally pathways through positional hierarchy toward dominant positions.
+- **[[Energy Management System]]** (Complementary): Energy management principles inform how game plans allocate effort across match duration. Effective game planning incorporates energy management strategies to ensure technical execution throughout entire matches.
+- **[[System Building]]** (Extension): System Building represents the development of cohesive technical systems that become the building blocks of game plans. Game planning connects individual systems into comprehensive strategic frameworks for specific competitive scenarios.
+- **[[Risk Assessment]]** (Complementary): Risk assessment helps determine which strategic approaches are appropriate for specific match scenarios and opponents. Game planning uses risk assessment to balance aggressive and conservative elements based on match importance and position.
+- **[[Competition Mindset]]** (Complementary): Competition mindset provides the mental framework that enables effective game plan execution under pressure. Game planning requires the competitive mentality to commit to prepared strategies despite stress and uncertainty.
+- **[[Dilemma Creation]]** (Extension): Dilemma creation principles inform how game plans construct attack sequences that force opponents into no-win scenarios. Effective game planning incorporates deliberate dilemma structures into strategic approaches.
+- **[[Position Chains]]** (Extension): Position chains represent the linked sequences of positions that form the pathways within game plans. Game planning connects position chains into comprehensive strategic frameworks with clear progression logic.
+- **[[Offensive Combinations]]** (Extension): Offensive combinations are the tactical building blocks that game plans organize into coherent strategic sequences. Game planning determines which combinations to emphasize based on opponent weaknesses and your technical strengths.
+
+
+### Related Content
 - [[Match Strategy]] (Principle) - Complementary principle focusing on in-match tactical decision-making that executes game plan frameworks
 - [[Match Preparation]] (Principle) - Related principle covering immediate pre-match readiness including warm-up, mental state, and final preparations
 - [[Competition Mindset]] (Principle) - Mental framework that enables effective game plan execution under competitive pressure
@@ -379,15 +376,6 @@ Training rounds conducted under specific rule sets you'll compete under, with co
 - [[Competition Preparation System]] (System) - Broader system providing physical, technical, and mental readiness within which game planning operates
 - [[Mental Game Framework]] (System) - Psychological preparation system that supports effective game planning and execution
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Game planning represents one of the most underutilized advantages available to competitive grapplers, as the vast majority approach matches with vague intentions rather than systematic strategic frameworks. The essence of effective game planning lies in honest self-assessment rather than wishful thinking—you must build plans around techniques you can actually execute under maximum pressure, not techniques you aspire to perform someday. I teach students to construct hierarchical decision trees where they identify their strongest positions and highest-percentage pathways, then create strategic frameworks that maximize time spent in those positions while minimizing exposure to weaknesses. The most sophisticated game plans function as layered systems where when opponent successfully defends one layer, you seamlessly transition to the next with equally prepared alternatives, creating the impression of endless strategic depth. Game planning should never be rigid—the plan provides structure and direction while maintaining space for opportunistic adaptation when superior options emerge during actual engagement.
-- **Gordon Ryan**: I spend more time on game planning and opponent analysis than almost any other competitor, studying hours of footage to identify specific technical weaknesses and strategic patterns I can exploit systematically during matches. My game plans focus on what I call forced exchanges—situations I deliberately create that favor my technical strengths while neutralizing my opponent's best techniques, essentially controlling what kind of match we have rather than reacting to their preferred game. The key is building plans around techniques that have proven reliable in previous high-level competitions rather than techniques that merely look impressive in training room rolling but haven't been tested under championship-level pressure. I constantly refine my game planning approach based on competition results, honestly assessing which strategic elements worked, which failed, and making adjustments for future matches. The mental preparation component is equally important—I visualize specific scenarios and opponent responses so thoroughly that actual matches feel like repetitions I've already completed mentally dozens of times, removing surprise and uncertainty from competitive execution.
-- **Eddie Bravo**: My approach to game planning emphasizes what I call confusion strategy, where the game plan deliberately includes unorthodox positions and techniques that opponents haven't trained to defend, creating psychological disruption that's as valuable as technical execution. When I teach game planning to students, I stress flexibility and opportunism—treat detailed plans as general guidelines while remaining completely ready to abandon them when better opportunities emerge during actual rolling. I believe in game plans that keep opponents mentally uncomfortable through unfamiliar positions and attack patterns, because when they're confused and uncertain, their technical execution degrades regardless of their actual skill level. The 10th Planet system's strength in competition often comes from strategic surprise—opponents prepare for conventional guard passing or back attacks, then face rubber guard controls or truck positions they've barely encountered, forcing them to problem-solve in real-time rather than executing prepared defenses. Game planning should include this psychological dimension, not just technical pathways, understanding that mental disruption creates openings that pure technical execution might not achieve.
 
 </section>
 

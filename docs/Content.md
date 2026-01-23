@@ -61,29 +61,6 @@ Run `python3 scripts/validate_json.py` to check all wikilinks resolve.
 
 ---
 
-## Expert Insights (Required)
-
-All technical content requires insights from three experts:
-
-### 1. John Danaher
-- **Style**: Systematic, theoretical, biomechanical
-- **Focus**: Technical precision, conceptual frameworks
-- **Example**: "The fundamental principle of control from mount is eliminating the opponent's ability to create frames that generate distance..."
-
-### 2. Gordon Ryan
-- **Style**: Competition-focused, high-percentage
-- **Focus**: Modern meta-game, efficiency
-- **Example**: "In competition, I focus on establishing control before attacking. 80% of my mount finishes come from arm isolation..."
-
-### 3. Eddie Bravo
-- **Style**: Innovative, unorthodox, creative
-- **Focus**: 10th Planet methodology, unexpected variations
-- **Example**: "Most people think mount is just about submissions, but the real power is in the threat. The Twister from mount catches everyone..."
-
-**Each insight: 2-3 sentences with distinct perspective**
-
----
-
 ## Required Sections by Content Type
 
 ### Positions
@@ -96,7 +73,6 @@ All technical content requires insights from three experts:
 | Offensive Transitions | Min 6 techniques with success rates |
 | Defensive Responses | Min 4 counter-techniques |
 | Decision Tree | Min 3 if/else conditions with probabilities |
-| Expert Insights | All 3 experts, 2-3 sentences each |
 | Common Mistakes | Min 5 mistakes with consequences/corrections |
 | Training Drills | Min 3 practice progressions |
 | Related Positions | Min 3 linked positions |
@@ -111,7 +87,6 @@ All technical content requires insights from three experts:
 | Execution Steps | Min 6 numbered steps |
 | Common Counters | Min 3 opponent responses with success rates |
 | Physical Requirements | Strength, flexibility, coordination, speed ratings |
-| Expert Insights | All 3 experts |
 | Common Mistakes | Min 5 with corrections |
 | Variations & Setups | Min 2 alternative entries |
 | Knowledge Assessment | Min 5 technical questions |
@@ -127,7 +102,6 @@ All technical content requires insights from three experts:
 | Execution Steps | Min 6 numbered steps |
 | Injury Awareness | Specific risks, severity, recovery time |
 | Training Progressions | 6 phases (Weeks 1-2, 3-4, 5-8, 9-12, 13+, Ongoing) |
-| Expert Insights | All 3 experts with safety emphasis |
 | Common Mistakes | Min 5 + dedicated safety errors section |
 | Knowledge Assessment | Min 6 questions including 2+ safety questions |
 
@@ -256,7 +230,6 @@ For full YAML schema with all fields: `source/content/CONTRIBUTING-YAML-SCHEMA.m
 |----|-------|
 | Edit JSON in `source/templates/` | Edit markdown in `source/content/` |
 | Run validation before commits | Skip validation |
-| Include all 3 expert insights | Use only 1-2 experts |
 | Verify wikilinks exist | Guess at link targets |
 | Use integer success rates 0-100 | Use decimals or percentages > 100 |
 | Put safety notice first for submissions | Bury safety information |

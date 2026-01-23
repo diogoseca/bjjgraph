@@ -25,8 +25,7 @@
     "training_progressions_and_safety_protocols",
     "from_positions",
     "related_submissions",
-    "related_content",
-    "expert_insights"
+    "related_content"
   ],
   "properties": {
     "name": {
@@ -477,30 +476,8 @@
     },
     "expert_insights": {
       "type": "object",
-      "description": "Insights from all 3 experts with safety emphasis (REQUIRED, 200+ characters each)",
-      "additionalProperties": false,
-      "required": [
-        "danaher",
-        "gordon_ryan",
-        "eddie_bravo"
-      ],
-      "properties": {
-        "danaher": {
-          "type": "string",
-          "minLength": 200,
-          "description": "John Danaher - systematic approach with safety notes"
-        },
-        "gordon_ryan": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Gordon Ryan - competition vs training distinction"
-        },
-        "eddie_bravo": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Eddie Bravo - innovation with safety culture"
-        }
-      }
+      "description": "DEPRECATED - Expert insights removed for copyright reasons",
+      "additionalProperties": true
     }
   },
   "$defs": {

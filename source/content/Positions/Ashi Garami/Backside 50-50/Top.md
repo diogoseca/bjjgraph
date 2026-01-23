@@ -8,7 +8,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -463,24 +463,6 @@ Starting from backside 50-50 top, practice finishing sequence for inside heel ho
 
 **Average Time in Position**: 45-90 seconds before advancement or submission attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The backside 50-50 top position represents a fascinating study in asymmetrical advantages within symmetrical entanglements. While the leg configuration mirrors traditional 50-50, the orientation creates profound mechanical differences. Your chest pressure against their back fundamentally changes the control dynamic - they cannot generate the same counter-pressure you can, creating a one-way pressure system. Biomechanically, your visual access to their legs while they cannot see yours provides informational advantage that manifests in technical precision. The position's true genius lies in its dual-threat architecture: leg attacks and back control exist as competing defensive priorities. When opponent prioritizes back defense, their leg defense weakens. When they defend legs properly, back exposure increases. This isn't accidental - it's structural. Your systematic approach should identify which defense they're prioritizing and attack the neglected area. Don't fight their strength; exploit their necessary weakness. The position also demonstrates important principles about pressure application: chest pressure is superior to arm pressure for controlling opponents' movement. Your arms should manipulate their legs for attacks while your torso does the controlling work.
-
-### Gordon Ryan
-
-When I get to backside 50-50 top, I'm looking at what the opponent is giving me. If they're worried about their back, I attack the legs. If they're defending the legs well, I take their back. It's that simple. The position is so strong because they can't defend both effectively. I've submitted dozens of high-level guys from here with heel hooks, and I've also taken the back from here to set up chokes when they shut down my leg attacks. The key is not to fall in love with one option. Stay opportunistic and take what they give you. Also, don't let them sweep you - your base needs to be solid even while you're attacking. I see a lot of guys get so focused on the heel hook that they forget their base and get swept. Then they're on bottom and the position is reversed, which is terrible. Keep your chest heavy on their back, maintain your base wide, and pick your moments to really commit to the finish. In competition, this position wins matches because it scores well if you transition to back control, and it finishes matches if you catch the leg lock. Either outcome is good, which makes it extremely high percentage.
-
-### Eddie Bravo
-
-Backside 50-50 top is in my system but it's not where we live - we're usually working to saddle or taking the back directly from our entries. But it shows up in scrambles and when you're transitioning between positions, so you gotta know it and you gotta be dangerous from here. When I'm there, I'm thinking about control first. Pin them down, make them carry your weight, then work your attacks. If they're new to leg locks, they panic about their legs and forget about their back - boom, take the back, get your hooks, finish with a choke. Way higher percentage than forcing a heel hook against someone defending well. But if they give you the leg, take it. Don't be stubborn about one path. The position is versatile, which is why it works in different contexts. Just don't stall there - referees hate when both guys are just hanging out in leg locks doing nothing. You gotta be working something: adjusting your grip, improving your angle, advancing position, or going for the finish. Keep moving, keep attacking, keep them guessing about which threat you're actually going for.
 
 </section>
 

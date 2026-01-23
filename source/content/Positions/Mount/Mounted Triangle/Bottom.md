@@ -8,7 +8,7 @@ description: "Defensive strategies and escape fundamentals from mounted triangle
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -432,24 +432,6 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 **Average Time in Position**: 30-90 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The mounted triangle from bottom represents a biomechanical crisis where gravitational disadvantage compounds submission threat. The defender's primary objective must be immediate arm protection - the trapped limb serves as both structural support for the triangle and target for armbar transition. Defensive success requires understanding that the attacker has created positional instability in pursuit of submission - this instability is your escape opportunity. Focus on systematic dismantling: protect the arm, establish defensive frames with the free limb, generate hip mobility through micro-adjustments, and time explosive movements when the opponent commits weight to finishing mechanics. The defender who maintains composure and executes technical defensive sequences will find escape pathways; the defender who panics will find only submission.
-
-### Gordon Ryan
-
-Getting caught in mounted triangle bottom is a bad spot, but it's not automatically over if you know what you're doing. The biggest mistake I see is people trying to muscle out or bench press the guy off - that's exactly what he wants. Instead, protect your trapped arm immediately because that armbar is coming fast if you don't. Then you need to stay calm and work frames with your free arm, create hip movement, and wait for the moment when he commits too hard to the finish. That's when you can hit an explosive bridge or hip escape. In competition, I've seen mounted triangles finished, but I've also seen them escaped when the bottom guy stays technical and doesn't gas himself out panicking. The key is recognizing that while he's got you in danger, he's also given up some of his mount stability to get there.
-
-### Eddie Bravo
-
-Mounted triangle bottom is definitely rough, but here's the thing - when someone goes for mounted triangle, they're giving up that rock-solid mount control to hunt the submission. That's your window. At 10th Planet, we drill the hell out of defending these positions because they show up constantly in no-gi. The absolute key is keeping your trapped arm safe while using your free arm to create frames and angles. Don't try to power out - that's a losing game. Instead, work your hip movement, stay calm, and look for the moment to either granby out or hit a explosive bridge when they commit too hard. We also teach recognizing the armbar transition early - if you see it coming, you can sometimes use that transition moment to escape to half guard or even sweep. The mounted triangle looks scary, but it's actually less stable than regular mount if you know how to exploit it.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Connection Breaking in BJJ. Learn to identify control point
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Identify critical connection points that enable opponent's positional control
 - Prioritize breaking highest-value connections that provide greatest control leverage
 - Use explosive or sustained force depending on connection type and strength
@@ -179,9 +179,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Connection Identification**: The ability to rapidly assess and identify which physical connections (grips, hooks, pressure points, frames) are providing opponent with positional control, distinguishing between primary control connections and secondary stabilizing connections.
 
 **Priority Assessment**: The tactical skill of determining which connections must be broken first based on their control value, recognizing that breaking certain connections creates cascading effects that weaken remaining connections.
@@ -202,28 +202,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Grip Breaking]]** (Complementary): Grip breaking represents specific technical methods for disrupting hand-based connections, serving as primary tactical application of connection breaking principles.
-- **[[Frame Creation]]** (Complementary): Frame creation works synergistically with connection breaking by preventing reconnection after initial disruption, using structural barriers to maintain separation.
-- **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics represent the movement patterns used to exploit broken connections, converting disrupted control into positional improvement through coordinated hip movement.
-- **[[Guard Retention]]** (Advanced form): Guard retention applies connection breaking principles proactively, breaking opponent's passing connections before they fully establish control rather than reactively after control is achieved.
-- **[[Escape Fundamentals]]** (Extension): Escape fundamentals represent the complete defensive sequences where connection breaking serves as critical initial phase, creating opportunities for subsequent escape movements.
-- **[[Posture Breaking]]** (Alternative): While connection breaking disrupts opponent's control from inferior positions, posture breaking disrupts opponent's structural integrity from neutral or advantageous positions, representing offensive application of similar principles.
-- **[[Control Point Hierarchy]]** (Prerequisite): Understanding control point hierarchy provides the theoretical foundation for identifying which connections matter most in any given position, enabling strategic prioritization in breaking sequences.
-- **[[Space Creation]]** (Complementary): Space creation works in tandem with connection breaking, as disrupting connections often creates the physical space necessary for defensive movement and position recovery.
-- **[[Defensive Framing]]** (Extension): Defensive framing represents the structural positioning used after connection breaking to prevent opponent from reestablishing control and maintain defensive advantage.
-- **[[Hand Fighting]]** (Complementary): Hand fighting encompasses the proactive and reactive grip management that includes connection breaking as core component, extending into offensive grip establishment beyond pure defensive disruption.
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage principles provides biomechanical foundation for efficient connection breaking, enabling maximum disruption with minimum energy through optimal force application points.
-- **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques work alongside connection breaking to create comprehensive defensive framework, as reducing opponent's pressure often facilitates easier connection disruption.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: From bottom mount, connection breaking focuses on disrupting opponent's grapevine hooks, cross-face control, and hand positioning on the mat, prioritizing breaking of the cross-face as highest-value connection that prevents head movement and bridging.
 
 **Side Control**: Connection breaking targets opponent's far-side underhook, cross-face pressure, and hip connection, with sequential breaking pattern typically starting with cross-face disruption to restore head mobility before addressing underhook control.
@@ -258,9 +239,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and identify all opponent connections**: Perform rapid tactical scan of opponent's grips, hooks, pressure points, and frames to create mental map of their control structure and connection network.
 2. **Determine highest-value connection providing greatest control leverage**: Identify which single connection, if broken, would most significantly compromise opponent's positional control or create greatest opportunity for defensive improvement.
 3. **Evaluate optimal breaking method for identified connection type**: Select appropriate force application (explosive burst for grip breaks, sustained pressure for positional connections, angular movement for hook disruption) based on connection characteristics.
@@ -273,9 +254,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting to break all connections simultaneously rather than prioritizing highest-value connections
   - **Consequence**: Energy expenditure without achieving meaningful control disruption, as divided effort fails to fully break any individual connection and allows opponent to maintain overall control structure.
   - **Correction**: Identify and target single highest-value connection with full commitment, accepting that some connections will remain temporarily intact while focusing force on breaking most critical control point.
@@ -298,9 +279,9 @@ Connection Breaking represents the fundamental principle of disrupting the physi
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Connection Identification Drilling** (Focus: Building automatic recognition of connection types and their control value across different positions without cognitive delay or analytical processing time.)
 Partner assumes various control positions while practitioner rapidly identifies and verbalizes all connection points, developing perceptual skill of recognizing control mechanisms and their relative importance in different positional contexts.
 
@@ -323,9 +304,9 @@ Systematic progression from compliant partner allowing easy connection breaking,
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can identify obvious connection points like collar grips and arm controls when given time to analyze position
 - Attempts to break connections using general struggling or pulling movements without specific technical application
@@ -365,10 +346,26 @@ Systematic progression from compliant partner allowing easy connection breaking,
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Grip Breaking]]** (Complementary): Grip breaking represents specific technical methods for disrupting hand-based connections, serving as primary tactical application of connection breaking principles.
+- **[[Frame Creation]]** (Complementary): Frame creation works synergistically with connection breaking by preventing reconnection after initial disruption, using structural barriers to maintain separation.
+- **[[Hip Escape Mechanics]]** (Extension): Hip escape mechanics represent the movement patterns used to exploit broken connections, converting disrupted control into positional improvement through coordinated hip movement.
+- **[[Guard Retention]]** (Advanced form): Guard retention applies connection breaking principles proactively, breaking opponent's passing connections before they fully establish control rather than reactively after control is achieved.
+- **[[Escape Fundamentals]]** (Extension): Escape fundamentals represent the complete defensive sequences where connection breaking serves as critical initial phase, creating opportunities for subsequent escape movements.
+- **[[Posture Breaking]]** (Alternative): While connection breaking disrupts opponent's control from inferior positions, posture breaking disrupts opponent's structural integrity from neutral or advantageous positions, representing offensive application of similar principles.
+- **[[Control Point Hierarchy]]** (Prerequisite): Understanding control point hierarchy provides the theoretical foundation for identifying which connections matter most in any given position, enabling strategic prioritization in breaking sequences.
+- **[[Space Creation]]** (Complementary): Space creation works in tandem with connection breaking, as disrupting connections often creates the physical space necessary for defensive movement and position recovery.
+- **[[Defensive Framing]]** (Extension): Defensive framing represents the structural positioning used after connection breaking to prevent opponent from reestablishing control and maintain defensive advantage.
+- **[[Hand Fighting]]** (Complementary): Hand fighting encompasses the proactive and reactive grip management that includes connection breaking as core component, extending into offensive grip establishment beyond pure defensive disruption.
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage principles provides biomechanical foundation for efficient connection breaking, enabling maximum disruption with minimum energy through optimal force application points.
+- **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques work alongside connection breaking to create comprehensive defensive framework, as reducing opponent's pressure often facilitates easier connection disruption.
+
+
+### Related Content
 - [[Grip Breaking]] (Principle) - Primary tactical application of connection breaking principles specifically focused on disrupting hand-based grip controls
 - [[Frame Creation]] (Principle) - Complementary defensive concept that prevents reconnection after connection breaking creates initial separation
 - [[Hip Escape Mechanics]] (Principle) - Movement framework used to exploit broken connections and convert control disruption into positional improvement
@@ -382,15 +379,6 @@ Systematic progression from compliant partner allowing easy connection breaking,
 - [[Space Creation]] (Principle) - Complementary principle where connection breaking creates the physical space necessary for defensive movement and recovery
 - [[Hand Fighting]] (Principle) - Broader grip management framework that encompasses connection breaking as core defensive component alongside offensive grip establishment
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Connection breaking must be understood as systematic identification and prioritization of control mechanisms rather than generalized defensive struggling. I approach this by teaching students to analyze each position's connection hierarchy—not all connections provide equal control leverage, and understanding which connections matter most enables efficient escape sequences that minimize energy expenditure. The critical insight is recognizing dependency relationships: certain connections must be broken before others become accessible or vulnerable to disruption. For example, in side control, the cross-face connection typically must be addressed before meaningful underhook breaking becomes possible, as the cross-face prevents the head mobility necessary for effective underhook disruption. This systematic approach transforms connection breaking from reactive desperation into proactive technical problem-solving where each breaking attempt serves specific tactical purpose within larger defensive framework.
-- **Gordon Ryan**: In competition, connection breaking needs to be explosive and fully committed rather than tentative testing of opponent's controls. What I've learned through high-level matches is that half-hearted breaking attempts simply telegraph your defensive intentions while allowing opponent to adjust and strengthen their position. When I identify a critical connection that needs breaking—whether it's a cross-face in side control or seatbelt grip from back—I commit everything to that single breaking attempt rather than dividing my effort across multiple connections. The key competitive insight is understanding that broken connections create very limited time windows before opponent reestablishes control, so your breaking attempt and subsequent defensive movement need to happen as essentially one coordinated action. Against elite opponents, any delay between breaking a connection and exploiting that break results in immediate reconnection and return to controlled position without gaining any defensive advantage.
-- **Eddie Bravo**: What we've developed in the 10th Planet system is really interesting connection breaking applications, particularly in situations where conventional connection points are replaced with unconventional controls like in lockdown or rubber guard. The innovative approach I teach is understanding your opponent's connection dependency—which specific controls are absolutely critical for their particular strategy versus which are just supplementary. Sometimes the smartest move isn't breaking all connections simultaneously but actually maintaining certain connections strategically while breaking others. For instance, in lockdown, we maintain our own leg-based connections very aggressively while systematically breaking opponent's upper body controls, creating asymmetric situation where we have offensive connections but they've lost their defensive connections. This creative approach to connection breaking goes beyond pure defense and becomes offensive weapon that creates scrambles and opportunities rather than just preventing opponent's attacks.
 
 </section>
 

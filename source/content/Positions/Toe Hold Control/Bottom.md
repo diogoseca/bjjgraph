@@ -8,7 +8,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -429,24 +429,6 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 
 **Average Time in Position**: 10-30 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The toe hold control bottom position represents a critical juncture in leg entanglement systems where defensive priorities must be absolutely clear and systematically executed. The primary mechanical vulnerability is the rotational stress applied to the ankle joint through the opponent's figure-four grip configuration combined with torso pressure across the leg. From a biomechanical perspective, the defensive player must understand that ankle joints possess limited rotational tolerance compared to knee joints, making toe holds particularly dangerous despite appearing less dramatic than heel hooks. The systematic defensive approach begins with immediate wrist control, specifically targeting the opponent's top hand in the figure-four to break the grip structure before it can generate full rotational force. The secondary priority is maintaining internal rotation of the endangered leg's knee toward the opponent, as external rotation dramatically amplifies the submission's leverage. Advanced practitioners understand that this position demands calm, technical precision rather than explosive panic movements which often worsen the entanglement or accelerate injury. The escape hierarchy flows from grip control to leg extraction to guard recovery, never skipping steps in pursuit of faster but lower-percentage escapes. Understanding the mechanical principles of the toe hold attack allows defenders to recognize the specific moments of vulnerability during opponent grip changes or positional adjustments, creating windows for systematic escape execution.
-
-### Gordon Ryan
-
-In competition, toe hold control bottom is a position you absolutely cannot afford to make mistakes in because ankle injuries will end your tournament and potentially affect your training for months afterward. I've seen too many tough competitors refuse to tap to ankle locks thinking they can power through, only to require surgery and extended rehabilitation. The reality is that defending toe holds successfully at the highest levels requires both technical knowledge and the wisdom to tap early when the position is truly locked. My approach emphasizes aggressive wrist fighting from the moment I feel my foot getting controlled, immediately hunting for two-on-one control of their top hand to break the figure-four before they can set the rotation. The key competitive detail most people miss is using your free leg not just passively but actively creating frames and barriers that prevent your opponent from settling their weight and completing their mechanical advantage. If I can keep them off balance even slightly with my free leg pushing their hips or controlling their far leg, their toe hold loses significant finishing power. The other crucial competition reality is understanding that your opponent might fake a toe hold transition to heel hook or vice versa, so you need to be ready to adjust your defensive grips without creating openings. When I'm caught in this position against elite leg lockers, I'm making a split-second decision: do I have clear pathway to escape or is this locked tight enough that continuing risks serious injury? There's no shame in tapping to a well-executed toe hold from a skilled opponent, there's only shame in ego-driven decisions that end your competition career prematurely.
-
-### Eddie Bravo
-
-The toe hold control bottom is one of those positions that shows the evolution of no-gi grappling and how leg locks have completely changed the game. In 10th Planet, we approach this defensively but also look for the crazy counter-entanglement opportunities that most people don't see because they're too focused on pure escape. Yeah, you need to defend the immediate ankle attack, but if you can stay calm and creative, there are moments where you can actually use their grip commitment against them by entering into your own inside ashi or even setting up sweeps if they're overcommitted to the toe hold. The key innovation we've developed is using what we call active defense where your free leg isn't just framing but actually hunting for entanglements on their far leg, creating this constant dilemma where they have to choose between finishing the toe hold or defending their own leg. That said, the fundamental rule still applies: if the toe hold is truly locked and rotating, tap immediately, no position or counter-attack is worth a destroyed ankle. The creative stuff only works in that window before the submission is fully set. We also drill these positions with what I call percentage awareness where you learn to recognize whether you're in the 20% chance escape window or the 80% chance you're about to get submitted window. That recognition skill separates the creative escape artists from the people who end up injured trying to be heroes. Train smart, tap early to ankle locks, but don't be so scared that you miss legitimate escape opportunities when they present themselves.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Frame Management in BJJ. Learn skeletal framing, pressure r
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Construct frames using skeletal structure rather than muscular strength to maximize efficiency and sustainability
 - Position frame contact points on opponent's skeletal landmarks (hips, shoulders, head) rather than muscle groups for optimal pressure distribution
 - Maintain frame integrity by keeping joints in strong alignment preventing collapse under opponent's pressure
@@ -179,9 +179,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Skeletal Frame Construction**: Building frames through proper bone alignment rather than muscle tension, creating structures capable of managing heavy pressure with minimal energy expenditure by utilizing mechanical advantage of skeletal system
 
 **Contact Point Selection**: Identifying and targeting optimal frame placement on opponent's skeletal landmarks (hip bones, shoulder joints, skull) to maximize leverage and pressure distribution effectiveness while minimizing opponent's ability to collapse frame
@@ -202,28 +202,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Defensive Frame]]** (Complementary): Defensive framing provides specific tactical applications of frame management principles in various positional contexts, representing practical implementation of broader frame management concepts
-- **[[Space Creation]]** (Complementary): Frame management creates the structural barriers necessary for space creation, with frames controlling distance while hip movement generates actual spatial separation from opponent
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics is fundamental to effective frame construction, as proper frames utilize mechanical advantage through skeletal alignment rather than brute strength
-- **[[Energy Conservation]]** (Complementary): Proper frame management dramatically reduces energy expenditure in defensive situations by utilizing structure rather than muscular effort, making it essential component of energy-efficient defensive strategy
-- **[[Dealing with Pressure]]** (Advanced form): Frame management represents primary tactical method for managing opponent's pressure effectively, providing structural solutions to pressure problems that would otherwise require excessive strength or athleticism
-- **[[Escape Fundamentals]]** (Prerequisite): Nearly all escape sequences begin with establishing effective frames to create initial distance from opponent, making frame management foundational skill enabling all other escape techniques to function
-- **[[Defensive Framing]]** (Complementary): Defensive framing techniques represent specific positional implementations of broader frame management principles across all defensive scenarios
-- **[[Frame Creation]]** (Complementary): Frame creation describes the initial establishment of frames, while frame management encompasses ongoing maintenance and dynamic adaptation of those structures
-- **[[Distance Creation]]** (Complementary): Frames provide the structural mechanism enabling distance creation, controlling space between practitioner and opponent to facilitate escapes and transitions
-- **[[Guard Retention]]** (Extension): Frame management serves as critical component of guard retention systems, maintaining distance control that prevents opponent from completing passing sequences
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and frame management work synergistically, with frames controlling distance while hip movements generate actual positional recovery and escape progress
-- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping movements must be coordinated with frame maintenance to create effective escape sequences from bad positions
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Establishing frames against opponent's shoulder and hip to prevent chest-to-chest pressure, creating space necessary for hip escape and guard recovery while managing opponent's crossface attempts
 
 **Mount**: Using elbow frames against opponent's hips to control distance and prevent high mount progression, combined with hip bridge movements to create escape opportunities while managing submission threats
@@ -258,9 +239,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess immediate pressure threat and identify primary pressure vector**: Determine where opponent is applying heaviest pressure and which direction their force is traveling to identify optimal frame placement location
 2. **Select appropriate frame contact points on opponent's skeletal structure**: Position hands, forearms, or shins against opponent's hips, shoulders, or head rather than muscular areas to maximize structural efficiency
 3. **Construct frame using proper joint alignment and skeletal structure**: Establish frame with elbows positioned correctly relative to shoulders, creating strong angles that resist collapse under opponent's pressure
@@ -273,9 +254,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Relying on muscular strength rather than skeletal alignment to maintain frames
   - **Consequence**: Rapid fatigue and frame collapse under sustained pressure, particularly against larger or stronger opponents who can overpower muscular effort
   - **Correction**: Focus on proper bone alignment and joint positioning, using skeletal structure to create frames that manage pressure through mechanical advantage rather than strength
@@ -301,9 +282,9 @@ Frame Management represents the fundamental skill of creating, maintaining, and 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Survival Drills** (Focus: Building structural frame strength and psychological resilience to maintain technique under pressure and fatigue)
 Partner maintains dominant position while applying gradual increasing pressure, defender focuses exclusively on maintaining frames without attempting escapes, developing frame integrity under sustained load
 
@@ -326,9 +307,9 @@ Maintaining frames from bad positions during extended rounds or after exhaustive
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Establishes basic frames using arms against opponent's chest or shoulders but relies heavily on muscular strength
 - Maintains frames briefly under light pressure but abandons structure when opponent applies sustained force
@@ -365,10 +346,26 @@ Maintaining frames from bad positions during extended rounds or after exhaustive
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Defensive Frame]]** (Complementary): Defensive framing provides specific tactical applications of frame management principles in various positional contexts, representing practical implementation of broader frame management concepts
+- **[[Space Creation]]** (Complementary): Frame management creates the structural barriers necessary for space creation, with frames controlling distance while hip movement generates actual spatial separation from opponent
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics is fundamental to effective frame construction, as proper frames utilize mechanical advantage through skeletal alignment rather than brute strength
+- **[[Energy Conservation]]** (Complementary): Proper frame management dramatically reduces energy expenditure in defensive situations by utilizing structure rather than muscular effort, making it essential component of energy-efficient defensive strategy
+- **[[Dealing with Pressure]]** (Advanced form): Frame management represents primary tactical method for managing opponent's pressure effectively, providing structural solutions to pressure problems that would otherwise require excessive strength or athleticism
+- **[[Escape Fundamentals]]** (Prerequisite): Nearly all escape sequences begin with establishing effective frames to create initial distance from opponent, making frame management foundational skill enabling all other escape techniques to function
+- **[[Defensive Framing]]** (Complementary): Defensive framing techniques represent specific positional implementations of broader frame management principles across all defensive scenarios
+- **[[Frame Creation]]** (Complementary): Frame creation describes the initial establishment of frames, while frame management encompasses ongoing maintenance and dynamic adaptation of those structures
+- **[[Distance Creation]]** (Complementary): Frames provide the structural mechanism enabling distance creation, controlling space between practitioner and opponent to facilitate escapes and transitions
+- **[[Guard Retention]]** (Extension): Frame management serves as critical component of guard retention systems, maintaining distance control that prevents opponent from completing passing sequences
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and frame management work synergistically, with frames controlling distance while hip movements generate actual positional recovery and escape progress
+- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping movements must be coordinated with frame maintenance to create effective escape sequences from bad positions
+
+
+### Related Content
 - [[Defensive Frame]] (Principle) - Complementary principle providing specific tactical framing applications in positional contexts
 - [[Space Creation]] (Principle) - Frames provide structural foundation enabling space generation through hip movement
 - [[Hip Escape Mechanics]] (Principle) - Frame management controls distance while hip escapes generate actual positional recovery
@@ -382,15 +379,6 @@ Maintaining frames from bad positions during extended rounds or after exhaustive
 - [[Defensive Framing]] (Principle) - Specific defensive framing techniques implementing frame management principles
 - [[Guard Retention]] (Principle) - Frame management serves as critical component preventing guard passes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Frame Management represents fundamental application of biomechanical principles where structural efficiency replaces muscular strength as primary defensive mechanism. The concept begins with understanding skeletal alignment principles that create strong frames capable of managing heavy pressure with minimal energy expenditure. I systematize frame configurations for specific positions and pressure scenarios, teaching practitioners to recognize optimal frame construction patterns rather than improvising under pressure. The critical insight is that frames must function as dynamic systems requiring constant adjustment and reconstruction rather than static defensive postures. Effective frame management serves as essential prerequisite enabling all other defensive techniques to function optimally - without proper frames controlling distance, even technically perfect escapes cannot execute successfully. I emphasize that frame maintenance under pressure represents skill development challenge as significant as any offensive technique, requiring dedicated training to build both technical precision and psychological resilience necessary for maintaining structure when every instinct suggests abandoning technique for desperate scrambling.
-- **Gordon Ryan**: Frame Management distinguishes elite defensive performers from intermediate practitioners who rely excessively on athleticism and strength to survive bad positions. In high-level competition, you absolutely must maintain frames even when completely fatigued or under heavy pressure from larger opponents - this skill has saved me countless times against bigger competitors who should theoretically crush me with pure pressure. The key understanding is that proper structural framing enables smaller practitioners to manage significantly larger opponents effectively, something impossible through muscular effort alone. I focus intensely on dynamic frame adaptation as opponent adjusts positions and pressure vectors, maintaining defensive capability throughout extended exchanges rather than brief initial defensive effort. My approach integrates frame management seamlessly with offensive guard retention, creating comprehensive defensive system rather than passive survival approach. When students understand that frames aren't just about preventing bad positions but actually creating offensive opportunities through distance management, their entire defensive game transforms from reactive survival to proactive control.
-- **Eddie Bravo**: Frame Management in the 10th Planet system includes innovative frame configurations particularly for managing pressure in rubber guard and lockdown positions where conventional framing breaks down. I've developed creative frame construction using unconventional contact points and pressure angles that opponents don't anticipate or effectively counter - sometimes the best frame isn't the obvious one everyone teaches. My philosophy emphasizes active frame deployment rather than purely defensive applications, using frames to create offensive opportunities through distance management and opponent positioning. When teaching frame management, I integrate it directly with submission chains, demonstrating how proper distance control through framing creates attacking opportunities while maintaining defensive security. The innovation comes from recognizing that frames can be offensive weapons - when you control the distance, you control what techniques are available to both you and your opponent. I've found that students who understand frames as attacking tools rather than purely defensive barriers develop much more aggressive and effective guard games, using distance control to set up submissions rather than just preventing passes.
 
 </section>
 

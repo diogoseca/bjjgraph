@@ -8,7 +8,7 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -449,24 +449,6 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 
 **Average Time in Position**: 30-90 seconds before submission or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Cross Ashi-Garami represents a critical control position in the leg lock hierarchy because it provides exceptional mechanical control over your opponent's hip alignment while simultaneously exposing the heel for attack. The crossed configuration of your legs creates a ratcheting effect where any defensive movement by your opponent actually tightens your control rather than loosening it. The key mechanical principle is understanding that the inside hook controls hip rotation while the outside cross controls lower leg position - these two points of control work synergistically to create a position from which escape becomes extraordinarily difficult. Most practitioners make the error of viewing this as purely a finishing position, but its true value lies in being a transitional hub that connects to Saddle, Inside Ashi, and multiple submission options. Master the ability to flow between these connected positions and you transform leg entanglements from isolated techniques into a comprehensive systematic approach.
-
-### Gordon Ryan
-
-In competition, Cross Ashi-Garami Top is one of my highest percentage positions because it gives me complete control while keeping my opponent in a weakened defensive posture. The moment I establish this position, I'm already thinking three steps ahead - heel hook if they're flat, transition to Saddle if they turn away, Inside Ashi if they turn in. What makes this position so effective at the highest levels is that every defensive option your opponent has actually creates a different offensive opportunity for you. They can't win the position battle, they can only choose which submission threat they want to defend against. I focus heavily on maintaining constant tension with my inside hook - that's what prevents them from sitting up and establishing frames. Once you allow them to establish upper body position, the entanglement loses most of its effectiveness. Keep them flat, keep them defensive, and finish quickly before they can systematically work their escape sequence. Time favors the defender in leg locks, so strike while you have the advantage.
-
-### Eddie Bravo
-
-Cross Ashi-Garami, or what some people call Outside Ashi, is a beautiful position because it breaks all the traditional rules about staying on top and passing the guard. You're willingly going to the ground with your opponent, but you're doing it in a way that gives you all the control and all the finishing options. What I love about this position is how it exemplifies the modern no-gi game - it's not about points or traditional positional hierarchy, it's about creating a dominant position through leg entanglement that leads directly to the finish. The key innovation in my system is understanding how Cross Ashi connects to the Saddle and how both positions create that dilemma we're always talking about. Your opponent has to defend the heel, but defending the heel creates the Saddle entry, and the Saddle creates an even worse heel hook scenario. That's the chess match - not just getting the position, but understanding the entire network of threats that flow from it. Train the transitions between these positions until they're completely automatic, because in a real match you need to flow like water through the leg lock game.
 
 </section>
 

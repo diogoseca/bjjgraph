@@ -8,7 +8,7 @@ description: "Master Deep Half Guard Top with defensive counters, pressure maint
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -404,24 +404,6 @@ Positional sparring starting in deep half guard top. You work to pass while part
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Deep half guard top represents one of the most deceptive positions in grappling - you appear to be winning because you're on top, but the reality is quite different. The bottom player has created a sophisticated lever system using your body weight against you, with their shoulders acting as the fulcrum underneath your hips. Understanding the biomechanics of the primary sweeps from deep half is essential for defensive success. The waiter sweep activates when your weight shifts too far forward, allowing them to lift and rotate you over their shoulder. The old school sweep works when your weight is too far back, enabling them to roll you backward over your own base. Your defensive strategy must center on weight distribution that negates both sweep mechanisms simultaneously, which requires balanced positioning with neither too much forward nor backward lean. The systematic escape involves establishing a crossface to disrupt their vision and sweep mechanics, widening your base with the free leg to create stability, and methodically extracting the trapped leg while maintaining proper weight distribution. This is not a position for explosive movements - every sudden motion creates momentum that skilled practitioners will redirect into sweep attempts.
-
-### Gordon Ryan
-
-I view deep half top as a temporary defensive position that I need to escape from as quickly as possible, but quickly doesn't mean frantically. When I end up there, my first priority is preventing the sweep - I widen my base, establish crossface or head control, and make sure my weight distribution doesn't give them the sweep they want. Then I systematically work to free my leg and pass. The worst thing you can do is rush the pass attempt, because that's when you get swept or give up your back. If the opponent is really good at deep half, I might even accept spending 30 seconds or a minute methodically escaping rather than risking a sweep by being impatient. The key is recognizing that time isn't necessarily against you if you're maintaining good defensive structure - it's only against you if you're in bad position getting attacked. Once I establish crossface and proper base, I'm controlling the pace and working my escape on my terms. In competition, I've seen so many people get swept from deep half because they panic and try to explode out. Stay calm, maintain your structure, and systematically improve your position step by step.
-
-### Eddie Bravo
-
-Deep half guard is one of those positions that looks terrible for the top guy but can actually be passed if you know what you're doing. In 10th Planet, we teach specific deep half counters and passes that involve understanding the fulcrum principle - you're basically sitting on a lever, and any weight shift in the wrong direction activates the sweep. The key defensive strategy is getting your crossface or head control to disrupt their vision and mechanics, then methodically extracting your leg using specific sequences. Also, if you're getting deep halfed a lot, you need to work on your half guard maintenance from top earlier in the sequence, because preventing deep half is easier than escaping it. When teaching deep half defense, I emphasize the calm under fire mentality - this position looks scary and feels unstable, but if you understand the mechanics and maintain proper structure, you can defend it and pass. The bottom player is working hard to sweep you, so let them expend energy while you stay composed and work your systematic escape. Don't give them the explosive movement they're hoping to redirect into a sweep.
 
 </section>
 

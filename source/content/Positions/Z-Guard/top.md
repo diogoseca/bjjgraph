@@ -8,7 +8,7 @@ description: "Master Z-Guard Top in BJJ. Complete guide covering passing strateg
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -428,24 +428,6 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 
 **Average Time in Position**: 45-90 seconds to complete pass or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Z-guard passing game is fundamentally about creating a hierarchy of control that systematically dismantles the bottom player's defensive structure. The knee shield represents the primary defensive barrier, but it is only effective when combined with proper underhook control and hip positioning. As the top player, your first objective must be to win the underhook battle on the far side, as this controls the bottom player's ability to generate sweeping power and maintain their frame. Once you've neutralized the underhook threat, you can address the knee shield through a combination of crossface pressure and hip loading. The key biomechanical principle is that the knee shield becomes exponentially weaker when the defender cannot use their far arm to support it. By controlling the far shoulder with either an underhook or crossface, you effectively cut the power supply to the knee shield frame, making it susceptible to collapse through forward pressure and angular passing movements. The passing sequences from Z-Guard top must be understood as chains rather than isolated techniques - when the bottom player defends one passing angle, you must immediately flow to the next option without resetting to neutral. This constant pressure through multiple passing angles eventually overwhelms even the best defensive structures.
-
-### Gordon Ryan
-
-When I'm on top of someone's Z-guard, I'm looking to make them uncomfortable immediately and force them into defensive mode. Most guys will try to be technical and slowly work their pass, but I find that establishing heavy pressure right away - really loading my weight onto that knee shield - forces them to react and make mistakes. My go-to sequence is to fight for the underhook on the far side while simultaneously putting a crossface on them. Once I have that crossface, their knee shield becomes way less effective because they can't support it properly. From there, I'm either slicing my knee through to side control or stepping over for the back take if they turn away. The key is never letting them get comfortable - if you give them time to establish their grips and settle into the position, you're going to have a much harder time passing. Also, don't be afraid to switch between different passing attacks based on their reactions. If they're defending the knee slice hard, threaten the long step. If they're worried about the long step, come back to the knee slice. Keep them guessing and they'll eventually give you the pass. In competition, I've found that patience combined with constant pressure is the winning formula - you're not in a rush to force the pass, but you're also never giving them a moment to breathe and reset their frames.
-
-### Eddie Bravo
-
-The Z-guard is one of those positions that looks simple but has a ton of depth when you really get into it. From the top, you have to respect the bottom player's ability to transition to other positions like deep half or to lock you down. What I like to do is immediately start attacking their structure - I'm not just trying to pass, I'm trying to break their spirit by making them carry my weight. I'll use a lot of shoulder pressure into their face while working to clear that knee shield. One thing people don't realize is that you can actually use the Z-guard position to set up leg attacks if the bottom player is too committed to holding the position. If they're really stubborn with that knee shield and won't let you pass, you can sometimes transition to attacking their legs, especially if they extend that shield leg too much. The other thing I emphasize is not getting too focused on one passing strategy - you need to have multiple options. Maybe you start with the knee slice, but if they defend that well, you should be able to flow into a long step or even a back step without losing position. The position is all about staying one step ahead of their defense and keeping constant pressure on them. Also, don't sleep on the importance of grip fighting from this position - if you can control their far sleeve or collar, you dramatically limit their ability to create the frames they need to maintain the guard.
 
 </section>
 

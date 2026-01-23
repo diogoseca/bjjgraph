@@ -8,7 +8,7 @@ description: "Master hip elevation mechanics in BJJ. Learn biomechanical princip
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Leverage Through Skeletal Alignment: Maximum elevation efficiency occurs when force travels through properly aligned bone structure rather than muscular effort alone
 - Timing Relative to Weight Distribution: Hip elevation effectiveness depends critically on when opponent weight is transitioning between pressure points
 - Progressive Force Application: Controlled elevation begins with subtle movements that test opponent reactions before committing to full explosive power
@@ -182,9 +182,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Bridge Mechanics**: The ability to drive through heels and shoulders simultaneously, creating maximal hip elevation while maintaining stability. Requires coordinated posterior chain activation and precise head positioning to avoid neck strain.
 
 **Timing Recognition**: Developing sensitivity to opponent weight shifts and pressure transitions that create optimal windows for hip elevation. Involves reading micro-adjustments in opponent positioning and anticipating movement patterns.
@@ -205,28 +205,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Bridging Mechanics]]** (Prerequisite): Bridge mechanics form the technical foundation for explosive hip elevation, providing the specific biomechanical framework for force generation through proper skeletal alignment and posterior chain activation.
-- **[[Hip Escape Mechanics]]** (Complementary): Hip elevation and hip escapes work synergistically, with elevation creating the initial space that escapes exploit. Many techniques require alternating between elevation and lateral movement for maximum effectiveness.
-- **[[Frame Management]]** (Complementary): Frames must coordinate with hip elevation to prevent opponent from following the movement. Upper body structure maintains separation while hips create displacement, working as integrated system.
-- **[[Space Creation]]** (Extension): Hip elevation serves as one primary method of space creation, with the broader concept encompassing additional techniques. Elevation represents the vertical dimension of spatial manipulation in ground fighting.
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage fundamentals is essential for efficient hip elevation, as proper technique multiplies force through mechanical advantage rather than relying on strength alone.
-- **[[Timing and Rhythm]]** (Complementary): The effectiveness of hip elevation depends critically on timing relative to opponent weight distribution and movement patterns. Rhythm disruption often creates elevation opportunities.
-- **[[Bridge and Shrimp]]** (Extension): Combined movement pattern integrating hip elevation with lateral escape mechanics. Bridge provides elevation component while shrimp adds directional escape dimension.
-- **[[Escape Fundamentals]]** (Extension): Hip elevation serves as core component of fundamental escape methodology across multiple positions. Forms foundation for more complex escape sequences and strategies.
-- **[[Defensive Frame]]** (Complementary): Defensive frames must work in concert with hip elevation to create and preserve space. Frame integrity during elevation determines whether space creation is temporary or actionable.
-- **[[Energy Conservation]]** (Complementary): Efficient hip elevation technique exemplifies energy conservation principles through precise biomechanics rather than maximum force application. Minimal effective movement preserves capacity.
-- **[[Off-Balancing]]** (Extension): Hip elevation disrupts opponent balance through base manipulation and force vector redirection. Creates instability that enables sweeps and positional transitions.
-- **[[Sweep Mechanics]]** (Extension): Many sweep techniques fundamentally rely on hip elevation to generate upward force component that destabilizes opponent. Elevation timing determines sweep success.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Bridge escapes use explosive hip elevation to disrupt mount base, particularly effective when opponent posts hands forward. Elevation redirects vertical pressure into horizontal displacement, creating sweep or escape opportunities.
 
 **Side Control**: Controlled hip elevation unloads specific pressure points allowing shrimp movement. Small elevation movements test opponent weight distribution before committing to full escape sequences.
@@ -261,9 +242,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess Current Pressure Distribution**: Identify which points opponent is applying pressure through (hands, hips, chest, etc.) and determine weight distribution percentage across these contact points before attempting elevation.
 2. **Evaluate Timing Window**: Monitor opponent movement patterns for weight transitions between bases. Optimal elevation occurs during these transition phases when pressure is redistributing rather than static.
 3. **Establish Frame Structure**: Set appropriate upper body frames that will prevent opponent from following hip elevation. Frame selection depends on position and opponent reactions to previous movements.
@@ -276,9 +257,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Purely Vertical Elevation Without Directional Intent
   - **Consequence**: Opponent simply rides the elevation up and comes back down with increased pressure, having lost no base or position. Elevation becomes wasted energy without positional improvement.
   - **Correction**: Always angle elevation toward opponent's weakest base point. Study their support structure and direct force along vectors that disrupt stability rather than lifting straight up.
@@ -304,9 +285,9 @@ Mastery of hip elevation transcends individual techniques, becoming a fundamenta
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Bridging** (Focus: Develop foundational bridge strength, proper biomechanics, and neuromuscular patterns for explosive elevation. Builds conditioning specific to hip elevation movements while refining technical execution.)
 Solo and partner drills focusing on bridge mechanics with gradually increasing resistance. Start with unloaded bridges, progress to partner providing measured resistance, culminating in full defensive scenarios.
 
@@ -329,9 +310,9 @@ Positional rounds from bottom positions with specific focus on integrating hip e
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Executes basic bridge escapes with moderate effectiveness from mount, though often purely vertical without directional intent
 - Requires deliberate thought and preparation before initiating hip elevation movements, with noticeable delay between decision and execution
@@ -368,10 +349,26 @@ Positional rounds from bottom positions with specific focus on integrating hip e
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Bridging Mechanics]]** (Prerequisite): Bridge mechanics form the technical foundation for explosive hip elevation, providing the specific biomechanical framework for force generation through proper skeletal alignment and posterior chain activation.
+- **[[Hip Escape Mechanics]]** (Complementary): Hip elevation and hip escapes work synergistically, with elevation creating the initial space that escapes exploit. Many techniques require alternating between elevation and lateral movement for maximum effectiveness.
+- **[[Frame Management]]** (Complementary): Frames must coordinate with hip elevation to prevent opponent from following the movement. Upper body structure maintains separation while hips create displacement, working as integrated system.
+- **[[Space Creation]]** (Extension): Hip elevation serves as one primary method of space creation, with the broader concept encompassing additional techniques. Elevation represents the vertical dimension of spatial manipulation in ground fighting.
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage fundamentals is essential for efficient hip elevation, as proper technique multiplies force through mechanical advantage rather than relying on strength alone.
+- **[[Timing and Rhythm]]** (Complementary): The effectiveness of hip elevation depends critically on timing relative to opponent weight distribution and movement patterns. Rhythm disruption often creates elevation opportunities.
+- **[[Bridge and Shrimp]]** (Extension): Combined movement pattern integrating hip elevation with lateral escape mechanics. Bridge provides elevation component while shrimp adds directional escape dimension.
+- **[[Escape Fundamentals]]** (Extension): Hip elevation serves as core component of fundamental escape methodology across multiple positions. Forms foundation for more complex escape sequences and strategies.
+- **[[Defensive Frame]]** (Complementary): Defensive frames must work in concert with hip elevation to create and preserve space. Frame integrity during elevation determines whether space creation is temporary or actionable.
+- **[[Energy Conservation]]** (Complementary): Efficient hip elevation technique exemplifies energy conservation principles through precise biomechanics rather than maximum force application. Minimal effective movement preserves capacity.
+- **[[Off-Balancing]]** (Extension): Hip elevation disrupts opponent balance through base manipulation and force vector redirection. Creates instability that enables sweeps and positional transitions.
+- **[[Sweep Mechanics]]** (Extension): Many sweep techniques fundamentally rely on hip elevation to generate upward force component that destabilizes opponent. Elevation timing determines sweep success.
+
+
+### Related Content
 - [[Bridge and Roll]] (Transition) - Primary technical application of explosive hip elevation for mount escape
 - [[Upa Escape]] (Transition) - Classic mount escape technique fundamentally dependent on hip elevation mechanics
 - [[Elbow Escape]] (Transition) - Side control escape combining hip elevation with lateral movement
@@ -385,15 +382,6 @@ Positional rounds from bottom positions with specific focus on integrating hip e
 - [[Mount]] (Position) - Primary defensive application context for explosive hip elevation escapes
 - [[Side Control]] (Position) - Common defensive position requiring controlled elevation for escape sequences
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Hip elevation represents one of the most fundamental movement patterns in jiu-jitsu, yet it is consistently misunderstood and improperly executed at all levels of practice. The key conceptual framework is not elevation height but rather base manipulation through precise vector redirection. When we elevate the hips, we are not attempting to create maximum vertical displacement but rather to change the angle of force transmission in ways that compromise opponent stability. The biomechanical principle operates through skeletal alignment rather than muscular strength. Force should travel through the posterior chain with the spine maintaining its structural integrity, creating a rigid lever that redirects opponent pressure along disadvantageous vectors. The timing dimension is equally critical. Hip elevation must occur during opponent weight transitions between support points, not when they are settled with optimal base structure. This requires developing sophisticated sensitivity to micro-adjustments in pressure distribution, recognizing the precise moments when opponent stability is compromised. Most practitioners err by attempting maximum elevation against settled weight, wasting enormous energy for minimal positional gain. The correct approach treats elevation as a continuous spectrum of adjustment rather than binary on-off movement, with intensity calibrated precisely to situational requirements and opponent reactions.
-- **Gordon Ryan**: Hip elevation is something I use constantly but most people do it completely wrong. They think it's about how high you can bridge or how explosive you can be, but that's not what makes it work in competition. What matters is the angle and the timing. When I'm under mount or side control, I'm not trying to bench press the guy off me. I'm feeling exactly where his weight is and I'm elevating at an angle that attacks his weakest base point. Usually that means I'm bridging slightly to one side, into a posted hand or toward a leg that's not well positioned. The other thing people mess up is they telegraph it. They take this big breath and you can see them loading up for this massive bridge. By the time they move, I've already adjusted my base and their elevation does nothing. I use tiny adjustments constantly, little hip movements that test reactions and keep them thinking. Then when I see the right moment, usually when they're transitioning their weight or reaching for something, that's when I hit the real elevation. It's also critical to immediately follow up. Elevation by itself just makes space temporarily. You need to use that space right away with a shrimp or a re-guard before they settle back down. The elevation is just the entry point into the actual escape or sweep sequence.
-- **Eddie Bravo**: Hip elevation is where a lot of the magic happens, man. But not in the way most people think about it. Everyone's doing these predictable bridges at predictable times and wondering why it doesn't work. What we focus on in the 10th Planet system is using hip elevation to create rhythm disruptions and unexpected angles. You're not just trying to escape, you're trying to create scrambles and transitions to positions you actually want. From lockdown, we're using constant hip elevation adjustments to off-balance them and set up the old school sweep or electric chair. It's not one big movement, it's this ongoing pulsing rhythm that keeps them reactive. The other thing that's huge is elevating into transitions they don't expect. Everyone expects you to bridge away from them, so sometimes you bridge into them or at weird diagonal angles that create these funky positions where suddenly you've got an entry to truck or you're setting up a twister. We also combine it with a lot of stuff they're not ready for, like elevating while controlling their posture with rubber guard grips. Now they've got to deal with multiple problems at once and that's when the real opportunities open up. Don't be predictable with it, use it to create chaos in controlled ways that lead to your game.
 
 </section>
 

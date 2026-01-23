@@ -8,7 +8,7 @@ description: "Master Worm Guard Bottom in BJJ. Keenan Cornelius's lapel guard sy
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -445,24 +445,6 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 **Average Time in Position**: 1-3 minutes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Worm guard represents a fascinating evolution in guard technology—it's a position that uses the opponent's own equipment to create mechanical constraints that didn't exist in traditional guards. The genius of the system lies in how the lapel weave creates a connection that restricts the opponent's movement in a very specific way: they cannot extract their leg backward without first clearing the lapel, and they cannot clear the lapel without committing their upper body in ways that open sweep opportunities. This creates what I call a 'mechanical trap'—the structure itself forces the opponent into predictable responses. The position requires significant technical investment to master, but once you understand the core mechanics of lapel tension maintenance and angle creation, it becomes a remarkably effective control system. The key is understanding that worm guard is not just about the lapel grip—it's about creating a system where every defensive option your opponent has leads to a specific offensive opportunity for you.
-
-### Gordon Ryan
-
-I don't personally use worm guard because I compete no-gi primarily, but I've trained extensively with Keenan and I respect the system deeply. When executed correctly by someone who truly understands it, it's incredibly frustrating to pass even when you know exactly what's coming. The guard works because it forces the passer into very specific responses, which you can anticipate and counter systematically. If I were competing gi more, I would absolutely invest serious time in worm guard because it gives such a huge advantage against opponents who haven't specifically trained the counters. It's a high-investment, high-return guard system—you need to put in significant mat time to make it work, but once you have it, you can shut down passers who are technically better than you in other areas. The psychological aspect is huge too—when you lock in worm guard on someone unfamiliar with it, you can see the frustration building as nothing they try works the way it should.
-
-### Eddie Bravo
-
-Worm guard is absolutely fascinating because it's such a recent innovation that shows BJJ is still evolving rapidly at the highest levels. Keenan took the lapel concept and created an entirely new guard system that literally didn't exist before—that's the spirit of innovation I love and try to cultivate in 10th Planet. While I focus more on no-gi systems where lapels aren't available, the underlying principles of worm guard—using your opponent's equipment against them, creating unusual control mechanics that feel foreign and uncomfortable—these concepts are universal. In 10th Planet, we think about similar ideas with lockdown and rubber guard, where we're creating control systems that feel completely alien to opponents who haven't trained them. The worm guard philosophy of making the opponent uncomfortable and forcing them into limited options where you can predict and counter their movements—that's exactly what we try to do with our systems. It's proof that there are still new positions and control systems waiting to be discovered if you're willing to experiment and think outside traditional frameworks.
 
 </section>
 

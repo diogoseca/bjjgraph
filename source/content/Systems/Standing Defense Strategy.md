@@ -8,7 +8,7 @@ description: "Master standing defense with systematic framework for takedown pre
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -363,15 +363,6 @@ Standing defense training should integrate technical drilling, reaction training
 - [[Competition Strategy]] (System) - Broader strategic framework within which standing defense operates
 - [[No-Gi Tactical Framework]] (System) - No-gi specific strategic approach incorporating standing defense principles
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Standing defense in Brazilian Jiu-Jitsu requires a systematic understanding of takedown mechanics and the recognition that defense is fundamentally about denying your opponent the mechanical requirements they need to complete their attacks. The takedown is a mechanical problem - the opponent must change your base, elevate your weight, or compromise your balance to succeed. Therefore, our defensive system must focus on maintaining our base, keeping our weight low and distributed, and preserving our balance even under pressure. The sprawl is not merely a reaction; it is a calculated projection of weight at the precise angle necessary to make the opponent's attack mechanically impossible to complete. Furthermore, we must understand that standing defense exists on a continuum with guard pulling - these are not separate skills but tactical choices within the same strategic framework. The intelligent competitor recognizes when their standing defense is being compromised and transitions smoothly to a strategic guard pull rather than allowing an opponent to complete a takedown and achieve superior position.
-- **Gordon Ryan**: In competition, your standing defense determines whether you fight on your terms or your opponent's terms, and that's everything. I've spent years developing takedown defense not because I love wrestling, but because I refuse to give wrestlers free points or allow them to dictate where the match happens. The reality is that most high-level no-gi matches are won or lost in the standing phase - either through takedowns scored or through one athlete imposing their preferred starting position. My approach is simple: make your base so wide and heavy that taking you down becomes more exhausting than it's worth, punish every shot attempt with crossface pressure and potential guillotines, and when you recognize you're facing a superior wrestler, pull guard strategically to your strongest position rather than getting dumped on your back. The best standing defense isn't about being a great wrestler; it's about being impossible to take down cleanly and making smart tactical decisions about when to engage and when to pull guard. I've defended takedowns from Olympic wrestlers not by out-wrestling them, but by making the energy expenditure not worth the potential reward and by pulling to positions where I'm more dangerous than they are.
-- **Eddie Bravo**: The standing phase is where you set up everything that follows, and most people completely misunderstand it. They think standing defense is about being a wrestler, but that's backwards - it's about controlling the range and making your opponent fight your game, not theirs. In 10th Planet, we teach standing defense as part of a complete system that includes strategic guard pulling to our strongest positions. Why would I waste energy defending takedowns from a Division I wrestler when I can pull to lockdown, rubber guard, or my other systems where I'm world-class and they're average? That's the key insight: standing defense isn't about never being taken down, it's about controlling when and how you go to the ground. We drill the sprawl, we drill the distance management, we drill the grip fighting, but we also drill smooth, offensive guard pulls that put us immediately into attacking positions. The modern approach is to have solid enough standing defense that you can't be easily taken down, but smart enough tactical awareness to know when pulling guard gives you a better percentage chance of winning than continuing to defend shots. In no-gi especially, where guard pulling doesn't cost you points, why wouldn't you immediately go to your A-game rather than playing neutral standing exchanges with someone who might be a better wrestler?
 
 </section>
 

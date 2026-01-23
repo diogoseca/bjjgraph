@@ -8,7 +8,7 @@ description: "Master double pants grip control in BJJ. Learn bilateral leg contr
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Bilateral control of opponent's base limits their mobility and passing options
 - Distance management keeps opponent in optimal range for sweeps while preventing pressure
 - Grip placement on pants (ankles vs knees vs thighs) determines leverage and control type
@@ -182,9 +182,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Grip Acquisition**: Ability to establish double pants grips efficiently from various guard positions, including timing the initial grip during opponent movement and maintaining grips through opponent grip-fighting attempts.
 
 **Distance Regulation**: Using the grips to push and pull the opponent into optimal range—close enough to off-balance but far enough to prevent pressure passing or smashing guard recovery.
@@ -205,28 +205,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Grip Fighting]]** (Prerequisite): Understanding grip fighting principles is essential before developing effective double pants grip control, as maintaining these grips against opponent resistance requires fundamental grip-breaking and re-establishing skills.
-- **[[Distance Creation]]** (Complementary): Double pants grip is a primary tool for implementing distance management principles in open guard, providing the mechanical means to control opponent proximity.
-- **[[Off-Balancing]]** (Complementary): The double pants grip creates the framework for executing off-balancing techniques by controlling the opponent's base, making these concepts mutually reinforcing.
-- **[[Sweep Mechanics]]** (Extension): Many sweep sequences are extensions of double pants grip control, using the established control as the foundation for executing specific sweep techniques.
-- **[[Collar Control]]** (Alternative): Collar and sleeve grips serve as alternative control systems focusing on upper body manipulation, while double pants grip focuses on lower body control—both achieving guard control through different mechanical means.
-- **[[Guard Retention]]** (Advanced form): Advanced guard retention integrates double pants grip as one component of a comprehensive defensive system, combining it with hip movement, framing, and re-guarding strategies.
-- **[[Base Maintenance]]** (Complementary): Double pants grip directly attacks opponent's base maintenance by controlling both legs simultaneously, creating the mechanical foundation for destabilizing their structure.
-- **[[Posture Breaking]]** (Complementary): Pants grips combined with foot pressure provide the mechanical advantage needed to break opponent's upright posture and create forward vulnerability for sweeps.
-- **[[Guard Passing]]** (Alternative): Understanding passing principles from the top perspective helps guard players recognize and counter common passing strategies when using double pants grip control.
-- **[[Leverage Principles]]** (Extension): Double pants grip exemplifies lever-based control by manipulating opponent's legs (long levers) to affect their entire body position with minimal energy expenditure.
-- **[[Weight Distribution]]** (Complementary): Reading opponent's weight distribution through pants grip feedback is essential for timing sweeps and recognizing when base is most vulnerable to attacks.
-- **[[Connection Principles]]** (Extension): Double pants grip establishes strong connection points at opponent's legs, demonstrating how bilateral connections create greater control than single-point attachments.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Open Guard**: Double pants grip serves as primary control system to prevent passing, manage distance, and set up sweeps while keeping opponent at bay with foot frames and active hip movement.
 
 **Closed Guard**: After opponent stands to open closed guard, transitioning immediately to double pants grips maintains control during the vulnerable transition period and sets up open guard game.
@@ -255,9 +236,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's posture and base stability**: If opponent has upright posture with weight distributed evenly, establish double pants grips (ankle or knee level) while preparing to break posture forward with foot pressure on hips or biceps.
 2. **Determine optimal grip height based on opponent distance**: If opponent is close, grip thighs or knees for maximum control; if opponent is far, grip ankles or lower shins to extend reach and prevent further distance creation.
 3. **Evaluate opponent's weight distribution through grip feedback**: If weight shifts forward, pull pants grips while elevating hips to create sweep opportunity; if weight shifts backward, push with feet while maintaining grips to prevent disengagement.
@@ -270,9 +251,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Static grip maintenance without active pulling/pushing
   - **Consequence**: Opponent can settle into stable base, nullifying control and allowing them to methodically break grips and initiate passing sequences
   - **Correction**: Constantly create tension with grips through pulling, pushing, or angling movements; keep opponent reacting and unable to establish comfortable posture
@@ -298,9 +279,9 @@ Mastery of the double pants grip concept extends beyond simply holding fabric—
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Drilling** (Focus: Developing grip acquisition speed, grip strength, and ability to re-establish grips when broken)
 Partner maintains upright posture while guard player works to establish and maintain double pants grips against increasing resistance levels, from zero resistance to active grip-fighting
 
@@ -323,9 +304,9 @@ Partner begins passing guard (knee slice, toreando, etc.) while guard player mus
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish double pants grips from static open guard position with cooperative partner
 - Maintains grips for 5-10 seconds against passive resistance before grips are broken
@@ -363,10 +344,26 @@ Partner begins passing guard (knee slice, toreando, etc.) while guard player mus
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Grip Fighting]]** (Prerequisite): Understanding grip fighting principles is essential before developing effective double pants grip control, as maintaining these grips against opponent resistance requires fundamental grip-breaking and re-establishing skills.
+- **[[Distance Creation]]** (Complementary): Double pants grip is a primary tool for implementing distance management principles in open guard, providing the mechanical means to control opponent proximity.
+- **[[Off-Balancing]]** (Complementary): The double pants grip creates the framework for executing off-balancing techniques by controlling the opponent's base, making these concepts mutually reinforcing.
+- **[[Sweep Mechanics]]** (Extension): Many sweep sequences are extensions of double pants grip control, using the established control as the foundation for executing specific sweep techniques.
+- **[[Collar Control]]** (Alternative): Collar and sleeve grips serve as alternative control systems focusing on upper body manipulation, while double pants grip focuses on lower body control—both achieving guard control through different mechanical means.
+- **[[Guard Retention]]** (Advanced form): Advanced guard retention integrates double pants grip as one component of a comprehensive defensive system, combining it with hip movement, framing, and re-guarding strategies.
+- **[[Base Maintenance]]** (Complementary): Double pants grip directly attacks opponent's base maintenance by controlling both legs simultaneously, creating the mechanical foundation for destabilizing their structure.
+- **[[Posture Breaking]]** (Complementary): Pants grips combined with foot pressure provide the mechanical advantage needed to break opponent's upright posture and create forward vulnerability for sweeps.
+- **[[Guard Passing]]** (Alternative): Understanding passing principles from the top perspective helps guard players recognize and counter common passing strategies when using double pants grip control.
+- **[[Leverage Principles]]** (Extension): Double pants grip exemplifies lever-based control by manipulating opponent's legs (long levers) to affect their entire body position with minimal energy expenditure.
+- **[[Weight Distribution]]** (Complementary): Reading opponent's weight distribution through pants grip feedback is essential for timing sweeps and recognizing when base is most vulnerable to attacks.
+- **[[Connection Principles]]** (Extension): Double pants grip establishes strong connection points at opponent's legs, demonstrating how bilateral connections create greater control than single-point attachments.
+
+
+### Related Content
 - [[Open Guard]] (Position) - Primary position where double pants grip is applied as fundamental control system
 - [[Scissor Sweep]] (Transition) - Common sweep executed from double pants grip when opponent's weight shifts forward
 - [[Tomahawk Sweep]] (Transition) - Sweep option from double pants grip when opponent maintains upright posture with weight on heels
@@ -383,15 +380,6 @@ Partner begins passing guard (knee slice, toreando, etc.) while guard player mus
 - [[Guard Retention]] (Principle) - Advanced defensive framework that integrates double pants grip with hip movement and framing strategies
 - [[Sweep Mechanics]] (Principle) - Foundational concept extended by double pants grip control as setup for multiple sweep techniques
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The double pants grip represents a fundamental principle of lower body control in open guard systems—by controlling both legs simultaneously, you effectively eliminate the majority of the opponent's passing options. The key mechanical insight is that human mobility and base stability depend critically on leg positioning; when you control both legs, you control the foundation of their entire structure. Most beginners make the error of viewing this as simply 'holding pants,' when in reality it's a sophisticated system of weight distribution manipulation. The grips themselves are merely the connection points—the real control comes from understanding how to use those connection points to read weight shifts, create off-balance moments, and time sweep entries. Pay particular attention to grip height variation: ankle grips provide maximum distance control but less directional control, knee grips offer balanced control, and thigh grips give maximum directional control but reduced distance management. Advanced application requires fluid transition between these grip heights based on the opponent's distance and passing strategy.
-- **Gordon Ryan**: Double pants grip is one of the highest-percentage control systems in modern competition because it's incredibly difficult to pass when someone has both your legs controlled and knows how to use it properly. What separates competitors who win with this grip versus those who get passed is activity level—you can't just hold the pants and wait, you need to constantly be pulling, pushing, creating angles, and forcing reactions. I specifically look for opponents who stand tall because that's when double pants grip becomes extremely powerful—their base is narrow, their weight is high, and they're incredibly vulnerable to sweeps in any direction. The competition meta has evolved to where many top passers will immediately try to break these grips before establishing any passing strategy, which tells you how threatening this control system is. My advice is to develop multiple sweep chains from this position—don't just have one sweep, have four or five that you can flow between based on their reactions. When they defend the first sweep, you should already be entering the second. That's what makes this grip so dangerous in competition.
-- **Eddie Bravo**: The double pants grip is fundamental to a lot of 10th Planet guard systems because it gives you that distance control you need while keeping your hands low and your upper body free to work different angles. One thing I really emphasize is combining these grips with unconventional foot placement—don't just think 'feet on hips,' think about putting feet on biceps, on collar bones, even on the face if the rules allow it. That creates these really uncomfortable situations for the passer where they can't get comfortable and they start making mistakes. We also use double pants grip as an entry point to a lot of our position-specific systems—from there you can go to Rubber Guard if they come close, you can invert and attack the back, you can enter leg entanglements. The grip itself is just the beginning; it's what you create from that control that matters. I tell my students to think of it like a steering wheel—you're driving their movement, deciding where they can and can't go, and setting up your attacks based on how they try to escape your control. Get creative with it and don't just do what everyone else does.
 
 </section>
 

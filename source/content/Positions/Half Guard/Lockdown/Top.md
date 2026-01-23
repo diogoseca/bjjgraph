@@ -8,7 +8,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -416,24 +416,6 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 
 **Average Time in Position**: 2-4 minutes to extract leg and complete pass depending on opponent's lockdown skill
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending against the lockdown requires understanding the biomechanical disadvantages you face and systematically addressing them before attempting to pass. The lockdown creates asymmetrical control that compromises your base through the trapped leg, making traditional passing pressure ineffective and potentially dangerous. The key defensive principle is establishing upper body dominance through crossface or heavy shoulder pressure to flatten the opponent and limit their ability to extend the lockdown or create sweep angles. Once you've neutralized the bottom player's offensive capabilities through proper weight distribution and control, you can work methodically on leg extraction using circular motion and hip pressure rather than direct pulling against the lockdown's strongest vector. The mistake most practitioners make is attempting to pass before adequately controlling the position, which leads to sweeps and back takes. Patience and systematic pressure are essential—control the upper body first, neutralize offensive threats second, extract the leg third, and only then initiate passing sequences.
-
-### Gordon Ryan
-
-From a competitive standpoint, getting caught in lockdown can be extremely frustrating because it neutralizes many of your normal passing tools and puts you in constant danger of sweeps and submissions. My approach is aggressive upper body control combined with strategic weight distribution to prevent the bottom player from ever establishing their preferred attacking positions. I immediately fight for crossface or establish heavy shoulder pressure to flatten them, then work on extracting my leg using small circular movements rather than trying to pull straight back. The key is recognizing when the lockdown pressure reduces—usually when they're adjusting or trying to secure grips—and using those moments to extract your leg. Against high-level lockdown players, you need to be patient and methodical because rushing leads to sweeps. I've learned that controlling their underhook is absolutely critical; if they get a strong underhook, you're in serious danger of being swept. The lockdown is most dangerous when combined with dynamic movement from the bottom player, so your priority is limiting their mobility through pressure before working on extraction and passing.
-
-### Eddie Bravo
-
-From the top perspective against lockdown, you're in a tough spot because we designed the system to create exactly this problem for passers. The lockdown takes away your base, limits your passing options, and puts you in constant danger of sweeps and submissions. The biggest mistake I see from top players is trying to muscle their way out by pulling straight back on their trapped leg—that just makes the lockdown stronger and opens up the Electric Chair. Smart defense requires understanding that you need to control my upper body first before worrying about extracting your leg. If I get an underhook, you're getting swept with Old School or Electric Chair, so your number one priority is preventing that underhook or fighting it aggressively if I get it. The second key is not sitting back upright, because that's perfect for my attacks—you need to drive forward pressure to flatten me and reduce my hip mobility. Once you've neutralized my offensive threats through proper pressure and control, then you can work on extracting your leg using small movements and taking advantage of moments when I adjust. Even then, a good lockdown player will make you work hard for every inch of progress. The lockdown is designed to test your patience and technical precision, and rushing against it will get you swept every time.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master creating deliberate opponent responses and exploiting predi
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Every defensive response creates a specific vulnerability in another area
 - Opponent's commitment to defending one threat necessarily weakens defense elsewhere
 - The timing of reaction exploitation is as critical as the initial action
@@ -179,9 +179,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Threat Initiation**: Creating specific threatening actions that compel opponent's defensive commitment through sufficiently dangerous technique application or grip establishment that forces meaningful response rather than passive resistance
 
 **Response Reading**: Recognizing and categorizing opponent's defensive movements and commitments through tactile and visual feedback, distinguishing between proactive offensive movements and reactive defensive responses
@@ -200,26 +200,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Creating Reactions]]** (Complementary): The proactive application of generating specific opponent responses through calculated stimuli
-- **[[Dilemma Creation]]** (Extension): Creates forced-choice scenarios where all defensive options lead to strategic disadvantage
-- **[[Grip Fighting]]** (Complementary): Grips serve as both actions (threats) and indicators of opponent's reactions
-- **[[Space Management]]** (Complementary): Opponent's reaction to space creation/closure reveals defensive priorities
-- **[[Energy Management System]]** (Complementary): Efficient attacking exploits reactions rather than forcing through resistance
-- **[[Offensive Combinations]]** (Extension): Technique chains built on reaction-based transitions between attacking sequences
-- **[[Timing and Rhythm]]** (Complementary): Critical timing windows determine when reactions can be exploited most effectively
-- **[[Off-Balancing]]** (Complementary): Reactions to balance disruption create sweep and transition opportunities
-- **[[Posture Breaking]]** (Complementary): Posture attacks generate postural recovery reactions that open attack sequences
-- **[[Connection Breaking]]** (Complementary): Opponent's reconnection attempts create predictable movement patterns to exploit
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Collar grip threats generate posture-breaking reactions where opponent posts hands or leans back, creating openings for sweeps like hip bump or kimura traps that exploit the defensive arm position
 
 **Half Guard**: Underhook threats generate whizzer defense reactions that compromise opponent's base and create opportunities for old school sweeps or back takes that exploit the overhook commitment
@@ -260,9 +243,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's defensive structure**: Identify well-defended areas requiring reaction generation
 2. **Select initial action (threat)**: Choose sufficiently dangerous threat to compel meaningful defensive commitment
 3. **Execute action with appropriate intensity**: Apply enough pressure to generate reaction without over-commitment
@@ -275,9 +258,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Insufficient initial threat level
   - **Consequence**: Opponent doesn't commit meaningfully to defense, no exploitable reaction generated
   - **Correction**: Increase threat credibility through more committed initial action or selection of more dangerous technique
@@ -303,9 +286,9 @@ Action and Reaction represents the fundamental strategic principle of creating d
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Isolated Reaction Drills** (Focus: Pattern recognition and exploitation timing)
 Partner creates specific defensive responses on cue, practitioner develops recognition and exploitation patterns
 
@@ -328,9 +311,9 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Basic understanding of simple reaction patterns (pushing opponent generates pulling opportunity)
 - Demonstrates ability to recognize obvious defensive commitments and attempt basic exploitation
@@ -360,10 +343,24 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Creating Reactions]]** (Complementary): The proactive application of generating specific opponent responses through calculated stimuli
+- **[[Dilemma Creation]]** (Extension): Creates forced-choice scenarios where all defensive options lead to strategic disadvantage
+- **[[Grip Fighting]]** (Complementary): Grips serve as both actions (threats) and indicators of opponent's reactions
+- **[[Space Management]]** (Complementary): Opponent's reaction to space creation/closure reveals defensive priorities
+- **[[Energy Management System]]** (Complementary): Efficient attacking exploits reactions rather than forcing through resistance
+- **[[Offensive Combinations]]** (Extension): Technique chains built on reaction-based transitions between attacking sequences
+- **[[Timing and Rhythm]]** (Complementary): Critical timing windows determine when reactions can be exploited most effectively
+- **[[Off-Balancing]]** (Complementary): Reactions to balance disruption create sweep and transition opportunities
+- **[[Posture Breaking]]** (Complementary): Posture attacks generate postural recovery reactions that open attack sequences
+- **[[Connection Breaking]]** (Complementary): Opponent's reconnection attempts create predictable movement patterns to exploit
+
+
+### Related Content
 - [[Creating Reactions]] (Principle) - Direct application of generating specific opponent responses through calculated stimuli
 - [[Dilemma Creation]] (Principle) - Advanced extension creating forced-choice scenarios where all defensive reactions lead to disadvantage
 - [[Offensive Combinations]] (Principle) - Technique chaining framework that relies on reaction-based transitions
@@ -377,15 +374,6 @@ Drilling multiple techniques exploiting same reaction to develop adaptive respon
 - [[Kimura]] (Submission) - Creates multiple reaction-based opportunities including sweeps and back takes
 - [[Energy Management System]] (Principle) - Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches action and reaction as a systematic application of stimulus-response mechanics, emphasizing that every defensive movement creates specific and predictable vulnerabilities that can be catalogued and exploited methodically. Focuses extensively on what he terms 'secondary attacks' where the true objective is not the initial threat but rather the counter-attack that exploits the defensive response, treating first actions as deliberate setups rather than primary attacks. Systematizes reaction-based sequences according to position and defensive response patterns, creating comprehensive attack systems where practitioners learn not just individual techniques but entire branching decision trees based on opponent's defensive choices.
-- **Gordon Ryan**: Views action and reaction as the primary mechanism for attacking elite defensive opponents who rarely make unprovoked errors, emphasizing that at the highest levels of competition virtually all successful attacks derive from exploiting opponent's defensive commitments rather than finding static openings. Focuses on what he calls 'pressure-reaction sequences' where sustained pressure forces opponent into defensive patterns that gradually become predictable and exploitable. Emphasizes the importance of maintaining offensive initiative through continuous threat generation, creating an environment where opponent remains perpetually reactive and unable to establish their own offensive sequences, which psychologically and tactically dominates exchanges even before specific techniques succeed.
-- **Eddie Bravo**: Has developed extensive reaction-based systems within his 10th Planet methodology, particularly evident in his rubber guard system where virtually every position includes multiple attack chains predicated on opponent's defensive responses to previous threats. When teaching action and reaction, emphasizes the importance of 'commitment reading' where practitioners learn to distinguish genuine defensive commitments from defensive feints, preventing exploitation of false reactions. Advocates for creative and unpredictable initial actions that generate unusual reactions opponent hasn't trained extensively, creating cognitive load that slows defensive responses and increases exploitation windows, particularly effective in his unorthodox guard systems where opponent reactions may be less practiced.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master defensive strategies from 3-4 Mount Bottom. Complete escape
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -425,24 +425,6 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The 3-4 mount bottom position represents a critical transitional state in the mount escape hierarchy where the asymmetric weight distribution creates mechanical vulnerabilities in the top player's base structure. From a biomechanical perspective, the uneven contact points generate predictable force vectors that the bottom player must identify and exploit. The key insight is that bridging must be directionally intelligent—directing force toward the heavier side to maximize base disruption, then immediately capitalizing on the created instability by escaping toward the lighter side where fewer contact points exist. This is not random thrashing but calculated force application based on understanding leverage principles. The defensive frames must be maintained with bent elbows creating wedge structures rather than extended arms which become levers for opponent control. Success in this position requires systematic thinking: recognize configuration, establish frames, disrupt base through angled bridge, execute escape toward vulnerability. Each movement builds upon the previous one in a logical sequence designed to progressively improve position until guard recovery is achieved.
-
-### Gordon Ryan
-
-In competition, 3-4 mount bottom is a position you never want to be in for more than a few seconds because high-level opponents will immediately transition to more dominant mount variations or attack submissions. The reality is that the asymmetric base gives you a window of opportunity that won't last—you need to recognize it instantly and commit to your escape. I look for that lighter side immediately and I'm bridging and shrimping in one fluid motion before my opponent can consolidate. The frame game is everything here—if you let them connect chest to chest, you're done. Keep those elbows in, create that wedge, and the moment you feel their weight shift, that's your cue to explode into your escape. I prefer the elbow escape from here because it's highest percentage against skilled opponents who know how to base. Bridge and roll works great against less experienced players, but at elite levels, you need that systematic shrimp to half guard. Train this position under heavy pressure so when competition stress hits, your body knows exactly what to do without thinking.
-
-### Eddie Bravo
-
-The 3-4 mount is actually a gift if you know how to read it—it's telling you exactly where the escape route is because one side is weaker than the other. Traditional jiu-jitsu teaches you to escape to half guard, which is solid, but I'm always looking for that electric chair opportunity or lockdown if I can get my leg through. The asymmetric pressure means their base is already compromised, so I'm thinking about unconventional escapes that create scrambles. Sometimes I'll actually bridge into the heavy side to create a reaction, then use that momentum to swing my hips completely the other way—it's like a bait and switch. The key is not being predictable with your escape timing. Create little movements, make them adjust, then when they over-commit to shutting down one escape, you hit the other direction. Also, if you can control their sleeves during your bridge, you can often create enough disruption to actually come up to turtle or even take their back if they post heavy. Don't just think defense from here—think about creating chaos they can't manage.
 
 </section>
 

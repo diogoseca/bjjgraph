@@ -8,7 +8,7 @@ description: "Master top underhook control in BJJ. Complete guide to offensive p
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -462,24 +462,6 @@ Top player maintains underhook with crossface while bottom player uses explosive
 
 **Average Time in Position**: 20-60 seconds before pass completion or position transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Top underhook control represents the most mechanically efficient pressure-passing method because it directly addresses the primary defensive structure available to bottom players—their inside frames and hip mobility. When you establish a deep underhook from top position, you create a direct pressure vector from your chest through their shoulder to the mat, collapsing their defensive frames and eliminating the space necessary for guard retention. The critical technical detail most practitioners overlook is the coordination between underhook pressure and crossface control—the underhook alone provides incomplete control, but when combined with your shoulder driving into their face, you create a pressure system that overwhelms defensive efforts. The top underhook also creates a strategic dilemma for bottom players: if they turn away to escape the pressure, they expose their back; if they turn toward you to fight the underhook, they give up the pass. This forced choice makes underhook-based passing exceptionally high percentage at all skill levels. Master the coordination of downward underhook pressure, crossface control, and low hip positioning to create pressure passing that reliably advances position against any opponent.
-
-### Gordon Ryan
-
-In my passing game, top underhook control is the foundation that enables everything else—once I establish that underhook, I know I'm going to pass eventually because bottom players cannot maintain their defensive structure under sustained pressure. The key is driving constant downward pressure through the underhook while keeping my hips heavy and low. Too many passers make the mistake of pulling up on the underhook or letting their hips rise, which creates space for bottom players to recover. My approach is to make it absolutely miserable for them—constant pressure, constant advancement, never giving them a chance to breathe or reset their frames. I love combining the underhook with knee cuts because the underhook controls their upper body while my knee cuts through their leg defenses, creating passes they cannot stop. Against high-level opponents, I'll use the underhook to create back take opportunities when they try to turn away from the pressure—some of my best back takes come directly from underhook passing positions when opponents make the mistake of turning. The underhook gives you control of the fundamental exchange in passing—control their shoulder, control their ability to move, and you control the entire position.
-
-### Eddie Bravo
-
-Top underhook control is where a lot of traditional pressure passing meets innovative submission opportunities, especially in no-gi where the positions flow faster without gi grips slowing things down. When I'm on top with an underhook, I'm not just thinking about passing—I'm looking for darce chokes, anacondas, and kimura traps that open up when bottom players fight the pressure. The beauty of underhook control is it creates multiple threats: if they stay flat, you pass; if they try to come up, you catch darce or anaconda; if they try to turn away, you take the back. That's the dilemma approach applied to passing—every defensive choice they make gives you a different offensive opportunity. In the 10th Planet system, we integrate underhook passing with our leg attack game because once you pass half guard with an underhook, you're perfectly positioned to transition into leg entanglements if they try to recover guard. The underhook becomes the bridge between passing and leg locks, creating a complete offensive system. Don't just think of the underhook as a passing tool—think of it as the control position that opens up your entire submission game from top.
 
 </section>
 

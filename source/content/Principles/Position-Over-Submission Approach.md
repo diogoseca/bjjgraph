@@ -8,7 +8,7 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Positional hierarchy dictates that dominant positions create safer, higher-percentage submission opportunities than neutral or inferior positions
 - Each positional improvement compounds control advantages while reducing opponent's offensive options and escape pathways
 - Submission attempts should only be pursued when positional control is sufficiently established to prevent counters or escapes
@@ -183,9 +183,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Positional Assessment**: The ability to accurately evaluate current positional status relative to the hierarchical framework, recognizing which positions offer submission opportunities versus which require further advancement. This includes understanding relative position quality, control point security, and opponent's defensive capabilities from the current position.
 
 **Progressive Control Development**: Systematically establishing and improving control points through each positional layer, ensuring each advancement is solidified before attempting the next. This involves securing cross-faces, underhooks, weight distribution, and base elimination appropriate to each position in the hierarchy.
@@ -206,28 +206,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding the positional hierarchy is fundamental to the position-over-submission approach, as it provides the framework for determining which positions warrant submission attempts versus which require further advancement.
-- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy works synergistically with position-over-submission philosophy by identifying specific control mechanics that must be established before submissions become high-percentage options from each position.
-- **[[Risk Assessment]]** (Complementary): Risk assessment frameworks inform position-over-submission decisions by evaluating the potential consequences of submission attempts versus the security offered by positional advancement and consolidation.
-- **[[Energy Management System]]** (Extension): The position-first approach extends energy management principles by reducing wasted energy on premature submission attempts, instead channeling effort into efficient positional advancement that creates sustainable control.
-- **[[Escape Hierarchy]]** (Complementary): Understanding escape hierarchy complements position-over-submission by illustrating how defensive strategy also prioritizes positional recovery over offensive gambles when in inferior positions.
-- **[[Match Strategy]]** (Extension): Position-over-submission philosophy serves as a foundational element of broader match strategy, particularly in point-scoring competition formats where positional advancement directly contributes to winning while reducing counter-attack risks.
-- **[[Control Maintenance]]** (Complementary): Control maintenance principles support position-over-submission by emphasizing the importance of securing and retaining positional advantages before committing to offensive finishing attempts.
-- **[[Guard Passing]]** (Extension): Guard passing principles exemplify position-over-submission philosophy by prioritizing systematic pass completion and consolidation before attempting submissions from top positions.
-- **[[Submission Control Position]]** (Extension): Understanding submission control positions demonstrates how position-over-submission philosophy manifests in practice, defining the specific positional criteria that must be met before submission attempts become high-percentage.
-- **[[Defensive Strategy]]** (Complementary): Defensive strategy aligns with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure.
-- **[[Position Chains]]** (Extension): Position chains exemplify the systematic positional advancement that position-over-submission philosophy advocates, showing how positions link together to create pathways to dominance.
-- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance training methodologies support position-over-submission development by allowing practitioners to build positional control under gradually increasing resistance before adding submission finishing.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: From mount, the position-over-submission approach emphasizes securing high mount or technical mount control before attempting armbars or chokes, ensuring that submission attempts don't compromise the dominant position and allow opponent to escape back to guard.
 
 **Side Control**: In side control, practitioners focus on establishing cross-face, weight distribution, and base control before transitioning to mount or submissions, recognizing that premature submission attempts often result in opponent recovering guard or initiating scrambles.
@@ -262,9 +243,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position in the hierarchy**: Evaluate whether your current position is dominant (mount, back, side control), neutral (standing, closed guard), or inferior (bottom side control, bottom mount). This assessment determines whether offensive submissions are strategically viable or whether positional recovery is required.
 2. **Identify available positional advancements**: Determine which higher positions are accessible from your current position through passes, sweeps, or transitions. Catalog the realistic pathways to improved positions based on opponent's current defensive structure and your control points.
 3. **Evaluate control point security**: Assess whether you have established sufficient control points (cross-face, underhooks, hooks, weight distribution) to safely attempt submissions without risking position loss. If control is incomplete, prioritize establishing additional control points.
@@ -277,9 +258,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting submissions from neutral or inferior positions without establishing dominant control
   - **Consequence**: Premature submission attempts from poor positions often result in opponent escaping, countering, or sweeping, negating previous work and potentially reversing positional advantage entirely
   - **Correction**: Strictly adhere to the positional hierarchy, refusing submission attempts until reaching dominant positions like mount, back control, or fully secured side control where positional loss risk is minimized
@@ -305,9 +286,9 @@ The Position Over Submission philosophy extends beyond individual technique exec
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Submission Restrictions** (Focus: Develops positional awareness, control mechanics, and strategic patience while removing the distraction of submission hunting that often undermines positional development)
 Practice rounds where submission attempts are prohibited or heavily restricted, forcing practitioners to focus exclusively on positional advancement, control establishment, and hierarchical progression. Partners start from various positions and work to improve position without finishing.
 
@@ -330,9 +311,9 @@ Training exercises where practitioners must maintain dominant positions for spec
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Demonstrates basic understanding of positional hierarchy but frequently abandons positions to chase submissions
 - Can maintain simple dominant positions like mount for short periods when opponent provides minimal resistance
@@ -372,10 +353,26 @@ Training exercises where practitioners must maintain dominant positions for spec
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding the positional hierarchy is fundamental to the position-over-submission approach, as it provides the framework for determining which positions warrant submission attempts versus which require further advancement.
+- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy works synergistically with position-over-submission philosophy by identifying specific control mechanics that must be established before submissions become high-percentage options from each position.
+- **[[Risk Assessment]]** (Complementary): Risk assessment frameworks inform position-over-submission decisions by evaluating the potential consequences of submission attempts versus the security offered by positional advancement and consolidation.
+- **[[Energy Management System]]** (Extension): The position-first approach extends energy management principles by reducing wasted energy on premature submission attempts, instead channeling effort into efficient positional advancement that creates sustainable control.
+- **[[Escape Hierarchy]]** (Complementary): Understanding escape hierarchy complements position-over-submission by illustrating how defensive strategy also prioritizes positional recovery over offensive gambles when in inferior positions.
+- **[[Match Strategy]]** (Extension): Position-over-submission philosophy serves as a foundational element of broader match strategy, particularly in point-scoring competition formats where positional advancement directly contributes to winning while reducing counter-attack risks.
+- **[[Control Maintenance]]** (Complementary): Control maintenance principles support position-over-submission by emphasizing the importance of securing and retaining positional advantages before committing to offensive finishing attempts.
+- **[[Guard Passing]]** (Extension): Guard passing principles exemplify position-over-submission philosophy by prioritizing systematic pass completion and consolidation before attempting submissions from top positions.
+- **[[Submission Control Position]]** (Extension): Understanding submission control positions demonstrates how position-over-submission philosophy manifests in practice, defining the specific positional criteria that must be met before submission attempts become high-percentage.
+- **[[Defensive Strategy]]** (Complementary): Defensive strategy aligns with position-over-submission by prioritizing positional recovery and escape over offensive actions when in inferior positions, maintaining strategic discipline under pressure.
+- **[[Position Chains]]** (Extension): Position chains exemplify the systematic positional advancement that position-over-submission philosophy advocates, showing how positions link together to create pathways to dominance.
+- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance training methodologies support position-over-submission development by allowing practitioners to build positional control under gradually increasing resistance before adding submission finishing.
+
+
+### Related Content
 - [[Positional Hierarchy]] (Principle) - Foundational framework that defines which positions are superior and should be prioritized in the position-over-submission approach
 - [[Control Point Hierarchy]] (Principle) - Identifies specific control mechanisms that must be established at each position before submissions become high-percentage options
 - [[Mount]] (Position) - Exemplifies a dominant position where position-over-submission philosophy supports securing high mount before attempting submissions
@@ -389,15 +386,6 @@ Training exercises where practitioners must maintain dominant positions for spec
 - [[Danaher Leg Lock System]] (System) - Advanced systematic approach that demonstrates position-first principles applied to leg entanglement positions before finishing attacks
 - [[Roger Gracie Fundamental System]] (System) - Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The position-over-submission approach represents not merely a tactical preference but a fundamental recognition of the hierarchical nature of control in grappling. Every position exists within a spectrum of control quality, and submissions attempted from positions of insufficient control carry prohibitive risks of position loss that negate accumulated advantages. The systematic practitioner understands that positional advancement creates compound control advantages where each improvement restricts opponent's defensive options while expanding your offensive arsenal. This is not conservative strategy but rather efficient strategy—recognizing that the path to reliable finishing proceeds through positional dominance, not premature submission gambling. The position-first philosophy teaches practitioners to view each exchange as a campaign of incremental advantage accumulation rather than isolated submission opportunities, developing the strategic patience and positional sophistication that separates elite grapplers from submission hunters.
-- **Gordon Ryan**: In competition, the position-over-submission mindset is what separates consistent winners from athletes who occasionally pull off spectacular finishes but lose matches they should dominate. Every time you chase a low-percentage submission from mediocre position, you're gambling away guaranteed advantages for uncertain payoffs. I've built my competition success on systematically advancing through positions, accumulating points, and only committing to submissions when my control is so complete that failure is nearly impossible. This approach creates psychological pressure on opponents who watch their position continuously degrade while their options disappear. The position-first strategy also provides insurance—if I attempt a submission and it fails, I haven't sacrificed position to try it, so I maintain dominance and simply transition to the next attack. Smart competitors recognize that positional points and positional dominance win matches more reliably than submission hunting, and they build their game accordingly.
-- **Eddie Bravo**: The position-before-submission philosophy definitely has merit, especially in traditional gi competition where points and position are everything, but I think it's important to recognize when submission opportunities justify breaking this rule. In 10th Planet, we've developed systems like the rubber guard and twister side control where the position and submission are integrated—you're not really choosing one over the other because establishing the position creates the submission threat simultaneously. That said, I completely agree that trying to finish submissions from bad positions is a recipe for getting smashed, and developing positional control creates way more finishing opportunities than scrambling for submissions. The key is understanding when your system has created a position where the submission is the next logical step versus when you're forcing something that isn't there. Position-first thinking keeps you safe and effective, but don't be so rigid that you miss unconventional opportunities when they present themselves.
 
 </section>
 

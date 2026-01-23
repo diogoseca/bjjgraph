@@ -8,7 +8,7 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Start in electric chair bottom position with all grips established. Bottom pract
 
 **Average Time in Position**: 30-90 seconds before sweep or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The electric chair represents a sophisticated application of leverage principles within the half guard system, combining leg entanglement mechanics with strategic grip configurations to create simultaneous threats across multiple vectors. The position's effectiveness derives from its ability to compromise the opponent's base through lockdown control while simultaneously attacking their structural integrity via the splitting mechanism. What makes this position particularly valuable from a systematic perspective is its integration of position control with submission threat—the opponent cannot simply defend one aspect without exposing themselves to the other. The biomechanical principle at work involves creating perpendicular force on the trapped leg while maintaining rotational control through the underhook, forcing the opponent into increasingly disadvantageous positions regardless of their defensive choice. Practitioners must understand that the lockdown itself is not merely a holding mechanism but an active control system that generates offensive pressure when combined with proper hip extension and grip sequencing.
-
-### Gordon Ryan
-
-In competition, electric chair bottom is one of the highest percentage attacking positions from bottom half guard when executed with proper timing and control. The key to making this work at the highest levels is understanding that it's not just about getting to the position—it's about controlling the grips and maintaining constant pressure so your opponent never gets comfortable. I've finished multiple high-level black belts with the electric chair submission because once you have the position locked in correctly, they're basically choosing between getting swept or getting submitted. The split they face is real: defend the sweep and get your leg torn apart, or defend the submission and get reversed. What separates advanced practitioners is the ability to maintain lockdown control while seamlessly transitioning between sweep and submission threats based on the opponent's defensive reactions. In my experience, the most effective approach is to threaten the submission first to get their weight moving forward, then capitalize on that reaction with the sweep. The position also sets up the entire truck game beautifully when opponents try to windshield wiper their leg free.
-
-### Eddie Bravo
-
-The electric chair is the crown jewel of the lockdown system and represents everything we're about at 10th Planet—taking traditionally defensive positions and turning them into high-percentage attacking sequences. This isn't just a sweep or just a submission; it's a complete position that forces your opponent into a no-win dilemma. When you lock in that electric chair correctly with the deep underhook, the lockdown cranked tight, and that ankle controlled perfectly, your opponent is basically screwed either way they move. The beauty of the electric chair is how it flows into the entire rubber guard and truck system—if they defend the chair, you can transition to old school sweep, if they try to extract their leg you go to the truck and hunt the twister. We've built an entire systematic approach around this position because it exemplifies the 10th Planet philosophy: constant pressure, multiple threats, and making your opponent choose which way they want to lose. What most people miss is that the lockdown has to be active, not passive—you're constantly extending through it, creating that pressure that makes the electric chair submission a legitimate threat while setting up all your sweeps and transitions.
 
 </section>
 

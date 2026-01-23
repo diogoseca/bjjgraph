@@ -8,7 +8,7 @@ description: "Master armbar escape principles in BJJ. Learn prevention strategie
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Protect the elbow at all costs as the primary target of armbar mechanics - once elbow is isolated and extended, escape probability drops dramatically
 - Maintain postural awareness in all positions recognizing when armbar threats become elevated based on arm positioning and opponent's control points
 - Keep elbows close to body (defensive posture) whenever possible, particularly in bottom positions and when passing guard
@@ -179,9 +179,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Arm Connection Mechanics**: The ability to quickly connect your free hand to your threatened wrist or forearm, creating a unified structural system that significantly increases the force required for opponent to extend your arm. This connection can take multiple forms including grabbing your own wrist, gripping your gi sleeve, or interlacing fingers, each providing different levels of structural integrity depending on the specific armbar configuration and your flexibility.
 
 **Elbow Retraction Timing**: Understanding the precise windows during armbar setup where pulling your elbow back toward your body remains biomechanically possible, and executing this retraction explosively before opponent consolidates hip control and leg positioning. This skill requires recognizing the transitional moments when opponent adjusts grips or repositions legs, creating brief opportunities for arm recovery.
@@ -202,26 +202,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Escape Fundamentals]]** (Prerequisite): Armbar escape builds upon foundational escape principles including creating space, recognizing escape windows, and understanding defensive priorities that apply across all submission defenses
-- **[[Submission Defense]]** (Extension): Armbar escape represents a specialized application of broader submission defense concepts, applying general defensive principles to the specific biomechanics and positional contexts of armbar attacks
-- **[[Frame Creation]]** (Complementary): Effective framing prevents the initial arm isolation that enables armbar setups, making frame creation skills directly complementary to armbar escape protocols and often preventing the need for escape entirely
-- **[[Hip Escape Mechanics]]** (Complementary): Hip movement skills support several armbar escape techniques including creating angles for stacking, generating space for arm retraction, and facilitating rotation during hitchhiker-style escapes
-- **[[Defensive Posture]]** (Prerequisite): Maintaining proper defensive posture with protected arm positioning represents the primary prevention layer that reduces armbar vulnerability across all positions before specific escape techniques become necessary
-- **[[Control Point Hierarchy]]** (Complementary): Understanding which control points opponent must establish for successful armbar completion allows strategic defensive focus on denying critical controls rather than defending all positions equally
-- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping movements create the foundational body mechanics for several armbar escapes including stacking variations and creating angles for arm recovery
-- **[[Creating Space]]** (Complementary): Space creation principles enable the critical first step in many armbar escapes where defensive space must be generated before arm can be extracted from compromised position
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical leverage, joint mechanics, and force vectors is essential for recognizing when escapes are possible versus when structural disadvantage makes resistance futile
-- **[[Defensive Strategy]]** (Extension): Armbar escape exemplifies broader defensive strategy principles including staged defense, preventive positioning, and risk management that apply across all defensive scenarios
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Armbar escape principles apply when bottom player faces high-percentage armbar threats from mounted opponent, requiring prevention through keeping elbows tight, defensive response when opponent traps arm, and emergency stacking or hitchhiker escapes when armbar develops
 
 **Closed Guard**: Defending armbars from within opponent's guard requires recognizing when posture is broken and arm becomes isolated, immediately connecting hands or posturing up explosively, and avoiding common arm exposure patterns that occur during guard opening attempts
@@ -256,9 +239,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current stage of armbar development and available defensive options**: Immediately categorize the threat level: prevention stage (arm not yet isolated), early defense stage (arm being isolated but not extended), mid-stage (partial extension with incomplete leg control), or emergency stage (full extension with complete leg control)
 2. **If prevention stage, maintain protective arm positioning and posture**: Keep elbows tight to body, maintain awareness of arm exposure risks in current position, use posting and framing with bent arms rather than extended arms, and avoid common arm-trapping scenarios for your current position
 3. **If early defense stage with arm being isolated, execute immediate escape response**: Connect free hand to threatened wrist immediately creating structural reinforcement, simultaneously pull elbow back toward body using connected hands for increased force, and adjust body angle to reduce opponent's leverage on the trapped limb
@@ -271,9 +254,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting late-stage escapes against properly executed armbars with full control
   - **Consequence**: Wasted energy on biomechanically impossible escapes, increased injury risk from extended resistance against proper technique, and development of false confidence in escape abilities that only work against flawed attacks
   - **Correction**: Develop realistic understanding of escape windows through progressive resistance training, recognize when tap is necessary to preserve joint health, focus defensive training on earlier stages where mechanical advantage favors defender
@@ -299,9 +282,9 @@ Armbar Escape represents the systematic approach to preventing, defending agains
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Armbar Defense** (Focus: Developing realistic assessment of escape probability, building technical proficiency at each defensive stage, and understanding the difference between escapes that work against errors versus those that work against proper technique)
 Training methodology where partner applies armbar with incrementally increasing tightness and control quality, allowing practitioner to develop realistic understanding of escape windows at each stage. Begin with loose control where multiple escapes work, progress to competition-tight armbars where only optimal timing and technique succeed, building accurate calibration of what is escapable versus what requires tap.
 
@@ -324,9 +307,9 @@ Training armbar attacks and defenses simultaneously, using attacking experience 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes armbar threat only when arm is already significantly extended and submission is nearly completed
 - Attempts to use pure strength to pull arm back without understanding proper hand connection or stacking mechanics
@@ -366,10 +349,24 @@ Training armbar attacks and defenses simultaneously, using attacking experience 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Escape Fundamentals]]** (Prerequisite): Armbar escape builds upon foundational escape principles including creating space, recognizing escape windows, and understanding defensive priorities that apply across all submission defenses
+- **[[Submission Defense]]** (Extension): Armbar escape represents a specialized application of broader submission defense concepts, applying general defensive principles to the specific biomechanics and positional contexts of armbar attacks
+- **[[Frame Creation]]** (Complementary): Effective framing prevents the initial arm isolation that enables armbar setups, making frame creation skills directly complementary to armbar escape protocols and often preventing the need for escape entirely
+- **[[Hip Escape Mechanics]]** (Complementary): Hip movement skills support several armbar escape techniques including creating angles for stacking, generating space for arm retraction, and facilitating rotation during hitchhiker-style escapes
+- **[[Defensive Posture]]** (Prerequisite): Maintaining proper defensive posture with protected arm positioning represents the primary prevention layer that reduces armbar vulnerability across all positions before specific escape techniques become necessary
+- **[[Control Point Hierarchy]]** (Complementary): Understanding which control points opponent must establish for successful armbar completion allows strategic defensive focus on denying critical controls rather than defending all positions equally
+- **[[Bridge and Shrimp]]** (Complementary): Bridging and shrimping movements create the foundational body mechanics for several armbar escapes including stacking variations and creating angles for arm recovery
+- **[[Creating Space]]** (Complementary): Space creation principles enable the critical first step in many armbar escapes where defensive space must be generated before arm can be extracted from compromised position
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical leverage, joint mechanics, and force vectors is essential for recognizing when escapes are possible versus when structural disadvantage makes resistance futile
+- **[[Defensive Strategy]]** (Extension): Armbar escape exemplifies broader defensive strategy principles including staged defense, preventive positioning, and risk management that apply across all defensive scenarios
+
+
+### Related Content
 - [[Armbar Control]] (Position) - Direct opposing position - understanding armbar control mechanics from attacker perspective informs optimal defensive strategies
 - [[Armbar from Mount]] (Submission) - Most common armbar variation requiring specific defensive protocols for mount-based attacks
 - [[Armbar from Guard]] (Submission) - Guard-based armbar attacks create unique defensive challenges requiring different escape mechanics than top position armbars
@@ -383,15 +380,6 @@ Training armbar attacks and defenses simultaneously, using attacking experience 
 - [[Hip Escape Mechanics]] (Principle) - Hip movement skills support multiple armbar escape techniques including creating angles for stacking and rotation
 - [[S Mount]] (Position) - Optimal armbar attacking position requiring emergency-level defensive responses and realistic assessment of escape probability
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches armbar escape as systematic defensive hierarchy beginning with prevention through proper arm positioning in all circumstances, progressing through staged defenses at each phase of armbar development. Emphasizes understanding the biomechanical reality that once elbow is fully isolated and extended across opponent's hips with legs controlling head and shoulder, escape probability approaches zero for equal-skill practitioners - therefore, defensive focus must be on earlier stages where mechanical advantage favors defender. The concept of 'connected hands' where your free hand grips your threatened wrist creates additional structural integrity that must be broken before extension occurs, buying critical time for escape attempts. Systematizes escape options based on opponent's leg positioning and degree of arm extension: stack position when legs are not yet crossed, hitchhiker escape when one leg is over face, hand-walking when fully extended but before full extension. Understanding these progressive options and their specific applicable windows is essential for realistic armbar defense. The highest level of armbar defense is preventive - maintaining arm positioning discipline across all positions such that isolation opportunities never arise, which requires systematic positional understanding and consistent technical execution under pressure.
-- **Gordon Ryan**: Views armbar defense primarily through preventive lens based on competition experience where allowing arm isolation against elite opponents essentially guarantees tap. Focuses defensive training on maintaining arm safety during all offensive sequences - passing guard with arms protected, defending mount without arm exposure, escaping positions without extending arms vulnerably. When armbar setup does occur, emphasizes explosive immediate response rather than gradual progressive defense - the moment you feel arm isolation beginning, commit fully to escape before position consolidates. Competition reality shows that hesitation or half-committed defense against high-level armbars is futile; either prevent the setup entirely or escape explosively during early window. Emphasizes practicing armbar escapes against progressively tighter control until realistic understanding of escape windows is developed - many practitioners have false confidence in escapes that only work against loose, poorly controlled armbars. Against world-class opposition, armbar escape essentially requires preventing the attack through superior positional discipline, as technical escape probability against proper execution is minimal. Training methodology should reflect this reality by emphasizing prevention over escape practice, though understanding escape mechanics remains important for recognizing defensive windows and capitalizing on opponent errors.
-- **Eddie Bravo**: Has developed specialized armbar defense protocols within his system emphasizing creativity and non-traditional escape mechanics when conventional defenses fail. When teaching armbar escape, emphasizes importance of maintaining 'spiral energy' where your body constantly creates rotation pressure making it difficult for opponent to achieve static control necessary for full extension. Advocates understanding armbar escape as dynamic process rather than static technique - continuous movement, grip fighting, and positional adjustment rather than single escape attempt. Particularly emphasizes defending armbars from triangle positions and rubber guard contexts where arm exposure is strategically created but must be managed carefully. Encourages practitioners to develop comfort defending partially extended armbars through progressive training, building confidence and technical skill in later-stage escapes that many systems neglect. The 10th Planet approach includes specific escape protocols for various armbar setups including flying armbars, rolling armbars, and inverted armbars that require specialized defensive knowledge. Believes in training both prevention and escape equally, as competition reality sometimes forces defensive situations despite best preventive efforts, requiring complete defensive skill set that works across all stages of armbar development and against creative attacking variations.
 
 </section>
 

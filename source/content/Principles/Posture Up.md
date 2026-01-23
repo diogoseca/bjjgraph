@@ -8,7 +8,7 @@ description: "Master postural recovery in BJJ guard positions. Learn systematic 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Maintain vertical spinal alignment with chest elevated away from opponent's hips
 - Position head upright and back to create maximum distance from opponent's attacking structure
 - Establish strong base before attempting posture recovery to prevent sweep vulnerability
@@ -178,9 +178,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Spinal Extension Mechanics**: The ability to actively extend the spine through engagement of erector spinae muscles and core stabilizers while maintaining neutral cervical alignment. This requires coordinated activation of posterior chain muscles to resist opponent's forward-pulling pressure while avoiding excessive hyperextension that compromises structural integrity.
 
 **Grip Management and Breaking**: Systematic approach to identifying, controlling, and breaking grips that enable opponent to break posture, including collar grips, sleeve grips, and overhook controls. This involves both preemptive grip denial before posture is broken and reactive grip breaking when recovering from compromised posture.
@@ -201,26 +201,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Base Maintenance]]** (Prerequisite): Stable base must be established before attempting posture recovery, as posturing without proper base creates immediate sweep vulnerability. Base maintenance provides the foundation that supports postural extension.
-- **[[Posture Breaking]]** (Complementary): Understanding how opponent breaks posture informs defensive posture recovery strategies. Defensive posture up techniques directly counter offensive posture breaking mechanics, creating complementary relationship.
-- **[[Frame Creation]]** (Complementary): Frames support posture recovery by creating structural barriers that prevent opponent from pulling practitioner forward. Effective framing enables safer posture recovery by managing opponent's breaking pressure.
-- **[[Grip Fighting]]** (Prerequisite): Successful grip fighting to deny or break opponent's posture-breaking grips is essential prerequisite for posture recovery. Without grip control, opponent can continuously re-break posture regardless of recovery efforts.
-- **[[Guard Passing]]** (Extension): Posture recovery serves as foundational element that enables effective guard passing. Once posture is established, practitioner can implement specific passing strategies that require upright structure.
-- **[[Distance Creation]]** (Complementary): Creating distance between hips and opponent's center of mass supports posture recovery by reducing opponent's mechanical advantage for breaking posture. Distance management and posture work synergistically.
-- **[[Defensive Frame]]** (Complementary): Defensive frames protect postural structure by creating barriers between practitioner and opponent's breaking controls. Frames and posture work together to maintain defensive integrity.
-- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution through base points enables stable postural recovery without creating sweep vulnerabilities. Understanding weight distribution is essential for safe posture management.
-- **[[Head Control]]** (Extension): Managing head position is critical component of posture recovery, as head placement determines upper body alignment and submission vulnerability during posture attempts.
-- **[[Defensive Strategy]]** (Extension): Posture recovery is fundamental defensive strategy in guard positions that prevents submissions and enables counter-offense through passing attempts.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Fundamental application where practitioner must recover upright posture against opponent pulling head and shoulders down with collar grips and leg pressure. Requires systematic grip breaking and progressive extension while preventing opponent from re-establishing breaking pressure.
 
 **Spider Guard**: Opponent uses sleeve grips and foot placement on biceps to extend practitioner's arms and break posture forward. Recovery requires grip stripping or repositioning combined with core engagement to resist extension and recover vertical alignment.
@@ -255,9 +238,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify posture-breaking controls**: Assess which grips, hooks, and structural controls opponent is using to break or prevent posture. Prioritize addressing controls that create immediate submission threat or enable powerful sweeps.
 2. **Establish or verify base stability**: Before attempting posture recovery, ensure base is stable with appropriate foot placement and weight distribution. If base is compromised, address base first before recovering posture to prevent sweep vulnerability.
 3. **Address primary posture-breaking grip**: Target the most threatening grip for breaking or controlling, typically collar grip in gi or head control in no-gi. Use grip breaking techniques or grip control to reduce opponent's breaking power.
@@ -270,9 +253,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting to recover posture through explosive pulling without addressing grips
   - **Consequence**: Opponent uses grips to re-break posture immediately, creating exhausting cycle of recovery and re-breaking that drains energy without achieving sustainable posture.
   - **Correction**: Systematically address posture-breaking grips through breaking or controlling before attempting extension. Use progressive recovery that builds sustainable structure rather than relying on explosive force.
@@ -298,9 +281,9 @@ Posture Up represents the fundamental skill of establishing and recovering verti
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring from Broken Posture** (Focus: Develops ability to recover posture under realistic conditions and builds understanding of systematic approach to addressing grips, establishing base, and progressive extension.)
 Start in closed guard or other guard position with posture already broken and practice systematic recovery against progressive resistance. Partner applies realistic posture-breaking pressure while practitioner works through recovery sequence.
 
@@ -323,9 +306,9 @@ Chain posture recovery directly into specific passing attempts, treating posture
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes when posture is broken and attempts to recover rather than accepting compromised position
 - Can identify major posture-breaking grips and understands they must be addressed
@@ -363,10 +346,24 @@ Chain posture recovery directly into specific passing attempts, treating posture
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Base Maintenance]]** (Prerequisite): Stable base must be established before attempting posture recovery, as posturing without proper base creates immediate sweep vulnerability. Base maintenance provides the foundation that supports postural extension.
+- **[[Posture Breaking]]** (Complementary): Understanding how opponent breaks posture informs defensive posture recovery strategies. Defensive posture up techniques directly counter offensive posture breaking mechanics, creating complementary relationship.
+- **[[Frame Creation]]** (Complementary): Frames support posture recovery by creating structural barriers that prevent opponent from pulling practitioner forward. Effective framing enables safer posture recovery by managing opponent's breaking pressure.
+- **[[Grip Fighting]]** (Prerequisite): Successful grip fighting to deny or break opponent's posture-breaking grips is essential prerequisite for posture recovery. Without grip control, opponent can continuously re-break posture regardless of recovery efforts.
+- **[[Guard Passing]]** (Extension): Posture recovery serves as foundational element that enables effective guard passing. Once posture is established, practitioner can implement specific passing strategies that require upright structure.
+- **[[Distance Creation]]** (Complementary): Creating distance between hips and opponent's center of mass supports posture recovery by reducing opponent's mechanical advantage for breaking posture. Distance management and posture work synergistically.
+- **[[Defensive Frame]]** (Complementary): Defensive frames protect postural structure by creating barriers between practitioner and opponent's breaking controls. Frames and posture work together to maintain defensive integrity.
+- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution through base points enables stable postural recovery without creating sweep vulnerabilities. Understanding weight distribution is essential for safe posture management.
+- **[[Head Control]]** (Extension): Managing head position is critical component of posture recovery, as head placement determines upper body alignment and submission vulnerability during posture attempts.
+- **[[Defensive Strategy]]** (Extension): Posture recovery is fundamental defensive strategy in guard positions that prevents submissions and enables counter-offense through passing attempts.
+
+
+### Related Content
 - [[Posture Breaking]] (Principle) - Direct counter-concept - understanding offensive posture breaking informs defensive posture recovery strategies
 - [[Base Maintenance]] (Principle) - Prerequisite concept - stable base must be established before posture recovery to prevent sweep vulnerability
 - [[Closed Guard]] (Position) - Primary application position - fundamental context for developing posture recovery skills
@@ -380,15 +377,6 @@ Chain posture recovery directly into specific passing attempts, treating posture
 - [[Posture Recovery]] (Transition) - Direct technical application - specific transition that implements posture up concept
 - [[Half Guard]] (Position) - Application context - position often requiring adaptive posture strategies rather than conventional upright posture
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Posture recovery must be understood as a systematic sequence rather than a single explosive movement. The fundamental error most practitioners make is attempting to force posture through strength alone without addressing the underlying control mechanisms that enable the opponent to break structure. Effective posture recovery requires establishing prerequisite conditions in a specific order: first, you must control or break the grips that give your opponent mechanical advantage for breaking your posture; second, you must establish a stable base that can support vertical extension without creating sweep vulnerability; third, you must create initial space between your torso and the opponent's hips to reduce their leverage; and only then can you safely extend your spine to recover full posture. This is what I call the hierarchy of postural prerequisites. Each layer must be addressed systematically before progressing to the next. Furthermore, practitioners must understand that posture is not a static achievement but a continuous active process. Once recovered, posture must be maintained through ongoing structural awareness, grip management, and base adjustment. The moment you treat posture as a completed task rather than an ongoing responsibility, your opponent will re-break your structure and the cycle begins again. Finally, recognize that posture recovery serves a tactical purpose within the broader context of guard passing. Posture is not an end in itself but rather the foundation that enables specific passing strategies. Therefore, the moment posture is recovered, it must be immediately integrated with forward pressure and passing attempts rather than maintained in isolation.
-- **Gordon Ryan**: In competition against elite-level opponents, the ability to maintain and recover posture often determines whether you can pass guard or remain stuck in defensive positions for extended periods. What I've learned through championship-level competition is that posture recovery is fundamentally about preemptive grip denial rather than reactive grip breaking. The highest-percentage approach is to fight proactively to prevent your opponent from establishing the grips that enable posture breaking in the first place. Once strong posture-breaking controls are established, recovery becomes exponentially more difficult and energy-intensive. This is why I emphasize what I call aggressive posture maintenance—fighting continuously to maintain vertical structure rather than accepting broken posture and relying on recovery ability. When recovery is necessary, the critical factor is recognizing which grip or control poses the most immediate threat and addressing that first rather than trying to address all controls simultaneously. In closed guard, this is typically the collar grip or head control; in spider guard, it's the sleeve grip combined with foot placement on the bicep. By prioritizing the most threatening control, you create the possibility of recovering posture before your opponent can capitalize on the broken structure. Additionally, I've found that integrating posture recovery with immediate passing attempts is far more effective than treating posture as a separate preliminary phase. The moment I begin recovering posture, I'm already thinking about which passing sequence I'll implement once vertical structure is established, and this integration makes the entire process more efficient and purposeful.
-- **Eddie Bravo**: Having developed extensive posture-breaking systems within the rubber guard framework, I approach posture recovery from the perspective of understanding exactly how effective posture-breaking mechanics work, which informs better defensive strategies. The rubber guard and mission control are specifically designed to create maximum posture-breaking leverage, so when teaching posture recovery, I emphasize recognizing when conventional upright posture simply isn't achievable against certain controls and adapting strategy accordingly. This is particularly important in no-gi contexts where the absence of gi grips changes the entire dynamic of posture management. In no-gi, posture breaking often relies on head control, overhooks, and body positioning rather than collar and sleeve grips, which means recovery strategies must be adapted to address these specific controls. One key insight from the 10th Planet system is recognizing when to abandon conventional posture recovery and instead transition to different passing approaches or positions where better posture can be established. Sometimes the most efficient path forward isn't forcing posture in your current position but rather changing positions entirely to where posture is more readily achievable. Additionally, I teach adaptive posture strategies that recognize you don't always need full vertical extension to advance your passing objectives. In certain positions, a modified posture that maintains defensive integrity while creating passing opportunities can be more practical than insisting on conventional upright posture. The key is understanding position-specific requirements and being flexible in your approach rather than rigidly pursuing one postural ideal across all contexts.
 
 </section>
 

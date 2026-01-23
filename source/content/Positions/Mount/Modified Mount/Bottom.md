@@ -8,7 +8,7 @@ description: "Defend Modified Mount position effectively. Learn escape sequences
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 **Average Time in Position**: 30-60 seconds before escape or submission at intermediate level
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Modified Mount represents a fascinating study in biomechanical trade-offs where stability is purchased at the cost of complete control. The posted leg creates a structural anchor that makes the position highly resistant to bridging attacks, but this same extension creates a directional vulnerability that intelligent bottom practitioners can exploit. When defending this position, your primary focus must be identifying which leg is posted and committing your escape efforts toward that direction - attempting to escape against the posted leg's stability is biomechanically futile. The position's greatest danger lies in its natural funnel toward armbar mechanics, as the asymmetric structure already positions the top practitioner's body for the armbar swing-over. Therefore, your defensive frames must prioritize protecting the near-side arm while simultaneously creating the hip space necessary for escape. Understand that Modified Mount often appears during transitions, which means the control may be less consolidated than standard mount - this transitional nature creates a time-sensitive escape window that you must recognize and exploit immediately.
-
-### Gordon Ryan
-
-In my competition experience, Modified Mount is often a transition position rather than a destination, which means there's usually a window to escape if you're paying attention and move decisively. The key insight is recognizing which side they've posted - that's your escape direction, period. I see people waste energy trying to escape the wrong way, pushing against their opponent's strongest structure. When someone puts me in Modified Mount, I'm immediately thinking about attacking that posted leg - can I capture it for half guard? Can I time my hip escape as they adjust their weight? The armbar threat is real here, so I'm keeping my near arm tight and framing on their hips, not reaching up. If they start transitioning to S-mount or armbar position, sometimes the best defense is actually accepting the turtle position temporarily rather than getting caught in the armbar. Train this position specifically because the escape mechanics are different enough from standard mount that they require dedicated practice.
-
-### Eddie Bravo
-
-Modified Mount creates some interesting opportunities that people miss because they're trained to escape mount one way. When someone posts that leg out, they're creating a whole different dynamic - you can attack that leg for lockdown entries, use it as a landmark for directional escapes, or even threaten sweeps if they overcommit. The 10th Planet approach emphasizes the lockdown recovery from here - if you can get that posted leg into your lockdown, you've completely changed the position's power dynamic. Don't sleep on the granby roll option either when they start transitioning to S-mount or armbar - rolling through can get you to turtle where you have way more options than getting caught in the armbar. The mental game is huge here because Modified Mount feels less suffocating than standard mount, which can actually help you stay calm and execute technically. Use that psychological advantage to work your escapes systematically.
 
 </section>
 

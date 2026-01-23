@@ -8,7 +8,7 @@ description: "Master mount top position in BJJ. Complete guide covering weight d
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -483,24 +483,6 @@ Start in mount with top having goal of submission and bottom having goal of guar
 
 **Average Time in Position**: 45-90 seconds for skilled practitioners before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Mount control represents the culmination of positional dominance where gravity itself becomes weapon through proper weight distribution mechanics. The fundamental error I observe in students is treating mount as static position rather than dynamic platform for systematic pressure application and position advancement. Effective mount control requires understanding of three-dimensional weight distribution across multiple contact points: chest pressure that pins opponent's torso, hip drive that prevents space creation, and base width that resists angular momentum from bridge attempts. The submission arsenal from mount should be understood as interconnected system where each attack creates defensive reactions that enable subsequent attacks. When opponent defends armbar by pulling elbow tight to ribs, this defensive motion creates vulnerability to Americana attack on same arm. When opponent defends Americana by keeping arm extended, this creates armbar vulnerability. The systematic approach treats these not as separate techniques but as nodes in decision tree where opponent's choices determine which pathway leads to submission. Position advancement from mount follows similar systematic progression through variations that accumulate pressure: low mount establishes initial control, high mount increases submission accessibility, technical mount provides armbar platform, and S-mount creates finishing mechanics.
-
-### Gordon Ryan
-
-Mount is where I finish most of my matches because it combines complete control with multiple submission pathways that don't require explosive athleticism. The key understanding that took my mount game to elite level is recognizing that mount maintenance and submission setup are the same activity - you're not maintaining position and then attacking, you're attacking in ways that make escape impossible. When I advance to high mount, I'm simultaneously creating submission threat and eliminating hip escape angles. My weight distribution shifts dynamically based on opponent's escape attempts, but the fundamental principle is keeping hips heavy and driving forward while chest stays light enough to allow submission transitions. Against world-class opponents, you can't muscle mount position - they're too skilled at timing escapes with your commitment to attacks. Instead, I use what I call 'submission feints' where I threaten armbar to make opponent defend, which prevents their escape timing and opens the actual submission I'm setting up. The cross collar choke from mount is criminally underutilized in no-gi contexts because people don't realize you can set it up using your own lapel or opponent's collar in ways that work without traditional gi grips. My competition strategy from mount is advancing to high mount within 10 seconds, threatening first submission within 15 seconds, and finishing or taking back within 30 seconds.
-
-### Eddie Bravo
-
-Mount control in 10th Planet system differs from traditional approaches because we emphasize dynamic movement and unorthodox angles rather than static pressure. When I have mount, especially in no-gi contexts, I'm constantly shifting between variations - low mount to high mount to technical mount - creating movement that makes opponent react defensively, which opens submission windows. The traditional mount holding approach where you just sit there with grapevines and wait for opportunities is boring and ineffective against skilled opponents who know systematic escape sequences. Instead, I teach what we call 'submission storm' where you're flowing between armbar setups, triangle attempts, and even inverted attacks that opponent doesn't anticipate. The mounted gogoplata is perfect example of 10th Planet innovation - nobody expects shin-to-throat choke from mount, so defensive preparation is minimal. Mount position also serves as platform for our twister setups when opponent turns to avoid submissions, we follow to truck position which creates twister pathway. The key philosophical difference is treating mount not as endpoint but as midpoint in offensive sequence that continues through back control or submission. If you maintain mount for 30 seconds without submission or advancement, you're doing it wrong because skilled opponent is using that time to implement their escape protocols.
 
 </section>
 

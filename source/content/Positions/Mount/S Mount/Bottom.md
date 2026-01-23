@@ -8,7 +8,7 @@ description: "Defend against S Mount attacks in BJJ. Critical escape techniques,
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 **Average Time in Position**: 15-45 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-S Mount bottom is a position where systematic defensive mechanics are absolutely critical for survival. The mechanical disadvantage is severe - the opponent's perpendicular body angle creates optimal leverage for the armbar while your defensive structure is compromised by the leg over your head. The single most important defensive principle is maintaining arm flexion. A bent arm is exponentially more difficult to attack than an extended arm because the mechanical advantage shifts dramatically once the elbow angle exceeds 90 degrees. Your defensive priority sequence must be: protect the arm first, control the opponent's near leg second, create frames for space third, and only then attempt escape. Many practitioners make the fatal error of attempting escape before establishing proper defensive structure, which invariably results in submission. Train your defensive posture until it becomes automatic - collar grip, bent arm, leg control - then practice escape mechanics from this protected position.
-
-### Gordon Ryan
-
-From S Mount bottom, you're in serious trouble and need to act fast. The position is heavily submission-oriented and your opponent is likely going for the armbar immediately. In competition, I've seen countless matches end from S Mount because people panic and make the mistake of extending their arm trying to pull it free. Never do this. Grip your own collar immediately with your trapped hand and use your free hand to control their near leg. If they step that leg over your head completely, you're basically done unless you move right away. The hip escape is your best friend here - you need to create angle and space to get back to half guard. Don't waste energy on big explosive movements unless you have a clear path to escape. In my experience, the guys who survive S Mount are the ones who stay calm, protect their arm religiously, and wait for the right moment to escape rather than forcing it. Time your escape for when they adjust their position or change grips.
-
-### Eddie Bravo
-
-S Mount bottom is where shit gets real. You've got someone sitting perpendicular on you with one leg over your head - that's bad news. The 10th Planet approach is all about staying proactive even from bad positions. First thing: grip your collar with that trapped arm and don't let go for anything. That's your lifeline. Now here's something most people don't think about - if you can control their far leg with your free hand and time it right, you can sometimes turn this into a sweep by using that leg as a lever while bridging. It's low percentage but it's there. More realistically, you want to work your hip escape game hard. The key is making small hip movements constantly, not one big desperate shrimp. Every little bit of space you create makes their control weaker. And if they transition to try something else like a triangle, that's your window. Don't just defend - be ready to capitalize on any adjustment they make. In no-gi this position is even more dangerous because there's no gi to grip, so you need to work rubber guard concepts for that bent arm defense.
 
 </section>
 

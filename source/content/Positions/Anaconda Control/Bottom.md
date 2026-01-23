@@ -8,7 +8,7 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -425,24 +425,6 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 **Average Time in Position**: 10-30 seconds (escape or submit quickly)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The anaconda control from bottom represents a critical juncture where biomechanical understanding becomes survival. The choke operates through a gooseneck mechanism where the choking arm's radius bone acts as a fulcrum against the carotid arteries while the opponent's chest pressure drives your trapped shoulder into your own neck, creating a scissoring effect. Your defensive hierarchy must be: first, prevent the choke from tightening by addressing the choking arm's elbow position; second, create space at the neck by manipulating the opponent's wrist away from your centerline; third, mobilize your hips away from their pressure to reduce the mechanical advantage of their chest drive. The critical technical point is understanding that pulling your head backward actually tightens the choke by increasing tension in their arm lock. Instead, you must push the choking elbow away while turning into the choke toward your trapped side, which paradoxically loosens the constriction by changing the angle of attack. Students must drill the specific hand fighting pattern of controlling the opponent's choking wrist with their free hand while posting with that same-side leg to create the angular escape. The window of opportunity is measured in seconds once the grip is established, making this positional knowledge literally life-preserving in competition.
-
-### Gordon Ryan
-
-I've been caught in anaconda position enough times in competition to know that hesitation equals tapping. The moment you feel that grip lock around your neck and arm, you need to explode with your defensive response - there's no time for technical perfection, just survival first. What works for me at the highest levels is immediately fighting the wrist of their choking arm with my free hand while simultaneously driving my hips away from their chest pressure. I'm not trying to be pretty here; I'm creating enough space to breathe and think. The biggest mistake I see competitors make is trying to pull their head straight out, which just gives the opponent more leverage to finish. Instead, I turn into the choke - sounds crazy but it works - while pushing their elbow away from my neck. If they're stepping over my head, I'm using my free hand to post on their hip and either preventing that step or rolling through with their momentum to come up on top or into their guard. In ADCC and high-level no-gi, the anaconda is a fight-ender if you don't know these specific counters. I drill the defensive sequence until it's pure muscle memory because when the choke is on, your thinking brain shuts down and only your trained responses remain.
-
-### Eddie Bravo
-
-The anaconda control from bottom is what we call a 'checkmate position' in 10th Planet if you don't have the right tools, but with our system, there are some really slick ways out that most people don't know about. First thing, you cannot be passive - that choke locks up in seconds and you're done. What I teach my students is the 'spiral escape' where you're not just pushing the choking arm away, you're actually rotating your whole body in a corkscrew motion toward your trapped arm side while using your free hand to pull their wrist. It's like unscrewing yourself from their lock. If they're trying to step over and finish, that's actually your best opportunity because their base gets elevated for a second and you can either post on their leg to prevent it or, and this is the advanced move, you roll through with them but grab their leg during the roll and come up into a leglock position or back to guard. We have guys who've turned this horrible position into submission opportunities by understanding the timing of the roll. The key innovation from 10th Planet is using the rubber guard flexibility training to make your neck more resistant to the choke initially, buying you those extra two or three seconds to execute the escape. Train the neck, train the escape timing, and what looks like a death sentence becomes just another position to work from.
 
 </section>
 

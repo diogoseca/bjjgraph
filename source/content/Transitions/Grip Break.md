@@ -8,7 +8,7 @@ description: "Master grip breaking in BJJ with systematic hand fighting methods.
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -339,15 +339,6 @@ Grip breaking is fundamentally integrated into every aspect of guard play, guard
 - [[De La Riva Sweep]] - Offensive technique from guard that requires breaking opponent's counter-grips
 - [[Standing up in Base]] - Requires breaking pant and sleeve grips before standing
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: Grip fighting is the hidden battle that determines every outcome in Brazilian Jiu-Jitsu, yet it receives far less attention than it deserves in most training programs. The fundamental principle of effective grip breaking is understanding that you are not fighting strength against strength, but rather attacking the structural weaknesses inherent in the human grip. The thumb is always the weakest point, the fingers open more easily than the palm closes, and two limbs properly coordinated will always defeat one limb regardless of relative strength. When you break a grip, you must immediately capitalize on the momentary tactical advantage created, either by establishing your own superior grips or by creating distance that prevents re-gripping. The practitioner who can maintain grip dominance for extended periods effectively controls the entire tactical engagement, dictating when exchanges begin and end, and determining which techniques are available to both competitors.
-- **Gordon Ryan**: In high-level competition, I've found that grip fighting is where most matches are actually won or lost, though casual observers watching the match might not realize it. When I'm passing someone's guard, I'm not thinking about my passing technique until after I've won the grip fighting exchange and denied them their preferred grips. Similarly, when I'm playing guard, maintaining my grips while systematically breaking my opponent's grips is what allows me to execute my attacks. The key insight that elevated my grip fighting was understanding that it's not about individual grip breaks, but about chains of grip fighting sequences where you're constantly breaking their grips, establishing your own, and preventing re-grips through sustained hand activity. Against elite opponents, you need to approach grip fighting with the same technical precision and strategic planning that you'd apply to any submission sequence, because that's truly what determines who controls the match.
-- **Eddie Bravo**: Traditional grip breaking approaches work, but I've always been interested in using unconventional methods that people don't expect, especially in no-gi where the grip fighting dynamics are completely different. One of the most effective principles I teach is using your legs and hips to break grips rather than relying purely on your hands, because your lower body is significantly stronger and creates angles that are harder to defend. From positions like rubber guard or mission control, you can use leg frames to strip grips while simultaneously establishing superior control positions. The 10th Planet system emphasizes creating situations where your opponent's grips become liabilities rather than assets, forcing them to release grips to defend more immediate threats. When you combine grip breaking with constant misdirection, feints, and unexpected angles, you create a grip fighting game that's extremely difficult to predict or counter, which is exactly what you want in both competition and street scenarios.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master the Side Control to Mount transition in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -341,15 +341,6 @@ The Side Control to Mount transition is a cornerstone of positional grappling st
 - [[Knee Cut Pass]] - Prerequisite - Common method of achieving side control
 - [[Pressure Pass]] - Prerequisite - Passing method that leads to side control
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The side control to mount transition exemplifies the fundamental principle of mount by increments, where weight is systematically shifted between control points rather than attempting a single dramatic movement. The key is understanding that each defensive barrier must be eliminated in sequence—first the near-side arm through isolation, then the hip through knee placement, and finally any remaining frames through proper weight distribution. The transition should feel like a seamless flow where pressure never decreases, only redirects. I emphasize to my students that this isn't about speed or athleticism; it's about creating a progression where each micro-adjustment makes the next step inevitable. The far-side grip is particularly crucial—it acts as your steering mechanism, allowing you to feel and redirect any bridging attempts before they develop full power. When executed with proper mechanics, this transition should feel effortless, as if you're simply falling into mount rather than forcing your way there. This is positional chess at its finest, where systematic pressure creates positional dominance.
-- **Gordon Ryan**: In competition, the side control to mount transition is absolutely critical for maximizing points and finishing matches. I approach this transition with a focus on eliminating each defensive barrier in sequence, never rushing but also never giving my opponent time to establish strong frames. The key detail that changed my mount success rate was learning to time the transition with my opponent's breathing and defensive adjustments—when they exhale or shift their frames to defend something else, that's when I move. I also use a lot of misdirection: threatening the far-side kimura or north-south transition to get reactions that make the mount easier. Against high-level opponents, I'll often transition through knee on belly first because the discomfort forces defensive reactions that open up the mount. The weight distribution is everything—keeping your chest pressure constant while your legs move is what separates successful transitions from failed attempts. In my matches, I'm always thinking about the mount as the platform for finishing submissions, so securing this transition efficiently is essential for ending matches quickly and conservatively managing energy for tournament performance.
-- **Eddie Bravo**: The traditional side control to mount transition is solid, but we've developed some sick variations in 10th Planet that work especially well in no-gi situations where you don't have collar grips to rely on. The key adaptation is using more aggressive underhooks and overhooks to control the opponent's upper body since you can't rely on gi grips. We also emphasize the gift wrap control heavily—getting that near arm completely immobilized makes the mount basically unstoppable. One thing I teach is to think about creating discomfort before advancing position; if you make them uncomfortable in side control with strategic pressure points, they'll start defending the wrong things and give you the mount. We also use a lot more dynamic entries, sometimes bouncing between knee on belly and side control to create movement that opens up mount opportunities. The body triangle from mount is where we really shine though—once you get mount in no-gi, immediately thinking about leg positioning for back takes or body triangles is where the 10th Planet system really starts to flow. Don't just think about getting to mount, think about what mount position sets up your next attack best.
 
 </section>
 

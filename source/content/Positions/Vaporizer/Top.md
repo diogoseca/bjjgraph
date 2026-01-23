@@ -8,7 +8,7 @@ description: "Master Vaporizer top defense in BJJ. Complete guide to escaping lo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -427,24 +427,6 @@ From Vaporizer top position, practice recognizing specific bottom player attacks
 
 **Average Time in Position**: 60-120 seconds to escape or be swept/submitted
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Vaporizer top position exemplifies a critical principle in defensive grappling: you must address multiple control points simultaneously rather than sequentially to successfully escape compound control positions. The lockdown creates structural immobilization of the lower body while the underhook generates rotational force through the whip-up motion, and these two control mechanisms work synergistically to amplify each other's effectiveness. From a systematic defensive perspective, the key is understanding that attempting to address the lockdown first while ignoring the underhook, or vice versa, plays directly into the position's design. The proper defensive sequence involves immediately widening your base to create a stable platform resistant to lateral rolling, then simultaneously working to neutralize the underhook with a whizzer or crossface while beginning the systematic process of clearing the lockdown through leg circulation. What makes this position particularly challenging from a biomechanical standpoint is how the bottom player's control configuration creates a mechanical advantage that allows them to generate significant force with relatively little energy expenditure, meaning that strength-based escape attempts typically favor the bottom player. Advanced defensive practitioners recognize that patience and systematic technique execution are more effective than explosive power in navigating this position, as explosive movements create the space and reactions that the bottom player's attack system is designed to exploit.
-
-### Gordon Ryan
-
-Honestly, being caught in a good Vaporizer from someone who really knows 10th Planet is one of the most annoying positions in no-gi grappling. The whole system is designed to create these cascading problems where every defense you make opens up another attack, and if you don't know the specific defensive sequences, you're just going to get swept or submitted eventually. What I've learned from competing against high-level 10th Planet guys is that you absolutely cannot let them settle into the position - the second you feel that lockdown coming on, you need to be moving, adjusting your base, fighting the underhook. Once they have everything locked in and they're hitting that whip-up motion, your window for easy escapes is basically closed. The most important thing is the whizzer - if they have that underhook and you don't immediately counter it, you're going to get swept. The whizzer neutralizes probably 60-70% of their attack options right there. From there, it's about being patient with clearing the lockdown. Don't try to muscle your leg out because that's exactly what they want - you burn energy and create the reactions they need for Electric Chair or Truck. Instead, you need to circulate your leg methodically while keeping that whizzer tight and your base wide. In competition, I've seen too many strong guys get caught in Vaporizer and try to power through it, and they just gas out and get finished. The position demands technical defense, not strength.
-
-### Eddie Bravo
-
-From the top of the Vaporizer, you're basically in my world now, and that's a problem for you. The whole 10th Planet game is built around creating these positions where we have multiple attacks working together, and the Vaporizer is a perfect example. You've got the lockdown controlling your leg, we've got the underhook breaking your posture, and we're whipping you up and creating all these different angles for attacks. The beauty of it from our perspective is that whatever you defend first, something else opens up. You defend the sweep? Cool, now the Electric Chair is right there. You try to clear the lockdown? Great, I'm taking your back or hitting the Truck. What most people don't understand about defending the Vaporizer is that you needed to start defending it before you got there - once we have it fully locked in, you're in a reactive position and we're dictating the pace. That said, if you want to escape, here's the reality: you need to fight that underhook immediately with a whizzer, you need to get your base wide so we can't roll you, and you need to be patient clearing that lockdown. Don't try to pull your leg out like some kind of caveman - that's not going to work against someone who knows what they're doing. Stay calm, maintain your defensive structure, work the whizzer, and systematically clear that lockdown with technique, not power. And whatever you do, don't commit your weight forward heavy because that's when the Electric Chair becomes basically unstoppable. The Vaporizer is designed to beat strength and panic, so if you want to escape, you better bring technique and patience instead.
 
 </section>
 

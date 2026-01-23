@@ -8,7 +8,7 @@ description: "Master bridging mechanics in BJJ. Learn explosive hip elevation, w
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - **Hip Elevation First**: The bridge initiates with explosive hip drive upward, not with pushing through the shoulders or chest
 - **Foot Positioning**: Feet must be positioned close to hips (heels near glutes) with weight on balls of feet for maximum power generation
 - **Posterior Chain Activation**: Glutes, hamstrings, and lower back must engage simultaneously to create full-body tension and power
@@ -183,9 +183,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Foot Placement and Base**: Positioning feet approximately shoulder-width apart with heels 6-8 inches from glutes, weight distributed on balls of feet. Proper base allows maximum force generation through leg drive and prevents feet from sliding during bridge execution.
 
 **Hip Explosion**: Rapid, powerful contraction of glutes and hamstrings to drive hips vertically upward. This explosive movement generates the primary force of the bridge and must be trained for both power output and repeatability across multiple repetitions.
@@ -206,26 +206,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Hip Movement]]** (Prerequisite): General hip mobility and control provides foundation for bridging mechanics; bridge represents specific application of hip power
-- **[[Shrimping]]** (Complementary): Bridging and shrimping form the complete defensive movement vocabulary; bridge creates vertical space while shrimp creates lateral space
-- **[[Escape Fundamentals]]** (Extension): Bridging mechanics serves as core component of fundamental escape systems; proper bridge execution enables escape sequences
-- **[[Frame Creation]]** (Complementary): Frames maintain space created by bridges; bridge generates initial separation while frames preserve and extend it
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding leverage, force vectors, and body mechanics underlies effective bridge execution and adaptation
-- **[[Energy Conservation]]** (Advanced form): Advanced practitioners use minimal, precisely-timed bridges rather than repeated maximal efforts, conserving energy while maintaining effectiveness
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes build on bridging to create lateral movement; bridge provides vertical displacement that enables horizontal escape
-- **[[Bridge and Shrimp]]** (Extension): Combined movement pattern that integrates bridging with shrimping for complete escape execution
-- **[[Hip Elevation]]** (Extension): Bridging represents maximal expression of hip elevation principle; bridge is explosive, complete hip elevation under pressure
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics enables optimal bridge execution; feet as power source, shoulders as fulcrum, hips as load
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Bridge forms the primary escape mechanism (upa/bridge and roll), driving hips upward and to one side to disrupt opponent's base and create reversal opportunities
 
 **Side Control**: Bridge creates initial space for elbow escape by lifting opponent's weight and allowing hip movement; typically bridges at angle toward opponent's head or legs
@@ -254,9 +237,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and opponent weight distribution**: Identify if bottom position is mount, side control, knee on belly, or other pin; determine where opponent's weight is concentrated
 2. **Establish proper foot positioning**: Move feet close to hips (heels 6-8 inches from glutes), shoulder-width apart, weight on balls of feet; ensure stable base before bridging
 3. **Determine optimal bridge direction**: Choose bridge angle based on tactical goal: straight up for pure space creation, angled toward weak side for rotation, asymmetric for specific escapes
@@ -269,9 +252,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Lifting shoulders off mat during bridge
   - **Consequence**: Breaks the structural arch, dissipates force upward rather than through opponent, significantly reduces power and effectiveness
   - **Correction**: Keep shoulder blades pressed to mat throughout entire bridge; focus on driving hips up while shoulders stay down as stable pivot point
@@ -297,9 +280,9 @@ Mastery of bridging mechanics is non-negotiable for effective BJJ practice. It a
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Solo Bridge Repetitions** (Focus: Develop fundamental movement pattern, build posterior chain power endurance, and establish proper technical foundation)
 Perform sets of 10-20 bridges from supine position focusing on explosive hip drive, proper foot placement, and shoulder stability. Progress from slow perfect form to maximum speed and power.
 
@@ -322,9 +305,9 @@ Perform high-intensity bridge intervals: 10 seconds maximum effort bridges, 20 s
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute basic bridge with hips elevated 6-8 inches while maintaining shoulder contact with mat
 - Understands foot positioning requirements (close to hips, shoulder-width) but may need adjustment reminders
@@ -364,10 +347,24 @@ Perform high-intensity bridge intervals: 10 seconds maximum effort bridges, 20 s
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Hip Movement]]** (Prerequisite): General hip mobility and control provides foundation for bridging mechanics; bridge represents specific application of hip power
+- **[[Shrimping]]** (Complementary): Bridging and shrimping form the complete defensive movement vocabulary; bridge creates vertical space while shrimp creates lateral space
+- **[[Escape Fundamentals]]** (Extension): Bridging mechanics serves as core component of fundamental escape systems; proper bridge execution enables escape sequences
+- **[[Frame Creation]]** (Complementary): Frames maintain space created by bridges; bridge generates initial separation while frames preserve and extend it
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding leverage, force vectors, and body mechanics underlies effective bridge execution and adaptation
+- **[[Energy Conservation]]** (Advanced form): Advanced practitioners use minimal, precisely-timed bridges rather than repeated maximal efforts, conserving energy while maintaining effectiveness
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes build on bridging to create lateral movement; bridge provides vertical displacement that enables horizontal escape
+- **[[Bridge and Shrimp]]** (Extension): Combined movement pattern that integrates bridging with shrimping for complete escape execution
+- **[[Hip Elevation]]** (Extension): Bridging represents maximal expression of hip elevation principle; bridge is explosive, complete hip elevation under pressure
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics enables optimal bridge execution; feet as power source, shoulders as fulcrum, hips as load
+
+
+### Related Content
 - [[Bridge and Shrimp]] (Principle) - Complementary foundational movement that combines with bridging to form complete defensive system
 - [[Hip Escape Mechanics]] (Principle) - Related principle that builds on bridging to create lateral movement and escape pathways
 - [[Mount Escape Hierarchy]] (Principle) - Strategic framework that incorporates bridging as primary escape mechanism from mount
@@ -381,15 +378,6 @@ Perform high-intensity bridge intervals: 10 seconds maximum effort bridges, 20 s
 - [[Shrimping]] (Principle) - Complementary escape movement that works with bridging to create complete defensive capability
 - [[Hip Movement]] (Principle) - Foundational principle that underlies all bridging mechanics and hip-based escapes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The bridge represents the most fundamental expression of the principle that escapes are built on creating and maintaining space. What many practitioners fail to understand is that the bridge is not simply a matter of pushing your hips upward—it is a sophisticated biomechanical lever system where the feet act as the power source, the pelvis acts as the load being moved, and the shoulders act as the fulcrum. The structural integrity of this system depends entirely on maintaining the arch—the moment the shoulders lift from the mat, you lose the fulcrum and the entire system collapses. I emphasize to my students that bridge quality is measured not by how high the hips rise, but by how much force is transmitted through the opponent to disrupt their structure. A perfect bridge feels effortless to execute but creates maximum disruption to your opponent's balance. Furthermore, the bridge must never be thought of as an isolated movement—it is always part of a sequence where the space created by the bridge is immediately exploited by frames, shrimps, or re-guarding movements. The bridge opens the door; the subsequent movements walk through it.
-- **Gordon Ryan**: In competition, I've found that most people bridge way too slowly and give away what they're about to do. When I'm on bottom and need to create space, my bridge is fucking explosive—they don't see it coming and they can't adjust in time. The key thing people miss is that you need to bridge multiple times in quick succession, not just one big bridge and then nothing. I'll hit three bridges rapid-fire, and even if the first two don't create the space I need, by the third one my opponent is reacting to the pattern and I can exploit that. Also, timing is everything—if you bridge when they're settled and heavy, you're just wasting energy. But if you catch them during a transition or when they're adjusting, even a smaller bridge can completely disrupt them. I use bridging offensively too—when I'm passing and someone gets a frame, I'll bridge into it to break their structure and collapse the space they're trying to create. People think bridging is just defense, but it's actually a tool for creating problems anywhere. The best bridge is the one your opponent doesn't expect, executed at maximum speed when they can't counter it.
-- **Eddie Bravo**: Dude, the bridge is like your get-out-of-jail-free card in jiu-jitsu, but most people use it wrong because they treat it like a strength move instead of a technique. What I teach at 10th Planet is that the bridge works best when you combine it with control—you can't just bridge wildly and hope something happens. Before I bridge from mount, I'm controlling their sleeve or wrist, maybe even getting an overhook, so when I bridge them over, they can't post and stop the roll. The other thing people sleep on is using mini-bridges, not just big explosive ones. When I'm in lockdown half guard and the guy is trying to flatten me, I'm constantly doing these little bridges to maintain my structure and keep space between my back and the mat. It's like active defense—you're not waiting to get flattened and then trying one desperate bridge, you're using continuous small bridges to never let them consolidate. And here's something cool: the bridge is huge for our rubber guard system because when you're on bottom in full guard and your posture is broken, that bridge resets everything and lets you come back to Mission Control. It's all connected, man—the bridge isn't just an escape move, it's part of how you maintain your offensive framework from bottom positions.
 
 </section>
 

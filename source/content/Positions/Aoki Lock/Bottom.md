@@ -8,7 +8,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -409,24 +409,6 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Aoki Lock bottom position represents a biomechanical nightmare where leg entanglement control eliminates the traditional escape vectors available in standard shoulder lock defense. The key to survival lies in understanding that your opponent has created a geometric trap where your shoulder's range of motion is artificially constrained by the leg positioning. Your primary defensive mechanism must focus on rolling toward the trapped arm rather than away from it, following the path of least resistance while simultaneously reducing the pressure angle on your shoulder joint. The critical error most practitioners make is treating this as a traditional omoplata or kimura defense and attempting to fight against the pressure direction. The sophisticated escape artist recognizes that the leg entanglement, while appearing to strengthen opponent control, actually commits their body weight in a specific direction that can be exploited through proper rolling mechanics. The moment you recognize this position, you must commit to your escape immediately - static defense in Aoki Lock bottom is merely delaying the inevitable submission. Focus on creating continuous movement toward your escape vector rather than attempting to muscle out of the position.
-
-### Gordon Ryan
-
-From a competition standpoint, ending up in Aoki Lock bottom means you've made serious positional errors and you're in immediate submission danger. I've never been caught in this position at the highest levels because I prioritize arm positioning in scrambles and turtle defense, but I've seen it finish matches at every belt level. The key is immediate, explosive action the moment you recognize the leg entanglement over your shoulder. You have maybe 5-10 seconds to execute your escape before the pressure becomes too dangerous to defend. My preference is the rolling escape because it's proactive and uses opponent's pressure against them - when they drive into you, you roll with that momentum toward your trapped arm. The alternative is trying to extract your arm, but this requires perfect timing when they adjust position. In training, I emphasize tapping early from this position because shoulder injuries are career-ending and this submission can cause serious damage before you realize you're in danger. Never let ego prevent you from tapping to an Aoki Lock - the position is too dangerous to defend beyond your safety threshold.
-
-### Eddie Bravo
-
-The Aoki Lock bottom position is brutal and you need to get out immediately using that 10th Planet philosophy of creating chaos and movement. Traditional jiu-jitsu defense protocols don't work well here because the leg entanglement changes the whole dynamic of how you can move. We train our guys to immediately initiate the rolling escape sequence the moment they feel that leg come over their shoulder - you cannot wait to see what happens or try to defend statically. The beautiful thing about the rolling escape is that it works with the opponent's pressure rather than fighting against it, which is core to our flow philosophy. I've also seen some of our guys successfully attack the opponent's base with their free hand to create scrambles, but this requires high-level timing and risk tolerance. The main thing is understanding that this position represents a failure in your defensive structure earlier in the sequence - if you're ending up in Aoki Lock bottom regularly, you need to fix your turtle defense and scramble positioning. When training this position, we never go hard because shoulder locks are too dangerous. Practice the escape mechanics at 40-50% pressure maximum and develop your feel for the correct rolling direction and timing.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 
 **Average Time in Position**: 30-90 seconds depending on skill level and opponent's defensive knowledge
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Single Leg X Guard represents a critical junction point in the lower body control system, offering practitioners a choice between upper body attacks through sweeps and lower body attacks through leg entanglements. The position's effectiveness stems from its ability to compromise the opponent's base while maintaining your own mobility and offensive options. The fundamental principle is elevation - by keeping the opponent's trapped leg elevated and their weight distributed over unstable points, you create a dilemma where they cannot simultaneously defend both sweep and leg attack threats. Proper execution requires understanding the biomechanics of balance disruption; your inside leg controls the opponent's ankle to prevent rotation and escape, while your outside hook manipulates their hip to direct their weight away from stable base points. The transition between SLX and deeper leg entanglements should be seamless, using the opponent's defensive reactions to determine optimal attack paths. Master practitioners recognize that SLX is not merely a static position but a dynamic control platform that facilitates continuous offensive pressure through multiple attack vectors.
-
-### Gordon Ryan
-
-In competition, Single Leg X Guard is one of the highest percentage positions for creating immediate attacking opportunities against standing opponents. I use SLX primarily as an entry system into my leg attack game, but the sweeping threats are equally important for creating the reactions I need. When opponents stand in my guard, SLX allows me to immediately control their balance and force them into defensive decision-making - they either stay upright and risk being swept, or they come down into my leg entanglement game where I have numerous finishing options. The key to making SLX work at the highest levels is maintaining constant movement and pressure; you cannot allow your opponent to settle and establish defensive grips. I'm always looking for the back-step entry into deeper leg positions, using the threat of the sweep to disguise my leg attack entries. Against elite competition, the ability to transition seamlessly between SLX, X-Guard, and Ashi Garami variations is essential - if they shut down one entry, you must immediately threaten from another angle. The position's effectiveness in no-gi competition is particularly high because without gi grips to rely on, opponents struggle to neutralize the off-balancing pressure created by properly executed SLX mechanics.
-
-### Eddie Bravo
-
-Single Leg X Guard fits perfectly into the 10th Planet system as a bridge position between our traditional butterfly-based guards and the modern leg lock game. What I love about SLX is how it gives you instant control when someone stands up in your guard - you're not scrambling to recover, you're immediately threatening with sweeps and leg attacks. We teach SLX as part of the pathway from lockdown and deep half into the saddle position and other leg entanglements. The transition flow is critical: you might start with a lockdown sweep attempt, they defend by standing, you immediately transition to SLX, and from there you have entries into the honey hole or back takes depending on their reaction. The beauty of this position is the multiple attack layers - while you're threatening the sweep, you're already setting up your leg isolation for attacks, and if they defend the leg attacks, you can come back to the sweep or even technical standup to wrestling. In our competition strategy, SLX becomes an important reset position when scrambles occur; it allows you to quickly establish control and offensive momentum even from compromised situations. The key innovation we emphasize is combining SLX with upper body controls that aren't traditional in this position - using overhooks or collar ties to create additional control points that make the position even more difficult to escape.
 
 </section>
 

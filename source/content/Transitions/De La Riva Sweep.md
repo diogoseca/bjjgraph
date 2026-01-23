@@ -8,7 +8,7 @@ description: "Learn De La Riva Sweep in BJJ. Step-by-step execution from De La R
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -344,15 +344,6 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 - [[Side Control]] - Resulting position - common ending position after successful sweep
 - [[Back Control]] - Resulting position - possible outcome when combined with Kiss of the Dragon
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The De La Riva Sweep exemplifies fundamental biomechanical principles of leverage and base disruption that apply throughout grappling. The technique succeeds because it creates a multi-directional attack on the opponent's stability—the hook elevates one leg while grips pull their upper body in opposing directions, making it geometrically impossible to maintain balance. What separates elite De La Riva players from beginners is understanding that the sweep itself is often secondary to the positional control it creates. The mere threat of the sweep forces opponents into defensive postures that expose them to back takes, leg locks, and other attacks. Students must develop systematic understanding of how grip configurations affect sweeping angles and success rates. The two-on-one sleeve grip variant, for instance, dramatically increases sweep percentage but limits submission options, requiring intelligent decision-making based on opponent reactions. Training should emphasize sensitivity to weight distribution rather than memorizing fixed sequences—the ability to feel when opponent's base is compromised and capitalize immediately separates functional technique from theoretical knowledge.
-- **Gordon Ryan**: In high-level competition, the De La Riva Sweep is rarely executed in isolation—it functions as part of a systematic attack sequence that keeps opponents constantly defending. I use the sweep primarily as a forcing mechanism to create reactions that open up more dominant positions like the back or leg entanglements. When drilling this technique, focus obsessively on grip fighting because competition-level opponents will fight desperately to strip your sleeve control. I prefer the collar and sleeve configuration because it gives more postural control and makes the berimbolo transition seamless if the sweep fails. The key competitive insight is timing—attempting this sweep against a static opponent is low percentage, but catching them mid-step or as they try to pressure into you dramatically increases success. I often fake guard pull or other movements to draw them forward, then hit the sweep when their weight commits. Against world-class opponents, expect the sweep to be defended, so always have your Kiss of the Dragon back take or transition to single leg X ready as immediate follow-ups. The sweep scores points, but the back take finishes matches.
-- **Eddie Bravo**: The De La Riva Sweep becomes exponentially more dangerous when you integrate it with unconventional grips and angles that opponents don't typically train to defend. At 10th Planet, we emphasize the De La Riva system heavily, particularly in no-gi contexts where we adapt the mechanics using overhooks and underhooks instead of gi grips. One innovation that's highly effective is using the sweep to set up calf slicers and electric chair positions—when opponent defends by stepping back, instead of following with X-Guard, trap their leg and attack the knee line. The psychological warfare aspect is crucial: if you hit one De La Riva Sweep early in a match, opponents become paranoid and defensive, opening up entirely different attacks. I teach students to make the sweep look effortless through perfect timing and minimal energy expenditure—this creates mental pressure that compounds throughout the match. For MMA applications, the De La Riva structure translates surprisingly well despite no-gi limitations, particularly for creating sweeps against cage-pressed opponents. The hook position combined with strategic underhooks can replicate much of the gi functionality while opening up leg lock opportunities that gi rules often prohibit.
 
 </section>
 

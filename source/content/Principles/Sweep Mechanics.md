@@ -8,7 +8,7 @@ description: "Master sweep mechanics in BJJ. Learn off-balancing principles, lev
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Off-balancing requires disrupting multiple base points simultaneously rather than attacking one point in isolation
 - Leverage multiplication occurs when body positioning creates mechanical advantage exceeding opponent's ability to counter with strength
 - Timing windows exist during opponent weight transfer and movement—static opponents are harder to sweep than moving ones
@@ -183,9 +183,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Base Recognition and Targeting**: The ability to visually and kinesthetically identify opponent's base points (hands, feet, knees) and recognize which configurations are inherently unstable. This includes understanding how weight distribution across base points creates vulnerability to specific sweep directions and how removing or compromising one base point affects the stability of the entire structure.
 
 **Hip Mobility and Elevation**: Technical proficiency in generating hip movement through bridging, shrimping, and elevation while maintaining connection to opponent. This fundamental skill provides the mechanical force necessary to disrupt opponent's base vertically and creates the angles required for rotational sweeps. Hip elevation timing must synchronize with grip pulling and leg extension for maximum effect.
@@ -206,31 +206,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Off-Balancing]]** (Prerequisite): Off-balancing provides the fundamental concept that sweep mechanics operationalizes—understanding how to disrupt equilibrium is essential before learning specific mechanical applications
-- **[[Leverage Principles]]** (Complementary): Leverage principles explain why certain body positions and grip configurations multiply force effectiveness in sweep execution
-- **[[Timing and Rhythm]]** (Complementary): Timing determines when sweep mechanics should be applied—technical knowledge without timing recognition results in low-percentage attempts
-- **[[Hip Movement]]** (Prerequisite): Hip mobility and control form the engine that powers most sweep mechanics—bridging, shrimping, and elevation are fundamental skills
-- **[[Weight Distribution]]** (Complementary): Understanding weight distribution reveals sweep opportunities—recognizing where opponent's weight is committed identifies vulnerability
-- **[[Base Maintenance]]** (Alternative): Base maintenance represents the defensive counterpart to sweep mechanics—understanding how to maintain base reveals how to attack it
-- **[[Creating Reactions]]** (Extension): Creating reactions extends basic sweep mechanics into advanced strategic applications where false attacks open genuine opportunities
-- **[[Action and Reaction]]** (Complementary): Action-reaction dynamics explain why opponent's defensive movements and passing attempts create the best sweep timing windows
-- **[[Grip Strategy]]** (Prerequisite): Grip strategy determines which sweep mechanics are available—controlling opponent's ability to post is essential to success
-- **[[Angle Creation]]** (Complementary): Angle creation multiplies sweep effectiveness by attacking opponent's base from directions where recovery is geometrically impossible
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escape mechanics share the same foundational movements as many sweeps—bridging and shrimping apply to both defensive and offensive bottom work
-- **[[Guard Retention]]** (Complementary): Guard retention principles often transition directly into sweep mechanics as opponent's passing pressure creates sweep timing
-- **[[Energy Conservation]]** (Complementary): Energy conservation principles guide sweep selection—using opponent's momentum and leverage rather than pure strength extends endurance
-- **[[Biomechanical Principles]]** (Prerequisite): Biomechanical principles provide the scientific foundation explaining why specific sweep mechanics work through leverage, fulcrums, and force vectors
-- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy determines which grips and connections to prioritize for sweep execution—higher control points often prevent posting
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Hip elevation and posture breaking create the foundation for scissor sweeps, pendulum sweeps, and hip bump sweeps where controlling opponent's upper body prevents posting
 
 **Butterfly Guard**: Butterfly hooks provide leverage points under opponent's thighs while grips control upper body, allowing elevation sweeps that lift opponent off their base entirely
@@ -265,9 +243,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's current base configuration and weight distribution**: Identify how many points of contact opponent has with ground (hands, feet, knees) and recognize where majority of their weight is currently positioned relative to their base points
 2. **Establish grip configuration that limits opponent's posting options**: Secure grips that control opponent's upper body (collar, sleeve) or lower body (pants, ankles) in ways that prevent them from creating new base points during sweep execution
 3. **Create angle or leverage point that attacks opponent's base from vulnerable direction**: Position your body and hooks to create mechanical advantage—get under opponent's center of mass, attack from perpendicular angle, or isolate one side of their base structure
@@ -280,9 +258,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting sweeps with strength alone without establishing proper leverage points
   - **Consequence**: Exhaustion without positional improvement as opponent simply bases harder or uses superior strength to maintain position
   - **Correction**: Focus on grip configuration and body positioning first—establish mechanical advantage before attempting to generate force through sweep execution
@@ -311,9 +289,9 @@ The development of sweep mechanics follows a predictable progression from gross 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Isolated Sweep Drilling** (Focus: Motor pattern development, grip configuration memorization, and understanding correct force vectors for individual sweep techniques)
 Practice specific sweep techniques with compliant partner focusing on perfect mechanical execution without resistance
 
@@ -336,9 +314,9 @@ Full rounds where you receive points for successful sweeps and partner receives 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute basic sweeps from closed guard (scissor, pendulum, hip bump) with compliant partner using correct grip and leg placement
 - Understands conceptually that sweeps require disrupting opponent's base but struggles to identify timing windows during live training
@@ -371,10 +349,29 @@ Full rounds where you receive points for successful sweeps and partner receives 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Off-Balancing]]** (Prerequisite): Off-balancing provides the fundamental concept that sweep mechanics operationalizes—understanding how to disrupt equilibrium is essential before learning specific mechanical applications
+- **[[Leverage Principles]]** (Complementary): Leverage principles explain why certain body positions and grip configurations multiply force effectiveness in sweep execution
+- **[[Timing and Rhythm]]** (Complementary): Timing determines when sweep mechanics should be applied—technical knowledge without timing recognition results in low-percentage attempts
+- **[[Hip Movement]]** (Prerequisite): Hip mobility and control form the engine that powers most sweep mechanics—bridging, shrimping, and elevation are fundamental skills
+- **[[Weight Distribution]]** (Complementary): Understanding weight distribution reveals sweep opportunities—recognizing where opponent's weight is committed identifies vulnerability
+- **[[Base Maintenance]]** (Alternative): Base maintenance represents the defensive counterpart to sweep mechanics—understanding how to maintain base reveals how to attack it
+- **[[Creating Reactions]]** (Extension): Creating reactions extends basic sweep mechanics into advanced strategic applications where false attacks open genuine opportunities
+- **[[Action and Reaction]]** (Complementary): Action-reaction dynamics explain why opponent's defensive movements and passing attempts create the best sweep timing windows
+- **[[Grip Strategy]]** (Prerequisite): Grip strategy determines which sweep mechanics are available—controlling opponent's ability to post is essential to success
+- **[[Angle Creation]]** (Complementary): Angle creation multiplies sweep effectiveness by attacking opponent's base from directions where recovery is geometrically impossible
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escape mechanics share the same foundational movements as many sweeps—bridging and shrimping apply to both defensive and offensive bottom work
+- **[[Guard Retention]]** (Complementary): Guard retention principles often transition directly into sweep mechanics as opponent's passing pressure creates sweep timing
+- **[[Energy Conservation]]** (Complementary): Energy conservation principles guide sweep selection—using opponent's momentum and leverage rather than pure strength extends endurance
+- **[[Biomechanical Principles]]** (Prerequisite): Biomechanical principles provide the scientific foundation explaining why specific sweep mechanics work through leverage, fulcrums, and force vectors
+- **[[Control Point Hierarchy]]** (Complementary): Control point hierarchy determines which grips and connections to prioritize for sweep execution—higher control points often prevent posting
+
+
+### Related Content
 - [[Butterfly Sweep]] (Transition) - Primary technical application of sweep mechanics using elevation and upper body control
 - [[Hip Bump Sweep]] (Transition) - Classic example of creating off-balance through bridging power and grip control
 - [[Scissor Sweep]] (Transition) - Fundamental sweep demonstrating push-pull dynamics and directional force application
@@ -388,15 +385,6 @@ Full rounds where you receive points for successful sweeps and partner receives 
 - [[Timing and Rhythm]] (Principle) - Determines when to apply sweep mechanics for optimal success rates
 - [[Leverage Principles]] (Principle) - Explains why specific grip and hook configurations multiply force effectiveness in sweeps
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Sweep mechanics represent one of the most systematically teachable aspects of bottom position because they follow clear biomechanical principles that can be analyzed and replicated. The key insight is understanding that every sweep creates what I call a 'structural collapse cascade'—when you remove or compromise the first base point correctly, opponent's weight transfer to compensate automatically compromises their remaining base points in predictable ways. This is why seemingly complex sweeps like the berimbolo or waiter sweep are actually mechanically simple once you understand the cascade principle. The most common error I observe is students attempting to learn sweep techniques as isolated movements rather than understanding the underlying mechanical framework. Once you grasp that all sweeps share common elements—disrupting multiple base points, controlling posting options, applying force along specific vectors, and timing weight transitions—you can analyze and execute any sweep regardless of guard position. The development path proceeds from learning gross motor sweep patterns to developing fine motor grip control to ultimately reaching conceptual mastery where you can improvise sweep mechanics based purely on opponent's current base configuration and weight distribution.
-- **Gordon Ryan**: In competition, sweep mechanics become a game of percentages and risk management. I've built my bottom game around high-percentage sweeps that work even when opponent knows they're coming because the mechanical advantage is so overwhelming. The key is recognizing that sweeps succeed primarily during opponent's passing attempts—when they're stationary with established base, even technically perfect sweep mechanics struggle to succeed at the highest levels. This is why I focus heavily on creating reactions through submission threats or guard retention movements that force opponent to shift weight or reach for grips. The moment they commit to a passing direction or extend to break my grips, brief timing windows open where their base is compromised and sweep success rates spike dramatically. I particularly favor sweep mechanics that maintain connection throughout the entire arc because losing grips mid-sweep against elite opposition usually means they'll complete their pass and I've wasted energy. My approach is to master 3-4 high-percentage sweeps from each guard position rather than knowing every possible sweep variation—depth of technical refinement beats breadth of technique collection when facing world-class opponents.
-- **Eddie Bravo**: Sweep mechanics in the 10th Planet system emphasize what we call 'control before chaos'—establishing dominant grip and hook configurations that severely limit opponent's defensive options before attempting the actual sweep. The lockdown in half guard perfectly exemplifies this principle: by controlling their leg with the lockdown, you've already removed half their base before the sweep mechanics even begin. This is why our system uses so many control positions like the electric chair setup or mission control—they're not just submission threats, they're sweep multipliers that compromise opponent's base proactively. One thing that separates our approach is embracing the transition between sweep attempts and back takes as a fluid spectrum rather than distinct techniques. When you go for an old school sweep and they defend by posting, that defensive post opens the truck position which leads to back takes or twisters. We don't view failed sweeps as failures—they're reaction creators that open subsequent opportunities. The psychological component matters too: when opponent knows you have dangerous submissions from bottom, they become hesitant and tentative in their passing, which ironically makes them easier to sweep because they won't commit weight fully forward. This is the beauty of integrating sweep mechanics with submission systems rather than treating them as separate skillsets.
 
 </section>
 

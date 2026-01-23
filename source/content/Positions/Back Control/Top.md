@@ -8,7 +8,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,24 +443,6 @@ Partner works specific escape sequences while you practice countering escapes an
 
 **Average Time in Position**: 45-90 seconds before submission attempt or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Back control represents the apex of positional dominance in grappling because it uniquely combines maximum control with maximum attacking potential while minimizing defensive options for the opponent. The systematic approach to back control begins with understanding the hierarchy of control points: leg control through hooks or body triangle provides the foundation, harness grip dominates the upper body, and the chest-to-back connection distributes weight to prevent escape. The straitjacket system specifically focuses on eliminating the opponent's defensive structures by controlling both arms before attempting neck attacks. I emphasize the body triangle over traditional hooks for its superior control characteristics - it cannot be removed through standard escape mechanics and allows the top player to use their hands more freely. The key principle is that submissions should only be attempted after achieving complete positional dominance, never as a desperate measure that risks losing the position entirely. Understanding the mechanical relationship between your chest pressure, hook placement, and weight distribution allows you to maintain control even against high-level escape attempts while systematically breaking down defensive hand fighting.
-
-### Gordon Ryan
-
-My approach to back control emphasizes exceptional position retention through precise weight distribution and methodical breakdown of defensive hand fighting. The position is only as valuable as your ability to maintain it under the highest levels of resistance, which requires understanding the micro-adjustments needed when opponents attempt various escape sequences. I use a modified cross grip variation in addition to the standard harness, which creates different submission angles and makes it harder for opponents to predict attack patterns. The transition between these grips while maintaining back control is crucial for elite-level competition. When opponents are defending the neck aggressively, I focus on attacking the arms through crucifix transitions or armbar setups, creating submission dilemmas where defending one attack opens another. The mental aspect is equally important - maintaining back control for extended periods while conserving energy and waiting for the optimal submission opportunity demonstrates control and breaks the opponent's will to resist. In competition, I'm very comfortable maintaining back control for 60-90 seconds while systematically breaking down defenses rather than rushing premature submission attempts that could lose the position.
-
-### Eddie Bravo
-
-Back control in the 10th Planet system incorporates unique control mechanisms that maximize submission opportunities while maintaining the position against explosive escape attempts. The Zombie Control variation, which involves a specific grip configuration and body positioning, creates additional submission angles that opponents don't typically train to defend. I emphasize the body triangle heavily because it frees up your hands to attack while maintaining dominant position - this is crucial in no-gi where grips are more limited. The Invisible Collar choke represents an innovative finish that doesn't rely on traditional collar grips, making it effective in both gi and no-gi situations. My students drill specific sequences that chain multiple submission attempts together: if the opponent defends the rear naked choke by tucking their chin, we immediately transition to the armbar or crucifix. The key is creating a flow between control positions and submission attempts rather than forcing single techniques. Understanding how to use the Twister position and Truck position as extensions of back control opens up an entire system of attacks that most traditional BJJ practitioners don't anticipate. The position is about creating constant pressure and submission threats that force opponents into making defensive mistakes.
 
 </section>
 

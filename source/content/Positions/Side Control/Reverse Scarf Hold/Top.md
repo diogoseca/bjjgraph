@@ -8,7 +8,7 @@ description: "Master Reverse Scarf Hold Top (Ushiro Kesa Gatame). Complete guide
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The reverse scarf hold represents a fascinating study in biomechanical pressure application from unconventional angles. The position's effectiveness derives from its ability to create crushing chest pressure while simultaneously controlling the opponent's primary defensive tool - their near arm. The reverse orientation disrupts standard escape patterns because opponents are conditioned to defend against pressure coming from the direction of their head, not their legs. The key mechanical principle is maintaining hip pressure low on the sternum while preventing arm extraction. However, this position must be understood as fundamentally transitional in nature - when opponent begins generating effective bridging force or creating defensive frames, the superior tactical choice is transitioning to mount, north-south, or back control rather than expending excessive energy maintaining an inferior position. The position's true value lies in its submission opportunities during the brief control window and its capacity to facilitate transitions to dominant positions when that window closes.
-
-### Gordon Ryan
-
-In competition, I use reverse scarf hold primarily as a transitional position when opponents turn into my side control. The position works best when they're unfamiliar with it, creating hesitation and mistakes that you can capitalize on immediately. Don't force it if they're bridging hard - instead, use their energy to transition to mount or north-south where you have more stable control and better submission options. The reverse americana from here can finish matches when opponents don't recognize the danger until it's too late, but you need to be ready to abandon the position the moment they start creating effective defensive frames. In no-gi especially, the position is very temporary because without gi grips the arm control becomes more difficult to maintain. My approach is to treat it as a 10-15 second opportunity window - either hit the submission or advance position, never waste time trying to maintain control against strong defensive responses.
-
-### Eddie Bravo
-
-The reverse scarf hold fits into my system as an unconventional control position that creates confusion and opens unique attack angles that opponents haven't drilled defending against. I particularly like it in no-gi where the arm trap works through body positioning rather than gi grips, making it more dynamic and flow-oriented. The position sets up well from lockdown passes and can transition seamlessly into truck entries when opponent tries to escape by turning away - this is where the reverse orientation becomes a huge advantage because you're already facing the right direction for back attacks. Think of it as a transitional hunting ground rather than a destination position. You're creating a moment of chaos and disorientation where opponent doesn't have their standard defensive responses programmed, and that's when you strike with submissions or advance to more dominant positions. The key is staying loose and ready to flow rather than grinding to maintain static control.
 
 </section>
 

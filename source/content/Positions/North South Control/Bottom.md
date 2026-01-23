@@ -8,7 +8,7 @@ description: "Defensive position requiring explosive bridging and precise timing
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -398,24 +398,6 @@ Bottom player practices explosive bridge and turn combination to convert North-S
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The fundamental problem of bottom North-South is geometric: the perpendicular pressure vector eliminates your ability to create the angular momentum necessary for hip escapes. Your defensive strategy must center on preventing complete weight consolidation during the transition phase. Once full pressure is established, your windows of opportunity reduce dramatically. The key is recognizing that your opponent cannot maintain perfect pressure while simultaneously advancing position or attacking submissions—these transition moments are your only realistic escape opportunities. Focus on explosive bridge mechanics timed precisely with their weight shifts, particularly when they attempt to transition to mount or establish submission grips. The bridge must be angular, not vertical, to create off-balancing torque rather than easily-countered upward force.
-
-### Gordon Ryan
-
-From competition experience, being stuck in bottom North-South is a high-urgency situation that requires immediate action. The longer you remain flat, the worse your position becomes as your opponent settles their weight and begins working submission setups. I prioritize protecting my near-side arm above all else—that arm isolation is how most submissions start from this position. When I feel them starting to transition to mount, that's my primary window for an explosive bridge and turn to turtle. Don't waste energy pushing against their chest when they're stable—wait for them to move, then explode. The key is staying mentally composed despite the uncomfortable pressure and recognizing that brief moment when their base shifts during transitions.
-
-### Eddie Bravo
-
-North-South bottom is all about not panicking under that crushing chest pressure. Traditional escapes work, but you've got to add some creativity and timing precision. One thing people sleep on is using the Granby roll when they're transitioning—it catches them off guard because most people just try to bridge straight up. Also, if you can time it right when they're going for that kimura grip, you can sometimes roll through and actually come up on top or get to turtle. The worst thing you can do is just lay there accepting the pressure—you need to be a problem for them immediately, making small adjustments and waiting for that perfect moment to explode into your escape.
 
 </section>
 

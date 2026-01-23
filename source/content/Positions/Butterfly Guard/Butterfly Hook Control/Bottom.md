@@ -8,7 +8,7 @@ description: "Master Butterfly Hook Control Bottom in BJJ. Complete guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -459,24 +459,6 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 
 **Average Time in Position**: 30-90 seconds before sweep attempt or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The butterfly guard represents one of the most mechanically efficient guard systems because it creates leverage through minimal points of contact. The key insight is that the hooks function as levers that multiply your lifting force against the opponent's base. When you elevate with your hooks while simultaneously breaking posture with your grips, you create a two-directional force vector that is extremely difficult to counter. The position requires less strength than many other guards because you're using leverage mechanics rather than muscular force. Focus on keeping your head above your hips to maintain the structural integrity of your spine, which allows for explosive elevation. The timing of your sweep should coincide with any forward or lateral movement from your opponent, as their own momentum becomes part of your sweeping force. The critical technical detail most practitioners miss is the angle of hook insertion—your hooks must be deep enough that your knees are outside their hips, creating a lever arm that extends beyond their center of gravity.
-
-### Gordon Ryan
-
-In competition, butterfly guard is one of my highest percentage positions for scoring sweeps because it's so dynamic and creates constant threats. The key is never being static—I'm always creating small movements with my hooks and grips that force my opponent to react. When they react to defend one sweep, I immediately attack the opposite direction. Against high-level opponents, I combine butterfly hooks with arm drags to set up back takes, which score 4 points and put me in dominant position. The position works exceptionally well in no-gi because without the gi grips, opponents have fewer tools to control distance and prevent elevation. I also use butterfly hooks as a gateway position—if the sweep isn't there, I can transition to X-guard, single leg X, or deep half within seconds. The versatility makes it very difficult for opponents to develop a consistent counter-strategy. The moment they post that hand to defend the sweep, their arm is extended and vulnerable to the drag.
-
-### Eddie Bravo
-
-Butterfly guard is fundamental to the 10th Planet system because it embodies our philosophy of constant movement and creating angles. We don't think of butterfly as just a sweeping position—it's a launching pad for back takes, leg locks, and dynamic transitions. The key innovation we focus on is combining butterfly hooks with unconventional grips like overhooks and whizzers to create unique sweeping angles that opponents don't expect. When you add the lockdown or electric chair entries from butterfly, you multiply your offensive options exponentially. In no-gi competition especially, butterfly allows you to be offensive without relying on gi grips that slow down the pace. We drill butterfly transitions constantly because the position teaches you to read opponent reactions in real-time and adjust your attacks fluidly. The rubber guard and mission control also connect naturally from butterfly when opponents try to pressure pass. Don't limit yourself to traditional approaches—the butterfly position is a launching pad for creative, systematic attacks that flow together.
 
 </section>
 

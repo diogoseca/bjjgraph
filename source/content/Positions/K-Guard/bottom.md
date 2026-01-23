@@ -8,7 +8,7 @@ description: "Master K-Guard Bottom in BJJ. Dynamic half guard variation with in
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -433,24 +433,6 @@ Partner commits weight forward attempting various passing grips while bottom pra
 
 **Average Time in Position**: 45-90 seconds before sweep or pass attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The K-Guard represents an intelligent synthesis of deep half guard's retention mechanics with butterfly guard's elevation principles, creating a hybrid system that addresses weaknesses in both parent positions. The inverted hook configuration generates biomechanical advantages by creating crossed-tension vectors that simultaneously disrupt the opponent's base while maintaining your connection points for control. The key to mastering this position lies in understanding that the hook system must function as a coordinated unit rather than independent components—the inverted inside hook pulls the trapped leg across your centerline creating lateral instability, while the butterfly hook creates vertical instability through constant elevation threat. This dual-axis disruption makes it exceptionally difficult for opponents to establish the stable platform required for effective passing. The position's greatest strategic value emerges in the transition phase between retention and attack, where the same hook configuration that provides defensive security also creates the geometric prerequisites for powerful sweeps and back-takes without requiring fundamental structural changes.
-
-### Gordon Ryan
-
-K-Guard is one of the most underutilized positions in modern no-gi competition despite offering exceptional versatility against pressure passing systems. I've found it particularly effective against opponents who rely on smash passing because the inverted hook naturally redirects their forward pressure into angles that set up immediate back-takes or deep half entries. The position allows you to stay dangerous offensively while maintaining strong defensive retention—you're never just surviving, you're constantly threatening. The key is to make your opponent react to your hook tension and then capitalize on their defensive adjustments. When they post to prevent the sweep, you have the back-take. When they pull back to free their leg, you have the single leg X. The beauty of K-Guard is that you're controlling the engagement on your terms rather than simply reacting to their passing attempts. In competition, I use this as a transitional position rather than a static hold—you're flowing through it as part of a larger retention and attack system that keeps opponents guessing and prevents them from settling into their preferred passing rhythms.
-
-### Eddie Bravo
-
-K-Guard is pure 10th Planet philosophy in action—it's dynamic, it's unconventional, and it keeps you in constant attack mode even from bottom position. The inverted hook creates this weird geometry that messes with traditional passing mechanics, and once you get comfortable with the angles it opens up a whole world of sweeps and back-takes that people don't see coming. What I love about this position is how it naturally flows into the lockdown system and electric chair setups when you need to slow things down, but also gives you explosive options like the waiter sweep or deep half when you want to attack. The key is staying mobile—you can't just lock it in and chill like you might with some other half guard variations. You're constantly creating angles, constantly adjusting, constantly making them react to your movement. It's perfect for the modern game where static positions get passed. The position also sets up seamless transitions to leg locks if you're in a ruleset that allows them, because that inverted hook configuration is already halfway to saddle or ashi entries. Train it with the understanding that it's a launching pad for attacks rather than a resting position.
 
 </section>
 

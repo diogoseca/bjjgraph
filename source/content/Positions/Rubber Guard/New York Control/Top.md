@@ -8,7 +8,7 @@ description: "Master defensive strategies against New York Control from top posi
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -408,24 +408,6 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 **Average Time in Position**: 60-120 seconds to achieve escape or fall to submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending New York Control requires fundamental reconceptualization of guard passing priorities and mechanical sequencing. The position creates what I term 'inverted defensive requirements' where traditional base-building and posture-establishment responses actively increase submission danger rather than creating escape opportunities. The systematic defensive approach prioritizes overhook extraction before leg control removal because the arm restriction prevents effective hand fighting that would otherwise neutralize submission threats. Top players must develop comfort with positions that feel unstable from conventional passing perspectives, trusting that systematic escape protocols prevent submission more effectively than instinctive base-building. The biomechanical challenge stems from the dual control mechanism where the leg restricts vertical posture while the overhook prevents lateral posting—this combination nullifies traditional passing mechanics and demands specialized defensive training. Competition preparation requires dedicated drilling of rubber guard defensive protocols, as the position appears infrequently enough that instinctive responses dominate actual execution without specific technical preparation.
-
-### Gordon Ryan
-
-New York Control defense proved critical in my competition preparation against opponents with 10th Planet backgrounds. The position creates immediate submission danger that punishes standard passing responses—driving forward feeds triangles and omoplatas while attempting vertical posture allows deeper leg control. I found the most reliable escape sequence involves patient overhook extraction through lateral movement and angle creation, only addressing leg control after arm freedom is established. The mental challenge comes from resisting aggressive passing instincts that work effectively against traditional guards but become liabilities against rubber guard structure. Competitors without specific New York defensive experience typically make critical errors during initial encounters, as their trained responses prove counterproductive. I recommend dedicating training time to systematic rubber guard defense regardless of how infrequently you encounter these positions in competition—the technical preparation provides insurance against opponents who specialize in 10th Planet systems. The key competitive advantage comes from recognizing defensive requirements early and implementing systematic escape protocols rather than attempting to force standard passing mechanics.
-
-### Eddie Bravo
-
-Watching competitors struggle with New York Control defense validates the position's effectiveness as systematic specialization. Most practitioners attempt standard passing responses that play directly into submission chains—they drive forward increasing omoplata danger, extend arms creating triangle setups, or attempt vertical posture that feeds leg control depth. The defensive solution requires patience and systematic approach that feels counterintuitive to pressure-passing specialists. Top players must prioritize overhook escape before leg removal, utilize lateral movement instead of forward pressure, and maintain defensive arm positioning throughout the sequence. The position rewards bottom players who develop exceptional flexibility alongside systematic understanding, while punishing top players who rely on instinctive responses without specific rubber guard defensive preparation. I encourage all practitioners to train both sides of New York Control—understanding the attacking mechanics provides insight into defensive requirements, while systematic defensive drilling prevents critical errors during competitive encounters. The position represents exactly what 10th Planet innovations aim to achieve—creating technical specializations that provide strategic advantages through unfamiliarity and systematic depth.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -348,15 +348,6 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 - [[Technical Stand-up]] - Alternative technique - another method to escape broken posture situations
 - [[Knee Shield Retention]] - Related defense - what opponent may transition to if you recover too aggressively
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: Posture recovery is fundamentally about understanding leverage mechanics and spinal biomechanics. The spine is strongest when aligned vertically under compression, but extremely vulnerable when bent forward under load. When your posture is broken, you're in the weakest possible structural position. The key to recovery is never fighting strength against strength - you don't try to overpower their pulling force directly. Instead, you create frames that redirect their pulling vector while simultaneously driving your hips backward to create distance. This hip movement is the critical element that most people miss. They try to straighten their spine first, which is biomechanically inefficient and dangerous. The proper sequence is: establish frames, drive hips back to create distance, then progressively straighten the spine from the hips upward. Your core muscles must remain engaged throughout to protect the spine. Think of it as a progressive unfolding rather than an explosive jerk. The systematic approach treats posture recovery as a three-phase process: threat assessment and frame establishment, distance creation through hip drive, and finally postural restoration with base consolidation.
-- **Gordon Ryan**: In competition, posture recovery is absolutely critical because the moment your posture is broken, you're in serious danger. I've seen countless matches where guys get their posture broken and then immediately get swept or submitted because they don't know how to recover properly. My approach is very aggressive and immediate - the second I feel my posture compromised, I'm already working my recovery sequence. I don't wait for them to fully break me down. The key for me is the hip drive - I use my legs explosively to create distance. Against elite guard players, you can't be tentative about recovery. They'll capitalize instantly on broken posture. I also focus heavily on grip fighting during recovery. If they have collar grips, I'm either breaking those immediately or standing up to negate them. One thing I've learned competing at the highest level is that you need multiple recovery pathways. If the seated recovery isn't working because they have dominant grips, I transition to standing recovery without hesitation. Time spent with broken posture is time spent in danger, so recovery has to be fast and decisive.
-- **Eddie Bravo**: From the 10th Planet perspective, we approach posture recovery a bit differently because we're primarily no-gi. Without collar grips to worry about, the recovery mechanics can be more dynamic. But the fundamental principle remains: create space with the hips, not by pulling with the upper body. What I emphasize with my students is the relationship between posture recovery and immediate passing. Don't just recover and chill - use that momentum to attack. When you drive those hips back and come up, you're already in motion. Channel that into your passing sequence. We also drill posture recovery in combination with defending against specific threats. So you're not just drilling generic recovery - you're practicing recovering while they're threatening the armbar, or the triangle, or the omoplata. This builds automatic defensive awareness. Another thing we work on is the standing recovery, especially against flexible guard players who can keep breaking you down from seated positions. Learning to smoothly transition from seated to standing recovery is a game-changer. The creativity comes in how you chain the recovery into your passing attacks - it's all one continuous movement, not separate techniques.
 
 </section>
 

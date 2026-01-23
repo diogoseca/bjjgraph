@@ -8,7 +8,7 @@ description: "Master offensive strategies from Modified Mount. Learn stability m
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -460,24 +460,6 @@ Partner gives specific defensive responses (arm frames, hip escapes, turtling). 
 
 **Average Time in Position**: 90 seconds to 2 minutes to submission at intermediate level with active attacks
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Modified Mount represents an intelligent adaptation of mount mechanics that prioritizes stability and submission access over complete control. The posted leg functions as a biomechanical anchor that makes the position remarkably resistant to explosive reversal attempts - when the opponent bridges, your posted leg creates a triangular base structure that is inherently stable. However, this stability comes at a cost: the asymmetric weight distribution creates a directional vulnerability where intelligent opponents can exploit the posted leg side for escapes. Therefore, Modified Mount should be understood as a specialized tool rather than a universal solution. Deploy it when facing opponents with excellent bridging mechanics or when deliberately setting up armbars, as the position naturally funnels into armbar mechanics. The key technical point involves maintaining primary control through the across-body knee while using the posted leg purely for base stability - many practitioners make the error of weighting the posted leg too heavily, which paradoxically reduces overall control effectiveness. Master the timing of transitioning from Modified Mount to S-mount or armbar position, as this transition represents the position's primary offensive purpose.
-
-### Gordon Ryan
-
-In competition, I use Modified Mount primarily as a transitional position when moving toward armbars or when I feel my opponent has a really dangerous bridge-and-roll. That posted leg gives me insurance against getting reversed while I'm working my grips for submissions. The position's biggest advantage is that it lets me commit more aggressively to armbar setups without worrying about losing position if they defend well - the posted leg keeps me stable even when I'm reaching for grips or transitioning. The key is not staying in Modified Mount too long - it's a position with a specific purpose, not a destination. If they're defending the armbar well, I'll transition to high mount or standard mount where I have more control options. If they're trying to escape toward the posted leg, sometimes I'll actually use that momentum to help me get the armbar by swinging over. Train your armbar entries from Modified Mount specifically because the mechanics are slightly different from standard mount armbars, and that difference matters under pressure.
-
-### Eddie Bravo
-
-Modified Mount is interesting because it's like having a kickstand on your bike - you can lean way over to work submissions without falling off. I see it most often when transitioning from side control to mount, people naturally post that leg, and if you know what you're doing, you can actually use that moment to attack. The armbar is obvious from here, but don't overlook the mounted triangle - the asymmetric position actually sets up the triangle mechanics nicely if they're defending their arms well. One thing to watch out for is posting that leg too far - I've seen people get their posted leg captured into lockdown or half guard because they overextended. Keep it close enough that you're stable but not so far that you're giving up the position. Also, use Modified Mount as a rest position when you need to catch your breath - it's lower energy than constantly attacking from standard mount, but you're still dominant and can explode into submissions when you're ready.
 
 </section>
 

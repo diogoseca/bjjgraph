@@ -8,7 +8,7 @@ description: "Master Turtle Bottom position in BJJ. Defensive position with guar
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -422,24 +422,6 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 
 **Average Time in Position**: 10-30 seconds before transition to another position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The turtle position represents a critical juncture in the positional hierarchy where the defender must make intelligent decisions under pressure. The mechanical keys to successful turtle defense lie in maintaining structural integrity through proper weight distribution across all four posting points while simultaneously creating dynamic movement to prevent the opponent from establishing stable control. The elbows-to-knees connection is non-negotiable - any gap here provides immediate access for underhooks which cascade into back takes or crushing control positions. What separates competent turtle players from vulnerable ones is the ability to recognize weight distribution patterns in real-time: when the opponent's weight is high and forward, granby rolls become highly effective; when their weight is low and driving, technical standups or sit-throughs present better options. The turtle should never be viewed as a resting position but rather as a dynamic platform for guard recovery, requiring constant assessment and explosive execution of escape sequences before the opponent can consolidate their attack.
-
-### Gordon Ryan
-
-In competition, the turtle is a position you want to minimize time in because judges and referees often view extended turtle time as passivity or stalling, and it signals defensive positioning that can influence scoring decisions. That said, it's an absolutely essential recovery tool when your guard gets passed - the key is having explosive, practiced movements that you can execute immediately without hesitation. I rely heavily on the technical standup from turtle because it gets me back to standing where I can re-engage on my terms, and most opponents aren't prepared for the explosive level change. The granby roll works incredibly well when timed correctly, but you need to drill it thousands of times so it becomes reflexive - in competition there's no time to think, you just react. Against high-level opponents, you're working with a 2-3 second window before they establish back control, so your turtle game needs to be as automatic as breathing. I also use the turtle offensively sometimes after failed guard retention to bait certain reactions that I can counter, but that's advanced strategic play that requires reading your opponent's tendencies.
-
-### Eddie Bravo
-
-The turtle in 10th Planet is not just a defensive position, it's a gateway to some of our most effective positions like the Lockdown, Deep Half, and our various truck entries. We actually encourage going to turtle in certain situations because we've developed such a comprehensive system for both defending and attacking from there. The key is having multiple paths programmed - if the granby doesn't work, you flow immediately to the sit-through; if that's stuffed, you're already moving to the technical standup or deep half. It's all about chains and not getting stuck on one technique. We also use a lot of unusual movements like the 'electric chair' entry from turtle and the twister setups that catch people completely off guard because they're not traditional escapes. The beautiful thing about the turtle in no-gi is how dynamic it can be - without grips slowing everything down, you can generate tremendous momentum with hip movement and create scrambles that favor the person who's drilled more scenarios. Never just sit in turtle waiting - that's death. You've got to be like a coiled spring ready to explode in multiple directions based on what you feel from your opponent's pressure.
 
 </section>
 

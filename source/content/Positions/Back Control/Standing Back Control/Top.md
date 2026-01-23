@@ -8,7 +8,7 @@ description: "Master offensive strategies for standing back control top position
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -452,24 +452,6 @@ Start with compliant partner, establish standing back control. Every 30 seconds 
 
 **Average Time in Position**: 20-45 seconds (typically transitions to ground or submission quickly)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Standing back control top represents a fascinating intersection of wrestling-style control and traditional BJJ submission mechanics. The fundamental challenge is that you must maintain back exposure - one of the most dominant positions in grappling - while both you and your opponent are in an inherently unstable standing position. This requires sophisticated understanding of weight distribution and body mechanics. The harness or seat belt grip is your primary control mechanism, and it must be established with proper structure - one arm over the shoulder, one under the armpit, hands connecting across the opponent's chest. This configuration gives you maximum control of their upper body while maintaining your ability to attack the neck. The strategic question you must answer immediately is whether to pursue standing submissions or take the opponent to the ground. Standing submissions offer the advantage of surprise and finishing quickly, but they require precise technique because you lack the stability of the mat. Taking the opponent down allows you to consolidate your position into more stable back control, but gives them time to organize their defense. The correct answer depends on your opponent's defensive reactions, your technical proficiency, and the specific match context. Advanced practitioners develop a dynamic flow between these options, using opponent reactions to guide their decisions rather than pre-committing to one pathway.
-
-### Gordon Ryan
-
-Standing back control is one of my favorite positions because it's so versatile - you can finish from here or use it to get to even better positions. The key is being aggressive with it immediately. A lot of people get standing back control and then just hold it, waiting for something to happen. That's wrong. The second you get behind someone standing, you should be attacking - either going for the choke or taking them down hard to grounded back control. In competition, I use this position as a decision point based entirely on what my opponent gives me. If they panic and expose their neck trying to escape, I'm attacking the rear naked choke right there. If they turtle up defensively and protect the neck well, I'm taking them down and consolidating to grounded back control where I have more time to work. The hooks are really important here - if you can get your hooks in standing, your opponent is basically screwed because they can't maintain their base. I drill taking the back from standing positions all the time, especially from front headlock and clinch scenarios, because it comes up so often in matches. Once you have it, don't waste it by hesitating. Make your decision and commit fully - either choke them out or take them down, but do it with purpose and aggression.
-
-### Eddie Bravo
-
-Standing back control is dangerous for both people, which is why I love it. In 10th Planet system, we work this position constantly because it shows up in scrambles and transitions all the time, especially in no-gi where the grips are more dynamic. The way I teach it is you gotta be loose and ready to flow with whatever happens. Like, you might be going for the rear naked choke and suddenly the guy drops to turtle, so you gotta be ready to flow to truck or continue the back take on the ground. The harness control is obviously key, but I also teach my guys to use the body triangle from standing when possible - it's harder to lock up but when you get it, the opponent is toast. One thing people sleep on is the psychological aspect - when you take someone's back standing, they often freak out because they can't see you and they feel vulnerable. Use that. Sometimes I'll just squeeze the body lock and breathe on their neck before attacking the choke, makes them panic even more. But you also gotta be smart about your own balance - if you're not careful, a good opponent can throw you or use your weight against you. That's why I emphasize staying mobile and being ready to either take them down or roll with them if they try something crazy. The worst thing you can do is be stiff and static. Stay loose, stay heavy on their back, and be ready to finish or transition.
 
 </section>
 

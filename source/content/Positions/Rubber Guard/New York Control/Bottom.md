@@ -8,7 +8,7 @@ description: "Master offensive New York Control from bottom position. Complete g
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -483,24 +483,6 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 **Average Time in Position**: 45-90 seconds before transition or submission attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-New York Control represents a fascinating study in the trade-offs between traditional base maintenance and submission proximity within guard systems. The position sacrifices conventional posting opportunities and defensive frames in favor of what I term 'offensive depth'—the ability to place the opponent in immediate submission danger through structural control rather than spatial management. The biomechanical efficiency stems from the dual control mechanism where the leg restricts vertical posture while the overhook prevents lateral posting, creating a control web that nullifies traditional passing mechanics. The systematic brilliance lies in understanding New York not as isolated technique but as junction point within submission chains where every defensive option opens alternative finishing pathways. Practitioners must develop exceptional flexibility alongside technical understanding, as insufficient range of motion prevents the structural depth necessary for effective implementation.
-
-### Gordon Ryan
-
-New York Control proved particularly effective in my competition experience against opponents unfamiliar with rubber guard defensive requirements. The position creates immediate psychological pressure as traditional base and posture become liabilities rather than assets—driving forward increases submission danger while backing away allows position advancement. I found the triangle and omoplata chains most reliable in high-level competition, as these submissions maintain effectiveness even when opponents understand the basic defensive requirements. The key competitive advantage comes from forcing opponents into unfamiliar defensive scenarios where their trained responses become counterproductive. However, the flexibility requirements mean this position suits specific body types and training backgrounds—practitioners without dedicated mobility work will struggle to achieve the structural depth necessary for high-percentage finishing. I recommend developing the position as systematic specialization rather than attempting to force implementation without proper physical preparation.
-
-### Eddie Bravo
-
-New York Control exemplifies the core philosophy behind 10th Planet innovations—challenging traditional Brazilian Jiu-Jitsu assumptions about what constitutes effective guard structure. I developed this position recognizing that exceptional flexibility could be weaponized into offensive advantage rather than viewed as mere supplementary attribute. The beauty lies in creating submission systems that remain largely unexplored in competitive contexts, giving dedicated practitioners strategic advantages through technical specialization. The gogoplata finish represents the signature attack, but the real power comes from understanding the systematic chains connecting New York to Mission Control, Invisible Collar, and Zombie positions. Too many practitioners attempt the position without adequate flexibility development or systematic understanding—this is critical mistake. Dedicate months to mobility work and drilling submission chains before attempting implementation in live sparring. The position rewards patience and systematic training with access to finishing mechanics that consistently surprise even experienced black belts unfamiliar with rubber guard systems.
 
 </section>
 

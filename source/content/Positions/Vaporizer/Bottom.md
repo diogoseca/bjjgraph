@@ -8,7 +8,7 @@ description: "Master Vaporizer bottom position in BJJ. 10th Planet innovation fo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -423,24 +423,6 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 **Average Time in Position**: 45-90 seconds before transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Vaporizer represents an interesting case study in systematic half guard development where the lockdown configuration creates a mechanical advantage that transcends traditional strength-based control. The biomechanical principle at work involves using the figure-four leg lock to immobilize one of the opponent's primary posting bases while the whip-up motion creates a lever effect that disrupts their remaining base points. What makes this position particularly effective from a systematic perspective is how it creates forced reactions - the opponent must choose between defending the sweep, the submission, or the positional advancement, and each defensive choice opens a different attacking pathway. The coordination required between lower body lockdown pressure and upper body control through the underhook exemplifies proper structural integration where multiple control points work synergistically rather than independently. Advanced practitioners understand that the Vaporizer is not merely a static position but rather a transitional control state where constant pressure and movement prevent the opponent from organizing effective defense while creating multiple decision points that favor the bottom player.
-
-### Gordon Ryan
-
-In competition, the Vaporizer is one of those positions that immediately tells you if someone actually trains 10th Planet methodology or just knows it theoretically. The difference is massive - real practitioners use it as an active attacking position that constantly threatens multiple finishes, while amateurs get stuck holding the lockdown without creating real danger. What I've found works best in high-level matches is using the Vaporizer as a transitional position rather than a destination. You hit the lockdown, establish the underhook, create the whip-up pressure, and immediately start flowing between Old School sweep attempts, Electric Chair threats, and Truck entries. The key is that each attack sets up the next one - when they defend the sweep, the Electric Chair opens up; when they defend that, you can hit the Truck. In no-gi especially, this position is incredibly effective because without gi grips to control you from the top, opponents really struggle to deal with the combination of lockdown control and upper body manipulation. The submission rate from Vaporizer in high-level competition is actually pretty impressive if you include all the secondary attacks after initial transitions.
-
-### Eddie Bravo
-
-The Vaporizer is one of those positions where everything comes together in the 10th Planet system - it's got the lockdown control, the whip-up mechanics, multiple attack options, and it flows naturally into the rest of the game. What most people don't understand about this position is that it's designed to break people mentally as much as physically. You get locked down, you're getting whipped up, you're defending the Old School sweep, then boom - Electric Chair is there, or I'm taking your back, or I'm rolling you into the Truck. It's constant pressure and constant threats, which is exactly what we want in no-gi where you can't just grab the gi and stall. The beauty of the Vaporizer is how it exemplifies the whole 10th Planet philosophy of creating dilemmas and forcing reactions. Every defense they make opens something else up, and if they don't defend, you just take what's there. When you really master this position, it becomes this branching tree of options where you're always a step ahead because you understand the sequences and they're just reacting. Train the Vaporizer as a flow rather than a destination, and suddenly your half guard bottom game becomes this unstoppable machine that keeps generating offense.
 
 </section>
 

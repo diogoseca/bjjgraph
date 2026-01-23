@@ -8,7 +8,7 @@ description: "Attacking perspective in reversed leg entanglement. Master control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -449,24 +449,6 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 
 **Average Time in Position**: 10-20 seconds (transitional position requiring quick decision-making)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Ushiro ashi-garami represents a critical test of systematic leg lock understanding because it requires real-time mechanical adaptation to changed circumstances. The position emerges when opponents execute technically sound escape attempts through inversion—a movement that would defeat practitioners who have only learned static ashi-garami positions without understanding the underlying principles of leg entanglement control. The key insight is that ushiro is not a separate position but rather a geometric variation of standard ashi-garami configurations. The same control principles apply, but the reversed hip orientation requires adjusted application. Students must understand that heel hook finishing mechanics change substantially in ushiro—the optimal grip positions, hip angles, and breaking directions all shift relative to standard ashi-garami. However, the fundamental principle of controlling the opponent's leg while isolating their hip remains constant. Advanced practitioners develop the ability to maintain offensive pressure through continuous positional adaptation, attacking during the opponent's escape attempts when defensive attention is divided. The decision tree in ushiro revolves around assessing whether immediate submission is available or whether following the opponent's movement to saddle or back control offers higher success probability.
-
-### Gordon Ryan
-
-Ushiro ashi-garami is where you separate people who've just learned techniques from people who understand leg lock systems. Elite competitors invert constantly to escape leg attacks, and if you can't maintain position through that inversion, you're going to lose every leg entanglement exchange against high-level opponents. My approach to ushiro is aggressive—I'm either finishing the heel hook immediately or I'm transitioning to saddle or taking the back. There's no value in hanging out in ushiro trying to perfect the position; it's too dynamic and the opponent is too mobile. The competition application is recognizing when to pursue the submission versus when to follow the movement. If their heel is exposed and my grips are solid, I'm finishing regardless of their inversion. If they've hidden the heel effectively and they're committed to the turtle rotation, I'm following to the back because that's often easier than forcing the leg attack. Against the best guys, ushiro appears in rapid scramble sequences—standard ashi to ushiro to saddle to honey hole all happening in seconds. Your success rate depends entirely on having practiced these transitions until they're automatic. The athletes who beat me in leg entanglement exchanges are comfortable attacking through every position in the sequence, not just the pretty Instagram positions.
-
-### Eddie Bravo
-
-The ushiro situation is fascinating because it's basically an inverted leg lock position, and we've been working with inverted positions in the 10th Planet system for decades. The comfort level that rubber guard and twister training develops translates directly to offensive capability in ushiro ashi-garami. When your opponent inverts to escape, most people tense up and try to prevent the movement—that's the wrong approach. Let them invert while you maintain control of their leg, then use that inversion against them. The creative opportunities in ushiro come from recognizing that their inverted position limits their defensive options in some ways. They can't see what you're doing as easily, their hand fighting is compromised by the angle, and if they're focused on completing the escape they're not defending the submission as well. We also look at this position as part of the truck system pathway—if they keep inverting past ushiro, you can end up in truck positions or twister setups depending on how you follow the movement. The key principle from the 10th Planet perspective is staying comfortable in dynamic transitions and seeing inverted positions as opportunities rather than problems. Your flexibility and conditioning determine whether you can maintain offensive pressure through these scrambles or whether you gas out and let them escape.
 
 </section>
 

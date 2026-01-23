@@ -8,7 +8,7 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -337,15 +337,6 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 - [[Deep Half Guard]] - Counter position opponent may attempt during pass
 - [[Pressure Passing]] - Foundational principle underlying technique
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Knee Through pass exemplifies fundamental biomechanical principles of efficient guard passing. The technique's effectiveness derives from its ability to create a unified pressure system where shoulder, hip, and knee work as a coordinated unit rather than independent components. The critical insight is that the pass begins with upper body dominance, not leg movement. Many practitioners mistakenly believe passing is about freeing the leg, when in reality, the leg extraction is merely a consequence of proper pressure application. The crossface serves as the anchor point that immobilizes the opponent's upper body, while hip alignment channels force through the core structure. Once these elements are established, the knee moves through the path of least resistance created by the pressure system. This pass also demonstrates the principle of connection maintenance throughout transitions. At no point should daylight appear between your body and the opponent's, as any separation allows defensive frames to regenerate. The Knee Through represents passing in its most distilled form: establish dominant control, maintain connection, advance position systematically.
-- **Gordon Ryan**: In competition, the Knee Through pass is one of my highest percentage techniques against defensive half guard players who aren't creating dynamic attacking positions. The key to making this work at the highest levels is understanding that it's a pressure pass, not a speed pass. You cannot rush this technique against quality opponents. What makes it competition-viable is its ability to shut down the opponent's offense while you work the pass. They cannot sweep you, they cannot attack submissions, and they're constantly defending, which drains their energy and mental focus. I've found that combining the Knee Through with strategic grips is crucial. Controlling the near wrist prevents the underhook, but more importantly, it prevents them from posting and creating the frames they need for guard retention. In ADCC-level competition, I often use this pass in combination with the Knee Slice, reading their defensive reactions to determine which technique will complete the pass. If they're blocking the Knee Through by preventing the crossface, I cut to Knee Slice. If they're worried about the Knee Slice, the Knee Through becomes available. The pass is also excellent for winning on points because it's methodical and controlled, minimizing risk of reversal.
-- **Eddie Bravo**: The Knee Through is solid pressure passing fundamentals, and while we use it at 10th Planet, I'm always looking for ways to make traditional techniques more dynamic and harder to defend. One thing I emphasize with this pass is that you don't always have to complete it to side control in the traditional way. If the opponent is really good at side control escapes, consider passing to knee on belly or even stepping directly to mount if the angle presents itself. We also incorporate the Knee Through as a baiting technique to set up other attacks. Sometimes you show the Knee Through pass, let them defend it with specific reactions, then switch to Darce setups or front headlock attacks when they turn in. The electric chair position from lockdown can actually be countered with a variation of the Knee Through mechanics, where you use the same forward knee drive to clear their lockdown while maintaining top pressure. Don't be rigid with technique execution. If the standard Knee Through isn't working, maybe you need to address their lockdown first, or perhaps their specific body type requires you to modify the angle of attack. Stay creative and adaptive.
 
 </section>
 

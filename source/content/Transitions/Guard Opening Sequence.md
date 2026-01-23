@@ -8,7 +8,7 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -350,15 +350,6 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 - [[Elevator Sweep]] - Common counter/sweep opponent uses during standing break
 - [[Triangle from Closed Guard]] - Submission threat opponent may use if posture breaks
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: Opening the closed guard is fundamentally about establishing superior posture and systematically removing the opponent's control points. The sequence begins with standing posture or strong base in combat position, followed by strategic grip breaking and pressure application to force the guard open. The critical insight is that the guard opening and the pass are not separate techniques but one continuous action. Most students make the error of opening the guard and then pausing to think about which pass to use - this gives the opponent time to recover or establish frames. Instead, you must have your passing strategy determined before you even open the guard. The opening mechanics should flow directly into the passing mechanics in one unbroken sequence. Additionally, understanding that leverage through hip and leg movement is far superior to arm strength cannot be overstated - the closed guard cannot be muscled open reliably, but with proper mechanics it opens relatively easily even against much stronger opponents.
-- **Gordon Ryan**: In competition, I focus on standing guard breaks because they're high percentage and force my opponent to react rather than attack. The key is standing with perfect timing and immediately establishing dominant grips on their pants. When I stand, I'm already thinking three moves ahead - I know if they defend in a certain way, I'm going to knee slice, and if they defend another way, I'm going toreando. The standing break also creates psychological pressure because it shows you're not afraid of their guard and you're taking the initiative. One thing I've learned from thousands of matches is that you absolutely cannot hesitate after opening the guard. The moment their ankles unlock, I'm already pressuring into my pass. That split second of hesitation is what allows elite guard players to recover their structure. Also, don't be afraid to stand even against good closed guard players - just make sure your base is solid and your grips are strong before you commit to standing fully upright.
-- **Eddie Bravo**: The key to opening any guard is understanding the concept of creating space and using leverage rather than strength. Whether you're standing or using the combat base method, you need to be systematic and patient. Break the grips first - never try to open with their grips still on. Then establish your own grips that control their hips and legs. For the standing break, I like to really emphasize getting your feet positioned correctly, outside their hips and slightly back, before you stand all the way up. A lot of people stand too close and get swept immediately. Once you're standing, it's all about the hip drive forward while pulling their knees - this creates a mechanical advantage that doesn't require massive strength. In no-gi, the headquarters position for opening can be really effective because you can get that shin wedge between their legs. But remember, opening the guard is just step one - you better have your passing game ready to go because good guard players will recover faster than you think.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Roger Gracie's fundamental system: positional dominance thr
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -359,15 +359,6 @@ Roger's methodology emphasizes quality over quantity, drilling fundamental techn
 - [[Competition Strategy]] (System) - Roger's competition approach demonstrated system effectiveness at highest levels
 - [[Blue to Purple Progression]] (System) - Roger's fundamental system provides ideal technical foundation for advancing through belt ranks
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Roger Gracie's competitive record stands as the ultimate validation of systematic fundamental mastery. What made his game exceptional was not the techniques themselves - every practitioner knows how to execute a cross collar choke from mount - but rather the depth of understanding he brought to these basic movements. Roger understood that technique selection matters far less than technique execution, and he chose to develop perfect execution of high-percentage fundamentals rather than accumulate vast technical arsenals. His mount control demonstrated principles of weight distribution, base maintenance, and pressure application that transcended the specific position. The cross collar choke became unstoppable not through novel mechanics but through perfect grip depth, optimal angle creation, precise elbow positioning, and systematic application of pressure that built inexorably toward completion. This represents the highest expression of jiu-jitsu philosophy: technique is only as effective as the precision with which it is executed, and perfect fundamentals defeat imperfect advanced techniques every time.
-- **Gordon Ryan**: Roger proved that you can tell opponents exactly what you're going to do and still submit them if your execution is perfect. That's the ultimate competition mindset - not trying to surprise or trick people, but executing fundamentals so well they can't stop you even with full knowledge. His mount was impossible to escape not because of some secret technique but because every detail was perfect: weight distribution kept you flat, hand positioning prevented your frames, hip mobility followed every escape attempt before it developed. When he got the cross collar grips, you knew the choke was coming, you'd defended it a thousand times before, but his grip depth, angle, and pressure made defense impossible. That's what separates world champions from everyone else - not secret techniques but world-class execution of basics. If you can make fundamental techniques work against elite opponents who know they're coming, you understand jiu-jitsu at the highest level. Roger's game proves you don't need hundreds of techniques; you need perfect execution of the right ones.
-- **Eddie Bravo**: What's crazy about Roger is he did the complete opposite of my system and proved fundamentals can be just as effective as innovation when executed perfectly. I'm all about creating new positions and unexpected attacks, but Roger showed that perfect execution of basics can dominate world-class competition. His cross collar choke from mount became legendary because he refined every tiny detail until it was unstoppable - that's a level of dedication to fundamentals that deserves massive respect. The lesson isn't that you have to choose between fundamentals and innovation, but that depth matters more than breadth. Roger went incredibly deep on a small set of techniques while I went broad with lots of positions and variations. Both approaches can work at the highest level if you commit fully. His success proves that mastering the fundamentals everyone knows can be just as effective as developing techniques nobody expects. It's not about the techniques themselves but about the level of understanding and execution you bring to them.
 
 </section>
 

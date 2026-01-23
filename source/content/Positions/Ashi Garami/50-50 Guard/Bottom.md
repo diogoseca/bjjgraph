@@ -8,7 +8,7 @@ description: "Master 50-50 Guard Bottom defensive strategies. Learn heel protect
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -401,24 +401,6 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 
 **Average Time in Position**: 30-90 seconds before reversal, escape, or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The 50-50 guard bottom position represents a critical defensive challenge in modern leg lock systems. The position's name suggests parity, but biomechanically the top position enjoys significant advantages: gravitational assistance in pressure application, superior hip positioning for inside control, and better angles for heel exposure. Your primary defensive task is heel protection through proper knee alignment - rotate your knee inward to hide the heel, creating what I call the 'defensive rotation.' This rotation must be maintained constantly, not just when you feel an attack coming. The second critical element is inside position control - if opponent achieves inside position with their knee across your hip line, they control the position hierarchy. You must either match this inside position immediately to enable reversal, or recognize the unfavorable geometry and extract to standing. Many practitioners make the error of fighting endlessly from inferior position, depleting energy reserves that could be used for intelligent extraction. The decision tree is binary: inside position parity equals fight for reversal; inside position deficit equals strategic extraction. This is not cowardice, this is tactical intelligence based on biomechanical reality.
-
-### Gordon Ryan
-
-I've been put on bottom in 50-50 plenty of times - it's part of the modern game. Here's what I do: first, I assess inside position immediately. If I have it or can get it, I fight for reversal because I'm confident in my leg locks and position reversals. If opponent has clear inside advantage, I extract to standing without ego - there's no points for staying in bad position. The biggest mistake people make from bottom 50-50 is panicking. Stay systematic: hide your heel, break their grips, create space with your hips, and make them work for everything. When opponents attack my heel from top 50-50, I defend until they overcommit, then I attack theirs. Counter heel hooks from bottom are real - I've finished black belts with them. But you need perfect timing and your heel must be safe first. In competition, don't spend more than 30 seconds on bottom unless you're setting up counter. Time is your enemy here. I've won matches by simply not giving opponents the satisfaction of controlling me on bottom - I extract, reset, and attack from better positions. That's championship mentality, not running away.
-
-### Eddie Bravo
-
-Bottom 50-50 is not where you want to be, but it's not the end of the world either. I teach my students to be creative from bottom - you've got options. The classic escape is extracting to stand, but against good guys that's tough. I like the transition to Single Leg X - you're already in leg entanglement, just transform it to something where you have more offense. Also, the inversion to back attack works surprisingly well when opponent is focused on your legs. They're hunting your heel, you're hunting their back. That's 10th Planet thinking - offense from anywhere. But real talk: if you're against a legit leg lock guy and you're on bottom 50-50, defend your heel first. No moves, no reversals, no counters matter if your knee gets destroyed. I've seen too many guys get injured trying to be heroes from bad positions. The Twister is cool, the Electric Chair is cool, but having healthy knees for your whole career is cooler. Know when to fight and when to extract. Tap early, tap often when heel hooks are locked - your training longevity depends on smart tapping. And remember: being on bottom 50-50 means something went wrong earlier - fix that in your game so you don't end up there in the first place.
 
 </section>
 

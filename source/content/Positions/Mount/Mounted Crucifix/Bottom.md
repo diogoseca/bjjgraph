@@ -8,7 +8,7 @@ description: "Escape the mounted crucifix position in BJJ. Comprehensive guide c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -447,24 +447,6 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 
 **Average Time in Position**: 30-60 seconds before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The mounted crucifix bottom represents a systematic failure in defensive hierarchy where you've allowed two critical control layers to be established simultaneously - mount positioning and arm entanglement. Your escape methodology must address these in reverse order of establishment. The biomechanics of arm extraction require understanding that direct force against established leg control creates adverse leverage; instead, you must create space through hip angle changes and exploit transitional moments when the opponent shifts weight for attacks. The temporal windows for escape are extremely narrow, typically occurring when the opponent commits to submission attempts and momentarily reduces positional control to increase submission control. Your defensive framing in this position is severely compromised, so you must rely on secondary defensive structures - shoulder elevation, chin protection, and strategic acceptance of less dangerous positional transitions if they facilitate arm liberation. The key insight is recognizing that sometimes moving backward positionally (accepting side control or back exposure) represents the optimal path forward if it removes the crucifix entanglement that prevents all subsequent escape mechanisms.
-
-### Gordon Ryan
-
-Being stuck in mounted crucifix bottom in competition means you've made multiple defensive errors, and now you're in damage control mode. I've escaped this position against world-class opponents, and the reality is you need perfect timing and explosive power. Most people make the mistake of trying to muscle out of the arm traps, but that just tightens everything up and hands them the armbar. What works at the highest levels is staying calm despite the terrible position, protecting your neck as the absolute first priority, and waiting for them to commit to an attack. When they go for the choke or armbar, their weight shifts and their leg control loosens slightly - that's your one window. You explode with everything you have, bridge hard, and accept whatever position comes next because anything is better than mounted crucifix. In competition, if they're truly locked in and starting to finish something, sometimes you have to give up your back to survive, which sounds crazy but back control is defendable while a locked-in crucifix armbar is not. The lesson is never let them isolate your arms in mount in the first place - keep your elbows tight, hands active, and never reach across your body.
-
-### Eddie Bravo
-
-Mounted crucifix bottom is a nightmare scenario, but I've taught a lot of guys how to survive positions like this through the Twister system principles of creating angles and accepting chaos. The traditional approach of trying to restore frames and work methodical escapes doesn't work here because your frames are gone - they're trapped. What you need is explosive, unconventional movement that creates scramble situations. I teach guys to use a modified electric chair concept in reverse - get your hips at extreme angles even if it feels wrong, create rotation that disrupts their crucifix control, and be willing to invert or roll through weird positions if it breaks the arm entanglement. Sometimes you gotta accept giving them your back temporarily because back control with your arms free is way more escapable than mounted crucifix. The rubber guard concepts of using flexibility and unusual angles apply here too - if you can get your legs involved in creating movement, even just bridging to one side extremely hard and bringing a knee up, you might create enough chaos to free an arm. But real talk, the best defense is never getting here. Keep your posture in mount defensive, elbows tight, and never let them start threading legs over your arms. Once those legs are over, you're in deep trouble and it's survival mode.
 
 </section>
 

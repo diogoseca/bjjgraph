@@ -8,7 +8,7 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -407,24 +407,6 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Scarf hold represents one of the most structurally sound pinning positions in grappling when properly applied, though its effectiveness in modern sport BJJ has diminished due to evolved escape methodologies. The position's power comes from the perpendicular angle creating a mechanical disadvantage for the bottom player, combined with the systematic removal of their defensive tools through arm and head control. The critical technical element often misunderstood is that scarf hold is not maintained through muscular strength or static pressure, but rather through precise weight distribution where the top player's hips act as the primary control point, driving pressure through their pelvis into the opponent's ribcage while their upper body controls the opponent's ability to turn or create frames. Modern practitioners often make the error of sitting too high or posting their weight through their arms, which fundamentally compromises the position's structural integrity. When executed with proper technique, focusing on low hip position, tight chest connection, and systematic control of the opponent's escape pathways, scarf hold remains highly effective even against knowledgeable opponents.
-
-### Gordon Ryan
-
-Scarf hold in competition is a position I use more as a transition point than a finishing position, primarily because modern competitors have developed effective escape sequences that make it difficult to hold for extended periods. That said, when you catch someone in proper scarf hold control, especially if they're not immediately defensive, you have excellent submission opportunities with the Americana being the highest percentage finish. The key in competition is recognizing that scarf hold shouldn't be viewed in isolation but rather as part of a pin cycle - you establish scarf hold, threaten the Americana or arm triangle, and when they defend and create movement, you transition to north-south or mount rather than fighting to maintain the original position. I've found the position most useful when opponents are defending other pins and you can quickly transition into scarf hold before they establish their defensive structure. The biggest mistake I see is people trying to force scarf hold to work against skilled opponents who are actively defending, rather than using it as a pressure tool and transition point in a larger pinning system.
-
-### Eddie Bravo
-
-Scarf hold in the 10th Planet system is something we acknowledge as effective but don't emphasize as heavily as other top positions, mainly because in no-gi the escape windows are wider without gi grips to lock down the control. That said, the principles of scarf hold - the perpendicular angle, the head and arm control, the hip pressure - these translate into some of our modified control positions. Where scarf hold becomes really interesting is when you start thinking about it not as a static position but as a dynamic control point where you're constantly threatening transitions. If someone gives you scarf hold in no-gi, you want to immediately attack - Americana, transition to mount, or flow to north-south - because the moment they start working the escape, your control window is closing. The innovation opportunity with scarf hold is in developing combination attacks where you're using the initial scarf hold connection to set up transitions that the opponent doesn't expect, creating the dilemmas that we emphasize throughout our system. Don't think of it as a position to hold, think of it as a position to attack from.
 
 </section>
 

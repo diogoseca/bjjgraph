@@ -8,7 +8,7 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -406,24 +406,6 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 
 **Average Time in Position**: 45-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Modified Scarf Hold creates what I call a 'breathing dilemma' - the chest pressure forces the bottom player to choose between maintaining composure and seeking immediate relief. The systematic escape requires accepting short-term discomfort while methodically creating the frames necessary for hip movement. Most practitioners fail because they seek immediate pressure relief rather than building proper escape structure. The near arm entrapment is the critical control point - once that arm is fully isolated, the position becomes nearly impossible to escape without opponent error. Train specifically to prevent deep arm control before attempting hip escapes.
-
-### Gordon Ryan
-
-I've tapped high-level guys from Modified Scarf Hold by making them panic under the pressure. The key is settling your weight before they establish defensive structure. From bottom, your only real chance is immediate action - every second you wait, my control gets tighter and your energy drains. I tell students to go to turtle immediately if they can't create frames in the first 10 seconds. Better to deal with back attacks than get crushed and submitted from this pin. The guys who escape are the ones who stay calm and work systematic techniques, not the ones who explode randomly.
-
-### Eddie Bravo
-
-Modified Scarf Hold is brutal but it has weaknesses. The top guy's base is actually compromised if you know where to look. I teach students to use the free arm to push on the hip while the trapped arm fights to stay bent. When you combine that with a hip bump at the right moment, you can create enough space to slide your knee through. The rubber guard principles of creating angles apply even here - you're not trying to overpower the pressure, you're redirecting it. And if you can get to turtle, you've got options. Don't fear the position, understand it.
 
 </section>
 

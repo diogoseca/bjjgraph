@@ -8,7 +8,7 @@ description: "Master psychological preparation and mental skills for peak compet
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Develop psychological skills systematically through deliberate practice rather than assuming mental toughness develops automatically through experience
 - Recognize optimal competition arousal level varies individually and must be calibrated to personal performance patterns
 - Structure pre-competition routines to create consistent psychological preparation and reduce anxiety through predictability
@@ -179,9 +179,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Pre-Competition Arousal Regulation**: The ability to recognize and adjust physiological and psychological arousal levels before matches to reach optimal competitive state. This includes managing nervous energy, controlling breathing patterns, and using visualization or physical warm-up protocols to calibrate intensity levels appropriate for peak performance without excessive anxiety or insufficient activation.
 
 **In-Competition Attention Control**: The capacity to maintain focus on relevant tactical and technical cues during matches while filtering out distractions, negative thoughts, and outcome concerns. This skill involves directing attention to controllable execution elements, reading opponent patterns, and maintaining present-moment awareness rather than dwelling on past mistakes or future consequences.
@@ -202,28 +202,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Match Strategy]]** (Complementary): Competition mindset enables effective execution of match strategy by providing the psychological stability and decision-making capacity necessary to implement tactical plans under pressure, while match strategy provides the cognitive framework that focuses mental energy productively during competition.
-- **[[Game Planning]]** (Prerequisite): Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure.
-- **[[Energy Management System]]** (Complementary): Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches.
-- **[[Positional Sparring]]** (Prerequisite): Positional sparring provides essential pressure exposure that develops competition mindset by creating training situations approximating competitive stress, allowing development of adversity response patterns and decision-making under pressure before actual competition contexts.
-- **[[Risk Assessment]]** (Complementary): Competition mindset provides the emotional regulation and cognitive clarity necessary for accurate risk assessment during matches, while systematic risk assessment frameworks prevent psychological factors from distorting tactical decision-making toward excessive caution or recklessness.
-- **[[Offensive vs Defensive Mindset]]** (Extension): Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity.
-- **[[Pacing]]** (Complementary): Psychological arousal regulation directly influences pacing decisions and energy expenditure patterns, while effective pacing strategies prevent physical exhaustion that degrades mental performance and decision-making quality during extended matches.
-- **[[Guard Retention]]** (Extension): Competition mindset prevents psychological collapse during sustained passing pressure, enabling persistent guard retention efforts across multiple defensive cycles without cumulative psychological fatigue degrading technical execution.
-- **[[Submission Defense]]** (Extension): Strong competition mindset prevents psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dangerous positions rather than mental resignation that precedes tap.
-- **[[Transition Management]]** (Complementary): Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic transition frameworks reduce cognitive load allowing mental resources for psychological regulation.
-- **[[Competition Training]]** (Prerequisite): Systematic competition-focused training provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition.
-- **[[Progressive Resistance Training]]** (Prerequisite): Progressive exposure to increasing training intensity develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Competition mindset enables maintaining offensive initiative from closed guard despite psychological pressure to play defensively when behind on points, supporting aggressive sweep and submission attempts rather than passive position holding driven by fear of losing position.
 
 **Mount**: Strong competition mindset prevents premature submission attempts from mount driven by anxiety about time running out, supporting patient control consolidation and systematic attack sequences that maximize finishing probability rather than desperate low-percentage attempts.
@@ -262,9 +243,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Pre-Competition State Assessment**: Evaluate current arousal level and psychological state several hours before competition, identifying whether activation is too low (lethargic, unmotivated), optimal (energized but controlled), or too high (anxious, scattered). Implement appropriate adjustment protocols such as energizing activities if under-aroused or calming techniques if over-aroused to reach optimal competitive state.
 2. **Routine Execution Check**: Systematically execute pre-competition routine including physical warm-up, tactical review, visualization, and mental preparation protocols developed in training. Use routine consistency to create psychological stability and familiar preparation pattern regardless of competition environment or circumstances, reducing uncertainty-driven anxiety.
 3. **Match Beginning Focus Establishment**: As match begins, direct attention immediately to first tactical objective from game plan (grip fighting, takedown attempt, guard pull) rather than outcome concerns or opponent's reputation. Establish process focus on technical execution and tactical implementation that channels nervous energy productively into competitive action.
@@ -277,9 +258,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Assuming competition mindset develops automatically through repeated competition exposure without systematic mental skills training
   - **Consequence**: Practitioners experience same psychological difficulties repeatedly across multiple competitions without improvement, as exposure alone does not develop emotional regulation and cognitive skills required for optimal performance under pressure
   - **Correction**: Implement deliberate mental skills training including visualization, arousal regulation techniques, adversity response protocols, and attention control exercises integrated into regular training schedule, treating psychological preparation as trainable capability requiring systematic development like physical or technical preparation
@@ -302,9 +283,9 @@ Competition Mindset represents the psychological state, cognitive patterns, and 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Competition Simulation Training** (Focus: Developing adversity response patterns, decision-making under pressure, and intensity management through repeated exposure to competition-like stress in training context where stakes are lower and learning opportunities are maximized through repetition and controlled progression.)
 Structured training sessions designed to replicate psychological and physical demands of competition through timed rounds, scoring systems, consequences for losses, and external pressure elements creating stress approximating competitive environment.
 
@@ -327,9 +308,9 @@ Structured review process after training sessions examining both technical execu
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Experiences significant anxiety before and during competitions that noticeably degrades technical performance quality compared to training environment
 - Demonstrates outcome-focused attention during matches with frequent concern about winning or losing rather than process-focused execution of techniques
@@ -366,10 +347,26 @@ Structured review process after training sessions examining both technical execu
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Match Strategy]]** (Complementary): Competition mindset enables effective execution of match strategy by providing the psychological stability and decision-making capacity necessary to implement tactical plans under pressure, while match strategy provides the cognitive framework that focuses mental energy productively during competition.
+- **[[Game Planning]]** (Prerequisite): Effective game planning creates the tactical foundation that competition mindset implements during matches. The psychological confidence derived from thorough game planning reduces anxiety and provides clear decision-making frameworks that prevent mental paralysis under pressure.
+- **[[Energy Management System]]** (Complementary): Competition mindset influences energy management through psychological regulation of intensity levels and pacing decisions, while effective energy management supports sustained mental performance by preventing physical fatigue that degrades cognitive function and emotional control during matches.
+- **[[Positional Sparring]]** (Prerequisite): Positional sparring provides essential pressure exposure that develops competition mindset by creating training situations approximating competitive stress, allowing development of adversity response patterns and decision-making under pressure before actual competition contexts.
+- **[[Risk Assessment]]** (Complementary): Competition mindset provides the emotional regulation and cognitive clarity necessary for accurate risk assessment during matches, while systematic risk assessment frameworks prevent psychological factors from distorting tactical decision-making toward excessive caution or recklessness.
+- **[[Offensive vs Defensive Mindset]]** (Extension): Competition mindset determines whether competitive pressure triggers offensive initiative or defensive reactions, with psychological preparation enabling maintenance of aggressive tactical approach despite stress that might otherwise create defensive passivity.
+- **[[Pacing]]** (Complementary): Psychological arousal regulation directly influences pacing decisions and energy expenditure patterns, while effective pacing strategies prevent physical exhaustion that degrades mental performance and decision-making quality during extended matches.
+- **[[Guard Retention]]** (Extension): Competition mindset prevents psychological collapse during sustained passing pressure, enabling persistent guard retention efforts across multiple defensive cycles without cumulative psychological fatigue degrading technical execution.
+- **[[Submission Defense]]** (Extension): Strong competition mindset prevents psychological submission before physical submission, maintaining problem-solving mentality and escape execution despite dangerous positions rather than mental resignation that precedes tap.
+- **[[Transition Management]]** (Complementary): Competition mindset enables rapid tactical decision-making during position transitions when multiple options exist and timing windows are narrow, while systematic transition frameworks reduce cognitive load allowing mental resources for psychological regulation.
+- **[[Competition Training]]** (Prerequisite): Systematic competition-focused training provides the pressure exposure and adversity experience necessary to develop competition mindset, creating training contexts that approximate competitive psychological demands before actual competition.
+- **[[Progressive Resistance Training]]** (Prerequisite): Progressive exposure to increasing training intensity develops psychological resilience systematically, building competition mindset through controlled stress exposure that allows adaptation without overwhelming anxiety.
+
+
+### Related Content
 - [[Match Strategy]] (Principle) - Competition mindset provides the psychological foundation necessary to execute match strategy effectively under pressure
 - [[Game Planning]] (Principle) - Thorough game planning reduces competition anxiety by providing clear tactical frameworks and decision-making structures
 - [[Energy Management System]] (Principle) - Psychological arousal regulation directly influences energy expenditure patterns and pacing decisions during matches
@@ -383,15 +380,6 @@ Structured review process after training sessions examining both technical execu
 - [[Guard Pass]] (Transition) - Competition mindset supports patient, systematic passing approach rather than desperate attempts driven by score pressure
 - [[Competition Training]] (Principle) - Systematic competition-focused training provides the pressure exposure necessary to develop competition mindset
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches competition mindset from systematic skill development perspective, treating psychological preparation as trainable capability rather than innate quality. Emphasizes what he terms 'process orientation' where competitors focus attention on tactical execution and technical details rather than outcome concerns about winning or losing. Particularly advocates for extensive exposure to competitive pressure in training through hard sparring and competition simulation, viewing pressure experience as essential for developing psychological resilience rather than relying on theoretical mental training alone. Systematically identifies common psychological failure patterns including outcome-focused anxiety, adversity-triggered resignation, and intensity mismanagement, then develops specific mental protocols addressing each vulnerability. Views competition mindset as force multiplier that determines whether technical and physical preparation manifests under pressure or remains inaccessible due to psychological interference. Emphasizes that elite competitors distinguish themselves not primarily through superior techniques but through superior ability to execute techniques under psychological pressure when opponents cannot.
-- **Gordon Ryan**: Views competition mindset as competitive weapon that enables aggressive tactical approaches and sustained intensity throughout matches while opponents crack under pressure. Focuses heavily on what he terms 'competitive confidence' rooted in extensive preparation creating justified belief in superior conditioning, technique, and tactical preparation. Emphasizes importance of developing comfort with discomfort through brutal training protocols that make competitions feel psychologically manageable by comparison, creating psychological advantage when opponents face unfamiliar intensity levels. Advocates for constructive use of competitive anger and aggression as performance enhancers when properly channeled rather than viewing these emotions as purely negative factors requiring suppression. Particularly emphasizes pre-competition certainty developed through preparation quality, entering competitions with conviction that victory is inevitable result of superior preparation rather than hopeful possibility. Views psychological collapse of opponents under pressure as predictable and exploitable phenomenon, deliberately increasing pressure when sensing opponent psychological vulnerability. Treats mental preparation as strategic advantage allowing tactical risk-taking that would be reckless without psychological foundation supporting aggressive execution.
-- **Eddie Bravo**: Approaches competition mindset with emphasis on authenticity and self-awareness rather than adopting generic mental approaches that may not match individual personality. When teaching mental preparation, emphasizes importance of understanding personal arousal patterns and anxiety responses, then developing individualized strategies rather than universal protocols that work for some but not others. Particularly interested in managing catastrophic thinking and worst-case scenario anxiety through rational analysis of actual consequences, helping competitors recognize that even worst competition outcomes are manageable and temporary rather than catastrophic as anxiety suggests. Views pre-competition nervousness as normal response that can be channeled productively rather than problem requiring elimination, reframing nervous energy as activation supporting performance rather than obstacle to overcome. Advocates for psychological preparation that embraces individual personality rather than forcing conformity to idealized competitor archetype, recognizing some athletes perform better with certain anxiety levels while others require different arousal states. Emphasizes learning from competition experience without harsh self-judgment, viewing losses and difficulties as information sources rather than personal failures, creating sustainable long-term relationship with competition rather than psychologically damaging approach that leads to burnout or competition avoidance.
 
 </section>
 

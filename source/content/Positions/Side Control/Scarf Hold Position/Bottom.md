@@ -8,7 +8,7 @@ description: "Escape Scarf Hold Bottom (Kesa Gatame) in BJJ. Defensive position 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -415,24 +415,6 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 
 **Average Time in Position**: 60-120 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Scarf Hold Bottom presents one of the most geometrically challenging defensive situations in grappling because the perpendicular angle of your opponent's torso relative to yours fundamentally negates the mechanical principles that make standard side control escapes effective. The key insight is recognizing that lateral hip movement—the foundation of shrimping escapes—requires your opponent's weight vector to be roughly parallel to your spine, which is not the case in scarf hold where their weight drives perpendicularly into your ribs. Therefore, your escape strategy must center on rotational rather than lateral movement, specifically bridge-and-turn mechanics that exploit the inherent instability in the perpendicular configuration. The systematic approach begins with establishing defensive frames using your free arm to prevent complete smothering and maintain breathing capacity, which is both a physical and psychological necessity. From this defensive foundation, you progressively work to compromise your opponent's base by attacking their posted far arm or extended back leg, creating the unstable moment where your bridge becomes effective. The most critical aspect is understanding that patience and systematic progression are not defensive timidity but rather the mechanically optimal approach to a position where explosive scrambling wastes energy without creating genuine escape opportunities.
-
-### Gordon Ryan
-
-In high-level competition, scarf hold bottom is one of those positions where you absolutely cannot afford to panic because the more you thrash around, the more energy you burn and the tighter their control becomes. I immediately focus on two things when I end up here: first, getting my free arm into a strong defensive frame against their head and shoulder to prevent them from completely crushing my face and restricting my breathing, and second, staying calm enough to recognize the specific windows when escape becomes possible. The reality is that most people don't hold scarf hold forever in competition because they want to advance to mount or attack submissions, and those transitions are when you have your best opportunities. When they shift their weight to move, that's when I immediately turn into them, attack their back, or shoot for turtle. The bridge-and-roll is also surprisingly effective if you time it right—grab their far arm or their gi and really commit to pulling them off balance before you bridge, don't just bridge into their stable base. One thing I've noticed is that a lot of modern BJJ guys aren't as comfortable in scarf hold as they are in standard side control, so if you know the specific escapes, you can actually capitalize on their uncertainty. Don't waste energy on techniques that don't work from this angle; be patient, wait for your moment, then explode through the escape when the window opens.
-
-### Eddie Bravo
-
-Scarf hold bottom is old-school judo control and it can feel super oppressive when you're stuck there, but here's the thing—when someone really commits to scarf hold, they're giving you access to their back, you just have to be savvy enough to recognize it and take it. In 10th Planet, we emphasize staying loose and mobile even under heavy pressure, and that philosophy applies perfectly to scarf hold because the more you can move and flow, the more opportunities you create. The ghost escape works beautifully here because you're sliding your body away from the pressure point while simultaneously turning into your opponent, which is exactly what you want to do against scarf hold. I also teach my guys to look for the moment when the top player sits back heavy trying to consolidate their control—that's when you turn into them aggressively and either get to turtle or start attacking their back. The bridge-and-roll is also legit if you set it up properly by grabbing their far arm or their pants and timing your bridge for when their weight is shifting. One thing I really emphasize is staying creative and not getting mentally defeated—every position has weaknesses, even a heavy old-school pin like scarf hold, and if you stay calm and keep problem-solving, you'll find the way out. Don't just accept the position, keep moving, keep creating problems for them, and eventually something will open up.
 
 </section>
 

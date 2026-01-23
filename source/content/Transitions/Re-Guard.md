@@ -8,7 +8,7 @@ description: "Master Re-Guard recovery in BJJ. Complete step-by-step execution f
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -340,15 +340,6 @@ Re-guarding represents a critical defensive skill that integrates throughout the
 - [[Frame and Shrimp]] - Combined movement pattern
 - [[Open Guard]] - Primary recovery target position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The re-guard is fundamentally about understanding spatial relationships and creating geometric advantages from disadvantaged positions. When your guard is passed or passing, you exist in a state of negative spatial control—the opponent occupies the space your legs should control. The solution is systematic space creation through framing and hip displacement. Frames must be understood not as pushing tools but as distance management instruments that create and maintain the critical 6-12 inches of space necessary for leg insertion. The hip escape is the primary space-generating mechanism, but it must be executed with precise timing relative to opponent's weight distribution. When opponent's weight is forward and heavy, your escape angle should be 45 degrees backward; when their weight is distributed evenly, your angle should be more lateral. The leg insertion represents the transition from defensive space creation to offensive position establishment. This is why I emphasize inserting legs with immediate grip control—space without control is temporary, but space plus control becomes sustainable position. The re-guard exemplifies the principle that defense in jiu-jitsu is not passive survival but active position recovery.
-- **Gordon Ryan**: In competition, your ability to re-guard directly correlates with your survival rate and point differential. I've had countless matches where opponents passed my guard but I immediately recovered, preventing them from scoring or establishing control time. The key is never accepting bottom position—the moment you feel guard passing succeeding, you should already be executing your first hip escape. I focus heavily on the transition from defensive frames to offensive grips because this is where most people fail. They create space but don't capitalize with control, so opponent just re-passes immediately. My preferred re-guard sequence always includes butterfly hooks because they give immediate sweep opportunities. Against elite competition, you can't just recover guard and reset—you need to recover and immediately attack. I also prioritize re-guarding to specific guard types based on opponent's game. Against leg lockers, I re-guard to closed guard or standing. Against pressure passers, I re-guard to butterfly or de la riva where I have distance and mobility. The re-guard isn't just technical execution; it's strategic positioning based on the match situation and opponent's strengths.
-- **Eddie Bravo**: Re-guarding is where a lot of traditional techniques fail under real pressure because people try to be too technical and methodical when they need to be explosive and creative. In 10th Planet system, we emphasize the Granby roll as a primary re-guard tool because it uses opponent's forward pressure against them—the harder they drive, the easier the roll. We also integrate a lot of inversion-based recoveries where you're going inverted or even temporarily exposing your back to create angles they can't follow. The lockdown becomes crucial in our re-guard system because even if you can only get one hook, you can establish lockdown from half-guard and completely change the dynamic. I tell my students to think of re-guard like escaping from a street fight pin—you need to move explosively, create chaos if necessary, and use any angle available. The traditional push-and-shrimp works, but against modern pressure passing and leg attacks, you need more tools. We drill a lot of combinations where if one re-guard attempt is stuffed, you immediately flow to another—maybe start with butterfly, if that's blocked go inverted to de la riva, if that's blocked come up on a technical stand-up. The guard recovery should be a constant flow of different looks until something works.
 
 </section>
 

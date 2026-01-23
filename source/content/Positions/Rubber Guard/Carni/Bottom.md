@@ -8,7 +8,7 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 
 **Average Time in Position**: 15-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Carni position represents a critical evolution in leg entanglement theory, serving as a dynamic nexus point between multiple attack systems. What makes this position theoretically significant is its emphasis on opponent dilemma creation rather than isolated submission mechanics. When you establish Carni control, you're not merely attacking one leg - you're forcing your opponent to make an impossible choice between defending the immediate leg attack and preventing back exposure. The biomechanical principle underlying Carni effectiveness is the inverse relationship between heel defense and spinal defense. As the opponent pulls their knee toward their chest to protect the heel, they necessarily curl their spine and expose their back. Conversely, if they extend and flatten to prevent back exposure, they present the heel for attack. Understanding this fundamental dilemma allows you to approach Carni not as a static position but as a transitional control state where you systematically eliminate the opponent's defensive options through positional chess rather than athletic scrambling.
-
-### Gordon Ryan
-
-In competition, the Carni position has become one of my highest percentage setups for finishing opponents who are otherwise extremely difficult to submit. What I've found through hundreds of matches is that even world-class grapplers struggle with the back-or-legs dilemma that Carni creates. The key to making this position work at elite levels is speed and decisiveness in your transitions - you can't give opponents time to problem-solve their way out. When I establish Carni, I'm already anticipating their defensive movement and following it immediately. If they roll, I'm on their back before they complete the rotation. If they defend the heel, I'm in the saddle before they recognize the transition. The position works because it exploits a fundamental weakness in human defensive psychology - people tend to commit fully to defending one attack, and that commitment opens the other. Against high-level opponents, I've found that the back take from Carni is often higher percentage than the heel hook itself, because they're so focused on protecting their knee ligaments that they'll give up position to do it.
-
-### Eddie Bravo
-
-The Carni is basically the modern no-gi version of what we were trying to do with the Truck and Twister system years ago - create positions where the opponent is screwed no matter what they do. What's beautiful about Carni is how it fits into the 10th Planet philosophy of aggressive submission hunting while maintaining positional advancement. We integrate Carni heavily into our lockdown and deep half systems because it's a perfect destination from those bottom positions. One innovation we've developed is using the Carni as a reset position when other leg attacks fail - instead of conceding position when your heel hook gets defended, you use Carni positioning to maintain control and immediately threaten something else. The electric chair setup from Carni is particularly nasty because opponents aren't expecting that submission threat from what looks like a standard leg entanglement. The key to Carni effectiveness is staying creative and not getting locked into the obvious attack patterns - sometimes the calf slicer or the back take is there before the heel hook, and you've got to have the awareness to recognize and capitalize on those opportunities in real time.
 
 </section>
 

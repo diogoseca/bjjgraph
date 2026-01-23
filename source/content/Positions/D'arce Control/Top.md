@@ -8,7 +8,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -415,24 +415,6 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The darce control represents the pinnacle of front headlock finishing positions because it combines three critical elements: structural control, submission threat, and transitional versatility. The mechanical advantage comes from the figure-four grip creating a lever system where the opponent's own trapped arm becomes part of the choking mechanism - their shoulder acts as a fulcrum that increases pressure on the carotid arteries as you drive your shoulder into their head. The key technical detail that separates high-level execution from amateur attempts is the depth of initial arm penetration; your hand must reach past the opponent's far hip before you lock the grip, otherwise you lack the leverage necessary to overcome their defensive chin tuck. Furthermore, the position demands constant angle adjustment - you must maintain a perpendicular relationship between your chest and their spine, which requires mobile hips and the willingness to circle your body position as they attempt to turn or roll. The darce is not a static submission but rather a dynamic control position where your body movement and weight distribution do more work than your grip strength.
-
-### Gordon Ryan
-
-In competition, the darce control is one of my highest-percentage positions because it puts opponents in an immediate dilemma where every defensive option opens up a different attacking opportunity. If they turtle tight and defend the choke, I transition to mount or back control with minimal resistance. If they try to roll through or turn into it, they're actually helping me tighten the choke and often tap themselves out. The key to making this work at the highest levels is understanding that the initial entry is everything - I'm looking for moments when their arm is vulnerable, typically when they're posting during a scramble or reaching for an underhook from turtle. Once I get that deep grip locked in, I don't rush the finish; instead, I use my shoulder pressure to break down their posture while staying patient and waiting for them to make a mistake. The beauty of this position is that it gets tighter over time as they fatigue from carrying my weight on their neck and shoulder. I've finished multiple ADCC and EBI matches with the darce because it's one of those positions where the longer it goes, the more inevitable the finish becomes. The opponent knows they're in danger but can't see a clear escape path, which creates mental pressure that compounds the physical pressure.
-
-### Eddie Bravo
-
-The darce is the ultimate no-gi weapon because it works from so many different positions and angles - we've built entire sequences in the 10th Planet system around darce opportunities from half guard, from turtle, from standing. What makes it so effective is that it's one of the few submissions where the opponent being defensive actually helps you; when they tuck their chin and pull their elbow tight, they're creating the compression that makes the choke work. The innovation we've added is understanding how to chain the darce with the anaconda and guillotine - if they defend one choke by turning a certain direction, you can flow directly into the next one without releasing control. The key detail nobody talks about is using your head placement as a tool; by driving your head into different positions on their upper back or shoulder, you can steer which way they roll or turn, essentially controlling their defensive reactions. We also drill a lot of darce entries from weird scramble positions because in real matches, you rarely get the picture-perfect setup - being able to recognize and capitalize on that split-second when their arm is vulnerable is what separates the guys who hit darces occasionally from the guys who build their entire game around it. The position embodies the 10th Planet philosophy of creating attacks from positions where traditional jiu-jitsu doesn't expect them.
 
 </section>
 

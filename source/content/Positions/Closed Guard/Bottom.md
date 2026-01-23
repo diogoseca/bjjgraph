@@ -8,7 +8,7 @@ description: "Master closed guard bottom position with comprehensive offensive t
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -481,24 +481,6 @@ Partner attempts to break and pass closed guard using any legal methods while yo
 
 **Average Time in Position**: 1-3 minutes depending on skill differential and guard breaking proficiency
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The closed guard represents the fundamental position of control from the bottom in Brazilian Jiu-Jitsu, embodying the core principle of what I call Inside Position Theory - where controlling the inside space between you and your opponent is paramount. The closed guard's genius lies in its ability to create a closed kinetic chain with your legs, which allows you to control your opponent's hips while simultaneously threatening their upper body. I emphasize to my students that closed guard is not a single position but rather two interconnected attack systems: the upper body attack system focusing on triangle, armbar, and omoplata submissions, and the lower body attack system focusing on off-balancing and sweeps. The key is understanding that every action in closed guard should systematically break your opponent's posture while simultaneously advancing one of these two systems. When you grip the collar and pull down while driving your heels into their lower back, you're not just breaking posture - you're creating the angle and proximity necessary for upper body attacks while preventing them from generating the base required to defend lower body attacks. This dual-threat system is what makes closed guard so effective across all skill levels, from white belt fundamentals to black belt mastery.
-
-### Gordon Ryan
-
-Honestly, I view closed guard primarily as a transitional position rather than a place to live, especially at the highest levels of competition where guard passing has evolved significantly. In my game, when I end up in closed guard, I'm immediately working to either sweep to a dominant top position or transition to a more dynamic guard system like butterfly, single leg X, or open guard variations that offer better control and offensive opportunities. The reality is that modern guard passing has evolved to the point where elite competitors are very difficult to submit directly from traditional closed guard, so I focus on using it to create reactions that open up better positions. That said, the fundamentals still matter tremendously - I still break posture aggressively and threaten submissions, but primarily to force my opponent into defensive reactions that allow me to transition. When I do attack from closed guard, I heavily favor the triangle system because it offers the best combination of submission threat and sweep opportunities. If the triangle isn't there, I'm looking to off-balance with hip bumps or pendulum sweeps, but always with the intention of either sweeping to mount or using their defense to transition to a more offensive guard position. The key is staying active and never letting them settle into a comfortable passing position or rhythm.
-
-### Eddie Bravo
-
-Traditional closed guard is where I started, but I've evolved it into something much more dynamic with the rubber guard system and mission control positions that maximize offensive capability. The problem with conventional closed guard is that it's too easy for opponents to posture up and stall, especially in no-gi where there's no collar to grab for posture breaking. That's why I developed the rubber guard - by using extreme flexibility to bring your leg over their shoulder and achieve mission control, you create a much more controlling and offensive position that's nearly impossible to posture out of. From mission control, you've got the whole 10th Planet system: gogoplatas, omoplatas, triangle variations, and the invisible collar for no-gi chokes that work without gi grips. Even if someone's not flexible enough for full rubber guard, the concepts still apply - you want to be constantly off-balancing them, creating angles, and threatening multiple attacks simultaneously to create decision dilemmas. I also emphasize the lockdown from half guard more than traditional closed guard because it gives you similar control with more sweep and back-take opportunities. But whether you're playing rubber guard, traditional closed guard, or lockdown, the fundamental principle is the same: create dilemmas where defending one attack opens up another. That's how you beat someone from the bottom - make them choose between bad options and capitalize on whatever they give you through systematic combination attacks.
 
 </section>
 

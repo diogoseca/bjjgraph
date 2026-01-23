@@ -8,7 +8,7 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -459,24 +459,6 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 
 **Average Time in Position**: 8-15 seconds before transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Grasshopper guard represents an interesting study in asymmetric engagement and leverage mechanics. By inverting the torso while elevating the hips, the bottom player creates what I call 'angular superiority' - their legs can access the opponent's lower body from angles that conventional guards cannot reach. The key is understanding that this position violates normal principles of base and stability, which means it can only be maintained briefly. Think of it as a kinetic position rather than a static one - you are essentially in mid-motion even when holding the configuration. The biomechanical advantage comes from your ability to generate sweeping force through hip elevation while simultaneously threatening leg entanglements. The opponent faces a genuine dilemma: if they stand tall to avoid leg attacks, you can elevate them for sweeps; if they lower their base to prevent sweeps, they enter your leg attack range. This is classical dilemma-based jiujitsu, where both defensive options lead to offensive opportunities for the guard player.
-
-### Gordon Ryan
-
-Grasshopper guard is something I use situationally, particularly when my primary guard retention is failing and I need to reset the engagement. It's not a position where I want to spend time, but it's incredibly effective for accessing leg attacks when opponents try to disengage or back away from other guards. The competition application is pretty specific - I'm using it to chase leg entanglements against guys who are trying to avoid my leg game entirely. When they back step or circle away, I can invert and follow, constantly reestablishing leg contact until I secure a proper entanglement. The key in competition is having the conditioning to explode from grasshopper into actual attacking positions quickly. You can't hold it and think - you have to see the angle and commit immediately to either the leg attack or the sweep. Against high-level competition, I'm usually only in grasshopper for 5-10 seconds maximum before converting to ashi, X-guard, or giving up the position entirely and recovering to a different guard system.
-
-### Eddie Bravo
-
-Grasshopper represents the evolution of inverted guard concepts that we've been developing in the 10th Planet system for years. The beauty of it is how it connects to so many positions we already use - you can hit it from dead orchard, from when your rubber guard gets smashed, from failed lockdown attempts. It's that constant movement and inversion that makes traditional position-based passing so difficult. What I love is how grasshopper completely changes the game for wrestlers and pressure passers who are used to driving forward. They expect you to be sitting up or lying on your back, but when you invert and elevate, suddenly all their passing angles disappear. We use grasshopper a lot in our no-gi competition system because it links perfectly into leg locks and creates scrambles that favor the guard player. The flexibility requirement is real though - you need to be comfortable upside down and able to move fluidly while inverted. We drill tons of inversion work to build that comfort level, because once you're smooth with it, grasshopper becomes a weapon for recovering guard and attacking legs simultaneously.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -355,15 +355,6 @@ The stack pass is a cornerstone technique of pressure passing systems and integr
 - [[Guard Passing]] - Fundamental principles applied in this technique
 - [[Base Maintenance]] - Critical principle for maintaining stability during the pass
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The stack pass represents one of the most mechanically efficient methods of passing the guard because it attacks the fundamental weakness of the guard position: the inability to generate power when your hips are elevated and your weight is on your shoulders. The key to understanding this pass from a systematic perspective is recognizing that you're not just pushing the legs—you're creating a leverage point where the opponent's own body weight works against them. When you drive their knees toward their chest and elevate their hips, you remove their ability to use hip movement for guard retention. The critical detail most people miss is the angle of pressure. It must be vertical, down through their center line toward their shoulders, not horizontal into their guard. This vertical pressure is what makes recovery nearly impossible. From a teaching standpoint, I emphasize that the stack pass is not about strength but about understanding angles and weight distribution.
-- **Gordon Ryan**: The stack pass is one of my highest percentage techniques in competition because it's incredibly difficult to defend when done correctly. The key is timing—you need to recognize when your opponent is breathing or making a grip adjustment, then explode into the stack before they can set their defensive frames. I like to combine the stack pass with other passes in sequences. If they defend the stack by keeping their knees wide, I immediately switch to a knee slice. If they defend by turning to one side, I follow their turn and pass to the opposite side. The pass works even better when you've already tired them out with previous passing attempts because the stacking pressure is exhausting to defend. In no-gi especially, the stack pass is brutally effective because there are fewer grips for them to use defensively. My biggest tip is to never release the leg control until you're completely past—so many people release early and lose the position.
-- **Eddie Bravo**: What I love about the stack pass is how it completely shuts down the opponent's game and forces them into a survival position. In 10th Planet system, we use the stack pass not just as a guard pass but as a control position in itself—sometimes we'll hold the stack to tire them out before finishing the pass. The guillotine threat is real though, so you have to keep your head positioned correctly, always to one side and low. We practice a lot of stack pass defense drills where the bottom person tries guillotines, triangles, and inversions, so our passers learn to deal with all those threats automatically. One variation I really like is using the stack to set up leg attacks—when you stack someone hard and they're trying to defend, you can sometimes catch them in a straight ankle lock or even transition to saddle if they try to invert. The stack pass also works great in combination with the truck position. If they granby roll or try to invert out of the stack, you can follow them right into the truck and start hunting for the twister or back take.
 
 </section>
 

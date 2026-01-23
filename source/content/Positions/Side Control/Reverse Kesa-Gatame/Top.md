@@ -8,7 +8,7 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,24 +443,6 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 
 **Average Time in Position**: 45-90 seconds before transition or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse kesa gatame represents a sophisticated understanding of pin mechanics where orientation reversal fundamentally alters the defensive options available to bottom player. The critical mechanical advantage lies in eliminating the opponent's ability to create frames against your head and neck - their primary defensive tools from traditional side control positions. When executing this position, focus on three biomechanical priorities: first, chest-to-chest compression through your sternum directly onto their ribcage creates breathing difficulty that accumulates over time; second, isolation of the far arm removes their strongest defensive tool and opens kimura, americana, and arm triangle pathways; third, hip pressure positioned low on their ribs prevents the shrimp escape that is the foundation of most guard recovery sequences. The position is particularly effective against modern guard players who have developed excellent framing systems from bottom side control. Your weight distribution should be approximately 70% through your chest onto their torso, with the remaining 30% distributed through your hips and base. This creates maximum control while maintaining the mobility necessary for transitions to mount, north-south, or back control when opponent attempts escape.
-
-### Gordon Ryan
-
-I use reverse kesa gatame specifically against opponents who have good defensive frames from bottom side control. When their frames are getting in my face, I'll switch to reverse kesa to neutralize that defense entirely. The position is excellent for wearing down opponents - the chest pressure is brutal and sustainable for the top person. I typically hold this position to accumulate control time or fatigue my opponent, then transition to mount or back when I feel them weakening. The kimura from here is particularly high percentage because they can't defend with their trapped arm. In competition, I'll often use this as a recovery position if I'm losing grips or feeling my side control getting compromised - rotating to reverse kesa resets the escape attempts and gives me fresh control options. The key is not staying here too long - use it to break their defense, threaten submissions to create reactions, then advance to mount or take the back when they give you the opportunity. Against high-level opponents, I'm usually only holding reverse kesa for 15-30 seconds before transitioning, but that's enough time to drain their energy and set up the next attack.
-
-### Eddie Bravo
-
-Reverse kesa is sick for setting up submissions, especially if you're hunting that shoulder compression and arm attacks. What I like about this position is that it confuses people - they're not used to defending against someone with their back turned, so their standard escape sequences don't work the same way. You can flow into some nasty arm locks and shoulder cranks that they don't see coming because the angles are different than what they've drilled a thousand times. I'll often use this as a transitional position when hunting for the truck or twister positions - if they start defending the twister side control, reverse kesa is right there as a backup control position. The key is keeping your weight heavy and your base wide - don't let them buck you off. From here you can threaten the kimura, which makes them defend, and when they defend the kimura you can transition to mount or spin to north-south for the choke. It's all about creating dilemmas - they can't defend everything at once. In no-gi especially, this position is money because without the gi grips they can't establish the same defensive frames they use from regular side control. Keep the pressure constant, stay heavy on that chest, and when they try to escape, that's when you capitalize with the transition or submission.
 
 </section>
 

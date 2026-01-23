@@ -8,7 +8,7 @@ description: "Master the Rolling Kimura in BJJ. Dynamic sweep and submission tec
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -355,15 +355,6 @@ The Rolling Kimura is an essential component of a comprehensive turtle top attac
 - [[Rolling Back Take]] - Alternative rolling technique with similar mechanics
 - [[Turtle to Standing]] - Counter movement that can transition into standing rolling kimura variant
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Rolling Kimura exemplifies the principle of using rotational force to amplify mechanical advantage against a joint. The beauty of this technique lies in its biomechanical efficiency—by rolling your entire body weight through the opponent's shoulder joint, you create exponentially more pressure than could ever be generated through arm strength alone. The figure-four kimura grip configuration already provides superior leverage, but the addition of whole-body rotation transforms this into an overwhelming attacking system. Systematically speaking, the Rolling Kimura represents the intersection of position and submission—it's neither purely one nor the other, but rather a dynamic technique that uses submission threat to facilitate positional advancement. When teaching this technique, I emphasize that students must understand the shoulder joint's vulnerable positions and how the rolling motion specifically targets the weakest angle of resistance. The technique also demonstrates crucial BJJ principles: maintaining connection through transitions, using momentum instead of muscular strength, and creating dilemmas where every defensive option leads to a different form of defeat.
-- **Gordon Ryan**: In high-level competition, the Rolling Kimura is one of the highest-percentage techniques from top turtle because it's extremely difficult to defend properly when executed with correct timing. I've used this technique to finish multiple ADCC and IBJJF matches because it creates an impossible defensive scenario for the opponent—they literally cannot defend both the submission and the positional advancement simultaneously. The key to making this work at the elite level is disguising your intention until the last possible moment and then exploding into the roll with total commitment. Against world-class opponents, you can't telegraph the technique or give them time to prepare their defense. I particularly favor this technique in no-gi competition where the turtle position is less stable and opponents are more vulnerable to dynamic attacks. The transition to back control that results from a well-executed Rolling Kimura often leads directly to match-ending rear naked choke or armbar sequences. When training this technique, focus relentlessly on the grip—your kimura grip must be absolutely unbreakable because that's what controls everything else in the sequence.
-- **Eddie Bravo**: The Rolling Kimura is a perfect example of how dynamic, flowing techniques can be more effective than static positional grinding. This technique embodies the 10th Planet philosophy of constant motion and creating chaos that your opponent can't predict or control. What I love about the Rolling Kimura is how it opens up the entire turtle attack game—once your opponent knows you can hit this, they become defensive about their arms, which creates openings for guillotines, darces, and back takes from different angles. We've developed several variations at 10th Planet that incorporate leg triangles and crucifix traps during the roll, making it even more devastating. The no-gi application is particularly nasty because you can chain it directly into the twister position if they defend by turning the wrong direction. When teaching this technique, I emphasize that students should think of it not as a single move but as an entry point into a flow state where you're continuously attacking through rotation and momentum. The rubber guard and lockdown systems can actually set up situations where your opponent turtles, and then the Rolling Kimura becomes your primary turtle-breaking weapon, creating a complete offensive system from guard to submission.
 
 </section>
 

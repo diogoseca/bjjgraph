@@ -8,7 +8,7 @@ description: "Master Space Generation in BJJ. Learn frame mechanics, hip escape 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Space is required for all defensive movement—without distance, there can be no escape or recovery
 - Frames create initial space by establishing structural barriers between your body and the opponent's pressure
 - Hip movement (shrimping, bridging) generates the actual displacement needed to create workable gaps
@@ -183,9 +183,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Frame Construction**: The ability to establish rigid structural barriers using arms, legs, and body positioning to create initial separation from opponent's body. Effective frames must be placed at biomechanically advantageous angles where your skeletal structure can support pressure without muscular exhaustion.
 
 **Hip Escape Mechanics (Shrimping)**: The technical movement of driving off one leg while turning the hips away to create lateral displacement and distance. Shrimping is the fundamental space-generating movement that allows recovery of guard, escape from pins, and creation of defensive angles.
@@ -206,28 +206,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Frame Creation]]** (Prerequisite): Frame creation is the primary mechanical tool for initial space generation—frames must be established before hip movement can create larger spaces
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes convert frame-created space into actual positional displacement—the two concepts work in direct coordination for all escapes
-- **[[Connection Breaking]]** (Complementary): Space generation creates the distance needed to break connections, while connection breaking prevents immediate recapture of position after space is created
-- **[[Pressure Reduction]]** (Extension): Space generation is the active method of pressure reduction—creating distance inherently reduces the pressure opponent can apply
-- **[[Defensive Framing]]** (Prerequisite): Defensive frames provide the initial structure and leverage points from which space generation movements originate
-- **[[Escape Fundamentals]]** (Extension): Space generation is the foundational skill underlying all escape sequences—no escape is possible without first creating the necessary space for movement
-- **[[Shrimping]]** (Complementary): Shrimping is the primary technical execution of lateral space generation through hip rotation and translation
-- **[[Bridge and Shrimp]]** (Extension): The combination of bridging and shrimping represents the complete space generation toolkit for escaping pins and recovering position
-- **[[Guard Retention]]** (Extension): Guard retention systems are built on preemptive space generation that prevents opponents from establishing dominant pressure positions
-- **[[Frame Management]]** (Complementary): Frame management focuses on maintaining and adjusting frames while space generation focuses on the movement that creates distance
-- **[[Hip Movement]]** (Complementary): Hip movement encompasses all space-generating movements including shrimping, bridging, and granby rolling
-- **[[Escape Hierarchy]]** (Extension): The escape hierarchy defines which spaces must be created first based on position severity and control points
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Create space by framing against neck and hip, then shrimping away to recover guard—the classic application requiring coordinated frame pressure and hip escape to generate enough space for knee insertion
 
 **Mount**: Bridge to create vertical space and disrupt base, then immediately shrimp when pressure shifts to create lateral space for elbow escape or guard recovery
@@ -268,9 +249,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify current pressure points and control connections**: Assess where opponent has contact (head, shoulders, chest, hips, legs) and which connections are providing their primary control—this determines where space must be created first
 2. **Establish initial frames at highest-priority control points**: Insert frames (hands, forearms, knees, feet) at the most critical pressure points to create initial separation—typically against neck/head and hips to prevent consolidation
 3. **Determine optimal space-generation movement based on position**: Choose between shrimping (lateral space), bridging (vertical space), or combination movements based on which direction creates most effective escape pathway
@@ -283,9 +264,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting to create space purely through arm strength without proper hip movement
   - **Consequence**: Arms fatigue quickly under pressure while no actual positional improvement occurs—opponent simply waits for frames to collapse then advances position
   - **Correction**: Use frames only to create initial separation, then immediately execute hip escape or bridge to generate real space—frames maintain space, hips create space
@@ -311,9 +292,9 @@ Space generation fundamentally relies on the principle that control requires con
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Pin Escape Drilling** (Focus: Develop muscle memory for fundamental space-generating movements and build cardio conditioning to maintain technique under fatigue)
 Systematic drilling of space generation from all major pin positions (side control, mount, knee on belly, north-south, scarf hold) focusing on proper frame placement and hip movement coordination
 
@@ -336,9 +317,9 @@ Solo practice of shrimping sequences, bridging patterns, granby rolls, and techn
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute basic shrimp and bridge movements in solo drills with proper form
 - Understands frame placement concepts and can establish basic defensive frames against cooperative partner
@@ -378,10 +359,26 @@ Solo practice of shrimping sequences, bridging patterns, granby rolls, and techn
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Frame Creation]]** (Prerequisite): Frame creation is the primary mechanical tool for initial space generation—frames must be established before hip movement can create larger spaces
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes convert frame-created space into actual positional displacement—the two concepts work in direct coordination for all escapes
+- **[[Connection Breaking]]** (Complementary): Space generation creates the distance needed to break connections, while connection breaking prevents immediate recapture of position after space is created
+- **[[Pressure Reduction]]** (Extension): Space generation is the active method of pressure reduction—creating distance inherently reduces the pressure opponent can apply
+- **[[Defensive Framing]]** (Prerequisite): Defensive frames provide the initial structure and leverage points from which space generation movements originate
+- **[[Escape Fundamentals]]** (Extension): Space generation is the foundational skill underlying all escape sequences—no escape is possible without first creating the necessary space for movement
+- **[[Shrimping]]** (Complementary): Shrimping is the primary technical execution of lateral space generation through hip rotation and translation
+- **[[Bridge and Shrimp]]** (Extension): The combination of bridging and shrimping represents the complete space generation toolkit for escaping pins and recovering position
+- **[[Guard Retention]]** (Extension): Guard retention systems are built on preemptive space generation that prevents opponents from establishing dominant pressure positions
+- **[[Frame Management]]** (Complementary): Frame management focuses on maintaining and adjusting frames while space generation focuses on the movement that creates distance
+- **[[Hip Movement]]** (Complementary): Hip movement encompasses all space-generating movements including shrimping, bridging, and granby rolling
+- **[[Escape Hierarchy]]** (Extension): The escape hierarchy defines which spaces must be created first based on position severity and control points
+
+
+### Related Content
 - [[Frame Creation]] (Principle) - Core skill that enables space generation—frames provide the structural leverage for all space-creating movements
 - [[Hip Escape Mechanics]] (Principle) - Primary mechanical technique for converting frame-created space into actual positional displacement
 - [[Elbow Escape]] (Transition) - Classic application combining frames and shrimping to generate space for mount and side control escapes
@@ -395,15 +392,6 @@ Solo practice of shrimping sequences, bridging patterns, granby rolls, and techn
 - [[Bridge and Shrimp]] (Principle) - Core movement pattern combining two primary space-generation techniques in coordinated sequence
 - [[Shrimping]] (Principle) - Fundamental movement skill that is the primary method of lateral space generation in defensive sequences
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Space generation is the fundamental requirement for all defensive movement in jiu-jitsu. You must understand that control, by definition, requires contact and pressure—therefore the systematic creation of distance is the antithesis of control. The human body has specific mechanical limitations in how it can generate space, primarily through hip extension (bridging) and hip rotation with translation (shrimping). These movements must be executed with proper timing relative to opponent's pressure cycles, as attempting to create space against maximum pressure and optimal base is biomechanically inefficient and ultimately futile. The key insight is that space generation is not a single explosive movement but rather a progressive sequence—you create small space to insert a frame, use that frame to create medium space for hip movement, and use that hip movement to create large space for position recovery. Each increment of space must be immediately secured before attempting to create more, otherwise you simply create momentary gaps that collapse under continued pressure. Understanding the hierarchy of space generation—where to create space first, how much is needed for specific purposes, and how to maintain created space under pressure—separates systematic defensive players from those who simply scramble and hope.
-- **Gordon Ryan**: In competition, the ability to generate space under pressure determines whether you survive or get smashed. I've competed against the best pressure passers in the world, and what I've learned is that you cannot wait until you're completely flattened to start creating space—by then it's too late. You need to preemptively manage space from the moment someone begins to establish pressure, constantly creating small amounts of distance that prevent them from ever achieving full consolidation. The biggest mistake I see is people trying to bench press their way out of pins using pure arm strength. Your arms will fail every single time against proper chest pressure from a skilled opponent. Instead, you need to use your frames only to create initial separation, then immediately shrimp your hips away to generate real space. The other critical element is timing—you must create space when your opponent is shifting weight, advancing position, or reaching for grips. When they're settled with maximum pressure and perfect base, you're wasting energy trying to move. Wait for their transitions, then explode into your space-generating movement when their structure is temporarily compromised. In no-gi especially, where there are fewer grips to maintain distance, superior space generation is absolutely essential for high-level guard retention and pin escapes.
-- **Eddie Bravo**: Space generation is all about creating the room you need to operate your game, man. In 10th Planet, we're constantly working lockdown, rubber guard, and electric chair positions that require very specific spacing to function properly. The key is understanding that different positions need different amounts of space—rubber guard needs just enough space to get that high leg and break posture, while escaping knee on belly needs explosive lateral movement to create big gaps. One thing that changed my game was learning to use the opponent's pressure against them. When someone drives hard into you, that forward momentum can actually help you bridge or shrimp if you time it right—it's like using their energy to amplify your movement. We drill a lot of chain movements where you combine different space-creating techniques in sequence. Like, you might start with a small bridge to get some breathing room, immediately shrimp when their weight shifts, then use that space to insert a butterfly hook or get to lockdown. Each movement creates the opportunity for the next one. The other big thing is practicing space generation when you're exhausted, because that's when you're going to need it most in competition or hard rolling. If you can only create space when you're fresh, you're going to be in trouble when someone's been grinding on you for three minutes straight.
 
 </section>
 

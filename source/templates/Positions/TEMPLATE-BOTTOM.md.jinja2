@@ -8,7 +8,7 @@ description: "{{ bottom.description }}"
 ---
 
 {# PostHog A/B Testing Metadata #}
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -255,24 +255,6 @@ description: "{{ bottom.description }}"
 {% if bottom.position_metrics.average_time -%}
 **Average Time in Position**: {{ bottom.position_metrics.average_time }}
 {% endif %}
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-{{ bottom.expert_insights.danaher }}
-
-### Gordon Ryan
-
-{{ bottom.expert_insights.gordon_ryan }}
-
-### Eddie Bravo
-
-{{ bottom.expert_insights.eddie_bravo }}
 
 </section>
 

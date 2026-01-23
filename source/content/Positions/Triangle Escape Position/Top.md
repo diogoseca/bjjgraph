@@ -8,7 +8,7 @@ description: "Master escaping the triangle from top position. Complete guide cov
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -401,24 +401,6 @@ Start caught in triangle, execute chosen escape technique, and immediately trans
 
 **Average Time in Position**: 15-45 seconds (escape must be executed quickly)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The triangle escape from top position represents a critical test of systematic defensive methodology versus reactive panic. The biomechanics of the triangle create a self-tightening mechanism where resistance without proper technique actually accelerates the choking action. The key is understanding the hierarchy of escape objectives: first, create space at the neck to prevent the immediate submission threat; second, recover posture to establish a sustainable defensive structure; third, extract the trapped arm which serves as the fulcrum for both the choke and potential armbar transitions; and finally, pass the guard to convert defense into offense. Each stage must be executed with precise technique and proper sequencing. The most common failure point is attempting to skip stages or execute them out of order, particularly trying to extract the arm before creating the necessary space at the neck. Master the systematic progression and you transform a desperate defensive scenario into a controlled technical sequence that often ends with you in dominant position.
-
-### Gordon Ryan
-
-In competition, you cannot afford to get caught in triangles - the finishing rate is simply too high at the elite level. My approach to triangle defense starts long before the position is locked: I maintain constant awareness of my arm positioning in guard, never allowing one arm to become isolated between the opponent's legs while the other is outside. But when you do get caught, you have seconds to respond before the position becomes unescapable. I immediately stack hard, driving my shoulder into their bottom leg while keeping my trapped arm tight to my body. The stack serves multiple purposes: it prevents them from getting the angle they need to finish, it creates space at my neck by changing the vector of their leg pressure, and it puts me in position to pass their guard directly. Many people try to pull their arm out first - that's backwards. Stack first, create space, then worry about the arm. If they're trying to transition to armbar, that's actually an opportunity because they have to loosen the triangle to switch positions. Use that moment to stack through and take side control.
-
-### Eddie Bravo
-
-The triangle is one of the highest-percentage submissions in the game, especially in no-gi where the friction is reduced and the legs can slide into position faster. From the 10th Planet perspective, we look at triangle defense as damage control - ideally you never let them get their leg across your back in the first place. But when you're caught, you need multiple escape options because different opponents set up triangles differently. Against a flexible opponent with a tight triangle, standing up might be your best option - get your feet under you, lift them up high, and slam that stack hard. Against someone using a loose triangle to set up other attacks, the classic posture recovery and arm extraction works better. The key thing people miss is that your free hand has a job: it's either controlling their hip to prevent them from getting the angle, or it's creating a frame under their leg to make space. Don't just leave it hanging or posting on the mat doing nothing. Every part of your body needs to be working toward the escape.
 
 </section>
 

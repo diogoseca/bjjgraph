@@ -8,7 +8,7 @@ description: "Defend against intense shoulder pressure in Shoulder of Justice Bo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -412,24 +412,6 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 **Average Time in Position**: 45 seconds to 2 minutes before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From the bottom perspective, the Shoulder of Justice represents a masterclass in defensive dilemma recognition. The position is designed specifically to force you into making reactive movements that expose technical weaknesses - this is systematic offensive control at its finest, and understanding it from below is critical to defense. The biomechanical reality is that the pressure vector traveling from your opponent's center of mass through their shoulder and into your jaw at 45 degrees toward your far shoulder cannot be directly resisted through strength or explosive movement. Your temporomandibular joint and cervical spine simply cannot generate the counter-force necessary to relieve this pressure through direct opposition. Therefore, your defensive strategy must focus on indirect methods: creating micro-frames with your forearms that don't expose your near arm to kimura attacks, timing your shrimp movements to coincide with your opponent's weight shifts rather than their maximum pressure application, and most importantly, maintaining mental composure despite significant physical discomfort. The key insight is recognizing that every defensive option has a counter built into the position's structure - pushing with your near arm gives the kimura, turning away gives north-south or the back, shrimping gives mount transitions, and bringing your far arm across gives the arm triangle. Success requires patience, proper breathing, and waiting for genuine opportunities rather than making desperate reactive movements.
-
-### Gordon Ryan
-
-Being on bottom in Shoulder of Justice is absolutely miserable, and I've been there plenty of times against high-level competitors who use this position effectively. The reality is that this position is designed to break you mentally before it breaks you technically. The shoulder pressure is so uncomfortable that your natural instinct is to do something - anything - to get relief, and that's exactly what your opponent wants. Every movement you make to relieve the pressure creates an offensive opportunity for them. The key to survival is understanding that the discomfort is temporary and manageable if you don't panic. I focus on breathing through my nose even though my jaw is getting crushed, keeping my near arm protected like my life depends on it because the kimura from here is brutal, and waiting for my opponent to make weight shifts when they go for submissions or mount. Those are your windows. You can't create space when they have perfect pressure and base - you have to wait for them to move first. In competition, I've escaped this position by being patient and recognizing that my opponent can't maintain maximum pressure forever. They'll eventually have to shift their weight to set up submissions or position changes, and that's when you execute your elbow escape or shrimp. It's about mental toughness and technical discipline under pressure.
-
-### Eddie Bravo
-
-Being stuck on bottom in Shoulder of Justice is one of those positions where you really have to control your mind, man, because the physical discomfort can make you forget everything you know. In 10th Planet, we prepare for this by drilling pressure tolerance specifically - you have to be able to think clearly while someone is crushing your jaw with their shoulder. The biggest mistake I see is people trying to push the shoulder away with their near arm because it seems like the logical way to get relief. That's exactly what your opponent wants - instant kimura. The second biggest mistake is turning into the pressure to escape, which just gives them your back or north-south. What we teach is to stay calm, breathe through your nose, and create subtle frames with your forearms without extending your arms. You're looking for the moment when they shift their weight to go for a submission or mount transition - that's your escape window. In no-gi especially, you can't afford to waste energy on explosive movements that won't work. You have to be smart and patient, waiting for genuine opportunities. We also drill the mental aspect - accepting that you're going to be uncomfortable for 30-60 seconds while you work your escape sequence. If you can stay calm and technical under that kind of pressure, you'll survive and escape. If you panic and react, you'll get kimura'd or mounted in seconds.
 
 </section>
 

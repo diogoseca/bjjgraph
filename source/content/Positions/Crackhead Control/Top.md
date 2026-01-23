@@ -8,7 +8,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -435,24 +435,6 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 **Average Time in Position**: 30-90 seconds before advancement or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Crackhead control represents a modern evolution in turtle control mechanics, demonstrating how hip isolation principles can create dominant control without traditional upper body dominance. The key mechanical insight is the chair sit position which allows the controlling practitioner to distribute weight through their gluteal muscles directly onto the opponent's lumbar spine and sacrum, creating a fulcrum effect that severely limits the bottom player's mobility. The inside leg hook serves as a critical mechanical checkpoint - it prevents the opponent from sitting through to guard while simultaneously creating the asymmetric positioning necessary for back takes and truck entries. This position demonstrates a fundamental principle: control the hips, control the position. The upper body grips are secondary to the hip isolation, used primarily to redirect defensive movements rather than as primary control mechanisms. Advanced practitioners understand that crackhead control is not a static position but rather a dynamic platform - the threat of progression to back control, truck, or submissions creates a defensive reaction cycle that makes the position increasingly difficult to escape from. The biomechanical efficiency of this position lies in its minimal energy requirement for the top player while maximizing energy expenditure for the bottom player attempting to escape.
-
-### Gordon Ryan
-
-Crackhead control is one of the highest percentage turtle positions in modern competition, especially in no-gi where traditional collar grips aren't available. I use this position constantly because it puts me in perfect position for back takes while keeping my opponent completely defensive - they're spending all their energy just trying not to give up their back, which means they can't really attack or escape effectively. The key is staying patient and heavy with your hips while your upper body stays mobile and ready to capitalize on their movements. When I sit in crackhead, I'm already thinking two steps ahead - if they try to sit through, I take the back; if they roll forward, I go to truck; if they try to stand up, I ride them to the mat and take the back anyway. The position creates a dilemma where every escape attempt opens up a submission or progression. In competition, I've found that most opponents will eventually make a mistake from here because the position is so uncomfortable and energy-draining for them. The submission rate from this position is also exceptionally high - darce, anaconda, and twister are all readily available depending on how they defend. The modern game is all about these transitional control positions that create submission opportunities, and crackhead control is perfect for that strategic approach.
-
-### Eddie Bravo
-
-Crackhead control is pure 10th Planet innovation - it's that perfect blend of weird positioning that looks crazy but works incredibly well, especially in the no-gi game. The chair sit mechanics come from the lockdown and truck system philosophy where we use unconventional hip positions to create control that's hard to defend with traditional techniques. The beauty of crackhead is that it completely messes with your opponent's equilibrium - they can't use their normal turtle escapes because you're sitting on their hips in this awkward way that isolates their movement. From here, the truck is wide open, and that's where the magic happens - twister entries, banana splits, calf slicers, all kinds of leg attacks become available. The position also sets up some nasty choke sequences, especially the darce and anaconda when they try to turn into you. What makes crackhead control so effective is that it's not in most people's defensive vocabulary - they haven't drilled escapes from this position because it's still relatively uncommon in traditional BJJ schools. This gives you a huge competitive advantage because they're solving problems in real-time instead of relying on trained responses. The key is staying loose and flowing with their movements rather than fighting to maintain a rigid position - you want to be like water, following wherever they go and constantly threatening the next progression. It's a position that rewards creativity and unorthodox thinking, which is exactly what 10th Planet is all about.
 
 </section>
 

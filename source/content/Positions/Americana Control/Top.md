@@ -8,7 +8,7 @@ description: "Master Americana finishing techniques from top. Complete offensive
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -394,24 +394,6 @@ Maintain Americana control while partner attempts defensive movements. Focus on 
 
 **Average Time in Position**: 10-20 seconds (finish quickly or transition)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Americana represents one of the fundamental shoulder locks in grappling, offering excellent mechanical advantage from dominant top positions. The key to successful Americana application is complete arm isolation before attempting the figure-four grip. Many practitioners rush to the grip without properly controlling the arm position, resulting in easy defenses. Once you have isolated the arm perpendicular to the opponent's body, the figure-four should be secured with your hand gripping your own wrist, not interlacing fingers which creates a weaker structure. Apply rotational pressure progressively, always maintaining base to prevent bridge escapes. If defended, the Americana naturally chains to armbar or kimura transitions.
-
-### Gordon Ryan
-
-The Americana is one of my favorite submissions from mount because it's so reliable when done correctly. Most people make the mistake of trying to force it when the arm isn't properly isolated. I wait for the moment when their arm extends, then I lock it up fast. The submission itself should be smooth - you're rotating their forearm toward their head, not cranking it violently. In competition, if someone defends the Americana well, I immediately switch to armbar or back to mount control. Don't waste energy fighting a losing battle.
-
-### Eddie Bravo
-
-The Americana is fundamental but we don't emphasize it as much in 10th Planet compared to other submissions. It's solid from mount in gi, but in no-gi people can slip out easier. When I do use it, I make sure the arm is completely isolated first. The beauty of the Americana is how it opens up other attacks - if they defend by pulling their arm in, you've got an easy armbar. If they try to bridge, you can transition to gift wrap or take the back. Use it as part of a chain, not just a single attack.
 
 </section>
 

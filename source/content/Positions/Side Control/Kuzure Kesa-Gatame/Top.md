@@ -8,7 +8,7 @@ description: "Offensive guide for controlling and attacking from modified scarf 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -468,24 +468,6 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 **Average Time in Position**: 60-120 seconds to submission or position advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Kuzure Kesa-Gatame represents one of the most mechanically sound control positions in grappling when you understand its fundamental architecture. The position's power derives from the convergence of three control vectors: hip pressure into the opponent's ribs restricting their breathing and mobility, arm isolation removing one of their two defensive tools, and base distribution that makes you extraordinarily difficult to roll or sweep. What makes this position particularly interesting from a systematic perspective is how the arm isolation creates what I call 'progressive submission access'—you can attack the arm with americana, kimura, or armbar without releasing control, and each defensive movement the opponent makes against one submission opens a different submission. This creates a submission chain where the opponent cannot effectively defend all options simultaneously. The critical technical detail most practitioners miss is the pressure vector angle: your hip pressure should angle toward their far shoulder at approximately forty-five degrees, not straight down. This angle prevents them from turning into you while simultaneously restricting their ability to create frames with their free arm. Master this pressure angle and the arm isolation mechanics, and you have a position that works at the highest levels of competition.
-
-### Gordon Ryan
-
-I use Kuzure Kesa-Gatame constantly in competition because it puts immediate pressure on my opponents in multiple ways simultaneously. They have to worry about getting submitted while also dealing with really uncomfortable pressure, and that combination breaks a lot of people mentally. The key to making it work at high level is understanding that you're not trying to submit people immediately—you're using the submission threats to prevent their escapes. When they defend the armbar, they expose the americana. When they defend the americana, they extend their arm for the armbar. And while they're playing this losing game of defending submissions, I'm maintaining dominant position and draining their energy with constant pressure. The other thing that makes this position so effective in competition is that it's really hard to stall from bottom. Unlike some positions where the bottom person can kind of survive and wait for the standup, in Kuzure Kesa-Gatame, if they're not actively working to escape, they're getting submitted. That urgency makes people make mistakes, and at the highest level, capitalizing on mistakes is how you win. I also love transitioning here from standard side control when people start defending well—it completely resets their defensive game plan and creates new problems they have to solve.
-
-### Eddie Bravo
-
-What I love about Kuzure Kesa-Gatame is how it completely shuts down one of the opponent's arms while keeping you in perfect position to attack. In 10th Planet, we use this position a lot in no-gi because it doesn't rely on gi grips—the arm isolation and hip pressure work just as well without the gi, maybe even better because there's less fabric for them to grab and defend with. The submission options from here are insane: americana, kimura, armbar, and if you're creative, you can set up some nasty chokes too. I teach my students to think of this position as a submission laboratory where you can experiment with different attacks while maintaining complete control. The key is staying heavy and low—you want your chest pressing down on their upper body while your hip drives into their ribs. That constant pressure makes it hard for them to breathe, hard for them to think, and hard for them to escape. And here's a cool detail: if they start defending the arm submissions really well, you can transition to mount super easily because when they turn into you to protect the arm, they're literally giving you the mount. So even when your submissions don't finish, you're advancing position and getting closer to the back or mount. That's the beauty of having a position that works as both a control platform and a submission setup.
 
 </section>
 

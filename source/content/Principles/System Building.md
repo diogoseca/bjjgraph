@@ -8,7 +8,7 @@ description: "Master System Building in BJJ. Learn to develop interconnected tec
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Interconnected technique sequences create multiple pathways to success
 - Every position should connect to at least three offensive options
 - Defensive responses should be anticipated and countered within the system
@@ -179,9 +179,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Position Mapping**: The ability to identify and catalog all available offensive options from any given position, including submissions, sweeps, transitions, and control improvements. This requires comprehensive technical knowledge and understanding of how body positioning creates opportunities.
 
 **Transition Linking**: Connecting individual techniques into flowing sequences where each movement naturally sets up the next. Practitioners learn to recognize how one technique's completion position becomes another technique's starting position, creating seamless chains.
@@ -202,28 +202,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Position-Over-Submission Approach]]** (Prerequisite): System Building requires understanding positional hierarchy as systems must progress through dominant positions before attempting finishes, ensuring safety and maximizing success probability.
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional value determines system structure, as effective systems prioritize positional improvement and use hierarchy to guide transition selection during live application.
-- **[[Game Planning]]** (Complementary): Game Planning provides the strategic framework that System Building implements, translating opponent analysis and tactical goals into specific technical sequences and system selection.
-- **[[Concepts vs Techniques]]** (Complementary): System Building balances conceptual understanding with technical execution, using concepts to guide system design while techniques provide the concrete actions that implement systematic strategy.
-- **[[Dilemma Creation]]** (Extension): Advanced System Building specifically designs technique relationships to create dilemmas where every defensive option opens new attacking opportunities, maximizing offensive pressure through strategic branching.
-- **[[Position Chains]]** (Complementary): Position Chains represent the structural backbone of systems, defining how practitioners move through position sequences, and System Building organizes these chains into comprehensive frameworks.
-- **[[Submission Chains]]** (Complementary): Submission Chains form the finishing components of offensive systems, and System Building integrates these chains with positional progression to create complete attacking frameworks.
-- **[[Transition Sequences]]** (Complementary): Transition Sequences provide the connective tissue between system components, and System Building organizes these sequences into logical progressions that maximize efficiency and control.
-- **[[Guard Retention]]** (Complementary): Defensive systems built around Guard Retention principles provide the framework for bottom game systems, ensuring practitioners can maintain guard while executing offensive sequences.
-- **[[Guard Passing]]** (Complementary): Top game systems integrate Guard Passing principles as the entry mechanism, and System Building connects passing approaches with subsequent control and submission strategies.
-- **[[Energy Management System]]** (Complementary): Effective systems incorporate Energy Management principles to ensure sustainable offensive pressure, balancing high-intensity techniques with efficient control positions that allow recovery.
-- **[[Match Strategy]]** (Extension): Match Strategy applies System Building principles in competitive contexts, adapting pre-built systems to specific opponents and match conditions for optimal competitive performance.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Build offensive systems connecting posture breaking, angle creation, sweeps, and submissions where each technique naturally flows to others based on opponent defensive reactions.
 
 **Half Guard**: Develop interconnected pathways between underhook control, lockdown mechanics, dogfight transitions, sweep sequences, and back take opportunities that adapt to top player pressure styles.
@@ -258,9 +239,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify Core Position or Technique**: Select the central position or technique around which you will build your system. Choose based on physical attributes, technical proficiency, and positions you naturally reach most frequently during rolling.
 2. **Map Primary Offensive Options**: Catalog all available attacks from your core position including submissions, sweeps, and positional advances. Identify which techniques you execute most successfully and which create the strongest control.
 3. **Identify Common Defensive Patterns**: Observe how training partners typically defend your primary attacks. Document 3-5 most common defensive reactions that occur when you attempt your highest-percentage techniques from the core position.
@@ -273,9 +254,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Building systems around low-percentage techniques or positions rarely achieved in live training
   - **Consequence**: System remains theoretical and inaccessible under competitive pressure, leading to fragmented game with no reliable offensive framework
   - **Correction**: Begin system development from positions you naturally reach most frequently during live training, then expand to connected positions that arise from successful technique execution
@@ -301,9 +282,9 @@ System Building represents the strategic framework for developing interconnected
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Position-Based System Drilling** (Focus: Building automatic recognition of defensive patterns and smooth execution of connected technique sequences)
 Start from your core position and flow through all connected techniques based on partner's defensive reactions. Partner provides realistic but controlled resistance, allowing you to execute technique chains and identify connection points.
 
@@ -326,9 +307,9 @@ Develop separate systems for different position categories (guard, top control, 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes that some techniques connect naturally but cannot yet identify or execute these connections consistently
 - Relies primarily on isolated techniques without clear follow-up options when initial attacks are defended
@@ -367,10 +348,26 @@ Develop separate systems for different position categories (guard, top control, 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Position-Over-Submission Approach]]** (Prerequisite): System Building requires understanding positional hierarchy as systems must progress through dominant positions before attempting finishes, ensuring safety and maximizing success probability.
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional value determines system structure, as effective systems prioritize positional improvement and use hierarchy to guide transition selection during live application.
+- **[[Game Planning]]** (Complementary): Game Planning provides the strategic framework that System Building implements, translating opponent analysis and tactical goals into specific technical sequences and system selection.
+- **[[Concepts vs Techniques]]** (Complementary): System Building balances conceptual understanding with technical execution, using concepts to guide system design while techniques provide the concrete actions that implement systematic strategy.
+- **[[Dilemma Creation]]** (Extension): Advanced System Building specifically designs technique relationships to create dilemmas where every defensive option opens new attacking opportunities, maximizing offensive pressure through strategic branching.
+- **[[Position Chains]]** (Complementary): Position Chains represent the structural backbone of systems, defining how practitioners move through position sequences, and System Building organizes these chains into comprehensive frameworks.
+- **[[Submission Chains]]** (Complementary): Submission Chains form the finishing components of offensive systems, and System Building integrates these chains with positional progression to create complete attacking frameworks.
+- **[[Transition Sequences]]** (Complementary): Transition Sequences provide the connective tissue between system components, and System Building organizes these sequences into logical progressions that maximize efficiency and control.
+- **[[Guard Retention]]** (Complementary): Defensive systems built around Guard Retention principles provide the framework for bottom game systems, ensuring practitioners can maintain guard while executing offensive sequences.
+- **[[Guard Passing]]** (Complementary): Top game systems integrate Guard Passing principles as the entry mechanism, and System Building connects passing approaches with subsequent control and submission strategies.
+- **[[Energy Management System]]** (Complementary): Effective systems incorporate Energy Management principles to ensure sustainable offensive pressure, balancing high-intensity techniques with efficient control positions that allow recovery.
+- **[[Match Strategy]]** (Extension): Match Strategy applies System Building principles in competitive contexts, adapting pre-built systems to specific opponents and match conditions for optimal competitive performance.
+
+
+### Related Content
 - [[Game Planning]] (Principle) - Complementary framework that uses System Building methodology to create match-specific strategic approaches
 - [[Position-Over-Submission Approach]] (Principle) - Foundational philosophy that guides system architecture toward positional progression before submission attempts
 - [[Positional Hierarchy]] (Principle) - Core organizational principle that determines system structure and transition priorities
@@ -384,15 +381,6 @@ Develop separate systems for different position categories (guard, top control, 
 - [[Transition Sequences]] (Principle) - Technical execution component that connects system positions through efficient movement patterns
 - [[Match Strategy]] (Principle) - Competitive application of System Building adapted to specific opponents and match contexts
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: System building represents the difference between technical knowledge and technical mastery. Most students accumulate techniques randomly, creating fragmented skill sets where each technique stands alone without meaningful connections. This approach dooms them to perpetual inefficiency because when their primary technique fails, they must start over from neutral with no clear progression. The systematic approach recognizes that Brazilian Jiu-Jitsu is fundamentally a problem-solving endeavor where opponents present defensive solutions to your offensive problems. Your system must therefore be organized not around what you want to do, but around what opponents typically do in response to your attacks. Every technique in your system should branch into multiple follow-up options based on predictable defensive patterns, creating decision trees that maintain offensive initiative regardless of opponent responses. The depth of your system matters far more than its breadth - I would rather have a student with fifteen techniques connected in profound ways than a student with one hundred fifty disconnected techniques. Build your system methodically: start with positions you reach naturally, identify your highest percentage attacks from these positions, catalog common defensive reactions, and develop specific counters for each reaction that return you to familiar offensive terrain. This systematic organization allows you to maintain constant forward pressure because every defensive success by your opponent simply moves them to a different branch of your system rather than escaping it entirely.
-- **Gordon Ryan**: In competition, you see the difference between guys who have systems and guys who just know a bunch of moves within the first two minutes. The guys with systems never stop attacking - when you defend one thing, they immediately flow to the next threat without any reset or scramble back to neutral. That's because they've built their game around reality, around what actually happens when people defend their attacks under full resistance. I built my entire no-gi game around a few core positions - back control, mount, ashi garami variations - and drilled thousands of reps of every common defensive response until I had automatic answers. When someone defends my back take, I don't think about what to do next, my body just flows to the mounted triangle or armbar because I've connected those techniques through endless drilling. The key is being honest about what actually works at the highest level and building your system around high-percentage technique relationships that remain functional when both people are trying their hardest. Most people waste time developing systems around low-percentage moves they never hit in competition, or they copy someone else's system without having the physical attributes or technical foundation to make it work. Your system needs to match your body and your skill level, and every single connection in it needs to be pressure tested until you trust it completely in competition. That's how you beat world-class guys - not by knowing more techniques than them, but by having deeper systems that keep attacking through multiple defensive layers while they're still trying to survive the current threat.
-- **Eddie Bravo**: System building is where you move from being a technician to being an artist, where you start creating your own game instead of just copying what everyone else does. The beautiful thing about systems is that once you understand how to build them, you can invent completely new pathways that nobody else is using. Look at the rubber guard system - I didn't invent every technique in it, but I connected them in ways that created a unique offensive framework that attacks from bottom. That's what system building lets you do: take existing techniques, unconventional positions, and your own innovations, then organize them into something cohesive that works for your style. The mistake people make is thinking systems have to be traditional or proven - some of the best systems come from asking 'what if?' and exploring connections other people ignore. When I developed the lockdown to electric chair system, people thought I was crazy because it went against conventional wisdom about half guard, but it worked because I built complete technical pathways from entry to finish and tested every connection until it was reliable. Don't be afraid to build systems around positions or techniques that seem unorthodox if they match your attributes and create genuine advantages. The key is making sure every technique in your system connects to multiple others, so you're never stuck when something gets defended. Your system should feel like a maze where you know every pathway but your opponent is just trying to survive. That's when jiu-jitsu becomes really fun - when you're operating inside your system and everything flows automatically while they're fighting just to understand what's happening.
 
 </section>
 

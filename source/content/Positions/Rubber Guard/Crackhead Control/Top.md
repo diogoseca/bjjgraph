@@ -8,7 +8,7 @@ description: "Navigate Crackhead Control from top position - defending deep over
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -428,24 +428,6 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 
 **Average Time in Position**: 20-40 seconds before position resolves to pass, back take, or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From the top perspective, Crackhead Control defense requires understanding that the position functions as a submission threat complex rather than a stable control position. The bottom player has deliberately sacrificed positional stability for offensive access, which means defensive success against individual submissions does not equate to position resolution. The systematic approach to defense prioritizes three sequential objectives: first, prevent immediate submission finishes through minimal defensive movements that don't compromise base; second, reduce overhook depth through systematic arm extraction mechanics; third, capitalize on back exposure opportunities that emerge when bottom player extends for submission attempts. The critical error most practitioners make is attempting all three objectives simultaneously through explosive movements, which actually benefits the bottom player by creating the chaos and space their offense requires. Instead, patient systematic progression through these defensive layers while maintaining wide base and good posture creates progressive positional improvement. The trapped arm extraction must occur through circular motion and posture establishment rather than linear pulling, as pulling directly into overhook pressure creates perfect omoplata angles.
-
-### Gordon Ryan
-
-In high-level competition, Crackhead Control from top position tests your submission defense literacy and pattern recognition more than most guard positions. The bottom player is actively hunting finishes with every movement, so you're in constant defensive mode while simultaneously looking for back-take opportunities. My defensive priorities are clear: first, don't get submitted; second, don't get swept; third, work toward extracting my arm and establishing better position. The key insight is recognizing that the bottom player's aggressive submission hunting creates the back exposure windows - they can't maintain perfect back protection while simultaneously attacking your neck or arm. When you feel them extending their legs for triangle or omoplata entries, that's your moment to transition toward back control. However, this requires confidence in your submission defense - if you're panicking about the submission, you won't recognize the back-take window. Against elite rubber guard players, sometimes the best strategy is accepting that you'll spend 30-45 seconds in defensive mode before opportunities emerge. Trying to force passing or extraction prematurely usually results in submission or sweep. Patience and systematic defense eventually create your offensive windows.
-
-### Eddie Bravo
-
-Defending Crackhead Control from top shows whether someone really understands the rubber guard system or just knows isolated techniques. Most people try to muscle out of the overhook, which is exactly what we want - that pulling motion sets up perfect omoplata angles. The smart defense is way more subtle - they stay calm, maintain their base wide, work to get their posture back gradually, and most importantly, they don't give us the reactions we need to finish submissions. When someone defends correctly, it becomes a chess match where we're trying to create the reaction we need while they're trying to minimize movement and systematically improve position. The back exposure thing is real - we accept it as calculated risk, but when we commit hard to finishing a gogoplata or omoplata, there's definitely a window where back takes become available. Elite wrestlers and back attack specialists are particularly dangerous from top in Crackhead Control because they recognize those windows instantly. That's why the position works better against traditional jiu jitsu players who are less comfortable with dynamic back takes. Against high-level competitors, you have to be very precise about when you commit to submission finishes versus maintaining tighter positional control.
 
 </section>
 

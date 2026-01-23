@@ -8,7 +8,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -451,24 +451,6 @@ Start in established truck position. Top player works for submissions and positi
 
 **Average Time in Position**: 30-90 seconds before submission or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The truck position represents a fascinating biomechanical puzzle where traditional back control principles are modified through leg entanglement to create new submission mechanics. The boot pressure against the hip creates a lever system that generates spinal rotation, fundamentally different from the compression-based attacks of standard back control. What makes the truck systematically powerful is the true dilemma it creates: the opponent must simultaneously defend their spine from rotational attacks (twister, bow and arrow) and their legs from compression attacks (calf slicer, banana split). This dual-plane threat system means that defending one area inherently exposes the other. The key technical element is maintaining boot pressure throughout all attacks - this pressure is not simply positional control but rather the mechanical engine that enables the submission attempts. Students must understand that the truck is not a static position but a dynamic control system where small adjustments in boot angle and pressure create vastly different submission opportunities. The position's complexity lies in coordinating three separate control systems: boot pressure for torque, leg entanglement for immobilization, and upper body control for submission completion.
-
-### Gordon Ryan
-
-I don't hunt for the truck position actively in my game, but when the entry presents itself—particularly from turtle or half guard back takes—I use it to finish immediately or force the opponent into worse positions. The calf slicer from truck is my highest percentage attack because it's less familiar to most opponents than the twister, and the pain comes on quickly, leading to fast taps. In competition, I'm always aware that the truck can be controversial with some referees regarding back point criteria, so I typically use it as a quick finishing attempt before transitioning to standard back control. The position works best against opponents who aren't specifically trained in 10th Planet systems, as those familiar with the truck have developed specific defenses that make finishing more challenging. My approach is to enter the truck with a specific submission in mind based on how I got there—if they're defending upper body heavily, I immediately go to the calf slicer; if they're worried about their legs, the twister becomes available. The key is not spending too much time in the position hunting for the perfect setup but rather taking the first high-percentage submission that appears and being willing to bail to back control if it's not immediately there.
-
-### Eddie Bravo
-
-The truck is a cornerstone of the 10th Planet system—it's our answer to the guard pass-to-back control sequence that traditional BJJ emphasizes. What makes the truck revolutionary is the multiple submission threats it creates from a single position. Students often make the mistake of fixating on the twister, but the real power is in the submission chains: threaten the twister and they defend high, hit the calf slicer low; defend the calf slicer and they expose the banana split or electric chair. The boot control is everything—if you lose that pressure, the position falls apart. We drill truck entries from everywhere: turtle, half guard, rubber guard, even standing. The key innovation is recognizing that back control doesn't have to look like traditional back control to be effective. The truck proves that leg entanglement combined with back exposure creates finishes that traditional positions can't access. In no-gi especially, where grips are limited, the truck's mechanical control through boot pressure and leg entanglement becomes even more powerful because opponents can't use collar or sleeve grips to defend. The position embodies our philosophy: create control systems that force opponents into submission dilemmas they haven't trained to defend.
 
 </section>
 

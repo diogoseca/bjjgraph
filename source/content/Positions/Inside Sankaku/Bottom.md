@@ -8,7 +8,7 @@ description: "Master Inside Sankaku bottom perspective. Defensive strategies, es
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -421,24 +421,6 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 
 **Average Time in Position**: 15-45 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From the bottom of Inside Sankaku, your defensive priorities must follow a strict hierarchy based on immediate danger assessment. First, protect your heel by keeping it tight to your own hip - this single action prevents the optimal angle for the inside heel hook and buys you critical time. Second, prevent the opponent from establishing perfect hip-to-hip connection by creating frames and using your free leg to generate distance. Third, address the knee line control by understanding that turning into your opponent leads to the Saddle, while creating distance allows potential extraction. The most common error I observe is practitioners attempting to muscle their way out without addressing these systematic control points. The escape must be technical and sequential - first neutralize the submission threat, then diminish positional control, finally extract the leg. Understanding the biomechanics of the inside heel hook makes it clear why protecting the heel position is paramount - the internal rotation and lateral pressure on the knee requires specific alignment that your defensive posture can disrupt.
-
-### Gordon Ryan
-
-Being caught in Inside Sankaku is one of the worst positions in competition, which is exactly why I've spent extensive time understanding the defensive mechanics from firsthand experience. My primary rule from bottom is never panic - the moment you start making explosive, uncontrolled movements is when injuries happen. I focus on keeping my heel protected and maintaining awareness of my opponent's grip positioning. If they don't have the heel grip yet, that's my window to escape, and I take it immediately with a technical hip escape or Granby roll. If they do have grips established, I'm very honest with myself about the danger and will tap before forcing anything. In competition, I've also learned to counter-attack their legs when possible - entering my own leg entanglement to create 50-50 situations where their control is diminished. The key is recognizing that staying in this position is not an option; you either escape immediately or defend the submission until you can escape. Time is not your friend here.
-
-### Eddie Bravo
-
-Inside Sankaku from bottom is a nightmare scenario, but we've developed some creative defensive options in the 10th Planet system that give you fighting chances. First thing - protect that heel like your life depends on it, because your knee ligaments definitely do. We emphasize the Granby roll escape because it fits our system's emphasis on flexibility and unconventional movement patterns. When you Granby out, you're using rotation and momentum rather than strength, which is perfect for our style. We also look for counter leg attacks more aggressively than traditional systems - if they're attacking your leg, attack theirs and create a stalemate situation. Sometimes we'll even look to give up the back temporarily if it means getting out of the leg entanglement, then we work our back escapes which we're very comfortable with. The bottom line is this position requires immediate action - it's never a resting position, never somewhere you wait and see what happens. You're either escaping or tapping, and there's no shame in tapping to a locked heel hook.
 
 </section>
 

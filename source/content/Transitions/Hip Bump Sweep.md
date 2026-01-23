@@ -8,7 +8,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -342,15 +342,6 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 - [[Flower Sweep]] - Related sweep - shares some mechanical principles with Hip Bump
 - [[Elevator Sweep]] - Related sweep - exploits similar timing windows
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Hip Bump Sweep represents a perfect example of how proper technique selection must align with opponent positioning and weight distribution. The critical element that most practitioners overlook is the necessity of first establishing forward weight distribution before initiating the sweeping motion. When executed with proper timing - specifically when the opponent attempts to establish strong posture or begins standing - the technique becomes extraordinarily high percentage. The biomechanics are elegant: by controlling one arm and creating a 45-degree angle, you direct force into the geometric weak point of their base structure. The real sophistication of this technique, however, lies not in its isolated application but in its systematic integration with the Kimura and Guillotine, creating what I term a 'closed loop attack system' where every defensive option opens another offensive opportunity. This is exemplary of how Brazilian Jiu-Jitsu should be practiced - not as isolated techniques, but as interconnected systems where technique selection flows logically from opponent reactions.
-- **Gordon Ryan**: The Hip Bump Sweep is one of those techniques that looks simple but separates competitors from hobbyists in terms of execution. In competition, I use this primarily as a setup technique rather than my main attack - I threaten it hard to create reactions that open up my real attacks like the Kimura or back takes. The key to making this work at high levels is explosive hip movement and perfect timing. You cannot telegraph this sweep or do it slowly against good opponents - it has to be sharp and unexpected. I've finished matches with this sweep at black belt level, but only when I've set it up properly with previous attempts and created uncertainty in my opponent's mind. The chain attack aspect is where this technique truly shines in modern competition - you're never just doing the Hip Bump in isolation, you're threatening it as part of a system that includes Kimura traps and guillotines. Against strong pressure passers, threatening the Hip Bump also prevents them from getting too comfortable in your guard, forcing them to maintain defensive awareness which opens other attacks.
-- **Eddie Bravo**: The Hip Bump is old school fundamental that works in both gi and no-gi, which is rare for closed guard techniques. At 10th Planet, we teach this early and often because it develops the hip mobility and explosive power that students need for more advanced techniques later. Where we add some innovation is in how we chain this with our rubber guard system - if the Hip Bump fails or gets defended, we can transition into Mission Control or other rubber guard positions very quickly. The sit-up variation is particularly effective in no-gi because you can't rely on collar grips, so sitting all the way up gives you more control over their head and posture. What I love about this sweep is that it teaches newer students to be aggressive from guard rather than passive. Too many people think guard is just defensive, but the Hip Bump shows you can attack explosively from bottom position. We also use this as a conditioning drill because the explosive hip movement is exhausting - 50 Hip Bumps in a row will gas anyone out and build that specific strength needed for sweeps and guard work.
 
 </section>
 

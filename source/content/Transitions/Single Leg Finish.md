@@ -8,7 +8,7 @@ description: "Learn Single Leg Finish in BJJ. Step-by-step takedown completion f
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -340,15 +340,6 @@ The single leg finish represents a critical junction point in the BJJ positional
 - [[Standing Position]] - Starting position for technique execution
 - [[Ankle Pick]] - Alternative lower leg attack with similar principles
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The single leg finish is fundamentally about mechanical advantage through elevation and angle creation. When you elevate the captured leg above the opponent's hip level, you create a situation where their remaining base becomes geometrically unstable - they simply cannot maintain balance on one leg when the other is lifted high enough. The critical error most practitioners make is driving forward without first establishing this elevation and the proper lateral angle. Think of it as a lever system where your shoulder is the fulcrum, their leg is the lever arm, and your legs provide the force. The angle you create by stepping to the outside determines the direction of force application - straight forward allows them to resist with their remaining base, but a 45-degree angle attacks the weakness in their structure. Your head position on the outside is not merely about guillotine defense; it positions your shoulder as the optimal fulcrum point and allows your spine alignment to transfer maximum force from your legs through their center of mass. Master these mechanical principles and the finish becomes nearly inevitable once you establish proper leg control.
-- **Gordon Ryan**: In competition, the single leg finish is my bread and butter takedown because it offers multiple high-percentage finishing options based on opponent reactions. The key is being able to chain finishes smoothly - if they defend the basic drive-through finish with a whizzer, I immediately switch to the dump or outside trip. If they start hopping, I run the pipe to the back where I want to be anyway. This is where competition experience pays off - you learn to read their weight distribution and defensive tendencies instantly. Against high-level guys, I almost never get the basic finish on the first attempt, but that doesn't matter because I've drilled the chains so much that their defense to finish one just sets up finish two. Also, in no-gi especially, I'm always thinking about the transition to back control during the finish. Even as I'm driving through to side control, if I feel them turning into me, I'm ready to capitalize and take the back instead. The other critical factor is timing - I hit single legs when they're moving or off-balance, never when they're perfectly set in their stance. Entries matter just as much as finishes.
-- **Eddie Bravo**: What I love about the single leg finish is how it flows into leg attack positions if you stay creative with it. Traditional guys finish to side control, which is cool, but I'm always thinking about how that captured leg can become an entry to outside ashi or even transitioning to leg entanglements during the scramble. If they're defending hard and we both go to the ground during the finish, that's actually an opportunity to establish leg control rather than just trying to force the traditional top position. Also, the dump finish is super underrated - it's such a satisfying way to finish when they give you that whizzer, using their own grip against them. In 10th Planet style, we also emphasize the run-the-pipe variation heavily because back control is our money position. If someone's hopping to defend, don't fight it - use that momentum to circle to their back. And here's a detail most people miss: as you're finishing, if you can trap their far arm with your free hand during the drive, you can land directly in a gift wrap position or crucifix setup from side control. Every finish should be thinking about the next position, not just completing the takedown. That's how you dominate matches from start to finish.
 
 </section>
 

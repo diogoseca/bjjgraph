@@ -8,7 +8,7 @@ description: "Master Knee Shield Half Guard Top in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -441,24 +441,6 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 **Average Time in Position**: 45-90 seconds for experienced passers, 2-3 minutes for beginners
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The knee shield half guard represents one of the most structurally sound defensive positions in modern jiu-jitsu, and passing it requires systematic dismantling rather than brute force. The key insight is understanding that the knee shield's strength comes from its ability to create distance and maintain structural integrity through proper shin positioning. Your primary objective from top position is to collapse this structure by controlling the ankle and applying strategic shoulder pressure that compromises the frame's geometry. The most common error I observe is practitioners driving straight into the knee shield, which actually reinforces the defensive structure. Instead, approach at an angle, typically 45 degrees to the shield, which allows you to apply pressure through your shoulder into the opponent's upper chest while simultaneously controlling their shin at the ankle. This creates a biomechanical dilemma where maintaining the knee shield becomes energetically unsustainable. The systematic approach involves three phases: first, establish dominant grips with crossface and ankle control; second, apply progressive pressure to collapse or redirect the shield; third, transition immediately to your chosen passing sequence before the opponent can reconstruct their defensive frame.
-
-### Gordon Ryan
-
-In competition, the knee shield half guard is probably the most common defensive position I encounter, and I've developed a very specific approach to passing it efficiently. My strategy is based on immediate pressure and grip dominance—I'm not interested in sitting in someone's knee shield having grip battles for two minutes. The moment I recognize the knee shield structure, I establish my crossface hard and grab their far pants leg. From there, I'm looking to smash pass or knee slice depending on how they react. If they extend the knee shield to create space, I immediately stuff it down and drive my shoulder into their face while stepping my trapped leg out—that's the knee slice. If they keep the shield tight, I switch to the smash, using my chest pressure to collapse the knee and driving through. The critical thing in competition is pace—you need to make them defensive and uncomfortable immediately. Don't let them set their grips and frames perfectly. I also always threaten the long step pass, especially when they're focused on the underhook battle. Keep them guessing which pass is coming, and when you commit to one, commit fully and explosively. In high-level competition, hesitation in the pass gets you swept.
-
-### Eddie Bravo
-
-From the 10th Planet perspective, we see the knee shield half guard as one of the most dangerous positions for the top player if they don't respect it properly. We've developed entire systems from knee shield bottom, so when I'm on top facing it, I know exactly what threats are coming. The main thing is you cannot let them get that deep underhook—that's where the old school sweep and all the back takes come from. My approach is to immediately establish a heavy crossface and start working to trap their far arm with an overhook. Once I've got the overhook and crossface, their offensive options are severely limited. From there, I like the knee slice pass, but I'm doing it with a lot more hip pressure than traditional BJJ guys. I want my hips driving into their shield while I control the ankle and step through. The key detail is keeping your weight distributed properly—too much weight forward and you're getting swept, too much back and you're not breaking their structure. I also look for opportunities to transition to the truck position if they're really committed to the knee shield and trying to invert or get fancy with it. A lot of modern guys are so focused on their knee shield retention that they forget about giving up their back, and that's where we excel.
 
 </section>
 

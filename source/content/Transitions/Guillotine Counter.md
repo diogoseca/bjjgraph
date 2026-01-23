@@ -8,7 +8,7 @@ description: "Learn Guillotine Counter in BJJ. Step-by-step execution from Guill
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -345,15 +345,6 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 - [[Front Headlock]] - Starting control position from which many guillotines are initiated
 - [[Posture Up]] - Fundamental skill required for effective guillotine defense
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The guillotine counter exemplifies a fundamental principle of submission defense: the systematic negation of leverage through positional dominance. The guillotine, like all chokes, requires specific geometric relationships to function - the opponent must create an upward arch while maintaining distance and angle. Our defensive strategy systematically dismantles each of these requirements. Forward pressure eliminates the arch, hand control prevents grip adjustments that create angle, and the circular escape pattern removes our neck from the leverage point. Students must understand that panic is the guillotine's greatest ally. The choke itself takes time to render unconsciousness, but panic causes practitioners to abandon technique and strengthen the opponent's position through chaotic movement. Train this defense slowly, understand the mechanical relationship between each defensive component and the submission's requirements, and develop the mental composure to execute technique under pressure. The practitioner who masters guillotine defense gains access to positions and transitions that others must avoid due to submission fear.
-- **Gordon Ryan**: In competition, guillotines are everywhere because they're high-percentage submissions that appear in scrambles, guard pulls, and takedown situations. You cannot avoid guillotine exposure if you want to have an aggressive game, so your defense must be automatic and reliable. I've been caught in countless guillotine attempts and the difference between tapping and winning is immediate recognition and perfect execution of defensive fundamentals. The second I feel the grip, my chin tucks, my posture straightens, and I'm driving pressure before they can secure anything tight. Most guillotines in competition fail not because the person doesn't know the choke, but because the defender executes perfect defense faster than they can finish. Train this counter until the responses are completely automatic - you don't have time to think through steps when someone jumps guard with a guillotine. Your body needs to know exactly what to do. Also, use this counter aggressively to advance position. Don't just survive the guillotine, use it as an opportunity to pass guard or take top position.
-- **Eddie Bravo**: The beautiful thing about the guillotine counter is that it's pure leverage mechanics that work in both gi and no-gi, which is rare. In the 10th Planet system, we see a lot of guillotine attempts because we're constantly inverting, coming up on singles, and creating scrambles. What I teach my students is that the guillotine is actually a gift if you know how to defend it properly, because the person committing to the guillotine is giving up position and control for a submission attempt. When you counter it correctly, you end up in side control while they've wasted energy on a failed submission. The key innovation we've added is being even more aggressive with the forward pressure - think of it as a smash pass through a guillotine. We also emphasize the hand control aspect more than traditional schools because in no-gi, that grip can get adjusted lightning fast without friction. Grab that wrist, drive that pressure, and circle to safety. Once you get comfortable defending guillotines, you can actually bait them and use them as entries to dominant positions, which is next level strategy.
 
 </section>
 

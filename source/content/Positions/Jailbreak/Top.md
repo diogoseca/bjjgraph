@@ -8,7 +8,7 @@ description: "Master Jailbreak Top Position in BJJ. Advanced half guard passing 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -452,24 +452,6 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The jailbreak top position represents a critical inflection point in the half guard passing sequence where the passer's ability to maintain forward pressure while reading leg configurations determines success or failure. The extended legs create a geometric puzzle that must be solved through proper weight distribution and strategic grip placement. The key mechanical principle is maintaining chest-to-chest connection while your hips drive forward into the bottom player's center line, creating what I call 'pressure through the legs rather than against them.' Many students make the error of trying to force their way through the extended legs with pure strength, when the solution is to use the opponent's leg extension as a guide for your passing direction. When the legs are extended, they become relatively static and predictable, allowing you to choose between three primary passing vectors: over the legs with a smash pass, through the legs with a leg weave, or around the legs with a backstep to leg entanglements. The decision of which vector to use must be based on the bottom player's hip positioning and defensive priorities. This position also teaches an important concept about passing in general: control the upper body first, solve the leg puzzle second. Without proper cross-face, underhook, or head control, even the most technically sound leg navigation will fail because the bottom player retains the mobility to re-guard.
-
-### Gordon Ryan
-
-In competition, jailbreak top is where a lot of matches get decided because it's that moment right before you complete the pass where your opponent is making their last stand. I've passed hundreds of half guards in competition and the jailbreak is almost always the final defensive position they show me before I get to side control. The key thing I focus on is not giving them any time to think or adjust. The moment I feel their legs extend in that jailbreak motion, I'm already choosing my passing direction and committing to it with maximum pressure. In high-level competition, you can't hesitate here because guys will use that split second to recover deep half or hit a dogfight. My go-to from here is almost always the smash pass because it's the highest percentage and it puts maximum pressure on their guard retention. I'm driving my shoulder into their face, controlling their far hip with my hand, and just crushing through. If they try to turn away, I follow to their back. If they try to come up to dogfight, I sprawl and take the back step to their legs. The beautiful thing about jailbreak top is that every defensive option they choose opens up a clear passing lane if you're reading it correctly. Against really flexible guys who can do crazy stuff with their legs, I'll sometimes switch to the leg weave because it neutralizes their leg dexterity. But honestly, in competition, I'm just looking to pass as fast as possible and get to the scoring positions.
-
-### Eddie Bravo
-
-The jailbreak is one of the core positions in the 10th Planet system, and from the top, it's all about understanding that the bottom guy is trying to create distance and time to set up his lockdown or electric chair. When I'm teaching guys how to pass the jailbreak, I'm emphasizing constant forward pressure and never letting them settle into their comfort zone. The moment you give space, they're going to shoot that lockdown on you or hit a deep half entry, and now you're playing their game. From jailbreak top, I'm looking for that underhook pass because it shuts down so many of their options - no more lockdown, no more electric chair, they can't get to deep half as easily. But you've got to be ready to flow because 10th Planet guys are trained to constantly change the geometry of their legs. One second they're in jailbreak, the next they're inverting or going belly down. That's why I teach my students to have multiple passing solutions ready from this position. If the standard passes aren't there, you can always take the back step and go to their legs, especially in no-gi where heel hooks are legal. The jailbreak top position is really a test of whether you understand pressure passing principles versus if you're just trying to muscle through. The proper way to pass is to make them feel like they're drowning, where every defensive option they try just makes it worse.
 
 </section>
 

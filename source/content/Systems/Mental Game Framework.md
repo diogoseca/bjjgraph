@@ -8,7 +8,7 @@ description: "Master the mental game in BJJ competition. Complete psychological 
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -363,15 +363,6 @@ Mental game development requires systematic progression from controlled environm
 - [[Guard Pull]] (Transition) - Strategic entry requiring mental commitment and clear game plan
 - [[Takedown Defense]] (Transition) - Defensive skill requiring calm decision-making under pressure
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The mental game is not mystical—it is systematic preparation meeting systematic execution. Every physical technique requires corresponding mental preparation. Your brain operates under the same principle as your body: it performs under stress based on how it has been trained. Most competitors train their bodies extensively but leave their minds to chance. This is irrational. Develop decision trees for every major position so your mind has clear pathways even when your body is fatigued and your emotions are activated. The competitor who maintains clarity of thought when exhausted and behind on points has trained their mind as systematically as their body. Visualization is not daydreaming—it is neural pathway activation. When you visualize correctly, with multi-sensory detail and emotional engagement, you are literally training your nervous system. The mind cannot distinguish between vivid visualization and actual experience at the neural level. Therefore, systematic visualization practice provides additional training sessions without physical wear. The competitor who visualizes daily has trained significantly more than the competitor who relies solely on mat time.
-- **Gordon Ryan**: Competition is won by who makes better decisions under pressure, not who knows more techniques. I've beaten people with better technique because my mind stayed clear when theirs panicked. Mental preparation is not soft—it's the hardest training there is because you have to confront your actual weaknesses instead of pretending they don't exist. Most people avoid competition simulation because they don't want to feel the pressure in training. That's exactly why they break under pressure in competition. I train my decision-making as hard as my technique. Every hard round, I'm testing if I can still think clearly when I'm exhausted. Every time I'm in a bad position, I'm practicing staying calm instead of panicking. By competition day, pressure feels normal because I've felt it hundreds of times in training. Your competition performance is a direct reflection of your training honesty. If you avoid pressure in training, you'll crumble under pressure in competition. If you embrace it systematically, you'll thrive when others break. The matches I've won while behind on points or in bad positions were won during training when I practiced maintaining my game plan even when things weren't going my way.
-- **Eddie Bravo**: The mental game is about trusting your preparation and staying creative under pressure. Most people get tight when they compete because they're trying to remember everything they learned instead of just flowing with what their body knows. The key is training so much that your techniques become instinctive, then your conscious mind is free to be creative and respond to what's actually happening instead of overthinking. I tell my guys: your body knows what to do, get your mind out of the way. Breath work is essential—when you control your breathing, you control your state. I use specific breathing patterns to either amp up or calm down depending on what the moment needs. Before a match, I'm using breath to get into that focused but loose state where I'm ready to explode but not tense. During the match, breath keeps me from burning out emotionally and physically. The mental game isn't about being fearless—it's about being comfortable with fear. You're going to feel pressure, you're going to feel doubt, that's normal. The difference is whether you panic or whether you breathe through it and stick to your game. Train yourself to recognize when you're getting tight, take a controlled breath, and reset. That's a skill just like anything else.
 
 </section>
 

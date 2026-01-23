@@ -8,7 +8,7 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -439,24 +439,6 @@ Start with partner achieving initial passing pressure. Practice recovering half 
 
 **Average Time in Position**: 45-90 seconds in competitive scenarios
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Half Butterfly Bottom represents an elegant synthesis of two complementary guard systems, combining the leg-trapping control of half guard with the elevation mechanics of butterfly guard. The critical insight is understanding that these two components create a biomechanical dilemma for the top player - they cannot simultaneously prevent the sweep threat from the butterfly hook while also working to extract their trapped leg. The position's effectiveness stems from forcing the opponent to divide their attention and pressure between two separate defensive requirements. Technically, the bottom player must maintain what I call 'dynamic tension' - constant upward pressure through the butterfly hook that prevents weight settlement while the half guard legs maintain squeeze pressure on the trapped leg. The sweep mechanics operate on leverage principles where the butterfly hook creates a fulcrum point combined with upper body grips to generate rotational force. Most importantly, practitioners must understand that this is an offensive position requiring constant threatening motion rather than a passive holding position. The decision tree from this position should prioritize sweep attempts when opponent maintains high posture, transitions to deep half when facing forward pressure, and back takes when opponent's weight shifts laterally. This systematic approach ensures you're always attacking the opponent's structural weaknesses rather than fighting their strengths.
-
-### Gordon Ryan
-
-In competition, half butterfly is one of my highest-percentage positions for creating scrambles and sweep opportunities against resistant opponents. The key is never letting them settle - I'm constantly elevating with the butterfly hook, changing angles, and threatening multiple sweeps to keep them defensive. What makes this position so effective at the elite level is that even when opponents know the sweeps are coming, the biomechanics force them into bad positions if they defend wrong. If they post their hand to prevent the butterfly sweep, they give up the old school sweep. If they sit back to defend the old school, the butterfly sweep becomes available. I use this position specifically against pressure passers who want to smash - the butterfly hook prevents them from getting the chest-to-chest pressure they need, and when they commit forward, deep half or back takes open up. The competition mindset here is aggressive - I'm hunting for the sweep from the first second, not waiting or defending. Time it right and you can sweep black belts who outweigh you by 40 pounds. The underhook on the butterfly hook side is absolutely non-negotiable - without it you're playing defense, with it you're the one controlling the match. I've won multiple ADCC matches by forcing opponents to play my half butterfly game and sweeping them when they couldn't solve the puzzle.
-
-### Eddie Bravo
-
-Half butterfly is where 10th Planet methodology really shines because we approach it completely differently than traditional BJJ. We don't see it as just adding a butterfly hook to half guard - we use it as an entry point to the entire system of positions including lockdown, electric chair, and back takes. The rubber guard principles apply here too - create angles, break their posture, make them uncomfortable. What I teach my students is to make the top guy miserable with constant movement and threats. We're not trying to hold perfect position like it's a chess match - we're creating chaos, making them defend multiple attacks, and capitalizing when they make mistakes. The butterfly hook isn't just for sweeps - it's for elevating into truck position, transitioning to deep half, or setting up leg attacks. In no-gi especially, this position is money because without the gi grips, opponents can't control your upper body as easily, and the butterfly hook becomes even more dangerous. Keep them guessing, stay offensive, and don't be predictable with your sweep timing. I've seen guys use half butterfly to completely neutralize bigger, stronger opponents by staying one step ahead mentally. The physical attributes matter less when you're constantly creating problems they haven't solved yet.
 
 </section>
 

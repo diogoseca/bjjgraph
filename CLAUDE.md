@@ -82,7 +82,7 @@ bjjgraph/
 ├── PARTNERS.md                  # Partnership & sponsorship info
 ├── docs/
 │   ├── Architecture.md          # JSON pipeline, Position model, A/B testing
-│   ├── Content.md               # Standards, validation, expert insights
+│   ├── Content.md               # Standards, validation rules
 │   └── SEO.md                   # Schema markup, keywords, analytics
 ├── scripts/
 │   ├── validate_json.py         # JSON schema validation
@@ -158,6 +158,20 @@ Pure JavaScript, no edge workers:
 **Key files:**
 - `source/quartz/components/scripts/uniform-ab-testing.inline.ts`
 - `source/quartz/components/scripts/posthog-ab-tracking.inline.ts`
+
+### Graph Component
+
+Interactive knowledge graph visualization using PixiJS (WebGL) + D3.js force simulation.
+
+**Key behaviors:**
+- **Views**: Local (sidebar, depth-1) and global (Ctrl+G modal, all nodes) are mutually exclusive
+- **Touch**: Pinch-zoom and drag work via D3's built-in gesture handling
+- **Performance**: Default is fast settling; use `?graph=legacy` for old slow animation
+- **Cleanup**: Properly destroys WebGL context, stops simulation, and clears tweens on navigation
+
+**Key files:**
+- `source/quartz/components/scripts/graph.inline.ts`
+- `source/quartz/components/styles/graph.scss`
 
 ---
 
@@ -271,15 +285,6 @@ SELECT (git age, JSON-first)
 - No `.md` extension
 - Verify target exists before adding
 - Special: `[[Won by Submission]]`, `[[Guard Opening Sequence]]`
-
-### Expert Insights (Required)
-
-All technical pages need insights from:
-1. **John Danaher** - Systematic, theoretical, biomechanical
-2. **Gordon Ryan** - Competition-focused, high-percentage
-3. **Eddie Bravo** - Innovative, unorthodox, creative
-
-Each: 2-3 sentences with distinct perspective
 
 ### Safety (Submissions Only)
 

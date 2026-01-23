@@ -62,6 +62,24 @@ function addToVisited(slug: SimpleSlug) {
   localStorage.setItem(localStorageKey, JSON.stringify([...visited]))
 }
 
+// Graph performance mode from URL param or session storage
+// "default" = fast settling, "legacy" = old slow settling
+function getGraphMode(): "default" | "legacy" {
+  const urlParams = new URLSearchParams(window.location.search)
+  const urlMode = urlParams.get("graph")
+  if (urlMode === "legacy") {
+    sessionStorage.setItem("graphMode", "legacy")
+    return "legacy"
+  }
+  // Clear legacy mode if explicitly set to default
+  if (urlMode === "default") {
+    sessionStorage.removeItem("graphMode")
+  }
+  return (sessionStorage.getItem("graphMode") as "legacy") || "default"
+}
+
+const isTouchDevice = "ontouchstart" in window
+
 type TweenNode = {
   update: (time: number) => void
   stop: () => void
@@ -287,11 +305,30 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   // we virtualize the simulation and use pixi to actually render it
+  // Performance mode: default = fast settling, legacy = old slow settling
+  const graphMode = getGraphMode()
+  const isLegacy = graphMode === "legacy"
+  const effectiveAlphaDecay = isTouchDevice ? 0.1 : isLegacy ? 0.0228 : 0.05
+  const effectiveVelocityDecay = isTouchDevice ? 0.5 : 0.4
+
   const simulation: Simulation<NodeData, LinkData> = forceSimulation<NodeData>(graphData.nodes)
-    .force("charge", forceManyBody().strength(-100 * repelForce))
+    .force("charge", forceManyBody().strength(-100 * repelForce).distanceMax(200))
     .force("center", forceCenter().strength(centerForce))
     .force("link", forceLink(graphData.links).distance(linkDistance))
-    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(3))
+    .force("collide", forceCollide<NodeData>((n) => nodeRadius(n)).iterations(1))
+    .alphaDecay(effectiveAlphaDecay)
+    .velocityDecay(effectiveVelocityDecay)
+
+  // Animation state tracking for stopping RAF when settled
+  let animationRunning = false
+  let graphAnimationFrameHandle: number | null = null
+
+  function startAnimation() {
+    if (!animationRunning) {
+      animationRunning = true
+      graphAnimationFrameHandle = requestAnimationFrame(animate)
+    }
+  }
 
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
@@ -366,10 +403,6 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   let hoveredNodeId: string | null = null
   let hoveredNeighbours: Set<string> = new Set()
   const linkRenderData: LinkRenderData[] = []
-
-  // Animation state for current node ring (playing_as model)
-  let currentNodeRing: Graphics | null = null
-  let ringPhase = 0
   const nodeRenderData: NodeRenderData[] = []
   function updateHoverInfo(newHoveredId: string | null) {
     hoveredNodeId = newHoveredId
@@ -558,19 +591,13 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
       .fill({ color: isTagNode ? computedStyleMap["--light"] : nodeColor })
       .stroke({ width: isTagNode ? 2 : 0, color: nodeColor })
 
-    // Add animated ring for current page node (playing_as model)
-    if (nodeId === slug) {
-      const ring = new Graphics({ interactive: false, eventMode: "none" })
-      gfx.addChild(ring)
-      currentNodeRing = ring
-    }
-
     gfx
       .on("pointerover", (e) => {
         updateHoverInfo(e.target.label)
         oldLabelOpacity = label.alpha
         if (!dragging) {
           renderPixiFromD3()
+          startAnimation() // Restart animation for tween updates
         }
       })
       .on("pointerleave", () => {
@@ -578,6 +605,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
         label.alpha = oldLabelOpacity
         if (!dragging) {
           renderPixiFromD3()
+          startAnimation() // Restart animation for tween updates
         }
       })
 
@@ -619,6 +647,7 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
         .subject(() => graphData.nodes.find((n) => n.id === hoveredNodeId))
         .on("start", function dragstarted(event) {
           if (!event.active) simulation.alphaTarget(1).restart()
+          startAnimation() // Restart animation loop when dragging
           event.subject.fx = event.subject.x
           event.subject.fy = event.subject.y
           event.subject.__initialDragPos = {
@@ -686,50 +715,53 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   }
 
   function animate(time: number) {
-    for (const n of nodeRenderData) {
-      const { x, y } = n.simulationData
-      if (!x || !y) continue
-      n.gfx.position.set(x + width / 2, y + height / 2)
-      if (n.label) {
-        n.label.position.set(x + width / 2, y + height / 2)
-      }
-    }
+    const isActive = simulation.alpha() > simulation.alphaMin()
 
-    for (const l of linkRenderData) {
-      const linkData = l.simulationData
-      l.gfx.clear()
-      l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
-      l.gfx
-        .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
-        .stroke({ alpha: l.alpha, width: 1, color: l.color })
+    // Only update positions when simulation is active
+    if (isActive) {
+      for (const n of nodeRenderData) {
+        const { x, y } = n.simulationData
+        if (!x || !y) continue
+        n.gfx.position.set(x + width / 2, y + height / 2)
+        if (n.label) {
+          n.label.position.set(x + width / 2, y + height / 2)
+        }
+      }
+
+      for (const l of linkRenderData) {
+        const linkData = l.simulationData
+        l.gfx.clear()
+        l.gfx.moveTo(linkData.source.x! + width / 2, linkData.source.y! + height / 2)
+        l.gfx
+          .lineTo(linkData.target.x! + width / 2, linkData.target.y! + height / 2)
+          .stroke({ alpha: l.alpha, width: 1, color: l.color })
+      }
     }
 
     tweens.forEach((t) => t.update(time))
 
-    // Animate current node ring (pause when hovering)
-    if (currentNodeRing && hoveredNodeId === null) {
-      ringPhase += 0.04
-      const node = nodeRenderData.find((n) => n.simulationData.id === slug)
-      if (node) {
-        const baseRadius = nodeRadius(node.simulationData)
-        const scale = 1.3 + Math.sin(ringPhase) * 3.0
-        const alpha = 0.3 + Math.sin(ringPhase) * 0.3
-
-        currentNodeRing.clear()
-        currentNodeRing.circle(0, 0, baseRadius * scale)
-        currentNodeRing.stroke({ width: 3, color: node.color, alpha }) // Thicker stroke too
-      }
-    } else if (currentNodeRing && hoveredNodeId !== null) {
-      // Clear ring when hovering (paused state)
-      currentNodeRing.clear()
-    }
-
     app.renderer.render(stage)
-    requestAnimationFrame(animate)
+
+    // Continue animation only if simulation is active or tweens are running
+    if (isActive || tweens.size > 0) {
+      graphAnimationFrameHandle = requestAnimationFrame(animate)
+    } else {
+      animationRunning = false
+      graphAnimationFrameHandle = null
+    }
   }
 
-  const graphAnimationFrameHandle = requestAnimationFrame(animate)
-  window.addCleanup(() => cancelAnimationFrame(graphAnimationFrameHandle))
+  // Start the animation loop
+  startAnimation()
+
+  window.addCleanup(() => {
+    if (graphAnimationFrameHandle !== null) {
+      cancelAnimationFrame(graphAnimationFrameHandle)
+    }
+    simulation.stop()
+    tweens.clear()
+    app.destroy(true, { children: true, texture: true })
+  })
 }
 
 document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {

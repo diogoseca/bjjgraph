@@ -8,7 +8,7 @@ description: "Master defensive survival from Rear Triangle Bottom. Learn arm ext
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 **Average Time in Position**: 15-45 seconds before tap or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The rear triangle bottom position represents a convergence of two of the most powerful control systems in grappling—the back control framework and the triangle choking mechanism. From a biomechanical perspective, the defender faces a dual constraint system where the legs create arterial compression while the back position limits rotational escape options. The key to survival lies in understanding the hierarchical nature of the escape sequence: first, you must address the trapped arm, as this is the structural weakness in the triangle configuration when applied from the back. The opponent's triangle is only as strong as their ability to maintain the arm inside, so your primary objective must be extraction of that limb through strategic hand positioning and elbow frames. Only after arm extraction should you attempt to address the choking leg itself. The systematic approach to defense requires maintaining chin protection throughout, controlling the choking leg's ankle or knee to limit opponent adjustments, and using small, precise movements rather than explosive panic-driven reactions. Remember that the opponent's position, while dominant, also constrains their own mobility—use this to your advantage by timing your escape attempts to moments when they adjust or transition between submissions.
-
-### Gordon Ryan
-
-Getting caught in a rear triangle is one of the worst positions you can find yourself in during competition, but I've escaped it enough times to know it's not automatically over if you keep your composure and work the right sequence. The first thing I focus on is protecting my chin and immediately grabbing that choking leg—usually at the ankle—because if I can control that leg, they can't adjust the angle to finish me. My trapped arm is the biggest problem, so I'm working to get that elbow down and start walking my hand across my body to extract it. Once that arm is out, the triangle starts falling apart and I can think about actually escaping rather than just surviving. The mistake I see people make is trying to use strength to just rip their head out, but that doesn't work against anyone good—they'll just tighten it up and finish you faster. Instead, I focus on small technical movements: hand fighting, controlling their legs, and creating just enough space to start the extraction process. In competition, I've found that staying calm and breathing efficiently through the restriction buys me the time I need to work my escapes systematically. If you panic and start thrashing, you're done. If you stay technical and work the positions, you can survive and escape even against high-level opponents who have locked this position in tight.
-
-### Eddie Bravo
-
-Rear triangle bottom is basically the ultimate nightmare scenario—you're getting strangled from a position where they have your back and one of your arms is trapped, so you're dealing with multiple problems at once. But here's the thing about the 10th Planet approach to this: we train this position specifically because it comes up in our game when we're hunting for back triangles ourselves, so we know both sides intimately. The key is understanding that the triangle from the back isn't quite as tight as a front triangle because the angle is different and they don't have as much hip mobility to squeeze. That's your window. You need to immediately control that choking leg—grab the ankle, grab behind the knee, whatever you can get—and start working to turn your face away from the choke toward their non-choking leg. Then you're working that trapped arm out by any means necessary: sliding the hand, dropping the elbow, rotating the shoulder. We drill this with the principle that you never give up on the arm extraction because once that arm is free, the whole structure collapses. I also teach my guys to look for the roll-through escape if the opponent's triangle isn't fully locked yet—sometimes you can use their own momentum against them if they're trying to finish too aggressively. The mental game is huge here too; you have to train yourself not to panic when the blood flow gets restricted. We do a lot of survival drilling where guys hold the position at different tightness levels so you get comfortable with that feeling and don't tap prematurely. It's all about staying creative, staying technical, and understanding that even the worst positions have escape routes if you know where to look.
 
 </section>
 

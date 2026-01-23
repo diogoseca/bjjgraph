@@ -8,7 +8,7 @@ description: "Master cross face control mechanics in BJJ. Learn forearm position
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Drive arm and shoulder across opponent's face from near side toward far side
 - Turn opponent's head away from escape direction through crossface lever
 - Maintain consistent crossface pressure throughout position and transitions
@@ -179,9 +179,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Crossface Entry Timing**: Ability to establish crossface immediately upon achieving top position, driving arm across face before opponent can turn in or establish defensive frames. Requires anticipation of positional transitions and understanding of windows where opponent is vulnerable to crossface establishment.
 
 **Forearm Positioning**: Precise placement of forearm across opponent's jaw and neck with proper angle and depth to maximize turning pressure while maintaining connection. Involves understanding how forearm angle affects pressure distribution and head rotation control.
@@ -202,24 +202,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Head Control]]** (Prerequisite): Cross Face Control is a specific application of the broader Head Control principle, utilizing head positioning to limit opponent's movement options and escape capabilities.
-- **[[Shoulder Pressure]]** (Complementary): Crossface effectiveness increases significantly when combined with proper shoulder pressure, creating unified upper body control that prevents opponent from creating defensive frames.
-- **[[Hip Pressure]]** (Complementary): Hip pressure complements crossface control by preventing lower body escapes while crossface prevents upper body escapes, creating comprehensive positional control.
-- **[[Control Point Hierarchy]]** (Extension): Crossface represents a high-priority control point in the hierarchy, as controlling opponent's head through crossface significantly limits their overall movement and escape options.
-- **[[Pressure Passing Framework]]** (Extension): Crossface control is fundamental to pressure passing systems, as it prevents opponent from turning into guard passer and creating defensive frames during the passing sequence.
-- **[[Frame Management]]** (Alternative): From opponent's perspective, effective frame creation directly counters crossface control, making crossface establishment timing critical before opponent can establish frames.
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution enables effective crossface by allowing practitioner to apply shoulder and body weight through crossface arm without compromising balance or base.
-- **[[Pressure Application]]** (Extension): Crossface control exemplifies efficient pressure application, using skeletal structure and body weight rather than muscular force to create sustained control.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Primary control mechanism in side control, driving crossface arm across opponent's face while chest and shoulder create heavy pressure. Crossface prevents opponent from turning in to create frames or shrimp away, making it foundational to side control dominance.
 
 **Knee on Belly**: Crossface combined with knee pressure creates extremely uncomfortable control position. Crossface prevents opponent from turning toward you to remove knee, while knee pressure prevents bridging away from crossface.
@@ -254,9 +239,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess position achievement and opponent's head orientation**: Immediately identify if opponent's head is turned toward or away from you. If turned away, establish crossface before they can turn in. If already turned toward you, prevent existing frames from forming.
 2. **Determine crossface entry timing and method**: Drive crossface arm across face during transition moment when opponent is adjusting to position. Thread arm between their near arm and head, or over their near arm if already framing, aiming forearm across jaw line toward far side.
 3. **Evaluate initial crossface depth and resistance**: Push arm deeply across face until forearm is beyond centerline of their head. If meeting strong resistance, establish shallow crossface first then progressively deepen as opponent exhausts defensive efforts.
@@ -269,9 +254,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Applying crossface pressure with hand instead of forearm and shoulder
   - **Consequence**: Creates weak, easily escaped crossface that exhausts your arm muscles while providing minimal control. Opponent can simply turn head against hand pressure or push hand away.
   - **Correction**: Drive forearm across jaw and neck with shoulder weight behind it. Pressure comes from skeletal structure and body weight, not muscular effort. Hand should be relaxed with forearm doing the work.
@@ -297,9 +282,9 @@ Cross Face Control represents the tactical application of arm and shoulder press
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Crossface Emphasis** (Focus: Maintaining crossface connection against determined escape efforts, integrating crossface with other control elements, recognizing when to increase pressure versus conserve energy.)
 Start in side control with crossface established, opponent works to remove crossface and escape, top person maintains crossface throughout escape attempts. Reset if crossface is lost. Develops crossface maintenance under pressure.
 
@@ -322,9 +307,9 @@ Flow roll with rule that top person must maintain some form of crossface control
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes crossface as important control element but applies it inconsistently
 - Uses hand pressure instead of forearm and shoulder for crossface application
@@ -367,10 +352,22 @@ Flow roll with rule that top person must maintain some form of crossface control
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Head Control]]** (Prerequisite): Cross Face Control is a specific application of the broader Head Control principle, utilizing head positioning to limit opponent's movement options and escape capabilities.
+- **[[Shoulder Pressure]]** (Complementary): Crossface effectiveness increases significantly when combined with proper shoulder pressure, creating unified upper body control that prevents opponent from creating defensive frames.
+- **[[Hip Pressure]]** (Complementary): Hip pressure complements crossface control by preventing lower body escapes while crossface prevents upper body escapes, creating comprehensive positional control.
+- **[[Control Point Hierarchy]]** (Extension): Crossface represents a high-priority control point in the hierarchy, as controlling opponent's head through crossface significantly limits their overall movement and escape options.
+- **[[Pressure Passing Framework]]** (Extension): Crossface control is fundamental to pressure passing systems, as it prevents opponent from turning into guard passer and creating defensive frames during the passing sequence.
+- **[[Frame Management]]** (Alternative): From opponent's perspective, effective frame creation directly counters crossface control, making crossface establishment timing critical before opponent can establish frames.
+- **[[Weight Distribution]]** (Complementary): Proper weight distribution enables effective crossface by allowing practitioner to apply shoulder and body weight through crossface arm without compromising balance or base.
+- **[[Pressure Application]]** (Extension): Crossface control exemplifies efficient pressure application, using skeletal structure and body weight rather than muscular force to create sustained control.
+
+
+### Related Content
 - [[Side Control]] (Position) - Primary position where crossface control is fundamental to dominance
 - [[Knee on Belly]] (Position) - Position where crossface prevents opponent from addressing knee pressure
 - [[Scarf Hold Position]] (Position) - Position featuring modified crossface application with arm wrapped around head
@@ -384,15 +381,6 @@ Flow roll with rule that top person must maintain some form of crossface control
 - [[Hip Pressure]] (Principle) - Complementary lower body control that works with crossface for comprehensive dominance
 - [[Bernardo Faria Pressure System]] (System) - Systematic approach emphasizing crossface as core element of pressure passing
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches crossface control as foundational element of side control system, emphasizing that controlling opponent's head through crossface dramatically limits their escape options. Teaches systematic crossface establishment with specific positioning for forearm, shoulder, and body weight. Emphasizes what he terms 'crossface hierarchy' where establishing crossface is prioritized before pursuing submissions or transitions from side control. Systematizes crossface maintenance protocols showing how to preserve head control even during complex sequences, making crossface the anchor point that enables all other side control techniques. Views crossface not merely as pressure application but as fundamental control mechanism that should be maintained throughout entire top game progression. Distinguishes between shallow crossface that allows opponent to turn in versus deep crossface that creates true head rotation control, teaching practitioners to recognize and correct insufficient depth immediately.
-- **Gordon Ryan**: Views crossface control as defining feature of his dominant side control game, maintaining relentless crossface pressure that exhausts opponent's defensive capabilities. Focuses on aggressive crossface establishment immediately upon achieving side control, never allowing opponent opportunity to turn in. Emphasizes the importance of crossface depth, driving arm deeply across face rather than shallow pressure that can be escaped. Advocates for heavy, sustained crossface that creates psychological as well as physical control, noting that opponents often give up defending positions when they cannot face in despite repeated attempts. Demonstrates in competition how proper crossface enables him to advance through positions and submissions while opponent remains completely controlled despite their experience level. Shows how crossface combined with shoulder pressure creates immovable control that forces opponents to exhaust themselves attempting escapes that never materialize, leading to easy submissions from their fatigue.
-- **Eddie Bravo**: Has developed specific crossface applications within his system, particularly in twister side control where crossface combined with body positioning creates unique submission opportunities. When teaching crossface, emphasizes using control to create offensive opportunities rather than pure maintenance. Particularly innovative in his approach to using crossface from turtle control, driving across face to force opponent into positions where truck and twister submissions become available. Advocates for what he calls 'offensive crossface' where head control drives opponent into worse positions rather than maintaining static control. Integrates crossface into his overall philosophy of creating offensive dilemmas where opponent's defensive response to crossface opens other attacks. Shows creative applications like using crossface to set up lockdown entries from top position, or maintaining crossface while transitioning to rubber guard control variations from unconventional angles.
 
 </section>
 

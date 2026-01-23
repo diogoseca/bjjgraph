@@ -8,7 +8,7 @@ description: "Master Kimura Trap Bottom in BJJ. Defensive control position with 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -440,24 +440,6 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 
 **Average Time in Position**: 45-90 seconds before sweep or submission attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Kimura Trap Bottom position represents a fundamental shift in how we conceptualize bottom positions in Brazilian Jiu-Jitsu. Traditionally, being on bottom was viewed purely as a defensive predicament requiring escape or guard retention. However, the Kimura grip transforms this dynamic entirely by creating what I call a 'control inversion' - the bottom player actually controls the top player's shoulder girdle and arm structure more effectively than the top player controls the bottom player's body. This is achieved through the mechanical advantage of the figure-four grip combined with intelligent hip positioning that prevents the opponent from settling their weight. The key insight is that the Kimura grip doesn't just threaten submission; it fundamentally disrupts the opponent's ability to maintain base, distribute weight effectively, or advance position. Every defensive reaction the top player makes - widening base, turning into the grip, pulling the arm back, or driving forward - creates a specific mechanical vulnerability that we can exploit with predetermined techniques. This systematic approach eliminates uncertainty and creates a clear decision tree where each opponent reaction leads to a specific counter-technique with high probability of success.
-
-### Gordon Ryan
-
-In competition, the Kimura Trap Bottom is one of my most reliable positions when I end up on bottom in half guard or even from turtle. What makes it so effective at the highest levels is that it forces the top player into impossible choices - they can defend the Kimura submission, defend the sweep, or try to maintain position, but they can't do all three simultaneously. Against elite competitors who are strong enough to resist pure strength-based sweeps, the Kimura grip gives me a leverage multiplier that makes their superior size or strength irrelevant. I've finished world champions with the Kimura directly from this position, but more commonly I use it to set up the Old School Sweep or transition to the back when they turn to defend. The position is particularly effective in no-gi where the Kimura grip is even more reliable than gi grips, and it translates perfectly to MMA scenarios where being on bottom is inevitable. My advice for competitors is to drill the entire Kimura Trap system until the transitions between sweeps, back takes, and submissions become automatic based on opponent reactions - hesitation gets you flattened and passed.
-
-### Eddie Bravo
-
-The Kimura Trap Bottom, which we call 'Hindulotine' territory in the 10th Planet system, is the perfect example of how a submission grip becomes a position in itself. We've built an entire subsystem around the Kimura from bottom positions because it works at every level from white belt to black belt worlds. What I love about it is the creativity it enables - you're not just hitting the Kimura finish, you're using that grip to invert, roll, sweep, take the back, or transition to other attacks like the Omoplata or Triangle. The Lockdown combined with the Kimura grip creates what I call a 'trap within a trap' where the opponent is dealing with both leg entanglement preventing them from passing and arm entanglement preventing them from posturing or base. We've developed specific sequences like the Electric Chair sweep and Old School that work perfectly from this position, and we've found that the Kimura grip is actually more reliable than traditional underhook control in many situations. The position embodies the 10th Planet philosophy of turning bad positions into attacking positions - you might be on bottom, but you're the one dictating the action and creating submission threats. Keep that grip deep, keep your hips alive, and trust the system.
 
 </section>
 

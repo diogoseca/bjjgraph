@@ -8,7 +8,7 @@ description: "Master bottom gogoplata control mechanics including shin positioni
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -446,24 +446,6 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 **Average Time in Position**: 20-45 seconds from control establishment to finish or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The gogoplata represents a fascinating case study in submission mechanics where the control and the finish are mechanically inseparable. Unlike conventional positions where we establish control and then work toward submission, the gogoplata's control IS the submission mechanism. The shin-across-throat configuration creates what I call 'geometric inevitability' - once proper alignment is achieved with perpendicular shin placement and foot-behind-head security, the opponent's defensive options become severely limited by anatomical reality. The position demonstrates the principle that submission effectiveness derives not from strength or leverage alone, but from creating situations where the opponent's anatomy works against their escape efforts. The practitioner's own foot behind the opponent's head creates a closed mechanical system that conventional hand-fighting cannot defeat, making this one of the most technically elegant submissions in the art despite its high flexibility requirements.
-
-### Gordon Ryan
-
-In competition, the gogoplata is a specialist's weapon rather than a universal tool. I've seen it work at the highest levels, but only for practitioners who have dedicated serious time to developing the necessary flexibility and positional understanding. The reality is that most opponents at elite levels will defend it if they see it coming, which is why it's most effective as a surprise attack from rubber guard positions they're already defending. The key competitive advantage isn't the finish rate - it's that opponents unfamiliar with the position make critical errors trying to escape. They'll turn into omoplatas, roll into back takes, or expose arms trying to remove the shin. From a strategic perspective, training the gogoplata makes your rubber guard game more dangerous even if you rarely finish it, because opponents must account for multiple threats simultaneously. That said, if you lack the flexibility to hit it comfortably, your training time is better spent on higher-percentage submissions.
-
-### Eddie Bravo
-
-The gogoplata is one of the most beautiful and devastating techniques in the 10th Planet system, but it's also one of the most misunderstood. People see it as this flashy, low-percentage move, but that's because they're trying to force it without building the proper foundation. You need to develop your rubber guard system first - Mission Control, New York, all those positions - before the gogoplata becomes high percentage. When you have the flexibility and you've put in the mat time, it becomes a legitimate finishing position, not just a highlight reel move. What makes it special in the no-gi context is that it doesn't rely on any grips - it's pure positional mechanics and body configuration. The shin creates pressure that hands can't defend against, and once your foot is behind their head, they're in a puzzle they can't solve with strength. I've seen it finish matches at every level when executed properly, and it opens up the entire rubber guard game because opponents have to respect multiple threats simultaneously.
 
 </section>
 

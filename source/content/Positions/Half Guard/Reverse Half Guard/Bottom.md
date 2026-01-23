@@ -8,7 +8,7 @@ description: "Master Reverse Half Guard Bottom in BJJ. Inverted half guard posit
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -446,24 +446,6 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 
 **Average Time in Position**: 15-30 seconds (transitional position)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse half guard represents a critical intersection between positional hierarchy and mechanical advantage through unconventional geometry. While the position appears defensive due to back exposure, the inverted configuration creates leverage angles that standard half guard cannot access. The key mechanical principle is using opponent's forward pressure as the primary force multiplier for rotation-based attacks. When opponent drives their chest into your back, they unknowingly load the spring mechanism that powers your back take or sweep. The timing window is narrow—you must attack within 2-3 seconds of establishing reverse half, as any longer allows opponent to establish controlling grips that negate your mechanical advantages. Train your students to recognize reverse half not as a destination but as a transitional launching pad for immediate offensive action. The position rewards practitioners who understand rotational mechanics and can execute explosive directional changes under pressure.
-
-### Gordon Ryan
-
-I end up in reverse half guard frequently during scrambles, especially when opponents defend my standard half guard sweeps by driving into me with heavy pressure. Rather than fighting back to standard half guard and wasting energy, I've learned to embrace the inverted position and attack immediately from there. The back take from reverse half is extremely high percentage if you time it correctly—as opponent drives forward trying to flatten you, you rotate under and take their back in one motion using their momentum. The position requires confidence and explosive movement capability. I don't recommend staying in reverse half for extended periods because it's inherently risky with your back exposed, but as a transitional attack position during scrambles, it's highly effective when you commit fully to the attack. The key is recognizing the position immediately and attacking before opponent settles their weight or secures controlling grips. Train this position specifically during scramble drills to develop the recognition speed and explosive execution needed for competition success.
-
-### Eddie Bravo
-
-Reverse half guard isn't traditionally part of the 10th Planet system, but it connects naturally with our scrambling philosophy and back take emphasis. When students end up in reverse half during rolls, I teach them to immediately look for the back take or transition to dog fight rather than trying to return to standard configurations. The position aligns perfectly with our philosophy of staying mobile and offensive even from seemingly bad positions—we embrace chaos and unconventional angles rather than fighting against them. From reverse half, you're already positioned for the rotation-based attacks that fit our dynamic style. The position also teaches students to stay calm when their back is exposed, which is a crucial skill for developing well-rounded guards that work under pressure. I see reverse half as a gateway position that leads to positions we specialize in: back attacks, dog fight scrambles, and deep half entries. Train your students to recognize it as an opportunity rather than a problem, and they'll develop the creative, adaptive mindset that defines modern no-gi grappling.
 
 </section>
 

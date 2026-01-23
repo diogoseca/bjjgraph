@@ -8,7 +8,7 @@ description: "Master Positional Sparring in BJJ. Learn structured resistance tra
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Define clear starting positions and success objectives before engagement begins
 - Establish asymmetric goals where each partner has distinct winning conditions (e.g., attacker seeks submission, defender seeks escape)
 - Reset immediately to starting position after any partner achieves their objective
@@ -179,9 +179,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Position Recognition and Setup**: The ability to quickly and accurately establish the predetermined starting position with correct body positioning, grips, and spatial relationships. This includes understanding the precise parameters that define when a position is properly established versus when adjustments are still needed before engagement begins.
 
 **Objective Clarity and Communication**: The capacity to clearly define, communicate, and maintain focus on specific success criteria throughout the round. This involves articulating what constitutes success for each partner (submission, escape, sweep, pass, time survival) and recognizing when those objectives have been achieved.
@@ -202,28 +202,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Drilling Methodology]]** (Complementary): Positional sparring bridges the gap between cooperative drilling and live sparring, providing resistance-based repetition that drilling lacks while maintaining the positional focus that live sparring dilutes.
-- **[[Progressive Resistance Training]]** (Extension): Positional sparring represents a sophisticated application of progressive resistance principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity.
-- **[[Flow Rolling]]** (Alternative): While flow rolling emphasizes continuous movement and creativity, positional sparring prioritizes focused repetition and measurable objectives, representing different but complementary training modalities.
-- **[[Competition Training]]** (Prerequisite): Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels.
-- **[[System Building]]** (Extension): Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure.
-- **[[Match Preparation]]** (Complementary): Positional sparring allows targeted preparation for anticipated match scenarios by isolating specific positions and situations likely to occur in competition.
-- **[[Energy Management System]]** (Complementary): Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts.
-- **[[Guard Retention]]** (Extension): Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice.
-- **[[Guard Passing]]** (Extension): Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance.
-- **[[Escape Fundamentals]]** (Extension): Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance.
-- **[[Position-Over-Submission Approach]]** (Complementary): Positional sparring reinforces positional hierarchy by allowing practitioners to focus on positional advancement objectives separate from submission attempts.
-- **[[Control Maintenance]]** (Extension): Positional sparring from dominant positions develops control maintenance skills through sustained pressure application against realistic escape attempts.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Defender starts in bottom mount with objective to escape to guard or reverse position, while top player seeks to maintain mount and secure submission. This isolated context allows focused development of mount escape fundamentals and defensive framing.
 
 **Side Control**: Top player works to maintain side control and advance to mount or back control, while bottom player attempts escape to guard. This application develops side control pressure maintenance and escape sequencing under realistic resistance.
@@ -258,9 +239,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify technical gap or competition scenario requiring focused development**: Analyze recent rolling sessions or competition footage to determine which positions require additional repetition or which scenarios need preparation.
 2. **Define precise starting position and success criteria**: Establish exact position parameters (grips, body positioning, spatial relationships) and clear objectives for both partners that create asymmetric but valuable training.
 3. **Determine appropriate intensity level based on training objectives**: Set resistance level from 40% (technical problem-solving) to 95% (competition simulation) based on whether focus is skill acquisition, refinement, or testing.
@@ -273,9 +254,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Failing to establish clear success objectives before starting
   - **Consequence**: Training becomes unfocused with ambiguous completion criteria, reducing effectiveness and preventing accurate progress tracking.
   - **Correction**: Define specific, measurable objectives for both partners before engagement begins. Articulate exactly what constitutes success (submission, escape, sweep, pass, time survival) and ensure mutual understanding.
@@ -301,9 +282,9 @@ Positional Sparring represents the structured resistance training methodology wh
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Position of the Week** (Focus: Creates depth of understanding through volume exposure, revealing subtle details and variations that emerge only through extensive repetition with diverse partners.)
 Dedicating entire training week to intensive positional sparring from single position with all partners. Every class includes 20-30 minutes of positional sparring from same starting position.
 
@@ -326,9 +307,9 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic starting positions with coaching guidance and maintain position parameters during engagement
 - Understands concept of defined success objectives but requires reminders to reset after completion
@@ -364,10 +345,26 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Drilling Methodology]]** (Complementary): Positional sparring bridges the gap between cooperative drilling and live sparring, providing resistance-based repetition that drilling lacks while maintaining the positional focus that live sparring dilutes.
+- **[[Progressive Resistance Training]]** (Extension): Positional sparring represents a sophisticated application of progressive resistance principles, allowing controlled escalation from cooperative drilling through graded resistance to competition-level intensity.
+- **[[Flow Rolling]]** (Alternative): While flow rolling emphasizes continuous movement and creativity, positional sparring prioritizes focused repetition and measurable objectives, representing different but complementary training modalities.
+- **[[Competition Training]]** (Prerequisite): Positional sparring serves as essential preparation for competition by allowing high-volume practice of specific scenarios likely to occur in matches, with realistic resistance levels.
+- **[[System Building]]** (Extension): Positional sparring enables systematic development by allowing practitioners to test and refine interconnected techniques under resistance, revealing which combinations work cohesively under pressure.
+- **[[Match Preparation]]** (Complementary): Positional sparring allows targeted preparation for anticipated match scenarios by isolating specific positions and situations likely to occur in competition.
+- **[[Energy Management System]]** (Complementary): Positional sparring develops position-specific energy efficiency by allowing focused practice of energy conservation techniques within isolated positional contexts.
+- **[[Guard Retention]]** (Extension): Guard retention skills develop rapidly through positional sparring from guard positions with passing objectives, providing high-volume defensive practice.
+- **[[Guard Passing]]** (Extension): Passing skills accelerate through positional sparring scenarios focused on overcoming specific guard retention strategies under realistic resistance.
+- **[[Escape Fundamentals]]** (Extension): Positional sparring from disadvantageous positions develops escape prioritization and execution through repeated practice under controlled resistance.
+- **[[Position-Over-Submission Approach]]** (Complementary): Positional sparring reinforces positional hierarchy by allowing practitioners to focus on positional advancement objectives separate from submission attempts.
+- **[[Control Maintenance]]** (Extension): Positional sparring from dominant positions develops control maintenance skills through sustained pressure application against realistic escape attempts.
+
+
+### Related Content
 - [[Drilling Methodology]] (Principle) - Positional sparring extends drilling by adding resistance while maintaining positional focus
 - [[Progressive Resistance Training]] (Principle) - Foundational principle that informs intensity calibration in positional sparring
 - [[Flow Rolling]] (Principle) - Alternative training method emphasizing continuous movement versus positional focus
@@ -381,15 +378,6 @@ Recording detailed metrics (success rates, time to completion, specific techniqu
 - [[Back Control]] (Position) - High-value positional sparring scenario for back attack development
 - [[Competition Preparation System]] (System) - Comprehensive framework incorporating positional sparring as core methodology
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Advocates positional sparring as perhaps the single most efficient training methodology in BJJ, emphasizing its capacity to provide 8-10x more relevant repetitions compared to live sparring from neutral positions. Systematizes positional sparring implementation with precise starting criteria, clear success objectives, and quantitative tracking protocols that transform subjective training into measurable skill development. Particularly emphasizes asymmetric goal structures where skill differential is compensated through starting position disadvantage, enabling valuable training for both participants regardless of experience gap—the advanced practitioner develops escape capability while the beginner develops attacking skills from advantageous positions. Argues that most practitioners vastly underutilize positional sparring, instead spending majority of training time in live sparring where positional contexts are random and repetition density of specific scenarios is extremely low. Recommends that intermediate to advanced practitioners dedicate 40-60% of sparring time to positional work, using live sparring primarily to develop timing and transition skills that connect positional dominance.
-- **Gordon Ryan**: Focuses positional sparring on competition-specific scenarios that directly replicate tournament contexts rather than comprehensive positional coverage. Emphasizes what he terms 'winning position drilling' where focus is concentrated on positions that score points or create submission opportunities in competition rather than equal time allocation across all positions. Advocates for high-intensity positional sparring that closely simulates competition pressure, believing that realistic resistance levels accelerate competitive readiness more effectively than graduated intensity approaches. Uses positional sparring extensively in final competition preparation phases, often dedicating entire training sessions to anticipated match scenarios based on opponent analysis and likely positional contexts. Particularly values positional sparring for developing finishing capabilities under realistic defensive resistance, noting that cooperative drilling creates false confidence while live sparring provides insufficient volume of finishing opportunities. Recommends tracking success rates quantitatively and setting specific performance benchmarks (e.g., 70% submission rate from back control within 2 minutes) that must be achieved in positional sparring before considering technique competition-ready. Emphasizes that positional sparring reveals technical gaps that can be masked during live rolling where position selection is self-determined rather than imposed.
-- **Eddie Bravo**: Implements positional sparring as core training methodology within 10th Planet system, particularly emphasizing position-specific sequences and system integration rather than isolated positional problems. Innovated 'position of the week' training structure where entire gym focuses positional sparring from single position for 7-day cycle, creating intensive development opportunity through repetition volume and varied partner exposure. Encourages creative problem-solving during positional sparring rather than rigid technical application, using structured resistance as laboratory for developing innovative solutions that may not emerge during predetermined drilling. Particularly values positional sparring for developing his signature positions (lockdown, rubber guard, truck) by allowing students to pressure-test unusual positions against resistance without needing to achieve them first during live rolling. Uses positional sparring with progressive constraint addition, beginning with full freedom then systematically restricting options to force development of specific pathways within position systems. Emphasizes importance of alternating roles regularly to prevent one-dimensional development, noting that understanding defensive requirements improves offensive application and vice versa. Advocates for playful, experimental approach to positional sparring where discovering new variations and creative solutions is celebrated equally with successfully completing established techniques.
 
 </section>
 

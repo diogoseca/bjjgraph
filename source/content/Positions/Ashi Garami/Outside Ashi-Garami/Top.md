@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami Top defense in BJJ. Complete guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -440,24 +440,6 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 **Average Time in Position**: 15-30 seconds (immediate escape required)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The fundamental principle when caught on top in outside ashi garami is understanding that elevation equals escape opportunity. The standing position is your strongest defensive posture because it removes the opponent's ability to control your hips effectively and creates maximum distance for leg extraction. The critical mechanical sequence involves internal hip rotation to collapse the opponent's triangle structure - this is biomechanically superior to attempting straight-line leg withdrawal. Your trapped leg must move in a circular pattern, threading through the collapsing entanglement rather than pulling against it. The common error is attempting to muscle out of the position through brute force, which actually tightens the opponent's control and exposes the heel. Instead, small, controlled circular movements of the hip joint progressively weaken the figure-4 until extraction becomes possible. Additionally, maintaining proper heel protection by keeping the foot positioned inward and away from opponent's grip is non-negotiable - a single moment of heel exposure can result in immediate submission.
-
-### Gordon Ryan
-
-When I'm trapped on top in leg entanglement, my competition mindset is never purely defensive - I'm immediately looking for counter-attack opportunities. If someone has my leg in outside ashi, they've committed their legs to controlling mine, which means their legs are now vulnerable to my attack. I'll often establish my own leg entanglement simultaneously, creating what I call 'mutual destruction' scenarios where both of us are threatening heel hooks. This forces my opponent to make a choice: continue pursuing their attack while being threatened themselves, or release to defend. Most competitors will choose defense, giving me the opening to escape. When pure escape is necessary, standing is absolutely critical - I want maximum height to minimize their leverage. The key detail people miss is that you don't just stand up randomly; you stand with strategic positioning that creates specific passing opportunities. I'll often stand into positions that set up leg weave passes or allow me to pressure pass once I've extracted. Competition footage shows that the fighters who escape leg entanglements fastest are those who create immediate offensive threats during their defensive sequences.
-
-### Eddie Bravo
-
-In the 10th Planet system, we drill leg lock defense extensively because we know these positions are incredibly dangerous regardless of whether you're on top or bottom. When trapped in outside ashi from the top position, the first thing I teach is mental composure - students who panic in leg locks get submitted, period. Your mind has to stay calm even when someone's gripping your heel. The technical approach involves systematic extraction techniques that we drill until they become automatic reflexes. One detail that's often overlooked is using your free leg actively as both a frame and a posting point - it's not just dead weight, it's a critical tool for creating distance and maintaining balance during escape. We also emphasize understanding competition rule contexts; in IBJJF competitions where heel hooks are restricted at many belt levels, the defensive priorities shift compared to submission-only formats where all leg attacks are legal. This position perfectly illustrates why leg lock awareness is essential for modern BJJ - you can't just ignore 50% of the body in training and expect to be safe when someone attacks your legs. Regular drilling of both offensive and defensive leg lock positions creates well-rounded grapplers who can handle these situations confidently.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master the Foot Grab Sweep from open guard. Step-by-step execution
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -358,15 +358,6 @@ The foot grab sweep is a fundamental component of open guard systems and serves 
 - [[De La Riva Guard]] - Alternative starting position for this sweep variation
 - [[X-Guard]] - Related guard position with similar sweeping principles
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The foot grab sweep represents a fundamental application of mechanical advantage through base manipulation. When we analyze the biomechanics, we see that human balance relies on a base of support created by the feet. By controlling one foot while the opponent's center of mass is positioned over or beyond the other, we create a mechanical impossibility of maintaining balance. The key technical element that separates effective execution from failed attempts is the sequential nature of control establishment - upper body grip first to prevent defensive reactions, then foot control to eliminate base, and finally rotational force application perpendicular to the remaining base point. This sequential approach isn't merely stylistic preference; it's mechanically necessary because attempting to grab the foot without first controlling upper body allows the opponent to simply step back, negating the attack entirely. The sweep's effectiveness across all body types and strength levels demonstrates the superiority of proper mechanical application over athletic attributes.
-- **Gordon Ryan**: In competition, the foot grab sweep is one of my highest percentage techniques from open guard because it works against both passive and aggressive opponents. When someone tries to stand and pass, they're giving you the foot grab on a silver platter - you just have to be ready to take it. The competition application is all about creating the right conditions: I use my guard retention to force them to stand, then immediately attack the foot when they commit their weight forward. What makes this sweep so effective at high levels is that it chains perfectly with leg locks. If they defend the sweep by pulling their foot back, I'm already in position for single leg x or ashi garami entries. Against world-class opponents, you can't rely on techniques that work in isolation - everything needs to connect to something else. The foot grab sweep is perfect for this because whether it succeeds or fails, I'm advancing my position and creating offensive opportunities. I've scored with this sweep at black belt worlds multiple times, and it's because I've built my entire open guard system around creating foot grab opportunities.
-- **Eddie Bravo**: The foot grab sweep is sick because it completely messes with people's expectations about what open guard should look like. Traditional guys are waiting for you to play spider or collar sleeve, and then boom - you just grab their foot and dump them. What I love teaching is the combination game with this sweep. At 10th Planet, we don't think about techniques individually; we think about systems. The foot grab sets up everything: if they defend it, you go to lockdown; if they pull their foot back, you can hit them with the kiss of the dragon; if they try to post, you've got arm attacks for days. I've developed a whole sequence where you fake the foot grab, they react, and you transition to the truck position. The beauty is in the unpredictability. Also, this sweep works amazing in no-gi because you don't have all those gi grips slowing things down - it's just pure mechanics and timing. For my students, I emphasize being creative with the finish. Don't just sweep to top position - sweep directly into submission attempts. That's the 10th Planet way: always be hunting for the finish.
 
 </section>
 

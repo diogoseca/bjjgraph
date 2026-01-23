@@ -8,7 +8,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 **Average Time in Position**: 1-3 minutes depending on skill level and opponent's submission timing
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending the body triangle requires understanding that you're facing a structural problem, not merely a positional one. The figure-four lock creates a closed kinetic chain that cannot be opened through direct force - attempting to power out of a properly locked triangle is biomechanically futile. Your escape must address the structural weaknesses of the triangle configuration, primarily the point where the foot is locked behind the knee. This junction is the critical stress point that, when attacked correctly, can open the entire structure. However, the breathing restriction creates a time pressure that compounds the technical challenge. Your diaphragm's inability to fully expand reduces your oxygen intake and creates cumulative fatigue. Therefore, your defense must prioritize breathing efficiency - taking measured breaths rather than panicked gasping, which only accelerates oxygen depletion. The systematic approach is to first establish neck protection, then create space through hip movement to reduce triangle pressure, and finally attack the locked foot with precise leverage at the knee joint.
-
-### Gordon Ryan
-
-When I get caught in a body triangle, which is rare at the highest level but does happen, my entire focus shifts to time management. I know from experience that I have approximately 90-120 seconds before the breathing restriction accumulates enough fatigue to seriously compromise my escape ability. Within that window, I'm not trying to be heroic or explosive - I'm working methodically to create the space I need to turn into my opponent or clear the triangle. The biggest mistake I see competitors make is panicking from the discomfort and attempting athletic scrambles that waste energy without solving the fundamental problem. Against high-level opponents who have tight body triangles, you have to accept short-term discomfort for long-term technical solutions. I focus on small victories - first getting my chin down to protect my neck, then creating a few inches of space to reduce pressure, then working to attack the figure-four lock at the foot. Each small achievement compounds, eventually creating enough cumulative advantage to escape or at minimum survive until time runs out.
-
-### Eddie Bravo
-
-The body triangle is one of those positions where traditional BJJ defenses sometimes fall short because the mechanical lock is so strong. In 10th Planet, we've had to develop some unconventional approaches because in no-gi competition, you can't rely on gi grips or friction from the fabric. What I teach my guys is that when you're in someone's body triangle, you're essentially in a race against time before the breathing restriction accumulates too much. Instead of fighting the triangle immediately, sometimes the counterintuitive move is to focus entirely on hand fighting and neck protection first, accepting the leg position temporarily. This prevents your opponent from getting the finish while you're working on the triangle, which is what they're expecting. Once you've secured your neck, then you can work more calmly on the triangle clearing. We also use some creative escape sequences that involve baiting the opponent to transition to crucifix or truck positions, which actually loosens the triangle and creates escape opportunities. Sometimes the best escape from a locked position is making your opponent want to transition to something else.
 
 </section>
 

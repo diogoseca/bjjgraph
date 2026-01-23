@@ -8,7 +8,7 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -438,24 +438,6 @@ Partner establishes Mission Control. Top person practices standing to break cont
 
 **Average Time in Position**: 90-180 seconds to escape or be submitted at intermediate level
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-From the top of Mission Control, you are in a structurally compromised position where conventional escape mechanics will fail if applied carelessly. The position creates what I call a 'structural trap with submission consequences' - the same movements that would normally create escape from closed guard instead trigger submission entries in Mission Control. The key to effective defense is understanding the difference between immediate survival and methodical escape. Immediate survival focuses on preventing the triangle choke, which is the highest percentage finish from the position. This requires specific arm and head positioning that eliminates the angle necessary for the triangle lock. Once immediate submission is defended, you can begin the methodical process of posture recovery and arm extraction. The critical error most practitioners make is attempting to achieve escape too quickly - they try to posture up explosively or pull their arm free with force, and these movements create the exact submission opportunities the bottom practitioner is waiting for. Instead, escape must be achieved through small progressive improvements - gradually reducing the bottom practitioner's hip elevation, systematically fighting their grip control, and patiently working the arm free once sufficient posture is recovered. This requires mental discipline and physical endurance, but it is the only reliable path to escape against a skilled opponent.
-
-### Gordon Ryan
-
-Getting caught in Mission Control against a good rubber guard player is one of the worst positions in no-gi grappling, and I say this from experience of training with high-level 10th Planet practitioners. The position is specifically designed to counter the defensive responses most people naturally use when they're in bad positions. You want to posture up? Triangle. You want to pull your arm out? Omoplata. You want to stack them? They transition to Zombie or New York. Every defensive instinct you have is being used against you. My approach to defending Mission Control is based on patience and grip fighting. I focus intensely on preventing deep head control because once they get both hands pulling your head down hard, you're in serious trouble. I use my free hand constantly to strip grips, maintain distance, and prevent them from establishing the pulling control they need. At the same time, I'm very careful about my weight distribution - I don't want to load my weight onto the trapped shoulder because that's exactly what makes the position work for them. Instead, I try to maintain some backward weight distribution while using small progressive movements to recover posture. The escape is a process that takes 60-90 seconds minimum against good opponents, and you have to be okay with being uncomfortable for that duration. If you panic and try to explode out, you're getting submitted. Accept the position, defend patiently, and work the escape systematically.
-
-### Eddie Bravo
-
-Mission Control from the top is designed to be uncomfortable and difficult to escape - that's the whole point of the position. When I developed the rubber guard system, I was thinking about how to create positions from bottom that force the top person into defensive dilemmas where every escape attempt opens up a submission. Mission Control does exactly that. From the top, your main focus has to be preventing the triangle because that's the highest percentage finish. The triangle from Mission Control is particularly effective because the shoulder isolation creates perfect angle and the high guard leg is already in position - all the bottom person has to do is bring the leg across and lock it up. To defend this, you need to keep your trapped arm tight to your body and your elbow down, preventing them from getting the angle they need for the triangle. At the same time, you're fighting the head control with your free hand because deep head control is what allows them to break your posture completely. If they get deep grips on your head and your posture is totally broken, escape becomes extremely difficult. The other thing people don't understand is that Mission Control is part of a system - if you successfully defend it, good rubber guard players don't just let you escape, they transition to New York or Carni or other controls. So you're not just escaping one position, you're dealing with a series of positions that flow together. The best defense is honestly to not get there in the first place - when someone is setting up high guard from closed guard, that's when you need to start your defensive sequence, not after they've already established Mission Control.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -354,15 +354,6 @@ The anaconda from turtle is part of the front headlock family and represents a h
 - [[Darce Choke]] - Related submission - closely related technique with similar grip but different arm trap
 - [[Front Headlock Series]] - System integration - anaconda as part of comprehensive front headlock attack system
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The anaconda from turtle is technically similar to the D'arce but requires an additional element of rolling to secure the optimal finishing angle. The critical distinction is that you trap the near arm rather than the far arm, and the finish typically involves rolling to your side or back rather than staying on top. Thread your arm deep with palm down, ensuring the near arm is trapped between your choking arm and their neck. The rolling motion is not just a finishing detail - it's essential for creating the proper choking angle where your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other. The biomechanics demand bilateral pressure, which only functions correctly after the roll inverts the position. Many practitioners fail this technique because they don't commit fully to the roll or they trap the wrong arm. Identify the near arm explicitly before beginning your attack sequence.
-- **Gordon Ryan**: The anaconda from turtle is one of my favorite techniques because it's unexpected and the roll momentum often secures the finish before they can defend properly. The key is committing to the roll once you have the grip - hesitation gives them time to base out and kill the whole technique. I thread the arm deep, lock that figure-four grip tight, and immediately roll to my side without any delay. Even if the choke doesn't finish right away, I've usually secured a dominant control position with multiple attacking options. It's a high-reward technique when executed with speed and confidence. In competition, I use it as both a submission threat and position advancement - the worst case scenario is I end up in side control with front headlock control, which is still excellent. The best case is a quick tap within seconds of hitting the roll. Practice this until the motion is completely automatic and you can execute it explosively.
-- **Eddie Bravo**: We use the anaconda constantly in our system, especially from turtle and during scrambles. The beautiful thing about the anaconda is the roll - it's dynamic, it's aggressive, and opponents don't see it coming until it's too late. Once you get comfortable with that gator roll motion, you can hit anacondas from all kinds of positions and situations. From turtle it's especially good because they're already in a compromised position and thinking about other defenses. Thread deep, trap that near arm - not the far one, that's a D'arce - and roll hard with commitment. The momentum does half the work for you. We drill this extensively because it teaches important principles about dynamic movement and using momentum in submissions. Don't be timid with the roll - commit to it fully. The anaconda is one of those techniques that separates people who just know moves from people who can actually finish in live situations.
 
 </section>
 

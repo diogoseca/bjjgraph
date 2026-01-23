@@ -8,7 +8,7 @@ description: "Master overhook control from bottom positions. Guard-based whizzer
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -437,24 +437,6 @@ Both partners start in half guard with one attempting underhook, other attemptin
 
 **Average Time in Position**: 8-20 seconds (transitional guard control)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The overhook from bottom position represents a sophisticated evolution of wrestling concepts into guard-based applications. The mechanical advantage stems from the same principles as top overhook - elevation of opponent's arm above their power generation angle - but the tactical applications differ significantly based on your bottom position context. In butterfly guard, the overhook becomes a powerful sweep mechanism because removing opponent's posting base directly translates to their inability to prevent your elevating motions. The key insight is understanding that bottom overhook creates a temporary structural asymmetry that must be exploited within seconds before opponent compensates with their opposite side controls. The decision tree parallels top position but with guard-specific branches: opponent pulls back triggers arm drags and triangle entries; opponent drives forward triggers sweep mechanics; opponent attempts to circle away triggers elevator sweeps or back exposure. Train the overhook as a central hub connecting multiple guard retention and attacking sequences rather than as an isolated technique.
-
-### Gordon Ryan
-
-I use bottom overhook constantly in my guard game, especially from butterfly and half guard. The overhook prevents the underhook pass, which is one of the highest percentage passing attacks in no-gi. When I get the whizzer from bottom, I'm immediately thinking about the arm drag to the back - that's money in competition because people expect sweeps but don't expect the back take from bottom overhook. The beauty of this control is it works at every level of competition. Against lower belts, you can just sweep them directly. Against high-level guys, you use the overhook to create the arm drag opportunity when they try to free their arm. The triangle setup from overhook is also super high percentage because you already have their arm isolated and elevated. One thing I learned from competing is you can't hold the overhook passively from bottom - you need to be attacking immediately or they'll establish the underhook on the other side and pass you. The overhook from bottom is transitional just like from top.
-
-### Eddie Bravo
-
-Bottom overhook is huge in the 10th Planet system, especially in our lockdown game from half guard. The whizzer from bottom creates perfect entries to old school sweep, which has become one of the highest percentage sweeps in modern no-gi. What people don't realize is the overhook from bottom also sets up our electric chair and banana split positions - when they're defending the whizzer and trying to free their arm, you can transition to those leg attacks. From rubber guard, we use overhook concepts to control their posture and set up omoplatas and triangles. The overhook creates what I call 'arm isolation' where their trapped arm can't help them pass or defend, so now they're fighting one-armed and you're winning. We also use the overhook defensively to prevent the crossface and underhook passing attacks that destroy most people's guards. The key is staying aggressive with the whizzer - use it to off-balance them constantly, never let them settle into a passing rhythm. Chain the overhook with your leg controls for complete bottom game dominance.
 
 </section>
 

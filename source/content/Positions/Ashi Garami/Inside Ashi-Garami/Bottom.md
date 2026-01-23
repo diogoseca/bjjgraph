@@ -8,7 +8,7 @@ description: "Foundational leg entanglement attacking position with heel control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -453,24 +453,6 @@ Partner attempts common escapes (heel extraction, knee rotation, hip escape, bac
 
 **Average Time in Position**: 20-45 seconds before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Inside Ashi-Garami is the foundational position of the entire leg lock system and represents the entry point that every student must master before progressing to more advanced entanglements. The critical element that determines success or failure in this position is heel control - without proper heel control achieved through correct gripping mechanics, no leg lock can be truly effective regardless of other technical elements. I emphasize a strict hierarchical approach to learning: first establish Inside Ashi with perfect positional control, then perfect that control through extensive drilling, then attack straight ankle locks exclusively until the mechanics become automatic, and only after demonstrating consistent control and proper safety awareness should a student progress to heel hook attacks under proper instruction. The position must be understood not as an isolated technique but as the hub of an interconnected system where transitions to Outside Ashi, Cross Ashi, Saddle, and 50-50 flow naturally based on opponent defensive reactions.
-
-### Gordon Ryan
-
-Inside Ashi is a position I use dynamically rather than as a static control position - I'm constantly transitioning between different leg entanglements to keep my opponent defending and reacting rather than settling into defensive structure. My preference is to use Inside Ashi as a quick entry point to establish initial leg control, then immediately begin working towards Saddle position which I view as significantly more dominant for finishing heel hooks in competition. In high-level matches, I rarely finish directly from Inside Ashi because experienced opponents defend the inside heel well, but the position serves perfectly as a transitional platform. The key is recognizing that opponent's defensive reactions to Inside Ashi create opportunities - when they turn their knee away to defend the inside heel, that opens the Saddle entry; when they try to extract the heel, that's when Outside Ashi becomes available. Modern competition demands this type of fluid, reactive approach rather than static position holding.
-
-### Eddie Bravo
-
-While the traditional 10th Planet system historically focused on other positions and attacking strategies, the integration of modern leg lock techniques including Inside Ashi has become essential in the current competitive landscape. What's critical to understand is that Inside Ashi, like all leg lock positions, requires immense respect and proper instruction due to the inherently dangerous nature of heel hooks and leg attacks in general. I emphasize to my students that safety in training must always be the absolute priority - these techniques can cause career-ending injuries if applied carelessly or practiced without proper progression. Inside Ashi should be learned systematically with a focus on control first, then ankle locks for extended period, and only then progressing to heel hooks under experienced supervision. The position fits well within the 10th Planet philosophy of being comfortable in unconventional positions, but it demands technical precision and safety awareness above all else.
 
 </section>
 

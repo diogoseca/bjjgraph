@@ -119,7 +119,6 @@
         "optimal_submission_paths",
         "related_content",
         "position_metrics",
-        "expert_insights",
         "name",
         "description",
         "tags"
@@ -211,7 +210,6 @@
         "optimal_submission_paths",
         "related_content",
         "position_metrics",
-        "expert_insights",
         "name",
         "description",
         "tags"
@@ -668,30 +666,8 @@
     },
     "expert_insights": {
       "type": "object",
-      "description": "Insights from all 3 experts (REQUIRED, 200+ chars each)",
-      "additionalProperties": false,
-      "required": [
-        "danaher",
-        "gordon_ryan",
-        "eddie_bravo"
-      ],
-      "properties": {
-        "danaher": {
-          "type": "string",
-          "minLength": 200,
-          "description": "John Danaher - systematic/biomechanical perspective"
-        },
-        "gordon_ryan": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Gordon Ryan - competition/practical application"
-        },
-        "eddie_bravo": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Eddie Bravo - innovation/10th Planet approach"
-        }
-      }
+      "description": "DEPRECATED - Expert insights removed for copyright reasons",
+      "additionalProperties": true
     },
     "skill_level_success_rates": {
       "type": "object",

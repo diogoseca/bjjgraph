@@ -8,7 +8,7 @@ description: "Master the Arm Drag in BJJ. Complete guide from setup to back cont
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -343,15 +343,6 @@ The arm drag serves as a fundamental connector between numerous positions in the
 - [[Arm Drag Sweep]] - Alternative - sweep variation from bottom position
 - [[Rear Naked Choke]] - Follow-up submission - primary finish from back control
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The arm drag is fundamentally a redirection of your opponent's structural support system. When properly executed, you're not merely pulling an arm - you're systematically dismantling their ability to maintain defensive frames and base. The key insight is understanding that the arm drag creates what I call a 'structural void' on one side of their body. By pulling their arm across their centerline, you remove the support structure on that side while simultaneously positioning yourself in the space where that support previously existed. This is why timing the footwork with the hand movement is absolutely critical - you must occupy that void before they can recover their structure. The most common error I see is students treating the arm drag as purely an upper body technique when it's actually a full-body redirection of force vectors. Your hips must move faster than their ability to turn and reestablish frames. Master this principle and the arm drag becomes not just a single technique but a systematic approach to creating angles throughout your entire game.
-- **Gordon Ryan**: In competition, the arm drag is my primary back take entry from standing and guard positions because it works at the highest levels when executed with proper timing and conviction. The secret most people miss is that the arm drag isn't about strength - it's about exploiting the exact moment when your opponent extends their arm or shifts their weight forward. I'm constantly creating situations where they must extend: pushing them away so they push back, pulling them forward so they post, or attacking their legs so they sprawl and post. Once they extend, I have maybe a half-second window to secure my grips and execute before they retract. Against high-level opponents, I often chain multiple arm drag attempts, using their defense to one side to set up the drag to the other side. The finish rate isn't what matters - it's the accumulation of dominant positions I gain from each attempt. Even when they defend the back take, I'm often getting side control, front headlock, or single leg opportunities. My entire no-gi game is built around variations of the arm drag from different guards because it's the highest-percentage method I've found for getting behind someone in modern grappling.
-- **Eddie Bravo**: The arm drag is one of those techniques that looks simple but opens up entire dimensions of movement when you really explore it. At 10th Planet, we've developed specific arm drag systems from rubber guard, lockdown, and truck positions that most traditional BJJ guys aren't familiar with. What I love about arm drags is they work regardless of whether you're bigger, smaller, stronger, or weaker than your opponent - it's pure leverage and timing. We teach our students to think of arm drags not as a destination but as a way of moving through positions fluidly. From rubber guard, we use arm drags to transition to omoplata, triangle, or back takes. From lockdown, we arm drag to electric chair or truck positions. The key innovation in our system is combining arm drags with unconventional positions where opponents don't expect them. Most people only drill arm drags from traditional positions, but once you start hitting them from weird angles or inverted positions, it becomes this creative, flowing movement that keeps opponents completely off-balance. The rubber guard to arm drag to back take sequence is probably one of the highest-percentage finishes we have against people who don't train in our system regularly.
 
 </section>
 

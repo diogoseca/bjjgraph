@@ -8,7 +8,7 @@ description: "Master the bottom of Mission Control with complete control mechani
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -499,24 +499,6 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 
 **Average Time in Position**: 45-90 seconds before submission attempt or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Mission Control represents a fascinating case study in biomechanical advantage through extreme joint positioning. The position creates what I call a 'structural cascade' - the high guard leg position forces the opponent's shoulder into internal rotation while simultaneously preventing external rotation recovery, which in turn compromises neck positioning and makes the head vulnerable to pulling control. The beauty of the position is that opponent defensive efforts actually tighten the trap rather than loosening it. When they attempt to posture up, they drive into the triangle. When they attempt to pull the arm back, they expose the shoulder to omoplata. The position creates a true mechanical dilemma where every defensive action opens an offensive opportunity. However, the position demands significant hip flexibility and core strength to maintain the structural integrity necessary for effective control. Without these physical attributes, practitioners will find themselves expending enormous energy to hold a position that should be relatively efficient once properly established.
-
-### Gordon Ryan
-
-In competition, Mission Control is one of the highest percentage bottom positions for finishing submissions, but only if you understand the timing and transitions. The position itself doesn't finish - it's the transitions from Mission Control to specific submissions that get the tap. I use Mission Control primarily as a platform to threaten triangle chokes, and the opponent's defense to the triangle is what opens up the omoplata or the sweep. The key is understanding that you need to be constantly attacking - if you just hold Mission Control without threatening submissions, good opponents will eventually find the timing to escape. In my matches, I'm looking to enter triangle within 15-20 seconds of establishing Mission Control. If the triangle isn't there, I'm immediately transitioning to New York or threatening the omoplata. The position is extremely effective in no-gi because you can't use gi grips to break it down - the high guard leg is the primary control, and without gi grips, opponents struggle to strip that control effectively. Train Mission Control as a transitional hub, not a destination, and your submission rate from bottom will increase dramatically.
-
-### Eddie Bravo
-
-Mission Control is the heart of the rubber guard system - it's where everything connects and flows from. When I developed the position, I was trying to solve the problem of bottom control in no-gi where traditional closed guard grips don't exist. Mission Control gives you multiple submission threats from one position: triangle, omoplata, gogoplata, armbar, all while maintaining strong control. The position works because it violates what opponents expect from bottom guard - instead of trying to create distance and sweep, you're pulling them in tight and attacking their neck and shoulder. Most people don't train to defend this type of attack pattern, so they make mistakes that open up submissions. The key is understanding that Mission Control is just the beginning - you need to know the entire rubber guard system to make it work at high levels. When they defend the triangle, you go to New York. When they defend New York, you go to Carni or Invisible Collar. It's a system of dilemmas where their defense to one attack sets up the next attack. But it all starts with establishing clean Mission Control - if your high guard isn't tight and your shoulder isolation isn't solid, the whole system breaks down. Focus on the fundamentals of the position first before worrying about advanced transitions.
 
 </section>
 

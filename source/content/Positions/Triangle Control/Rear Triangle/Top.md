@@ -8,7 +8,7 @@ description: "Master Rear Triangle Top position in BJJ. Control opponent's back 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Establish rear triangle position with compliant partner. Practice the following 
 
 **Average Time in Position**: 45-90 seconds before submission or escape attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The rear triangle represents a sophisticated evolution in back attack methodology, combining the leg control mechanics of the triangle with the positional dominance of back control. The critical technical element that separates effective rear triangle application from ineffective attempts is the angle of the choking leg - it must thread deeply under the armpit and emerge behind the neck, not in front. This creates what I call a 'posterior triangle configuration' which applies pressure to the back and side of the neck rather than the front, making chin-tucking defenses largely ineffective. The position's true power lies in its ability to create submission dilemmas - when the opponent defends the choke by addressing the trapped arm, they expose the neck to rear naked choke attacks; when they defend the neck, they expose the trapped arm to armbars and shoulder locks. This systematic approach to creating and exploiting dilemmas is the hallmark of advanced back attack methodology. The biomechanical advantage of using the legs for primary control cannot be overstated - your legs are far stronger than your arms and can maintain compression indefinitely while your hands remain free to attack secondary targets. This represents a fundamental principle in efficient grappling: use your strongest tools for control and reserve your weaker tools for manipulation and attack.
-
-### Gordon Ryan
-
-I use the rear triangle extensively in competition because it's one of the highest-percentage back control variations when you're facing elite defensive grapplers who are excellent at defending the standard rear naked choke. The key to success with this position in high-level competition is the entry - you need to establish the triangle during a defensive reaction, typically when they're hand-fighting and trying to prevent your choking hand from going under their chin. That's when their arm is most exposed for the triangle trap. Once I have the rear triangle locked, I never commit to one submission - I'm constantly cycling between the triangle choke itself, the armbar on the trapped arm, and coming back to the rear naked choke. This creates massive mental and physical fatigue in the opponent because they're defending multiple threats simultaneously. In my matches, the rear triangle has about a 70% finish rate within 90 seconds because opponents simply can't maintain adequate defenses against all the submission options. The psychological aspect is significant too - when you lock up a tight rear triangle, you can feel the opponent's energy change as they realize they're in serious trouble. That mental shift often leads to mistakes that open up the finishing opportunities.
-
-### Eddie Bravo
-
-The rear triangle is one of those positions that perfectly exemplifies the 10th Planet philosophy of creating inescapable submission traps through unconventional positioning. We call this the 'Rear Triangle Prison' because once it's locked in tight, there's really no good escape - every defensive movement the opponent makes opens up a different submission. What makes this position especially effective in no-gi is that without the gi grips to defend with, opponents are forced to rely purely on their own body positioning, which we control completely with the triangle configuration. I teach my students to enter the rear triangle whenever they feel the opponent starting to successfully defend the traditional back attacks - it's like shifting gears into a submission platform that most people haven't developed comprehensive defenses for. The beauty of it is that you can hold this position almost indefinitely while you work your submissions, and unlike some other back control variations, you're not burning your arms out trying to finish chokes - your legs are doing all the control work while your hands are free to attack. From the rear triangle, we also have some unique 10th Planet variations like transitioning to the truck position or setting up calf slicers if they try to roll through the escape. The flexibility work we emphasize in our system directly translates to being able to get your leg deep under their armpit for that perfect choking angle.
 
 </section>
 

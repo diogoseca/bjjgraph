@@ -8,7 +8,7 @@ description: "Master position transitions in BJJ - understand mechanics and stra
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Recognize distinct position categories and hierarchical relationships between them
 - Understand mechanical requirements for transitioning between specific position pairs
 - Maintain connection control and sensory feedback throughout position changes
@@ -179,9 +179,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Connection Maintenance**: The ability to maintain critical connection points with the opponent throughout positional changes, preserving control and sensory information while executing movements. This includes maintaining grips, hooks, frames, and pressure points that define the transition pathway and prevent opponent counter-movements.
 
 **Spatial Awareness**: Understanding relative body positioning and distance relationships during transitions, including recognition of when to create space for escapes versus when to eliminate space for advances. This skill enables practitioners to navigate three-dimensional movement while maintaining positional awareness and control.
@@ -202,28 +202,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Transition Management]]** (Complementary): While Position Transitions focuses on mechanical execution and technical requirements, Transition Management addresses strategic decision-making about which transitions to attempt and when to execute them, creating a complete framework for navigating positional changes.
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding the positional hierarchy provides the strategic framework that guides position transition selection, as practitioners must understand relative positional values to make informed decisions about which transitions advance their position most effectively.
-- **[[Connection Principles]]** (Prerequisite): Connection principles form the technical foundation for executing position transitions, as maintaining appropriate connections while changing positions is essential for both control maintenance and successful transition completion.
-- **[[Base Maintenance]]** (Complementary): Base maintenance works in conjunction with position transitions, as practitioners must either preserve their own base while transitioning or disrupt opponent base to enable successful position changes, creating a dynamic interplay between stability and movement.
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles enables practitioners to execute position transitions with proper leverage, weight distribution, and movement efficiency, forming the technical foundation for all transition mechanics.
-- **[[Position Chains]]** (Extension): Position chains represent advanced application of position transitions, linking multiple transitions together into systematic sequences that create momentum and compound positional advantages through connected movements.
-- **[[Guard Passing]]** (Extension): Guard passing principles apply position transition concepts specifically to the fundamental task of moving from guard bottom positions to top control positions, representing one of the most essential transition categories in BJJ.
-- **[[Sweep Mechanics]]** (Extension): Sweep mechanics represent specialized application of position transitions from bottom positions, focusing on the biomechanical and timing principles that enable successful reversals from inferior to superior positions.
-- **[[Control Maintenance]]** (Complementary): Control maintenance principles work alongside position transitions to ensure that successful position changes result in stable positions rather than temporary advantages that opponent can immediately escape.
-- **[[Timing and Rhythm]]** (Complementary): Timing and rhythm principles determine when to execute position transitions for maximum success probability, as even mechanically sound transitions fail if attempted at inappropriate moments in the exchange.
-- **[[Creating Reactions]]** (Complementary): Creating reactions enables practitioners to manufacture transition opportunities by forcing opponent into defensive responses that open specific transition pathways, making transitions more successful through strategic setup.
-- **[[Dilemma Creation]]** (Extension): Dilemma creation applies position transition understanding to force opponent into situations where defending one transition opens another, creating systematic frameworks where successful transitions become inevitable.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Position transitions from closed guard include breaking opponent posture to enable sweep transitions toward mount or side control, or transitioning to other open guard positions when opponent opens the guard. Understanding these transition pathways allows guard players to advance position offensively or maintain guard when under passing pressure.
 
 **Mount**: From mount, position transitions include advancing to back control when opponent turns, transitioning to S Mount or High Mount for better submission access, or maintaining mount against escape attempts. These transitions require understanding weight distribution and connection maintenance while opponent attempts to recover guard or escape.
@@ -258,9 +239,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current positional state and relative hierarchy position**: Identify your current position precisely and determine whether it is offensive, defensive, or neutral within the positional hierarchy. Recognize whether you need to advance, maintain, or recover position based on this assessment.
 2. **Identify available transition pathways from current position**: Determine which position transitions are mechanically possible based on current connections, body positioning, and opponent configuration. Consider both primary transitions (direct advances) and secondary options (recovery or maintenance transitions).
 3. **Evaluate opponent's defensive posture and resistance patterns**: Assess how opponent is defending or attempting to transition themselves, identifying which transition pathways are most viable based on their current positioning, weight distribution, and defensive priorities.
@@ -273,9 +254,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting transitions without establishing necessary connections or prerequisites
   - **Consequence**: Transition fails midway through execution, often resulting in position loss or opponent counter-transitions to better positions, wasting energy and creating vulnerabilities.
   - **Correction**: Always establish required grips, hooks, or frames before committing to transition movement. Verify prerequisites are secure before initiating position changes, treating connection establishment as the first phase of any transition.
@@ -301,9 +282,9 @@ Position Transitions represent the fundamental understanding of how practitioner
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Transition Drilling** (Focus: Develop muscle memory for proper transition mechanics and establish efficient movement patterns for common position changes without the pressure of full resistance.)
 Practice specific position-to-position transitions repeatedly with cooperative partners, focusing on mechanical precision and connection maintenance. Start from static setups and gradually introduce movement and resistance.
 
@@ -326,9 +307,9 @@ Systematically study and catalog the transition pathways available from each maj
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Executes basic transitions (simple sweeps, basic escapes, fundamental passes) with recognizable mechanical structure when partner is cooperative
 - Recognizes major position categories (guard, side control, mount, back control) and understands general hierarchy relationships between them
@@ -365,10 +346,26 @@ Systematically study and catalog the transition pathways available from each maj
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Transition Management]]** (Complementary): While Position Transitions focuses on mechanical execution and technical requirements, Transition Management addresses strategic decision-making about which transitions to attempt and when to execute them, creating a complete framework for navigating positional changes.
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding the positional hierarchy provides the strategic framework that guides position transition selection, as practitioners must understand relative positional values to make informed decisions about which transitions advance their position most effectively.
+- **[[Connection Principles]]** (Prerequisite): Connection principles form the technical foundation for executing position transitions, as maintaining appropriate connections while changing positions is essential for both control maintenance and successful transition completion.
+- **[[Base Maintenance]]** (Complementary): Base maintenance works in conjunction with position transitions, as practitioners must either preserve their own base while transitioning or disrupt opponent base to enable successful position changes, creating a dynamic interplay between stability and movement.
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles enables practitioners to execute position transitions with proper leverage, weight distribution, and movement efficiency, forming the technical foundation for all transition mechanics.
+- **[[Position Chains]]** (Extension): Position chains represent advanced application of position transitions, linking multiple transitions together into systematic sequences that create momentum and compound positional advantages through connected movements.
+- **[[Guard Passing]]** (Extension): Guard passing principles apply position transition concepts specifically to the fundamental task of moving from guard bottom positions to top control positions, representing one of the most essential transition categories in BJJ.
+- **[[Sweep Mechanics]]** (Extension): Sweep mechanics represent specialized application of position transitions from bottom positions, focusing on the biomechanical and timing principles that enable successful reversals from inferior to superior positions.
+- **[[Control Maintenance]]** (Complementary): Control maintenance principles work alongside position transitions to ensure that successful position changes result in stable positions rather than temporary advantages that opponent can immediately escape.
+- **[[Timing and Rhythm]]** (Complementary): Timing and rhythm principles determine when to execute position transitions for maximum success probability, as even mechanically sound transitions fail if attempted at inappropriate moments in the exchange.
+- **[[Creating Reactions]]** (Complementary): Creating reactions enables practitioners to manufacture transition opportunities by forcing opponent into defensive responses that open specific transition pathways, making transitions more successful through strategic setup.
+- **[[Dilemma Creation]]** (Extension): Dilemma creation applies position transition understanding to force opponent into situations where defending one transition opens another, creating systematic frameworks where successful transitions become inevitable.
+
+
+### Related Content
 - [[Transition Management]] (Principle) - Complementary concept addressing strategic decision-making about when and which transitions to attempt, working alongside Position Transitions' focus on mechanical execution
 - [[Position Chains]] (Principle) - Advanced application linking multiple position transitions into systematic sequences that create positional momentum
 - [[Positional Hierarchy]] (Principle) - Provides the strategic framework for understanding relative positional values that guide transition selection and priorities
@@ -382,15 +379,6 @@ Systematically study and catalog the transition pathways available from each maj
 - [[Side Control]] (Position) - Common intermediate position in transition sequences, connecting guard passes to mount or back control advancements
 - [[Back Control]] (Position) - Highest value position in the hierarchy, representing the ultimate target for many transition sequences from other top positions
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Position transitions must be understood as systematic mechanical progressions with explicit technical requirements for each position pair relationship, not as generic movement patterns that can be applied universally across all positional contexts. When I teach position transitions, I emphasize categorizing them into three distinct types: offensive advancement progressions where you move up the positional hierarchy (guard passing sequences, side control to mount, mount to back), defensive recovery sequences where you move toward improved defensive positions (guard recovery from side control, escape hierarchies from pins), and neutral exchanges where both practitioners transition simultaneously during scrambles or dynamic situations. Each category requires different mechanical priorities - offensive transitions prioritize connection maintenance and pressure preservation, defensive transitions emphasize space creation and frame insertion, and neutral transitions focus on base maintenance and transition recognition speed. The technical precision required for reliable transition execution cannot be overstated. Every position pair has specific mechanical requirements that must be satisfied for successful transition completion - attempting to force transitions when these prerequisites aren't established results in failed attempts that waste energy and create counter-transition opportunities for opponents. I teach students to treat connection establishment as the first phase of any transition, with actual movement occurring only after necessary grips, hooks, or pressure points are secured. This systematic approach transforms position transitions from hopeful attempts into reliable technical progressions that work consistently even against skilled resistance. Understanding position transitions mechanically is fundamental to all higher-level strategic development in BJJ, as you cannot implement sophisticated game plans if you cannot reliably execute the position changes those plans require.
-- **Gordon Ryan**: In competition, your ability to execute position transitions under pressure determines whether you can advance position against high-level opponents who defend expertly and capitalize on any mechanical breakdown in your movements. I focus on developing 'core transition pathways' - the 5-6 highest percentage transitions from each major position that work reliably even when opponent knows they're coming and defends properly. Rather than learning dozens of transition variations from every position, I advocate for mastering a smaller number of transitions that can be chained together systematically to create position advancement sequences. For example, from side control I focus primarily on transitioning to mount, knee on belly, and north-south, because these three transitions cover the majority of opponent defensive responses and can be linked together when the first option is defended. This creates a robust system where defending one transition naturally opens another. The key to successful transition execution in competition is understanding which transitions work best against specific opponent types and defensive styles. Against opponents who defend by turning away and turtling, transitions that capitalize on this movement (taking the back, attacking turtle position) become primary options. Against opponents who defend by framing and creating space, transitions that close distance and eliminate frames (pressure passes, mount maintenance) become essential. I spend significant training time specifically on transition execution against resistance that mimics the defensive patterns I expect to face in competition, ensuring my mechanics hold up under the specific types of pressure I'll encounter. Additionally, I've found that transition chains - where you execute 2-3 connected position changes in rapid succession - are far more effective than isolated transitions that require complete resets between attempts. Creating momentum through connected transitions makes each subsequent position change easier as opponent struggles to keep up with the rapid position changes.
-- **Eddie Bravo**: The 10th Planet system has innovated numerous unconventional position transitions that challenge traditional thinking about how positions connect, particularly transitions involving the Twister, Truck, and Lockdown positions that create pathways not present in traditional BJJ systems. What I've learned from developing these transitions is that position transitions shouldn't be viewed as fixed mechanical sequences that must be executed exactly the same way every time - they're fluid movement patterns that can be adapted, modified, and combined based on how opponent reacts. For example, the transition from Lockdown to Electric Chair to Truck to Twister represents a systematic chain, but each component can be entered from multiple positions and can branch to different endings based on defensive responses. This flexibility makes the system robust against varied defensive strategies while maintaining systematic structure. When I teach position transitions, I emphasize creativity and exploration of non-traditional pathways that opponent may not anticipate or know how to defend. Many of the most effective transitions in our system came from experimenting with body rotations, position inversions, and leg entanglements that weren't emphasized in traditional systems. The transition from Rubber Guard to various submission and sweep options demonstrates how a single position can serve as a hub for multiple transition pathways, creating a decision-tree structure where opponent defensive choices determine which transition becomes available. I encourage practitioners to understand that every position has undiscovered transition possibilities - by exploring movement patterns that seem unconventional or awkward initially, you often find pathways that work precisely because opponent hasn't trained to defend them. The key is maintaining the fundamental principles (connection, base disruption, leverage) while innovating in the specific mechanical execution of how those principles manifest during transitions.
 
 </section>
 

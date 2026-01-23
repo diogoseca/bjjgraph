@@ -8,7 +8,7 @@ description: "Master competition training in BJJ. Learn periodization, game plan
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Structure training in periodized cycles with distinct preparation phases building toward competition date
 - Progressively increase training intensity and competition simulation as event approaches
 - Focus on high-percentage techniques and strategic game plan rather than comprehensive repertoire
@@ -179,9 +179,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Periodization Planning**: The ability to structure training cycles with distinct phases (base building, intensification, competition simulation, taper) that progressively build competition-specific fitness and technical sharpness while managing fatigue accumulation and preventing overtraining through strategic volume and intensity manipulation.
 
 **Game Plan Development**: The capacity to identify and refine 3-5 high-percentage techniques in each major position that form a coherent strategic framework for competition, including primary attacks, backup options, and positional sequences that maximize scoring opportunities while minimizing defensive vulnerabilities.
@@ -202,26 +202,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Competition Mindset]]** (Complementary): Competition Training provides the physical preparation framework while Competition Mindset addresses the psychological readiness required for optimal performance under pressure, together forming complete competitive preparation.
-- **[[Match Strategy]]** (Extension): Competition Training develops the technical and physical capacity that Match Strategy then deploys tactically during actual competition, with training preparation enabling strategic execution.
-- **[[Game Planning]]** (Prerequisite): Effective Game Planning must occur before Competition Training implementation, as the strategic framework determines which techniques and positions receive training emphasis during competition preparation cycle.
-- **[[Energy Management System]]** (Complementary): Competition Training develops the physiological capacity for sustained performance while Energy Management System provides the in-competition tactical framework for pacing and effort distribution across multiple matches.
-- **[[Positional Sparring]]** (Complementary): Positional Sparring serves as primary training methodology during competition preparation, allowing focused refinement of specific positions and techniques identified in game plan while simulating match intensity.
-- **[[Drilling Methodology]]** (Prerequisite): Effective Drilling Methodology establishes the technical foundation and movement patterns that Competition Training then refines under progressively realistic conditions, making drilling the base upon which competition preparation builds.
-- **[[Progressive Resistance Training]]** (Complementary): Progressive Resistance Training provides the framework for systematically increasing opponent resistance during preparation, ensuring technical development occurs under progressively realistic competitive conditions.
-- **[[Mental Game Framework]]** (Complementary): Mental Game Framework provides the psychological training architecture that Competition Training integrates throughout preparation cycle, developing mental resilience alongside physical capacity.
-- **[[Risk Assessment]]** (Extension): Competition Training develops the technical reliability and strategic clarity that enables sophisticated Risk Assessment during matches, with preparation quality directly affecting competitive decision-making capacity.
-- **[[Cardio Conditioning]]** (Complementary): Cardio Conditioning provides the aerobic and anaerobic base that Competition Training then refines through match-specific intensity patterns, ensuring physiological readiness for tournament demands.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Competition training emphasizes guard retention under scoring pressure, high-percentage sweep and submission chains that maximize point opportunities, and rule-specific attacking sequences that prevent stalling calls while maintaining offensive initiative.
 
 **Mount**: Training focuses on maintaining mount position to secure points while advancing toward higher-value positions or submissions, implementing control maintenance strategies that prevent escapes while satisfying referee activity requirements under specific rule sets.
@@ -250,9 +233,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify competition date and format (IBJJF, ADCC, submission-only, etc.)**: Establish timeline for periodization cycle and determine rule-specific technical emphases that will guide training preparation structure and strategic development throughout camp.
 2. **Assess current technical proficiency and competitive experience level**: Conduct honest evaluation of existing skills, identify high-percentage techniques versus training-only techniques, and determine realistic game plan scope based on competition timeline and technical readiness.
 3. **Develop strategic game plan with primary and backup techniques**: Select 3-5 reliable techniques in each major position that form coherent strategic framework, identify position preferences and avoidance positions, and establish clear decision trees for common competitive scenarios.
@@ -265,9 +248,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Training comprehensive technical repertoire instead of focusing on high-percentage game plan
   - **Consequence**: Dilutes training emphasis across too many techniques, prevents mastery of competition weapons, creates decision paralysis during matches, and reduces execution confidence under pressure.
   - **Correction**: Identify 3-5 most reliable techniques in each position based on training success rates, focus 80% of training on these core techniques, develop backup options only for primary technique failures, and accept strategic limitations in favor of technical mastery.
@@ -293,9 +276,9 @@ Competition Training represents the systematic preparation methodology that tran
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Periodized Competition Camp** (Focus: Systematic physical and technical peaking that optimizes performance readiness on competition day through strategic training stimulus progression and fatigue management.)
 8-12 week structured preparation cycle divided into base phase (weeks 1-4 emphasizing technical refinement and volume), intensification phase (weeks 5-8 emphasizing competition simulation and intensity), and taper phase (final 1-2 weeks emphasizing recovery and mental preparation) with progressive focus shift toward competition-specific demands.
 
@@ -318,9 +301,9 @@ Systematic review of personal training footage to identify technical execution p
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Participates in first competition with basic game plan consisting of 1-2 familiar techniques in each position
 - Experiences significant performance decline under competitive stress compared to training performance
@@ -363,10 +346,24 @@ Systematic review of personal training footage to identify technical execution p
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Competition Mindset]]** (Complementary): Competition Training provides the physical preparation framework while Competition Mindset addresses the psychological readiness required for optimal performance under pressure, together forming complete competitive preparation.
+- **[[Match Strategy]]** (Extension): Competition Training develops the technical and physical capacity that Match Strategy then deploys tactically during actual competition, with training preparation enabling strategic execution.
+- **[[Game Planning]]** (Prerequisite): Effective Game Planning must occur before Competition Training implementation, as the strategic framework determines which techniques and positions receive training emphasis during competition preparation cycle.
+- **[[Energy Management System]]** (Complementary): Competition Training develops the physiological capacity for sustained performance while Energy Management System provides the in-competition tactical framework for pacing and effort distribution across multiple matches.
+- **[[Positional Sparring]]** (Complementary): Positional Sparring serves as primary training methodology during competition preparation, allowing focused refinement of specific positions and techniques identified in game plan while simulating match intensity.
+- **[[Drilling Methodology]]** (Prerequisite): Effective Drilling Methodology establishes the technical foundation and movement patterns that Competition Training then refines under progressively realistic conditions, making drilling the base upon which competition preparation builds.
+- **[[Progressive Resistance Training]]** (Complementary): Progressive Resistance Training provides the framework for systematically increasing opponent resistance during preparation, ensuring technical development occurs under progressively realistic competitive conditions.
+- **[[Mental Game Framework]]** (Complementary): Mental Game Framework provides the psychological training architecture that Competition Training integrates throughout preparation cycle, developing mental resilience alongside physical capacity.
+- **[[Risk Assessment]]** (Extension): Competition Training develops the technical reliability and strategic clarity that enables sophisticated Risk Assessment during matches, with preparation quality directly affecting competitive decision-making capacity.
+- **[[Cardio Conditioning]]** (Complementary): Cardio Conditioning provides the aerobic and anaerobic base that Competition Training then refines through match-specific intensity patterns, ensuring physiological readiness for tournament demands.
+
+
+### Related Content
 - [[Competition Mindset]] (Principle) - Complementary psychological framework that addresses mental preparation while Competition Training focuses on physical and technical preparation
 - [[Match Strategy]] (Principle) - Tactical application during competition that deploys technical capacity developed through Competition Training preparation
 - [[Game Planning]] (Principle) - Strategic framework development that precedes and guides Competition Training technical emphasis and preparation focus
@@ -378,15 +375,6 @@ Systematic review of personal training footage to identify technical execution p
 - [[Position-Over-Submission Approach]] (Principle) - Strategic philosophy commonly emphasized during competition preparation to maximize scoring and minimize risk
 - [[Risk Assessment]] (Principle) - Decision-making framework integrated into competition game planning and tactical execution during matches
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Competition preparation represents the scientific application of periodization principles borrowed from strength training and Olympic sport methodology, emphasizing systematic intensity progression and appropriate taper timing to optimize performance readiness. The concept of specificity of preparation is paramount—training stimulus must progressively converge toward exact demands of competition including rule sets, match duration, and strategic scenarios likely to occur, making the competitive environment familiar rather than novel. This specificity dramatically reduces competitive stress and performance anxiety by eliminating environmental novelty as a performance variable. The most critical element often overlooked is the taper phase where training volume reduces by 40-60% in the final week while maintaining intensity, allowing physical freshness and mental sharpness to peak precisely on competition day. Without proper tapering, accumulated fatigue impairs the technical execution speed and decision-making clarity that determine competitive success, regardless of preparation quality in preceding weeks.
-- **Gordon Ryan**: Competition training must focus relentlessly on maximizing high-percentage technique reliability and strategic clarity rather than comprehensive technical development or physical conditioning volume that dilutes preparation effectiveness. The concept of competition weapons is essential—identifying 3-5 elite techniques in each major position that function reliably at 80%+ success rate against skilled resistance, then dedicating 80% of training time to refining these core techniques rather than expanding repertoire. Mental preparation receives equal emphasis with physical training through detailed visualization of entire competition day from arrival through victory, rehearsing not just technical execution but psychological responses to adversity, fatigue, and pressure situations. The common error is maintaining excessive training volume throughout preparation rather than trusting previous work and prioritizing freshness—I implement aggressive training intensity throughout camp with minimal taper, believing maintained high intensity better simulates competition demands than reduced volume approaches, though this requires exceptional recovery capacity and experience managing fatigue.
-- **Eddie Bravo**: Competition preparation protocols must emphasize creativity and adaptability rather than rigid game plan execution, particularly valuable for submission-only formats where point-fighting strategies are irrelevant and finishing mentality is paramount. The concept of chaos drilling represents critical preparation element where training partners introduce unexpected techniques and unconventional positions, preparing competitors for novel situations requiring creative problem-solving rather than rehearsed responses. Mental fatigue simulation is equally critical as physical conditioning—psychological exhaustion is the primary performance limiter in long tournament days requiring multiple matches, making mental endurance training through extended high-pressure sparring sessions as important as physical conditioning. The innovation emphasis extends to competition preparation itself, experimenting with unconventional training methods including visualization under physical fatigue, training in competition venue environments when possible, and deliberate stress exposure to develop psychological resilience. Competition success often depends more on adaptability and mental toughness than technical preparation volume, making psychological preparation and creative problem-solving capacity the differentiating factors at high competitive levels.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Learn Scissor Sweep in BJJ. Step-by-step execution from Closed Gua
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -336,15 +336,6 @@ The Scissor Sweep serves as a cornerstone technique within the closed guard atta
 - [[Posture Breaking]] - Required concept - essential prerequisite skill for successful sweep execution
 - [[Guard Pass]] - Opponent's objective - technique prevents their passing attempts and reverses position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Scissor Sweep exemplifies the fundamental principle of using opposing directional forces to create mechanical advantage in Brazilian Jiu-Jitsu. What makes this technique so effective is not strength, but rather the biomechanical leverage created through the scissoring action - one leg pushes while the other pulls, creating rotational force that an opponent cannot effectively resist regardless of their size or strength. The critical element most practitioners miss is the importance of angle creation before executing the sweep. When you position your body perpendicular to your opponent, you create a lever system where your entire body weight and leg strength work in concert to off-balance them. The upper body grips serve not merely as controls, but as the critical component that prevents your opponent from using their arms to post and maintain base. Without proper grip control and posture breaking, the strongest scissor motion will fail. Understanding that the sweep succeeds through coordinated timing of all these elements - angle, grips, posture control, and leg action - transforms it from a simple technique into a systematic approach to reversing position from guard.
-- **Gordon Ryan**: The Scissor Sweep is one of those techniques that works at the highest levels of competition because it's timing-based rather than strength-based, which means even smaller competitors can use it effectively against larger opponents. In my competition experience, the key to making this sweep work against high-level opponents is disguising it within a larger guard attack system. If you just go for the Scissor Sweep in isolation, good competitors will recognize it and defend easily. Instead, you need to threaten submissions first - maybe attack a Triangle or Kimura - and when they react to those threats, that's when the Scissor Sweep becomes available. The other critical competition detail is the follow-up: you can't just sweep someone and celebrate. The moment they hit the mat, you need to be moving into mount aggressively. In competition, those two or three seconds where you're transitioning from the sweep to mount are when opponents escape if you're not immediate and decisive. I also use a variation where instead of going to standard mount, I trap their near arm and go straight to technical mount or even S-mount, which sets up immediate submissions and prevents them from recovering guard.
-- **Eddie Bravo**: The Scissor Sweep is a fundamental technique that even 10th Planet practitioners need to master, despite our focus on more innovative guards. What I teach differently is how to use this sweep in no-gi contexts and as part of a transition game rather than as an isolated technique. Without the gi, you need to adapt your grips - I like using an underhook and control behind the head, or sometimes an overhook combined with a tricep grip. The mechanics stay the same but the grip variations open up different follow-up options. Where it gets really interesting is using the Scissor Sweep as a transition tool in combination with modern guards. For example, you can threaten the Scissor Sweep from closed guard, and when opponents defend by posting or adjusting their base, that's when you can transition to Rubber Guard, Lockdown, or even invert and attack with more creative options. The sweep also works beautifully from various open guard positions if you understand the fundamental principle of creating that perpendicular angle and using the scissor motion. Don't just think of it as a closed guard technique - the concept can be applied from numerous positions once you understand the underlying mechanics of leverage and angle creation.
 
 </section>
 

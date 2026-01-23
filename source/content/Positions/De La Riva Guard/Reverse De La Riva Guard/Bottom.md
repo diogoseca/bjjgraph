@@ -8,7 +8,7 @@ description: "Master Reverse De La Riva Guard Bottom in BJJ. Complete guide cove
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -461,24 +461,6 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 
 **Average Time in Position**: 30-90 seconds before transition to sweep or back take
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Reverse De La Riva guard represents a sophisticated evolution in open guard theory, utilizing inverted hook mechanics to create rotational off-balancing that is biomechanically difficult to counter. The fundamental principle operates on the concept that by threading your leg through the opponent's stance from behind, you create a leverage system where their natural defensive responses actually increase the effectiveness of your attacks. When they drive forward to pressure your guard, they feed directly into the waiter sweep. When they attempt to disengage by standing or backstepping, they expose their back to kiss of the dragon entries. The position creates what I call a 'rotational dilemma' where every defensive choice leads to a specific offensive opportunity. The key technical element is maintaining hip elevation, which transforms the position from a static guard into a dynamic launching platform for attacks. Your hips must remain elevated and mobile, never settling flat to the mat, as this elevation is what generates the momentum for inversions and back takes. The inverted hook itself should be understood as a steering mechanism that controls the opponent's center of gravity in a circular pattern, making it nearly impossible for them to establish the linear base needed for effective passing.
-
-### Gordon Ryan
-
-I use Reverse De La Riva as a primary back-taking entry in competition, particularly against opponents who are proficient at defending traditional De La Riva. The waiter sweep is my highest percentage technique from here, as it forces the opponent into a compromised position whether they defend by staying heavy or by trying to backstep. The key is maintaining constant tension in the hook system and never allowing your hips to flatten out. In no-gi, the position works even better because opponents can't use pants grips to stabilize, making the off-balancing extremely effective. My approach is to establish the inverted hook immediately when opponent stands in my De La Riva, then quickly assess their weight distribution to determine whether I'm going for the sweep or transitioning to kiss of the dragon. Against high-level opponents, I often use the position as a transitional state rather than holding it for extended periods - the goal is to create immediate off-balancing that leads to back exposure within 2-3 seconds of establishing the hook. The far leg control is absolutely critical; if you lose that control even momentarily, skilled passers will immediately capitalize by stepping away and establishing distance. I drill the transition between RDLR and Single Leg X constantly because opponents will often backstep to defend the waiter sweep, and that backstep motion feeds perfectly into Single Leg X entries where you can continue attacking with sweeps or leg locks.
-
-### Eddie Bravo
-
-Reverse De La Riva fits perfectly into the 10th Planet system's emphasis on back attacks and unconventional entries. We connect it directly to the crab ride and truck positions, creating a seamless chain from guard to back control. The inverted hook creates confusion for opponents who are drilling traditional passing sequences, and the hip mobility required develops naturally when you're also training rubber guard and lockdown variations. I teach students to view this as a transitional position rather than a static guard, always looking to roll under for the back or sweep to top position within a few seconds of establishing the hook. The beauty of RDLR in our system is how it complements the lockdown game - if you're comfortable inverting and using unconventional hip positions in lockdown, the mechanics of RDLR feel natural. We also combine it with our electric chair setups, where the inverted hook can be used to off-balance opponent before transitioning to deep half or lockdown positions. The key innovation in our approach is using the RDLR not just for sweeps and back takes, but as an entry point into leg lock positions and truck mechanics. When opponent defends the traditional RDLR attacks, we have drill sequences that transition to saddle entries or outside ashi positions, creating a multi-layered offensive system where they can't focus on defending just one attack type. The position embodies the 10th Planet philosophy of constant movement and unconventional angles that keep opponents guessing.
 
 </section>
 

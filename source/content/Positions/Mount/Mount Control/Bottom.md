@@ -8,7 +8,7 @@ description: "Comprehensive guide to surviving and escaping mount bottom positio
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -419,24 +419,6 @@ Start in mount with bottom having single goal of guard recovery and top having g
 | Advanced     | 50% | 65% | 20% |
 
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Mount escape mechanics rely on fundamental principle of creating angles rather than attempting direct force application against superior position. The elbow escape functions through progressive angle creation where each shrimp movement generates incremental space that accumulates into guard recovery. Students must understand that mount defense begins before mount is achieved - during the passing sequence - where proper framing prevents the chest-to-chest connection that defines mount control. The defensive frame architecture uses skeletal structure rather than muscular exertion, positioning forearms as load-bearing columns that create space while conserving energy. When frame integrity is maintained, the bottom practitioner can time escape attempts with opponent's weight shifts during submission setups, exploiting momentary base vulnerabilities. The bridge and roll escape demonstrates biomechanical efficiency through lever arm principles, where trapping opponent's arm and leg creates fulcrum point that enables smaller practitioner to off-balance larger opponent through angular momentum rather than direct strength.
-
-### Gordon Ryan
-
-Mount bottom is where matches are lost if you don't have systematic escape protocols drilled to automaticity. In competition, I see opponents make the critical error of accepting mount as temporary position where they wait for opportunities - this is strategic suicide. You have maybe 10-15 seconds before a skilled opponent establishes high mount or begins submission attacks that force defensive reactions. My approach prioritizes immediate elbow escape attempt the moment mount is established, before opponent settles weight distribution. If the elbow escape is denied, I immediately chain to bridge and roll, timing it with opponent's forward weight shift as they defend the elbow escape. The key is treating mount escapes as continuous chain rather than isolated techniques. Against world-class opponents, you won't hit a perfect elbow escape from static mount - you create the opportunity through feints and reactions. I'll threaten a bridge to make opponent post their hands, then immediately shrimp when their weight shifts forward. Every escape attempt creates reactions that enable the next attempt in the sequence.
-
-### Eddie Bravo
-
-Mount bottom in no-gi requires completely different mentality than traditional gi-based approaches because you can't rely on collar grips or lapel friction to control distance. The 10th Planet approach emphasizes what we call 'ghost escape' mechanics - using shoulder rolls and inverse shrimping to create space that seems impossible. When someone has you in mount, especially without the gi, their control comes from weight distribution and underhook control. Traditional mount escapes telegraph your intentions, but the ghost escape uses shoulder walk to create angles before opponent recognizes escape attempt. I teach students to combine defensive frames with offensive threats - threatening lockdown entries or deep half guard even from mount bottom creates mental pressure that opens escape windows. The rubber guard concepts apply even from mount bottom: you're creating control points using unusual angles that opponent doesn't expect. If someone passes to mount, I'm immediately thinking about how to use that moment of transition to establish lockdown on one leg, which gives me the lever I need to off-balance them into my guard recovery sequence.
 
 </section>
 

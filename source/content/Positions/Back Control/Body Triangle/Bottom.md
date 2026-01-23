@@ -8,7 +8,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -442,24 +442,6 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 **Average Time in Position**: 2-4 minutes depending on opponent's escape urgency and your submission timing
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The body triangle represents a fundamental shift in back control mechanics from dynamic hook retention to static mechanical dominance. What makes this position so theoretically sound is the elimination of the primary escape mechanism - hip rotation. Standard back control with hooks can be cleared through systematic hip movement, but the body triangle creates a structural lock that prevents this entirely. The breathing restriction is not merely a discomfort factor but a biomechanical constraint that limits the opponent's ability to generate explosive escape power. Their diaphragm cannot fully expand, reducing oxygen intake and creating cumulative fatigue that compounds with each breathing cycle. From a systematic perspective, this position should be viewed as a platform for systematic attacks rather than a holding pattern. The leg lock frees your upper body to work exclusively on finishing mechanics without concern for positional maintenance.
-
-### Gordon Ryan
-
-In competition, the body triangle is my go-to position when I want to guarantee a finish within the time limit. Unlike regular hooks where tough opponents can defend for extended periods, the body triangle creates a ticking clock that works in your favor. I've found that most opponents, even high-level ones, start making defensive mistakes within 90 seconds of being locked in a tight body triangle because the breathing restriction creates genuine panic. The key is not just locking it, but positioning it correctly around the lower ribs where it maximizes breathing restriction without being so low that they can hip escape. I typically use the body triangle as my primary control when the opponent is very defensive with their hands - they simply cannot maintain optimal defensive posture while their breathing is being restricted. The psychological pressure is as important as the physical constraint.
-
-### Eddie Bravo
-
-The body triangle is one of those positions that perfectly demonstrates the 10th Planet philosophy of finding mechanical solutions that don't require constant energy expenditure. In no-gi especially, where you don't have fabric to grip, the body triangle gives you that gi-level control without needing constant hand fighting. What I love teaching is the versatility - you can hold it with minimal effort while you rest and pressure your opponent, or you can actively hunt for the finish. From the body triangle, I particularly like transitioning to the truck position because opponents are so focused on defending their neck and clearing the triangle that they don't see the crotch ripper or banana split coming. The innovation here is treating the body triangle not as a static control position but as a launching pad for creative attacks that capitalize on the opponent's predictable defensive reactions to the breathing restriction.
 
 </section>
 

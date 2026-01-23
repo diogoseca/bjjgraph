@@ -8,7 +8,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -469,24 +469,6 @@ Partner starts in turtle position. Practice back take entry establishing harness
 
 **Average Time in Position**: 45-90 seconds before submission or escape attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The harness position represents the apex of positional control in Brazilian Jiu-Jitsu from a biomechanical perspective. The seat belt configuration - one arm over the shoulder, one under the opposite armpit with hands clasped - creates what I call a 'structural lock' that is extraordinarily difficult to break through mechanical advantage alone. The key insight is understanding that the harness grip is not primarily about arm strength, but rather about creating a closed system where your body weight, chest connection, and hook control work synergistically to maintain the position. When executed properly, the bottom player faces a mathematical dilemma: their efforts to strip the grip actually tighten your control as they push your arms together. The hands should be clasped high on the sternum, creating maximum leverage for both control and offensive options. The hooks serve as rudders, not anchors - use them to steer the opponent's movement rather than simply holding them in place. Most importantly, understand the hierarchy of controls: the seat belt grip is more valuable than both hooks combined. If forced to choose, maintain the grip and recover hooks later. This position creates perfect conditions for the highest percentage submission in grappling - the rear naked choke - while simultaneously offering clear paths to armbars and crucifix positions when the opponent defends predictably.
-
-### Gordon Ryan
-
-From a competition standpoint, harness control is where I finish most of my matches. The reality in high-level no-gi is that getting to the back clean is actually harder than finishing once you're there - the position is just that dominant when you know what you're doing. My approach is aggressive and submission-focused: I'm not here to hold position for points, I'm here to finish. The moment I secure the seat belt, I'm already thinking three steps ahead to the choke finish. What works at the highest levels is constant offensive pressure - I'll feint the choke to draw the hands up, then immediately attack the arm when they defend. If they defend the armbar, the neck opens back up. This isn't a position where you should be comfortable playing defensive or reactive - you dictate everything. One critical detail most people miss: stay heavy on one side. I prefer my choking side to be dominant, keeping that shoulder pressure constant while my bottom hook does most of the steering work. When they try to turn into you, that's when you roll with them and lock the body triangle. The body triangle variation is my preferred finish position because it eliminates 50% of their escape options immediately. In competition, time is a factor - you have limited energy and limited time to work. Don't waste either by being passive from the back. Attack, create reactions, attack the reaction, finish.
-
-### Eddie Bravo
-
-The harness from back control is fundamental, but at 10th Planet we take it to another level with our lockdown and control innovations. Traditional back control is great, but we're always looking at how to make it better, more submission-oriented, and harder to escape. First thing - that seat belt grip is crucial, but we emphasize active wrist control on the bottom arm. Instead of just clasping hands, we're fighting to control their wrist with our bottom hand, which sets up the rear naked choke way cleaner and prevents a lot of defensive frames. The Truck position is our bread and butter entry to back control, and once we establish the harness, we're immediately looking at unconventional submissions most traditional schools don't emphasize - the twister being the obvious one, but also calf slicers and unique choke variations. Here's what's important in our system: we don't just maintain position, we hunt. If I've got your back with a harness, I'm already thinking about how to transition to the twister or set up the banana split. The hooks aren't just for control - they're submission tools. We teach an entire system around back attacks that includes not just the traditional RNC and armbars, but lockdown variations, calf compression, and spine manipulation techniques that create a much broader threat matrix. The beauty of the harness is it keeps their attention up high defending the choke while we're attacking the lower body with submission threats they're not expecting. That's the 10th Planet difference - we respect the fundamentals but we're always innovating new attacks from traditional positions.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master the Estima Lock Bottom Position in BJJ. Defensive leg entan
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -410,24 +410,6 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 **Average Time in Position**: 15-45 seconds before tap or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Estima Lock bottom position represents a critical junction in leg entanglement sequences where defensive precision determines whether you preserve your ankle joint or suffer a painful submission. The mechanical principle underlying effective defense is understanding that the Estima Lock's power derives from the combination of foot inversion and hip extension—therefore, your defensive priority must be disrupting one or both of these components. I emphasize to my students that the free leg is your most valuable defensive asset in this position; it serves as both a pushing tool to create distance and a hooking tool to off-balance your opponent. The systematic approach involves first establishing defensive frames to prevent your opponent from consolidating their hip pressure, then using calculated hip escapes to create the angles necessary for leg extraction. Many practitioners make the error of fighting only the hand grips while neglecting their overall body position—this is tactically flawed. Address the structural components first through intelligent hip positioning and frame creation, and the grip breaks become far more accessible as natural consequences of superior positioning.
-
-### Gordon Ryan
-
-In competition, the Estima Lock bottom is a position you absolutely cannot afford to linger in because the submission can come on fast and there's no points to be scored from bottom of a leg entanglement. My approach is aggressive and immediate—the moment I recognize the grip configuration, I'm working my escape sequence without hesitation. The free leg is everything here; I use it to push on their hips constantly, creating enough space to rotate my trapped leg and change the angle of attack on my ankle. One thing I've learned through experience is that you can't be tentative or wait to see what happens—that's how you get caught. I drill the counter-rotation of the trapped foot combined with a simultaneous hip escape toward the trapped leg side, which typically opens up the extraction window. If the lock is deep and I feel it's locked in tight, I have zero ego about tapping quickly. I've seen too many guys try to tough it out and end up with ankle injuries that sideline them for months. In the gym, I use this position as an opportunity to sharpen my leg lock defense, but in competition, my goal is to not end up here at all through better leg entanglement passing and awareness.
-
-### Eddie Bravo
-
-The Estima Lock from bottom is gnarly because it attacks the ankle in that inverted position that most people aren't used to defending. In the 10th Planet system, we emphasize staying mobile and using that free leg like it's your third arm—constantly creating problems for the top player. What I teach my guys is to think about creating a dilemma for your opponent: if they focus on finishing the lock, you use your free leg to hook and sweep; if they defend the sweep, you use that moment to extract your trapped leg. The key is staying active and not letting them settle into a controlling rhythm. I also coach my students to develop a feel for when the lock is actually dangerous versus when it's just uncomfortable. There's a big difference, and knowing that distinction lets you stay calm and work your escapes technically instead of panicking. We drill a lot of scenarios where you're using your hands to push their head or shoulder to create an angle while your free leg is working to establish a butterfly hook or push their hip. It's all about that combination of movements happening simultaneously. And honestly, if you find yourself here frequently in rolling, it means you need to tighten up your leg entanglement passing game and not give up that foot control in the first place.
 
 </section>
 

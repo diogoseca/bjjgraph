@@ -8,7 +8,7 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -413,24 +413,6 @@ Isolate leg control aspect of Twister Control. Practice maintaining leg control 
 
 **Average Time in Position**: 20-45 seconds to submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Twister Control represents an elegant solution to one of jiu-jitsu's fundamental problems - how to control an opponent in a way that simultaneously compromises multiple defensive systems. The genius of the position lies in its use of rotational forces applied to the spine. When the spine is twisted, the core musculature that generates explosive escape movements becomes mechanically compromised. The position creates what I call compound control - your leg control prevents linear escape movements, your upper body control prevents rotational escapes, and the combination creates spinal torque that compromises strength generation. The key to elite-level application is understanding that Twister Control is not primarily about the Twister submission itself, but rather about using the positional control to create multiple submission opportunities. When your opponent defends the neck, attack the arms. When they defend the arms, return to the neck or transition to more traditional back control. The position's real power lies in the forced reactions it creates and your ability to capitalize on those reactions with multiple offensive pathways.
-
-### Gordon Ryan
-
-Twister Control is one of those positions that looks weird until you feel it from someone who really knows what they're doing, and then you realize how effective it is. I've trained extensively with high-level 10th Planet guys and the position is legit when applied correctly. The key is understanding that you're not just trying to twist someone into a pretzel - you're using the leg control and rotation to take away their ability to generate any meaningful escape attempts. What I've found at the highest levels is that the Twister finish itself is often lower percentage than the other submissions that open up from the position. When someone is defending the Twister, they're often exposing their neck for guillotines or extending their arms for arm attacks. The position creates really high-percentage submission opportunities if you're not fixated on just hitting the Twister. The other key thing is that Twister Control requires constant adjustment - you can't just lock it in and crank. You need to be adjusting your leg control, your pressure, and your attack angles based on how your opponent is defending. It's an active position that rewards technical precision and the ability to read your opponent's defensive reactions.
-
-### Eddie Bravo
-
-The Twister Control is the heart and soul of what we do at 10th Planet, and it's completely revolutionized the way people think about back attacks in no-gi jiu-jitsu. The whole system is built around creating that spinal rotation and using it to compromise everything your opponent wants to do defensively. When I developed this position, I was looking for something that would work against really athletic, flexible opponents who could escape from traditional positions. The Twister Control does exactly that - it doesn't matter how flexible you are, when your spine is twisted and your leg is controlled, you can't generate the movements you need to escape. The beautiful thing about the position is the number of submissions you can hit from there. Yeah, the Twister itself is amazing and it's what everyone wants to hit, but in reality, you're going to tap more people with guillotines, calf slicers, and arm attacks from that position than with the Twister. The Twister Control creates this panic and discomfort that forces people to make mistakes, and that's when you capitalize. The key to teaching it is making people understand that it's not about muscling the position - it's about the technical details of the leg control, the angle of your body, and the constant adjustment to maintain that spinal rotation.
 
 </section>
 

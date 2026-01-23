@@ -8,7 +8,7 @@ description: "Master Triangle Escape from bottom position in BJJ. Complete guide
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -402,24 +402,6 @@ Partner attempts all triangle variations: armbar switches, omoplata transitions,
 
 **Average Time in Position**: 15-30 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The triangle escape from bottom position represents one of the most critical decision points in grappling where systematic technical knowledge directly correlates to survival probability. The biomechanical reality of the triangle choke is that it functions through a combination of structural closure and angular optimization - the opponent creates a closed system with their legs while simultaneously achieving an angle that maximizes pressure on the carotid arteries. Your escape methodology must therefore address both elements: first, you must disrupt the structural integrity of the triangle by creating vertical distance through postural recovery, and second, you must prevent angular optimization by controlling the opponent's hip mobility. The most common failing I observe is practitioners attempting to address symptoms rather than root causes - they push on legs rather than standing up, they pull on the choking arm rather than stacking the opponent's weight. Understand that the triangle's power comes from the opponent's ability to use their legs as lever arms against your neck; by stacking their weight onto their shoulders, you effectively reverse these lever mechanics, transforming their attacking structure into a defensive liability. The systematic approach is invariable: establish posture to reduce immediate danger, create frames to prevent angle adjustment, stack weight to compromise their structure, then methodically clear the legs and pass.
-
-### Gordon Ryan
-
-In competition, getting caught in a triangle is a serious problem, but it's not automatically over if you know what you're doing. I've escaped deep triangles from world-class grapplers by staying calm and executing the fundamentals perfectly. The key thing nobody tells you is that most triangle escapes fail because people try to escape too early - they feel the pressure starting and immediately panic, which is exactly when you make the mistakes that get you finished. When I'm in a triangle, my first thought isn't 'escape,' it's 'survive and improve position.' I focus on getting my posture back first, even if it's just getting to my knees with a strong base. Once I have that, I can start working the actual escape. The stack is my go-to because it's high percentage and it puts me in position to pass immediately after escaping, but you have to commit to it fully - half-assed stacking just tires you out and keeps you in danger. One technique that's won me matches is recognizing when someone's triangle is shallow versus deep. If it's shallow, I might actually work to pass from inside the triangle by stacking aggressively.
-
-### Eddie Bravo
-
-The triangle is one of those positions where traditional escapes work, but there's always room for innovation and unexpected solutions. In my system, we look at the triangle escape as an opportunity, not just a defensive situation. When someone locks up a triangle on me, I'm immediately thinking about unconventional options they won't expect. One thing we drill heavily is the shoulder roll escape, where instead of trying to posture up conventionally, you actually roll over the shoulder on the trapped arm side, using momentum and timing to slip out before they can adjust. Another concept from 10th Planet is using the threat of the slam defensively - even in pure grappling where slams aren't allowed, the motion of lifting them up high and threatening the slam makes most people loosen their triangle instinctively, which is when you execute the actual technical escape. I also teach my guys to think about the triangle escape as part of a larger system - if you're escaping, why just get back to their guard? Why not escape directly into a leg entanglement or a passing position? The key is staying creative and not letting the pressure make you revert to predictable patterns.
 
 </section>
 

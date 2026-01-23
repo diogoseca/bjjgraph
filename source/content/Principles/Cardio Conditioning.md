@@ -8,7 +8,7 @@ description: "Master cardiovascular conditioning for BJJ. Learn energy system de
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Develop both aerobic base capacity and anaerobic threshold to support varied intensity demands
 - Structure conditioning work to match BJJ-specific energy system requirements and work-to-rest ratios
 - Progress conditioning systematically over extended timelines respecting adaptation and recovery requirements
@@ -179,9 +179,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Aerobic Base Development**: Building foundational cardiovascular capacity through sustained lower-intensity work that develops mitochondrial density, capillary networks, and fat oxidation efficiency. This base supports recovery between high-intensity efforts and enables sustained output over extended training sessions.
 
 **Anaerobic Threshold Elevation**: Increasing the intensity at which lactate accumulation exceeds clearance capacity, allowing athletes to work at higher intensities before fatigue accumulation. This directly impacts ability to maintain aggressive pace during competitive exchanges without rapid performance deterioration.
@@ -202,25 +202,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Energy Management System]]** (Complementary): Cardio conditioning provides the physiological capacity that energy management strategies deploy tactically. Superior conditioning expands the range of viable energy management approaches.
-- **[[Energy Conservation]]** (Complementary): While conditioning increases total energy capacity, conservation techniques reduce expenditure rate. Combined, they dramatically extend sustainable performance duration.
-- **[[Pressure Application]]** (Prerequisite): Effective pressure passing and control maintenance require sustained muscular endurance. Inadequate conditioning limits the duration athletes can maintain effective pressure.
-- **[[Explosive Power]]** (Complementary): While explosive power provides maximal force for brief efforts, conditioning enables repeated expression of that power throughout extended matches without significant degradation.
-- **[[Match Strategy]]** (Extension): Conditioning level fundamentally constrains viable match strategies. Athletes with superior conditioning can implement aggressive pace-based strategies that would exhaust less-conditioned competitors.
-- **[[Drilling Methodology]]** (Complementary): Properly structured drilling serves dual purposes of technical refinement and sport-specific conditioning development, making it highly efficient for developing both simultaneously.
-- **[[Pacing]]** (Extension): Superior conditioning allows more sophisticated pacing strategies with greater range between conservative and aggressive pace options without exhaustion risk.
-- **[[Positional Sparring]]** (Complementary): Positional sparring serves as primary vehicle for developing sport-specific conditioning while simultaneously refining technical skills in controlled contexts.
-- **[[Competition Training]]** (Extension): Competition-focused training integrates conditioning development into match simulation, creating adaptations that transfer directly to competitive performance.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Maintaining mount requires sustained core stability and hip pressure while continuously defending escape attempts. Superior conditioning allows extended control without muscular fatigue that creates escape opportunities.
 
 **Back Control**: Back control maintenance demands constant grip strength, body lock tension, and hook positioning adjustments. Conditioning determines how long these control mechanisms can be sustained before grip or positional fatigue develops.
@@ -255,9 +239,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current conditioning baseline across energy systems**: Evaluate aerobic capacity through sustained drilling, anaerobic threshold via positional sparring intensity, and recovery efficiency through inter-round heart rate monitoring to identify specific conditioning deficiencies.
 2. **Identify competition demands and timeline**: Determine specific energy system requirements based on competition format, match duration, and strategic approach. Establish training timeline available before competition to structure appropriate conditioning progression.
 3. **Structure aerobic base development phase**: Implement extended lower-intensity work developing foundational aerobic capacity before introducing high-intensity conditioning. This phase typically requires 4-8 weeks depending on baseline and prevents overtraining from premature intensity.
@@ -270,9 +254,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Excessive high-intensity conditioning volume without adequate aerobic base
   - **Consequence**: Accumulates unmanageable fatigue, compromises technical training quality, increases injury risk, and prevents optimal adaptation to conditioning stimulus.
   - **Correction**: Establish substantial aerobic base through lower-intensity sustained work before implementing high-intensity anaerobic conditioning. Maintain 80/20 ratio favoring lower-intensity work.
@@ -298,9 +282,9 @@ Cardio Conditioning represents the systematic development of cardiovascular and 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Aerobic Base Development Through Continuous Drilling** (Focus: Building foundational aerobic capacity through sport-specific movement patterns that transfer directly to competitive performance while avoiding impact of running or other general conditioning methods.)
 Extended technical drilling sessions at moderate intensity developing aerobic capacity while simultaneously refining technique. Sessions typically last 20-40 minutes at sustainable pace focusing on movement quality.
 
@@ -323,9 +307,9 @@ Full-duration matches at competition intensity and rule structure. Typically imp
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can complete 3-5 minute rounds but experiences significant fatigue requiring extended rest between rounds
 - Performance degrades noticeably in second half of rounds with reduced movement quality and decision-making capacity
@@ -365,10 +349,23 @@ Full-duration matches at competition intensity and rule structure. Typically imp
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Energy Management System]]** (Complementary): Cardio conditioning provides the physiological capacity that energy management strategies deploy tactically. Superior conditioning expands the range of viable energy management approaches.
+- **[[Energy Conservation]]** (Complementary): While conditioning increases total energy capacity, conservation techniques reduce expenditure rate. Combined, they dramatically extend sustainable performance duration.
+- **[[Pressure Application]]** (Prerequisite): Effective pressure passing and control maintenance require sustained muscular endurance. Inadequate conditioning limits the duration athletes can maintain effective pressure.
+- **[[Explosive Power]]** (Complementary): While explosive power provides maximal force for brief efforts, conditioning enables repeated expression of that power throughout extended matches without significant degradation.
+- **[[Match Strategy]]** (Extension): Conditioning level fundamentally constrains viable match strategies. Athletes with superior conditioning can implement aggressive pace-based strategies that would exhaust less-conditioned competitors.
+- **[[Drilling Methodology]]** (Complementary): Properly structured drilling serves dual purposes of technical refinement and sport-specific conditioning development, making it highly efficient for developing both simultaneously.
+- **[[Pacing]]** (Extension): Superior conditioning allows more sophisticated pacing strategies with greater range between conservative and aggressive pace options without exhaustion risk.
+- **[[Positional Sparring]]** (Complementary): Positional sparring serves as primary vehicle for developing sport-specific conditioning while simultaneously refining technical skills in controlled contexts.
+- **[[Competition Training]]** (Extension): Competition-focused training integrates conditioning development into match simulation, creating adaptations that transfer directly to competitive performance.
+
+
+### Related Content
 - [[Energy Management System]] (Principle) - Complementary strategic framework for deploying conditioning capacity efficiently
 - [[Energy Conservation]] (Principle) - Technical approach to reducing energy expenditure maximizing conditioning effectiveness
 - [[Competition Training]] (Principle) - Training methodology that develops conditioning through sport-specific practice
@@ -381,15 +378,6 @@ Full-duration matches at competition intensity and rule structure. Typically imp
 - [[Pacing]] (Principle) - Strategic effort modulation that extends effective use of conditioning capacity
 - [[Competition Preparation System]] (System) - Comprehensive preparation framework integrating conditioning development with technical and tactical preparation
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches conditioning from scientific physiological perspective, emphasizing development of specific energy systems matched to competitive demands rather than generic getting in shape mentality. Systematically identifies BJJ-specific work-to-rest ratios and intensity requirements, then structures conditioning protocols to create precise adaptations supporting those demands. Particularly emphasizes the importance of aerobic base development as foundation supporting all other conditioning work, advocating for substantial aerobic capacity building before intense anaerobic conditioning to prevent overtraining and optimize adaptation quality. Warns against the common error of excessive high-intensity work without adequate aerobic foundation, noting this approach accumulates fatigue faster than it builds capacity. His systematic approach involves periodizing conditioning development across extended timelines, respecting adaptation requirements rather than seeking rapid improvements through unsustainable training volumes.
-- **Gordon Ryan**: Views conditioning as competitive weapon that compounds advantages over match duration, allowing him to maintain aggressive pace that progressively breaks opponents as they fatigue. Focuses heavily on what he terms pace conditioning where training specifically develops ability to sustain his competitive intensity rather than training at lower intensities that don't transfer to match demands. Emphasizes position-specific conditioning through extended positional sparring sessions that simultaneously develop technical skills and energy systems, viewing pure conditioning work as supplement to sport-specific training rather than primary development vehicle. His approach involves deliberately training at or above competition intensity to ensure conditioning adaptations transfer directly to competitive performance. Particularly values the psychological advantage superior conditioning provides, noting that opponents often break mentally when they realize they cannot match his pace, creating technical opportunities through induced fatigue and psychological pressure combined.
-- **Eddie Bravo**: Advocates for conditioning protocols that emphasize sustainability and injury prevention rather than maximum performance, having observed many athletes compromise longevity through excessive conditioning volume. When teaching conditioning integration, emphasizes importance of matching conditioning work to individual recovery capacity and technical development stage, warning against cookie-cutter approaches that may work for some but overtrain others. Particularly interested in efficiency-based conditioning where technical refinement reduces energy expenditure enabling effective performance with less pure cardiovascular capacity than conventional approaches require. Notes that many athletes waste significant energy through inefficient technique and unnecessary tension, suggesting that addressing these technical issues often improves effective conditioning more than additional pure cardio work. His methodology emphasizes sustainability over peak performance, preferring athletes maintain good conditioning year-round through manageable training loads rather than cycling between deconditioned states and intense preparation phases that risk burnout.
 
 </section>
 

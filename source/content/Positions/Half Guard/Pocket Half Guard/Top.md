@@ -8,7 +8,7 @@ description: "Master Pocket Half Guard Top in BJJ. Complete guide covering contr
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -424,24 +424,6 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 
 **Average Time in Position**: 45-90 seconds before completing pass or losing position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The pocket half guard top position represents a critical control point in the systematic dismantling of the half guard. The underhook is not merely a grip - it is a control mechanism that fundamentally alters the bottom player's ability to generate frames and create the angles necessary for effective defense. When properly executed, the underhook creates a structural trap where the opponent's own body becomes complicit in their immobilization. The key is understanding that the underhook must be paired with precise chest pressure and crossface control to create what I call 'three-point pinning' - the underhook controls rotation, the chest pressure controls elevation, and the crossface controls facing direction. This triumvirate of controls renders the bottom player's defensive options severely limited. The methodical approach is paramount: first establish complete flattening through coordinated pressure, then systematically remove the trapped leg while maintaining all control points. The common error is rushing the pass before achieving complete control, which allows the opponent to exploit remaining angles.
-
-### Gordon Ryan
-
-Pocket half guard top is where you break people's will to defend. When I get to this position, especially in competition, I'm thinking about two things: maintaining crushing pressure and finishing the pass as efficiently as possible. The underhook is everything - once you have it deep and you're keeping constant pull toward your body, the bottom player is in serious trouble. I like to make it uncomfortable immediately with heavy chest pressure and a strong crossface. Most people will try to turn into the underhook to defend, and that's when I'm ready to either finish the knee slice pass or take their back if they commit too hard to the turn. The key in competition is not giving them any breathing room - keep the pressure constant, control their frames before they can establish them, and don't give them any false hope that they can recover. I've finished countless matches from this position because once I'm here, the opponent knows they're getting passed, it's just a matter of time. The psychological aspect is huge - when someone feels that crushing pressure and realizes their defensive options are limited, they often make mistakes trying to escape.
-
-### Eddie Bravo
-
-In the 10th Planet system, we see pocket half guard top as part of the passing game but we're always aware of the counters because we play so much half guard. When you're on top with that underhook, yeah, you've got great control, but you need to be smart about how aggressive you get with it. The bottom player can still threaten deep half, or if you're not careful with your weight distribution, they can use the lockdown to sweep you. What I like about this position is the Darce opportunity - when people turn into that underhook trying to defend, that's money for a Darce choke if you're ready for it. We drill that transition a lot because it's such a high-percentage finish. The other thing is don't sleep on the back take option. If they're fighting hard to prevent the pass and coming to their side, you can sometimes step over and take the back. The innovative approach is thinking about this position not just as a passing position but as a control position where you have multiple attacking options depending on how they defend. Keep them guessing between the pass, the Darce, and the back take, and you'll have much more success than just trying to bull your way through the same pass every time.
 
 </section>
 

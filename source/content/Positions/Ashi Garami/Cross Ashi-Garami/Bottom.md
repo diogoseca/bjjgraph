@@ -8,7 +8,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -418,24 +418,6 @@ From established cross ashi bottom position, partner deliberately creates openin
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Cross ashi-garami represents one of the most mechanically sound positions for heel hook application due to the perpendicular hip alignment and crossed leg configuration. As the bottom player, your defensive strategy must be built around two critical hierarchies: first, preventing the opponent from securing the heel hook grip configuration, and second, maintaining a flexed knee position to eliminate the straight-leg mechanics required for effective heel hook finishing. The crossed leg configuration creates a powerful wedge against your leg, so your escape timing must coincide with the opponent's positional adjustments - when they transition toward saddle, adjust their grips, or reposition their hips, the wedge temporarily loosens and creates your escape window. Understanding the biomechanical relationship between hip angle, leg configuration, and submission leverage is essential for both defending heel hooks and recognizing when the position has deteriorated beyond safe recovery, at which point immediate submission is the only intelligent choice.
-
-### Gordon Ryan
-
-Cross ashi bottom is a position you absolutely need to understand if you're competing in modern no-gi, because everyone is hunting for this position and the heel hook finish. In competition, I've found that the key to surviving cross ashi is staying one step ahead - you need to be escaping before they fully settle into the position, not after they've locked everything in. The biggest mistake I see is people waiting until the heel hook grip is deep before they start moving, and by then it's too late. When I'm caught in cross ashi, I'm immediately sitting up, framing on their hips with my free leg, and hand fighting to prevent the figure-four grip. If they get the grip locked, the match is over - you tap or you get injured. The counter-attacking opportunities are real though, especially if your opponent gets greedy and rushes to finish without securing proper control. I've entered inside ashi from bottom cross ashi many times when opponents got impatient and gave me their inside leg. Stay calm, stay defensive, and capitalize when they make positional mistakes.
-
-### Eddie Bravo
-
-Cross ashi from bottom is one of those positions where you really need to understand the whole leg lock game to survive, because traditional defensive thinking doesn't work here. The 10th Planet approach to defending cross ashi is built around active offense - we're not just trying to escape, we're looking to enter our own leg attacks the moment the opportunity presents itself. When someone has you in cross ashi, they're also giving you access to their legs, and if you understand inside and outside ashi entries, you can turn defense into offense instantly. The key innovation we've developed is using the free leg not just as a frame, but as an active tool to create angles for counter-entanglements. Instead of just pushing their hips away, we're hooking their far leg, creating triangles with our legs, and constantly threatening to enter our own control positions. This forces the top player to be more conservative with their attack, which creates more escape opportunities. But yeah, if someone locks in that heel hook grip with the figure-four, you're done - tap immediately and live to roll another day. There's no ego in leg locks, only healthy knees and blown-out knees.
 
 </section>
 

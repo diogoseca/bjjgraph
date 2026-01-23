@@ -8,7 +8,7 @@ description: "Learn pressure passing from flattened half guard top. Complete you
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -407,24 +407,6 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 
 **Average Time in Position**: 20-60 seconds to complete pass or lose position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The flattened half guard top position reveals the true nature of effective pressure passing - it is not about applying maximum force, but rather about strategic weight distribution that creates a pressure problem your opponent cannot solve through defensive techniques alone. When you settle your chest onto your opponent's sternum with the crossface established, you create multiple simultaneous challenges they must address: respiratory restriction limiting their work capacity, vision obstruction from the crossface reducing their awareness, and structural collapse eliminating the frames required for guard retention. The key to advancement from this position is understanding that your opponent will inevitably create small amounts of space through systematic hip escape efforts. Rather than viewing this as a defensive success, skilled passers recognize these moments as the precise timing windows for executing passing sequences. When your opponent shrimps to create space, they momentarily reduce their leg hook's effectiveness - this is when you drive your knee across for the knee slice. When they turn to relieve crossface pressure, they expose their back - this is when you transition to back control. The position becomes a pressure laboratory where opponent defensive responses become predictable and exploitable.
-
-### Gordon Ryan
-
-In high-level competition, holding flattened half guard without advancing is a waste of a positional advantage. You've done the hard work collapsing their structure - now you need to complete the pass before they systematically recover. My approach is aggressive but controlled: maintain heavy chest pressure while constantly creating angles for the knee slice. I'm not trying to muscle through their leg hook, I'm waiting for the moment they shift weight to defend pressure or create space, then I'm cutting through. The crossface is non-negotiable - I'd rather give up other control points than lose the crossface. It controls their head position, limits their vision, makes breathing harder, and most importantly, prevents them from effectively using their near arm for framing. When I feel them starting to recover structure, I immediately increase pressure and look for the back take. Don't get comfortable in this position - use it as a launching pad for finishing the pass or transitioning to back control.
-
-### Eddie Bravo
-
-The Lockdown changes everything about how you play flattened half guard top. Traditional pressure passers get stuck here because they're fighting the leg hook with upper body control, but the bottom player's leg is designed to control your leg - that's its whole purpose. When someone locks you down from bottom, you can't just pressure pass anymore. You need to address the Lockdown first. My whole game from top half is about preventing the Lockdown before it happens. If I'm flattening someone, I'm immediately thinking about their leg position. Are they trying to get the Whip Up for the Lockdown? I'm putting my weight on that leg, controlling it, not letting them get the position. If they do get it locked, the game completely changes - now I'm defending Electric Chair and working Lockdown breaks rather than thinking about passing. The position teaches an important lesson: don't get so focused on upper body control that you ignore what their legs are doing. Half guard is a leg position first, upper body position second.
 
 </section>
 

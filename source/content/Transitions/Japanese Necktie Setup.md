@@ -8,7 +8,7 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -346,15 +346,6 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 - [[Darce Choke]] - Related submission from front headlock family
 - [[Anaconda Choke]] - Related submission from front headlock family
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Japanese Necktie represents a fascinating biomechanical principle where perpendicular body alignment creates exponentially greater force than parallel alignment. When executing this technique, understand that you're not simply wrapping the neck—you're creating a lever system where your body weight, transmitted through your head pressing their shoulder, generates the primary choking force. The arm thread serves as the fulcrum point, and your hip extension provides the mechanical advantage. Most practitioners fail because they attempt to squeeze with arm muscles rather than establishing proper structural alignment. The depth of your initial arm thread is non-negotiable; shallow threading creates a neck crank, which is both less effective and more dangerous. Focus on the systematic progression: control far arm, thread deep, lock hands, position head correctly, then roll through shoulder while maintaining all connection points. Each element builds upon the previous, and skipping steps or executing out of sequence dramatically reduces success probability. The beauty of this technique lies in its deceptive appearance—from opponent's perspective, you seem to be attacking with standard front headlock control until suddenly the choking mechanism materializes after the roll.
-- **Gordon Ryan**: In competition, the Japanese Necktie is money when guys turtle defensively against leg attacks or guard passing. I hit this constantly after opponents defend my leg drag or body lock passes by going to turtle—they think they're safe, but they've actually given me the perfect angle for threading. The key competitive insight is timing the arm thread when they're moving or adjusting, never when they're static and ready to defend. I also use this as a backup when my Anaconda or Darce grips aren't quite perfect—if I can't lock those up cleanly, Japanese Necktie often presents itself because the arm positioning is similar but the finish is different. Against high-level guys, you absolutely must control that far arm or they'll strip your grips instantly. I grip their wrist in a death grip before I even think about rolling. Another competitive detail: I prefer rolling over the shoulder that's opposite to my choking arm because it creates better leverage and prevents them from following the roll. This isn't a technique you hit on super high percentage against elite competition, but it's a crucial piece of the front headlock puzzle because it keeps them guessing which attack is coming.
-- **Eddie Bravo**: The Japanese Necktie is straight ninja shit—it comes out of nowhere in scrambles and catches people completely off guard. In the 10th Planet system, we see this opening up constantly from our lockdown attacks when guys turtle to defend, or after we roll them with electric chair setups and end up in front headlock positions. The beautiful thing about this choke is it works great no-gi because you don't need grips, just that deep arm thread and good body mechanics. I teach my students to be super aggressive with the roll—don't hesitate or they'll feel it coming and post. You want to explode through that roll like you're doing a forward roll in gymnastics class, but staying tight to them the whole time. One variation I love is hitting this from standing when you've got a front headlock from a failed shot—you can literally pull guard while rolling and lock it up mid-air. It's flashy as hell and super effective. The other key is after you roll, don't just lay there—immediately extend those hips and drive that head pressure, because that's what closes everything off. This technique fits perfectly with our philosophy of always having backup options; if the guillotine doesn't land, boom, you've got Japanese Necktie right there.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master closed guard top position with defensive strategies, guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -486,24 +486,6 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 **Average Time in Position**: 1-3 minutes depending on skill level and guard opening strategy
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The closed guard top position represents a fundamental test of positional understanding in Brazilian Jiu-Jitsu. The overwhelming majority of practitioners misunderstand their strategic objectives here - they believe they are in a passing position when in reality they are in a defensive position that must be escaped through systematic guard opening before any meaningful passing can occur. Your first priority is always postural integrity - without it, you cannot defend against the myriad submission and sweep threats. The biomechanics are clear: a straight spine with head over hips creates structural strength that is extremely difficult to break, while any deviation from this alignment creates leverage opportunities for the bottom player. I teach my students to think of closed guard top as having three distinct phases: first, establish and maintain posture; second, control opponent's grips and establish your own dominant grips; third, execute guard opening techniques that lead to passing opportunities. Skipping or rushing any phase dramatically increases your risk of being swept or submitted. The standing guard pass remains the highest percentage option because it removes the majority of the opponent's attacking options while creating superior angles for passing. When you stand, you force the opponent to either hold closed guard with significantly reduced attacking capability, or open their guard to chase you, at which point you've achieved your primary objective of guard opening. This systematic approach transforms closed guard top from a frustrating stalemate into a methodical progression toward dominant position.
-
-### Gordon Ryan
-
-In competition, I approach closed guard top with a very specific mentality - I'm not trying to do anything fancy, I'm just trying to not get swept or submitted while working toward standing up. The standing guard break is my highest percentage option because it takes away most of the opponent's attacks and gives me better angles for passing. When people try to pass from their knees, they give the bottom person too many options - they can attack your posture, grab your sleeves, threaten triangles and armbars, work sweeps. But when you stand up properly with good base and control their legs, you've essentially neutralized their entire closed guard game. Also, never underestimate how tiring closed guard can be for the bottom person if you're heavy and have good pressure - sometimes patience is your best weapon. I see a lot of competitors rush the guard opening because they're worried about stalling calls or they want to look aggressive, but that's exactly when you get caught. Take your time, establish your grips, make sure your posture is solid, and then stand up. Once you're standing, you control the pace and the angles. The bottom person has to react to you instead of you reacting to them. That's a huge strategic advantage that most people don't fully appreciate until they compete at high levels where everyone's guard is dangerous. My passing game is built on making the opponent uncomfortable first, then methodically breaking their structure down, and only then finishing the pass when they're already defeated positionally.
-
-### Eddie Bravo
-
-From inside closed guard, I'm thinking about explosive guard breaks combined with immediate passing attempts. The traditional approach of slowly working for posture and methodically opening the guard can leave you stuck there forever against someone with a good guard. I like to create movement and reactions - if I can get the opponent reacting to one thing, I can often slip past their guard in the chaos. That said, you absolutely have to respect the submission threats, especially triangles and arm locks. The 10th Planet approach is to use strategic movement and misdirection, but never at the cost of basic defensive soundness. One thing I emphasize is that the guard opening and the pass should be one continuous motion - you don't open the guard and then think about passing, you're already moving into your passing sequence as the guard opens. This doesn't give the opponent time to establish a new guard or reset their positioning. But here's the key: you need to drill this until it's automatic, because if you're thinking about it during rolling, you're already too slow. The other thing people don't talk about enough is using pressure and weight distribution to make the bottom person uncomfortable - if they're dealing with heavy pressure on their diaphragm, they're less likely to be setting up clean attacks and more likely to just want you off them, which creates passing opportunities. I also teach my students to recognize when the opponent is setting up attacks and to use that moment of commitment to explode into their passing sequence, turning the opponent's offense into your passing opportunity.
 
 </section>
 

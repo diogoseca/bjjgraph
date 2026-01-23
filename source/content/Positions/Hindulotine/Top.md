@@ -8,7 +8,7 @@ description: "Offensive guillotine variation from top position using body weight
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -439,24 +439,6 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 **Average Time in Position**: 15-40 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The top Hindulotine position exemplifies the principle of combining gravity with technique to create overwhelming submission pressure. When you establish this position from top, you transform your body weight from a simple downward force into a rotational torque generator through proper hip positioning. The mechanical advantage is substantial - your opponent must fight not only against your grip strength but against your entire body weight amplified through leverage. The key technical detail that separates successful practitioners from those who fail is understanding that your legs are not passive supports but active control mechanisms. Your base must be wide enough to prevent being rolled, yet mobile enough to adjust angles as your opponent attempts to escape. The position requires continuous micro-adjustments rather than static holding - as your opponent moves to relieve pressure in one direction, you shift your weight and angle to maintain optimal choking geometry. Advanced practitioners understand that the submission finish is simply the final expression of positional dominance - if your opponent cannot improve their position, the submission becomes mathematically inevitable. When teaching this position, I emphasize the interconnection between grip position, hip angle, weight distribution, and base management as a unified system rather than separate components.
-
-### Gordon Ryan
-
-From top, the Hindulotine is a position I use constantly in competition because it gives me complete control over the match pace and outcome. When I secure this position, my opponent is facing a losing proposition regardless of how they defend. If they stay static, I finish the choke. If they try to stand, I can follow or snap them back down. If they turn away, I take their back. If they roll, I step over to mount. This is exactly the kind of position I want in matches - one where I have multiple winning pathways and my opponent has no good options. The technical key from top is understanding weight distribution. I'm not hanging on my opponent with dead weight - I'm actively using my legs to maintain base while my hips create the angling pressure that makes the choke work. My arms are just holding the grip, they're not the primary source of pressure. When I feel my opponent starting to defend effectively, I don't stubbornly stick with the submission if it's not there. Instead, I'm immediately thinking about which transition their defensive movement has opened up. The beauty of this position is that it teaches you to think in terms of systems rather than isolated techniques - you're not doing a guillotine, you're controlling your opponent in a way that gives you multiple submission and positional advancement options based on their responses.
-
-### Eddie Bravo
-
-The top Hindulotine fits perfectly into modern no-gi grappling where front headlock control is one of the most dominant positions you can achieve. What makes this position special from top is that you have all the advantages - you've got gravity helping you, you've got the choking pressure, and you've got positional control all at the same time. When I'm working this position, I'm thinking about it as a hub in a wheel of options. The guillotine finish is there if they give it to me, but I'm equally ready to take the back, transition to darce or anaconda, or step over to mount based on how they defend. The creativity in this position comes from understanding the transitions between these options so smoothly that your opponent can't tell where one attack ends and another begins. In the 10th Planet system, we drill these front headlock positions extensively because they come up constantly in scrambles and failed takedowns. The key technical point I emphasize is the hip angle - you can't just hang straight down on the guillotine, you need to create that perpendicular pressure with your hips while maintaining enough base to not get rolled. When you get that angle right, the submission feels inevitable to your opponent, and their panic creates even more opportunities for you to attack. This is modern submission grappling at its finest - using position, pressure, and submission threats in combination to create situations where your opponent has no good defensive options.
 
 </section>
 

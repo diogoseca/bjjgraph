@@ -8,7 +8,7 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Every defensive action creates specific offensive opportunities that can be systematically exploited
 - Submission attempts should be viewed as positional improvements even when they don't finish, as they force reactions that open new attacks
 - Chain effectiveness increases exponentially with the number of linked submissions in your system
@@ -182,9 +182,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Recognition of Defensive Patterns**: The ability to identify and categorize opponent defensive responses in real-time. This includes recognizing when an opponent is pulling their arm out versus stacking, posturing versus turning, or using specific grip patterns that indicate their defensive strategy. Pattern recognition allows the attacker to anticipate the next move in the chain before the defender fully commits to their escape.
 
 **Positional Retention During Transitions**: Maintaining dominant position and control while moving between submission attempts. This skill involves keeping key control points (hooks, grips, weight distribution) even as you release one submission to attack another. Losing position during transitions negates the entire chain concept by allowing the opponent to escape or counter-attack.
@@ -205,26 +205,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Position-Over-Submission Approach]]** (Complementary): Submission chains integrate with position-first philosophy by using submission attempts as position improvement tools—failed submissions often result in better control points
-- **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create
-- **[[Offensive Combinations]]** (Extension): Submission chains represent the most advanced form of offensive combinations, extending combination principles from strikes and sweeps into the submission domain
-- **[[Control Point Hierarchy]]** (Prerequisite): Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved
-- **[[Timing and Rhythm]]** (Complementary): Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities
-- **[[Energy Management System]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
-- **[[Dilemma Creation]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
-- **[[Position Chains]]** (Complementary): Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement
-- **[[Transition Sequences]]** (Extension): Submission chains are specialized transition sequences focused specifically on linking finishing attempts rather than positional movements
-- **[[System Building]]** (Advanced form): Developing comprehensive chain systems represents systematic approach to building interconnected offensive frameworks
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Classic mount submission chains include armbar-to-triangle-to-armbar sequences where arm extraction leads to triangle setups, and triangle defense via posturing opens opposite-side armbars. The mounted attacker maintains head and hip control throughout transitions.
 
 **Back Control**: Back attack chains typically center on rear naked choke-to-armbar-to-triangle sequences, with each hand-fighting defensive response opening new submission angles. Maintaining hooks and seat belt control throughout the chain is essential.
@@ -259,9 +242,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and available primary submission entries**: Identify your strongest 2-3 submissions from current position based on opponent's current posture, grip configuration, and defensive awareness level
 2. **Initiate primary submission with position retention focus**: Execute first submission attempt while maintaining critical control points that will be needed for secondary attacks—do not overcommit to the finish if it requires sacrificing position
 3. **Monitor opponent's defensive response pattern**: Identify which defensive category opponent employs: arm extraction, posture recovery, rotation/rolling, or stacking—this determines your next attack in the chain
@@ -274,9 +257,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Abandoning position to chase individual submission finishes
   - **Consequence**: Losing dominant position during chain transitions, allowing opponent to escape or reverse position, negating all chain advantages
   - **Correction**: Maintain position-first mindset even during aggressive chain attacks—release submissions early when finishing requires sacrificing critical control points
@@ -302,9 +285,9 @@ At the highest levels of competition, submission chains represent the difference
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Isolated Chain Drilling** (Focus: Building muscle memory for basic chain sequences and establishing baseline technical proficiency in transitional mechanics)
 Practice specific 3-4 submission chains with cooperative partner who performs standardized defensive responses. Repeat each chain 20-30 times per session until transitions become automatic. Focus on smooth mechanical execution before adding resistance.
 
@@ -327,9 +310,9 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can recognize basic defensive patterns (arm pull, posture, roll) after they occur but struggles with real-time anticipation
 - Successfully executes 2-submission chains in drilling contexts with cooperative partners but chains break down under moderate resistance
@@ -363,10 +346,24 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Position-Over-Submission Approach]]** (Complementary): Submission chains integrate with position-first philosophy by using submission attempts as position improvement tools—failed submissions often result in better control points
+- **[[Action and Reaction]]** (Prerequisite): Understanding action-reaction principles is fundamental to chain building, as chains exploit the predictable defensive reactions that submissions create
+- **[[Offensive Combinations]]** (Extension): Submission chains represent the most advanced form of offensive combinations, extending combination principles from strikes and sweeps into the submission domain
+- **[[Control Point Hierarchy]]** (Prerequisite): Maintaining control points during chain transitions requires deep understanding of which control elements can be sacrificed and which must be preserved
+- **[[Timing and Rhythm]]** (Complementary): Effective chains require sophisticated timing to transition between attacks at the precise moment when defensive movements create new opportunities
+- **[[Energy Management System]]** (Complementary): Chains must be executed with energy efficiency in mind, using opponent's defensive energy against them rather than fighting through each transition with strength
+- **[[Dilemma Creation]]** (Advanced form): Submission chains are the ultimate expression of dilemma creation, where every defensive option leads to another offensive threat
+- **[[Position Chains]]** (Complementary): Submission chains and position chains work together—positional advancement creates submission opportunities, and submission threats create positional advancement
+- **[[Transition Sequences]]** (Extension): Submission chains are specialized transition sequences focused specifically on linking finishing attempts rather than positional movements
+- **[[System Building]]** (Advanced form): Developing comprehensive chain systems represents systematic approach to building interconnected offensive frameworks
+
+
+### Related Content
 - [[Triangle from Guard]] (Submission) - Central submission in most guard chain systems, connects to armbar, omoplata, and kimura
 - [[Armbar from Mount]] (Submission) - Primary attack in mount chains, creates reactions that open triangle and opposite-side armbar opportunities
 - [[Rear Naked Choke]] (Submission) - Anchor submission in back attack chains, hand-fighting defense creates armbar and triangle setups
@@ -380,15 +377,6 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 - [[Danaher Leg Lock System]] (System) - Exemplary systematic approach to submission chains in the leg entanglement domain
 - [[Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The entire conceptual framework of submission chains rests upon a single fundamental truth: defensive actions are not random but instead follow predictable mechanical patterns determined by the structural requirements of escape. When an opponent attempts to escape an armbar by pulling their arm back toward their body, they necessarily create space between their arm and their torso—this is not a choice but a mechanical requirement of the escape. This space is precisely what the triangle requires for its structure. Therefore, the armbar-to-triangle chain is not a clever trick but an inevitable consequence of defensive mechanics. The systematic grappler studies these mechanical relationships exhaustively, building comprehensive chain maps where every defensive action is pre-matched to an optimal attacking response. At the highest level, submission chains become deterministic systems where the outcome is statistically predetermined by the attacker's superior knowledge of action-reaction relationships. This is why position and control are paramount—you cannot execute sophisticated chains without the positional dominance required to dictate the tempo and observe defensive patterns clearly.
-- **Gordon Ryan**: In competition, submission chains are the difference between being a good grappler and being a dominant champion. I don't hunt for single submissions—I hunt for positions that allow chain attacks, because that's where finish rates skyrocket. My entire mount attack system is built around forcing opponents into a triangle-armbar-triangle loop that has no good defensive answer. When they pull the arm out to stop the armbar, triangle. When they posture against the triangle, opposite armbar. When they defend that, back to the original armbar. Three moves, but the opponent has to be perfect on all three defenses while I only need them to make one mistake. That's the beauty of chains—they compound opponent error rates. In my matches, I'm usually two attacks ahead mentally of where we are physically. I know before they defend the first armbar that they're going to posture into the triangle, so I'm already preparing that transition. This mental chess game, combined with relentless pressure, creates the inevitable finish that spectators see. Chains also have massive cardio advantages—I'm using their defensive energy to set up my next attack, while single-attack hunters are constantly resetting and burning energy to establish new attacks from scratch.
-- **Eddie Bravo**: Traditional submission chains are good, but where it gets really interesting is when you start creating chains that cross between orthodox and unorthodox positions. From my rubber guard system, I'm not just chaining omoplata to triangle to armbar like traditional closed guard—I'm flowing from zombie to invisible collar to crackhead to kung fu move to the Twister. The beauty is that most people have never seen these chains, so they can't pattern-recognize the defensive solutions. It's like speaking a language they don't understand. I've always believed that innovation in chains comes from exploring positions that other people consider 'weird' or 'low-percentage'—those positions often have unexplored submission relationships that create entire new chain families. The 10th Planet system is really just a massive library of unconventional chains that conventional grapplers aren't prepared for. Plus, when you're building chains around your own unique positions, you're not competing with everyone else's development—you're pioneering new territory. My advice is to study the classical chains to understand chain logic, then go explore weird positions and discover your own chain relationships. That's where you find the secret weapons that win ADCC matches.
 
 </section>
 

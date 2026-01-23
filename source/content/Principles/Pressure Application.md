@@ -8,7 +8,7 @@ description: "Master strategic pressure application in BJJ. Learn bodyweight dis
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Direct force application perpendicular to opponent's skeletal structure
 - Concentrate pressure on specific target areas rather than diffuse application
 - Maintain continuous pressure while transitioning between positions
@@ -179,9 +179,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Weight Distribution Management**: The ability to allocate bodyweight across specific contact points to maximize pressure effectiveness while maintaining stability and mobility. This involves understanding how to shift weight between hips, chest, shoulder, and head to create targeted compression zones that limit opponent movement without sacrificing positional control or transition capability.
 
 **Perpendicular Force Vector Application**: The technical skill of directing pressure at ninety-degree angles to the opponent's skeletal structure, maximizing the collapsing effect on their defensive frames. This requires constant positional awareness and adjustment as the opponent moves, ensuring force is always applied in the most mechanically disadvantageous direction for their structure.
@@ -202,28 +202,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution fundamentals are essential before developing sophisticated pressure application. Understanding how to control and shift bodyweight across various contact points forms the mechanical foundation that pressure application builds upon.
-- **[[Base Maintenance]]** (Complementary): Effective pressure application requires stable base maintenance to prevent opponent's defensive movements from disrupting your structure. These concepts work synergistically where solid base allows sustained pressure, while proper pressure reduces opponent's ability to attack your base.
-- **[[Leverage Principles]]** (Extension): Pressure application is an extension of fundamental leverage principles, specifically applying those mechanical advantages to create sustained control rather than momentary positional changes. Advanced pressure application represents leverage principles applied continuously across time rather than in discrete moments.
-- **[[Energy Management System]]** (Complementary): Efficient pressure application is central to effective energy management, allowing practitioners to maintain control with minimal expenditure while forcing opponents to burn energy in defensive responses. These concepts are interdependent in creating sustainable offensive pressure.
-- **[[Connection Principles]]** (Prerequisite): Understanding connection principles is foundational to pressure application, as effective pressure requires maintaining specific connection points that transmit force efficiently. Connection provides the pathways through which pressure is delivered and maintained.
-- **[[Dilemma Creation]]** (Advanced form): Advanced pressure application evolves into dilemma creation where pressure is strategically applied to force opponents into choosing between multiple unfavorable responses. This represents the tactical evolution of pressure from simple control mechanism to strategic decision-forcing tool.
-- **[[Shoulder Pressure]]** (Complementary): Shoulder pressure represents a specific application vector within the broader pressure application framework, particularly relevant in side control and passing positions where shoulder drive creates both control and discomfort.
-- **[[Hip Pressure]]** (Complementary): Hip pressure is a fundamental pressure application method that creates control through lower body positioning, particularly effective in mount and passing positions where hip placement determines pressure quality.
-- **[[Forward Pressure]]** (Extension): Forward pressure represents directional application of the broader pressure principles, emphasizing driving force that advances position while maintaining control during guard passing and top game sequences.
-- **[[Guard Passing]]** (Extension): Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities.
-- **[[Pressure Passing Framework]]** (Advanced form): The pressure passing framework represents the systematic application of pressure principles specifically optimized for guard passing scenarios, evolving basic pressure concepts into comprehensive passing methodologies.
-- **[[Control Point Hierarchy]]** (Complementary): Pressure application effectiveness depends on understanding which control points to prioritize, with control point hierarchy providing the strategic framework for selecting optimal pressure targets based on positional context.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Pressure is distributed across chest, shoulder, and hip contact points to create comprehensive horizontal compression. Crossface pressure restricts head movement while hip pressure prevents hip escape, with weight concentrated through the chest to limit breathing and create psychological urgency for escape attempts.
 
 **Mount**: Vertical pressure is applied through hip positioning that drives bodyweight downward into opponent's diaphragm and solar plexus. Pressure is maintained through low hip position and wide base while using chest pressure to flatten opponent and restrict arm movement, creating sustained respiratory difficulty.
@@ -252,9 +233,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current positional hierarchy and control stability**: Evaluate whether you have achieved superior position with sufficient control to begin applying sustained pressure, or if you need to secure position first before transitioning to pressure-based control strategies.
 2. **Identify optimal pressure targets based on opponent's defensive structure**: Determine which body regions (chest, hips, head, legs) offer the greatest mechanical advantage for pressure application given current positioning, selecting targets that will most effectively compromise opponent's defensive capabilities.
 3. **Establish primary connection points for pressure transmission**: Create and maintain specific body-to-body contact points that will serve as pressure pathways, ensuring these connections are stable and positioned to deliver force efficiently along desired vectors.
@@ -267,9 +248,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Applying diffuse pressure across too many contact points simultaneously
   - **Consequence**: Results in insufficient pressure intensity at any single location, allowing opponent to manage discomfort easily while maintaining defensive structure. The pressure becomes more annoying than controlling, failing to create the mechanical or psychological effects needed for effective control.
   - **Correction**: Concentrate pressure through specific primary targets (crossface, chest, hips) while maintaining secondary contact points for stability. Focus on creating intense pressure at 2-3 key locations rather than attempting to apply moderate pressure everywhere simultaneously.
@@ -295,9 +276,9 @@ Pressure Application represents the strategic utilization of bodyweight, positio
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Pressure Drilling** (Focus: Building the postural stamina and weight distribution skills necessary for sustained pressure application without muscular fatigue, while developing sensitivity to opponent movement that allows pressure adjustment without conscious thought.)
 Dedicated drilling sessions focused exclusively on maintaining maximum pressure from specific top positions for extended time periods (3-5 minutes) while partner provides realistic defensive movement without attempting escapes. This develops the endurance and positional awareness needed to maintain pressure efficiently.
 
@@ -320,9 +301,9 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can maintain static pressure from stable top positions like mount and side control for 1-2 minutes without significant positional deterioration
 - Recognizes when they are using excessive muscular tension and can consciously relax while maintaining position, though pressure intensity decreases significantly when relaxing
@@ -355,10 +336,26 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution fundamentals are essential before developing sophisticated pressure application. Understanding how to control and shift bodyweight across various contact points forms the mechanical foundation that pressure application builds upon.
+- **[[Base Maintenance]]** (Complementary): Effective pressure application requires stable base maintenance to prevent opponent's defensive movements from disrupting your structure. These concepts work synergistically where solid base allows sustained pressure, while proper pressure reduces opponent's ability to attack your base.
+- **[[Leverage Principles]]** (Extension): Pressure application is an extension of fundamental leverage principles, specifically applying those mechanical advantages to create sustained control rather than momentary positional changes. Advanced pressure application represents leverage principles applied continuously across time rather than in discrete moments.
+- **[[Energy Management System]]** (Complementary): Efficient pressure application is central to effective energy management, allowing practitioners to maintain control with minimal expenditure while forcing opponents to burn energy in defensive responses. These concepts are interdependent in creating sustainable offensive pressure.
+- **[[Connection Principles]]** (Prerequisite): Understanding connection principles is foundational to pressure application, as effective pressure requires maintaining specific connection points that transmit force efficiently. Connection provides the pathways through which pressure is delivered and maintained.
+- **[[Dilemma Creation]]** (Advanced form): Advanced pressure application evolves into dilemma creation where pressure is strategically applied to force opponents into choosing between multiple unfavorable responses. This represents the tactical evolution of pressure from simple control mechanism to strategic decision-forcing tool.
+- **[[Shoulder Pressure]]** (Complementary): Shoulder pressure represents a specific application vector within the broader pressure application framework, particularly relevant in side control and passing positions where shoulder drive creates both control and discomfort.
+- **[[Hip Pressure]]** (Complementary): Hip pressure is a fundamental pressure application method that creates control through lower body positioning, particularly effective in mount and passing positions where hip placement determines pressure quality.
+- **[[Forward Pressure]]** (Extension): Forward pressure represents directional application of the broader pressure principles, emphasizing driving force that advances position while maintaining control during guard passing and top game sequences.
+- **[[Guard Passing]]** (Extension): Pressure application serves as the mechanical foundation for many guard passing principles, where sustained pressure breaks down defensive structures and creates passing opportunities.
+- **[[Pressure Passing Framework]]** (Advanced form): The pressure passing framework represents the systematic application of pressure principles specifically optimized for guard passing scenarios, evolving basic pressure concepts into comprehensive passing methodologies.
+- **[[Control Point Hierarchy]]** (Complementary): Pressure application effectiveness depends on understanding which control points to prioritize, with control point hierarchy providing the strategic framework for selecting optimal pressure targets based on positional context.
+
+
+### Related Content
 - [[Side Control]] (Position) - Primary application context where pressure principles are most directly implemented through chest, shoulder, and hip compression
 - [[Mount]] (Position) - Dominant position where vertical pressure application creates maximum control and submission opportunities through hip and chest pressure
 - [[Knee on Belly]] (Position) - Specialized pressure position utilizing concentrated focal point pressure for maximum discomfort while maintaining mobility
@@ -370,15 +367,6 @@ Video analysis and deliberate practice focused on identifying and eliminating un
 - [[Energy Management System]] (Principle) - Strategic framework within which efficient pressure application serves as primary energy conservation mechanism
 - [[Bernardo Faria Pressure System]] (System) - Comprehensive systematic approach built entirely around pressure-based passing and control methodologies
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Views pressure application as a scientific process requiring precise understanding of biomechanical principles and weight transfer mechanisms. Emphasizes creating what he terms 'pressure gradients' where force is systematically intensified along specific vectors rather than applied uniformly. Particularly focuses on the concept of 'connection pressure' where multiple contact points work together to create comprehensive control systems rather than isolated pressure points. In his systematic approach, pressure application is understood as the primary control mechanism that enables all other offensive actions, arguing that without proper pressure fundamentals, submissions and transitions become exponentially more difficult against sophisticated opponents. He teaches pressure as a hierarchical skill where practitioners must first master static pressure maintenance before progressing to dynamic pressure during transitions, and finally to strategic pressure modulation that creates defensive dilemmas.
-- **Gordon Ryan**: Approaches pressure application with emphasis on creating pressure sequences that systematically eliminate defensive options through what he describes as 'pressure cascades.' His competitive methodology focuses on using initial pressure to force specific defensive reactions that expose vulnerability to subsequent pressure applications, creating chain reactions where each defensive response to pressure opens new pressure opportunities. Places particular emphasis on the psychological aspects of pressure, using sustained discomfort to force decision-making errors and panic responses rather than merely as physical control. In competition analysis, he demonstrates how elite-level matches are often decided by pressure quality rather than technical complexity, with superior pressure breaking down defenses that resist traditional attacking sequences. His teaching emphasizes that pressure application at the highest levels becomes a form of strategic communication, where pressure variations signal offensive intentions that manipulate opponent behavior more effectively than actual techniques.
-- **Eddie Bravo**: Has developed specialized pressure concepts within his 10th Planet system, particularly focusing on applying pressure while maintaining the specific positioning required for his submission systems. His approach emphasizes what he calls 'targeted compression zones' where precise pressure is applied to specific anatomical targets to facilitate unique submission entries while minimizing opponent's defensive mobility. Unlike traditional pressure passing approaches, his methodology often uses pressure to create submission opportunities directly rather than simply advancing position, particularly in his lockdown system where sustained leg pressure sets up sweeps and submissions. When teaching pressure application, emphasizes the importance of pressure that serves multiple simultaneous purposes - controlling position, creating discomfort, and setting up specific submission entries from positions like rubber guard where traditional pressure concepts must be adapted to unconventional positioning. His innovation in pressure application centers on using leverage and positional mechanics to create heavy pressure from positions where conventional wisdom suggests pressure application is impossible or ineffective.
 
 </section>
 

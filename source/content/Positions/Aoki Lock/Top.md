@@ -8,7 +8,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -435,24 +435,6 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 
 **Average Time in Position**: 30-90 seconds before finish or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Aoki Lock top position represents a sophisticated blend of leg entanglement control and shoulder lock mechanics that requires deep understanding of both systems. The key to success lies in the precise geometric relationship between your hip pressure vector and the opponent's shoulder joint axis of rotation. Your legs function as a clamping mechanism that isolates the shoulder while your hips provide the directional force that creates the submission threat. The position's effectiveness stems from the opponent's limited defensive options - they cannot simply roll out as in traditional shoulder locks because your leg entanglement controls their rotation, and they cannot extract their arm without first escaping your hip pressure. Focus on maintaining three points of control simultaneously: leg pressure on the shoulder complex, hip pressure directed into the joint, and hand control preventing hip rotation. The submission finish requires gradual, progressive pressure application with constant awareness of the opponent's tap signals, as shoulder locks can cause serious injury if applied too quickly or forcefully. The sophisticated practitioner recognizes that this position serves as a control hub - when the finish becomes difficult, multiple high-percentage transitions to back control, truck, and crucifix remain available.
-
-### Gordon Ryan
-
-From a competition standpoint the Aoki Lock top position is one of the highest-percentage finishes available once you've secured proper control. In my matches I use this position primarily as a finishing sequence rather than a holding position - if I've isolated the shoulder and established the leg entanglement correctly I'm looking to finish within 15-30 seconds or transition to back control. The key competitive advantage is that most opponents don't train this position extensively so their defensive reactions are often incorrect creating multiple transition opportunities. When they try to roll through which is the most common defense you have a direct path to back control. When they turn away you can enter the truck system. The position also works exceptionally well in no-gi competition where traditional shoulder lock escapes using gi grips aren't available. I prioritize quick entries from turtle and front headlock positions securing the arm isolation before the opponent recognizes the danger. Once you have the position focus on finishing efficiently rather than holding - the longer you maintain the position without finishing the more time the opponent has to find defensive solutions. In training never apply this submission explosively or with full power - shoulder injuries end careers and this position can cause serious damage if applied incorrectly.
-
-### Eddie Bravo
-
-The Aoki Lock top position fits perfectly into the 10th Planet philosophy of control positions that create multiple submission and transition paths while keeping you safe from counters. What makes this position special is how it combines elements from our truck system with shoulder lock finishing mechanics - you're essentially creating a submission control position that can flow into our entire back attack system if the opponent defends the shoulder lock. We teach students to think of this position as a hub in their submission game rather than just an isolated technique. From here you can finish the shoulder lock, transition to the truck for twister setups, take the back for rear naked choke, or capture the crucifix if they expose their far arm. The innovation comes from recognizing that the leg entanglement doesn't just control the arm - it also limits their ability to create the angles needed for most escapes. We drill this position extensively with resistance teaching students to read the opponent's defensive energy and flow with it rather than fighting against it. If they roll you roll to back control. If they turn away you follow to truck. If they freeze up you finish the lock. The key is staying relaxed and maintaining your control points while reading their movement patterns. This position represents the evolution of no-gi grappling where we're integrating concepts from different submission systems to create new hybrid positions.
 
 </section>
 

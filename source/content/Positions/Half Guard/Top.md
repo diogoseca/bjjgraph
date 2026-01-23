@@ -8,7 +8,7 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -435,24 +435,6 @@ Start in half guard top and flow through multiple passing attempts based on part
 
 **Average Time in Position**: 1-3 minutes depending on opponent's defensive sophistication and top player's passing acumen
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Half guard top represents one of the most critical battlegrounds in modern jiu-jitsu, requiring systematic understanding of the relationship between upper body control configurations and passing mechanics. The fundamental error most practitioners make is treating half guard as a simple obstacle to overcome rather than a complex position requiring methodical dismantling. Success begins with establishing dominant upper body control - typically through crossface or underhook - which creates the foundation for all subsequent passing actions. The crossface, when properly applied with shoulder pressure driving through opponent's jaw toward far shoulder, fundamentally disrupts their ability to create effective frames or generate hip mobility. From this controlled position, the pass becomes a matter of systematic leg extraction rather than explosive athletic movement.
-
-### Gordon Ryan
-
-In competition, half guard top is where matches are won or lost, and my approach centers on creating immediate dilemmas that force opponents into predictable defensive responses I can exploit. When I encounter half guard, I immediately establish heavy crossface pressure while controlling their bottom knee to prevent angle creation. This creates the first dilemma: defend the crossface or defend the pass. Most opponents instinctively fight the crossface, which opens clean passing lanes. If they focus on blocking the pass, I increase crossface pressure until I can attack the neck or transition to better positions. The key is recognizing which half guard variation they're using and applying the appropriate pressure passing strategy.
-
-### Eddie Bravo
-
-Half guard top became infinitely more complex once we developed the lockdown and electric chair system at 10th Planet, forcing top players to completely rethink their passing strategies. The old-school approach of just smashing through doesn't work against sophisticated lockdown players who understand how to break posture and create sweeping opportunities. When I'm on top in half guard, especially against lockdown, my first priority is posture maintenance - staying tall with my back straight and not letting them break me down. Once they get the lockdown, the battle becomes about hand fighting and preventing them from controlling my posture or getting to their offensive positions. Against traditional half guard, I look for the darce when they try to come up for the underhook, or I'll work the knee slice if they stay flat.
 
 </section>
 

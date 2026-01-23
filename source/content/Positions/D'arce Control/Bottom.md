@@ -8,7 +8,7 @@ description: "Master D'arce Control from bottom position in BJJ. Learn defensive
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -404,24 +404,6 @@ Partner holds D'arce Control Bottom position with moderate resistance. Practice 
 
 **Average Time in Position**: 10-30 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The D'arce control from bottom represents a biomechanical nightmare scenario where your opponent has created a mechanical advantage through the arm-in choke configuration. The fundamental problem is that your own arm becomes a structural component of the choking mechanism - it acts as a wedge that redirects the opponent's forearm pressure directly into your carotid arteries. The systematic defense requires immediate recognition that this is not a position where gradual improvement is acceptable; you must act decisively within seconds. The proper defensive sequence begins with protecting the neck through chin position and skeletal alignment, then systematically dismantling the control structure by addressing the trapped arm. The biomechanical principle is that by extracting your trapped arm, you eliminate the wedge effect and transform what was a blood choke into merely an uncomfortable squeeze. Advanced practitioners understand that movement direction is counterintuitive - you must move toward the choke initially to create the angles needed for extraction. The escape mechanics rely on using your free arm to create frames against the opponent's head or shoulder while your hips generate the rotational force needed to extract the trapped limb.
-
-### Gordon Ryan
-
-From competition experience, D'arce Control Bottom is one of those positions where you absolutely cannot afford to wait and see what happens - the window for effective escape is extremely narrow, maybe 3-5 seconds max before a skilled opponent locks it down completely. I've been caught in this position by elite grapplers and the key thing I learned is that your first movement matters more than anything else. If you try to pull away or create distance, you're basically tightening the noose yourself. What works at the highest level is immediately turning into the choke while working your trapped arm free - this seems backwards but it's the only reliable escape I've found against world-class D'arce attacks. The competition reality is that if someone like Garry Tonon or Craig Jones gets this locked on you, your escape percentage drops to maybe 20% even if you're doing everything right. That's why I focus heavily on defending the initial setup in turtle or front headlock positions - never let that near-side arm get trapped in the first place. When drilling this position, I always emphasize that you need to be practicing the escape from fully locked positions regularly because that's what competition pressure feels like - there's no gradual buildup, they just lock it and squeeze.
-
-### Eddie Bravo
-
-D'arce Control from bottom is where a lot of 10th Planet guys have developed some creative escapes because we encounter this position frequently in no-gi scrambles and turtle battles. The standard escape sequences work, but I've found that the Granby roll variation can be especially effective because it uses momentum and rotation to break the opponent's base while simultaneously creating space for arm extraction. The key innovation we've added is using the Granby not just as an escape but as a potential reversal opportunity - if you time it right when the opponent is driving forward, you can actually roll them over and end up in their guard or even take their back. Another 10th Planet principle that applies here is staying dangerous even from bad positions. While you're working your escapes, if you can get any kind of leg entanglement or hook on their near leg, suddenly they have to worry about you attacking their base instead of just finishing the choke. We also train a lot of flow drills where you're moving between D'arce defense, anaconda defense, and guillotine defense because in no-gi these positions blend together rapidly and you need to be able to adapt your defensive strategy on the fly based on which variation they're hitting. The mental game is crucial - you cannot panic because that burns energy and tightens everything up, making the choke more effective.
 
 </section>
 

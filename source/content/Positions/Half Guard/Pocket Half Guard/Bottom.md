@@ -8,7 +8,7 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -437,24 +437,6 @@ Start in Pocket Half Guard Bottom with deep underhook and pocket space establish
 
 **Average Time in Position**: 45-90 seconds before sweep attempt or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Pocket Half Guard represents a biomechanically sophisticated approach to the underhook battle that defines modern half guard dynamics. The key mechanical advantage lies in the creation of a three-dimensional control system: the deep underhook controls the opponent's upper body rotation and prevents them from generating forward pressure into your chest, the bottom leg frame creates a wedge that maintains optimal distance and prevents hip flattening, and the top leg secures the fundamental half guard lock. This triangulated structure creates a mechanically stable defensive platform while simultaneously generating multiple offensive vectors. The 'pocket' space is not merely defensive spacing—it represents stored potential energy that can be explosively released through rotational sweeping mechanics. When we examine the force vectors involved in the Old School Sweep from this position, we see that the deep underhook creates a moment arm that allows us to off-balance our opponent's upper body while the bottom leg pocket provides a fulcrum point for hip rotation. The depth of the underhook is absolutely critical—each inch of underhook depth exponentially increases our control over the opponent's shoulder and reduces their ability to generate counterforce. Advanced practitioners understand that Pocket Half Guard is not a static holding position but rather a dynamic launching platform for a series of interconnected attacks where each defensive response by the opponent opens a different offensive pathway.
-
-### Gordon Ryan
-
-In competition, Pocket Half Guard Bottom is one of my go-to positions when facing heavy pressure passers because it gives me both strong defensive structure and immediate offensive threats. The reality of high-level competition is that your opponent will not give you easy sweeps—they're going to fight hard to strip your underhook and establish their crossface. That's why I emphasize being extremely aggressive with the underhook depth and not accepting shallow control. If I feel the underhook becoming compromised, I'm immediately transitioning to Deep Half or attacking the Old School Sweep rather than staying in a deteriorating position. The mistake I see most commonly is people treating Pocket Half Guard as a resting position where they wait for opportunities—that's exactly backwards. You need to constantly threaten the Old School Sweep, constantly threaten the back-take, and make your opponent defend your attacks rather than attacking your defenses. When I have Pocket Half Guard Bottom against high-level opponents, I'm looking for the moment they post their hand near my head to defend the underhook pressure—that posting creates the angle I need for the Old School Sweep. Against opponents who refuse to post and maintain tight defensive posture, I'm using the underhook to create swimming motions that gradually elevate their trapped leg, setting up the Electric Chair. The competition reality is that Pocket Half Guard Bottom gives you the tools to sweep or take the back, but you have to be the aggressor even from bottom position.
-
-### Eddie Bravo
-
-Pocket Half Guard is a cornerstone of our 10th Planet half guard system because it creates this beautiful dilemma for the opponent where every defensive choice opens up a different attack. When I developed the Lockdown system, I realized that the deep underhook combined with proper pocket spacing was the key to making the whole system work. The pocket space is what allows you to generate that whip motion with your hips that makes the Old School Sweep so powerful. But here's what most people miss—the pocket isn't just about creating space, it's about creating the right angle. Your bottom foot should be actively digging into their hip, not just passively framing, because that active pressure is what prevents them from smashing through and it's what gives you the pivot point for your sweeps. From Pocket Half Guard, you've got immediate access to the Old School Sweep, the back-take, the Electric Chair if they extend that trapped leg, and transitions into the Lockdown if you want to add that leg control. The innovation we brought to this position was understanding that you can combine the Pocket spacing with the Lockdown leg configuration—that combination creates even more control and opens up the entire Twister system. When you're working Pocket Half Guard in the gym, don't just drill the techniques in isolation. Drill the transitions between them—when they defend the Old School, you should automatically be flowing to the back-take or Deep Half. That flow between connected positions is what makes the whole system dangerous and unpredictable for your opponent.
 
 </section>
 

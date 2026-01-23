@@ -1,5 +1,11 @@
 # BJJGraph
 
+![Status](https://img.shields.io/badge/Status-Beta-yellow)
+![Active Development](https://img.shields.io/badge/Development-Active-green)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+> **Note:** BJJGraph is under active development. Content is being expanded daily. Contributions welcome!
+
 Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 
 **Live Site**: [bjjgraph.org](https://bjjgraph.org)

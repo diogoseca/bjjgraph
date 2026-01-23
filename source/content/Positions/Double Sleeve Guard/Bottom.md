@@ -8,7 +8,7 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -447,24 +447,6 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 
 **Average Time in Position**: 45-90 seconds before transition or pass attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Double sleeve guard represents one of the most fundamental control systems in gi jiu-jitsu, embodying the principle of controlling the most dangerous weapons first. By controlling both sleeves, you neutralize your opponent's primary means of establishing grips and initiating their offense. The position is built on the biomechanical reality that human beings cannot effectively attack without the use of their hands, and by denying them hand placement, you force them into a defensive posture from what should be their offensive position. The key to success in this guard is understanding that your sleeve grips must work in concert with your leg frames - the grips control their upper body while your legs control distance and create the leverage necessary for sweeps. When executing techniques from this position, focus on the push-pull dynamic: pull with your hands while pushing with your feet to break their posture and create the off-balancing necessary for high-percentage sweeps.
-
-### Gordon Ryan
-
-In competition, double sleeve guard is my go-to position when I need to slow down an aggressive passer and set up my game on my terms. The beauty of this guard is that it's extremely difficult for opponents to pass if you maintain proper tension and distance - they literally cannot grip your pants or establish control points without first dealing with your sleeve control. I use this position to control the pace of the match and force opponents into positions where I can execute my highest percentage sweeps. The scissor sweep and flower sweep from double sleeve are money techniques that I hit constantly in competition because they work at the highest levels when timed correctly. The key is being patient and waiting for your opponent to make a mistake in their posture or base before committing to the sweep. Also, don't be married to the position - be ready to transition to spider or lasso when your opponent adjusts, because the best guard players are constantly flowing between related positions based on their opponent's reactions.
-
-### Eddie Bravo
-
-Double sleeve guard is fundamental, but a lot of people sleep on how dynamic and creative you can be from here. At 10th Planet, we use double sleeve as a launching pad for all kinds of transitions - you can hit the classic sweeps everyone knows, but you can also set up rubber guard entries, triangle setups, and even back takes if you're creative with your grip transitions. The thing people don't realize is that when you control both sleeves, you're not just preventing their grips - you're controlling their entire upper body structure, which opens up opportunities for unorthodox attacks. I like to use double sleeve to set up omoplata entries by breaking their posture down first, then swimming one leg over the shoulder. Also, if you're in no-gi and can't get the sleeve grips, the same concepts apply to wrist control - control both wrists and use your feet to create distance, and you've got the same offensive opportunities. The key is staying creative and not just defaulting to the basic sweeps everyone expects. Mix in some unusual transitions and you'll keep opponents guessing.
 
 </section>
 

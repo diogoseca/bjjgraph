@@ -8,7 +8,7 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -343,15 +343,6 @@ Rolling to guard serves as a critical link in the defensive hierarchy, connectin
 - [[Shrimp Escape]] - Alternative fundamental escape option
 - [[Elbow Escape]] - Complementary escape from pinned positions
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The rolling to guard movement represents a fundamental application of rotational mechanics in defensive grappling. What makes this technique systematically valuable is its ability to convert linear pressure into rotational escape - you're essentially using the spherical nature of the human body to create a mechanical advantage against an opponent applying downward force. The key technical detail that separates effective from ineffective execution is the relationship between your center of mass and your opponent's center of mass during the rotation. You must create sufficient displacement before initiating the roll, otherwise the opponent's mass simply follows yours through the rotation maintaining the same relative position. The chin tuck is not merely a safety consideration - it's a biomechanical necessity that creates the proper rolling surface across the scapular region where your skeletal structure can safely support the rotational load. Train this movement with emphasis on the setup phase: the frames that create space are more important than the roll itself.
-- **Gordon Ryan**: In competition, rolling to guard is one of those movements that looks desperate but is actually a high-percentage defensive technique when executed with proper timing. I use this constantly when opponents are trying to consolidate passing positions or when I'm working my guard retention game against aggressive passers. The biggest mistake I see is people trying to roll when they're already flattened out - you need to stay on your side and create that initial angle or the opponent just rides you through the movement. What I focus on is making the roll explosive enough that even if the opponent follows, I'm creating a scramble situation where I can establish my guard structure before they can settle. Against elite level competition, you can't just roll and hope - you need to immediately be working grips, breaking posture, and establishing your guard game. I'll often roll to butterfly guard specifically because it gives me immediate sweeping options rather than having to work from a more static closed guard position.
-- **Eddie Bravo**: The roll to guard is fundamental in the 10th Planet system because we're always working from dynamic, movement-based positions rather than static guards. What people don't realize is that the roll itself can be an offensive weapon, not just a defensive escape. When you roll to guard properly, you're not just recovering position - you're creating momentum and angles that set up immediate attacks. I teach students to think of the roll as entry into lockdown, rubber guard, or even our spiral guard positions. The conventional approach treats it as pure defense, but if you add a gi or no-gi grip strategy to the movement, you can actually be setting up submissions or sweeps as you complete the roll. The key innovation we bring is using the rolling motion to create unconventional angles - don't just roll straight back like everyone expects, add spiral rotation or change the angle mid-movement to create confusion and openings for attacks.
 
 </section>
 

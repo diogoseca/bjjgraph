@@ -8,7 +8,7 @@ description: "Master the Technical Standup in BJJ. Learn base creation, hip posi
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Post the near hand behind the hip to create initial base and prevent backwards collapse
 - Position the far foot flat on the mat with knee up to establish primary posting base
 - Create a strong frame with the lead arm extended toward opponent's hips or chest
@@ -179,9 +179,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Hand Posting Mechanics**: The ability to properly post the hand behind the hip at the correct distance and angle, creating a stable base that prevents backwards collapse while allowing for hip elevation. The posted hand should be positioned approximately 6-12 inches behind the hip with fingers pointing away from the body, creating a tripod base with the seated hip and posting foot. Proper posting mechanics prevent injury to the wrist and shoulder while maximizing stability.
 
 **Foot Placement and Base Creation**: The capacity to position the far foot flat on the mat with the knee elevated at the optimal angle (approximately 90-120 degrees) to create maximum posting power. The foot should be positioned close enough to generate drive but far enough to maintain balance. This skill includes the ability to adjust foot position based on opponent pressure and environmental constraints while maintaining readiness to drive through the foot to achieve standing position.
@@ -202,28 +202,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Base Maintenance]]** (Prerequisite): Base maintenance is fundamental to technical standup execution, as the entire concept relies on creating and maintaining stable base throughout the transition from seated to standing.
-- **[[Frame Creation]]** (Complementary): Frame creation works in conjunction with technical standup by establishing the distance and connection points necessary to safely transition to standing while preventing opponent from closing space.
-- **[[Space Creation]]** (Complementary): Space creation principles directly support technical standup by establishing the initial distance required before attempting to stand, preventing opponent from maintaining heavy pressure during the transition.
-- **[[Hip Movement]]** (Prerequisite): Hip movement mechanics are essential for technical standup execution, particularly the hip elevation phase where proper hip extension and positioning determine success or failure of the standup attempt.
-- **[[Defensive Posture]]** (Complementary): Maintaining defensive posture throughout the technical standup ensures that the practitioner never exposes vulnerable targets while transitioning between positions.
-- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution across posting hand, posting foot, and seated hip creates the tripod base necessary for stable technical standup execution.
-- **[[Distance Creation]]** (Extension): Technical standup represents the ultimate application of distance creation, physically removing oneself from ground engagement to standing position.
-- **[[Escape Fundamentals]]** (Extension): The technical standup exemplifies escape fundamentals by providing a systematic method to exit ground engagement and return to neutral standing position.
-- **[[Guard Recovery]]** (Alternative): Guard recovery and technical standup represent alternative defensive responses to bottom position, with standup chosen when creating distance is preferable to re-establishing guard.
-- **[[Defensive Strategy]]** (Complementary): Technical standup fits within broader defensive strategy as a tool for controlling engagement range and pace of the match.
-- **[[Position Transitions]]** (Extension): The technical standup represents a specific application of position transition principles, moving from grounded to standing while maintaining defensive integrity.
-- **[[Energy Conservation]]** (Complementary): Technical standup when properly executed conserves energy by using mechanical advantage and timing rather than strength to achieve standing position.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Open Guard**: From open guard positions, technical standup allows the bottom player to disengage from guard engagement and return to standing, particularly effective when opponent is standing and attempting to pass from distance.
 
 **Turtle**: When in turtle position, technical standup provides an exit strategy by transitioning from turtle to seated guard position then to standing, preventing opponent from securing back control or other dominant positions.
@@ -264,9 +245,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current position and opponent pressure**: Evaluate whether technical standup is appropriate based on opponent positioning, pressure direction, and available space. Technical standup is optimal when opponent is at distance or pressure is manageable, but not ideal under heavy chest-to-chest pressure.
 2. **Establish initial seated frame**: Create strong frame with lead arm against opponent's hips, chest, or bicep to establish initial distance. Frame must be solid enough to prevent opponent from closing space during preparation phase. If frame cannot be established, abort standup and pursue guard retention or alternative escape.
 3. **Post hand and establish tripod base**: Post near hand 6-12 inches behind hip with fingers pointing away from body, simultaneously placing far foot flat on mat with knee up. This creates stable tripod base between posted hand, posting foot, and seated hip. Ensure all three points are firmly established before proceeding.
@@ -279,9 +260,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Posting hand too close to hip during initial setup
   - **Consequence**: Creates insufficient base angle for stability, resulting in collapse backwards when attempting hip elevation and making practitioner vulnerable to forward pressure and guard passes
   - **Correction**: Post hand 6-12 inches behind hip with fingers pointing away from body, creating proper angle for stable tripod base that can support weight during transition to standing
@@ -316,9 +297,9 @@ The Technical Standup is a fundamental defensive principle that enables a practi
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Static Position Drilling** (Focus: Technical precision and muscle memory development for proper standup mechanics)
 Practice technical standup mechanics from static starting positions without opponent resistance, focusing on proper hand posting, foot placement, frame creation, hip elevation, and transition sequencing. Drill both sides equally and emphasize perfect technical execution over speed. Progress through each phase slowly, holding positions to build awareness of correct body positioning and base structure.
 
@@ -341,9 +322,9 @@ Begin rolling from standing position with rule that if taken down, bottom player
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute basic technical standup sequence from static starting position without resistance, demonstrating general understanding of hand posting, foot placement, and hip elevation phases
 - Maintains facing toward partner throughout standup attempt but may lose balance or base during transition phases
@@ -383,10 +364,26 @@ Begin rolling from standing position with rule that if taken down, bottom player
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Base Maintenance]]** (Prerequisite): Base maintenance is fundamental to technical standup execution, as the entire concept relies on creating and maintaining stable base throughout the transition from seated to standing.
+- **[[Frame Creation]]** (Complementary): Frame creation works in conjunction with technical standup by establishing the distance and connection points necessary to safely transition to standing while preventing opponent from closing space.
+- **[[Space Creation]]** (Complementary): Space creation principles directly support technical standup by establishing the initial distance required before attempting to stand, preventing opponent from maintaining heavy pressure during the transition.
+- **[[Hip Movement]]** (Prerequisite): Hip movement mechanics are essential for technical standup execution, particularly the hip elevation phase where proper hip extension and positioning determine success or failure of the standup attempt.
+- **[[Defensive Posture]]** (Complementary): Maintaining defensive posture throughout the technical standup ensures that the practitioner never exposes vulnerable targets while transitioning between positions.
+- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution across posting hand, posting foot, and seated hip creates the tripod base necessary for stable technical standup execution.
+- **[[Distance Creation]]** (Extension): Technical standup represents the ultimate application of distance creation, physically removing oneself from ground engagement to standing position.
+- **[[Escape Fundamentals]]** (Extension): The technical standup exemplifies escape fundamentals by providing a systematic method to exit ground engagement and return to neutral standing position.
+- **[[Guard Recovery]]** (Alternative): Guard recovery and technical standup represent alternative defensive responses to bottom position, with standup chosen when creating distance is preferable to re-establishing guard.
+- **[[Defensive Strategy]]** (Complementary): Technical standup fits within broader defensive strategy as a tool for controlling engagement range and pace of the match.
+- **[[Position Transitions]]** (Extension): The technical standup represents a specific application of position transition principles, moving from grounded to standing while maintaining defensive integrity.
+- **[[Energy Conservation]]** (Complementary): Technical standup when properly executed conserves energy by using mechanical advantage and timing rather than strength to achieve standing position.
+
+
+### Related Content
 - [[Base Maintenance]] (Principle) - Fundamental principle underlying all technical standup mechanics, particularly tripod base creation during transition phase
 - [[Frame Creation]] (Principle) - Essential complementary principle for establishing distance before and during technical standup execution
 - [[Hip Movement]] (Principle) - Core movement pattern for hip elevation phase of technical standup, requiring proper hip extension mechanics
@@ -400,15 +397,6 @@ Begin rolling from standing position with rule that if taken down, bottom player
 - [[Turtle]] (Position) - Position from which technical standup provides important exit strategy, transitioning through seated guard to standing
 - [[Distance Creation]] (Principle) - Ultimate expression of distance creation principle, physically removing oneself from ground engagement entirely
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The technical standup represents one of the most systematically neglected elements of defensive jiu-jitsu training, yet it is absolutely fundamental to defensive competence at all levels. The mechanical principle underlying successful standup is the creation and maintenance of what I call a dynamic tripod base - the posted hand, the posting foot, and the seated hip form three points of stable contact that enable weight transfer from ground to standing position. The critical insight that most practitioners miss is that the frame arm does not lift the body; rather, it creates and maintains distance while the posting leg drives the body upward through hip extension. This distinction is not semantic - it is biomechanical and determines success or failure. When we analyze technical standup through the lens of leverage and force vectors, we see that the optimal posting hand position creates approximately 30-40 degrees of angle from the vertical line of the torso, which maximizes stability while minimizing stress on the shoulder joint. The frame arm, meanwhile, must create what I call a 'skeletal frame' where force is transmitted through bone alignment rather than muscular contraction - this is why a smaller, weaker practitioner can successfully stand up against a larger opponent if proper mechanical principles are applied. The decision framework for when to attempt technical standup versus when to maintain guard is fundamentally about distance assessment: if you cannot establish an effective frame before beginning the standup sequence, you do not have sufficient distance and should focus first on creating space through shrimping or other guard retention mechanics.
-- **Gordon Ryan**: In high-level competition, the technical standup is absolutely critical for controlling the pace and range of the match, and I use it constantly to dictate whether we're fighting on the ground or on the feet. The biggest mistake I see at all levels is people treating the standup as a defensive emergency move that they only try when everything else has failed - that's completely wrong. The technical standup should be a proactive tool that you use to control engagement distance and force your opponent to respect your ability to disengage. When I'm playing bottom position against someone with a strong passing game, I'm constantly threatening the standup, which forces them to either commit forward to prevent it (creating sweep opportunities) or respect the distance (allowing me to maintain guard effectively). The key to making standup work at high level is the frame - your frame has to be so solid that the opponent knows they cannot simply rush through it without serious effort, which makes them hesitate and creates the time window you need to complete the standup. I've also found that the standup is incredibly effective as a transition tool within scrambles; if you can be the first person to achieve standing position during a scramble, you immediately gain positional advantage and can choose whether to re-engage on top or maintain standing and force them to stand. The standup is also essential for my competition strategy in terms of time management - if I'm ahead on points, technical standup lets me safely return to standing and force a reset rather than engaging in potentially risky ground exchanges where my opponent might score.
-- **Eddie Bravo**: The technical standup is one of those fundamental skills that everyone learns on day one and then forgets about, but it's actually a high-level strategic tool when you really understand how to use it creatively. In the 10th Planet system, we emphasize the standup not just as an escape but as part of our overall guard retention strategy - the threat of standing up creates reactions from the passer that open up our lockdown entries, our rubber guard attacks, and other bottom game options. One thing I've developed over the years is using what I call the 'fake standup' where you start the standup motion to get the opponent to react forward aggressively, then you abandon the standup and immediately attack with a sweep or submission based on their forward momentum. This works incredibly well because most people are so conditioned to prevent the standup that they overcommit to stopping it. I also teach variations of the technical standup that work specifically for no-gi situations where you don't have the same grip options - in no-gi, your frame mechanics have to be even more precise because you can't rely on grips to manage distance, so the posting positions and hip elevation timing become even more critical. Another innovation we've explored is using the technical standup as an entry to leg attacks - as you're coming up, if the opponent follows too aggressively, you can redirect into an ankle pick or single leg, or even pull them into inside position for ashi garami entries. The standup isn't just about getting to your feet; it's about creating movement and reactions that you can exploit.
 
 </section>
 

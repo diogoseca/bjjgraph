@@ -8,7 +8,7 @@ description: "Master Rubber Guard to Triangle System. Framework connecting rubbe
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content","expert-insights"]'>
+<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -371,15 +371,6 @@ Begin with static position holds to develop the hip flexibility and muscle memor
 - [[Ryan Hall Triangle System]] (System) - Alternative triangle system using traditional closed guard entries
 - [[10th Planet No-Gi Guard System]] (System) - Comprehensive guard framework integrating rubber guard with other 10th Planet positions
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The systematic nature of this triangle approach exemplifies proper offensive progression through clearly defined checkpoints that validate position quality before advancing. Most practitioners fail triangles not because of poor finishing mechanics but because they skip the critical intermediate steps - Mission Control and New York - that ensure proper angle creation and arm isolation. The rubber guard framework solves a fundamental problem in closed guard play: how to control posture without relying exclusively on grip fighting that drains energy and creates stalemates. By using leg positioning as the primary posture control mechanism, hands become free to isolate arms and create submission angles systematically. The integration of alternative submissions is not merely backup options but represents proper dilemma creation where opponent's defensive choices against one attack systematically open pathways to others, maintaining offensive pressure indefinitely while respecting biomechanical realities of flexibility and leverage.
-- **Gordon Ryan**: In competition, the rubber guard to triangle system works exceptionally well against opponents who rely on strong posture and grip fighting to defend closed guard because it fundamentally changes the control paradigm they've trained to counter. When I integrate rubber guard positions, opponents who are excellent at defending traditional closed guard attacks suddenly find their defensive frameworks irrelevant because the control mechanisms are completely different. The key to competitive success with this system is not attempting it from neutral positions but setting it up through systematic posture breaking using traditional closed guard attacks first. Once opponent is broken down and defending conventional threats, the transition to rubber guard catches them during position recovery attempts. The Mission Control and New York checkpoints are absolutely critical in competition because they provide bailout options and position recovery points when opponents defend correctly. Against elite opposition, expect to cycle through the system multiple times rather than getting immediate triangle finishes, using each defensive response to improve your control and angle for subsequent attempts.
-- **Eddie Bravo**: This triangle system represents the evolution of rubber guard from a single position to a complete offensive framework that changed how we think about closed guard entirely. Traditional BJJ teaches that closed guard should keep opponent's posture broken through grips while maintaining defensive structure with legs, but rubber guard inverts this by making legs the offensive weapon and grips the supplementary control. The beauty of the system is how it creates submission opportunities from positions where traditional closed guard offers none - when opponent is stacked, when they have strong grips, when conventional triangle angles aren't available. Mission Control and New York aren't just triangle setups; they're independent submission platforms that provide omoplata, gogoplata, and multiple other attacks while simultaneously defending against passing attempts that would destroy traditional closed guard. The flexibility requirement is real but trainable with dedication, and the positions become progressively easier to achieve as hip mobility improves through consistent practice. For no-gi specifically, this system is exponentially more effective because it doesn't rely on gi grips that create friction and control, instead using body positioning and leverage that work identically in both gi and no-gi contexts.
 
 </section>
 

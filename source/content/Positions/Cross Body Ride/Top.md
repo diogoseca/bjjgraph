@@ -8,7 +8,7 @@ description: "Master Cross Body Ride Top position in BJJ. Dominant turtle top co
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -449,24 +449,6 @@ Start from cross body ride, bottom player given full freedom to escape using any
 
 **Average Time in Position**: 30-90 seconds before transition to back control or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The cross body ride represents a critical control point in the systematic approach to back attacks. The position's effectiveness lies in its geometric superiority - by establishing a perpendicular angle to the opponent's spine, you create mechanical disadvantage for all their escape attempts while maintaining multiple pathways to dominant positions. The key technical element is understanding weight distribution: your pressure must be directed through the shoulder into the opponent's scapula and thoracic spine, collapsing their turtle structure while your hips remain mobile and positioned away from reversal attempts. This position exemplifies the principle of asymmetric control where minimal energy expenditure on your part requires maximum defensive effort from the opponent. When executing transitions from cross body ride, maintain continuous pressure throughout - the most common technical failure is releasing control pressure before securing the next position. The cross body ride should be viewed not as a static position but as a dynamic control state from which multiple finishing sequences can be initiated based on the opponent's defensive reactions.
-
-### Gordon Ryan
-
-In competition, the cross body ride is one of my highest-percentage positions for securing back takes against elite opponents. What makes this position so effective at the highest levels is that it puts your opponent in a position where all their escape options lead directly into your offensive sequences. When I establish cross body ride, I'm immediately thinking about the back take, but I'm also ready to capitalize on the crucifix if they post their arm or transition to mount if they flatten out. The competition reality is that turtle is still a common defensive position even at black belt, so being dominant from cross body ride is essential for any serious competitor. My approach emphasizes staying heavy but mobile - you need to make them carry your weight but be ready to flow with their escape attempts rather than fighting them. Against high-level opponents, I've found the most success comes from using the cross body ride to exhaust their defensive energy before finishing the back take, rather than rushing the transition. The position also sets up my favorite submissions - once I transition to back control from here, the finishing rate on the rear naked choke or bow and arrow is extremely high because the opponent is already compromised from defending the ride.
-
-### Eddie Bravo
-
-The cross body ride in the 10th Planet system is all about setting up the truck position and twister, but it's also a sick position for straight-up back takes. What people don't realize is how dynamic you can be from this position - you're not just holding them down, you're constantly hunting for the submission or the next position upgrade. One of my favorite sequences is using the cross body ride to bait the opponent into trying to roll, then catching them mid-roll and taking the back or hitting the crab ride. The key is staying loose and ready to flow with their movement rather than being static and heavy. We drill a lot of situations where the bottom guy is trying everything to escape and you're just flowing from cross body to truck to twister to back control. The beauty of the position is that it's low-risk, high-reward - even if they start to escape, you're in a great position to follow them and end up in an even better spot. For no-gi, this position is absolutely essential because without the gi grips, controlling turtle requires this kind of dynamic, body-weight-based control. I teach my students to think of the cross body ride as a launching pad for all the crazy shit we do from turtle - it's the position that makes everything else possible.
 
 </section>
 

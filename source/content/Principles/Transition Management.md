@@ -8,7 +8,7 @@ description: "Master transition management in BJJ. Learn timing recognition, ris
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Recognize optimal timing windows when opponent's defensive structure is compromised or distracted
 - Assess risk-reward ratios before initiating transitions, considering positional value and energy expenditure
 - Maintain structural integrity and defensive awareness throughout transitional movements
@@ -179,9 +179,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Timing Recognition**: The ability to identify optimal windows for transitional movements by reading opponent's weight distribution, grip configuration, defensive posture, and attentional focus. This includes recognizing when opponent is preoccupied with defensive tasks, off-balance, or structurally compromised in ways that reduce their capacity to counter position changes.
 
 **Risk Assessment**: The systematic evaluation of potential outcomes before initiating transitions, weighing positional value gained against energy expended and vulnerability created during transitional phases. This includes understanding positional hierarchy differentials and calculating whether potential advancement justifies exposure risks.
@@ -202,28 +202,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding the relative value of different positions is essential for transition management, as it provides the evaluative framework for assessing whether potential transitions represent advancement or regression in positional dominance.
-- **[[Timing and Rhythm]]** (Complementary): Timing principles directly inform when to initiate transitions, while transition management provides the strategic framework for deciding which movements to execute during recognized timing windows.
-- **[[Energy Management System]]** (Complementary): Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable.
-- **[[Risk Assessment]]** (Prerequisite): The ability to evaluate risk-reward ratios is fundamental to transition management, providing the analytical foundation for deciding whether to attempt position changes or maintain current positions.
-- **[[Position Chains]]** (Extension): Position chain development represents the advanced application of transition management, where individual transition decisions are coordinated into comprehensive sequences that create systematic positional advancement.
-- **[[Control Maintenance]]** (Complementary): Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management.
-- **[[Creating Reactions]]** (Extension): Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities.
-- **[[Base Maintenance]]** (Complementary): Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail.
-- **[[Frame Management]]** (Complementary): Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes.
-- **[[Position Transitions]]** (Extension): Position transitions represent the mechanical execution component, while transition management provides the strategic decision-making framework governing when and how to execute those movements.
-- **[[Guard Retention]]** (Complementary): Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure.
-- **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Transition management governs decisions about when to break posture for sweeps versus when to threaten submissions, when to open guard for technical stand-ups versus when to maintain closed position, and how to sequence attacks to create progressive advancement opportunities without exposing back or allowing opponent to establish passing grips.
 
 **Half Guard**: Determines timing for transitioning between knee shield retention, deep half entries, and underhook battles based on opponent's pressure direction and base configuration. Manages risk-reward of recovering full guard versus sweeping to top position versus taking back, ensuring transitions don't create crossface or smash passing vulnerabilities.
@@ -258,9 +239,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess Current Position Value**: Evaluate your current position on the positional hierarchy scale (dominant, neutral, or inferior) and identify the point value differential. This establishes baseline for determining whether transitions should prioritize advancement or damage control.
 2. **Identify Available Transition Windows**: Scan for timing opportunities created by opponent's weight shifts, grip adjustments, defensive preoccupation, or structural compromises. Recognize which transitions are technically available based on current grips, angles, and controls established.
 3. **Calculate Risk-Reward Ratio**: For each available transition, assess potential positional gain against energy cost and vulnerability created during execution. Consider worst-case scenarios if transition fails or is countered, evaluating whether you can recover to current position or will regress to inferior positions.
@@ -273,9 +254,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Excessive Transition Frequency
   - **Consequence**: Attempting too many transitions without sufficient timing or setup creates energy waste, exposes vulnerabilities during movements, and allows opponent to intercept poorly-timed attempts. This typically results from impatience or misunderstanding that consolidation can create better transition opportunities than constant movement.
   - **Correction**: Adopt principle of 'positional conservatism' where transitions are only attempted when clear windows exist with favorable risk-reward ratios. Practice recognizing difference between genuine transition opportunities and situations where consolidation better serves objectives.
@@ -298,9 +279,9 @@ Transition Management represents the systematic skill of controlling and optimiz
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Conditional Transition Drilling** (Focus: Building timing recognition and decision-making capacity by experiencing multiple defensive scenarios and appropriate responses)
 Structured drilling where partner provides specific defensive responses that create or close transition windows, allowing practitioner to develop recognition of optimal timing and appropriate decision-making based on opponent's state.
 
@@ -323,9 +304,9 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Attempts transitions without clear timing recognition, often initiating movements when opponent is structurally stable and prepared to defend
 - Focuses on single transition attempts without backup plans, leading to scrambles or returns to starting positions when primary attempts fail
@@ -364,10 +345,26 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding the relative value of different positions is essential for transition management, as it provides the evaluative framework for assessing whether potential transitions represent advancement or regression in positional dominance.
+- **[[Timing and Rhythm]]** (Complementary): Timing principles directly inform when to initiate transitions, while transition management provides the strategic framework for deciding which movements to execute during recognized timing windows.
+- **[[Energy Management System]]** (Complementary): Energy conservation principles influence transition frequency and commitment levels, as transition management must account for energy expenditure in deciding when aggressive position changes are justified versus when consolidation is preferable.
+- **[[Risk Assessment]]** (Prerequisite): The ability to evaluate risk-reward ratios is fundamental to transition management, providing the analytical foundation for deciding whether to attempt position changes or maintain current positions.
+- **[[Position Chains]]** (Extension): Position chain development represents the advanced application of transition management, where individual transition decisions are coordinated into comprehensive sequences that create systematic positional advancement.
+- **[[Control Maintenance]]** (Complementary): Control principles govern how to maintain dominance during transitions, ensuring that positional changes don't sacrifice established controls or create exploitable gaps in connection management.
+- **[[Creating Reactions]]** (Extension): Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities.
+- **[[Base Maintenance]]** (Complementary): Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail.
+- **[[Frame Management]]** (Complementary): Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes.
+- **[[Position Transitions]]** (Extension): Position transitions represent the mechanical execution component, while transition management provides the strategic decision-making framework governing when and how to execute those movements.
+- **[[Guard Retention]]** (Complementary): Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure.
+- **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement.
+
+
+### Related Content
 - [[Position Transitions]] (Principle) - Closely related concept focusing on mechanical execution of position changes
 - [[Positional Hierarchy]] (Principle) - Provides evaluative framework for assessing transition value and advancement potential
 - [[Timing and Rhythm]] (Principle) - Governs when to initiate transitions based on opponent's defensive state and movement patterns
@@ -381,15 +378,6 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 - [[Hip Escape]] (Transition) - Fundamental defensive transition requiring careful timing and structural maintenance
 - [[Bridge and Roll]] (Transition) - Classic transition demonstrating importance of timing recognition and momentum control
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches transition management as a systematic decision-making framework governed by clear hierarchical priorities and risk assessment protocols. Emphasizes the importance of what he terms 'positional conservatism' where practitioners default to consolidation unless clear opportunity exists for low-risk advancement. Systematizes transition decision-making through explicit criteria including opponent's defensive state, own structural integrity, and positional value differentials. Teaches that most intermediate practitioners transition too frequently without proper assessment, resulting in energy waste and exposure to counters that superior transition management would prevent. Advocates for developing comprehensive decision trees for each position that account for all major opponent responses, allowing practitioners to flow between backup options rather than forcing single transitions against established defenses. Stresses that transition management represents one of the primary distinctions between systematic practitioners who advance efficiently through positions and chaotic grapplers who create scrambles through poorly-timed or overcommitted movements.
-- **Gordon Ryan**: Views transition management through a competition lens where timing decisions are influenced by scoring, time remaining, and opponent's defensive patterns. Focuses on recognizing 'transition windows' created by opponent's reactions and adjustments rather than forcing transitions against established defenses. Emphasizes the importance of maintaining offensive pressure that creates transition opportunities while preserving ability to consolidate when opportunities close. Advocates for aggressive transition attempts when ahead on points to prevent opponent's offensive opportunities, but conservative transition management when behind to preserve energy for sustained attacks. Demonstrates exceptional ability to recognize when opponent's defensive structure is compromised by previous attacks or positional pressure, using this recognition to chain transitions that overwhelm defensive capacity. Teaches that elite-level transition management requires sensitivity to opponent-specific patterns, as different competitors create different timing windows based on their defensive priorities and structural tendencies. Notes that competition experience develops superior transition judgment compared to purely drilling-based training, as real match pressure reveals true risk-reward ratios that cannot be replicated in cooperative settings.
-- **Eddie Bravo**: Has developed innovative transition pathways within his 10th Planet system that challenge conventional progression hierarchies, particularly in his approach to transitioning between guard variations and unconventional positions like the Truck. When teaching transition management, emphasizes the importance of creating 'transition chains' where failed attempts naturally flow into alternative positions rather than requiring recovery to starting points. Encourages practitioners to explore non-traditional transition sequences that opponents may be unfamiliar with, creating tactical advantages through unpredictability while maintaining systematic approach to risk management. His Rubber Guard system exemplifies sophisticated transition management where every position has multiple offensive options and defensive contingencies built in, allowing practitioners to flow continuously without creating vulnerabilities. Advocates for developing signature transition systems that reflect individual preferences and body types rather than forcing universal pathways, noting that transition management should be personalized to maximize individual strengths. Emphasizes that creative transition exploration during training builds broader movement vocabulary that improves decision-making capacity during live rolling, as practitioners develop more backup options and contingency pathways to draw upon when primary transitions fail.
 
 </section>
 

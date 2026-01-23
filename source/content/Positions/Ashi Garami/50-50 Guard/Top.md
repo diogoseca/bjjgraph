@@ -8,7 +8,7 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -423,24 +423,6 @@ Partner in 50-50 bottom attempts to sit up and equalize position. You maintain h
 
 **Average Time in Position**: 30-90 seconds in competition, 1-3 minutes in training
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The 50-50 position represents a fascinating study in positional parity and asymmetry. While the leg configuration is symmetrical, the introduction of top position creates critical asymmetry that the skilled practitioner must exploit. The mechanical advantage of top position lies in two primary factors: first, the ability to apply vertical force through hip pressure that prevents the bottom practitioner from elevating their hips to create attacking angles; second, the superior leverage for inside control, which is the single most important variable in this entanglement. Inside control dictates who can effectively attack and who must defend. The bottom practitioner's path to offense requires first equalizing hip height, then establishing inside control - a two-step process. The top practitioner already possesses both advantages and must simply maintain them. This positional hierarchy explains why top position in 50-50 generates significantly higher submission rates despite the symmetrical leg configuration. The critical error I observe is practitioners treating 50-50 as a static position when it is fundamentally dynamic - it exists in constant flux between parity and hierarchy, and your success depends on recognizing and preserving the hierarchical state through active hip pressure and inside control maintenance.
-
-### Gordon Ryan
-
-I've finished dozens of high-level opponents from 50-50 top, and here's what actually works in competition: get inside position first, control the heel second, finish third. Most people rush to the heel and lose inside control - that's when the position reverses and you're in trouble. In competition, I use 50-50 primarily as an entry to other positions. If I have a clean heel hook, I finish it fast - we're talking 3-5 seconds from grip to tap. If not, I take the back or pass to side control. Time management is critical because you cannot afford to spend three minutes in 50-50 trading grip fights at high levels. The back take from 50-50 when they defend the heel is one of the highest percentage moves in no-gi grappling period. Your training partners will defend your heel hook in the room because they know it's coming - this is actually perfect because it forces you to develop your back take, which is what you'll need in competition anyway. Against elite opposition, the heel hook is there maybe 30% of the time. The other 70% you need your plan B, and plan B should always be taking the back. Also, don't underestimate the straight ankle lock from here - everyone expects the heel hook, so the ankle lock catches people sleeping, especially when you've been threatening heels all match.
-
-### Eddie Bravo
-
-50-50 gets a bad reputation as a stalling position, but that's because people don't understand the attacks and just sit there in the entanglement doing nothing. From top 50-50, you've got heel hooks, kneebars, toe holds, calf slicers, ankle locks, and back takes - that's six different finishing options if you know what you're doing. If you're stalling, you're doing it wrong. The key is the grip fight - you absolutely must control that heel before anything works. I teach my students to enter 50-50 with a clear plan: heel hook first, but have your backup ready. If they defend by hiding the heel, don't stubbornly chase the same attack for two minutes. Flow to the kneebar, flow to the back take, keep them guessing and keep them defending. The position rewards creativity and submission chains. Also, 50-50 is excellent for the smaller grappler because it completely neutralizes size advantage - leg entanglements don't care how big you are or how strong you are. A 145-pound guy can heel hook a 245-pound guy from 50-50 if he knows the mechanics. That's beautiful jiu-jitsu right there. My advice: don't sleep on the calf slicer from this position either. When they sit up to defend your heel hook or try to equalize, that calf slicer is right there waiting. It's sneaky and it works.
 
 </section>
 

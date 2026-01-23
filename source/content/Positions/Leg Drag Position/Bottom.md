@@ -8,7 +8,7 @@ description: "Defend and escape the leg drag position with systematic recovery s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -398,24 +398,6 @@ Partner maintains heavy leg drag pressure. Bottom player works exclusively on cr
 
 **Average Time in Position**: 10-20 seconds before pass completes or guard recovered
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg drag bottom position represents a failure of distance management and connection control. The bottom player's primary error occurred earlier when they allowed the opponent to achieve the angle and leg control necessary for the drag. Once in the position, the biomechanical reality is that your hip mobility has been severely compromised by the interaction of their chest pressure and leg control. The solution requires understanding that you cannot escape through the same plane they're controlling - you must either go underneath via granby rolls and inversions, or you must recover connection points through butterfly hooks or half guard structures. The key technical detail is that your free leg must be active, not reactive. Create butterfly hooks immediately while using your far arm to frame against their head or shoulder. Never turn away as this creates the precise angle for back exposure that makes the leg drag dangerous. The position punishes passive defense more severely than almost any other passing position.
-
-### Gordon Ryan
-
-In competition, the leg drag is one of the highest percentage passing positions because it removes so many defensive options simultaneously. When I'm on bottom here, I know I have a very short window to act - maybe 3-4 seconds before the position becomes nearly impossible to escape. My priority is immediately getting a butterfly hook with the free leg while framing with my far arm. If that's blocked, I'm granby rolling without hesitation because staying flat is death. The guys who get passed from here are the ones who wait and try to feel out what the top player is doing. You can't afford that luxury - you need to attack the position immediately with full commitment. I also never turn away from the leg drag even though the pressure is uncomfortable. Turning away is how you give up your back instantly. If I can't recover guard in the first exchange, I'm looking to create a scramble or at minimum get to turtle with defensive grips, which is better than getting passed flat.
-
-### Eddie Bravo
-
-The leg drag is tough because it shuts down a lot of the flexibility-based escapes that work from other positions. You can't really rubber guard your way out of this one. What I teach is that you need to be unpredictable and explosive. If the guy is expecting you to try to recover half guard, maybe you invert and granby instead. If he's ready for the granby, you attack the butterfly hook. The key is not letting him settle and apply that crushing pressure. We also work a lot on the transition from leg drag defense into lockdown if you can get your leg around - it's a narrow window but it exists. The worst thing you can do is accept the position and just defend. You need to make him work and create chaos because that's where your opportunities are. Sometimes creating a scramble is better than a perfect technical escape that he's already prepared to counter.
 
 </section>
 

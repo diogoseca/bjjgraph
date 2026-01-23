@@ -8,7 +8,7 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -421,24 +421,6 @@ Start each round with you in Double Jump Top position with both hooks establishe
 
 **Average Time in Position**: 8-15 seconds before transition to back control, truck, or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Double Jump position represents a sophisticated understanding of control hierarchy in ground fighting. The bilateral hook insertion creates what I term 'base negation through hip control' - by eliminating the opponent's ability to post their legs effectively, you remove their primary defensive tool from turtle. The critical mechanical insight is that leg hooks function not merely as points of contact, but as leverage systems that allow inferior upper body position to generate superior control outcomes. Notice how the Double Jump position inverts traditional turtle attack methodology: rather than seeking upper body dominance first, you establish lower body control that forces upper body compliance. This is biomechanically efficient because the opponent's defensive energy must be divided between preventing back exposure and maintaining base, creating the classical dilemma structure. The position's transitional nature is not a weakness but a feature - it exists as a forcing mechanism that compels opponent reactions, each of which opens specific attacking pathways. The key technical detail that separates competent from expert execution is hook depth and angle variation: your hooks must actively manipulate the opponent's hip positioning, not simply occupy space inside their legs.
-
-### Gordon Ryan
-
-Double Jump is one of those positions that looks wild but actually gives you massive control if you hit it right. I use this constantly in competition when guys turtle up after I pass their guard - it's way higher percentage than trying to break them down with traditional turtle attacks. The key is you have to be explosive with the entry but then immediately calm and controlled once you get both hooks in. What makes it work at the highest level is that it bypasses all the hand fighting and crossface battles that elite guys are prepared for from turtle. They're ready to defend their neck and fight grips, but most people haven't spent enough time defending leg-based turtle attacks, so you catch them by surprise. My favorite thing about Double Jump is how it forces reactions - the opponent has to choose between defending the back take or defending the truck entry, and both choices lead to dominant positions for you. In competition, I'm looking to establish this within 3-5 seconds of them hitting turtle, then immediately transitioning to either crab ride or full back control depending on how they react. The position has a short shelf life though - you can't hang out here, you have to capitalize immediately or they'll start defending intelligently.
-
-### Eddie Bravo
-
-Double Jump is pure 10th Planet methodology, man - we're using leg entanglements to create chaos and force the opponent into bad positions. This is what happens when you stop thinking about jiu-jitsu in terms of traditional gi-based controls and start asking 'how can I use my whole body as a weapon?' The beauty of Double Jump is it's basically saying 'forget your turtle defense' because all those traditional turtle escapes and defensive postures don't work when someone has bilateral hooks controlling your hips. What I love teaching about this position is how it opens up the entire truck system and twister game. You're not just attacking for back control like traditional grappling - you're creating multiple submission threats through the truck, the twister, calf slicers, and then yeah, you can still take the back if you want. The position is all about creating uncertainty in the opponent's mind. They don't know if you're going to roll them into truck, drive them forward into crab ride, or just climb to back control. That mental pressure, combined with the physical control of the hooks, breaks people down faster than any amount of crossface pressure. When you train Double Jump, focus on the flow between positions rather than holding any one spot - it's a transition position that opens doors to everywhere you want to go.
 
 </section>
 

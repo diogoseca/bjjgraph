@@ -8,7 +8,7 @@ description: "Defensive guide for escaping modified scarf hold. Learn arm recove
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -413,24 +413,6 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 
 **Average Time in Position**: 45-90 seconds before escape or submission from bottom position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The defensive challenge of Kuzure Kesa-Gatame lies fundamentally in the asymmetry of control it creates. Your opponent controls one arm completely while maintaining pressure that restricts your other arm's effectiveness, creating what I term 'progressive isolation.' The systematic approach to escape must prioritize arm recovery above all else—not because the arm itself is the escape, but because without it, you lack the bilateral framing capacity necessary for effective hip movement. Study the biomechanics of how your opponent's hip pressure creates this control: their weight travels through their hip into your ribs at a forty-five degree angle, and this angle is precisely what you must redirect, not resist. When you understand that every effective escape from this position involves either recovering the trapped arm first or redirecting the pressure vector to create space for arm recovery, you begin to see the position not as a random struggle but as a solvable mechanical problem with specific solution sequences.
-
-### Gordon Ryan
-
-I've been caught in Kuzure Kesa-Gatame by some of the best pressure passers in the world, and what I've learned is that you absolutely cannot panic or waste energy with random explosive movements. The position is designed to make you panic—the pressure is uncomfortable, one arm is trapped, and you feel submissions coming—but the moment you panic, you're done. What works at the highest level is staying incredibly calm, controlling your breathing even under heavy pressure, and waiting for specific moments when your opponent shifts their weight. When they go for an armbar or transition to mount, there's always a brief moment where their hip pressure reduces slightly, and that's your window. The other critical thing is that you have to be okay with going to turtle or half guard as intermediate positions. Too many people think they need to recover full guard immediately, but sometimes the best escape is to turtle, let them take your back attempt, and then work your guard recovery from there. It's not pretty, but it's effective, and in competition, effective always beats pretty.
-
-### Eddie Bravo
-
-Kuzure Kesa-Gatame is one of those old-school judo positions that people underestimate until they're stuck in it, and then they realize how completely screwed they are. The thing about this position is that all your normal side control escapes don't work the same way because one arm is completely out of commission. What I teach my students is to get comfortable being uncomfortable—you have to be able to breathe and think clearly even when you feel like you're being crushed. The Granby roll becomes super important here because it doesn't rely on having both arms free; you're using your whole body rotation to create the escape. I also like to think about this position as an opportunity to work on your mental game. If you can stay calm and systematic in Kuzure Kesa-Gatame, you can stay calm anywhere. And here's a crazy idea: sometimes when I'm stuck here, I'll actually bait the armbar attempt because when they commit to it, they have to shift their weight, and that's when I can either defend the armbar and escape, or sometimes even roll them with a desperate bridge. It's high risk, but when you're stuck and running out of options, calculated risks become necessary.
 
 </section>
 

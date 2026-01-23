@@ -8,7 +8,7 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -426,24 +426,6 @@ Start in established dead orchard control bottom position. Bottom player works t
 
 **Average Time in Position**: 30-90 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Dead Orchard Control Bottom represents a catastrophic breakdown in defensive hierarchy where multiple control points have been ceded simultaneously - the head, an arm, and positional angle. The biomechanical reality is severe: the human body cannot generate effective power when the head is controlled and pulled downward while an arm is trapped across the centerline. Your defensive strategy must be systematic rather than instinctive. First, address the most immediate threat to structural integrity - typically this is the choking mechanism at the neck. Create a frame with your free hand, not by pushing into the opponent's chest, but by establishing a post at their hip or shoulder to create an angle for hip movement. Second, recognize that explosive escape attempts will fail because they require the very base and structural alignment that this position denies you. Instead, use incremental hip escape movements to progressively shift your body angle relative to the opponent's pressure vector. The goal is not immediate freedom but systematic position improvement: from dead orchard to modified turtle, from modified turtle to guard recovery, from guard recovery to closed guard. Each step must be consolidated before attempting the next. Understanding the mechanical principles of why this position is so dominant helps you identify the specific structural changes needed to escape, rather than simply fighting harder within a losing framework.
-
-### Gordon Ryan
-
-I've been caught in dead orchard variations in high-level competition, and the key is recognizing it's a survival position first, escape position second. The guys who tap are the ones who panic when they feel their breathing restricted and start making desperate, large movements that just help me finish the choke or take their back. The guys who survive are the ones who accept the discomfort, keep breathing through their nose even though it's hard, and work technically. Your first job is hand fighting the choking arm - not just pushing randomly, but specifically attacking their grip or the angle of their arm across your neck. At the same time, you need to prevent them from flattening you completely because once you're flat, it's basically over. Keep some kind of base with your free arm and your knees, even if it's compromised. The escape that works best for me when I'm on bottom is a patient hip escape combined with freeing my trapped arm. I'm not trying to explode out - I'm using small, controlled movements to shift my hips away from their pressure while simultaneously pulling my elbow back toward my own hip to free the trapped arm. Once that arm is free, you can establish proper frames and start the real escape sequence. The competition reality is that if you're in this position, you're already in trouble, so don't compound it by being impatient. Work the problem methodically and you'll find opportunities when they transition or adjust their grips.
-
-### Eddie Bravo
-
-Dead Orchard from the bottom is one of those positions where you need to get creative because traditional escapes often don't work when you're really stuck. In 10th Planet we emphasize the importance of the Granby roll and inversion skills for exactly these kinds of trapped positions. When you're caught in dead orchard and the standard hip escape isn't available because they've got you too tight, you need to think about using momentum and unconventional angles. One thing I teach is the concept of rolling through the position rather than trying to push out of it - if you time it right when they're transitioning their weight to lock in a submission, you can use a Granby-style roll to invert and come out the back door. Another approach is to attack their balance by pulling their far knee or ankle with your free hand while simultaneously shrimping - this creates a diagonal escape angle they're not expecting. The key is not accepting the conventional wisdom that you're completely stuck. Look for creative solutions like the lockdown-style concepts of controlling their leg to prevent them from sprawling their weight, or using your free leg to hook over their back and create a scramble. Sometimes the best escape is to make the position so chaotic and unstable that they have to abandon the control to prevent you from taking an even more unorthodox path to safety. Don't just survive - be proactive about creating chaos that works in your favor.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Old School Top in BJJ half guard. Control opponent's lockdo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -423,24 +423,6 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 
 **Average Time in Position**: 45-90 seconds before pass or sweep
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Old School Top position represents a critical defensive junction in the half guard passing game, particularly against lockdown-based systems. The mechanical advantage of the lockdown creates a powerful lever system that can generate tremendous sweeping force, so the top player must understand the biomechanical principles of neutralizing this leverage. The whizzer functions not merely as a grip but as a structural frame that prevents the opponent from rotating their torso - rotation being essential for sweep completion. The crossface serves dual purposes: it turns the opponent's head away, limiting their visual tracking of your movements, and it creates an uncomfortable compression that discourages extended positional battles. Weight distribution is paramount - your chest pressure must create a downward vector that opposes the upward and rotational vectors the opponent seeks to generate with their lockdown. The free leg base is your ultimate insurance policy against sweeps, functioning as a tripod point that provides rotational stability. Systematically, you must think in terms of graduated pressure application - start with position retention, then work toward grip improvements, then capitalize on opponent errors to advance position. Patience is not passive; it is active pressure maintenance while waiting for the correct moment to pass.
-
-### Gordon Ryan
-
-Old School Top is one of those positions where competition experience really separates who understands the position from who's just surviving. I've been caught in lockdown plenty of times against high-level 10th Planet guys, and the biggest thing I learned is you cannot be reactive - you have to impose your game immediately. The whizzer has to be deep and tight from the second you feel that lockdown lock in, because if they get even two seconds to adjust their angle, you're going for a ride on the Old School Sweep. I personally like to use a lot of shoulder pressure on the crossface side - not just laying there, but actively driving through their face to make them uncomfortable and limit their breathing rhythm. That discomfort often forces them to abandon their sweep attempts prematurely. The key to passing from here is recognizing when they're committed to the lockdown versus when they're thinking about transitioning - there's always that micro-moment when the lockdown loosens slightly, and that's your window to explode into the pass. I also look for the kimura from the whizzer grip constantly because when they start defending the pass, that arm often extends right into the submission. In competition, time management matters - if you're up on points, holding this position safely is perfectly acceptable strategy, but if you need to advance, you have to be willing to take calculated risks during those transition windows.
-
-### Eddie Bravo
-
-As the guy who basically forced everyone to learn Old School Top defense through the lockdown system, I can tell you exactly what makes this position tough for the top guy - it's all about the battle of angles and timing. The lockdown creates this amazing lever system that turns your leg into a crank, and if the top guy doesn't immediately establish the right structure with that whizzer and crossface, they're getting swept or submitted, period. But here's the thing - even perfect Old School Top defense can be beaten if the bottom guy is slick with transitions between Electric Chair, Old School Sweep, and the dogfight. The top player has to understand they're not just defending one attack, they're defending an entire system of interconnected threats. The whizzer is crucial, but it can't be passive - you have to actively pull that arm tight and use it to control their upper body rotation. One thing I tell my students who get caught on top is to think about creating a 'dead zone' with their pressure - you want to make it so uncomfortable that staying in lockdown becomes more exhausting for them than it is for you. Also, leg attacks from this position are super underutilized - when you finally free that trapped leg, you're in perfect position to attack straight ankle locks or toe holds on that same leg because it's already isolated and extended. The innovation in this position is still evolving - we're seeing more calf slices and variations that blur the lines between top and bottom control, which is exactly how jiu-jitsu should evolve.
 
 </section>
 

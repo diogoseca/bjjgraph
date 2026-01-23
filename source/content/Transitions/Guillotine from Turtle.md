@@ -8,7 +8,7 @@ description: "Learn Guillotine from Turtle in BJJ. Step-by-step execution from T
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -352,15 +352,6 @@ The guillotine from turtle is a critical component of the complete front headloc
 - [[Guillotine Control]] - Ending position after successful transition
 - [[Rear Naked Choke]] - Alternative choke finish from turtle attacks
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The guillotine from turtle represents a fundamental principle of submission grappling: every defensive position creates offensive vulnerabilities. When an athlete turtles to protect their back, they necessarily expose their anterior neck structure to front headlock attacks. The mechanical efficiency of the guillotine from this position comes from the perpendicular relationship between your choking arm and their spine, creating optimal leverage for blood choke application. The critical technical element that separates effective guillotines from ineffective ones is grip depth—your wrist must reach the opposite side of their neck to create true choking pressure rather than mere discomfort. The decision tree between standing and guard pull finishes should be based on biomechanical advantage: if their base is broken and they cannot generate upward force, stand and use gravity as an ally. If they retain the ability to generate upward movement, pull guard and use your legs to negate their base entirely. This is not a technique of strength but of systematic position exploitation and leverage maximization.
-- **Gordon Ryan**: In competition, the guillotine from turtle is one of my highest-percentage submissions because most athletes instinctively turtle when they feel back exposure coming. I've finished multiple ADCC and No-Gi Worlds matches with this exact sequence. The key is not waiting for the perfect setup—I take the front headlock immediately when they turtle and let my grip pressure force their decision: defend the choke or try to escape. Most athletes make the mistake of being too patient here, giving the bottom guy time to improve position or stand. I attack the neck within 1-2 seconds of establishing front headlock. My preference is the standing finish with hip drive because it finishes faster and is harder to defend, but against guys like Garry Tonon who are comfortable inverting, I'll immediately pull guard and angle off. The reality is this: if you have a tight guillotine grip from turtle, the match is essentially over if you execute properly. Don't overthink it—secure the grip, break their base, finish the choke. I've built an entire front headlock system around this basic principle, and it works at the absolute highest levels of competition.
-- **Eddie Bravo**: The guillotine from turtle is old school jiu-jitsu that still works in modern competition, but most people don't understand the nuances that make it high-percentage. In 10th Planet, we emphasize the importance of creating the right angle before you even grip—you want your chest driving them flat while you circle slightly to the side, which makes your arm naturally slide deeper when you thread it. Traditional jiu-jitsu teaches a straight-on approach, but I've found that creating even a 15-20 degree angle before you grip increases finish rate dramatically. We also prefer the high-elbow variation from this position because it's harder to defend with the chin tuck, and it sets up beautiful transitions to the Peruvian necktie if they roll. Another thing nobody talks about: the guillotine from turtle is actually a great setup for the twister. If they defend the choke by turning into you hard, that same motion exposes their back for the truck entry. So in my mind, this isn't just a submission—it's a gateway into the entire truck and twister system. Keep your game flowing, don't force anything, and let their defense dictate your offense. That's 10th Planet philosophy applied to classical technique.
 
 </section>
 

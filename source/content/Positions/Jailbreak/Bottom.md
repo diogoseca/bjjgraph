@@ -8,7 +8,7 @@ description: "Master the Jailbreak escape from bottom half guard. Advanced 10th 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -419,24 +419,6 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 
 **Average Time in Position**: 5-15 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The jailbreak represents a critical understanding of how momentum and leverage can overcome positional disadvantage in the half guard escape hierarchy. The biomechanical principle at work involves converting linear pressure from the top player into rotational escape through inverting motion. The underhook serves as the fulcrum point around which the entire escape rotates - lose this connection and the mechanical advantage disappears entirely. What makes this escape particularly effective is the way it exploits the top player's commitment to forward pressure. When they drive their chest and shoulder into you, attempting to flatten and control, their center of gravity moves forward and their base becomes vulnerable to the rolling motion. The explosive inversion transforms their pressure into momentum for your escape. However, this requires precise timing - too early and they can adjust their base, too late and you're already flattened. The practitioner must develop the sensitivity to feel when the top player commits their weight past the point of no return, then execute the escape with full commitment and speed. This is not a position where tentative execution succeeds - it demands complete commitment to the mechanical sequence.
-
-### Gordon Ryan
-
-In competition, the jailbreak is one of the highest-percentage escapes from bottom half guard when you're getting smashed by a skilled passer. I've used this countless times when guys are heavy on the crossface and I need to create immediate separation. The key thing people miss is that you can't be tentative with this - you have to fully commit to the roll or you end up in worse position. When I feel the crossface getting heavy and my other frames are collapsing, I secure that underhook like my life depends on it, because it does. Then I explode into the roll, using my free leg to push off hard. Most of the time I end up in turtle, which gives me way more options than staying flattened in half guard. Against really good guys who follow the roll, I've taken the back multiple times by continuing the momentum. The jailbreak is also a great way to surprise opponents - they think they're crushing you in half guard, then suddenly you're inverting and they're scrambling to keep up. It's become essential in my game for those situations where traditional half guard retention just isn't working against high-level pressure.
-
-### Eddie Bravo
-
-The jailbreak is one of the core escapes in the 10th Planet system, and it's saved my students in countless situations. What I love about this technique is how it completely changes the dynamic of the half guard battle. Most people think of half guard as this slow, grinding position, but the jailbreak is explosive and dynamic. When you're locked down and the guy on top is smashing you, the jailbreak gives you this burst escape option that can completely flip the script. The cool thing is how it chains with the rest of the lockdown system - if they defend the electric chair or the old school sweep, boom, hit the jailbreak. If they're ready for the jailbreak, you can use that underhook for other attacks. It's all about creating dilemmas for the top player. One thing I always stress is the importance of flexibility for this move. If you're tight in the hips and can't invert smoothly, the jailbreak becomes way harder. That's why we do so much warmup work on inverting and rolling movements in 10th Planet. Get comfortable being upside down and this escape becomes second nature. And when you really master it, you can hit the jailbreak and immediately transition to taking the back or re-establishing guard - it becomes this beautiful flow rather than just a defensive escape.
 
 </section>
 

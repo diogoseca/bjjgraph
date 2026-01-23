@@ -8,7 +8,7 @@ description: "Master defensive posture in BJJ. Learn structural alignment, conne
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Maintain proper spinal alignment relative to opponent's pressure direction
 - Create and preserve space for vital breathing and circulation
 - Protect vulnerable targets through strategic limb and body positioning
@@ -179,9 +179,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Spinal Alignment Management**: The ability to maintain proper spinal positioning relative to incoming pressure, ensuring the spine remains protected while creating structural integrity. This includes understanding when to round, when to arch, and when to maintain neutral alignment based on the direction and type of pressure being applied.
 
 **Frame Construction and Maintenance**: Creating and maintaining effective defensive frames using arms, legs, and body positioning to manage distance and prevent opponent advancement. This skill involves understanding optimal frame angles, connection points, and the appropriate amount of tension to apply without exhausting energy reserves.
@@ -202,25 +202,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Defensive Frame]]** (Complementary): Defensive framing provides the tactical implementation of defensive posture principles, translating postural concepts into specific limb configurations and pressure management techniques.
-- **[[Base Maintenance]]** (Complementary): Base maintenance works synergistically with defensive posture, as proper base provides the foundation from which effective defensive postures can be established and maintained throughout positional changes.
-- **[[Escape Hierarchy]]** (Extension): Escape hierarchy builds upon defensive posture fundamentals by organizing defensive responses into prioritized sequences, with proper posture serving as the prerequisite for executing effective escapes.
-- **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques rely heavily on proper defensive posture to create the structural foundation necessary for managing and dissipating opponent's pressure effectively.
-- **[[Guard Retention]]** (Extension): Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts.
-- **[[Energy Conservation]]** (Complementary): Energy conservation principles guide the efficiency aspects of defensive posture, ensuring defensive structures are maintained with minimal muscular effort through optimal biomechanical alignment.
-- **[[Frame Management]]** (Complementary): Frame management provides the tactical framework for implementing defensive posture through specific structural configurations and pressure distribution patterns.
-- **[[Space Management]]** (Complementary): Space management principles work together with defensive posture to create and maintain critical breathing and movement space while under pressure.
-- **[[Chin Protection]]** (Prerequisite): Chin protection is a fundamental component of defensive posture, representing one of the highest-priority structural elements in defensive positioning.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Defensive Position**: Fundamental defensive posture in bottom positions involves protecting the neck and spine while creating space for breathing, using frames to manage distance, and maintaining hip mobility for recovery or escape opportunities.
 
 **Mount**: Under mount, defensive posture emphasizes spinal protection through specific alignment, elbow positioning to prevent arm isolation, chin protection, and creating breathing space through hip bridge mechanics while preparing escape pathways.
@@ -255,9 +239,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Identify immediate threats to high-priority targets (neck, spine, breathing)**: Implement emergency protective measures first: tuck chin if neck threatened, create breathing space if chest compressed, protect spine if twisting pressure applied
 2. **Assess opponent's primary pressure direction and weight distribution**: Align spine perpendicular to primary pressure vector when possible, distribute defensive structure across multiple contact points to dissipate force, identify opponent's base vulnerabilities
 3. **Evaluate current connection points and grip configurations**: Prioritize breaking or controlling connections that enable submissions or dominant position advancement, maintain beneficial connections that limit opponent's movement or create escape opportunities
@@ -270,9 +254,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Excessive muscular tension throughout entire body
   - **Consequence**: Rapid energy depletion, reduced mobility, compromised breathing, decreased ability to detect opponent's movement, and shortened defensive sustainability
   - **Correction**: Apply tension selectively only at critical contact points and structural junctions, relax non-essential muscle groups, practice breathing techniques under pressure, develop awareness of unnecessary tension patterns
@@ -301,9 +285,9 @@ Defensive Posture represents the foundational body positioning and structural al
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Pressure Drills** (Focus: Building tolerance for sustained pressure, developing proper alignment habits, learning to maintain breathing under compression, internalizing position-specific defensive structures)
 Partner applies controlled pressure in various disadvantageous positions while practitioner focuses exclusively on maintaining optimal defensive posture without attempting escapes. Pressure gradually increases over training cycles.
 
@@ -326,9 +310,9 @@ Recording training sessions and analyzing defensive posture quality during disad
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can identify basic defensive posture principles when explained but struggles to implement under pressure
 - Tends to use excessive muscular tension throughout body when defending
@@ -369,10 +353,23 @@ Recording training sessions and analyzing defensive posture quality during disad
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Defensive Frame]]** (Complementary): Defensive framing provides the tactical implementation of defensive posture principles, translating postural concepts into specific limb configurations and pressure management techniques.
+- **[[Base Maintenance]]** (Complementary): Base maintenance works synergistically with defensive posture, as proper base provides the foundation from which effective defensive postures can be established and maintained throughout positional changes.
+- **[[Escape Hierarchy]]** (Extension): Escape hierarchy builds upon defensive posture fundamentals by organizing defensive responses into prioritized sequences, with proper posture serving as the prerequisite for executing effective escapes.
+- **[[Pressure Reduction]]** (Complementary): Pressure reduction techniques rely heavily on proper defensive posture to create the structural foundation necessary for managing and dissipating opponent's pressure effectively.
+- **[[Guard Retention]]** (Extension): Guard retention represents a specialized application of defensive posture principles specifically adapted to maintaining guard positions, extending general defensive posture concepts to position-specific contexts.
+- **[[Energy Conservation]]** (Complementary): Energy conservation principles guide the efficiency aspects of defensive posture, ensuring defensive structures are maintained with minimal muscular effort through optimal biomechanical alignment.
+- **[[Frame Management]]** (Complementary): Frame management provides the tactical framework for implementing defensive posture through specific structural configurations and pressure distribution patterns.
+- **[[Space Management]]** (Complementary): Space management principles work together with defensive posture to create and maintain critical breathing and movement space while under pressure.
+- **[[Chin Protection]]** (Prerequisite): Chin protection is a fundamental component of defensive posture, representing one of the highest-priority structural elements in defensive positioning.
+
+
+### Related Content
 - [[Defensive Frame]] (Principle) - Primary tactical implementation of defensive posture principles through specific limb configurations
 - [[Base Maintenance]] (Principle) - Complementary principle providing foundational stability for effective defensive postures
 - [[Frame and Shrimp]] (Transition) - Fundamental escape technique that relies on proper defensive posture as prerequisite
@@ -386,15 +383,6 @@ Recording training sessions and analyzing defensive posture quality during disad
 - [[Turtle]] (Position) - Critical defensive position where proper posture prevents back takes and enables recoveries
 - [[Bridge and Roll]] (Transition) - Mount escape technique dependent on maintaining defensive posture during bridging mechanics
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Defensive posture represents the application of biomechanical engineering principles to the human body under adversarial pressure. The key insight is understanding that defensive effectiveness is not primarily about strength or athleticism, but about creating optimal skeletal alignment that transforms opponent's force into manageable vectors. I emphasize what I call 'structural hierarchy' - the concept that certain defensive structures must be preserved at all costs while others can be sacrificed strategically. The spine and neck form the primary defensive structure, breathing capacity represents secondary priority, and limb positioning constitutes tertiary concerns. Students must understand that proper defensive posture creates what I term 'mechanical advantage inversion' - transforming situations where opponent appears to have overwhelming advantage into scenarios where their pressure actually works against their objectives. This requires precise understanding of leverage points, force vectors, and biomechanical weak points in common attacking positions.
-- **Gordon Ryan**: In competition, defensive posture isn't just about surviving - it's about creating the foundation for your counterattack. I've spent thousands of rounds under pressure from the best grapplers in the world, and what separates getting submitted from escaping and winning is the quality of your defensive posture in the critical moments. You need what I call 'layered defense' where your posture provides multiple redundant protections. If they break your first defensive frame, you immediately have a second one ready. If they compromise your primary chin protection, you've already established backup neck defense. The mistake people make is thinking defensive posture is passive - it's not. My defensive posture is constantly working to create dilemmas for my opponent, making them choose between maintaining pressure and defending against my sweep or escape setups. In high-level competition, you're going to end up in bad positions no matter how good you are. The difference between champions and everyone else is that champions never lose their defensive posture quality even when exhausted, even when losing on points, even when facing submission attempts.
-- **Eddie Bravo**: Traditional defensive posture teaches people to be too rigid, too predictable. In the 10th Planet system, we've developed what I call 'adaptive defensive architecture' that challenges a lot of conventional wisdom. Sometimes the best defensive posture involves positions that look vulnerable but actually create traps for your opponent. For example, in no-gi situations where you don't have collar and sleeve grips to work with, your defensive posture needs to be much more dynamic and movement-based rather than structure-based. We teach students to use what appears to be defensive posture compromises as bait to create offensive opportunities. When someone passes your guard, instead of going into full defensive shell, sometimes the right defensive posture actually involves exposing something minor to prevent something major and set up your counter. The lockdown position is a perfect example - it looks like terrible defensive posture by traditional standards, but it actually creates incredible defensive and offensive capabilities in the half guard. You need to understand the principles behind defensive posture, but don't be afraid to innovate and find defensive structures that work for your body type and game.
 
 </section>
 

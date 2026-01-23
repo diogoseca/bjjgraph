@@ -8,7 +8,7 @@ description: "Escape North-South bottom position in BJJ. Comprehensive guide to 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -438,24 +438,6 @@ Partner alternates between maintaining North-South control and setting up submis
 
 **Average Time in Position**: 45-90 seconds under sustained pressure before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-North-South bottom represents a critical test of systematic escape methodology. The position's biomechanical challenges stem from perpendicular body alignment that restricts traditional framing angles. Your escape success depends entirely on understanding the relationship between frame creation, hip mobility, and timing. Most practitioners fail because they attempt explosive full-body movements against superior positional control. The solution lies in breaking the escape into discrete steps: first establish breathing frames against the chest, then generate small hip movements that compound over time, finally time your major escape attempt during your opponent's weight transitions. The mental game is equally important - you must maintain composure under crushing pressure and trust your systematic approach rather than panic. Focus on winning small positional battles that accumulate into complete escape sequences.
-
-### Gordon Ryan
-
-Getting stuck in North-South bottom sucks, plain and simple. In competition, this position can drain your gas tank fast if you don't handle it right. Here's what actually works: the second you feel that chest pressure coming, you need to start framing immediately - don't wait for them to settle. I focus on getting my near-side elbow inside and creating even a tiny bit of space to breathe. From there, it's all about patience and timing. Most guys blow their load trying to explode out and just give up their back or get submitted. Instead, I wait for them to go for submissions or try to mount - that's when their weight shifts and you can actually move your hips. The turtle transition works great in competition because refs hate stalling, so if you can get to your knees, you're usually safe from getting called for passivity. But the real key is not getting there in the first place - if you're constantly ending up in North-South bottom, you need to fix your guard passing defense earlier in the chain.
-
-### Eddie Bravo
-
-North-South bottom is one of those positions where you gotta stay creative and unconventional to escape. Traditional escapes work, but if you're fighting someone who knows what they're doing, you need some wild card options. I teach my guys to think about the Granby roll as soon as they feel that pressure coming - it's unexpected and most people aren't prepared for it. You can also look for the lockdown on their far leg if they're not careful with their base - yeah, it's unconventional from North-South, but that's the point. The other thing is breathing technique - in 10th Planet we drill being under pressure a lot, so you learn to stay calm and not waste energy. Sometimes the best escape is to weather the storm, control your breathing, and wait for them to make a mistake when they go for that North-South choke or try to take mount. That's when you hit the technical stand-up or granby and blow their mind. Don't be predictable - if everyone expects the standard hip escape, give them something they've never seen before.
 
 </section>
 

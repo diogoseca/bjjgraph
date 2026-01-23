@@ -8,7 +8,7 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -353,15 +353,6 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 - [[Mount]] - Common ending position when sweep is successful
 - [[Side Control]] - Alternative ending position if opponent turns away during sweep
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The 100% Sweep is an advanced closed guard technique that exemplifies the principle of isolating a limb to create sweeping leverage through precise biomechanical advantage. The key is in trapping the arm across the body and using precise hip movement to off-balance the opponent, demonstrating how positional control can overcome strength and athleticism. This sweep teaches critical principles of limb isolation and angle creation that are essential for sophisticated guard systems at the highest levels of competition. The biomechanics rely on creating a fulcrum with the trapped arm while your hip shift generates the rotational force needed to roll the opponent over their shoulder. Understanding this principle allows you to apply similar mechanics to numerous other sweeping situations throughout Brazilian Jiu-Jitsu, including omoplata sweeps, flower sweeps, and other arm-trap based techniques. The technique also demonstrates the importance of breaking posture before attempting dynamic movements - without proper posture disruption, even perfect mechanics will fail against a balanced opponent.
-- **Gordon Ryan**: In competition, the 100% Sweep is a high-percentage move from closed guard, especially against opponents who posture aggressively or try to stand up to break the guard. I focus on securing the arm trap tight against my body and exploding through the hip shift to ensure they roll over cleanly without giving them time to recover their base. This technique shows how advanced guard sweeps can be adapted into dominant attacks from the bottom that score points while advancing position dramatically. When I hit this sweep in competition, I immediately look to consolidate to mount or take the back if they turn away during the roll. The success rate is particularly high when combined with threats of triangle or armbar, forcing opponents to defend multiple attacks simultaneously and creating openings for the sweep. It's become a staple in my closed guard game because it scores points while advancing position dramatically - you can get 6 points in one sequence if you land directly in mount. The key is making them think you're setting up a submission so they defend high, then attacking their base with the sweep.
-- **Eddie Bravo**: The 100% Sweep is a slick advanced sweep that blends classic closed guard concepts with modern control principles, offering a reliable way to reverse position when opponents try to break your guard aggressively. It's a great move for grapplers who like to isolate limbs and create dynamic sweeps, often chaining into submissions or back takes depending on how they defend. This sweep integrates well with systems that prioritize fluid transitions and off-balancing from the guard rather than static control. In the 10th Planet system, we use similar principles but often adapt the technique for no-gi by focusing on underhook or wrist control instead of sleeve grips, and we're more likely to chain it with rubber guard attacks or triangle setups. The hip movement and angle creation remain the same, showing how traditional techniques can be innovated for modern grappling contexts. I love teaching this because it demonstrates that you don't need to muscle people - proper leverage, timing, and creating the right angle are everything. When you get that arm trapped and your hip angle is perfect, even big strong guys are going over whether they like it or not.
 
 </section>
 

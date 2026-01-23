@@ -8,7 +8,7 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -447,24 +447,6 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 
 **Average Time in Position**: 60-120 seconds to complete guard pass or get swept
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending collar sleeve guard requires understanding the mechanical vulnerabilities the position creates for you and systematically addressing them before attempting to pass. The bottom player's grip structure is designed to compromise your base in specific directions—the collar grip pulls you forward and rotationally, while the sleeve grip prevents posting on one side. Your defensive structure must account for these limitations by maintaining your hips back, keeping your posture upright, and distributing your weight to prevent over-commitment to the side where you cannot post. The most common error is attempting to pass before neutralizing the grip-based control, which allows the bottom player to steer your passing attempts directly into their sweep or submission sequences. Effective passing begins with establishing your own collar grips or using proper leverage-based grip breaks that don't require strength advantages. Once you've neutralized their grips or established superior grips of your own, your passing success rate increases dramatically because you're now controlling the engagement distance and timing rather than reacting to their attacks.
-
-### Gordon Ryan
-
-When I'm on top against collar sleeve guard, my entire strategy revolves around preventing them from establishing their ideal grip structure and maintaining pressure that makes their attacks low percentage. If they get perfect collar sleeve grips on me, I'm immediately working grip breaks—I'm not trying to pass through perfect grips because that's exactly what they want. My preferred approach is to establish my own collar grips first, then work the toreando pass by controlling their knees and moving laterally to clear the guard before they can establish frames. Against opponents who are insistent on maintaining collar sleeve, I'll use the knee cut pass, driving my shin across their thighs while establishing a strong cross-face that flattens their hips and prevents them from maintaining the angle and distance they need for their sweeps to work. The key at the elite level is recognizing when they commit to attacks—when they go for that pendulum sweep, their legs extend and they're momentarily light on that side, which is exactly when I'm cutting my knee through to pass. You have to make their guard structure work against them by timing your passes to their attack commitments.
-
-### Eddie Bravo
-
-Dealing with collar sleeve guard is all about not letting them get comfortable and set up their attacks. The moment they start establishing those grips, I'm fighting immediately—I'm not waiting for them to get perfect position because once they've got solid collar sleeve control, they've got too many options. My go-to defense is to get grips on their pants at the knees and start moving, either going for the toreando or starting to move into my knee slice. What a lot of people don't realize is that collar sleeve guard is strong when you're static, but when you start moving and creating angles, it breaks down fast because they can't maintain the perfect distance and angle control they need. If they do get me in their guard with good grips, I'm using my free hand to grip fight and break that collar grip before I commit to anything. One thing I emphasize with my students is that passing collar sleeve isn't about one technique; it's about creating a passing dilemma where you threaten multiple passes so they can't focus all their defense on one technique. Threaten the toreando, and when they defend by bringing their knees together, you cut through with the knee slice. Make them defend multiple threats and they'll eventually give you the pass.
 
 </section>
 

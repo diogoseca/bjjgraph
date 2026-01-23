@@ -8,7 +8,7 @@ description: "Master Zombie Bottom position in BJJ. Defensive half guard variant
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -450,24 +450,6 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Zombie position represents an intelligent application of mechanical leverage principles within a defensive context. The lockdown mechanism creates a structural connection that transforms what would typically be a purely defensive posture into a dynamic offensive platform. By restricting the opponent's base through the locked leg, the bottom practitioner fundamentally alters the biomechanical equation - the passer must now solve two problems simultaneously: maintaining balance on a compromised base while attempting to advance position. The genius of this position lies in its ability to create what I call 'defensive offense' - maintaining frames and structure while continuously threatening sweeps and transitions. The key technical element is understanding that the lockdown creates a fulcrum point around which all movements revolve. When the bottom player extends their locked leg, they create a stretching force that disrupts the opponent's weight distribution, opening windows for guard recovery or sweep execution. The most sophisticated practitioners understand that the Zombie is not a static defensive shell but rather a transitional hub where timing and feel determine success more than raw strength or athleticism.
-
-### Gordon Ryan
-
-In competition, the Zombie position is most effective when you treat it as a temporary stopping point rather than a destination. I've used this extensively against guys trying to pressure pass my lockdown game - it gives you just enough control to reset the engagement on your terms. The reality is that at the highest levels, staying in Zombie for extended periods is dangerous because elite passers will eventually find ways to flatten you or take your back. The winning strategy is to immediately start hunting for the Old School Sweep or Electric Chair transition the moment you establish the lockdown. I've hit Old School Sweeps on world champions from this exact position because they're so focused on completing the pass that they don't properly defend the sweep mechanics. The key competitive insight is recognizing when your opponent is most off-balance - typically when they're trying to free their trapped leg or when they're driving forward with crossface pressure. These are your money moments to attack. Also, don't be afraid to abandon the position if you can't get the sweep - sometimes re-guarding to half guard is the smart play rather than getting stubborn and eating a pass. The Zombie works best as part of a flowing defensive system, not as a position you're trying to win from.
-
-### Eddie Bravo
-
-The Zombie is one of those positions that perfectly embodies the 10th Planet philosophy of turning bad positions into opportunities. I developed this as an answer to the problem every lockdown player faces: what do you do when someone's halfway through passing but you've still got their leg locked up? Traditional BJJ would tell you to let go of the lockdown and try to escape, but that's giving up your only control point. The Zombie says, 'No, keep that leg locked and use it as your weapon.' The beautiful thing about this position is that it creates these dilemma situations - if they pull back to free their leg, you Old School Sweep them. If they drive forward to smash you, you hit the Electric Chair or roll to the Truck. If they try to go around, you recover to lockdown or deep half. Every direction they move creates an opportunity for you. The name 'Zombie' comes from how you look when you're doing it right - you're rising up from the bottom position like you're coming back from the dead. It's also a mental game position because passers hate dealing with it. They think they've got you, they're halfway through the pass, and then suddenly they're locked down and defending sweeps. It messes with their confidence and rhythm. The key is being relentless with it - don't just survive, constantly attack with sweeps and transitions until they make a mistake.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master offensive strategies from top Mount. Learn control mechanic
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -464,24 +464,6 @@ Partner gives specific defensive reactions (frames, arm extensions, turns). Prac
 
 **Average Time in Position**: 2-4 minutes to submission at intermediate level with active attacks
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The mount position's effectiveness derives not from any single submission but from the systematic creation of submission chains where every defensive movement opens new offensive opportunities. Your primary focus should be establishing perfect control through weight distribution - heavy hips, light hands - before committing to any finish. The most common error is rushing to submissions from imperfect positions, which allows the opponent to escape. Instead, advance methodically from low mount to high mount to S-mount or technical mount, reading your opponent's reactions and selecting attacks based on their defensive choices. The armbar from mount should be viewed not as a single technique but as the culmination of a positional progression where you've systematically eliminated the opponent's defensive options. Master the concept of maintaining control throughout the submission attempt rather than abandoning position for the finish.
-
-### Gordon Ryan
-
-In competition, the mount gives me the highest percentage finishing rate of any position because I'm constantly attacking while maintaining perfect control. My approach focuses on making the opponent choose between bad options - if they frame to create space, I attack their extended arms. If they keep arms tight, I attack the neck. If they turn to escape, I take the back. The key is never being satisfied with static mount control. I'm always advancing position or threatening submissions, which forces mistakes under pressure. The cross collar choke and armbar are my primary weapons because they're high percentage and can be finished quickly. I practice mount submissions against fully resisting opponents daily, because the difference between drilling techniques and finishing them in competition is enormous. Your mount attacks need to be bulletproof under pressure.
-
-### Eddie Bravo
-
-Traditional mount submissions are solid, but you need to expand your arsenal for modern competition, especially no-gi. I emphasize the mounted triangle as a control position that leads to multiple submissions - the triangle itself, armbars from the triangle, or transitions to omoplata. The gift wrap from mount is another powerful control that shuts down escapes while setting up back takes. When someone knows all the standard mount escapes and submissions, you need creative options. The key is staying one step ahead mentally - while they're defending the americana, you're already setting up the armbar. While they're defending the collar choke, you're transitioning to the mounted triangle. Train your creativity in mount attacks by experimenting during rolling, not just drilling preset sequences. That's where innovation happens.
 
 </section>
 

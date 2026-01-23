@@ -8,7 +8,7 @@ description: "Master X-Guard Top in BJJ. Control opponent's inverted guard with 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 
 **Average Time in Position**: 30-90 seconds depending on skill differential and grip fighting success
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-X-Guard top position represents a fascinating study in leverage mechanics and systematic dismantling of opponent structure. The bottom player's inverted configuration creates specific mechanical disadvantages that the educated top player can exploit ruthlessly. The primary weakness lies in their reliance on the far leg hook - once this critical connection is severed or compromised, the entire position collapses. Your strategic focus should be threefold: first, establish dominant grips that prevent opponent extension and distance manipulation; second, apply forward pressure that compromises their ability to generate elevation; third, systematically remove the far hook through crossface pressure, knee extraction, or leg weaving. The beautiful aspect of this position is that opponent attempts to strengthen their position often expose them to leg entanglement attacks - particularly when they invert deeper seeking ashi garami positions. A competent top player should view X-Guard not as a threatening position to escape from, but rather as an opportunity to demonstrate superior understanding of positional mechanics and transition to dominant positions or leg attack systems.
-
-### Gordon Ryan
-
-When I'm in X-Guard top, I'm hunting for the pass but I'm also extremely aware of the leg attack opportunities. Most competitors make the mistake of only thinking about passing - they miss that X-Guard bottom is actually a terrible position for the bottom guy if you understand leg locks. The moment they start inverting or trying to transition to their leg attack systems, that's when you counter and enter your own leg entanglement. I've finished countless matches from saddle entries against opponents who thought they were attacking from X-Guard. The key is pressure - constant, heavy forward pressure that makes them uncomfortable and forces mistakes. Don't let them play their game at their pace. Strip their grips, smash through their structure, and if they give you the saddle entry, take it immediately. In competition, I probably finish more matches from leg locks off of X-Guard counters than I do from passing to traditional positions. The position has become so popular that being elite at dealing with it from top is absolutely mandatory for high-level no-gi competition.
-
-### Eddie Bravo
-
-X-Guard top is where you need to be ready for anything because the bottom guy can transition fast if you're not paying attention. At 10th Planet, we teach guys to recognize when the opponent is setting up their transitions and beat them to the punch. If they're going inverted trying to get to ashi or saddle, you should be entering your leg attack before they complete theirs - it's all about timing and recognition. The grip fighting is crucial here - you cannot let them control your sleeves and manipulate your posture. Once they have those grips, they can create angles and sweeps all day. I like the crossface smash pass from here because it takes away their mobility and forces them flat, which kills the X-Guard structure completely. But you've got to be fluid - if the smash isn't there, maybe you step over and take the back, or you weave through and establish headquarters. The worst thing you can do is be static and predictable. Keep them guessing, keep the pressure on, and don't be afraid to abandon one pass and switch to another if they're defending well. X-Guard is beatable if you stay mobile and aggressive.
 
 </section>
 

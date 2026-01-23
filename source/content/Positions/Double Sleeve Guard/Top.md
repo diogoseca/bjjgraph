@@ -8,7 +8,7 @@ description: "Master Double Sleeve Guard Top in BJJ. Complete guide covering pas
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -428,24 +428,6 @@ Start with opponent holding double sleeve grips. Practice breaking one grip, est
 
 **Average Time in Position**: 45-90 seconds before pass attempt or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The double sleeve guard represents a fundamental problem in guard passing that must be solved through systematic grip hierarchy understanding. The opponent's sleeve grips create a distance management system that prevents you from achieving dominant controls. Your primary objective is not merely to break these grips through strength, but to render them ineffective through superior positioning and angle creation. The key principle is recognizing that sleeve grips lose their power when you create angles perpendicular to the direction of their pulling force. By circling and creating angular pressure, you force the bottom player to constantly readjust their grips, creating windows of opportunity for passing entries. The biomechanical reality is that wrist-level grips are weaker than elbow-level grips when you rotate your arms internally while stepping to angles. This systematic approach to defeating the double sleeve configuration involves understanding grip strength vectors, positional hierarchy, and the concept of creating passing angles that minimize your opponent's defensive advantages. The practitioner who masters these principles can pass the double sleeve guard with technical precision rather than relying on athletic superiority.
-
-### Gordon Ryan
-
-In competition, the double sleeve guard is one of the most common defensive configurations you'll encounter, especially at higher levels where people understand guard retention. My approach is aggressive and based on overwhelming the grips through constant pressure and movement rather than trying to break them statically. I look to immediately establish my own grips on their pants or belt while accepting their sleeve grips temporarily, then use powerful toreando-style movements to throw their legs side to side. The reality is that strong sleeve grips become much less effective when I'm controlling their leg positioning and creating lateral movement. I'm constantly switching between different passing angles—toreando, knee slice, leg drag—forcing them to defend multiple threats simultaneously which naturally weakens their grip focus. When I do break grips, I prefer the elbow post method where I post my elbow on their thigh while rotating my wrist, combined with forward pressure. The key is never giving them a moment to settle into a comfortable defensive rhythm. I'll fake passes to one side to get reactions, then explode to the other side when their grips adjust. This high-pressure, multi-directional approach has given me consistent success against world-class guard players who rely heavily on sleeve control.
-
-### Eddie Bravo
-
-The double sleeve guard is interesting because it's very traditional gi-based defense, but the principles of defeating it apply to no-gi as well when people are trying to maintain distance with wrist control. My approach is to make them uncomfortable with their own grips by getting really low and heavy, almost like I'm going to dive into their guard, which forces them to either give up grips or accept me getting closer than they want. I'm also a big believer in the stack passing approach from here because when you stack someone properly, their sleeve grips actually work against them by preventing them from creating the space needed for hip escapes. I like to fake the toreando pass to get them thinking about lateral movement, then suddenly change levels and drive forward into a stack. Another 10th Planet principle is using the twister hook or calf slicer threat from certain passing positions, which makes them think about leg entanglement defense rather than maintaining sleeve grips. The creativity comes from mixing traditional passing with leg lock entries—if they're focused on sleeve grips and preventing you from passing, they're often not thinking about you sitting back for a straight ankle or transitioning to 50-50. The modern game requires being unpredictable and multi-dimensional in your passing approaches.
 
 </section>
 

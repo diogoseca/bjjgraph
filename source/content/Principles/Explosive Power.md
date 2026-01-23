@@ -8,7 +8,7 @@ description: "Master explosive power in BJJ. Learn force production, rate of dev
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Develop explosive power progressively building from strength foundation before emphasizing maximal velocity
 - Target sport-specific movement patterns rather than generic power development exercises
 - Recognize explosive power combines force production capacity with movement velocity and technique timing
@@ -179,9 +179,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Rapid Force Production**: The ability to recruit maximum motor units in minimal time, creating immediate force output essential for explosive movements like bridging escapes, dynamic sweeps, and takedown entries where delayed force application results in opponent counters or position consolidation
 
 **Movement Velocity Control**: Capacity to execute techniques at high speed while maintaining proper mechanics and body alignment, ensuring explosive movements remain technically sound rather than degenerating into uncontrolled flailing that compromises position and creates defensive vulnerabilities
@@ -202,28 +202,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Strength Development]]** (Prerequisite): Basic strength capacity provides the foundation upon which explosive power is built, as rate of force development depends on having adequate force production capacity to express at high velocity
-- **[[Biomechanical Principles]]** (Complementary): Understanding leverage, force vectors, and kinetic chain mechanics ensures explosive power is applied through mechanically optimal pathways that maximize technique effectiveness
-- **[[Timing and Rhythm]]** (Complementary): Proper timing determines when explosive efforts are deployed for maximum tactical advantage, as poorly timed power application wastes energy and creates defensive vulnerabilities
-- **[[Energy Management System]]** (Complementary): Strategic deployment of explosive efforts within overall energy budget prevents premature fatigue while ensuring power remains available for critical tactical moments
-- **[[Cardio Conditioning]]** (Extension): Aerobic capacity supports recovery between explosive efforts and maintains power output across extended training sessions or competition matches
-- **[[Leverage Principles]]** (Complementary): Proper leverage amplifies explosive force application, ensuring power is applied through mechanically advantageous angles that multiply effectiveness
-- **[[Hip Movement]]** (Extension): Hip explosiveness provides primary force generation for most BJJ movements, making hip power development critical for overall explosive capacity
-- **[[Off-Balancing]]** (Complementary): Explosive power enables rapid off-balancing when opponent's base becomes momentarily vulnerable, creating sweep and takedown opportunities
-- **[[Bridging Mechanics]]** (Extension): Explosive bridging represents specific application of power development for escapes and position recovery from bottom positions
-- **[[Hip Escape Mechanics]]** (Extension): Explosive shrimping and hip escapes require rapid force production to create space and recover guard positions
-- **[[Sweep Mechanics]]** (Complementary): Many sweep variations depend on explosive execution to generate rapid off-balancing before opponent can stabilize defensive structure
-- **[[Takedown Entry]]** (Complementary): Explosive level changes and penetration steps overcome opponent defensive reactions through speed of execution in takedown situations
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Explosive hip elevation and angle creation enables dynamic sweep entries like Hip Bump Sweep and Pendulum Sweep where rapid force generation breaks opponent's base before defensive adjustments occur
 
 **Half Guard**: Explosive underhook battles and knee shield movements create space and off-balance opponents, with power enabling rapid transitions to Deep Half Guard or sweep completions when brief windows open
@@ -262,9 +243,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current energy state and determine if explosive effort is sustainable without compromising subsequent performance**: Evaluate fatigue level, remaining match time, and tactical importance of current situation to decide if explosive power deployment is strategically justified
 2. **Identify tactical window where explosive movement creates positional advantage**: Recognize brief opportunities when opponent's balance, base, or defensive structure becomes momentarily vulnerable to rapid force application
 3. **Establish proper body mechanics and alignment before initiating explosive movement**: Position body to enable efficient kinetic chain function ensuring force generated in legs and hips transfers effectively through torso to point of technique application
@@ -277,9 +258,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Treating explosive power as substitute for proper technique rather than enhancement of sound mechanics
   - **Consequence**: Creates energy-inefficient movement patterns that fail against technically superior opponents who can neutralize athleticism through superior positioning and timing
   - **Correction**: Develop explosive power within context of proper technique execution, ensuring speed and force amplify mechanical advantage rather than compensate for technical deficiency
@@ -305,9 +286,9 @@ Explosive Power represents the capacity to generate maximum force in minimum tim
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Loaded Technical Drilling** (Focus: Develops sport-specific explosive power through movement patterns that directly transfer to competition while teaching proper force application within technical context)
 Execute specific BJJ techniques with resistance bands, weighted vests, or partner resistance while maintaining maximum velocity and proper mechanics
 
@@ -330,9 +311,9 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute explosive movements when fresh but experiences rapid power degradation under fatigue
 - Explosive efforts often compromise technical precision as speed and proper mechanics are treated as competing rather than complementary qualities
@@ -367,10 +348,26 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Strength Development]]** (Prerequisite): Basic strength capacity provides the foundation upon which explosive power is built, as rate of force development depends on having adequate force production capacity to express at high velocity
+- **[[Biomechanical Principles]]** (Complementary): Understanding leverage, force vectors, and kinetic chain mechanics ensures explosive power is applied through mechanically optimal pathways that maximize technique effectiveness
+- **[[Timing and Rhythm]]** (Complementary): Proper timing determines when explosive efforts are deployed for maximum tactical advantage, as poorly timed power application wastes energy and creates defensive vulnerabilities
+- **[[Energy Management System]]** (Complementary): Strategic deployment of explosive efforts within overall energy budget prevents premature fatigue while ensuring power remains available for critical tactical moments
+- **[[Cardio Conditioning]]** (Extension): Aerobic capacity supports recovery between explosive efforts and maintains power output across extended training sessions or competition matches
+- **[[Leverage Principles]]** (Complementary): Proper leverage amplifies explosive force application, ensuring power is applied through mechanically advantageous angles that multiply effectiveness
+- **[[Hip Movement]]** (Extension): Hip explosiveness provides primary force generation for most BJJ movements, making hip power development critical for overall explosive capacity
+- **[[Off-Balancing]]** (Complementary): Explosive power enables rapid off-balancing when opponent's base becomes momentarily vulnerable, creating sweep and takedown opportunities
+- **[[Bridging Mechanics]]** (Extension): Explosive bridging represents specific application of power development for escapes and position recovery from bottom positions
+- **[[Hip Escape Mechanics]]** (Extension): Explosive shrimping and hip escapes require rapid force production to create space and recover guard positions
+- **[[Sweep Mechanics]]** (Complementary): Many sweep variations depend on explosive execution to generate rapid off-balancing before opponent can stabilize defensive structure
+- **[[Takedown Entry]]** (Complementary): Explosive level changes and penetration steps overcome opponent defensive reactions through speed of execution in takedown situations
+
+
+### Related Content
 - [[Hip Bump Sweep]] (Transition) - Primary application of explosive hip elevation and upper body pulling to generate rapid off-balancing from closed guard
 - [[Butterfly Sweep]] (Transition) - Exemplifies explosive hook elevation combined with upper body control to execute rapid sweeping movements
 - [[Scissor Sweep]] (Transition) - Demonstrates explosive leg extension and pulling mechanics that require rapid force production for successful completion
@@ -384,15 +381,6 @@ Emphasize rapid transitions between eccentric and concentric actions through exe
 - [[Energy Management System]] (Principle) - Strategic framework governing when and how explosive power is deployed within overall energy budget
 - [[Scramble Position]] (Position) - Transitional context where explosive power often determines positional outcomes when technical structures break down
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches explosive power from biomechanical optimization perspective, emphasizing that technical positioning and timing create the conditions where explosive force becomes most effective rather than treating power as purely athletic quality. Systematically analyzes which techniques benefit most from explosive force application and which are better executed through controlled pressure, advocating for strategic power deployment rather than constant explosiveness. Particularly emphasizes the importance of developing explosive power in sport-specific movement patterns through loaded technical drilling rather than generic power exercises that may not transfer effectively to BJJ contexts. Views power development as component of comprehensive athletic preparation that must be integrated with technical skill acquisition rather than pursued as separate training objective, ensuring explosive capacity enhances rather than compromises positional jiu-jitsu principles.
-- **Gordon Ryan**: Views explosive power as significant competitive advantage that enables tactical approaches unavailable to less explosive athletes, particularly in scrambles and transition moments where athletic qualities dominate. Focuses heavily on what he terms functional explosiveness where power must be accessible under fatigue and stress rather than just when fresh, emphasizing that competition-relevant power endurance matters more than single-effort maximum power. Advocates for maintaining explosive power throughout career through consistent training even as technical refinement reduces reliance on pure athleticism, viewing power as performance insurance enabling additional tactical options. Particularly emphasizes the competitive value of superior scrambling ability derived from explosive power, noting that matches often hinge on transitional moments where technical positions temporarily break down and athletic superiority determines who establishes dominant position. Recommends strategic power deployment targeting high-value opportunities rather than constant explosive effort that leads to premature fatigue.
-- **Eddie Bravo**: Approaches explosive power with emphasis on efficiency and technique integration rather than maximum force production, having developed systems that often prioritize control and strategic positioning over explosive athleticism. When teaching power development, emphasizes importance of understanding when explosive efforts are tactically justified versus when controlled movement is superior, warning against excessive reliance on explosiveness that can compromise positional stability. Particularly interested in developing elastic strength and reactive power through movement-based training rather than heavy strength training, believing this approach better preserves joint health and movement quality over career longevity. Views explosive power as valuable tool but cautions against allowing athletic superiority to become crutch that prevents development of sophisticated technical skill, advocating for power development that complements rather than substitutes for technical refinement in systematic positional progression.
 
 </section>
 

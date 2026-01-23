@@ -8,7 +8,7 @@ description: "Master attacking Chill Dog from top position. Learn to break defen
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -468,24 +468,6 @@ Start every round with partner in Chill Dog and you attacking from top. You scor
 
 **Average Time in Position**: 30-60 seconds to establish back control or dominant position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Attacking Chill Dog requires a systematic approach to breaking down the defensive shell. The key is understanding that the position's strength - the closed elbow-to-knee frame - is also its fundamental weakness. When you create pressure that forces the bottom practitioner to post on one hand or adjust their base, that momentary separation of elbow from knee is your entry point for establishing hooks or attacking the arm. From a strategic perspective, you must create dilemmas where every defensive choice opens a different offensive opportunity. If they keep elbows tight to defend the back take, you can attack the neck with front headlock controls. If they defend the front headlock by pulling their head back, you can establish the crucifix by trapping the posting arm. The patient attacker maintains consistent pressure while waiting for these defensive adjustments, then capitalizes explosively when the window opens. Remember that in no-gi especially, your ability to maintain this pressure without gi grips requires superior weight distribution and understanding of pressure points on the human body.
-
-### Gordon Ryan
-
-From the top of Chill Dog, I'm looking to create a specific reaction that opens up my preferred attack - usually the back take or front headlock. Against guys who know how to defend turtle well, you can't just muscle your way in. You have to make them think you're going for one attack, then capitalize when they defend. For example, I'll threaten heavy chest pressure like I'm trying to flatten them, which makes them post harder on their hands to maintain base. The moment they post heavy, I'm attacking that posting arm for the crucifix or wrapping the head for a guillotine. The key is not committing 100% to any single attack until you see the defensive frame start to break. Stay heavy, keep threatening, and the moment you feel that elbow come off the knee or the head start to lift, that's when you explode into your finish. At the highest levels, this position doesn't last long - either I'm establishing my control within 20-30 seconds or the guy is escaping. The window is small, so your technique has to be sharp and your timing has to be perfect.
-
-### Eddie Bravo
-
-Attacking Chill Dog is all about understanding the 10th Planet defensive system and knowing where the vulnerabilities are. When someone adopts this position, they're basically saying 'I'm not letting you take my back the standard way.' So you have to get creative with your attacks. The truck position is money from here - you control the near-side hip and far-side shoulder, and even if they maintain their defensive shell, you can still establish the lockdown and start working toward the twister or calf slicer. Another high-percentage attack is the crucifix, especially in no-gi where they can't hide behind gi grips. The moment they post on one arm to defend your pressure, you trap that arm and go to work. But here's the thing - you can't just attack randomly. You have to have a system where each attack flows into the next one. If the truck gets defended, you're already transitioning to the back take. If the back take gets defended, you're going for the front headlock. This is about creating chains of attacks that don't give them time to reset their defensive position. Keep the pressure on, stay creative, and don't let them get comfortable enough to execute their escapes.
 
 </section>
 

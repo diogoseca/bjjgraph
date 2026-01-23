@@ -8,7 +8,7 @@ description: "Master offensive headquarters position in BJJ. Dominant half guard
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Start in headquarters position with clear objectives—top player works to pass,
 
 **Average Time in Position**: 45-90 seconds for intermediate practitioners, longer for beginners establishing control, shorter for advanced practitioners with systematic approach
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Headquarters position represents a systematic checkpoint in the guard passing sequence where control must be consolidated before advancement. The key mechanical principle is the establishment of what I call the 'control triangle'—three points of contact that create a stable framework: crossface or underhook on the upper body, hip pressure through the center line, and base leg positioned for stability and mobility. The most common error I observe is practitioners treating headquarters as a transitional position rather than recognizing it as a distinct control state requiring specific mechanical attributes. You must understand that effective headquarters control creates a dilemma for your opponent—they cannot simultaneously defend the pass, prevent submissions, and maintain their guard structure. By systematically attacking all three elements in sequence, you force a breakdown in their defensive framework. The biomechanical efficiency of headquarters lies in its pressure distribution—your weight flows through the opponent's breathing muscles and diaphragm, creating cumulative fatigue that compounds over time while you maintain a relatively low energy expenditure through proper skeletal alignment.
-
-### Gordon Ryan
-
-In competition, headquarters is where I live when passing half guard because it gives me complete control while preserving all my passing options. The reality is that most guys will tap from the pressure alone if you establish proper headquarters control for 2-3 minutes—they simply can't breathe effectively and their defensive responses become progressively weaker. My approach is to establish heavy crossface pressure immediately, get my hips forward so they're carrying my entire weight through their chest and diaphragm, and then systematically attack their defensive structure with grip fighting and pressure variations. What separates elite level headquarters control from intermediate is the ability to maintain maximum pressure while still being mobile enough to flow between passing sequences without losing control. I'm constantly switching between knee slice threats, long step setups, and submission attacks, using each threat to create reactions that open up the others. Against high-level competition, you can't just muscle through one passing sequence—you need to create a systematic dilemma where every defensive choice they make exposes them to a different attack. The kimura is absolutely critical from this position because it forces them to defend their arm, which weakens their ability to maintain frames and guard structure.
-
-### Eddie Bravo
-
-Headquarters is interesting because it represents the traditional pressure passing game, which is exactly what we're trying to avoid from bottom with our 10th Planet half guard system. When someone establishes proper headquarters on me, I'm immediately looking for lockdown to kill their mobility, or I'm working to get under for deep half because staying in standard half guard against good headquarters pressure is a losing battle. From the top perspective though, understanding headquarters is critical because you need to know how to shut down all the 10th Planet escapes and attacks. The key innovation I've brought to headquarters control is integrating the whip-up and whip-down mechanics—instead of just maintaining static pressure, you create dynamic pressure changes that disrupt the bottom player's timing and structure. When they expect heavy pressure and you suddenly lighten up, they often overcommit to their escape attempt and expose their back or create space for the pass. The other critical element is hand fighting—you absolutely have to control their inside hand because that's what they use to establish underhooks or create frames. I teach a specific sequence of grip fighting from headquarters that systematically strips their defensive grips while establishing your dominant controls, and once you have that control framework, the pass becomes almost inevitable unless they're willing to give up their back.
 
 </section>
 

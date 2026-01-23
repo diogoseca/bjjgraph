@@ -8,7 +8,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -418,24 +418,6 @@ Drill seamless entries from guard positions (SLX, De La Riva, X-Guard) into vari
 
 **Average Time in Position**: 45-90 seconds before position resolution through escape, submission, or advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Ashi Garami system represents the most significant technical development in submission grappling over the past two decades. What distinguishes modern leg lock methodology is the systematic, hierarchical approach to position—treating leg entanglements not as desperate scrambles but as controllable positions with clear advancement pathways. The key insight is recognizing that heel exposure and inside space control determine position quality more than position type. A practitioner in Outside Ashi with superior inside control holds better position than an opponent in Inside Ashi without it. Success in these positions requires patience to advance systematically rather than forcing submissions from inferior positions. The bilateral nature of leg entanglements creates unique strategic considerations—both practitioners can attack simultaneously, making defensive awareness equally critical as offensive technique. Master the hierarchy, control inside space, protect your own heel, and the finishing opportunities emerge naturally from superior positioning.
-
-### Gordon Ryan
-
-Ashi Garami positions have completely changed high-level no-gi competition. The positions are so dominant because they neutralize size and strength advantages while creating equal or better submission opportunities than traditional top positions. My competition strategy revolves around forcing opponents into leg entanglement exchanges where I have superior technical understanding and positional recognition. The reality is most competitors, even at black belt level, lack comprehensive leg lock defense and position understanding, making these positions incredibly high-percentage for those who invest in systematic study. The key to competition success is patience—I'll hold Outside or Inside Ashi for minutes if necessary, waiting for the precise moment when inside space and heel exposure align for advancement to Saddle or Cross Ashi. Don't force the finish; let superior position create the opportunity. When you have Saddle with proper mechanics, the match is effectively over. Focus on position quality over submission attempts, and your finishing rate will increase dramatically.
-
-### Eddie Bravo
-
-The leg lock revolution vindicated what we were exploring in 10th Planet for years—there are entire positional dimensions beyond the traditional top-bottom hierarchy. Ashi Garami positions are beautiful because they create chaos within structure, allowing smaller, technical practitioners to compete with larger, stronger opponents on equal or superior terms. The positions embody the principle of modern grappling: force your opponent into dilemma situations where all their defensive options expose them to different attacks. In 50-50, defending the heel exposes the calf, defending the calf exposes the heel, and attempts to escape create opportunities for positional advancement. What makes these positions revolutionary is how they democratize submission opportunities—you don't need to be Gordon Ryan's size to finish Gordon Ryan-sized opponents when you have Saddle with proper mechanics. The technical equalizer aspect is profound. Train the system comprehensively, not just the flashy finishes, and you'll develop a complete game that works at every level of competition.
 
 </section>
 

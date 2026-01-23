@@ -8,7 +8,7 @@ description: "Master Shin Shield Recovery in BJJ. Essential defensive framing fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -361,15 +361,6 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 - [[Guard Recovery]] - Conceptual framework - Shin shield exemplifies core guard retention principles
 - [[Hip Escape Mechanics]] - Fundamental movement - Hip escape creates space necessary for shin shield insertion
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The shin shield represents one of the most biomechanically sound defensive structures available from half guard. The shin bone, when properly positioned across the opponent's torso, creates a rigid frame that is extremely difficult to collapse through forward pressure alone. The key is understanding that the shin shield is not merely a passive barrier but an active pressure system. You must generate constant extension force through the leg, treating it as a piston that continuously pushes the opponent away. The effectiveness is maximized when you combine three elements: proper hip angle to prevent flattening, upper body control to prevent circumvention of the shield, and active leg extension to maintain distance. Many practitioners fail because they focus solely on getting the shin in position without maintaining the structural angle and active pressure. The shin shield should be thought of as the defensive equivalent of combat base for top position—it's the foundation from which all your half guard retention mechanics operate.
-- **Gordon Ryan**: In competition, shin shield recovery is absolutely essential for maintaining guard against high-level pressure passers. I've used this extensively against guys like Felipe Pena and Kaynan Duarte who excel at smashing through half guard. The critical detail for competition effectiveness is timing—you cannot wait until you're completely flattened to attempt recovery. At the elite level, once your back hits the mat flat, the pass is essentially complete. I initiate shin shield recovery the moment I feel my knee shield beginning to collapse. The combination of shin shield with inside underhook creates an almost impenetrable defensive structure that buys you time to assess and execute your counter-offense. Against world-class opponents, I'll often use shin shield as a transitional position—establish it quickly to stop their passing momentum, then immediately flow to deep half or back-take attempts before they can establish counters. The shin shield is most effective when used dynamically as part of a larger defensive system rather than as a static position to hold.
-- **Eddie Bravo**: The shin shield is fundamental to the entire 10th Planet half guard system and connects directly to our lockdown game. What most people miss is that the shin shield is incredibly versatile—you can adjust the height to completely change the position's dynamics. High shin shield, around the shoulders, sets up electric chair and omoplata variations. Low shin shield, at the hips, connects perfectly to lockdown entries and whip-up sweeps. We emphasize the active nature of the shin—it's not just sitting there, it's constantly pushing, adjusting, creating angles. One of our key innovations is using the shin shield to create 'question marks'—positions where the opponent has to choose between bad options. If they drive into the shin shield, you can transition under for deep half or reverse half. If they back away to avoid the pressure, you recover full guard and go on the offensive. The shin shield is also your safety net when you're being too aggressive from half guard—if your sweep attempt or submission setup fails, you can always recover to shin shield and reset. It's the defensive anchor that allows you to play aggressively because you always have this reliable recovery position to fall back on.
 
 </section>
 

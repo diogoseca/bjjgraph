@@ -8,7 +8,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -340,15 +340,6 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 - [[Kneebar from Guard]] - Submission option - leg attack from entanglement
 - [[Guard Retention]] - Principle - maintaining guard after entry
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Standing to Single Leg X entry represents a fundamental principle of modern guard pulling strategy: the conversion of standing engagement into immediate offensive advantage through biomechanical leverage. Traditional guard pulls often result in neutral positions where both athletes must fight for advantage, but Single Leg X creates instant asymmetry - you control one of their legs completely while maintaining distance management through your outside foot frame. The critical technical element that most practitioners miss is the depth of hip descent during entry. Your hips must drop below their knee level to establish proper positioning; insufficient depth allows forward pressure that destroys the guard structure. The inside hook functions as a fulcrum around their knee joint, and when combined with proper hip positioning and grip control, creates a simple machine where small movements generate large sweeping forces. Understand that this position exemplifies the concept of 'control before submission' - establish dominant structural position first, then attack. The immediate sweep attempt after entry prevents defensive stabilization and maintains offensive momentum, which is the hallmark of effective guard work.
-- **Gordon Ryan**: In competition, the Standing to Single Leg X pull is one of my highest-percentage entries because it creates problems for the top player immediately. Most opponents expect traditional guard pulls to seated positions, so dropping under their leg catches them in transition before they can establish defensive posture. The key to making this work at the highest level is understanding timing - you need to hit the entry as they step forward or shift weight, not when they're stationary with even weight distribution. I always think about this entry as part of a combination system. If they defend the Single Leg X pull by sprawling back, I'm already transitioning to Reverse De La Riva or standing back up for another entry. If they drive forward into it, I'm inverting under or converting to X-Guard with the second hook. The worst thing you can do is get stuck in static Single Leg X while they grip your pants and start passing - you have maybe two seconds to sweep or transition before you're defending. In no-gi especially, this entry opens up the entire leg entanglement game, which is where modern competition is won. Master this entry and you control how the match flows from standing to ground.
-- **Eddie Bravo**: The Standing to Single Leg X pull is crucial in the 10th Planet system because it gets you immediately into leg attack positions without playing traditional guards that rely on gi grips. In no-gi, controlling distance and creating sweep angles is everything, and Single Leg X gives you both instantly. What makes this entry special is how it combines takedown-style level changes with guard pulling mechanics - you're essentially shooting a single leg but converting to bottom position with control. The grip work here is critical in no-gi since you don't have cloth to hold. I prefer wrist control over sleeve grips because it translates to no-gi perfectly and gives you direct connection to their arm. Once you establish this position, you've got all the Eddie Bravo modification options - you can invert into Electric Chair territory, you can come up for the technical stand-up, or you can start working into the Honey Hole leg entanglement system. The beauty is that from Standing to Single Leg X, you're never just defending - you're constantly attacking with sweeps and leg locks. Train this entry until it's automatic because in no-gi competition, whoever establishes bottom position first with offensive advantage usually controls the entire guard passing exchange.
 
 </section>
 

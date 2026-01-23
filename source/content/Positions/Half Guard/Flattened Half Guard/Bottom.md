@@ -8,7 +8,7 @@ description: "Learn defensive tactics for surviving and escaping flattened half 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -408,24 +408,6 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 **Average Time in Position**: 15-45 seconds before pass or recovery
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The flattened half guard represents a critical test of defensive fundamentals where biomechanical efficiency becomes paramount. When your opponent's mass settles onto your sternum, you cannot rely on strength or athleticism to create the space required for guard retention. Instead, you must understand the precise angles and timing of hip escape mechanics that generate space despite opposing pressure. The key insight is that space creation under pressure operates on different principles than space creation in neutral positions. You must learn to feel the subtle weight shifts in your opponent's pressure and time your shrimping movements to coincide with these shifts. When they drive forward, you accept the pressure momentarily while positioning your frames. As their pressure wave passes its peak, you execute your hip escape into the brief moment of reduced pressure. This rhythmic approach - accepting pressure, positioning frames, escaping during pressure reduction - creates the cumulative space needed for guard recovery.
-
-### Gordon Ryan
-
-In competition, ending up in flattened half guard usually means you've already made defensive mistakes earlier in the exchange. The position itself isn't where you want to showcase technique - it's damage control. My approach is simple: protect the underhook at all costs and don't panic. Ninety percent of guys who get flattened start making desperate escape attempts that just burn energy and telegraph their movements. I stay calm, control my breathing, and wait for my opponent to make their move. When they post to advance or shift weight, that's my window. One good hip escape creating six inches of space, immediately fill it with my elbow, that's progress. Stack enough of these small wins and you're back to knee shield. The mental game matters here more than most positions - staying patient and technical while uncomfortable separates competitors from hobbyists.
-
-### Eddie Bravo
-
-The Lockdown completely changes the game when you're flattened. Traditional half guard guys try to hip escape and create frames, which works but takes a lot of time and energy. With the Lockdown, you accept being flat temporarily but you control their leg so they can't advance. They're stuck dealing with your leg control while you work to create upper body space. From there, you can either work the standard Electric Chair path or use the Lockdown as a stabilizing platform while you recover your frames. The psychological advantage is huge too - they're expecting you to panic and try framing out, but instead you calmly lock down their leg and now they're stuck in your game. I've seen guys completely stall out top players this way. They expend all this energy flattening you, but then can't actually complete the pass because the Lockdown prevents leg extraction.
 
 </section>
 

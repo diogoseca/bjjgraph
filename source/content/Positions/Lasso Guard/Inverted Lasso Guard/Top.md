@@ -8,7 +8,7 @@ description: "Master top inverted lasso guard defense. Complete guide to prevent
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,24 +443,6 @@ Start in established inverted lasso guard. Top player has 2 minutes to systemati
 
 **Average Time in Position**: 10-30 seconds (until pass or sweep)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending inverted lasso guard requires understanding the mechanical disadvantage inherent in the position for the top player. When your opponent inverts with the lasso intact, they transform a perpendicular lever into an oblique fulcrum, increasing their effective force application by a factor of three or more. Standard pressure responses fail because you're pushing into a fulcrum point rather than against a resistance. The systematic solution is to recognize that three elements must exist simultaneously for their attacks to work: the lasso lock itself, hip mobility enabling rotation, and proper angle relative to your base. Your defense must target these systematically. First priority is preventing hip mobility by controlling the hips with your free hand - this single control point eliminates berimbolo and significantly reduces sweep probability. Second is maintaining base angle that doesn't feed into their sweep vectors - pressure must angle toward their shoulders, never straight down onto hips. Third, when opportunity presents, address the lasso lock by creating slack and extracting the arm. The most sophisticated defense is the cartwheel counter-rotation, which mirrors their berimbolo movement but in reverse, allowing you to take their back as they attempt to take yours. This requires understanding that rotational movements can be followed and matched rather than resisted. The key technical element is recognizing the inversion initiation immediately - every millisecond of delay exponentially increases their advantage. Train pattern recognition specifically for the shoulder drop and hip rotation that signals inversion, responding reflexively rather than reactively.
-
-### Gordon Ryan
-
-From top, inverted lasso is definitely in their favor percentage-wise, but it's not unbeatable. The key is recognizing it early and committing to your counter immediately - if you hesitate or try to feel it out, you're getting swept or berimbolo'd. My primary response is aggressive hip control with my non-lassoed side hand, really grabbing their hip bone and preventing any rotation. This shuts down berimbolo completely and makes overhead sweeps way harder. If I get the hip control established, I can work on extracting my arm systematically. The mistake most people make is trying to rip their arm out - that almost never works. Instead, I'm creating angles and using my body position to create slack in the lasso, then sliding the arm out when space appears. Against really good inverted lasso players, sometimes I'll actually accept going into a scramble rather than trying to pass cleanly. If they're inverting constantly, I'll cartwheel over and scramble for back position. Yeah, it's risky, but so is sitting in their guard trying to pass while they attack constantly. In competition, I've found that putting heavy shoulder pressure on their inverted shoulders makes them want to come back up - it's uncomfortable to support someone's weight on your shoulders. So I'll pressure there strategically, not to pass directly but to make them abandon the inversion. Once they come back to upright lasso, I'm back in my comfort zone for passing. The other thing is conditioning - maintaining good defense against inverted lasso for 10+ minutes is exhausting because you're constantly balancing and adjusting. I make sure I'm in superior cardio shape so I can outlast their inversion attempts.
-
-### Eddie Bravo
-
-Inverted lasso from top is where you really see the modern evolution of jiu-jitsu - it's such a dynamic, movement-based position that traditional passing wisdom doesn't apply. The way we approach it at 10th Planet is accepting that you're in a scramble-based situation rather than a static pass. When someone inverts on you with lasso, you have to be willing to move with them, not just resist. The cartwheel counter is huge - following their rotation and trying to take their back as they try to take yours. It becomes this race where whoever completes the rotation first wins. We drill this scenario constantly because it shows up all the time in competition now. Another concept is that inverted positions are inherently exhausting for the bottom player. If you can make them invert multiple times without giving up the sweep, they'll gas out and their technique will get sloppy. So sometimes the smart play is defending well and making them work rather than forcing a pass into their strengths. I also teach a variation where if they invert, you immediately step your non-lassoed leg over their inverted body and start working towards a leg drag position or even saddle entries. Their inverted position exposes their legs in interesting ways. The advanced game is turning their inversion into leg lock opportunities. One thing that helps is training inverted guard yourself - once you understand the position from bottom, you know exactly what they need to make it work and you can deny those elements specifically. It's not a position you can just muscle through; you need technical understanding and willingness to engage in the scramble.
 
 </section>
 

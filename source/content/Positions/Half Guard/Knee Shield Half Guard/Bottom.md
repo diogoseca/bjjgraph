@@ -8,7 +8,7 @@ description: "Master Knee Shield Half Guard Bottom in BJJ. Essential defensive h
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -432,24 +432,6 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 **Average Time in Position**: 1-3 minutes depending on skill differential and passing strategy
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The knee shield half guard represents a fundamental application of structural mechanics in guard retention. The shin creates what I call a 'distance management system'—it's not merely a passive barrier but an active tool for controlling the spatial relationship between you and your opponent. The critical insight is that the knee shield must be combined with upper body frames and hip mobility to create a complete defensive system. Many practitioners make the error of relying solely on the knee shield itself, but this is insufficient against skilled passers. You must understand that the knee shield's effectiveness is predicated on maintaining proper distance—too close and it collapses, too far and you lose control. The position demands constant micro-adjustments in shield height and angle based on opponent pressure vectors. From an offensive perspective, the knee shield creates the distance necessary for sweep mechanics to function—you cannot generate effective sweeping leverage when flattened. The underhook becomes exponentially more powerful when combined with the distance created by the shield, allowing you to control opponent posture and create the angles necessary for high-percentage sweeps.
-
-### Gordon Ryan
-
-Knee shield half guard is absolutely essential in modern competitive grappling, and I use it extensively in my own game when playing bottom position. The reality is that against high-level competitors, you cannot afford to get flattened in half guard—once they establish the crossface and flatten you out, you're in survival mode and the pass is inevitable. The knee shield prevents this from happening and keeps you in the fight. My approach is aggressive—I'm not just maintaining the shield defensively, I'm constantly threatening the old school sweep and back takes to keep my opponent honest. If they respect the sweep threat, they can't commit fully to the pass. If they ignore it, I take their back or sweep them. The key detail most people miss is the grip fighting—you absolutely must control their sleeves or collar to prevent them from getting the underhook and crossface combination. Once they get both grips, even the best knee shield won't save you. I also use the position as a gateway to my leg lock game—when opponents stand to pass the knee shield, that's my entry to outside ashi and saddle positions. The knee shield creates the distance I need to enter leg entanglements safely.
-
-### Eddie Bravo
-
-The knee shield is fundamental to the 10th Planet system, and we've developed it into something much more dynamic than the traditional approach. We call it the 'electric fence' because it's not just a static barrier—it's an active threat that's constantly electrifying the position with sweep and transition possibilities. In no-gi especially, the knee shield is your lifeline because you don't have collar grips to maintain distance. What makes our approach different is we're always looking to combine the knee shield with lockdown control or transition to electric chair and other 10th Planet positions. The moment someone tries to smash through the shield, we're going deep half or transitioning to the truck position. We've also developed specific setups for the vaporizer and other leg attacks from the knee shield that most people don't see coming. The shield creates the perfect angle for these attacks because your opponent is focused on passing and doesn't recognize the submission threats. Another thing we emphasize is using the shield to create the whip-up motion—you're not just blocking with the knee, you're using it to off-balance and create sweeping momentum. When you combine the shield with strategic lockdown moments, you create a system where the opponent can never settle and establish their pressure game.
 
 </section>
 

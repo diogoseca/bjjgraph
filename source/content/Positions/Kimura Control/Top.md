@@ -8,7 +8,7 @@ description: "Master Kimura Control from top in BJJ. Dominant control position w
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -457,24 +457,6 @@ Bottom partner starts in turtle position, top partner works to establish Kimura 
 
 **Average Time in Position**: 20-60 seconds before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Kimura Control from top position represents the optimal expression of this grip structure because gravity and weight distribution work synergistically with the mechanical advantage of the figure-four configuration. The fundamental principle to understand is that the Kimura grip creates what I call a 'positional submission'—a control position where the submission threat is so immediate and dangerous that it functionally controls the opponent's movement options even when you're not actively finishing. From top position, this becomes extraordinarily powerful because you can use your bodyweight to remove the opponent's ability to create defensive frames while simultaneously applying rotational pressure to the shoulder joint. The key technical element that separates effective from ineffective Kimura Control Top is hip position: your hips must remain low and heavy on the opponent's torso to prevent them from creating the space necessary for escape, while your grip maintains the arm at the precise angle that maximizes shoulder vulnerability. When executed properly, the opponent faces an impossible choice: defend the immediate submission by keeping their structure tight and accepting whatever positional advancement you choose, or attempt to escape and immediately expose themselves to the finish. This is the essence of high-level control—creating positions where all defensive options lead to your advancement.
-
-### Gordon Ryan
-
-From top position, Kimura Control is one of my highest-percentage finishing positions because it combines heavy pressure with immediate submission threat and gives you multiple backup options if the finish isn't there. In competition, once I establish this grip from side control or north-south, I'm constantly feeling for the opponent's defensive reactions—if they're defending hard and keeping their structure tight, I know I can easily transition to mount or take the back while keeping the grip. If they make any mistake in their defense or try to create space, I immediately have the finish available. The beautiful thing about top Kimura is that unlike many submission positions where you have to compromise your base or position to finish, here you can maintain heavy top pressure throughout the entire finishing sequence. My go-to setup is from side control: I isolate the far arm, establish the grip, then immediately start working north-south positioning because that angle gives me the maximum leverage for the finish. If they roll away to defend, that's actually my favorite reaction because it gives me the back take, and if they flatten out to prevent the roll, I have all the time in the world to work the submission. The key is never releasing that grip once you have it—use it as an anchor for everything else you do, whether that's advancing position or finishing the submission.
-
-### Eddie Bravo
-
-Top Kimura Control is absolutely devastating in no-gi because once you have that grip locked in, the opponent is basically fucked—they can't effectively defend both the submission and the positional advancement at the same time. What we've developed in the 10th Planet system is using the Kimura grip from top not just as a submission finish, but as a systematic control position that connects to our entire top game. From this control, you can hit the classic Kimura finish, transition to mount while keeping the grip for even better leverage, take the back when they roll, or even set up arm triangles and other submissions when they defend. One of my favorite sequences is the Kimura from turtle—when someone turtles up, that arm is just sitting there waiting to be grabbed, and once you have the grip, you can basically steer them wherever you want like a motorcycle handlebar. We drill this extensively with what we call 'Kimura flow,' where you learn to maintain the grip through dynamic position changes and scrambles. The innovation we've added is combining Kimura Control with our twister side control and truck positions—when you understand how these positions connect, you can create absolutely brutal submission chains where every defense leads to another attack. The key is getting comfortable finishing from unconventional angles and positions, not just the textbook side control setup. Get that grip locked in tight and then get creative with how you use it.
 
 </section>
 

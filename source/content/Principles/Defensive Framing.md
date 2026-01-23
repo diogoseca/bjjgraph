@@ -8,7 +8,7 @@ description: "Master defensive framing in BJJ. Learn elbow structure, connection
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Establish frames using skeletal alignment with elbows at optimal angles (90-110 degrees) for maximum strength
 - Position frame connection points on opponent's skeletal structures (hips, shoulders) rather than soft tissue
 - Create multiple simultaneous frames to distribute pressure and prevent single-point collapse
@@ -179,9 +179,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Elbow Structure Management**: The ability to maintain optimal elbow angles (90-110 degrees) under pressure by keeping elbows tight to the body while creating extension through shoulder positioning rather than arm straightening. This prevents the common error of overextending arms which creates weak frames that collapse easily under pressure.
 
 **Connection Point Selection**: The tactical skill of identifying and maintaining frame contact on opponent's skeletal landmarks (iliac crest, shoulder bones, collarbone) rather than muscular areas, ensuring frames cannot be easily compressed or redirected. This includes recognizing how connection points change as opponent shifts position and adjusting frame placement accordingly.
@@ -202,28 +202,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Defensive Frame]]** (Prerequisite): Defensive Frame provides the theoretical foundation and conceptual understanding that Defensive Framing implements technically. Understanding frame principles is necessary before executing specific framing techniques effectively.
-- **[[Frame Management]]** (Complementary): Frame Management governs the broader strategic decisions about when and where to establish frames, while Defensive Framing focuses on the technical execution details of creating and maintaining those frames under pressure.
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and defensive framing work synergistically—frames create the space necessary for hip movement, while hip movement allows for frame recovery and repositioning. Neither is fully effective without the other.
-- **[[Space Creation]]** (Extension): Defensive Framing serves as the primary technical method for implementing space creation principles in bottom positions, translating the strategic goal of creating space into specific arm and hand positioning techniques.
-- **[[Dealing with Pressure]]** (Complementary): While Dealing with Pressure encompasses multiple strategies including acceptance and redirection, Defensive Framing provides the primary technical tool for preventing pressure from achieving full crushing effect on the body.
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics is fundamental to effective framing—knowing why specific elbow angles and connection points create stronger frames than others requires comprehension of basic leverage and mechanical advantage principles.
-- **[[Guard Retention]]** (Extension): Defensive framing serves as the foundational skill set that enables effective guard retention by preventing opponent from achieving crushing chest-to-chest control necessary for guard passing.
-- **[[Escape Fundamentals]]** (Complementary): All fundamental escapes depend on effective framing to create the initial space necessary for escape movement execution, making defensive framing an essential prerequisite for successful escape systems.
-- **[[Bridge and Shrimp]]** (Complementary): Bridge and shrimp movements work together with frames in an integrated system—frames hold space while bridges and shrimps create additional distance, and these movements also serve to recover collapsed frames.
-- **[[Base Maintenance]]** (Alternative): While base maintenance focuses on preventing opponent from creating frames (top position perspective), defensive framing represents the bottom position counterpart—establishing frames despite opponent's base and pressure.
-- **[[Distance Creation]]** (Extension): Defensive framing is the primary technical tool for distance creation from bottom positions, providing the specific mechanical methods for implementing distance creation strategies.
-- **[[Energy Conservation]]** (Complementary): Effective defensive framing significantly reduces energy expenditure in bottom positions by using skeletal structure and optimal angles rather than muscular effort to manage opponent's pressure.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Establish near-side elbow frame against opponent's neck/shoulder while far-side arm frames against hip, creating two-point pressure distribution. Frames must prevent chest-to-chest contact while allowing hip escape movement toward creating guard recovery angle.
 
 **Mount**: Create frames using both elbows pressed against opponent's hips or thighs to prevent forward pressure advancement toward high mount. Frame angles must redirect downward pressure laterally to create bridging and shrimping opportunities without allowing arms to be trapped.
@@ -256,9 +237,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Position Assessment and Frame Priority**: Immediately identify current position and primary pressure threat. Determine which frames must be established first based on most dangerous pressure vector (typically preventing head isolation or chest compression as highest priority).
 2. **Initial Frame Establishment**: Create first frame using nearest available arm positioned at optimal elbow angle against highest priority target (typically opponent's hip or shoulder). Ensure connection point is on skeletal structure and elbow remains close to body for strength.
 3. **Secondary Frame Creation**: While maintaining primary frame, establish secondary frame with other arm to create two-point pressure distribution. Select connection points that work together to manage opponent's pressure from multiple angles simultaneously.
@@ -271,9 +252,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Overextending Arms and Losing Elbow Structure
   - **Consequence**: Creates weak frames that collapse easily under pressure as straight-arm pushing provides minimal strength and allows opponent to simply drive through frames with forward pressure, often resulting in rapid position deterioration.
   - **Correction**: Maintain elbow angles between 90-110 degrees by keeping elbows close to body and creating extension through shoulder positioning and body angling rather than arm straightening. Strong frames use skeletal structure rather than muscular pushing.
@@ -299,9 +280,9 @@ Defensive Framing represents the practical application and technical execution o
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Pressure Resistance Drills** (Focus: Building frame strength and structure maintenance under progressive pressure loads, teaching body to maintain optimal biomechanics even when opponent applies maximum crushing weight.)
 Partner applies gradually increasing pressure from top position while bottom practitioner maintains frame structure. Start with 30% pressure and increase to 100% over multiple rounds, forcing bottom player to maintain proper elbow angles and connection points under realistic resistance.
 
@@ -324,9 +305,9 @@ Partner combines positional pressure with submission attempts (cross-collar chok
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic two-arm frames in static side control but often overextends arms or frames on soft tissue rather than skeletal structures
 - Frames collapse under moderate pressure (50-70%) and recovery is slow or absent, often accepting crushed position rather than systematically recovering structure
@@ -364,10 +345,26 @@ Partner combines positional pressure with submission attempts (cross-collar chok
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Defensive Frame]]** (Prerequisite): Defensive Frame provides the theoretical foundation and conceptual understanding that Defensive Framing implements technically. Understanding frame principles is necessary before executing specific framing techniques effectively.
+- **[[Frame Management]]** (Complementary): Frame Management governs the broader strategic decisions about when and where to establish frames, while Defensive Framing focuses on the technical execution details of creating and maintaining those frames under pressure.
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes and defensive framing work synergistically—frames create the space necessary for hip movement, while hip movement allows for frame recovery and repositioning. Neither is fully effective without the other.
+- **[[Space Creation]]** (Extension): Defensive Framing serves as the primary technical method for implementing space creation principles in bottom positions, translating the strategic goal of creating space into specific arm and hand positioning techniques.
+- **[[Dealing with Pressure]]** (Complementary): While Dealing with Pressure encompasses multiple strategies including acceptance and redirection, Defensive Framing provides the primary technical tool for preventing pressure from achieving full crushing effect on the body.
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics is fundamental to effective framing—knowing why specific elbow angles and connection points create stronger frames than others requires comprehension of basic leverage and mechanical advantage principles.
+- **[[Guard Retention]]** (Extension): Defensive framing serves as the foundational skill set that enables effective guard retention by preventing opponent from achieving crushing chest-to-chest control necessary for guard passing.
+- **[[Escape Fundamentals]]** (Complementary): All fundamental escapes depend on effective framing to create the initial space necessary for escape movement execution, making defensive framing an essential prerequisite for successful escape systems.
+- **[[Bridge and Shrimp]]** (Complementary): Bridge and shrimp movements work together with frames in an integrated system—frames hold space while bridges and shrimps create additional distance, and these movements also serve to recover collapsed frames.
+- **[[Base Maintenance]]** (Alternative): While base maintenance focuses on preventing opponent from creating frames (top position perspective), defensive framing represents the bottom position counterpart—establishing frames despite opponent's base and pressure.
+- **[[Distance Creation]]** (Extension): Defensive framing is the primary technical tool for distance creation from bottom positions, providing the specific mechanical methods for implementing distance creation strategies.
+- **[[Energy Conservation]]** (Complementary): Effective defensive framing significantly reduces energy expenditure in bottom positions by using skeletal structure and optimal angles rather than muscular effort to manage opponent's pressure.
+
+
+### Related Content
 - [[Defensive Frame]] (Principle) - Parent concept providing theoretical foundation for technical framing execution
 - [[Frame Management]] (Principle) - Complementary concept governing strategic frame decisions and priorities
 - [[Hip Escape Mechanics]] (Principle) - Synergistic movement pattern that frames enable and facilitate
@@ -381,15 +378,6 @@ Partner combines positional pressure with submission attempts (cross-collar chok
 - [[Escape Fundamentals]] (Principle) - Foundational escape principles that depend on effective framing execution
 - [[Bridge and Shrimp]] (Principle) - Fundamental movement concept that works synergistically with frames to create escapes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches defensive framing as engineering problem with calculable optimal solutions based on leverage principles and structural mechanics. Emphasizes what he terms 'frame architecture' where specific frame configurations are matched to specific pressure vectors and positions, creating systematic responses rather than intuitive reactions. Teaches practitioners to recognize that effective framing requires not just creating space but creating the right kind of space that enables specific escape movements, making frame configuration inseparable from escape strategy. Systematizes frame placement with precise guidance on elbow angles (optimal range 90-110 degrees for maximum strength-to-mobility ratio), hand positions (palms on skeletal landmarks create 40% stronger frames than muscular contact), and connection points for each common bottom position. Particularly emphasizes the concept of 'frame redundancy' where multiple simultaneous frames create fail-safe systems—when one frame is attacked or compromised, supporting frames maintain defensive structure during recovery. Views frame recovery speed as more important than preventing all frame collapses, noting that elite defensive players distinguish themselves by recovering frames within 1-2 seconds rather than by never losing frames at all.
-- **Gordon Ryan**: Views defensive framing as continuous battle that requires aggressive, proactive establishment rather than reactive responses to pressure. Focuses on what he calls 'early framing' where frames are established immediately upon entering bottom positions before opponent can consolidate crushing pressure—emphasizes that creating frames after opponent settles weight requires 3-4 times more energy than preemptive framing before pressure consolidates. In his competition experience, notes that opponents who successfully passed his guard were those who prevented him from establishing initial frames, while those he successfully retained or swept against were those who allowed him to establish frame structure first. Emphasizes the importance of frame recovery speed, noting that elite defensive players distinguish themselves by how quickly they reestablish frames after temporary collapse rather than by preventing all frame compromise. Advocates fighting aggressively for inside position and favorable connection points before opponent can establish dominant framing control. In his teaching, demonstrates position-specific framing with particular emphasis on adapting to opponent body types—uses longer extension frames against much larger opponents to maximize distance, tighter structure against similar-sized opponents for more explosive escape movements. Also emphasizes the mental component of framing, teaching students to maintain aggressive defensive mindset where frames are actively used to disrupt opponent's base and control rather than passively maintaining static distance.
-- **Eddie Bravo**: Has developed specialized framing approaches within his Lockdown system that sometimes use frames offensively to create submission and sweep opportunities rather than purely for defensive space creation. When teaching defensive framing, emphasizes what he calls 'active frames' that don't just maintain static distance but create dynamic pressure that disrupts opponent's base and control. Particularly in half guard bottom, advocates for framing strategies that simultaneously defend position and create offensive threats, making opponent deal with attacks rather than focusing purely on pressure and control. His approach to framing often incorporates unconventional positions and grips—uses collar grips combined with frames to create choking threats, uses opponent's own gi against them to establish frame structures that are difficult to collapse. Especially innovative in developing frames that work from rubber guard and mission control positions where traditional framing principles must be adapted to inverted and non-standard body configurations. Emphasizes that frames should never be purely defensive—even in worst defensive positions, frames can be used to set up sweeps, create submission threats, or at minimum make opponent uncomfortable and disrupt their offensive rhythm. Teaches students to view framing as part of offensive system rather than isolated defensive technique, particularly in his emphasis on transitioning from defensive frames to offensive grip fighting and attack setups.
 
 </section>
 

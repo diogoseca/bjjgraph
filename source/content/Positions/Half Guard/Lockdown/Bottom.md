@@ -8,7 +8,7 @@ description: "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -450,24 +450,6 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 **Average Time in Position**: 1-3 minutes depending on activity level and opponent's passing pressure
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The lockdown represents a fundamental shift in half guard philosophy from purely defensive retention to active offensive control. By creating a mechanical advantage through the triangled leg configuration, the bottom practitioner transforms the opponent's trapped leg into a lever system that can be extended, retracted, and manipulated to generate off-balancing forces. The biomechanical principle at work is simple: when you control an opponent's base through their leg and can extend or compress that leg at will, you create instability that opens opportunities for sweeps and positional advances. The lockdown's effectiveness stems from its ability to simultaneously limit the opponent's mobility while maximizing your own offensive options. However, practitioners must understand that the lockdown is not a static holding position but rather a dynamic control platform that requires constant adjustment, extension timing, and coordination with upper body attacks to be effective at high levels.
-
-### Gordon Ryan
-
-In competition, the lockdown can be an extremely effective tool when used with aggressive intent and proper timing, but it requires complete commitment to the position's offensive nature. I've seen too many competitors use lockdown passively, simply holding and waiting, which allows elite passers to systematically break it down and complete passes. The key to competitive success with lockdown is maintaining constant pressure through extensions, immediately attacking with sweeps when opponents adjust their base, and never allowing them to establish both crossface and underhook control simultaneously. The whip-up and Old School sweeps are high-percentage techniques that work even against world-class opponents if you commit fully and time them with the opponent's weight shifts. The Electric Chair is a legitimate submission threat that forces opponents to defend, opening other opportunities. The lockdown works best when you treat it as a launching pad for attacks rather than a defensive bunker, making it a viable option even at the highest levels of no-gi competition.
-
-### Eddie Bravo
-
-The lockdown is the foundation of the entire 10th Planet half guard system and represents a complete reimagining of what half guard can be. Traditional half guard was always seen as a stalling position or a last resort before getting passed, but the lockdown transforms it into one of the most dynamic and dangerous positions in all of grappling. When you lock down that leg and start extending, you're not just preventing passes—you're actively attacking, creating dilemmas, and forcing your opponent to make difficult choices under pressure. The beauty of the lockdown is how it chains into so many different attacks: the Old School sweep, the whip-up, the Electric Chair, transitions to the truck, and numerous other options. The position rewards creativity and aggression, allowing smaller practitioners to control and sweep much larger opponents through leverage rather than strength. The key is staying active, constantly moving your hips, extending that lockdown to off-balance them, and immediately attacking when they react. The lockdown isn't just a technique—it's a complete game plan that can carry you through entire matches if you commit to mastering its intricacies and developing the timing to execute its attacks under pressure.
 
 </section>
 

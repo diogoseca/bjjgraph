@@ -8,7 +8,7 @@ description: "Master offensive control from 3-4 Mount Top. Complete guide with t
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -476,24 +476,6 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The 3-4 Mount position represents a sophisticated understanding of asymmetric control dynamics in grappling. From a biomechanical perspective, this configuration offers superior base stability against the most common escape vectors while preserving transitional capacity that bilateral mount configurations inherently restrict. The mounted leg functions as a control wedge, preventing the shrimp escape by occupying the space the opponent needs to create, while the posted leg provides a dynamic base that can shift to counter bridge attempts. What makes this position particularly valuable from a systematic standpoint is its role as a transitional hub—it connects mount attacks, side control pressure, and armbar entries within a unified control framework. Advanced practitioners recognize that staying in pure 3-4 Mount for extended periods wastes its strategic value; the position should be viewed as a momentary control point that facilitates movement toward either consolidated mount or immediate submission attacks. The key technical insight is understanding that your weight distribution must remain centered or slightly toward the mounted side, using the posted leg for base adjustments rather than primary weight support. This prevents the common error of leaning away from the opponent, which creates the exact escape pathway you're trying to deny.
-
-### Gordon Ryan
-
-In competition, 3-4 Mount is one of the most underutilized positions at the highest levels, which is surprising given its effectiveness for both control and finishing. When I'm in this position, I'm immediately thinking about armbars and Americanas—the asymmetric configuration naturally creates opportunities for limb isolation because the opponent's defensive frames are compromised by the angle. The posted leg gives me instant mobility to swing around for armbars without the commitment required from full mount, and if they defend the armbar, I'm already in position to transition to full mount or take their back. What separates high-level execution from basic 3-4 Mount is the constant pressure and threat creation. You can't just sit there; you need to be actively hunting submissions while using the position's base to shut down their escape attempts. Against experienced opponents, I use 3-4 Mount as a submission dilemma position—if they focus on defending the armbar, I attack the collar choke or Americana; if they defend those, the armbar opens up. The position scores full mount points, so from a competition strategy perspective, you're banking four points while maintaining superior attacking capacity compared to traditional mount. That's a winning combination that more competitors should be exploiting.
-
-### Eddie Bravo
-
-The 3-4 Mount is actually the position I go to when I want to maintain maximum offensive threat while staying mobile and ready to transition. In the 10th Planet system, we view mount as a platform for constant movement rather than a static control position, and 3-4 Mount embodies that philosophy perfectly. What I love about this position is that you're never truly committed—you can flow to full mount, swing for armbars, transition to side control, or even set up unconventional attacks like the mounted triangle without getting stuck in one configuration. The asymmetric base is crucial for dealing with explosive opponents who try to bridge and roll; that posted leg gives you the ability to surf their movements instead of getting caught in a strength battle. From a 10th Planet perspective, I teach 3-4 Mount as part of the overall mount flow system where you're constantly shifting between mount variations based on the opponent's reactions. If they're defending traditional mount attacks, the 3-4 configuration changes the angles and creates new submission entries they might not be prepared for. The key innovation here is recognizing that asymmetry creates opportunities—when your opponent can't predict which direction you're going to attack from, their defensive structure breaks down. Stay creative, stay mobile, and use 3-4 Mount as a launching point for combination attacks rather than an end position.
 
 </section>
 

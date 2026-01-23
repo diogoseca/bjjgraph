@@ -8,7 +8,7 @@ description: "Technical Mount Bottom defensive position in BJJ. Complete guide c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -402,24 +402,6 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Technical mount from bottom represents a critical junction in defensive strategy where mechanical understanding becomes survival. The position creates what I call compound mechanical disadvantage - the stepped leg simultaneously isolates your arm while preventing the hip mobility needed to escape. Your defensive response must recognize that this position exists on a spectrum of control, and your options diminish rapidly as the top player settles their weight. The key principle is that arm extension in any direction accelerates your path to submission, so all defensive frames must originate from the opposite side while the threatened arm remains in a tightly bent configuration. Escape windows open during micro-transitions when the top player commits weight to specific submissions - this weight commitment necessarily creates temporary reduction in pin pressure. Your training must develop automatic motor patterns that activate during these brief windows rather than requiring conscious decision-making under pressure, as the time available for effective response is measured in fractions of seconds.
-
-### Gordon Ryan
-
-Being in technical mount bottom is one position I absolutely hate because the top player has too many high-percentage attacks and I have very few good options. In competition, if I end up here, my immediate thought is getting out within the first few seconds before they settle their weight and really establish control. Against high-level opponents, you're probably getting armbarred if you don't escape fast. My defense is aggressive bridging combined with my free leg creating frames against their hip - I'm forcing them to choose between maintaining position or committing to the submission, and when they commit to the submission, that's my escape window. The mistake I see constantly is people trying to be too defensive and careful, which doesn't work because time is against you in this position. You need to be offensive in your defense with big committed movements that force reactions, then capitalize on the split-second where their weight shifts. Against elite grapplers you might only get one escape attempt, so make it count with full commitment and timing.
-
-### Eddie Bravo
-
-Technical mount bottom is like being in a modified electric chair but you're the one getting shocked - it's a gnarly position requiring creative thinking to escape. Traditional BJJ defense doesn't work well here because the position is designed to counter conventional escapes. What we teach at 10th Planet is controlled panic response - you need the urgency of panic but the precision of control. One approach from our methodology is using lockdown concepts even without full lockdown established - if you can hook your free leg over their leg before they fully settle, you change the entire dynamic. The other option is immediate granby roll to turtle, which sounds crazy giving your back, but if you time it right when they're setting up the armbar, you're actually safer in turtle with good posture than staying flat in technical mount. The key is accepting this position is high-risk no matter what, so your defense has to match that risk level with equally high-commitment movements. Playing it safe in technical mount bottom is how you get tapped - you need bold moves accepting that even a 40% success rate on risky escape beats a 90% submission rate if you stay put.
 
 </section>
 

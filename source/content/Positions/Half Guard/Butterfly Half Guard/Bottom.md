@@ -8,7 +8,7 @@ description: "Master bottom butterfly half guard - hybrid position combining but
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -488,24 +488,6 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 
 **Average Time in Position**: 30-90 seconds before sweep attempt or transition occurs
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Butterfly half guard represents a sophisticated synthesis of two fundamental guard systems, combining the mechanical elevation potential of the butterfly hook with the defensive security of half guard entanglement. The position's power derives from the asymmetric base disruption it creates - by trapping one leg while hooking under the other, you force your opponent into an unstable platform where their weight distribution cannot be optimized for both defending sweeps and advancing their pass. The key mechanical principle is understanding that the butterfly hook provides the primary sweeping force through hip extension and elevation, while the half guard trap prevents them from creating the distance necessary to disengage from your attack. When executing sweeps from this position, focus on the timing of your hip drive coordinated with upper body pull - the sweep succeeds not from strength but from the geometric impossibility of maintaining base when forces are applied in opposing vectors simultaneously. The position also serves as an excellent transitional platform, allowing seamless entries to deep half, X-guard, and back attack systems depending on how your opponent attempts to defend. Master the concept of using the butterfly hook as a constant threat that shapes their defensive behavior, creating opportunities for secondary attacks when they overcommit to defending the primary sweep. The sophisticated practitioner treats butterfly half guard not as a static position but as a dynamic launching platform for a comprehensive offensive system.
-
-### Gordon Ryan
-
-Butterfly half guard is one of my highest percentage positions for sweeping and transitioning to dominant positions in high-level competition matches. The beauty of this guard is that it gives you multiple offensive options while maintaining enough defensive structure that you're not gambling with your position against elite opponents. I typically enter butterfly half when my opponent is trying to smash pass my regular half guard - instead of fighting their pressure head-on and burning energy in a strength battle, I insert the butterfly hook and redirect their forward momentum into sweeping opportunities that use their own force against them. The 100% sweep and old school sweep are my go-to attacks from here, and they work at the highest levels because they put your opponent in a genuine dilemma - defend the butterfly sweep and I take your back, defend the back take and I complete the sweep to mount. What makes this position so effective in competition is that it naturally leads to scrambles where I have positional advantage due to initiating the position change, and in scrambles against high-level opponents, the person who initiated the position change usually comes out on top because they anticipated the movement. I also love how butterfly half connects seamlessly to my deep half game - if they shut down my butterfly half attacks with good defensive positioning, I can transition to deep half and continue attacking from there without giving up offensive initiative. The key is being relentlessly aggressive with your attacks and not letting them settle into a comfortable defensive posture where they can methodically work their pass. Keep them constantly reacting to your threats, and when they make a mistake defending one attack, immediately capitalize with the alternative technique rather than resetting and allowing them to recover.
-
-### Eddie Bravo
-
-Butterfly half guard fits perfectly into the 10th Planet system because it combines the offensive threat of the butterfly hook with the control of half guard, creating multiple pathways to our signature positions and submissions. What I love about this position is how it naturally connects to the lockdown system - if they start to pass or flatten you out, you can quickly transition to lockdown half guard and enter the electric chair or old school sweep sequences that are foundational to our game. The butterfly hook also gives you a direct entry to the truck position, which is one of our most important positions for back attacks and the twister submission that defines our system. When I teach butterfly half at 10th Planet, I emphasize the importance of staying active with your hips and not letting them settle their weight - you want to be constantly threatening sweeps and transitions to keep them off balance and prevent them from establishing the kind of crushing pressure that shuts down your offense. The position also works great with rubber guard concepts because the underhook on the butterfly side can transition into mission control if they try to posture up aggressively, giving you another offensive pathway that most traditional schools don't explore. One unique aspect of how we use butterfly half in the 10th Planet system is incorporating it into our half guard recovery sequences - if you lose your lockdown or get passed to quarter guard, the butterfly hook can be your escape route back to offensive half guard where you can restart your attack sequences. The key innovation we've added is using the position not just for traditional sweeps, but as a launching pad for leg attacks, back takes, and even inverted guard transitions that catch opponents off guard because they're not expecting those attacks from what looks like a traditional position.
 
 </section>
 

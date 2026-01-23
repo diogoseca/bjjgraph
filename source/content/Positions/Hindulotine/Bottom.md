@@ -8,7 +8,7 @@ description: "Offensive guillotine variation from bottom guard using rotational 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -437,24 +437,6 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The bottom Hindulotine position demonstrates a fundamental principle of submission grappling: the integration of position and submission into a unified attacking system. When you establish this position from your guard, you create a mechanical advantage that transcends simple arm strength. The key is understanding that your legs, hips, and core are doing the majority of the work by creating the proper angle and preventing escape, while your arms simply maintain the grip. Most practitioners fail from bottom because they try to muscle the submission using their arms, which are far weaker than the opponent's neck muscles and their ability to posture. Instead, focus on using your closed guard or butterfly hooks to control their hips completely, preventing any circular movement. Then, rather than pulling their head toward your chest, think about rotating your hips perpendicular to their spine. This creates a lever system where your entire body weight and core strength are amplified through the grip point at their neck. The submission becomes inevitable when the mechanical advantage is established correctly, requiring minimal ongoing effort to maintain.
-
-### Gordon Ryan
-
-From bottom, the Hindulotine is one of my highest percentage attacks because it punishes opponents who try to pass aggressively without respecting the guillotine threat. In competition, I'm constantly threatening this from guard because it creates an immediate decision point for my opponent - they either have to abandon their pass attempt to defend the choke, or they have to commit to the pass while under submission pressure. Most competitors in the modern game are so focused on passing that they'll walk right into the guillotine grip if you time it correctly. The key from bottom is patience combined with technical precision. I see a lot of grapplers try to force the finish as soon as they get the grip, but the reality is you need to make your adjustments first - get your grip high, angle your hips correctly, lock down their movement with your legs - and then the finish becomes easy. When I have this position locked in, I'm not thinking about arm strength at all. My legs are doing all the work controlling their hips, my core is doing the rotation work, and my arms are just holding the position. If they defend correctly, I'm ready to transition to back attacks or sweeps, so this position is really about creating a game tree where all of their defensive options lead to bad outcomes for them.
-
-### Eddie Bravo
-
-The bottom Hindulotine fits perfectly into the 10th Planet philosophy of attacking from your back and making guard a genuinely dangerous place for the opponent. What I love about this position is that it completely changes the dynamic of bottom guard play - instead of just trying to sweep or maintain guard, you have an active submission threat that makes your opponent hesitant and defensive. In no-gi especially, where you can't rely on collar grips for control, the guillotine variations like the Hindulotine become crucial weapons. When I'm teaching this, I emphasize the importance of catching the grip at the right moment - usually when they're trying to open your guard or pass. That's when their head is in the danger zone and their posture is compromised. Once you have the grip, don't rush the finish. Use your butterfly hooks or closed guard to control their hips completely, and play with your hip angle until you feel that sweet spot where the pressure just amplifies naturally. The creativity comes in how you transition when they defend - maybe you switch to a darce if they create space, or you take the back if they turn away, or you sweep them if they drive forward. This isn't just a submission, it's a control position that opens up multiple attacking pathways, which is exactly how modern no-gi should be played.
 
 </section>
 

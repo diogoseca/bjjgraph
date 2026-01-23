@@ -8,7 +8,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -444,24 +444,6 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 
 **Average Time in Position**: 20-60 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Leg Knot Bottom position represents a critical juncture in leg entanglement warfare where systematic defensive methodology supersedes panic and athleticism. The primary mechanical principle governing escape from this position is the protection of the heel through proper rotational alignment—the heel must remain hidden by maintaining the trapped leg's internal rotation and keeping the toes pointed toward the opponent's hip structure. The hierarchical decision-making process must follow strict prioritization: first address immediate submission threats through proper limb positioning, second create defensive frames to prevent positional consolidation, and only third attempt offensive counters or escapes. The biomechanical reality of leg entanglements dictates that the inside position of the knee line serves as the fundamental defensive barrier; once this barrier is breached and the opponent achieves cross-body control, the defensive situation deteriorates exponentially. Advanced practitioners recognize that Leg Knot Bottom is not merely a position to escape but an opportunity to implement systematic reversals, as the transitional nature of the entanglement creates windows for counter-entanglement when the opponent commits to positional changes. The key is maintaining constant leg mobility while using the free leg as an active defensive tool rather than allowing it to remain passive—this free leg serves as your primary weapon for creating the frames and angles necessary for both defensive escape and offensive reversal sequences.
-
-### Gordon Ryan
-
-In competition, Leg Knot Bottom happens when someone catches your leg but hasn't locked in their finish yet—this is your window to either get out or turn it around on them. The most important thing is keeping your heel safe because that's what wins matches at the highest level; if they get your heel, you're in serious danger, so you need to hide it immediately by turning in and keeping your foot position tight. I've been caught in these positions against elite leg lockers, and what works is staying calm and following the right sequence: protect the heel first, then work on clearing the leg or reversing position. The free leg is absolutely critical—you need to use it constantly to create frames on their hips and prevent them from locking down the saddle or inside position. When I'm stuck here, I'm looking for two main things: either I'm going to granby roll if they expose my heel, or I'm going to clear my leg and come up to a guard position if they give me space. The reality in high-level competition is that if someone really good gets you here, you need to address it within 10-15 seconds or they're going to consolidate and finish you. What separates good competitors from great ones in this position is the ability to stay offensive-minded even while defending—I'm always thinking about how to reverse the entanglement or counter-attack to my own leg lock, not just how to escape to neutral. The key is combining good defensive technique with an aggressive mindset that looks for opportunities to turn defense into offense.
-
-### Eddie Bravo
-
-Leg Knot Bottom is one of those scramble positions where things can go either way depending on who stays calmer and more technical under pressure. From a 10th Planet perspective, we've developed specific sequences for dealing with leg entanglements that emphasize maintaining mobility and using alternative escape paths that most traditional schools don't explore. The electric chair and lockdown principles apply even in leg entanglements—you want to be constantly moving, constantly creating angles, and never staying static in one configuration. When someone gets your leg knotted up, the standard response is to freak out and try to rip your leg free, but that's exactly what makes the submission tighter and easier for them. Instead, we focus on what we call 'limp leg escapes' where you relax the trapped leg and use systematic hip movement to create the angles you need to slip out or reverse position. The twister-style movement patterns—those spinal rotations and hip switches we drill constantly—translate directly to escaping leg entanglements because they're built on the same principle of using your entire body's rotation rather than just pulling with the trapped limb. One thing that's underutilized in leg lock defense is the potential to attack back; if someone's focused on attacking your legs, their upper body is often exposed, and we've developed specific paths from these bottom entanglement positions to things like guillotines or taking the back. The key innovation from our system is recognizing that you can't just be defensive in these positions—you need to create dilemmas for your opponent where they have to choose between completing their attack and defending your counter-attack, and that split-second of hesitation is when you make your escape or reversal.
 
 </section>
 

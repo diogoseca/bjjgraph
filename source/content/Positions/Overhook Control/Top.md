@@ -8,7 +8,7 @@ description: "Master overhook control from top positions. Wrestling-based whizze
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -461,24 +461,6 @@ Start with overhook control from turtle top position. Practice different back ta
 
 **Average Time in Position**: 5-15 seconds (transitional attacking position)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The overhook from top position represents one of the most mechanically advantageous control positions in all of grappling because it simultaneously accomplishes three critical objectives: it neutralizes the opponent's arm as an offensive weapon, it creates structural vulnerability in their upper body posture, and it provides direct pathways to high-percentage submissions and back takes. The key mechanical principle that students must understand is that the overhook's power comes not from the hand grip but from the seal created between your armpit and their shoulder - this is where the true control originates. When properly executed, the overhook elevates the opponent's arm above the optimal power generation angle of approximately 90 degrees at the shoulder joint, effectively removing it from the equation and reducing them to single-arm defensive capability. The decision tree from overhook is remarkably clear and systematic: if they pull back against pressure, attack the Kimura by converting to figure-four grip; if they drive forward seeking to escape, enter front headlock submissions including Darce and Anaconda variants; if they circle away, take the back through arm drag or two-on-one mechanics. This systematic approach transforms the overhook from a simple grip into a comprehensive offensive platform that creates consistent results across all skill levels and competitive contexts.
-
-### Gordon Ryan
-
-I use the overhook primarily as a pathway to the Darce and arm triangle in no-gi competition, where it has become one of my most reliable submission entries. When someone shoots for an underhook and I get the whizzer, I'm immediately thinking about how to get my free arm around their neck for front headlock attacks. The overhook isolates their near arm, which is exactly what I need for Darce and Anaconda chokes to function properly. In the gi, the Kimura from overhook is money - people give you that arm when they're desperate to fight for position or prevent passes. The key thing I've learned through competition is you can't just hold the overhook passively - you have to attack within 3-5 seconds or they'll find a way out through systematic grip breaking or positional adjustment. I'm constantly threatening the Kimura even when I actually want the Darce, because the Kimura threat makes them drive their head forward defensively, which sets up the front headlock perfectly. In high-level competition, the overhook has been one of my most reliable control positions because it works at every stage of the match - from the initial grip fight all the way through to finishing submissions. Most competitors don't realize how vulnerable they are once you lock up a tight whizzer with proper mechanics.
-
-### Eddie Bravo
-
-The whizzer is absolutely huge in the 10th Planet system, especially from turtle top and in our transition game from various positions. What people don't realize is that the overhook creates a perfect pathway to the crucifix if you know how to use the proper rolling mechanics - when they're defending the whizzer and trying to circle away, that's when you can catch the far leg and enter the truck position for twister attacks. We also use the overhook to set up front headlock submissions extensively, particularly the Darce which has become one of our highest percentage submissions in competition. The overhook is like having one arm in a cage - they can't really do anything effective with it, so now it's a one-armed fight and you're winning by default. From rubber guard transitions, we use overhook control concepts to set up the invisible collar and other 10th Planet specific attacks when we come up on top. The beauty of the whizzer is its versatility across all positions - it works standing in clinch exchanges, from turtle top for back takes, from half guard for passing, everywhere. One thing I really emphasize to my students is using the whizzer aggressively as an offensive weapon, not just defensively. Too many people think it's just a defensive tool to prevent underhooks, but it's actually one of the best offensive controls when you know how to chain attacks from it systematically. The moment you get that whizzer locked up tight with proper armpit seal, you should already be thinking about your next three moves in the sequence because that position is absolute gold.
 
 </section>
 

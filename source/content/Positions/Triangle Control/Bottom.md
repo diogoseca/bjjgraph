@@ -8,7 +8,7 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -433,24 +433,6 @@ Flow drill starting from triangle control: if partner defends choke → armbar, 
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The triangle is fundamentally a position of mechanical dominance where the strongest muscles in the human body—the legs—are employed to compress the weakest structural point—the neck. The critical element most practitioners misunderstand is the relationship between angle and pressure. A triangle locked with the body parallel to the opponent creates approximately 40% of maximum choking potential. By angling the hips 30-45 degrees and directing the choking leg's knee toward the trapped shoulder, we create a vector of force that efficiently compresses both carotid arteries simultaneously. The second principle is understanding the triangle as a control position rather than merely a submission. From this platform, we create a trilemma: defend the choke and expose the arm to armbar, defend the armbar and expose the shoulder to omoplata, or defend both and concede positional advancement to the back. This systematic approach transforms the triangle from a single attack into a submission ecosystem.
-
-### Gordon Ryan
-
-In competition, the triangle is one of my highest percentage submissions because it works at all levels when you understand the modern defensive responses. Most guys at the elite level will immediately recognize the triangle threat and attempt to posture or stack. This is where the transition game becomes crucial—I'm not just hunting the choke, I'm using their defensive reactions to flow into armbars and omoplatas. The key is maintaining constant forward pressure on their head while keeping my hips mobile. If they posture up, I'm already swimming my arm over for the armbar. If they stack, I'm already rotating to omoplata or taking the back. The triangle control position gives you time because the opponent knows they're in immediate danger—use that psychological pressure to force mistakes. My competition data shows that once I lock the triangle, I finish or advance position 78% of the time, making it one of the most reliable offensive positions in my game.
-
-### Eddie Bravo
-
-The triangle from the 10th Planet perspective is about creating angles and using the position dynamically. We don't just lock it and squeeze—we're constantly adjusting, creating new angles, and threatening transitions. One game-changer is the concept of the 'dead orchard'—when you lock the triangle, instead of immediately going for the finish, you can control their posture and work rubber guard concepts, chill dog, or transition to omoplata. The triangle becomes a hub position rather than just a submission. Another key innovation is using the triangle as a sweep mechanism—if they defend well, you can often use their defensive pressure to come up and take top position or the back. In no-gi especially, the triangle is incredibly effective because you don't have gi grips to worry about, and the skin-to-skin contact creates better friction for control. Train the triangle as a position you can hang out in comfortably for 30-60 seconds while you pick them apart, rather than as a one-shot explosive attack.
 
 </section>
 

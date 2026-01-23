@@ -8,7 +8,7 @@ description: "Learn the Granby Roll movement concept in BJJ. Master rotational e
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - **Rotational Momentum**: Use circular shoulder-roll motion rather than linear pushing to generate escape energy
 - **Angle Creation**: Roll at 45-90 degree angles to opponent's pressure line, not directly away
 - **Shoulder Surface Contact**: Maintain contact through upper back/shoulder to sustain continuous rolling motion
@@ -183,9 +183,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Shoulder Roll Mechanics**: The ability to roll smoothly over the shoulder and upper back without getting stuck or losing momentum. Requires flexibility in the shoulder girdle and understanding of proper head tuck positioning to avoid neck strain. Practitioners must learn to keep the chin tucked and roll across the meaty part of the shoulder rather than directly on the spine.
 
 **Hip Rotation Coordination**: Coordinating hip rotation with shoulder movement to generate maximum rotational force. The hips must elevate and rotate in the same direction as the shoulder roll, creating a unified rolling motion. This involves core engagement and the ability to maintain rotation even when opponent applies downward pressure.
@@ -206,28 +206,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes (shrimping) and Granby rolls work together as primary escape movements. Shrimping creates lateral distance while Granby creates rotational distance. Effective escapers alternate between both based on opponent's pressure direction.
-- **[[Guard Recovery]]** (Extension): The Granby Roll is a specialized guard recovery method used when standard hip escapes are blocked. It represents a more dynamic, momentum-based approach to the same goal of re-establishing guard position.
-- **[[Bridge and Shrimp]]** (Alternative): While bridging and shrimping create space through linear or vertical movements, Granby rolling creates space through circular rotation. Practitioners choose between these based on available space and opponent's base stability.
-- **[[Creating Space]]** (Prerequisite): Understanding general space creation principles is necessary before learning Granby rolls. The Granby is a specific application of space creation that uses rotational mechanics rather than pushing or framing alone.
-- **[[Escape Hierarchy]]** (Prerequisite): The Granby Roll fits within the broader escape hierarchy as a secondary escape option when primary defenses (frames, hip escapes) are blocked. Understanding when to employ Granby versus other escapes requires knowledge of the complete escape system.
-- **[[Energy Conservation]]** (Advanced form): Advanced Granby technique represents highly efficient movement—using minimal energy to generate maximum positional change through proper biomechanics. Mastery involves reducing wasted motion and increasing effectiveness of each roll.
-- **[[Shrimping]]** (Complementary): Shrimping and Granby rolling are complementary escape mechanisms. When shrimping is blocked or insufficient, Granby provides rotational alternative. Advanced practitioners seamlessly flow between both movement patterns.
-- **[[Escape Fundamentals]]** (Prerequisite): Core escape fundamentals including framing, hip movement, and positional awareness form the foundation for effective Granby Roll execution. Without these basics, the Granby Roll lacks proper setup and follow-through.
-- **[[Defensive Framing]]** (Complementary): Defensive frames must remain active throughout Granby execution. The rolling motion and frame maintenance work in tandem—frames prevent immediate re-control while rotation creates the actual escape distance.
-- **[[Space Management]]** (Extension): Granby Roll is an advanced space management technique that creates space through dynamic rotation rather than static positioning. It extends basic space management into kinetic, momentum-based applications.
-- **[[Position Transitions]]** (Extension): The Granby Roll facilitates rapid position transitions from defensive to offensive positions. It exemplifies how dynamic movement can bridge positional states more effectively than static escape attempts.
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding body mechanics, leverage, and force vectors is essential for proper Granby execution. The movement leverages curved shoulder surface and rotational physics to overcome linear pressure—core biomechanical concepts.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Turtle**: From turtle, Granby roll is used when opponent secures upper body control (seat belt, harness). Defender rolls over the shoulder opposite to opponent's hooks to rotate away from back control attempts and recover guard or return to standing.
 
 **Side Control**: When trapped in side control with opponent preventing hip escape, Granby roll creates rotational escape. Defender drives hips up, rolls over the shoulder away from opponent's chest pressure, and uses momentum to create space for guard recovery.
@@ -262,9 +243,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's pressure direction and weight distribution**: Identify which shoulder provides clearest escape path—roll away from heaviest pressure concentration and toward areas where opponent's base is weakest
 2. **Determine if space exists for rotational movement**: Evaluate whether there is sufficient room to initiate shoulder roll. If opponent is too tight, create initial space with frames or small hip movements before committing to full Granby
 3. **Choose timing window based on opponent's weight shifts**: Wait for moment when opponent commits weight forward, reaches for grips, or adjusts position. Execute Granby during these brief balance disruptions when opponent cannot immediately counter the rotation
@@ -277,9 +258,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Rolling in wrong direction (into opponent's pressure rather than away)
   - **Consequence**: Delivers defender directly into opponent's strongest control points, making position worse. Often results in giving up back or having movement completely stuffed.
   - **Correction**: Always read opponent's weight distribution first. Roll toward the lighter side, away from cross-face pressure, and away from direction opponent is driving. When in doubt, roll toward opponent's legs rather than upper body.
@@ -308,9 +289,9 @@ The concept extends beyond a single technique to represent a broader principle o
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Solo Movement Drilling** (Focus: Develop muscle memory for correct rolling mechanics and body positioning. Build shoulder flexibility and comfort with inverted positions. Train the movement pattern until it becomes natural and reflexive.)
 Practice Granby rolls in space without partner, focusing on proper shoulder contact, hip rotation, and smooth continuous motion. Start from knees, roll over shoulder, and return to knees in opposite direction. Gradually increase speed and fluidity.
 
@@ -333,9 +314,9 @@ Study high-level competitors using Granby rolls in competition. Analyze timing, 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can perform basic Granby roll in space without pressure, maintaining smooth shoulder rotation and proper head position
 - Understands concept of rolling away from pressure but struggles to identify correct direction under live resistance
@@ -375,10 +356,26 @@ Study high-level competitors using Granby rolls in competition. Analyze timing, 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Hip Escape Mechanics]]** (Complementary): Hip escapes (shrimping) and Granby rolls work together as primary escape movements. Shrimping creates lateral distance while Granby creates rotational distance. Effective escapers alternate between both based on opponent's pressure direction.
+- **[[Guard Recovery]]** (Extension): The Granby Roll is a specialized guard recovery method used when standard hip escapes are blocked. It represents a more dynamic, momentum-based approach to the same goal of re-establishing guard position.
+- **[[Bridge and Shrimp]]** (Alternative): While bridging and shrimping create space through linear or vertical movements, Granby rolling creates space through circular rotation. Practitioners choose between these based on available space and opponent's base stability.
+- **[[Creating Space]]** (Prerequisite): Understanding general space creation principles is necessary before learning Granby rolls. The Granby is a specific application of space creation that uses rotational mechanics rather than pushing or framing alone.
+- **[[Escape Hierarchy]]** (Prerequisite): The Granby Roll fits within the broader escape hierarchy as a secondary escape option when primary defenses (frames, hip escapes) are blocked. Understanding when to employ Granby versus other escapes requires knowledge of the complete escape system.
+- **[[Energy Conservation]]** (Advanced form): Advanced Granby technique represents highly efficient movement—using minimal energy to generate maximum positional change through proper biomechanics. Mastery involves reducing wasted motion and increasing effectiveness of each roll.
+- **[[Shrimping]]** (Complementary): Shrimping and Granby rolling are complementary escape mechanisms. When shrimping is blocked or insufficient, Granby provides rotational alternative. Advanced practitioners seamlessly flow between both movement patterns.
+- **[[Escape Fundamentals]]** (Prerequisite): Core escape fundamentals including framing, hip movement, and positional awareness form the foundation for effective Granby Roll execution. Without these basics, the Granby Roll lacks proper setup and follow-through.
+- **[[Defensive Framing]]** (Complementary): Defensive frames must remain active throughout Granby execution. The rolling motion and frame maintenance work in tandem—frames prevent immediate re-control while rotation creates the actual escape distance.
+- **[[Space Management]]** (Extension): Granby Roll is an advanced space management technique that creates space through dynamic rotation rather than static positioning. It extends basic space management into kinetic, momentum-based applications.
+- **[[Position Transitions]]** (Extension): The Granby Roll facilitates rapid position transitions from defensive to offensive positions. It exemplifies how dynamic movement can bridge positional states more effectively than static escape attempts.
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding body mechanics, leverage, and force vectors is essential for proper Granby execution. The movement leverages curved shoulder surface and rotational physics to overcome linear pressure—core biomechanical concepts.
+
+
+### Related Content
 - [[Granby Roll]] (Transition) - This concept describes the theoretical framework for the Granby Roll transition technique, providing the principles underlying the mechanical execution
 - [[Granby to Closed Guard]] (Transition) - Specific application of Granby Roll concept that focuses on the guard recovery completion phase after successful rotational escape
 - [[Hip Escape Mechanics]] (Principle) - Complementary escape concept—practitioners must understand both linear (hip escape) and rotational (Granby) space creation methods
@@ -392,15 +389,6 @@ Study high-level competitors using Granby rolls in competition. Analyze timing, 
 - [[Bridge and Shrimp]] (Principle) - Fundamental escape concept that works in coordination with Granby—bridging creates vertical space while Granby creates rotational space
 - [[Back Control]] (Position) - Position that Granby Roll specifically helps prevent when opponent is attacking turtle or attempting back take transitions
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The Granby Roll represents a fascinating biomechanical solution to the fundamental problem of escaping consolidated top position when linear escapes are blocked. What makes this movement particularly effective is the way it converts rotational kinetic energy into positional displacement—you're not pushing against their pressure, you're rotating around it. The key technical element that most people miss is the precise coordination between shoulder contact and hip elevation. Your shoulder must maintain continuous contact with the mat throughout the roll, creating a smooth curved surface for rotation, while simultaneously your hips must elevate to create the necessary clearance for your legs to insert into guard position. The timing is crucial: you must initiate the roll at the exact moment when your opponent's weight is committed forward or when they're reaching for a grip, because these micro-moments of imbalance are when their ability to prevent your rotation is at its lowest. From a systematic perspective, the Granby belongs in your escape hierarchy as a secondary option when primary frames and hip escapes are shut down—it's your rotational solution when linear solutions fail.
-- **Gordon Ryan**: In competition, the Granby Roll is one of the highest-percentage escapes from turtle when someone's trying to take your back, which happens constantly at high levels. The biggest difference between people who hit this in competition and people who don't is commitment—you can't do a half-ass Granby, you have to fully commit to the rotation or you'll get caught in the middle and that's even worse than staying in turtle. I use it most when I'm in turtle and someone has the seatbelt but hasn't gotten their hooks in yet—that's the window. You wait for them to try to get the second hook, and when their weight shifts, you explode into the Granby toward their outside hook side. The other huge competition application is from bottom side control when they're crushing your chest and you can't shrimp—instead of trying to force the hip escape, you drive your hips up and Granby away from their pressure, and suddenly you've created a completely different angle they weren't ready for. One thing that took me a while to learn: you have to keep your frames active during the entire roll. A lot of people focus so much on the rolling part that they forget their arms, and even if they get the rotation right, the opponent just follows them because nothing blocked the path. You need one arm framing their hips or shoulder the whole time so when you complete the roll, there's actually space to get your guard.
-- **Eddie Bravo**: The Granby is one of those movements that looks weird when you first see it but once you get good at it, it becomes this secret weapon that opens up so many options. At 10th Planet we drill Granby rolls constantly, especially from turtle, because it's the perfect movement for transitioning from defense back into our weird guards like rubber guard or lockdown. Here's what most people don't realize: you can use the Granby offensively, not just as an escape. Like if you're in someone's closed guard and you want to create a weird scramble, you can Granby under them and come up into leg attacks or back takes—it's super unconventional but it works. The defensive version from turtle is obviously crucial, but I teach my guys to think of it as a position reset button. If things are getting crazy and you're not sure what's happening, Granby roll and you create distance, you create confusion, and you give yourself a second to reorient and pull some weird guard. The key thing we emphasize is keeping your chin tucked tight—I've seen people hurt their necks trying to Granby with their head up. Tuck that chin, roll across your shoulder blades, and don't stop rolling until you're either in guard or you've created enough space to set up whatever weird position you're going for. Also, chain them together. If one Granby doesn't work, do another one immediately. Keep that rolling motion going and eventually you'll find the space.
 
 </section>
 

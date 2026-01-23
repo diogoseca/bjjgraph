@@ -8,7 +8,7 @@ description: "Master the bottom perspective of Eddie Bravo's Crackhead Control -
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -442,24 +442,6 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 
 **Average Time in Position**: 15-30 seconds before submission attempt or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Crackhead Control exemplifies the principle of asymmetric risk distribution in guard play. The position deliberately accepts increased positional risk - specifically back exposure vulnerability - in exchange for disproportionate offensive reward through submission access. This risk-reward calculation becomes favorable when the practitioner possesses superior submission literacy and can flow between multiple finish attempts faster than the opponent can establish defensive frames. The deep overhook functions as a kinetic chain anchor point, providing control consistency even as the legs transition between different submission configurations. From a biomechanical perspective, the position exploits the opponent's compromised ability to generate hip pressure when one arm is trapped deeply - they cannot effectively drive forward without surrendering their trapped shoulder, nor can they pull back without exposing the arm to omoplata attacks. This creates a strategic forcing situation where the opponent's optimal defensive response is unclear, leading to hesitation that the bottom player exploits through aggressive submission chains.
-
-### Gordon Ryan
-
-In competition contexts, Crackhead Control functions best as a transitional attack position rather than a sustained control platform. The back exposure risk makes it unsuitable for winning on points or stalling for time, but its submission threat density makes it exceptional for forcing action against conservative opponents. I use this position primarily when ahead on points and hunting finishes, or when behind and needing to create immediate submission threats to force referee standups if passing attempts fail. The key competitive application is recognizing that opponents often prioritize passing over submission defense when they see back exposure opportunities - this psychological tendency creates openings for omoplata and triangle finishes that wouldn't exist from safer guard positions. The position also serves as an excellent conditioning tool for opponents - even when submissions fail, the constant defensive effort required drains their energy faster than most guard positions. However, against elite back attack specialists, the risk becomes prohibitive and safer rubber guard variations like Mission Control become preferable.
-
-### Eddie Bravo
-
-Crackhead Control gets its name because you look absolutely insane committing to this position - like you've completely abandoned defensive responsibility to hunt submissions. That's precisely the point. The entire 10th Planet system is built on forcing opponents out of their comfort zones, making them defend positions they haven't prepared for. Most jiu jitsu players train extensively to defend triangles, armbars, and omoplatas from standard guard positions, but the angles and mechanics from Crackhead Control are different enough that their defensive muscle memory doesn't translate perfectly. The deep overhook creates submission entry angles that don't exist in traditional closed guard - the gogoplata becomes particularly accessible because your leg is already across their back, you're just adjusting the angle. The position also psychologically impacts opponents - when they see the back exposure, they often get overconfident and aggressive, which actually makes them more vulnerable to sweeps and submissions. It's a mind game as much as a positional structure. For no-gi competition where back attacks are particularly dangerous, you need absolute commitment to the submission chains - any hesitation or defensive posturing negates the position's value.
 
 </section>
 

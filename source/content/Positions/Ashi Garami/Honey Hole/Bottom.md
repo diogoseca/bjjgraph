@@ -8,7 +8,7 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -464,24 +464,6 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 
 **Average Time in Position**: 5-15 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The inside ashi garami bottom position represents one of the most asymmetric control-to-escape ratios in all of grappling. From mechanical perspective, the inside leg triangle creates what I call 'rotational imprisonment' - your hip's natural escape mechanism through rotation is directly countered by opponent's inside leg configuration. The geometry of the position is such that every force vector you can generate for escape is met with superior mechanical advantage from top position. What makes this position particularly insidious is the time factor - unlike positional submissions where you have extended period to work escapes, the heel hook from inside position can be completed in under two seconds once grip is established. Your defensive priority must be prevention of entry rather than escape after establishment. The moment you feel opponent's inside leg beginning to triangle around your thigh, you have approximately one second window for explosive escape before mechanical control becomes total. This is not hyperbole - the position's control efficiency is so high that even small delays in defensive reaction reduce escape probability exponentially. Training must emphasize immediate recognition and instantaneous response, as deliberative decision-making occurs too slowly to be effective.
-
-### Gordon Ryan
-
-From competition experience, I can tell you that once I lock up inside position on someone's leg, the match is essentially over unless they escape in the first second. I've submitted numerous black belt world champions from this position, and the pattern is always the same - if they don't explode out immediately when I'm establishing the triangle, they're getting tapped. The success rate from fully locked inside ashi garami is probably 95% or higher at the highest levels. What people don't understand is how fast the submission happens once I have my grips. I'm not slowly building pressure like an armbar - I can go from grips to full breaking pressure in under two seconds. In competition, I actually prefer when opponents try to fight the position after I've locked it up, because their struggling just lets me adjust my angle and finish faster. The only people who escape are those who recognize the danger early and commit 100% to explosive rotation before my position is set. If you're thinking about your options while I have inside position, you've already lost. In training, I expect immediate taps from my partners when I lock this up, because there's no benefit to fighting it - you're just risking injury for no learning value. The real learning is in preventing me from getting there in the first place.
-
-### Eddie Bravo
-
-The Honey Hole is probably the most dangerous position we teach in the 10th Planet system, and we spend a lot of time drilling both the offense and defense because the injury risk is so real. From bottom, the defensive mindset has to be 'escape or tap' - there's no in-between. I've seen too many people get hurt trying to tough it out when someone has them locked up in inside position. The key thing I teach is recognizing the position early - if you can feel their inside leg starting to come around your thigh, that's your alarm bell going off. You've got maybe one explosive movement to get out before they lock it down. We drill a lot of inverted escapes and counter-entanglements, but honestly, the best defense is not letting them get inside position in the first place. In rolling, our culture is tap early and tap often from leg locks, especially Honey Hole. There's no shame in tapping to position - I'd rather have healthy training partners who can train tomorrow than tough guys who need knee surgery. When we're teaching beginners, we don't even let them work heel hooks from inside position until they've demonstrated they understand the danger and can recognize when to tap. This isn't a position where you learn through trial and error - you learn through drilling the escapes and respecting the tap.
 
 </section>
 

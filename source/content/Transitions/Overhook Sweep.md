@@ -8,7 +8,7 @@ description: "Master the Overhook Sweep from closed guard in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -331,15 +331,6 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 - [[Arm Drag to Back]] - Alternative to sweeping when opponent postures hard
 - [[Mount]] - Ending position - where the sweep deposits you
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The overhook sweep exemplifies the biomechanical principle of perpendicular force application against an opponent's base. When you create the 45-degree angle before initiating the sweep, you fundamentally alter the vector of forces required to off-balance your opponent. Instead of lifting their entire body weight against gravity, you're redirecting their mass horizontally around a pivot point created by their trapped arm. The critical element that most practitioners overlook is the timing of the guard opening - this must be coordinated precisely with the angle creation and initial off-balancing movement. The overhook itself creates what I call a 'positional anchor' - a fixed point of control that allows all other movements to be leveraged against it. When executed with proper technical precision, the sweep becomes nearly unavoidable because the opponent's own posting motion creates the exact mechanical disadvantage needed for the technique to succeed. This is efficiency in its purest form - using the opponent's defensive structure against them.
-- **Gordon Ryan**: In competition, the overhook sweep is one of my highest-percentage attacks from closed guard because it works against virtually any opponent regardless of size or strength. The key to making it work at the highest levels is disguising the setup within your overall guard game. I'll threaten triangles and armbars specifically to force my opponent to post their hands, creating the overhook opportunity. Once I have the overhook secured, I never give it up easily - it's a position of significant control that I can use to attack multiple submissions or sweeps. Against strong, athletic opponents who might initially resist the sweep, I've found that maintaining the overhook while sitting up with them often leads to either completing the sweep in a different plane or transitioning directly to the back. The beautiful thing about this technique is that it scales perfectly from day one white belts to black belt world championship matches - the fundamental mechanics remain the same, but the setups and combinations become more sophisticated with experience.
-- **Eddie Bravo**: From a 10th Planet perspective, the overhook sweep is the perfect entry point for teaching new students about creating and exploiting dilemmas in BJJ. When you secure that overhook in closed guard, your opponent faces a terrible choice - if they try to pull their arm free, you can attack with kimuras or triangles; if they leave it trapped and try to posture up, you sweep them. This is the essence of creating no-win situations. In no-gi specifically, I teach students to think of the overhook as a temporary control position that you're constantly flowing through. You might hit the sweep clean, or you might use the overhook as a transition point to rubber guard, truck position, or back takes. The traditional overhook sweep is solid, but I encourage my students to explore the chaotic possibilities that emerge when opponents defend it desperately. That's when the really creative stuff happens - maybe you end up in a weird lockdown variation, or you transition to a calf slicer because they turned the wrong way trying to escape. Keep the overhook as your anchor point and let the positions flow naturally from there.
 
 </section>
 

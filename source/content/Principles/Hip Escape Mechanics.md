@@ -8,7 +8,7 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Bridge vertically to create initial separation and unweight the hips for movement
 - Frame against opponent's body to maintain created space and prevent pressure recovery
 - Rotate hips perpendicular to opponent's centerline to maximize distance generation
@@ -179,9 +179,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Bridging Mechanics**: The ability to generate explosive upward force through the hips by driving through both feet while maintaining shoulder contact with the mat. Effective bridging creates momentary unweighting that enables hip rotation and space creation, serving as the initiating movement for most escape sequences.
 
 **Frame Construction and Maintenance**: Creating rigid skeletal structures using forearms, shins, and knees positioned between your body and opponent's pressure points. Frames must be maintained under load while allowing hip movement, requiring both structural strength and dynamic adaptability throughout the escape sequence.
@@ -202,31 +202,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Bridge and Shrimp]]** (Complementary): Bridge and Shrimp represents the technical execution of hip escape mechanics, providing the specific movement patterns that embody these mechanical principles across different positional contexts.
-- **[[Frame Creation]]** (Prerequisite): Frame creation must be understood before hip escape mechanics can be effectively applied, as frames provide the structural support necessary to preserve space created through bridging and rotation.
-- **[[Escape Hierarchy]]** (Extension): Hip escape mechanics serves as the foundational layer of the escape hierarchy, representing the most fundamental movement pattern upon which all positional escapes are built.
-- **[[Space Creation]]** (Complementary): Space creation is the primary objective of hip escape mechanics, with bridging and rotation serving as the mechanical means of generating the distance necessary for positional recovery.
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding fundamental biomechanical principles of leverage, force generation, and body mechanics is essential for executing hip escapes with maximum efficiency and minimum energy expenditure.
-- **[[Defensive Strategy]]** (Extension): Hip escape mechanics forms the tactical foundation of defensive strategy in bottom positions, determining whether defensive efforts succeed or fail in recovering to neutral positions.
-- **[[Shrimping]]** (Complementary): Shrimping is the specific technical application of hip escape mechanics, emphasizing the hip rotation component of the bridge-frame-rotate sequence.
-- **[[Bridging Mechanics]]** (Complementary): Bridging mechanics represents the vertical force generation component of hip escape mechanics, providing the initial space creation necessary for subsequent rotational movement.
-- **[[Escape Fundamentals]]** (Extension): Hip escape mechanics serves as the core movement pattern within escape fundamentals, providing the mechanical foundation for all escape sequences.
-- **[[Guard Recovery]]** (Extension): Guard recovery is the strategic objective of hip escape mechanics, with successful escape execution creating the spatial conditions necessary for reestablishing guard position.
-- **[[Pin Escape Methodology]]** (Extension): Pin escape methodology applies hip escape mechanics principles to specific pinning positions, adapting the fundamental movement pattern to context-specific constraints.
-- **[[Mount Escape Series]]** (Extension): Mount escape series represents systematic application of hip escape mechanics specifically to mounted positions, including both standard and high mount variations.
-- **[[Side Control Escapes]]** (Extension): Side control escapes apply hip escape mechanics to the most common pinning position, emphasizing frame placement and escape angle specific to side control geometry.
-- **[[Defensive Framing]]** (Prerequisite): Defensive framing provides the structural component necessary for hip escape mechanics to succeed, preventing space collapse during and after hip movement execution.
-- **[[Energy Conservation]]** (Complementary): Energy conservation principles inform efficient hip escape execution, emphasizing proper mechanics over muscular effort to sustain escape attempts over extended periods.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Hip escapes create space between torso and opponent's chest pressure, enabling the practitioner to recover guard by inserting knee shield or establishing full guard after rotating perpendicular to opponent's body.
 
 **Mount**: Bridging vertically to create separation while framing against opponent's hips or chest, then rotating hips to create angles that enable knee insertion and guard recovery or escape to turtle position.
@@ -263,9 +241,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess opponent's pressure distribution and weight commitment**: Identify whether pressure is concentrated on upper body, hips, or distributed evenly to determine optimal escape direction and timing window for initiating hip escape sequence.
 2. **Establish initial frame structure before movement**: Position frames against opponent's primary pressure points using forearms, hands, knees, or shins to create structural barriers that will preserve space once movement begins.
 3. **Execute bridge to create initial separation**: Drive through feet to generate explosive upward force, creating momentary unweighting of hips and initial space separation between body and opponent's pressure.
@@ -278,9 +256,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting hip rotation without bridging first to create initial space
   - **Consequence**: Hip movement occurs under full opponent pressure, generating minimal distance while expending maximum energy and often resulting in opponent following the movement to maintain control
   - **Correction**: Always initiate with explosive bridge to momentarily unweight hips before attempting rotation, creating the initial separation necessary for rotational movement to generate meaningful distance
@@ -306,9 +284,9 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Solo Drilling** (Focus: Developing muscle memory for proper movement sequencing and building awareness of correct body positioning throughout escape mechanics)
 Practice bridge-frame-rotate sequences without resistance initially, focusing on movement quality, coordination, and fluidity before introducing partner pressure
 
@@ -331,9 +309,9 @@ Execute hip escape repetitions while already fatigued from previous training, si
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can execute basic bridge-and-shrimp movement in isolation without resistance
 - Understands conceptual sequence of bridge-frame-rotate but executes with discrete pauses between phases
@@ -374,10 +352,29 @@ Execute hip escape repetitions while already fatigued from previous training, si
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Bridge and Shrimp]]** (Complementary): Bridge and Shrimp represents the technical execution of hip escape mechanics, providing the specific movement patterns that embody these mechanical principles across different positional contexts.
+- **[[Frame Creation]]** (Prerequisite): Frame creation must be understood before hip escape mechanics can be effectively applied, as frames provide the structural support necessary to preserve space created through bridging and rotation.
+- **[[Escape Hierarchy]]** (Extension): Hip escape mechanics serves as the foundational layer of the escape hierarchy, representing the most fundamental movement pattern upon which all positional escapes are built.
+- **[[Space Creation]]** (Complementary): Space creation is the primary objective of hip escape mechanics, with bridging and rotation serving as the mechanical means of generating the distance necessary for positional recovery.
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding fundamental biomechanical principles of leverage, force generation, and body mechanics is essential for executing hip escapes with maximum efficiency and minimum energy expenditure.
+- **[[Defensive Strategy]]** (Extension): Hip escape mechanics forms the tactical foundation of defensive strategy in bottom positions, determining whether defensive efforts succeed or fail in recovering to neutral positions.
+- **[[Shrimping]]** (Complementary): Shrimping is the specific technical application of hip escape mechanics, emphasizing the hip rotation component of the bridge-frame-rotate sequence.
+- **[[Bridging Mechanics]]** (Complementary): Bridging mechanics represents the vertical force generation component of hip escape mechanics, providing the initial space creation necessary for subsequent rotational movement.
+- **[[Escape Fundamentals]]** (Extension): Hip escape mechanics serves as the core movement pattern within escape fundamentals, providing the mechanical foundation for all escape sequences.
+- **[[Guard Recovery]]** (Extension): Guard recovery is the strategic objective of hip escape mechanics, with successful escape execution creating the spatial conditions necessary for reestablishing guard position.
+- **[[Pin Escape Methodology]]** (Extension): Pin escape methodology applies hip escape mechanics principles to specific pinning positions, adapting the fundamental movement pattern to context-specific constraints.
+- **[[Mount Escape Series]]** (Extension): Mount escape series represents systematic application of hip escape mechanics specifically to mounted positions, including both standard and high mount variations.
+- **[[Side Control Escapes]]** (Extension): Side control escapes apply hip escape mechanics to the most common pinning position, emphasizing frame placement and escape angle specific to side control geometry.
+- **[[Defensive Framing]]** (Prerequisite): Defensive framing provides the structural component necessary for hip escape mechanics to succeed, preventing space collapse during and after hip movement execution.
+- **[[Energy Conservation]]** (Complementary): Energy conservation principles inform efficient hip escape execution, emphasizing proper mechanics over muscular effort to sustain escape attempts over extended periods.
+
+
+### Related Content
 - [[Shrimping]] (Principle) - Technical implementation of hip escape mechanics principles
 - [[Bridge and Shrimp]] (Principle) - Core movement pattern that embodies hip escape mechanics
 - [[Frame Creation]] (Principle) - Essential complementary skill for preserving created space
@@ -391,15 +388,6 @@ Execute hip escape repetitions while already fatigued from previous training, si
 - [[Side Control]] (Position) - Primary position where hip escape mechanics are applied
 - [[Knee on Belly]] (Position) - Pressure position requiring hip escape mechanics for recovery
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Hip escape mechanics represents the most fundamental biomechanical system in defensive jiu-jitsu, embodying pure mechanical principles of leverage, space creation, and positional recovery that transcend specific techniques or positions. The bridge-frame-rotate sequence must be understood not as three separate movements but as a unified mechanical system where each phase enables the next through proper force generation and direction. The bridge creates vertical space through explosive hip drive, the frame preserves that space through rigid skeletal structure, and the rotation converts vertical space into horizontal distance through rotational mechanics. Most practitioners fail to develop effective hip escapes because they treat these as discrete movements rather than understanding the interdependent mechanical relationships that make the system functional. When properly executed, hip escape mechanics should feel almost effortless despite generating maximum space, as the practitioner is working with fundamental mechanical advantage rather than against opponent's strength through muscular effort alone.
-- **Gordon Ryan**: In competition, hip escape mechanics represents the difference between competitors who survive bad positions to find opportunities for recovery versus those who accept inferior position and eventual defeat. I've escaped from positions where opponents had seemingly perfect control by refusing to stop executing small incremental hip movements, understanding that each tiny escape accumulates into meaningful distance over time. The mental component is equally important as the technical execution - you must commit to executing hip escapes persistently even when exhausted, discouraged, or when individual attempts create minimal visible progress. In high-level competition, your opponent will be actively working to prevent your hip escapes, so you cannot expect single dramatic movements to succeed. Instead, focus on executing technically perfect small movements continuously, understanding that your opponent cannot prevent them all if you maintain proper mechanics and relentless persistence throughout the match duration.
-- **Eddie Bravo**: Traditional hip escape instruction often creates this rigid, formal approach where practitioners think they need perfect conditions to execute the movement, but I've found the most effective escapes happen when you integrate hip escape mechanics continuously throughout bottom position rather than as discrete obvious attempts. In the 10th Planet system, we emphasize what I call 'invisible escapes' where you're constantly making tiny incremental hip movements even while appearing to be static in bad position, accumulating distance so gradually that opponents don't recognize the escape happening until you've already recovered guard. We also explore unconventional recovery positions that traditional systems might not recognize as valid guards - sometimes the best application of hip escape mechanics isn't recovering to closed guard but instead creating the specific spatial relationship necessary for entering rubber guard, lockdown, or other 10th Planet positions. The key innovation is treating hip escapes as continuous background process rather than dramatic technique, making them impossible for opponents to specifically counter because they're woven into every moment of your bottom position rather than being telegraphed as obvious escape attempts.
 
 </section>
 

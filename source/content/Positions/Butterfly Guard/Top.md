@@ -8,7 +8,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -466,24 +466,6 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 **Average Time in Position**: 30-60 seconds to successfully pass or be swept
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Passing butterfly guard effectively requires understanding the biomechanical principles that make the position dangerous and systematically neutralizing them before attempting to advance position. The primary threat comes from the hooks creating a fulcrum under your center of mass combined with upper body control that enables the bottom player to generate rotational force through coordinated pulling and elevation. The key to defeating this mechanism is managing distance and posture - you must either create sufficient distance that the hooks cannot generate effective elevation, or you must establish such dominant upper body control that the bottom player cannot coordinate the necessary pulling action with their hook elevation. The most critical error in butterfly guard passing is attempting to pass while in the optimal range for the bottom player's sweeps; instead, you must first transition to a configuration where the hooks are neutralized, either through standing passes that remove your legs from hook range, or through over-under control that pins the bottom player's torso and prevents the upright posture necessary for effective sweep execution. Superior passing is characterized by patience in establishing these controlling positions before committing to advancement.
-
-### Gordon Ryan
-
-Against elite butterfly guard players, I've learned that attempting traditional pressure passing is often counterproductive because you're playing directly into their strongest mechanics - the more pressure you apply forward, the easier you make their sweeps when they have proper inside position with hooks. My approach is to use a lot of false pressure where I appear to commit forward but maintain my weight back and posture up, baiting them to attempt sweeps that I can counter as they commit. When they go for the sweep and temporarily lose their optimal structure, that's when the actual passing opportunity presents itself. I also heavily favor transitioning to standing and using distance-based passes like the toreando against butterfly guard, because this removes my legs from their hook range entirely and forces them to either follow me up or transition to a different guard. The key insight is recognizing that butterfly guard is primarily dangerous in a specific distance range - too close and they sweep you easily, but create proper distance and their position becomes much less threatening. I also use a lot of over-under passing against butterfly because when you can pin their torso and prevent them from sitting up, the hooks lose almost all their effectiveness.
-
-### Eddie Bravo
-
-One thing I've noticed competing and teaching is that most people try to pass butterfly guard like they're passing closed guard or half guard, using forward pressure and trying to flatten the opponent, but this is exactly what makes you vulnerable to the explosive elevation that butterfly specializes in. In 10th Planet, we teach our students to recognize butterfly guard as a position where you need to either be all the way in with over-under control or all the way out with standing passes - that middle distance where they have hooks and you're in combat base is their optimal attacking range, so don't hang out there. I particularly like using the step-over pass where you literally step over one of their hooks while controlling their upper body, transitioning directly to leg drag position or back exposure. Another key thing is recognizing when they're transitioning to our lockdown or other half guard variations - if you catch that transition early, you can often get a really good passing position because they're between positions. The guillotine is also a huge threat when you're passing butterfly guard incorrectly, so I teach a very defensive head positioning where your chin is protected and your posture is strong throughout the passing sequence.
 
 </section>
 

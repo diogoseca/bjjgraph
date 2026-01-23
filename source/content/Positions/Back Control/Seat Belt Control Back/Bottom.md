@@ -8,7 +8,7 @@ description: "Master seat belt control escape strategies from bottom back positi
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -422,24 +422,6 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The seat belt control from the bottom perspective represents one of the most dangerous positions in grappling, yet it is also one of the most misunderstood from a defensive standpoint. The fundamental problem is that most athletes panic when they feel the back taken and begin using explosive, energy-intensive movements that accomplish nothing of value. The correct approach is systematic and prioritized: first, protect the neck through proper chin positioning and hand placement; second, address the over-shoulder grip as this provides the primary control and choking leverage; third, create space through hip movement to disrupt the opponent's chest-to-back connection. The hand fighting must be intelligent - rather than pulling on both grips simultaneously, control the choking wrist while using your other hand to create frames and angles. The escape sequences should flow naturally from grip disruption to hip escape to turning into the opponent, converting back control into the far more manageable turtle or half guard positions.
-
-### Gordon Ryan
-
-When someone gets my back with seat belt control in competition, I immediately shift into defensive mode with clear priorities: protect my neck, stay calm, and work the escape systematically. The biggest mistake I see from competitors is they wait too long to address the grips - once someone has a solid seat belt and hooks, your escape percentage drops dramatically. I start hand fighting immediately, focusing on that over-shoulder grip because that's what gives them all their control. I keep my elbows wide, never cross my arms, and constantly create small movements with my hips to prevent them from settling. In competition, every second counts, so I'm always thinking about the clock and my energy expenditure. If I can break that top grip and start to turn, I can usually get to turtle within 20-30 seconds. The key is never giving up - I've escaped from back control with seconds left in matches by staying technical and not panicking when things look bad.
-
-### Eddie Bravo
-
-From the bottom in seat belt control, you're in serious danger but you're not finished - this is where your mental game is everything. In 10th Planet, we drill back escapes constantly because in no-gi competition, once someone locks in that harness grip, things can go bad fast. The first thing is protecting your neck - chin down, hands up, never let them get that forearm under your chin. Then I'm working on that overhook grip because that's their control center. I like to use a lot of hip movement, staying slippery and making them work for everything. Sometimes I'll even try to roll through if they're too high on my back, converting to a leg entanglement position or forcing them to bail on the back control entirely. The important thing is staying active and making them burn energy too - if you just lay there defensive, you're giving them all the time in the world to work their attack. Keep moving, keep fighting grips, and look for that moment when they overcommit to an attack and create the escape opportunity.
 
 </section>
 

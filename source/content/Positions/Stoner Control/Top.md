@@ -8,7 +8,7 @@ description: "Defend against Stoner Control from top position in BJJ. Complete g
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -415,24 +415,6 @@ From trapped position in Stoner Control, flow through complete escape sequence: 
 
 **Average Time in Position**: 30-90 seconds to escape or get submitted/swept
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending Stoner Control requires understanding the mechanical trap you've entered - the bottom player has created a structural control system where your trapped arm eliminates one primary support point while the leg control breaks your posture and prevents base recovery. The key defensive principle is recognizing this as a two-part problem that must be addressed systematically rather than through brute force. Attempting to simply rip the trapped arm free ignores the reality that the leg control maintains the posture break that makes overhook retention possible. Similarly, addressing only the leg control while leaving the overhook intact prevents posture recovery that makes leg clearing effective. The solution lies in creating what I call 'defensive leverage points' - using your free arm to establish crossface or head control creates a third structural element that disrupts the bottom player's control system. Once this disruption occurs, you can time your overhook extraction and leg clearing for moments when the bottom player transitions between attacks, using their movement against them. The critical error most students make is posting the free hand near the bottom player's hips attempting to create base - this is precisely what the bottom player wants, as it triggers their highest percentage attacks. Instead, maintain a wide base with your free leg, establish head control with the free arm, and work methodically on the posture and overhook problems simultaneously.
-
-### Gordon Ryan
-
-Getting caught in Stoner Control, especially against someone who knows what they're doing, is a nightmare scenario in competition because you're fighting multiple problems at once with limited solutions. The rubber guard version is particularly dangerous because any aggressive movement triggers specific submissions - post your hand, you get triangled; drive forward, you get omoplata'd; pull back too hard, they set up arm triangles. The lockdown version gives you slightly more room to work but presents its own problems with the Electric Chair and truck transitions. My approach to escaping focuses on patience and timing rather than explosive movements. The key is establishing crossface control with your free arm before attempting any major escape efforts - this limits their ability to adjust angles for submissions and gives you a control point to work from. Once you have the crossface, you're looking for the moment when they transition between attacks to extract your trapped arm. That extraction needs to be a circular motion, not straight backward, because pulling straight plays into their control. For the lockdown variation, I prioritize breaking the lockdown before worrying too much about the overhook because the lockdown is what enables their sweeps and Electric Chair. The harsh reality is that against high-level practitioners, your best defense is not getting into this position in the first place - that means maintaining good posture in closed guard and being careful with arm placement in half guard. If you do get caught, accept that it's a defensive battle and focus on not getting submitted first, escaping second.
-
-### Eddie Bravo
-
-From the top position in Stoner Control, you're in exactly the bad spot we designed this position to create - you're stuck in a dilemma where every defensive choice opens up a different attack. That's the beauty of the position from my perspective as the creator, but obviously it sucks if you're the one trapped there. The main thing people don't understand when they're trying to escape is that you can't just muscle your way out. If you try to power through, you're going to get submitted or swept, period. The position is specifically designed to punish strength-based escapes. Your best bet is to recognize which variation you're in - the rubber guard version or the lockdown version - because the escape priorities are different. Against the rubber guard Stoner Control, you absolutely cannot post that free hand aggressively or you're getting triangled. Keep that hand high, work on getting head control or a crossface, and wait for the moment when your partner transitions to a submission to extract your arm. Against the lockdown version, the lockdown itself is your biggest problem because it enables all the sweeps and the Electric Chair. You need to address that lockdown urgently using proper escape mechanics - don't just try to rip your leg out. The reality is, if someone locks up Stoner Control clean on you, especially in no-gi, you're in trouble. Your best defense is prevention - don't let them break your posture in the first place, don't let them get that deep overhook, and especially don't hang out in their guard long enough for them to set this stuff up. If you do get caught, stay calm, don't panic, and work systematically on the escape rather than spazzing out.
 
 </section>
 

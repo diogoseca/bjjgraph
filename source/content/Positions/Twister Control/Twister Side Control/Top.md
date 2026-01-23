@@ -8,7 +8,7 @@ description: "Control twister side control from top position with systematic sub
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -466,24 +466,6 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 **Average Time in Position**: 45-120 seconds before submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Twister side control represents a fascinating case study in the trade-off between positional stability and submission proximity. The position sacrifices the absolute control characteristic of traditional side control in exchange for immediate access to multiple high-percentage submission threats. This philosophical approach challenges orthodox positional hierarchies that emphasize point accumulation and gradual advancement. The mechanical efficiency of the position derives from its leg entanglement creating hip immobilization while shoulder control restricts upper body mobility, effectively dividing the opponent's defensive capabilities. The practitioner must develop sensitivity to the mechanical relationships between these control elements, understanding that even small adjustments in leg hook depth or shoulder pressure angle dramatically affect both control quality and submission accessibility. Success in this position requires not brute force but precise positional understanding and the patience to pursue submissions only when mechanical prerequisites are fully satisfied.
-
-### Gordon Ryan
-
-Twister side control is one of my go-to positions when I want to finish quickly without grinding through traditional positional progressions. The beauty of this position is that you're immediately threatening submissions while still maintaining control. I like to think of it as compressed finishing position where the normal back control or mount progression is bypassed. My approach is to constantly threaten multiple submissions at once, creating real dilemmas where every defensive choice opens something else. If they defend the twister, I'm going to the darce. If they turn away from the darce, I'm taking the back. The key is staying active and not getting stuck on one submission. And here's something important: if you can't finish in reasonable time, don't be stubborn. Transition to back control or mount and finish from there. Efficiency matters more than proving you can hit a particular submission.
-
-### Eddie Bravo
-
-Twister side control is where the rubber meets the road in my system. This is the position where you find out if someone really understands the truck system or if they're just playing around with it. The position works because it creates multiple layers of control that all work together: the leg hook immobilizes their hips, the shoulder pressure controls their upper body, and the positioning creates constant submission threats. What makes it special is that defending one thing opens up another thing. It's not about forcing one submission; it's about creating a situation where they're always in danger no matter what they do. And you need to be comfortable here, not rushing or forcing things. Let the position do the work for you. When the mechanics are right, the submissions come naturally. When they're not right, don't force it, adjust your position until everything lines up. That's the difference between good technique and great technique.
 
 </section>
 

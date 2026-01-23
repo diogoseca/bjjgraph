@@ -8,7 +8,7 @@ description: "Master Reverse Kesa-Gatame Bottom escape techniques. Complete defe
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -420,24 +420,6 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse Kesa-Gatame Bottom represents a high-pressure defensive scenario where systematic escape methodology must override panic responses. The biomechanical reality is that the top player's weight distribution creates a specific vector of pressure that can be exploited through precise hip escape mechanics combined with frame construction. The critical error most practitioners make is attempting to pull the trapped arm before creating the necessary space through shrimping movements. The proper sequence involves establishing a pushing frame with the free arm against the opponent's hip or shoulder, executing a shrimp to create initial space, and only then working to extract the trapped shoulder. The position's vulnerability lies in the top player's tendency to sit too high on the chest, which compromises their base and creates bridge opportunities. However, bridging should be viewed as a secondary option only when the opponent makes this specific error. The primary pathway should always be systematic hip escape to guard recovery, as this represents the highest percentage escape under most circumstances.
-
-### Gordon Ryan
-
-From a competition standpoint, Reverse Kesa-Gatame Bottom is a position you absolutely cannot afford to stay in for extended periods. The submission threats are real and the position can score heavily for your opponent if they transition to Mount or Back. My approach is immediate and aggressive framing with the free arm while working a hip escape to at least get to half guard. The key is not to wait for the perfect moment - you need to create movement immediately because the longer you stay static, the more settled their weight becomes and the harder everything gets. I've found that most guys will try to transition to Mount or North-South from here rather than hunt for the submission, so you have to be ready to follow their movement and use their transition as your escape opportunity. When they start moving to improve position, that's when you shrimp hard and recover some kind of guard. The bottom line is this position is dangerous and you need to treat it with urgency - work your frames, work your hips, and get the hell out of there as fast as possible while staying technical.
-
-### Eddie Bravo
-
-Reverse Kesa-Gatame Bottom is one of those old school pins that people underestimate until they're stuck under a heavy pressure player who knows how to ride it. The traditional escape methods work, but I've found that incorporating some unconventional movements can really throw people off. One thing I teach is using the lockdown concept even from here - if you can get your far leg hooked over their near leg while you're working the escape, it kills their ability to transition to Mount and gives you some control over their lower body. Another option that works in no-gi is to actually go inverted temporarily - if they're sitting too high and you can't get the standard shrimp going, sometimes going to a pseudo-granby position and threatening to come up on top or take their back can force them to abandon the position. The key is staying creative and not getting married to one escape sequence. If the first path isn't working, have three or four backup plans ready to go. This position is about survival first, then escape, then maybe getting wild with some inversions if you've got the flexibility and timing.
 
 </section>
 

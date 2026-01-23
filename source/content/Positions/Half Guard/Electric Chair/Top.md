@@ -8,7 +8,7 @@ description: "Master Electric Chair Top position in BJJ. Control opponent's lock
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -418,24 +418,6 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 **Average Time in Position**: 30-90 seconds before escape or submission/sweep
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Electric Chair Top position represents a critical juncture in the half guard passing game where systematic understanding separates competent passers from those who simply muscle through. The lockdown creates a mechanical advantage for the bottom player by utilizing the strength of their entire posterior chain against your isolated leg, making brute force extraction both ineffective and dangerous. The key principle is to recognize that the lockdown is a system of connected controls - the foot triangle, hip extension, and upper body manipulation work together to create the submission threat and sweep opportunities. Your escape must therefore be systematic: first neutralize the most dangerous element (the submission threat through proper weight distribution and limp leg mechanics), then methodically dismantle the lockdown structure by addressing the foot triangle, and finally extract your leg once the system is weakened. The common error of attempting immediate leg extraction while the lockdown is fully engaged not only fails but actively assists your opponent by creating the very torque that makes the Electric Chair effective. Instead, use forward pressure, proper angle management, and patience to systematically overcome what is essentially a well-designed trap.
-
-### Gordon Ryan
-
-When I'm stuck in someone's lockdown, my first thought is always 'how did I let this happen' because prevention is way easier than escape. But once you're there, you need to be smart about it. The Electric Chair submission is actually pretty easy to defend if you know what you're doing - keep your weight forward, don't let them get perpendicular, and relax that trapped leg. Most people tense up and try to yank their leg out, which is exactly what makes the submission work. I've been caught in the lockdown by high-level 10th Planet guys, and the key is not panicking. They want you to react, to give them the Old School sweep or to overcommit to passing. I focus on shutting down their upper body control first - if they can't control my shoulders and head, they can't create the angles they need for their attacks. Once I've established dominant upper body position with a crossface or by controlling their bottom arm, I work the lockdown break methodically. The limp leg technique is legit - by relaxing the trapped leg, you take away most of the submission threat. From there, it's about being patient and waiting for them to adjust, and that's when you extract. Most people who get swept or submitted from here are just being impatient and trying to force things. Stay calm, stay heavy, and work the system.
-
-### Eddie Bravo
-
-As the guy who helped popularize the lockdown and Electric Chair, I can tell you exactly what I hate when I'm on bottom - a calm, knowledgeable top player who understands the position. The whole lockdown system is designed to create panic and force reactions. We want you to pull that leg out hard because that's what makes the Electric Chair work. We want you to sit back because that gives us the Old School. We want you to ignore your upper body defense because that's how we take the back. But when someone knows what they're doing on top, it becomes a much harder game. The limp leg defense is probably the most frustrating thing for a lockdown player - when you relax that leg and keep your weight forward, it neutralizes like 70% of what we're trying to do. From there, if you're patient and methodical with your escape, you're probably getting out. The thing is, most people don't train this position enough from top because they see it as 'that weird 10th Planet thing,' so when they encounter it, they don't know what to do. My advice is to drill this specifically with someone who knows the lockdown system well. Understand all the attacks we can throw at you - the Electric Chair, the Old School, the Dogfight sweep, the back take. Once you know what's coming, you can stay calm and work your escapes. And honestly, if you shut down the lockdown player's initial attacks and start passing, a lot of them don't have a Plan B because they're so invested in that system.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -475,24 +475,6 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 
 **Average Time in Position**: 30-90 seconds before advancement or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Rodeo Ride represents a critical transitional state in the turtle attack hierarchy where the attacker must balance between maintaining control and advancing position. The biomechanical advantage lies in the asymmetric loading of pressure—by positioning your hips perpendicular to the opponent's spine while maintaining chest connection, you create a leverage system that makes their defensive turtle structurally unstable. The key technical element is the near arm control combined with far-side grip, which creates what I call a 'control diagonal' across the opponent's back. This diagonal prevents rotation in either direction while simultaneously setting up multiple attack vectors. The position requires constant micro-adjustments in weight distribution as the opponent shifts their base—static pressure is ineffective here. Your goal should be to use this position as a decision point: read the opponent's defensive priorities and exploit the opposite angle they're leaving open. When they defend the choke, take the back. When they defend positional advancement, attack submissions. The systematic approach is to threaten one avenue of attack to create the opening for your actual objective.
-
-### Gordon Ryan
-
-In competition, Rodeo Ride is one of my highest percentage positions for securing back control against high-level opponents who defend their turtle well. The mistake most people make is trying to force the back take immediately—against good defensive players, you need to make them choose between defending the choke attack and defending positional advancement. I typically establish Rodeo Ride, threaten a clock choke or collar choke to get their hands up defending their neck, then capitalize on that reaction by securing the back or truck position. The position also works exceptionally well in overtime situations where you need to score quickly—threatening submissions from here forces referees to see clear offensive action while you're systematically breaking down their defensive structure. Against wrestlers with good turtle defense, Rodeo Ride lets you stay heavy and offensive without committing to positions where they can explode and escape. The key detail that separates good from great execution is maintaining that near arm control throughout your transitions. That arm is your anchor point—once you lose it, they can post and create the frames that enable their escapes.
-
-### Eddie Bravo
-
-Rodeo Ride fits perfectly into the 10th Planet turtle attack system because it maintains that constant flow state we emphasize—you're never static, always moving, always threatening. From here, we have multiple paths into the truck position, which is one of our primary back attack entries. The no-gi application requires you to be even more dynamic since you don't have collar grips to anchor your control. I teach students to use the rodeo motion—that constant adjustment and rebalancing—to keep opponent guessing about your next move. One of my favorite sequences is to threaten the twister from truck, which makes them defend that side, then capitalize by rolling them the opposite direction into full back control. The position also sets up the lockdown game if they start to recover half guard during your attack—you can transition into that whole system. What makes Rodeo Ride effective in our system is that it embraces the chaos of the scramble rather than trying to achieve perfect static control. You're riding their movement, using their energy against them. The more they try to escape, the more opportunities you create. It's beautiful jiu-jitsu when executed correctly—completely overwhelming for the person on bottom because they can't find any moment of safety to start their escape.
 
 </section>
 

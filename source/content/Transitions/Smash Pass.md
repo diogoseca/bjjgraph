@@ -8,7 +8,7 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -342,15 +342,6 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 - [[Gordon Ryan Passing System]] - System integration - smash pass is core component of this system
 - [[Pressure Passing]] - Conceptual framework - smash pass exemplifies pressure passing principles
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The smash pass represents the systematic application of controlled pressure to compromise the opponent's defensive structure. The key to understanding this technique is recognizing that it operates on the principle of progressive position degradation - you're not attempting to pass in one movement, but rather making the opponent's position incrementally worse until passing becomes inevitable. The biomechanics of the crossface are critical: by controlling the head, you control the spine, and by controlling the spine, you limit all upper body mobility. Notice how the pressure angle drives through the opponent's face toward the far hip - this creates a diagonal pressure vector that's extremely difficult to resist with frames. The leg extraction phase must occur only after the opponent's retention mechanisms are fully compromised by your control positions. Many practitioners fail at this technique because they attempt to force the leg free while the opponent still has viable defensive structures in place. Patient, systematic pressure application always defeats explosive, forceful attempts.
-- **Gordon Ryan**: The smash pass is one of my highest percentage techniques in both gi and no-gi competition because it's simple, effective, and extremely difficult to counter when done correctly. I've finished hundreds of matches using variations of this pass. The key things I focus on: crossface must be deep enough that they can't turn their head back toward you, and your shoulder pressure has to be genuinely heavy - not just placing your shoulder there, but driving your weight through it into their face. I like to combine the smash pass with immediate submission threats - if they defend by turning in, I'm hunting for the darce or anaconda. If they try to frame on my hips, I'll switch to the knee slice or long step. The beauty of this pass is that it works at the highest levels because it's based on fundamental pressure principles that don't rely on your opponent making mistakes. Even when they know it's coming, executing the defense requires constant effort and energy expenditure, which eventually leads to openings.
-- **Eddie Bravo**: While the smash pass is more of a traditional approach than what we typically emphasize in 10th Planet, I absolutely respect its effectiveness and teach variations of it within our system. The thing about pressure passing is that it's a battle of wills - you're essentially telling your opponent 'I'm going to be here, and you can't stop me.' Where we add our own flavor is in dealing with the lockdown defense - a lot of traditional smash passers struggle when someone locks them down, but we've developed specific protocols for breaking lockdowns while maintaining smash pass pressure. I also like to combine the smash pass concept with our truck entries - if someone's defending the smash really well and keeping their inside knee in the way, sometimes the path of least resistance is to go with their defense and transition to attacking the truck position instead. The crossface pressure principle is universal though - whether you're doing a traditional smash pass or some crazy 10th Planet variation, controlling that head and turning it away from you is fundamental control.
 
 </section>
 

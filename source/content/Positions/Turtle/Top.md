@@ -8,7 +8,7 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -435,24 +435,6 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 
 **Average Time in Position**: 15-45 seconds before transition to dominant position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The turtle top position represents one of the most fertile attacking platforms in Brazilian Jiu-Jitsu when approached systematically. The fundamental principle governing successful turtle attacks is the establishment of control before attempting positional advancement or submission. The most common error I observe is practitioners rushing to insert hooks for back control without first securing dominant grips on the upper body. The proper attacking sequence begins with establishing chest pressure to flatten the opponent's defensive structure, followed by harness or seatbelt control, and only then progressing to hook insertion. The timing of these progressions must be synchronized with the opponent's weight shifts and defensive reactions. When the opponent's weight moves forward to defend against back takes, the front headlock becomes available; when they sit back to prevent flattening, crucifix entries emerge. The key mechanical insight is that turtle attacks succeed through systematic control accumulation rather than explosive single techniques. Training should emphasize flowing between multiple attack options based on defensive reactions rather than forcing single techniques against proper defense.
-
-### Gordon Ryan
-
-Turtle top is where I score a huge percentage of my back takes in competition because most people don't defend it properly and it's a position where you can really impose your will. The key is not giving them any time to think or create movement - the moment they hit turtle, I'm already working my grips and setting up my attack. I prefer the direct back take route because it scores 4 points and sets up my highest percentage submissions, but you have to be ready to flow to front headlock if they defend the back take well. The biggest thing that separates high-level turtle attacks from lower levels is grip fighting - if you can't establish and maintain dominant grips quickly, they'll escape every time. I drill the transition from turtle to back control obsessively because that's where matches get won. The anaconda and darce are great submissions but they require specific defensive mistakes, whereas the back take is available against pretty much any turtle defense if you execute properly. In no-gi especially, you need to be heavy with your chest pressure and never let them create separation.
-
-### Eddie Bravo
-
-Turtle top is one of my favorite positions to teach because it opens up so many of the 10th Planet signature moves - truck entries, twisters, electric chair setups. Most traditional BJJ schools just teach the basic back take from turtle, but we see it as a gateway to our entire back attack system. When someone turtles, I'm immediately looking for the truck entry by controlling the far leg and near arm, which sets up the whole twister series. The beauty of attacking turtle in the 10th Planet system is that everything connects - if the truck doesn't work, you flow to the crucifix; if that's defended, you take the back; if they defend the back, you hit the anaconda or darce. It's all about having layers and not getting stuck on one technique. The key is staying mobile and ready to follow their movement - don't be heavy and static like traditional top pressure, be more like a predator tracking prey. Also, the crab ride position from turtle is criminally underutilized - it gives you so much control while keeping all your attacking options open.
 
 </section>
 

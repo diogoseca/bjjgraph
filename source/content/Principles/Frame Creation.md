@@ -8,7 +8,7 @@ description: "Master Frame Creation in BJJ. Learn skeletal alignment, force dist
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Establish frames using proper skeletal alignment to maximize structural integrity
 - Create and maintain perpendicular force distribution relative to opponent's pressure
 - Utilize bone structure rather than muscular strength for sustainable frames
@@ -179,9 +179,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Skeletal Alignment Recognition**: The ability to identify and maintain optimal bone structure alignment that maximizes structural integrity while minimizing muscular effort. This includes understanding how to position the radius, ulna, humerus, femur, and tibia in configurations that create the strongest defensive barriers against specific pressure angles.
 
 **Connection Point Management**: Understanding where to establish frame contact points on the opponent's body to maximize defensive effectiveness. This involves recognizing high-value targets such as hips, shoulders, collarbones, and head that provide maximum leverage for redirecting pressure and creating space.
@@ -202,28 +202,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Space Creation]]** (Complementary): Frame Creation is the primary mechanism through which Space Creation is achieved. Effective frames establish the structural foundation that enables hip movement and body repositioning to generate the space necessary for escapes.
-- **[[Hip Escape Mechanics]]** (Extension): Once frames create initial space, Hip Escape Mechanics utilize that space to generate positional improvement. Frames provide the stable platform from which hip escapes can be executed effectively.
-- **[[Base Maintenance]]** (Complementary): While Base Maintenance focuses on maintaining stable positioning when in advantageous positions, Frame Creation serves the inverse function of creating stability when defending. Both concepts rely on similar biomechanical principles of skeletal alignment and weight distribution.
-- **[[Leverage Principles]]** (Prerequisite): Understanding Leverage Principles is fundamental to effective Frame Creation. Frames are essentially applied leverage using the body's skeletal structure to amplify defensive capability and redirect superior force.
-- **[[Defensive Posture]]** (Complementary): Defensive Posture encompasses the overall body positioning and protection strategies, while Frame Creation provides the specific structural mechanisms that make defensive posture effective against opponent advancement.
-- **[[Connection Breaking]]** (Alternative): While Frame Creation focuses on establishing barriers to prevent advancement, Connection Breaking focuses on dissolving opponent's established control points. These represent complementary defensive strategies used in different phases of defensive sequences.
-- **[[Defensive Framing]]** (Extension): Defensive Framing is the specific application of Frame Creation principles in defensive contexts, focusing on frame utilization during escapes and guard retention scenarios.
-- **[[Frame Management]]** (Advanced form): Frame Management represents the advanced skill of coordinating multiple frames over time, including strategic frame establishment, maintenance, transition, and dissolution throughout dynamic exchanges.
-- **[[Escape Fundamentals]]** (Prerequisite): Frame Creation is one of the core components of Escape Fundamentals, serving as the first step in most escape sequences by creating the initial space required for movement.
-- **[[Pressure Reduction]]** (Complementary): Effective frames are the primary tool for Pressure Reduction, redirecting opponent weight and force away from vulnerable areas while creating breathing room for defensive actions.
-- **[[Guard Retention]]** (Extension): Guard Retention heavily relies on Frame Creation to maintain distance and prevent guard passing, using frames to create barriers that keep opponents from establishing dominant passing positions.
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding Biomechanical Principles is essential for effective Frame Creation, as optimal framing relies on proper body mechanics, joint angles, and force distribution through skeletal structures.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Side Control**: Establishing frames against the opponent's shoulder and hip using straight-arm positioning to create space for hip escape. The near arm frames the neck/shoulder while the far arm frames the hip, creating perpendicular pressure that prevents chest-to-chest compression.
 
 **Mount**: Creating frames with elbows tight to ribs and forearms positioned against opponent's hips or chest to prevent high mount advancement and create space for hip escape or bridge-and-roll escapes. Frames must be positioned to redirect downward pressure laterally.
@@ -258,9 +239,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess incoming pressure direction and magnitude**: Quickly identify the primary force vectors from opponent's weight distribution and body positioning to determine optimal frame angles and placement locations
 2. **Identify critical blocking points on opponent's body**: Locate high-value frame targets such as hips, shoulders, neck, or head that provide maximum leverage for redirecting pressure and preventing positional advancement
 3. **Establish primary frame with optimal skeletal alignment**: Position first frame using straight-arm or bent-arm configuration perpendicular to pressure direction, ensuring bones are stacked for structural integrity rather than relying on muscular strength
@@ -273,9 +254,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Relying on muscular strength rather than skeletal alignment
   - **Consequence**: Frames collapse quickly under sustained pressure as muscles fatigue, leading to rapid positional deterioration and inability to maintain defensive structure for extended periods
   - **Correction**: Focus on positioning bones in straight lines or optimal angles that create structural integrity through skeletal stacking, allowing frames to be maintained with minimal muscular effort
@@ -301,9 +282,9 @@ Frame Creation represents the fundamental defensive skill of establishing struct
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Pressure Drilling** (Focus: Developing the ability to maintain proper frame structure under realistic pressure conditions while identifying the difference between skeletal versus muscular frame support)
 Partner applies gradually increasing pressure against established frames while practitioner focuses on maintaining skeletal alignment and structural integrity. Start with 30% pressure and incrementally increase to 80% over multiple rounds.
 
@@ -326,9 +307,9 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic straight-arm frames against pressure but frequently relies on muscular strength rather than skeletal alignment
 - Recognizes the need for frames in obvious situations like side control but struggles to apply framing concepts across diverse positions
@@ -368,10 +349,26 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Space Creation]]** (Complementary): Frame Creation is the primary mechanism through which Space Creation is achieved. Effective frames establish the structural foundation that enables hip movement and body repositioning to generate the space necessary for escapes.
+- **[[Hip Escape Mechanics]]** (Extension): Once frames create initial space, Hip Escape Mechanics utilize that space to generate positional improvement. Frames provide the stable platform from which hip escapes can be executed effectively.
+- **[[Base Maintenance]]** (Complementary): While Base Maintenance focuses on maintaining stable positioning when in advantageous positions, Frame Creation serves the inverse function of creating stability when defending. Both concepts rely on similar biomechanical principles of skeletal alignment and weight distribution.
+- **[[Leverage Principles]]** (Prerequisite): Understanding Leverage Principles is fundamental to effective Frame Creation. Frames are essentially applied leverage using the body's skeletal structure to amplify defensive capability and redirect superior force.
+- **[[Defensive Posture]]** (Complementary): Defensive Posture encompasses the overall body positioning and protection strategies, while Frame Creation provides the specific structural mechanisms that make defensive posture effective against opponent advancement.
+- **[[Connection Breaking]]** (Alternative): While Frame Creation focuses on establishing barriers to prevent advancement, Connection Breaking focuses on dissolving opponent's established control points. These represent complementary defensive strategies used in different phases of defensive sequences.
+- **[[Defensive Framing]]** (Extension): Defensive Framing is the specific application of Frame Creation principles in defensive contexts, focusing on frame utilization during escapes and guard retention scenarios.
+- **[[Frame Management]]** (Advanced form): Frame Management represents the advanced skill of coordinating multiple frames over time, including strategic frame establishment, maintenance, transition, and dissolution throughout dynamic exchanges.
+- **[[Escape Fundamentals]]** (Prerequisite): Frame Creation is one of the core components of Escape Fundamentals, serving as the first step in most escape sequences by creating the initial space required for movement.
+- **[[Pressure Reduction]]** (Complementary): Effective frames are the primary tool for Pressure Reduction, redirecting opponent weight and force away from vulnerable areas while creating breathing room for defensive actions.
+- **[[Guard Retention]]** (Extension): Guard Retention heavily relies on Frame Creation to maintain distance and prevent guard passing, using frames to create barriers that keep opponents from establishing dominant passing positions.
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding Biomechanical Principles is essential for effective Frame Creation, as optimal framing relies on proper body mechanics, joint angles, and force distribution through skeletal structures.
+
+
+### Related Content
 - [[Space Creation]] (Principle) - Frame Creation is the primary mechanism through which Space Creation is achieved in defensive situations
 - [[Hip Escape Mechanics]] (Principle) - Frames provide the stable foundation from which hip escape movements can be executed effectively
 - [[Defensive Framing]] (Principle) - Closely related concept focusing on specific framing applications in defensive scenarios
@@ -385,15 +382,6 @@ Allow partner to partially collapse frames, then practice re-establishing effect
 - [[Base Maintenance]] (Principle) - Inverse application of similar biomechanical principles used in framing, applied to maintaining top positions
 - [[Escape Fundamentals]] (Principle) - Frame Creation serves as a core component of escape fundamentals, providing the initial space for movement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Frame creation represents one of the most fundamentally important defensive concepts in jiu-jitsu, yet it is frequently misunderstood and poorly executed even by advanced practitioners. The key to effective framing lies in understanding that frames are structural engineering problems, not muscular strength problems. When you create a frame, you must think like an architect designing a bridge - the strength comes from the geometric arrangement of structural elements, not from the materials themselves. Your bones are the structural beams, and they must be arranged in configurations that redirect force along their length rather than applying bending stress perpendicular to their axis. This is why a straight-arm frame positioned perpendicular to incoming pressure is infinitely more sustainable than a bent-arm frame attempting to push directly against superior force. The most sophisticated aspect of frame creation is understanding that frames exist as systems, not isolated barriers. A single frame can always be overcome with sufficient force or bypassed through alternative angles, but a comprehensive framing system that integrates multiple limbs creates a defensive structure that becomes exponentially more difficult to penetrate. This is the fundamental principle behind effective guard retention and escape capability.
-- **Gordon Ryan**: In competition, your ability to create and maintain effective frames under pressure often determines whether you survive in bad positions long enough to escape or whether you get submitted or mounted. I've found that the difference between frames that work against world-class pressure and frames that collapse immediately comes down to three key factors: connection point selection, skeletal alignment, and dynamic adjustment. You can't just push randomly against your opponent's body and expect effective frames - you need to target specific high-leverage points like the hip bones, shoulder joints, or neck that give you maximum control over their center of mass. The skeletal alignment piece is about making sure your bones are doing the work, not your muscles. If you're burning out your triceps trying to maintain a frame, you've already lost the structural battle. And the dynamic adjustment is crucial because in real matches, opponents are constantly moving and changing pressure angles. Your frames can't be static - you need to be continuously micro-adjusting angles and transitioning between different frame configurations as the position evolves. I've also learned that the best frames aren't purely defensive - they're positioned in ways that create specific reactions from your opponent that you can exploit for escapes or reversals. That's next-level framing.
-- **Eddie Bravo**: Frame creation is absolutely essential in the 10th Planet system because we're operating in no-gi environments where you don't have cloth handles to manage distance and create defensive structure. Without the gi, your frames become even more critical as your primary tool for controlling space and preventing pressure. What I've developed over the years is the concept of creating what I call 'active frames' - these aren't just passive barriers but dynamic structures that are constantly probing for weaknesses and creating offensive opportunities even while defending. For example, when you're framing from bottom side control, that frame against the neck isn't just keeping pressure off your chest - it's also setting up the potential for a guillotine if your opponent makes a mistake or creating the angle you need for the electric chair sweep if you can connect it to your lockdown. The other thing I emphasize heavily is the integration of frames with our rubber guard system. The mission control position is essentially an advanced framing concept where your leg becomes a structural frame that controls posture while freeing your hands for attacks. Understanding how to transition between conventional arm frames and these more unorthodox leg-based frames opens up entirely new defensive and offensive possibilities that most traditional schools never explore.
 
 </section>
 

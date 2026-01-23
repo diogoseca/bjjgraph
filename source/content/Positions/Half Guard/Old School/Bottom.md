@@ -8,7 +8,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic Eddie
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -441,24 +441,6 @@ Start in Old School position with full controls established. Bottom player attem
 
 **Average Time in Position**: 20-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Old School position represents a sophisticated mechanical system that exploits fundamental principles of leverage and rotational dynamics. The position's effectiveness derives from the geometric relationship between the underhook's sweeping lever, the head control's posture disruption, and the lockdown's base elimination. When properly configured, these three control points create a mechanical advantage that makes the sweep nearly inevitable during the opponent's forward weight distribution. The critical technical element most practitioners overlook is the precise shoulder positioning under the opponent's center of gravity on the underhook side, which establishes the fulcrum point for rotational force application. The sweep should be conceptualized not as a lifting or pushing action, but rather as a controlled rotation around this shoulder fulcrum, with the underhook and head control guiding the opponent's trajectory while the hips provide the rotational drive. The lockdown's function extends beyond simple leg control; it eliminates the opponent's ability to establish a wide base or post the trapped leg, forcing their weight distribution forward onto the hands and the controlled shoulder, which paradoxically facilitates the very sweep they're trying to prevent.
-
-### Gordon Ryan
-
-Old School is one of those positions that looks simple but requires perfect timing and connection to hit at the highest levels. Against good competitors, you get maybe a three-second window when their weight shifts forward or they try to break your lockdown—that's when you need to execute. The key difference between beginners missing this sweep and advanced guys hitting it consistently is maintaining chest-to-chest contact throughout the entire rotation. Any space and they step over or recover guard. I also see a lot of people trying to muscle the sweep with just the underhook, but the head control is equally important—you need to pull their head down and across to break their sight line and prevent them from seeing where to post. In competition, I prefer this position in no-gi where the lockdown control is superior and there's less opportunity for them to grip fight their way out. The Electric Chair threat when they defend the sweep makes this even more dangerous because you're forcing them into a true dilemma: defend the sweep and expose the leg, or defend the leg and get swept. That's winning BJJ at the highest level—controlling not just their body but their decision-making process.
-
-### Eddie Bravo
-
-Old School is the original gangster of the 10th Planet half guard game, man. This is where the whole lockdown system started—I created this position because I was tired of getting smashed and passed in traditional half guard. The beauty of Old School is it turns half guard from a defensive holding position into an offensive launching pad. People don't realize that the lockdown isn't just controlling their leg, it's cooking them, draining their energy while you're chilling on your side setting up the sweep. The deeper you get that underhook, the easier everything becomes—I want that elbow so far through it's poking out the other side. And the head control is crucial; you're not just holding their head, you're steering the whole sweep with it like a steering wheel. When you hit Old School clean, they're going over whether they want to or not. The position also opens up the whole Electric Chair game, which is my favorite submission from the system. If they stand up to defend the sweep, boom, you're already in position to roll under and attack that leg. That's the 10th Planet philosophy: create positions where every defensive option they choose opens up a different attack. Old School embodies that perfectly—it's not just a sweep, it's a strategic trap that keeps them guessing and you attacking.
 
 </section>
 

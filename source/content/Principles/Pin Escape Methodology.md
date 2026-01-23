@@ -8,7 +8,7 @@ description: "Master systematic pin escape methodology in BJJ. Learn hierarchica
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Hierarchical escape priorities: survival → space creation → guard recovery → positional advancement
 - Universal framing structures that apply across multiple pin positions
 - Incremental positional improvement rather than explosive full escapes
@@ -183,9 +183,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Initial Frame Establishment**: The ability to create and maintain defensive frames using skeletal alignment rather than pure strength, establishing initial barriers between your body and opponent's pressure points regardless of pin type. This includes elbow-knee connections, shoulder-hip frames, and forearm structures that create initial breathing space.
 
 **Hip Escape Sequencing**: Systematic hip movement patterns that progressively create space and angles for positional improvement. This involves understanding when to shrimp, when to bridge, and when to combine movements based on opponent's weight distribution and control points.
@@ -206,28 +206,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Escape Hierarchy]]** (Prerequisite): Escape Hierarchy provides the foundational understanding of positional priorities that Pin Escape Methodology implements systematically. The methodology is essentially the practical application of hierarchical thinking to pin situations.
-- **[[Defensive Framing]]** (Complementary): Defensive Framing provides the structural tools that Pin Escape Methodology deploys strategically. While framing teaches what defensive structures to create, this methodology teaches when and how to sequence them.
-- **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics provides the movement vocabulary that Pin Escape Methodology organizes into coherent sequences. The methodology determines which hip movements to use based on positional context.
-- **[[Space Creation]]** (Prerequisite): Space Creation is the fundamental objective that Pin Escape Methodology systematizes. Understanding how to create space in various ways enables the methodology's adaptive approach.
-- **[[Positional Hierarchy]]** (Extension): Pin Escape Methodology is an applied extension of Positional Hierarchy specifically for defensive situations, translating hierarchical position understanding into practical escape sequencing.
-- **[[Energy Management System]]** (Complementary): Energy Management System provides the efficiency framework that allows Pin Escape Methodology to remain sustainable over extended periods. The methodology incorporates energy conservation as a core principle.
-- **[[Shrimping]]** (Complementary): Shrimping is the foundational hip escape movement that appears repeatedly throughout the methodology's various position-specific applications.
-- **[[Bridging Mechanics]]** (Complementary): Bridging Mechanics provides vertical space creation tools that complement horizontal shrimping movements within the escape methodology.
-- **[[Frame Creation]]** (Prerequisite): Frame Creation is the immediate first step in the methodology's hierarchical approach, providing the foundation upon which all subsequent escape movements are built.
-- **[[Dealing with Pressure]]** (Complementary): Dealing with Pressure provides psychological and technical tools for maintaining composure during extended pin situations where the methodology must be applied under stress.
-- **[[Guard Recovery]]** (Extension): Guard Recovery represents the final phase of the escape methodology, translating created space into restored defensive positions.
-- **[[Mount Escape Hierarchy]]** (Advanced form): Mount Escape Hierarchy is a position-specific application of the general Pin Escape Methodology, demonstrating how universal principles adapt to mount's unique characteristics.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: Methodology dictates establishing elbow-knee frames first to create breathing space, then using bridge-and-shrimp combinations timed with opponent's posting or submission attempts to progressively escape hips and recover guard.
 
 **Side Control**: Framework emphasizes initial shoulder-hip frame to prevent chest-to-chest pressure, followed by systematic hip escape to create space for knee insertion and guard recovery, prioritizing near-side escapes when opponent's weight is distributed forward.
@@ -262,9 +243,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess immediate survival threats (chokes, joint locks)**: If submission threat exists, prioritize submission defense over positional escape. Address immediate danger first using appropriate defensive techniques before implementing escape sequences.
 2. **Identify opponent's primary control points (shoulders, hips, head)**: Systematically catalog which parts of your body are controlled and which have mobility. This assessment determines which escape route offers highest success probability.
 3. **Establish initial defensive frames appropriate to pin type**: Create skeletal structures (elbow-knee, shoulder-hip, forearm frames) that prevent further positional deterioration and establish baseline breathing space. Prioritize structural integrity over explosive movement.
@@ -277,9 +258,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Attempting explosive full escapes without establishing frames first
   - **Consequence**: Expends massive energy, often results in worse positioning as opponent capitalizes on uncontrolled movement, and leaves practitioner exhausted without positional improvement
   - **Correction**: Always establish defensive frames before attempting dynamic escape movements. Frames provide the foundation that makes subsequent movements effective and prevents positional deterioration if escape fails.
@@ -305,9 +286,9 @@ The methodology integrates concepts of defensive framing, hip escape mechanics, 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring from Bottom Pins** (Focus: Developing comfort under pressure, testing decision-making framework in real-time, and building mental resilience to remain technical when pinned by skilled training partners.)
 Extended rounds starting from specific pin positions with goal of escaping to guard or better while opponent works to maintain or improve position. Focuses on implementing methodological principles under realistic resistance.
 
@@ -330,9 +311,9 @@ Extended time-based rounds in bottom positions (5-10 minutes) focusing on surviv
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic defensive frames (elbow-knee connection, forearm frames) when instructed but struggles to maintain them under pressure
 - Understands conceptual difference between bridge and shrimp movements but often uses inappropriate movement for positional context
@@ -369,10 +350,26 @@ Extended time-based rounds in bottom positions (5-10 minutes) focusing on surviv
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Escape Hierarchy]]** (Prerequisite): Escape Hierarchy provides the foundational understanding of positional priorities that Pin Escape Methodology implements systematically. The methodology is essentially the practical application of hierarchical thinking to pin situations.
+- **[[Defensive Framing]]** (Complementary): Defensive Framing provides the structural tools that Pin Escape Methodology deploys strategically. While framing teaches what defensive structures to create, this methodology teaches when and how to sequence them.
+- **[[Hip Escape Mechanics]]** (Complementary): Hip Escape Mechanics provides the movement vocabulary that Pin Escape Methodology organizes into coherent sequences. The methodology determines which hip movements to use based on positional context.
+- **[[Space Creation]]** (Prerequisite): Space Creation is the fundamental objective that Pin Escape Methodology systematizes. Understanding how to create space in various ways enables the methodology's adaptive approach.
+- **[[Positional Hierarchy]]** (Extension): Pin Escape Methodology is an applied extension of Positional Hierarchy specifically for defensive situations, translating hierarchical position understanding into practical escape sequencing.
+- **[[Energy Management System]]** (Complementary): Energy Management System provides the efficiency framework that allows Pin Escape Methodology to remain sustainable over extended periods. The methodology incorporates energy conservation as a core principle.
+- **[[Shrimping]]** (Complementary): Shrimping is the foundational hip escape movement that appears repeatedly throughout the methodology's various position-specific applications.
+- **[[Bridging Mechanics]]** (Complementary): Bridging Mechanics provides vertical space creation tools that complement horizontal shrimping movements within the escape methodology.
+- **[[Frame Creation]]** (Prerequisite): Frame Creation is the immediate first step in the methodology's hierarchical approach, providing the foundation upon which all subsequent escape movements are built.
+- **[[Dealing with Pressure]]** (Complementary): Dealing with Pressure provides psychological and technical tools for maintaining composure during extended pin situations where the methodology must be applied under stress.
+- **[[Guard Recovery]]** (Extension): Guard Recovery represents the final phase of the escape methodology, translating created space into restored defensive positions.
+- **[[Mount Escape Hierarchy]]** (Advanced form): Mount Escape Hierarchy is a position-specific application of the general Pin Escape Methodology, demonstrating how universal principles adapt to mount's unique characteristics.
+
+
+### Related Content
 - [[Mount]] (Position) - Primary application context - mount is the most common dominant pin where methodology principles are tested and applied
 - [[Side Control]] (Position) - Core application context - side control escape is fundamental skill where systematic methodology provides clearest advantage over random technique application
 - [[Back Control]] (Position) - Advanced application context - back escape demonstrates methodology's applicability to submissions-oriented pins requiring different prioritization
@@ -386,15 +383,6 @@ Extended time-based rounds in bottom positions (5-10 minutes) focusing on surviv
 - [[Space Creation]] (Principle) - Core principle - space creation is primary objective that methodology systematizes across positions
 - [[Hip Escape Mechanics]] (Principle) - Technical foundation - provides movement vocabulary that methodology organizes into coherent sequences
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Pin Escape Methodology represents the application of systematic thinking to defensive grappling, transforming what most practitioners approach as a collection of isolated techniques into a unified conceptual framework. The key insight is recognizing that all pins, despite superficial differences in their configuration, share fundamental structural characteristics that can be addressed through consistent principles rather than position-specific memorization. This approach dramatically accelerates learning because each new position becomes a variation on known themes rather than an entirely new problem requiring separate solution. The hierarchy of defensive priorities—survival first, space creation second, guard recovery third—creates a decision tree that functions even under extreme pressure when complex thinking becomes difficult. Most critically, this methodology teaches incremental positional improvement rather than the all-or-nothing explosive escapes that characterize lower-level defensive work. Understanding that escapes are processes consisting of multiple small improvements rather than single dramatic movements fundamentally changes how practitioners approach defensive situations, leading to much higher success rates and dramatically reduced energy expenditure over the course of a match.
-- **Gordon Ryan**: In competition, pin escape methodology separates athletes who can maintain defensive viability throughout entire matches from those who gas out after one or two failed explosive escape attempts. The practical application is understanding that pins are not static positions but dynamic situations where constant micro-adjustments create compound advantages over time. Rather than accepting being pinned and then attempting a single desperation escape, championship-level defense involves continuous disruption of opponent's control points through properly timed frames and movements. The key competitive insight is that escape windows primarily appear when opponents attempt offense—trying to advance position or secure submissions—rather than during static control. This understanding allows you to conserve energy during periods of stable control while remaining ready to capitalize immediately when opportunities appear. Against high-level opponents, the ability to make them work hard to maintain pins drains their energy even when you don't complete full escapes, creating fatigue-based opportunities later in matches. The methodology's emphasis on multiple escape routes from each position is crucial because skilled opponents will shut down your preferred escapes, requiring fluid adaptation. What appears to spectators as effortless escapes is actually the result of years spent developing sensitivity to pressure distribution and timing that allows maximal effectiveness with minimal energy expenditure.
-- **Eddie Bravo**: Pin escape methodology within the 10th Planet system emphasizes creating scramble opportunities rather than following traditional positional hierarchies, recognizing that unexpected timing and direction often overcome superior weight and pressure. While conventional methodology focuses on systematic incremental improvement, our approach often introduces explosive movement at precisely timed moments when opponents are psychologically settled into maintaining position. The key innovation is developing what we call 'pressure sensitivity'—the ability to feel subtle weight distribution changes that create momentary windows where traditional escape mechanics become available. For example, recognizing the exact instant when an opponent shifts weight to consolidate control creates a split-second opportunity for explosive hip escape that wouldn't be available during static pressure. The methodology extends to creating false targets, using subtle movements that make opponents think you're attempting one escape route while actually setting up a different sequence. This psychological dimension of defensive work is often neglected in traditional systematic approaches but proves crucial against opponents familiar with standard escape sequences. Additionally, unconventional guard pulls and recovery positions—like twister-side variations and rubber guard entries from bottom—provide escape routes that opponents haven't extensively trained to counter, creating percentage advantages in scramble situations where conventional escapes would be shut down.
 
 </section>
 

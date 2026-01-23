@@ -8,7 +8,7 @@ description: "Master Whizzer Control in BJJ. Learn overhook mechanics, pressure 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -167,9 +167,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Establish overhook by placing arm over opponent's underhooking arm
 - Apply downward pressure to neutralize opponent's control
 - Maintain proper posture and spinal alignment
@@ -182,9 +182,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Overhook Establishment**: The fundamental ability to successfully thread the arm over the opponent's underhooking arm and secure proper hand positioning. This requires timing the overhook entry before the opponent establishes deep underhook control, ensuring the Whizzer arm achieves sufficient depth to apply effective pressure.
 
 **Pressure Direction Management**: The capacity to apply downward and backward pressure through the Whizzer arm in the optimal vector to disrupt opponent posture and control. Effective pressure direction varies based on opponent positioning and requires constant adjustment to maintain control effectiveness while preventing opponent counters.
@@ -205,28 +205,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Underhook Defense]]** (Complementary): Whizzer Control represents the primary counter-mechanism to opponent underhook establishment, functioning as the defensive response within the broader underhook battle framework
-- **[[Frame Creation]]** (Complementary): The Whizzer serves as a specialized framing structure that creates space and prevents opponent pressure advancement while maintaining connection for counter-offensive opportunities
-- **[[Control Maintenance]]** (Extension): Whizzer Control exemplifies control maintenance principles through its ability to neutralize opponent offensive control while establishing defensive dominance in asymmetric control situations
-- **[[Leverage Principles]]** (Prerequisite): Understanding fundamental leverage mechanics proves essential for effective Whizzer application, as the control's effectiveness depends on mechanical advantage rather than strength
-- **[[Off-Balancing]]** (Extension): Proper Whizzer application creates off-balancing opportunities by disrupting opponent posture and base through strategic pressure application and angle manipulation
-- **[[Action and Reaction]]** (Complementary): The Whizzer demonstrates action-reaction principles by using opponent underhook pressure against them, converting their offensive action into defensive opportunity
-- **[[Base Maintenance]]** (Complementary): Effective Whizzer control requires simultaneous base maintenance to create comprehensive defensive structure that prevents opponent advancement
-- **[[Forward Pressure]]** (Alternative): The Whizzer counters opponent forward pressure by redirecting and neutralizing their driving force through superior leverage positioning
-- **[[Weight Distribution]]** (Complementary): Proper weight distribution amplifies Whizzer effectiveness by ensuring pressure application remains sustainable and mechanically efficient
-- **[[Defensive Posture]]** (Extension): Whizzer Control exemplifies defensive posture principles by maintaining structural integrity while neutralizing opponent offensive attempts
-- **[[Creating Reactions]]** (Extension): The Whizzer creates predictable opponent reactions that can be exploited for counter-offensive sequences including sweeps and reversals
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles of leverage, pressure vectors, and joint mechanics underlies effective Whizzer application and adjustment
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Half Guard**: Establish Whizzer on the underhook side to prevent opponent from flattening position and establishing cross-face control, while creating sweep opportunities through the Whizzer's off-balancing effect
 
 **Turtle**: Use Whizzer to prevent opponent from establishing controlling underhook during turtle position, protecting against back exposure and creating opportunities to return to guard or stand
@@ -255,9 +236,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Recognize opponent establishing or attempting underhook control**: Immediately assess whether to prevent underhook establishment or counter existing underhook with Whizzer application based on timing and position
 2. **Determine optimal Whizzer entry timing and depth**: Thread overhook arm over opponent's underhooking arm with sufficient depth to establish control, timing entry before opponent achieves deep underhook position
 3. **Establish proper pressure direction and intensity**: Apply downward and backward pressure through Whizzer arm while maintaining postural alignment, adjusting pressure vector based on opponent's reaction and positioning
@@ -270,9 +251,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Establishing Whizzer without coordinating base and hip positioning
   - **Consequence**: Creates isolated arm control that opponent can easily counter through base attacks or positional transitions, rendering the Whizzer ineffective
   - **Correction**: Always coordinate Whizzer establishment with appropriate base widening, hip positioning, and postural alignment to create comprehensive defensive structure
@@ -298,9 +279,9 @@ Whizzer Control finds application across numerous positional contexts, from stan
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Whizzer Focus** (Focus: Developing practical Whizzer application under resistance while learning to recognize appropriate timing for establishment and transition opportunities)
 Dedicated positional sparring rounds starting from positions where Whizzer control proves tactically relevant, such as half guard or turtle positions
 
@@ -323,9 +304,9 @@ Scenario-based training where partner employs common Whizzer counters while prac
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic overhook position over opponent's underhook with coaching cues
 - Applies downward pressure through Whizzer arm with conscious attention to pressure direction
@@ -367,10 +348,26 @@ Scenario-based training where partner employs common Whizzer counters while prac
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Underhook Defense]]** (Complementary): Whizzer Control represents the primary counter-mechanism to opponent underhook establishment, functioning as the defensive response within the broader underhook battle framework
+- **[[Frame Creation]]** (Complementary): The Whizzer serves as a specialized framing structure that creates space and prevents opponent pressure advancement while maintaining connection for counter-offensive opportunities
+- **[[Control Maintenance]]** (Extension): Whizzer Control exemplifies control maintenance principles through its ability to neutralize opponent offensive control while establishing defensive dominance in asymmetric control situations
+- **[[Leverage Principles]]** (Prerequisite): Understanding fundamental leverage mechanics proves essential for effective Whizzer application, as the control's effectiveness depends on mechanical advantage rather than strength
+- **[[Off-Balancing]]** (Extension): Proper Whizzer application creates off-balancing opportunities by disrupting opponent posture and base through strategic pressure application and angle manipulation
+- **[[Action and Reaction]]** (Complementary): The Whizzer demonstrates action-reaction principles by using opponent underhook pressure against them, converting their offensive action into defensive opportunity
+- **[[Base Maintenance]]** (Complementary): Effective Whizzer control requires simultaneous base maintenance to create comprehensive defensive structure that prevents opponent advancement
+- **[[Forward Pressure]]** (Alternative): The Whizzer counters opponent forward pressure by redirecting and neutralizing their driving force through superior leverage positioning
+- **[[Weight Distribution]]** (Complementary): Proper weight distribution amplifies Whizzer effectiveness by ensuring pressure application remains sustainable and mechanically efficient
+- **[[Defensive Posture]]** (Extension): Whizzer Control exemplifies defensive posture principles by maintaining structural integrity while neutralizing opponent offensive attempts
+- **[[Creating Reactions]]** (Extension): The Whizzer creates predictable opponent reactions that can be exploited for counter-offensive sequences including sweeps and reversals
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles of leverage, pressure vectors, and joint mechanics underlies effective Whizzer application and adjustment
+
+
+### Related Content
 - [[Underhook Defense]] (Principle) - Parent concept - Whizzer Control serves as primary mechanism within broader underhook defense framework
 - [[Half Guard]] (Position) - Primary application context where Whizzer control proves tactically essential for defensive integrity
 - [[Frame Creation]] (Principle) - Complementary defensive concept - Whizzer represents specialized framing application for underhook scenarios
@@ -384,15 +381,6 @@ Scenario-based training where partner employs common Whizzer counters while prac
 - [[Front Headlock]] (Position) - Scramble position where Whizzer control prevents opponent underhook dominance
 - [[Whizzer]] (Transition) - Technical execution of the Whizzer control concept in transitional contexts
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The Whizzer represents far more than simple overhook positioning - it exemplifies the fundamental principle of converting opponent offensive actions into defensive advantages through superior mechanical understanding. When properly applied, the Whizzer creates a leverage system where your overhook pressure disrupts opponent posture while your base positioning prevents their counter-adjustments. The critical detail most practitioners miss involves the pressure vector: downward and backward pressure proves vastly superior to upward or lateral pressure for disrupting opponent control. Furthermore, the Whizzer's effectiveness multiplies exponentially when coordinated with appropriate hip positioning and base management. Isolated arm control provides minimal defensive value, but comprehensive structural integration transforms the Whizzer into both impenetrable defense and launching point for devastating counter-attacks. Study the mechanical relationship between your Whizzer pressure angle and opponent postural disruption - this understanding separates sustainable leverage-based control from exhausting strength-based efforts.
-- **Gordon Ryan**: In competition, the Whizzer battle often determines who achieves dominant position and who gets swept or reversed. I employ the Whizzer not just defensively but as an active tool for creating offensive opportunities - establishing the Whizzer early allows me to off-balance opponents and set up my preferred sweeps and reversals. The timing proves absolutely critical: waiting until opponent achieves deep underhook makes the Whizzer significantly less effective. Against high-level competitors, I've learned that maintaining Whizzer control requires constant pressure adjustment based on their reactions - they'll attempt various counters including switching sides, changing levels, or driving through the control. My approach involves using the Whizzer to create specific reactions, then capitalizing on those reactions with prepared sequences. In half guard particularly, the Whizzer determines whether I maintain defensive integrity or get flattened and passed. Rather than viewing the Whizzer as purely defensive, I've developed it into an offensive weapon that creates the positional circumstances I want while preventing opponent advancement.
-- **Eddie Bravo**: Within the 10th Planet system, we've explored numerous applications of Whizzer control that go beyond traditional wrestling-based approaches. The Whizzer proves particularly valuable in our lockdown game, where it prevents opponent from establishing the cross-face and underhook combination that shuts down lockdown effectiveness. I teach students to view the Whizzer as creating angles rather than just blocking opponent advancement - proper Whizzer application opens up our entire sweep and back-take system from half guard positions. The pressure direction proves crucial, but I emphasize the importance of staying loose and mobile rather than static strength-based control. When you get too tense with the Whizzer, you lose the ability to flow into our various sequences like the electric chair or old school sweep. We've also developed specific Whizzer applications for the rubber guard system, using overhook control to prevent opponent posture while setting up our submission sequences. The key insight: think of the Whizzer as a transitional control that creates opportunities rather than a static defensive position you maintain indefinitely.
 
 </section>
 

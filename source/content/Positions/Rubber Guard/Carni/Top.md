@@ -8,7 +8,7 @@ description: "Master defending and escaping Carni position in BJJ. Essential def
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -439,24 +439,6 @@ Start with bottom player in established Carni position. Top player attempts safe
 
 **Average Time in Position**: 10-30 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending the Carni position requires understanding the fundamental geometry of the dilemma it creates. The position is designed to make every defensive movement open a different offensive opportunity for the attacker. From the top defender's perspective, your primary concern must be hierarchical thinking - what is the most dangerous threat right now, and what is the sequential order of defensive priorities. The heel hook is always the first priority because it represents catastrophic injury risk. Only after you have secured your ankle position and eliminated immediate submission danger can you begin working on positional escape. The biomechanical reality of Carni defense is that you will likely have to accept some degree of positional loss to safely extract your leg. This means being comfortable giving up guard passing opportunities or even accepting a scramble position where you're at disadvantage. The key insight is that leg entanglement positions like Carni represent a different risk-reward calculation than traditional positional hierarchies - protecting your knee ligaments is more important than maintaining positional dominance.
-
-### Gordon Ryan
-
-Having been on both sides of the Carni position at the highest levels of competition, I can tell you that defense is significantly more difficult than offense in this position. The bottom player has too many good options and you're constantly reacting to threats from multiple angles. My approach when caught in Carni is to recognize it early and immediately begin aggressive escape attempts before the position is fully locked in. Once someone like Craig Jones or Lachlan Giles has established tight Carni control, your chances of escaping without giving up position drop dramatically. The most important technical detail from my experience is ankle control - as soon as you feel your heel being controlled, your hands need to go to your own ankle to create a defensive frame. This buys you precious seconds to begin the extraction sequence. Against elite leg lockers, I'm willing to give up the guard pass entirely and reset to standing rather than trying to maintain top position while defending the leg attack. It's a pragmatic competition decision - you can't win the match from the hospital with a torn knee.
-
-### Eddie Bravo
-
-The Carni is one of those positions where traditional jiu-jitsu instincts can get you in trouble. Conventional wisdom says never give up position, always work to maintain top control, but in the Carni you've got to throw that out the window and focus on survival first. From the 10th Planet perspective, we train our students to recognize leg entanglements early and either engage fully with their own leg attack game or disengage completely - there's no in-between. If you're caught in someone's Carni and they know what they're doing, your best bet is often the technical standup and reset. Yeah, you're giving up the pass, but you're also not risking your ACL, MCL, and LCL all at once. One thing we drill heavily is the Granby roll escape, but you've got to time it perfectly when they're transitioning - if you Granby at the wrong time, you're just giving them your back on a silver platter. The reality is that modern leg locks have changed the game, and positions like Carni represent a higher risk level than most people are comfortable admitting. Train the defenses hard, but also train knowing when to tap and live to fight another day.
 
 </section>
 

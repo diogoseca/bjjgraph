@@ -8,7 +8,7 @@ description: "Master flexibility development for BJJ. Learn progressive protocol
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Develop flexibility progressively using systematic protocols that respect tissue adaptation timelines
 - Prioritize active flexibility (controlled range of motion) over passive flexibility (maximum stretch)
 - Target BJJ-specific movement patterns rather than generic flexibility development
@@ -179,9 +179,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Hip Flexor Mobility**: The ability to achieve full hip extension and flexion, critical for guard retention, mount escapes, and leg-based attacks. Hip flexor tightness is the most common flexibility limitation in BJJ practitioners and directly impacts technical execution across all positions.
 
 **Hamstring Elasticity**: Range of motion in posterior chain allowing leg elevation and control retention in guard positions. Hamstring flexibility enables closed guard maintenance, triangle setups, and defensive frame creation while preventing lower back compensation patterns.
@@ -202,25 +202,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles provides the foundation for intelligent flexibility training that respects joint mechanics and tissue adaptation rather than pursuing arbitrary range of motion goals.
-- **[[Strength Development]]** (Complementary): Strength and flexibility must develop in balance as excessive flexibility without corresponding strength creates joint instability while strength without flexibility limits technical options and increases injury risk.
-- **[[Energy Management System]]** (Complementary): Adequate flexibility reduces energy expenditure during technical execution as practitioners can achieve positions efficiently rather than forcing movements through restricted range of motion.
-- **[[Escape Fundamentals]]** (Extension): Flexibility training extends escape capabilities by enabling defensive movements that would be impossible with restricted mobility, particularly hip escapes and bridging mechanics.
-- **[[Guard Retention]]** (Extension): Enhanced flexibility extends guard retention capacity by allowing greater range in defensive frames, hip movement, and leg positioning that prevents guard passing.
-- **[[Drilling Methodology]]** (Complementary): Systematic drilling methodology provides the repetition volume necessary to develop and maintain functional flexibility while building movement patterns that utilize increased range of motion.
-- **[[Hip Movement]]** (Extension): Flexibility directly enables enhanced hip movement patterns that form the foundation of guard retention, escapes, and positional adjustments throughout BJJ.
-- **[[Bridge and Shrimp]]** (Extension): Adequate spinal and hip flexibility is prerequisite for effective bridging and shrimping mechanics that create escape opportunities and positional improvements.
-- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance training methodology applies equally to flexibility development where gradual intensity increases respect tissue adaptation and prevent injury.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Hip flexor and hamstring flexibility enables tight guard closure, high guard positioning, and the ability to break posture effectively while maintaining control without excessive muscular tension.
 
 **Rubber Guard**: Extreme hip flexibility requirement for achieving mission control and maintaining advanced rubber guard positions that create offensive opportunities while controlling posture and limiting opponent's options.
@@ -257,9 +241,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current flexibility baseline across all relevant movement patterns**: Identify specific limitations in hip flexion/extension, hamstring length, spinal rotation, shoulder range, and ankle mobility that impact technical execution or create injury risk in training.
 2. **Determine technical objectives and position preferences that require flexibility development**: Analyze your game to identify which techniques are currently inaccessible or inefficient due to flexibility limitations and prioritize mobility work that directly supports your strategic objectives.
 3. **Design progressive flexibility protocol targeting identified limitations**: Create systematic stretching routine combining dynamic warm-up protocols, position-specific mobility work during training, and static stretching in recovery periods with gradual intensity progression.
@@ -272,9 +256,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Pursuing maximum flexibility without corresponding strength development
   - **Consequence**: Creates joint instability and position control problems as practitioners achieve range of motion they cannot control under resistance, leading to injury risk and technical ineffectiveness.
   - **Correction**: Develop strength throughout newly acquired ranges of motion through active flexibility work, resistance training in stretched positions, and technical drilling that requires controlled use of mobility.
@@ -300,9 +284,9 @@ Flexibility Training represents the systematic development of range of motion, j
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Static Stretching Protocol** (Focus: Long-term flexibility development in primary limitation areas including hip flexors, hamstrings, groin, and shoulders through consistent daily practice.)
 Systematic post-training stretching routine targeting major muscle groups with held stretches of 30-60 seconds, gradually increasing intensity over weeks and months while respecting tissue adaptation timelines and avoiding aggressive forcing of range of motion.
 
@@ -325,9 +309,9 @@ Advanced stretching methodology utilizing contract-relax protocols where muscles
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can achieve basic closed guard closure but struggles with high guard positioning or posture breaking due to hip flexor and hamstring tightness
 - Limited bridging and shrimping range requiring multiple repetitions to create meaningful space during escape attempts
@@ -360,10 +344,23 @@ Advanced stretching methodology utilizing contract-relax protocols where muscles
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Biomechanical Principles]]** (Prerequisite): Understanding biomechanical principles provides the foundation for intelligent flexibility training that respects joint mechanics and tissue adaptation rather than pursuing arbitrary range of motion goals.
+- **[[Strength Development]]** (Complementary): Strength and flexibility must develop in balance as excessive flexibility without corresponding strength creates joint instability while strength without flexibility limits technical options and increases injury risk.
+- **[[Energy Management System]]** (Complementary): Adequate flexibility reduces energy expenditure during technical execution as practitioners can achieve positions efficiently rather than forcing movements through restricted range of motion.
+- **[[Escape Fundamentals]]** (Extension): Flexibility training extends escape capabilities by enabling defensive movements that would be impossible with restricted mobility, particularly hip escapes and bridging mechanics.
+- **[[Guard Retention]]** (Extension): Enhanced flexibility extends guard retention capacity by allowing greater range in defensive frames, hip movement, and leg positioning that prevents guard passing.
+- **[[Drilling Methodology]]** (Complementary): Systematic drilling methodology provides the repetition volume necessary to develop and maintain functional flexibility while building movement patterns that utilize increased range of motion.
+- **[[Hip Movement]]** (Extension): Flexibility directly enables enhanced hip movement patterns that form the foundation of guard retention, escapes, and positional adjustments throughout BJJ.
+- **[[Bridge and Shrimp]]** (Extension): Adequate spinal and hip flexibility is prerequisite for effective bridging and shrimping mechanics that create escape opportunities and positional improvements.
+- **[[Progressive Resistance Training]]** (Complementary): Progressive resistance training methodology applies equally to flexibility development where gradual intensity increases respect tissue adaptation and prevent injury.
+
+
+### Related Content
 - [[Biomechanical Principles]] (Principle) - Provides foundational understanding for intelligent flexibility development that respects joint mechanics and tissue adaptation
 - [[Strength Development]] (Principle) - Complementary physical attribute that must develop alongside flexibility to create stable, controlled range of motion
 - [[Energy Management System]] (Principle) - Enhanced by adequate flexibility as efficient movement through full range reduces energy expenditure during technical execution
@@ -377,15 +374,6 @@ Advanced stretching methodology utilizing contract-relax protocols where muscles
 - [[Hip Movement]] (Principle) - Fundamentally dependent on hip flexibility for full range of guard retention and escape mechanics
 - [[Progressive Resistance Training]] (Principle) - Provides methodology framework that applies equally to flexibility development protocols
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: John Danaher approaches flexibility training from a functional perspective, emphasizing that flexibility requirements must match technical objectives rather than pursuing maximum range of motion indiscriminately. His systematic approach identifies minimum flexibility thresholds for specific techniques and develops targeted protocols to achieve those standards without excessive time investment in flexibility work beyond functional requirements. Danaher particularly emphasizes hip flexibility as the primary limiting factor for most BJJ techniques, advocating for concentrated effort on hip mobility over general flexibility development that may offer limited technical benefits. He views flexibility as an enabling factor that should expand technical repertoire but warns against flexibility training that compromises strength or stability, arguing that practitioners must maintain the capacity to control range of motion under resistance rather than simply achieving passive stretching goals that don't translate to technical performance.
-- **Gordon Ryan**: Gordon Ryan views flexibility as a competitive advantage that enables technical options unavailable to less mobile opponents, particularly in guard-based exchanges where superior flexibility creates attacking and retention advantages that shape match outcomes. His approach focuses on what he terms 'combat flexibility' where range of motion must be accessible under fatigue and stress rather than just in relaxed stretching sessions, emphasizing development protocols that simulate competitive conditions and ensure mobility gains translate to actual performance. Ryan advocates for consistent flexibility maintenance throughout career as a form of performance insurance, preventing technical regression that occurs when reduced mobility forces abandonment of previously effective techniques and limits strategic options. He personally attributes significant competitive success to flexibility advantages that allow position maintenance and attacking sequences that opponents cannot replicate, particularly in guard retention scenarios where mobility creates defensive resilience that frustrates passing attempts and extends match control duration.
-- **Eddie Bravo**: Eddie Bravo has integrated extreme flexibility requirements into his 10th Planet system, particularly in rubber guard positions that demand exceptional hip mobility and hamstring flexibility that exceed normal BJJ standards. His teaching approach emphasizes the importance of patience and progressive protocols rather than forcing range of motion, having personally experienced the consequences of overly aggressive stretching protocols early in his training that created injuries and setbacks rather than sustainable mobility development. Bravo advocates for understanding flexibility as an enabler of creative technical options rather than a universal requirement, encouraging practitioners to develop mobility that matches their stylistic preferences rather than pursuing arbitrary flexibility standards that may not align with individual game plans. He views flexibility training as a long-term investment that opens technical possibilities over years of consistent practice, warning that practitioners seeking rapid flexibility gains through aggressive stretching often create more problems than progress and should instead embrace gradual adaptation that respects tissue limitations and individual structural differences.
 
 </section>
 

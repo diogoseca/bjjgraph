@@ -8,7 +8,7 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -449,24 +449,6 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 **Average Time in Position**: 30-90 seconds in competition, 1-3 minutes in training
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The honey hole represents the optimal intersection of control and submission threat in leg entanglement systems. What makes this position superior to other leg locks is the mechanical advantage created by the figure-four configuration combined with perpendicular body alignment. Your inside leg creates a fulcrum around which the opponent's leg cannot rotate, while your outside leg crossing their hip prevents the hip escape that defeats most other leg attacks. The key technical detail most practitioners miss is the relationship between hip pressure and submission setup—you must maintain constant downward pressure through your hips to pin opponent's hip to the mat, creating the structural control necessary for safe heel hook application. Think of the position in layers: first establish the leg entanglement geometry, then secure the hip pin, finally control the upper body to prevent defensive frames. Only after all three layers are established should you grip for submission. This systematic approach minimizes risk and maximizes finishing percentage.
-
-### Gordon Ryan
-
-This is my highest percentage finishing position in competition. The key is recognizing when to enter and having the confidence to hold the position under pressure. I look for this entry from almost every guard position—X-guard, single leg X, even failed guard passes. Once I secure the entanglement, I focus on hip pressure first, then hand position on their heel. The outside heel hook is my primary finish, but threatening the inside heel hook or kneebar forces reactions that open the outside finish. In competition, I've learned that patience in honey hole is crucial—don't rush the submission. Let the position work for you by maintaining pressure and waiting for opponent to make defensive errors. When they try to hide their heel, switch to kneebar. When they turn away, follow to back control. The position creates natural dilemmas where every defensive option opens a different attack.
-
-### Eddie Bravo
-
-While the Honey Hole comes from the modern leg lock game, it fits perfectly with 10th Planet principles of control before submission. From this position, I teach students to think in layers—first layer is leg entanglement, second layer is hip control, third layer is upper body control, then submission. If you skip layers, you'll get countered by experienced grapplers. The position also connects beautifully to the truck and twister system if opponent manages to turn away—just follow their rotation and you're in position for back attacks. What I love about honey hole is how it forces opponent into bad decisions. They can't just defend statically; they have to move, and every movement opens attacks. We drill this extensively in 10th Planet gyms because it represents modern no-gi evolution while maintaining fundamental control principles.
 
 </section>
 

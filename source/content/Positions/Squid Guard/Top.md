@@ -8,7 +8,7 @@ description: "Master Squid Guard Top in BJJ. Learn guard passing strategies, lap
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -424,24 +424,6 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 
 **Average Time in Position**: 45-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Squid Guard Top represents a modern guard passing problem that requires systematic understanding of lapel mechanics and their inherent vulnerabilities. The fundamental principle is that any guard system relying on fabric control creates dependencies that can be exploited through grip stripping and postural management. The top player must recognize that the lapel entanglement, while creating control for the bottom player, also limits their own mobility and creates predictable attack patterns. Maintain vertical posture to prevent the bottom player from achieving the inverted positions where their attacking sequences become most dangerous. The systematic approach involves first neutralizing the bottom player's ability to deepen their lapel control through grip fighting, then methodically clearing the entanglement while preventing inversion, and finally executing traditional passing mechanics once the lapel control is neutralized. Understanding that Squid Guard's effectiveness relies on specific lapel configurations allows the top player to create passing opportunities by forcing the bottom player into defensive adjustments that compromise their control structure.
-
-### Gordon Ryan
-
-When I'm in Squid Guard Top, I focus on aggressive posture and pressure rather than trying to play the bottom player's game with intricate lapel battles. The reality is that Squid Guard becomes significantly less effective when you maintain vertical posture and refuse to engage in the inverted scrambles where the bottom player has practiced their sequences. I prefer to use heavy shoulder pressure and crossface control to limit the bottom player's mobility while systematically stripping their lapel grips. The key is not getting frustrated by the lapel entanglement and instead viewing it as a temporary obstacle before initiating your preferred passing style. In competition, I've found that stack passing or leg drag entries work exceptionally well once you've neutralized the initial lapel control, because the bottom player has committed so much of their guard structure to the lapel configuration that they're vulnerable to traditional passing mechanics. The most important thing is preventing back exposure during transitions - if the bottom player can't invert and can't take your back, their offensive options become extremely limited and you can pass on your terms.
-
-### Eddie Bravo
-
-Squid Guard Top is interesting because it's one of those positions where the bottom player thinks they're being super tricky with the lapel game, but they're actually creating predictable patterns you can exploit. From the 10th Planet perspective, we're all about no-gi, but understanding gi-based lapel guards helps you recognize the underlying control mechanics that translate across both formats. When facing Squid Guard, I tell my students to think about the position like it's a reverse lockdown situation - the bottom player is using fabric instead of hooks, but the principle is the same: they're trying to control your base and create off-balancing opportunities. The counter is aggressive base management and circular movement away from their control points. Don't fight the lapel directly; instead, create angles that make their lapel configuration ineffective. Circle backstep away from the entangled side while maintaining upper body control, and you'll find their whole system starts breaking down. The beauty is that once you understand the mechanical principles, you can shut down these modern lapel guards without getting into complicated grip fighting battles - just move to positions where their lapel control becomes irrelevant and hit your preferred passes.
 
 </section>
 

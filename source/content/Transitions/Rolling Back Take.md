@@ -8,7 +8,7 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -342,15 +342,6 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 - [[Armbar from Back]] - Submission option from achieved back control
 - [[Gift Wrap]] - Alternative control position if arm is captured during roll
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The rolling back take represents a perfect synthesis of leverage, momentum, and timing in achieving positional advancement. What makes this technique mechanically superior to static turtle attacks is its utilization of rotational energy to bypass defensive frames entirely. The opponent's defensive turtle structure is designed to resist linear pressure - tight elbows prevent hook insertion, strong base prevents being driven forward. By introducing a perpendicular vector of force through the rolling motion, we circumvent these defensive architectures completely. The key biomechanical principle is conservation of angular momentum - once properly initiated, the rotation becomes self-sustaining through gravity and requires minimal muscular effort. However, success depends critically on the initial grip configuration and weight loading phase. The practitioner must create what I call a 'rotational axis' along the opponent's shoulder line, with the grips serving as the fixed point around which rotation occurs. The timing window is also crucial - the technique succeeds when the opponent is in a static defensive posture, as any forward or backward motion disrupts the axis and allows defensive posting. Master the setup and weight loading, and the roll becomes inevitable.
-- **Gordon Ryan**: In competition, the rolling back take is one of my highest percentage techniques from top turtle because it's so damn fast that opponents can't react in time. The traditional seatbelt and hook insertion game from turtle is a grind - skilled defensive players can stall there for minutes. The roll cuts through all that immediately, and more importantly, it catches people by surprise even at the highest levels. Here's what makes it competition-viable: first, it works equally well in gi and no-gi if you adapt your grips properly; second, it chains perfectly with other attacks so even if they defend, you're already in position for crucifix or arm attacks; third, it scores back control points immediately if you land clean with the hooks. My setup is simple - I wait until they settle into turtle after a guard pass or scramble, get my grips locked, then explode into the roll all at once. No hesitation, no telegraphing. The biggest mistake I see is people trying to roll slowly or being tentative. This technique demands commitment - you have to fully send it. If you half-ass the roll, they'll post and shut you down. But if you commit and time it right when their weight is back, it's basically unstoppable and leads directly to the finish.
-- **Eddie Bravo**: The rolling back take is some ninja shit that fits perfectly into our 10th Planet system because it's dynamic, unexpected, and bypasses all the traditional defensive bullshit. In the Twister system, we use this all the time coming out of lockdown half guard when guys turtle up, or from truck position entries. What's sick about it is you can modify it based on what the opponent gives you - if they post the arm during your roll, boom, you've got crucifix. If they try to sprawl back, you use their momentum to accelerate your rotation. It's completely adaptable. The no-gi version is crucial for us since we don't rely on collar grips - you've got to use that seatbelt harness grip and really lock your hands together, almost like you're bear-hugging them through the roll. One variation we drill constantly is capturing their leg during the roll, which sets up the truck position beautifully if you don't quite get the back. That's the 10th Planet approach - every technique should flow into multiple positions and create constant problems. The rolling back take isn't just one move, it's an entry point into our whole back attack and truck system. Plus it looks cool as hell when you hit it in competition.
 
 </section>
 

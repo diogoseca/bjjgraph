@@ -8,7 +8,7 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -437,24 +437,6 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 **Average Time in Position**: 1-3 minutes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Kesa Gatame represents one of judo's most effective pins precisely because it creates a biomechanical nightmare for the bottom player. The perpendicular angle of your body relative to your opponent's spine means that any attempt they make to bridge or turn is working against unfavorable leverage. The key is understanding that this position is fundamentally about chest pressure rather than arm control—your scarf grip around the head is merely a steering mechanism. The real control comes from sinking your chest weight into their diaphragm, making every breath a struggle. When executing Kesa Gatame, you must think of your body as a giant blanket smothering your opponent. Your far leg posts wide not just for base, but to allow you to distribute maximum weight through your torso. The near leg hooks their far hip to prevent them from creating the rotational movement necessary for escape. This is a thinking person's pin—you must constantly adjust your weight distribution in response to their escape attempts, flowing like water to maintain pressure from all angles.
-
-### Gordon Ryan
-
-In competition, I use Kesa Gatame strategically when I want to completely break my opponent's will while conserving energy. The beauty of this position is that it requires minimal muscular effort from me while forcing my opponent to work extremely hard just to breathe. I've had opponents tap purely from the pressure without any submission applied. The key competitive application is recognizing when to enter Kesa versus standard side control—I typically use it against opponents who are good at recovering guard from traditional side control because the perpendicular angle makes their hip escape much less effective. From here, my highest percentage finish is transitioning to mount when they try to turn into me, or flowing to North-South when they create space toward their feet. The Americana is available but I view it as a setup—when they defend by pulling their arm in tight, they're giving me the mount transition. In no-gi especially, this position is devastating because the crossface pressure is so direct against their jaw and neck. I can hold this position indefinitely in competition while my opponent exhausts themselves.
-
-### Eddie Bravo
-
-Kesa Gatame is old-school judo that most BJJ guys sleep on, but it's got serious potential for both gi and no-gi if you approach it with the 10th Planet mindset of constant innovation. The traditional application is solid for control, but where it gets interesting is using it as a transitional hub rather than a parking spot. When I coach this position, I emphasize the importance of staying mobile—you're not trying to pin them for a judo ippon, you're hunting for the next attack. The moment they commit to an escape direction, you should already be flowing to your next position. I particularly like the North-South transition because it's unexpected and most guys aren't prepared for that level of pressure adjustment. For submissions, forget the standard Americana that everyone sees coming. Instead, look for the arm triangle when they turn their head away from the pressure, or if you're feeling creative, there's a nasty paper cutter choke variation from here that catches people by surprise. The real innovation is combining Kesa Gatame with leg attacks—if they bridge hard, you can sometimes catch a straight ankle lock on their far leg. It's unorthodox but that's how evolution happens in this game.
 
 </section>
 

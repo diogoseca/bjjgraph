@@ -8,7 +8,7 @@ description: "Master Leg Hook Top in BJJ. Control position from half guard top w
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -459,24 +459,6 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 
 **Average Time in Position**: 15-45 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg hook in half guard passing represents a critical mechanical leverage point where you transform the bottom player's defensive structure into a controlled pathway for advancement. The hook itself is not the destination but rather a systematic tool for managing the bottom player's hip mobility while you progress through the passing sequence. From a biomechanical perspective, the hook creates a mechanical disadvantage for the bottom player by controlling their hip from underneath, limiting their ability to generate the rotational force needed for guard recovery while simultaneously providing you with a stable base for applying forward pressure. The key technical consideration is understanding that the hook must be integrated into a complete control system that includes upper body pressure, far hip control, and systematic progression toward pass completion. Many practitioners make the error of viewing the hook as a static position rather than as one phase in a dynamic passing sequence. The hook's primary value lies in its ability to neutralize the bottom player's most powerful re-guarding mechanisms—hip escape and rotation—while creating the spatial and temporal window needed to complete more traditional passing techniques such as the knee slice or leg drag.
-
-### Gordon Ryan
-
-In competition, the leg hook position is incredibly valuable because it puts you in a dominant transitional state where you're clearly advancing the pass but you haven't yet committed your weight in a way that makes you vulnerable to scrambles or reversals. What makes this position so effective at the highest levels is that it gives you multiple high-percentage finishing options depending on how the bottom player defends. If they stay flat and try to prevent the pass defensively, you have clean entries to knee slice or leg drag passes. If they turn away or try to come up, you have immediate back takes or front headlock positions available. If they make the mistake of extending their arms to frame or push, you have darce, anaconda, and kimura submissions readily available. The psychological pressure this creates is significant—the bottom player knows they're in a bad spot but any movement they make can lead to an even worse position or a submission. In my experience, the key to using this position effectively in competition is staying patient and not rushing the pass completion. Use the hook to control their hip, maintain constant forward pressure with your chest, and wait for them to make a defensive error that opens up your highest percentage finishing technique. The competitors who struggle from this position are those who try to force the pass before they've fully established the necessary control points.
-
-### Eddie Bravo
-
-The leg hook top position is interesting because it represents a moment where the traditional passing game intersects with more creative control options and submission threats. From a 10th Planet perspective, we recognize that the bottom player in this position is often going to attempt aggressive guard recovery techniques—deep half entries, butterfly hooks, lockdown attempts—and those attempts create specific windows for counters and submissions. What I teach my students is to use the leg hook as a trigger point for reading the bottom player's defensive strategy. If they're trying to get deep on you, you can use that forward motion to set up guillotine or darce chokes. If they're trying to create distance and frames, that's when you have optimal conditions for the knee slice or leg drag passes. One thing that's often overlooked is the submission game from this position—when you have the hook established and you're controlling their hip, they often have to use their arms in defensive ways that create vulnerabilities. The kimura is obviously there if they reach to defend or frame, but the darce and anaconda become available when they try to turn away or address the hook. The key is staying loose and fluid in the position rather than getting rigid and static. Keep your weight moving, pressure constantly shifting, and be ready to flow into whatever opportunity they give you. That's how you maximize the offensive potential of what might seem like just a transitional passing position.
 
 </section>
 

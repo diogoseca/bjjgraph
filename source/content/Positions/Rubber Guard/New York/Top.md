@@ -8,7 +8,7 @@ description: "Defend and escape New York control from top position. Master postu
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -432,24 +432,6 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending New York Top requires understanding the hierarchical nature of the position's control elements and addressing them in the correct sequence. The fundamental mistake most practitioners make is attempting to extract the trapped arm first - this fails because the shin across the back maintains the forward pressure that keeps the arm pinned. The proper defensive sequence begins with base establishment through lateral knee positioning, proceeds to posture recovery through structured spinal alignment and core engagement, and only then addresses overhook extraction through specific leverage points. The biomechanical reality is that each control element reinforces the others in a mutually supporting system, making isolated attacks on individual elements largely ineffective. From a systems analysis perspective, New York Top represents a high-risk defensive scenario where the time-energy equation strongly favors the bottom player. The longer engagement lasts, the more exhausted defensive capabilities become, creating an accelerating probability of submission or sweep. Effective defense therefore requires not only technical precision but also urgency - methodical execution combined with continuous forward progress toward escape rather than static defensive positioning.
-
-### Gordon Ryan
-
-New York Top is one of those positions where if you don't know what you're doing, you're going to get submitted pretty quickly. The key is not panicking and understanding that you need to be systematic about the escape. A lot of guys try to just rip their arm out or explode backward - that doesn't work against someone who knows rubber guard well. What I've found works best is widening your base immediately to prevent sweeps, then working patiently on breaking their grip on their shin. If you can break that grip, the whole position falls apart because they can't maintain the leg position without it. Against guys who are really good at rubber guard, sometimes your best option is to accept that you're going to be defensive for 30-40 seconds and just focus on not getting submitted while you work methodically through the escape sequence. The submission threats are real - triangles, omoplatas, gogoplatas are all right there - so you can't just ignore them and only think about escaping. In competition, I've seen a lot of submissions happen when the top guy is trying to escape and gets caught in a triangle or omoplata transition. Stay patient, stay technical, and don't give them the reaction they're looking for.
-
-### Eddie Bravo
-
-From the defensive side, New York is a nightmare if you don't understand the system. The whole point of rubber guard is to control you in a way where all your normal passing and posture recovery techniques don't work very well. The overhook kills your base, the shin kills your posture, and you're basically stuck there until you figure out the escape sequence. What most people do wrong is they try to muscle out of it - that doesn't work against someone who's flexible and knows the system. The key is understanding that you need to attack their weakest link, which is usually the grip they have on their own shin. If you can get them to release that grip even for a second, you can start recovering your posture. But you have to be careful because every time you try something, they're looking to transition to the next attack. That's the beauty of the system from my perspective - as the top guy tries to escape, they're actually helping me transition to my next attack. If you train against rubber guard regularly, you learn the defensive patterns and it becomes manageable, but if you only see it occasionally in competition, it's really tough to deal with because there's so many things you have to remember while you're under pressure.
 
 </section>
 

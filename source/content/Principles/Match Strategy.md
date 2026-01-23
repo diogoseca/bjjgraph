@@ -8,7 +8,7 @@ description: "Master match strategy in BJJ. Learn tactical planning, score manag
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Develop primary game plan based on personal strengths and opponent weaknesses identified through analysis
 - Establish tactical priorities aligned with scoring system and time constraints
 - Create contingency plans for common opponent responses and unexpected scenarios
@@ -179,9 +179,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Pre-Match Opponent Analysis**: The systematic study of opponent tendencies, technical preferences, physical attributes, and competitive patterns through video review, coach consultation, and previous match observation. This includes identifying favorite positions, submission threats, passing preferences, guard retention patterns, and tactical habits that create exploitable opportunities in competition.
 
 **Game Plan Development**: The structured creation of primary tactical approach that aligns personal technical strengths with opponent weaknesses while accounting for ruleset scoring priorities and time constraints. Includes identifying preferred positions to establish, transitions to pursue, submissions to threaten, and defensive priorities to maintain throughout match progression.
@@ -202,26 +202,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Game Planning]]** (Prerequisite): Match Strategy builds upon Game Planning by transforming pre-competition tactical frameworks into adaptive in-match decision-making that responds to real-time competitive dynamics while maintaining strategic coherence.
-- **[[Match Preparation]]** (Prerequisite): Effective Match Strategy requires thorough Match Preparation including opponent analysis, physical conditioning, technical drilling of planned sequences, and mental rehearsal of tactical scenarios that might arise during competition.
-- **[[Competition Mindset]]** (Complementary): Competition Mindset provides the psychological foundation that enables execution of Match Strategy under pressure, maintaining focus and discipline necessary for implementing planned tactical approaches despite stress and uncertainty.
-- **[[Energy Management System]]** (Complementary): Energy Management System integrates directly into Match Strategy by informing tactical decisions about when to increase pace, when to conserve energy, and how to structure positional approaches to create sustainable competitive performance throughout match duration.
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding Positional Hierarchy is fundamental to Match Strategy as it provides the framework for evaluating risk-reward decisions, determining when to accept positional trades, and structuring tactical priorities around high-value position establishment.
-- **[[Risk Assessment]]** (Complementary): Risk Assessment operates as continuous tactical input within Match Strategy, enabling real-time evaluation of whether specific technical choices align with strategic objectives given current match context including score, time, and position.
-- **[[Position-Over-Submission Approach]]** (Extension): Position-Over-Submission Approach represents one strategic philosophy that can be integrated into Match Strategy, emphasizing positional dominance before submission attempts as a tactical framework for competitive success.
-- **[[Offensive vs Defensive Mindset]]** (Complementary): Offensive vs Defensive Mindset informs Match Strategy by determining when tactical situation favors aggressive attacking versus conservative position protection, creating framework for appropriate risk-taking across different competitive contexts.
-- **[[Pacing]]** (Complementary): Pacing principles integrate into Match Strategy as tactical tools for controlling match tempo, managing energy expenditure, and creating favorable competitive conditions through deliberate tempo manipulation.
-- **[[Dilemma Creation]]** (Extension): Dilemma Creation serves as advanced strategic concept within Match Strategy where tactical choices force opponent into no-win situations, creating compound advantages through systematic option elimination.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Strategic approach in Closed Guard varies dramatically based on match context: when ahead on points, focus shifts toward retention and stalling; when behind, emphasis moves to aggressive sweep attempts and submission threats that create scoring opportunities despite higher positional risk.
 
 **Mount**: From Mount, strategic decisions balance submission hunting with positional consolidation based on score and time: large leads justify patient positional riding that prevents escapes while building control time; close matches may require aggressive submission attempts that risk giving up position for finishing opportunities.
@@ -256,9 +239,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current match state including score differential, time remaining, position, energy levels**: Identify whether current tactical situation favors aggressive point-scoring, defensive position protection, submission hunting, or energy conservation based on comprehensive match context evaluation
 2. **Evaluate primary game plan viability given opponent responses and current match development**: Determine whether pre-match tactical approach remains effective or requires adaptation based on opponent counter-strategies, unexpected technical difficulties, or changed match dynamics
 3. **Consider risk-reward profile of available tactical options in current position**: Analyze whether aggressive transitions that risk position loss justify potential point gains or submission opportunities, or whether defensive consolidation better serves strategic objectives
@@ -271,9 +254,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Rigid adherence to pre-match game plan despite clear evidence that tactical approach is failing
   - **Consequence**: Continued implementation of ineffective strategy allows opponent to exploit predictable patterns, wastes energy on low-percentage techniques, and prevents adaptation to actual match conditions, often leading to preventable competitive losses
   - **Correction**: Develop mental flexibility that recognizes when primary strategy encounters insurmountable obstacles, maintains prepared contingency plans that enable strategic pivoting, and values winning through adaptation over losing through stubbornness
@@ -296,9 +279,9 @@ Match Strategy represents the comprehensive tactical framework for planning, exe
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Sparring with Score Scenarios** (Focus: Develops tactical flexibility and decision-making under various competitive situations, builds experience with score-based strategic adjustments, and creates practiced responses to different match contexts that transfer directly to competition)
 Structured training where practitioners begin from specific positions with predetermined score differentials and time constraints, forcing strategic decision-making under simulated competitive pressure. Variations include 'protect the lead' scenarios, 'comeback from deficit' situations, and 'tie score pressure' contexts.
 
@@ -321,9 +304,9 @@ Systematic review following competitions analyzing strategic decisions, comparin
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Executes basic pre-match game plan focusing on 1-2 primary positions and techniques but struggles with in-match tactical adaptation when initial plan encounters obstacles
 - Recognizes major score situations (large leads or deficits) and makes crude strategic adjustments but lacks nuanced understanding of how smaller score differentials should influence tactical approach
@@ -361,10 +344,24 @@ Systematic review following competitions analyzing strategic decisions, comparin
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Game Planning]]** (Prerequisite): Match Strategy builds upon Game Planning by transforming pre-competition tactical frameworks into adaptive in-match decision-making that responds to real-time competitive dynamics while maintaining strategic coherence.
+- **[[Match Preparation]]** (Prerequisite): Effective Match Strategy requires thorough Match Preparation including opponent analysis, physical conditioning, technical drilling of planned sequences, and mental rehearsal of tactical scenarios that might arise during competition.
+- **[[Competition Mindset]]** (Complementary): Competition Mindset provides the psychological foundation that enables execution of Match Strategy under pressure, maintaining focus and discipline necessary for implementing planned tactical approaches despite stress and uncertainty.
+- **[[Energy Management System]]** (Complementary): Energy Management System integrates directly into Match Strategy by informing tactical decisions about when to increase pace, when to conserve energy, and how to structure positional approaches to create sustainable competitive performance throughout match duration.
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding Positional Hierarchy is fundamental to Match Strategy as it provides the framework for evaluating risk-reward decisions, determining when to accept positional trades, and structuring tactical priorities around high-value position establishment.
+- **[[Risk Assessment]]** (Complementary): Risk Assessment operates as continuous tactical input within Match Strategy, enabling real-time evaluation of whether specific technical choices align with strategic objectives given current match context including score, time, and position.
+- **[[Position-Over-Submission Approach]]** (Extension): Position-Over-Submission Approach represents one strategic philosophy that can be integrated into Match Strategy, emphasizing positional dominance before submission attempts as a tactical framework for competitive success.
+- **[[Offensive vs Defensive Mindset]]** (Complementary): Offensive vs Defensive Mindset informs Match Strategy by determining when tactical situation favors aggressive attacking versus conservative position protection, creating framework for appropriate risk-taking across different competitive contexts.
+- **[[Pacing]]** (Complementary): Pacing principles integrate into Match Strategy as tactical tools for controlling match tempo, managing energy expenditure, and creating favorable competitive conditions through deliberate tempo manipulation.
+- **[[Dilemma Creation]]** (Extension): Dilemma Creation serves as advanced strategic concept within Match Strategy where tactical choices force opponent into no-win situations, creating compound advantages through systematic option elimination.
+
+
+### Related Content
 - [[Game Planning]] (Principle) - Prerequisite concept providing pre-match tactical framework that Match Strategy transforms into adaptive in-competition decision-making
 - [[Match Preparation]] (Principle) - Prerequisite concept covering physical and mental preparation necessary for effective strategic execution during competition
 - [[Competition Mindset]] (Principle) - Complementary concept providing psychological foundation enabling strategic clarity and disciplined tactical execution under competitive pressure
@@ -378,15 +375,6 @@ Systematic review following competitions analyzing strategic decisions, comparin
 - [[Pacing]] (Principle) - Tempo control principle integrated into Match Strategy for managing energy and dictating match flow
 - [[Dilemma Creation]] (Principle) - Advanced strategic concept where tactical choices force opponent into no-win situations within match strategy framework
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Match strategy represents the systematic application of game theory principles to grappling competition, where optimal decisions derive from probabilistic analysis of risk-reward scenarios throughout the match timeline. The critical insight here is understanding that effective strategy isn't rigid scripting but rather hierarchical decision-making where strategic principles guide tactical choices, allowing adaptive implementation while maintaining coherent competitive approach. I emphasize developing what I term 'strategic depth' where multiple layers of contingency planning ensure prepared responses to opponent adaptations, creating decision trees that account for various match trajectories. The systematic preparation through detailed opponent analysis identifies technical tendencies and positional preferences that create exploitable patterns, then structures training specifically to develop counter-strategies. This creates what I call 'strategic frameworks' that provide clear decision-making guidelines for various match situations while maintaining flexibility to adapt when circumstances deviate from anticipated patterns, enabling disciplined yet responsive competitive performance.
-- **Gordon Ryan**: In competition, match strategy functions as a dynamic optimization problem where tactical decisions continuously update based on changing match parameters—score, time, fatigue, opponent adaptations. My approach centers on what I describe as 'strategic dominance' where imposing your game plan on the opponent while denying theirs creates compound advantages throughout the match. The key is position forcing, where strategic technique selection deliberately moves opponents toward positions where you have superior technical proficiency, creating strategic funneling toward your strengths and away from theirs. Match strategy begins months before competition through opponent-specific training that builds tactical responses into unconscious technical patterns, enabling strategic execution without cognitive load during the actual match. I advocate for layered strategic approaches where multiple backup plans exist for each phase of the match, preventing a single defensive success by the opponent from derailing your entire competitive strategy and maintaining offensive initiative through continuous tactical adaptation that keeps opponents constantly defending.
-- **Eddie Bravo**: My strategic framework within the 10th Planet system often challenges conventional positional hierarchies and risk assessments, creating alternative strategic pathways toward victory that opponents haven't extensively prepared for. I teach what I call 'position before submission mindset inverted' where in certain tactical situations, submission opportunities from unconventional positions justify higher risks than traditional strategy would accept. The strategic advantage comes from developing signature position systems that opponents haven't extensively trained against, creating opportunities through novelty and opponent unfamiliarity rather than purely technical superiority. I view match strategy as creative problem-solving rather than formulaic implementation, encouraging development of personal strategic styles that leverage individual attributes and technical preferences rather than chasing universally optimal approaches. Strategic unpredictability becomes a weapon where varied tactical approaches across different matches prevent opponents from developing effective game plans, maintaining the element of surprise even against thoroughly prepared competitors who have studied your previous performances.
 
 </section>
 

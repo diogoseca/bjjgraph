@@ -8,7 +8,7 @@ description: "Master Crucifix Top Position in BJJ. Dominant arm-trapping control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -432,24 +432,6 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The crucifix position represents the ultimate expression of control through arm isolation in grappling. When we examine the biomechanics, we see that by controlling both arms simultaneously—one with the legs and one with the hands—we create a situation where the opponent has zero defensive capabilities. This is not merely advantageous control; this is complete systemic breakdown of their defensive infrastructure. The key to maximizing effectiveness is understanding that the leg triangle over the near arm must be maintained with constant pressure and proper angle—if the knee drops or the angle flattens, the arm can escape. Meanwhile, the far arm control must be absolute, as this represents the opponent's last line of defense. The submission sequence from crucifix should follow a systematic hierarchy: first establish absolute positional control, then attack the neck as the primary target, and finally transition to arm attacks when neck defenses are established. When both controls are properly established, the submission rate approaches certainty, making this one of the most dominant positions in all of grappling.
-
-### Gordon Ryan
-
-In competition, the crucifix is an absolute game-ender when you get it locked in properly. I've finished multiple world-class opponents from here because once you have both arms, they literally cannot defend anything. The choke is always there, and if they turtle their chin too hard, the arm is right there for the taking. The key thing I've learned is that you cannot be lazy with the controls—you need to squeeze those legs hard the entire time and keep that far arm glued to you. In no-gi especially, this position is money because without the gi grips, it's almost impossible for them to create the leverage needed to escape. I always look for this from the back, and when I get it, I know the match is basically over. The mount transition is also huge—if they start escaping the arm trap, just swing over to mount and you've still got dominant position. It's one of the highest percentage positions in my game, probably finishing 80% of the time when I establish it fully.
-
-### Eddie Bravo
-
-The crucifix is one of those positions where you can really showcase creativity while maintaining total dominance. From the 10th Planet system perspective, we love this position because it opens up so many attack chains—you can go choke, armbar, kimura, or even transition to other positions while keeping them completely helpless. The beautiful thing is that every time they defend one attack, they expose themselves to another. We drill a lot of crucifix work from the truck position and from different back attack entries, always emphasizing the importance of keeping those arms locked down. What I teach is using the crucifix not just as a finishing position but as a control position to gas people out. Once you have someone in a proper crucifix, you can really take your time and work your game plan because they're not going anywhere. It's like having someone in checkmate—they're just waiting for you to finish them. The position also translates beautifully to MMA where you can land strikes on a defenseless opponent or just casually finish the choke without any worry about them defending.
 
 </section>
 

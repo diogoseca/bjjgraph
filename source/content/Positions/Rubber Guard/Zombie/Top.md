@@ -8,7 +8,7 @@ description: "Master Zombie Top position in BJJ. Control and pass the opponent's
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -471,24 +471,6 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 
 **Average Time in Position**: 2-4 minutes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Zombie Top position exemplifies the importance of systematic pressure application over explosive force. The lockdown creates significant mechanical tension on the trapped leg, making forceful extraction counterproductive and energy-intensive. Instead, focus on controlling the opponent's upper body through crossface mechanics while gradually adjusting your hip position to neutralize the lockdown's power. The passing sequence should progress from establishing dominant head control, to flattening the opponent's defensive posture, to creating angles for leg extraction or alternative passing paths. Understanding the biomechanics of how the lockdown generates tension allows you to methodically dismantle the position rather than fighting against it. The key insight is that the lockdown is a mechanical constraint that limits the opponent's mobility as much as yours - by controlling their upper body, you transform their defensive structure into a trap that prevents their own escapes.
-
-### Gordon Ryan
-
-In competition, Zombie Top requires patience and strategic decision-making. Many opponents who play the lockdown are comfortable stalling in this position, so you need to be even more comfortable applying sustained pressure without burning energy. I focus heavily on the crossface because it prevents the Old School Sweep and limits their ability to create attacking angles. When the lockdown is extremely tight, I'll often transition my focus to back-takes rather than forcing the pass directly - if they turn to turtle to escape my pressure, that's often a cleaner path to dominant position. Don't get frustrated by the lockdown; treat it as an opportunity to develop your pressure passing and control maintenance against a defensively-oriented opponent. The competitive reality is that most lockdown players will eventually make a mistake or give you an opening if you maintain relentless pressure without overcommitting to any single attack. Stay patient, control the head, and wait for your moment.
-
-### Eddie Bravo
-
-As the creator of the Zombie position, I can tell you that top players who understand the system will beat those who don't every time. The lockdown is designed to create a dilemma - if you try to extract your leg forcefully, you play into the sweep mechanics. If you stay passive, the bottom player can work their underhook and create attacking opportunities. The key is active pressure with smart direction. Drive your crossface hard, control the head, and use your free leg positioning to create passing angles. When you feel the lockdown start to loosen, that's when you accelerate the pass. Also, be ready for the turtle transition - many lockdown players will bail to turtle when the pressure gets heavy, and that's your chance to take the back. The Zombie is a complete system from bottom, but it has clear weaknesses when the top player applies the right pressure sequences. Don't fight the lockdown directly - instead, attack the head and upper body control, and the lockdown will eventually break down on its own.
 
 </section>
 

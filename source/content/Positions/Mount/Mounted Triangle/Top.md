@@ -8,7 +8,7 @@ description: "Master mounted triangle attacks from top position. High-percentage
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -471,24 +471,6 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 
 **Average Time in Position**: 45-120 seconds to submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The mounted triangle represents one of the most sophisticated examples of combining positional control with submission mechanics in our grappling arsenal. From a biomechanical perspective, the position leverages gravitational advantage inherent in mount while creating the structural compression of triangle mechanics - the defender faces both choking pressure and positional disadvantage simultaneously. However, this combination demands precise technical execution. The critical element most practitioners overlook is the bottom leg positioning - this leg determines both your base stability against explosive escapes and your ability to generate finishing pressure. It must remain actively engaged, posted low on the opponent's hip or torso, never passive or floating high on their back. Your success hinges on constant angle adjustment - the mounted triangle is not a static position but a dynamic pressure system that must respond to defensive movements. When the opponent protects their neck, immediately recognize the armbar opportunity. When they turn to escape, recognize the back take. The mounted triangle practitioner who flows between these options based on defensive reactions will achieve the highest finishing percentage.
-
-### Gordon Ryan
-
-Mounted triangle is one of my absolute favorite attacking positions because you're getting mount points while hunting the finish - that's a huge strategic advantage in competition. The key thing people mess up is they go to mounted triangle and just try to squeeze without thinking about the whole system. What I focus on is using the triangle as a control position first, submission second. Once I get my leg over the shoulder, I'm immediately thinking about three things: can I finish the triangle, can I get the arm for the armbar, or can I take the back if he turns. In high-level competition, you rarely get the triangle finish alone because good guys defend the neck well - that's when the armbar becomes your primary weapon. The other huge thing is your bottom leg position - keep it low and hooked, don't let it drift up high or you'll get dumped with a bridge. I've finished a ton of matches from mounted triangle, but even more importantly, I've used it as a control hub to flow into other finishes. It's not just one submission, it's a whole attacking system from mount.
-
-### Eddie Bravo
-
-Mounted triangle is super high-level and it fits perfectly into our 10th Planet flow game because it's all about being dynamic and following the reactions. In no-gi especially, mounted triangle is money because you don't have collar grips to worry about - it's pure position and mechanics. The thing we emphasize is that you can't be static in mounted triangle. Your opponent is going to move, they're going to defend, they're going to try to escape - you need to be ready to flow with all of that. If they defend the triangle, boom, you're on the armbar. If they turn, boom, you're taking the back. We drill the hell out of these transitions because that's where mounted triangle becomes really dangerous - not just as a single submission but as a hub where you're controlling everything. Also, don't sleep on using mounted triangle to set up gift wrap control or even transition back to high mount if you need to secure position. The key is staying relaxed, staying mobile with your hips, and reading what your opponent gives you. Mounted triangle is one of those positions that separates advanced grapplers from beginners - it requires flow, it requires timing, and it requires understanding the whole system.
 
 </section>
 

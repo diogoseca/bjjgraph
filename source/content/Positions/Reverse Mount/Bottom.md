@@ -8,7 +8,7 @@ description: "Master defensive strategies from Reverse Mount Bottom. Learn syste
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -425,24 +425,6 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 
 **Average Time in Position**: 15-45 seconds before escape or opponent advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse mount bottom represents one of the most systematically challenging defensive positions in grappling because it removes your primary defensive tool - visual awareness of your opponent's attacking intentions. The fundamental problem is geometric: your spine is exposed, your neck is vulnerable, and your ability to establish defensive frames is severely compromised by the angle of attack. The solution must be hierarchical and systematic. First priority is always neck protection through proper chin position and hand placement - this buys you the time needed for escape. Second, you must understand that staying flat is death; you must constantly work to create angles through hip movement and shoulder positioning. The escape sequences from reverse mount follow predictable patterns based on your opponent's weight distribution. If their weight is high on your back, forward rolling movements become viable. If their weight is centered on your hips, bridging and turning movements are your primary tools. The key is recognizing that every second in this position without progressive movement toward escape is a second closer to submission or worse position. Your training must emphasize movement under pressure, maintaining composure when you cannot see threats, and executing escape sequences with technical precision even when experiencing significant physical disadvantage.
-
-### Gordon Ryan
-
-I'll be honest - if you end up in reverse mount bottom in competition, something already went very wrong with your positioning or scramble management. That said, everyone ends up here sometimes, and how you handle it determines whether you lose the match or survive to fight another round. My approach is simple but requires commitment: explode immediately and constantly. The worst thing you can do is give your opponent time to settle their weight and establish control. The moment you feel them land in reverse mount, you need to be already moving - bridge, turn, shrimp, whatever creates space. In competition, I've seen guys try to be methodical here and they just get their back taken or choked. You need panic energy but controlled panic. Protect your neck first - that's non-negotiable - but then move like your life depends on it because your match does. The turtle position is your friend here; if you can get to turtle, you've already improved your situation dramatically. I also use a lot of Granby roll movements because they're explosive and create angles my opponent can't easily follow. The reality is this position is all about damage control and energy management. You're going to spend energy getting out, so make every movement count. Don't waste motion on half-attempts. Commit fully to each escape, and if it doesn't work, immediately transition to the next option. The guys who hesitate or second-guess their escapes are the ones who get stuck and submitted.
-
-### Eddie Bravo
-
-Reverse mount is sketchy as hell, man. It's one of those positions where being creative actually helps because your opponent expects you to do the standard escapes, and those might not be there depending on how they're controlling you. In 10th Planet, we actually drill this position more than most schools because no-gi creates so many scrambles and weird transitions where you can end up here. The key thing I teach is what I call 'intelligent panic' - you need to move aggressively but not stupidly. Protect that neck like it's your bank account password, but then start creating chaos with your hips. I love using the Granby roll here because it's unexpected and creates so much movement that even if you don't fully escape, you're forcing your opponent to react instead of attacking. Another thing we work on is the psychological aspect - this position feels terrible, you can't see what's coming, and that messes with people's heads. You have to train yourself to stay calm even when your lizard brain is screaming. We do specific drills where the top person is trying to choke you while you escape, so you get used to that pressure. Also, don't sleep on using your legs creatively here. If you can get your feet on their hips or create any kind of hook, you can disrupt their base and create escape opportunities. The traditional BJJ escapes work, but sometimes you need to get weird with it. Mix in some wrestling scrambles, some judo rolling movements, whatever creates the chaos you need to improve position. Just never, ever stop moving until you're out or you're in a better spot.
 
 </section>
 

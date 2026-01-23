@@ -8,7 +8,7 @@ description: "Master underhook defense principles in BJJ. Learn prevention strat
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Recognize underhook threats immediately based on position and opponent's grip objectives
 - Prioritize preventing underhook establishment through proactive grip fighting and positioning
 - Establish opposing frames and connections when opponent secures underhook
@@ -179,9 +179,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Underhook Threat Recognition**: Ability to identify when opponent is attempting to establish underhook control before it becomes fully secured. This involves reading opponent's grips, body positioning, and movement patterns that telegraph underhook attempts, allowing preemptive defensive responses.
 
 **Preventative Grip Fighting**: Proactive hand fighting and grip management that prevents opponent from establishing underhook position initially. This includes controlling opponent's wrist, elbow, or shoulder before they can thread their arm under yours, using collar ties and overhooks to deny underhook access.
@@ -202,28 +202,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Whizzer Control]]** (Complementary): Whizzer control serves as primary neutralization tool when underhook is established, working synergistically with underhook defense to prevent opponent from capitalizing on underhook position.
-- **[[Frame Management]]** (Prerequisite): Effective framing provides structural foundation for underhook defense, as frames are essential for preventing opponent from using established underhook to close distance or turn into you.
-- **[[Grip Fighting]]** (Prerequisite): Grip fighting skills are foundational to underhook defense, as preventing underhook establishment requires proactive hand fighting before opponent can secure the position.
-- **[[Base Maintenance]]** (Complementary): Maintaining strong base coordinates with underhook defense to prevent opponent from using underhook leverage to off-balance or sweep you, particularly in half guard and turtle positions.
-- **[[Control Point Hierarchy]]** (Extension): Understanding which underhooks are most dangerous (deep half, back exposure, etc.) extends control point hierarchy concept to prioritize defensive responses based on threat level.
-- **[[Guard Retention]]** (Extension): Underhook defense extends into guard retention as preventing opponent's underhook during guard passing is critical element of maintaining guard position.
-- **[[Hand Fighting]]** (Prerequisite): Hand fighting encompasses the proactive grip fighting skills necessary to prevent underhook establishment before opponent can secure dangerous positions.
-- **[[Defensive Framing]]** (Complementary): Defensive framing techniques provide the structural tools necessary to neutralize established underhooks and maintain distance when prevention fails.
-- **[[Space Management]]** (Complementary): Managing distance and space coordinates with underhook defense as creating appropriate spacing reduces underhook effectiveness and enables recovery.
-- **[[Connection Breaking]]** (Alternative): When underhook defense through frames and whizzers fails, breaking the underhook connection entirely becomes alternative pathway to neutralize the threat.
-- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics explains why underhooks are dangerous and informs proper positioning and pressure angles for effective defense.
-- **[[Pressure Reduction]]** (Complementary): Reducing opponent's pressure coordinates with underhook defense as excessive forward pressure amplifies underhook effectiveness for sweeps and passes.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Half Guard**: Prevent opponent from establishing underhook on far side which enables them to flatten you and pass. Establish your own underhook or use frames to keep opponent's chest elevated and prevent their underhook from connecting to your back.
 
 **Deep Half Guard**: While you want underhook in deep half, you must defend against opponent's counter-underhook on your far side that can flatten you and prevent sweep execution. Frame against their shoulder and maintain angle.
@@ -258,9 +239,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Is opponent attempting to establish underhook or is underhook already established?**: If attempting: Engage in preventative grip fighting to deny access. If established: Move immediately to neutralization protocol using frames, whizzer, or counter-underhook.
 2. **What position are we in and how dangerous is this specific underhook?**: Assess threat level based on position (deep half underhook vs. side control underhook have different priorities). Prioritize defensive response based on immediate danger of back exposure, sweep, or pass.
 3. **Can I prevent underhook establishment through grip fighting?**: If yes: Control opponent's wrist, elbow, or shoulder to prevent them threading arm under yours. Use collar ties or overhooks to occupy their arm. If no: Move to step 4.
@@ -273,9 +254,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Allowing opponent to establish underhook without immediate defensive response
   - **Consequence**: Opponent consolidates underhook position with additional grips and positioning, making neutralization significantly more difficult and enabling them to execute sweeps, passes, or back takes
   - **Correction**: Develop habit of immediate response to underhook establishment - frame, whizzer, or counter-underhook must happen within 1-2 seconds of opponent securing position to prevent consolidation
@@ -301,9 +282,9 @@ Underhook Defense represents the strategic and technical framework for preventin
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Underhook Battle Positional Sparring** (Focus: Develops tactical awareness of underhook importance, timing for establishing counter-underhooks, and proper framing techniques when underhook defense is required)
 Start in positions where underhook control is critical (dogfight, half guard, turtle) with equal or disadvantaged underhook positioning. Focus exclusively on winning and maintaining underhook advantage or defending and neutralizing opponent's underhook.
 
@@ -326,9 +307,9 @@ Practice whizzer technique against partner's underhook with increasing resistanc
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes when opponent has established underhook but response is delayed or reactive rather than immediate
 - Can execute basic whizzer or frame against underhook when coached but doesn't independently select appropriate defense for position
@@ -370,10 +351,26 @@ Practice whizzer technique against partner's underhook with increasing resistanc
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Whizzer Control]]** (Complementary): Whizzer control serves as primary neutralization tool when underhook is established, working synergistically with underhook defense to prevent opponent from capitalizing on underhook position.
+- **[[Frame Management]]** (Prerequisite): Effective framing provides structural foundation for underhook defense, as frames are essential for preventing opponent from using established underhook to close distance or turn into you.
+- **[[Grip Fighting]]** (Prerequisite): Grip fighting skills are foundational to underhook defense, as preventing underhook establishment requires proactive hand fighting before opponent can secure the position.
+- **[[Base Maintenance]]** (Complementary): Maintaining strong base coordinates with underhook defense to prevent opponent from using underhook leverage to off-balance or sweep you, particularly in half guard and turtle positions.
+- **[[Control Point Hierarchy]]** (Extension): Understanding which underhooks are most dangerous (deep half, back exposure, etc.) extends control point hierarchy concept to prioritize defensive responses based on threat level.
+- **[[Guard Retention]]** (Extension): Underhook defense extends into guard retention as preventing opponent's underhook during guard passing is critical element of maintaining guard position.
+- **[[Hand Fighting]]** (Prerequisite): Hand fighting encompasses the proactive grip fighting skills necessary to prevent underhook establishment before opponent can secure dangerous positions.
+- **[[Defensive Framing]]** (Complementary): Defensive framing techniques provide the structural tools necessary to neutralize established underhooks and maintain distance when prevention fails.
+- **[[Space Management]]** (Complementary): Managing distance and space coordinates with underhook defense as creating appropriate spacing reduces underhook effectiveness and enables recovery.
+- **[[Connection Breaking]]** (Alternative): When underhook defense through frames and whizzers fails, breaking the underhook connection entirely becomes alternative pathway to neutralize the threat.
+- **[[Leverage Principles]]** (Prerequisite): Understanding leverage mechanics explains why underhooks are dangerous and informs proper positioning and pressure angles for effective defense.
+- **[[Pressure Reduction]]** (Complementary): Reducing opponent's pressure coordinates with underhook defense as excessive forward pressure amplifies underhook effectiveness for sweeps and passes.
+
+
+### Related Content
 - [[Whizzer Control]] (Principle) - Primary neutralization tool used when opponent establishes underhook, controlling their arm with overhook to prevent offensive use
 - [[Frame Management]] (Principle) - Provides structural defensive framework when underhook is established, using forearms and hands to maintain distance and prevent opponent turning into you
 - [[Grip Fighting]] (Principle) - Foundational skill for preventative underhook defense, controlling opponent's grips before they can establish problematic underhook positions
@@ -387,15 +384,6 @@ Practice whizzer technique against partner's underhook with increasing resistanc
 - [[Deep Half Guard]] (Position) - Position where you want underhook but must defend opponent's counter-underhook on far side
 - [[Control Point Hierarchy]] (Principle) - Extends to underhook contexts by prioritizing which underhooks represent most dangerous threats requiring immediate defense
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches underhook defense as critical component of positional hierarchy, emphasizing that underhook battles often determine who controls positional exchanges. Teaches systematic protocols for addressing underhooks based on position, with specific defensive sequences for half guard, turtle, and standing contexts. Emphasizes what he terms "underhook hierarchy" where some underhooks (like deep half) are more dangerous than others, requiring prioritized defensive responses. Systematizes the concept that most back takes and many sweeps originate from underhook control, making underhook defense essential for positional security. Particularly emphasizes that in half guard, the battle is fundamentally about underhook control - whoever establishes superior underhook typically wins the position. Teaches that proper underhook defense involves not just preventing the grip but controlling the shoulder and head to neutralize leverage even when opponent has established the position.
-- **Gordon Ryan**: Views underhook battles as ongoing warfare requiring aggressive, proactive approach rather than reactive defense. Focuses on preventing underhooks through constant grip fighting before opponent can establish position. When underhooks are established, emphasizes immediate counter-establishment or neutralization through shoulder pressure and hip control. Notes that elite competitors distinguish themselves through superior underhook awareness and defensive responses, rarely allowing opponents to consolidate underhook advantages into positional improvements. In his passing game, constantly fights to prevent bottom player's underhook while working to establish his own, understanding that underhook control often determines whether pass succeeds or guard retention wins. Emphasizes that in modern no-gi especially, underhook defense is non-negotiable skill because so many attacks and positions rely on underhook control. Teaches that best underhook defense is establishing your own underhook first, making prevention through proactive grip fighting the highest priority.
-- **Eddie Bravo**: Has developed specialized underhook strategies within his system, particularly regarding lockdown half guard where underhook control determines position outcomes. When teaching underhook defense, emphasizes using opponent's underhook attempts as opportunities to establish favorable positions like deep half or lockdown. Advocates for what he calls "active underhook defense" where defensive responses include offensive threats that force opponent to abandon underhook pursuit. Particularly innovative in using "electric chair" and other lockdown-based attacks to punish opponent's underhook establishment attempts. In his rubber guard system, teaches specific protocols for preventing opponent's underhook during mission control and other high guard positions, as underhook threatens to collapse the guard structure. Views underhook battles not as pure defense but as opportunities to create offensive dilemmas - if opponent commits to securing underhook, this commitment can be exploited for sweeps, submissions, or position improvements. Emphasizes that in 10th Planet system, understanding when to allow certain underhooks to bait opponent into vulnerable positions is advanced strategic element.
 
 </section>
 

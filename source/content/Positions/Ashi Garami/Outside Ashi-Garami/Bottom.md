@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Start in established outside ashi garami, bottom player works to maintain positi
 
 **Average Time in Position**: 30-60 seconds before transition or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Outside ashi garami represents the entry point to my leg lock system hierarchy, teaching fundamental concepts of hip control, leg configuration mechanics, and submission threat management. The position should never be viewed as a primary finishing position but rather as a transitional gateway toward more dominant configurations like saddle or inside ashi. The key principle is 'legs follow the hips' - if you control your opponent's hip rotation first through proper hand positioning on their knee and thigh, their leg positioning becomes controllable. Beginners often make the critical error of chasing immediate submissions from outside ashi rather than using submission threats strategically to prevent escapes while advancing position. The outside heel hook from this position, while mechanically possible, has significantly lower percentage success compared to advancing to saddle first. Focus on creating a systematic hierarchy: establish outside ashi, threaten outside heel hook to freeze opponent, read their defensive reaction, then transition to inside ashi or saddle based on how they defend.
-
-### Gordon Ryan
-
-In competition, I use outside ashi extremely aggressively as an entry position after leg drag passes or when pulling guard, but I rarely attempt to finish from it. The position's value lies in its ability to immediately threaten submissions which forces opponents into defensive mode, buying time to advance to saddle where my actual finishing percentage is dramatically higher. Against high-level opponents, staying in outside ashi too long is dangerous because experienced grapplers know the escape mechanics and can systematically work to external rotation. My approach is to threaten the outside heel hook immediately upon entry - this freezes most opponents for 2-3 seconds, which is enough time to begin transitioning to saddle. If they defend the heel hook by turning their knee inward, that's the perfect reaction to enter inside ashi. The key is speed and aggression - slow, methodical outside ashi play allows opponents to establish defensive grips and postures. Modern competition has shown that outside ashi is most effective as a 5-10 second transitional position rather than a place to spend significant time.
-
-### Eddie Bravo
-
-While 10th Planet's traditional focus has been rubber guard and back control systems, we've integrated modern leg entanglement positions as no-gi competition has evolved, particularly for advanced students competing in EBI or submission-only formats. Outside ashi fits into our system as an entry from failed lockdown half guard attempts or when electric chair setups are defended. The critical awareness for our students is understanding tournament rule sets - many IBJJF gi competitions still restrict heel hooks, so practitioners must be able to switch between heel hook threats and straight ankle locks based on context. What I emphasize is the creativity aspect - outside ashi creates unique angles for submissions that aren't available from top positions, and understanding this leg entanglement game opens up entirely new strategic dimensions. However, safety is paramount, especially with heel hooks. The rotational nature of heel hooks means injuries happen rapidly with minimal warning, so we drill these positions extensively with zero finishing pressure in training, focusing on control and position rather than completion.
 
 </section>
 

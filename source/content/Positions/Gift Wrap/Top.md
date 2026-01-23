@@ -8,7 +8,7 @@ description: "Master Gift Wrap control from top in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -476,24 +476,6 @@ Start from standard back control and race to establish Gift Wrap before partner 
 | Advanced     | 85% | 75% | 70% |
 
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Gift Wrap position represents the systematic application of a fundamental principle in grappling: asymmetric control creates decisive advantage. In standard back control, the defender possesses two arms for defense while the attacker possesses two arms for offense - this creates a balanced equation where skilled defense can neutralize skilled offense. The Gift Wrap breaks this symmetry by removing one arm from the defensive equation entirely. Now the defender must perform multiple simultaneous defensive tasks with a single arm: neck protection, grip breaking, frame creation, and space management. This is geometrically impossible, creating what I call a 'defensive deficit' where the practitioner simply lacks the tools to solve all problems simultaneously. The mechanical key to Gift Wrap maintenance is understanding that the trapped arm's position must be high across the chest toward the opposite shoulder. When maintained properly, this position creates a structural lock where the defender cannot generate sufficient force vectors to recover the arm through pulling or pushing. The arm trap becomes self-sustaining through positioning rather than strength. From an attacking perspective, the Gift Wrap creates multiple high-percentage pathways: the rear naked choke benefits from reduced hand fighting, the straight armbar becomes available on the isolated free arm, and transitions to the crucifix or technical mount occur naturally when the defender attempts to turn into or away from the position. The position exemplifies modern systematic back attack methodology where positional control is refined before submission attempts.
-
-### Gordon Ryan
-
-Gift Wrap is one of my highest percentage finishing positions because it solves the main problem with regular back control - the constant hand fighting. When someone is defending a rear naked choke from regular back control, it's this exhausting battle of you trying to get your arm under their chin while they're using both hands to fight it off. Good defensive grapplers can make that really difficult and drain a lot of time off the clock. Gift Wrap changes everything because now they're fighting that same battle with one arm instead of two, and the math just doesn't work out for them. What makes this position so effective in competition is that it creates immediate offensive opportunities while still being relatively safe. I can attack the choke hard knowing that if they defend well, I can immediately transition to attacking the free arm with an armbar or advance to technical mount or crucifix. The key to finishing from here is patience combined with pressure - I'm not rushing the choke, I'm slowly working it deeper while they're burning their grip strength trying to defend with one hand. Eventually their defense breaks down and the finish comes. The entry usually comes when I already have back control and they make a mistake with their hand positioning - reaches too high, drops their elbow, tries to grab my legs. That's when I thread my arm under their armpit and lock in the Gift Wrap. Once it's locked, the round is essentially over unless they're significantly better than me, which is rare. It's about as close to checkmate as you can get in grappling.
-
-### Eddie Bravo
-
-The Gift Wrap is sick because it's like putting someone in a straight jacket while you're on their back - they're half-disabled and freaking out. What I love about this position is that it works perfectly in the no-gi game where we don't have collar grips to fall back on. In the gi you've got all these fancy chokes with the lapels, but no-gi back control can sometimes feel like you're just wrestling for the rear naked choke without much else. Gift Wrap changes that by giving you this dominant control position that opens up multiple attack paths. From our 10th Planet perspective, we see the Gift Wrap as a natural connection point between the regular back mount, the truck position, and the twister system. They all involve controlling the person's arm in some way while you attack from the back. What's key is being fluid between these positions rather than being rigid. If I've got the Gift Wrap and they're defending well, I might transition to the truck and go for a twister. If they defend that, I might come back to Gift Wrap but from the other side. It's about creating this web of back attacks where they solve one problem and immediately face another one. Also don't overlook the power of the Gift Wrap for setting up that short choke - when their arm is trapped across their body, you can sometimes just crank a choke using their own shoulder as part of the choking mechanism. It's not the prettiest submission but it works, especially when people are tough and won't tap to the traditional stuff. The whole position is about making them uncomfortable and creating that chaos where they eventually make a mistake you can finish with.
 
 </section>
 

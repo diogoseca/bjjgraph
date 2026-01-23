@@ -37,14 +37,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Explorer({
-      mapFn: (node) => {
-        // Strip everything after the first " | " for cleaner Explorer display
-        if (node.displayName && node.displayName.includes(" | ")) {
-          node.displayName = node.displayName.split(" | ")[0]
-        }
-      }
-    })),
   ],
 }
 
@@ -73,13 +65,5 @@ export const defaultListPageLayout: PageLayout = {
   ],
   right: [
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Explorer({
-      mapFn: (node) => {
-        // Strip everything after the first " | " for cleaner Explorer display
-        if (node.displayName && node.displayName.includes(" | ")) {
-          node.displayName = node.displayName.split(" | ")[0]
-        }
-      }
-    })),
   ],
 }

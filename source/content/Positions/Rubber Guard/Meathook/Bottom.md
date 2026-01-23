@@ -8,7 +8,7 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -467,24 +467,6 @@ Start in Meathook position with partner attempting escapes using full resistance
 
 **Average Time in Position**: 30-45 seconds before transition required due to energy cost
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Meathook represents a fascinating biomechanical study in asymmetric control systems. By isolating one arm through the shin hook while maintaining closed guard connection with the legs, the bottom player creates a mechanical trap that exponentially limits the opponent's defensive options. The key insight is understanding the hook not merely as positional control, but as a lever that generates opposing forces—the shin pushes the tricep forward while the grip pulls the opposite shoulder, creating a compression that breaks posture beyond recovery. This dual-force mechanism is what separates effective Meathook control from superficial attempts. The position's submission pathways emerge directly from this mechanical foundation—each defensive movement the opponent attempts creates specific force vectors that align perfectly with triangle, omoplata, or gogoplata geometries. Students must study the relationship between hip angle and submission availability, recognizing that small rotational adjustments of 15-20 degrees completely change which finish becomes viable. The systematic nature of Meathook lies in its predictable response to opponent actions—there is no guessing required, only reading defensive patterns and flowing to the mechanically appropriate counter.
-
-### Gordon Ryan
-
-Meathook is one of those positions that looks flashy but actually wins matches when you know the system. In competition, I use it specifically against opponents who try to maintain strong closed guard posture—traditional posture breaking takes time and energy, but Meathook achieves the same goal while simultaneously setting up submissions. The high-percentage application is understanding that Meathook is a fork in the road: the opponent chooses their own death by how they defend. If they drive forward to smash, they walk into gogoplata. If they try to rip the arm out, they give triangle. If they spin, they give omoplata. My job isn't to force one finish—it's to read which path they're taking and flow there faster than they can defend. Against world-class opponents, I treat Meathook as a 30-second window to either finish or return to Mission Control. The energy cost is real, and trying to hold it longer than that against elite competition is ego-driven stupidity. The position works because it creates legitimate threat—opponents know they're in danger and make panicked defensive movements that open finishes. That psychological pressure is half the battle. Train the submission chains until they're automatic, then let your opponent choose which one they want to lose to.
-
-### Eddie Bravo
-
-Meathook is the heart of the Rubber Guard system, man. This is where the magic happens. When I developed this position, the goal was to create something that completely violated traditional guard rules—instead of using your legs for mobility and hip movement, you sacrifice all that for extreme upper body control and submission leverage. And it works because jiu-jitsu is about controls and submissions, not positions and points. From Meathook, you're connected to the entire 10th Planet web—you can flow to Carni, to New York, to Mission Control, to straight-up gogoplata. It's like a choose-your-own-adventure book except every chapter ends with your opponent tapping. The flexibility requirement is real, and I tell everyone: if you can't get your knee to your chest easily, you're not ready for Meathook yet. Go stretch. Do yoga. Get your hips open. Because forcing it with tight hips is how you tear something and end up on the sideline. But once you have the flexibility and you understand the system, Meathook becomes this beautiful problem that has no solution for your opponent. They're trapped in a puzzle where every move they make opens a different submission. That's the 10th Planet philosophy—create problems that can't be solved, only survived. And Meathook is one of the best problem-creators we've got.
 
 </section>
 

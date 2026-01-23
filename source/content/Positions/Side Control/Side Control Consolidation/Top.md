@@ -8,7 +8,7 @@ description: "Master Side Control Consolidation Top position with 85% retention 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -452,24 +452,6 @@ Start in early side control with opponent maintaining defensive posture. Top par
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Side control consolidation represents the systematic application of mechanical advantage through strategic weight distribution and connection management. The practitioner must understand that control quality exists on a spectrum from initial achievement to complete domination, with consolidation occupying the critical middle phase where defensive options are methodically eliminated. The crossface functions as the primary rotational control mechanism, turning the opponent's head away from their hips and destroying the spinal alignment necessary for effective bridging mechanics. Simultaneously, far-side hip control prevents the generation of upward force through bridging, creating a mechanical prison where the opponent's only options involve progressive weakening of defensive structure. The breathing cycle becomes your timer for advancement - during exhalation, the opponent's core tension reduces by approximately 30%, creating optimal windows for transitional movement. Master practitioners don't simply hold side control; they actively construct an increasingly constrictive control environment that forces defensive mistakes through accumulated psychological and physical pressure.
-
-### Gordon Ryan
-
-In competition, side control consolidation is where you break your opponent's will and force them into making the defensive errors that create submission opportunities. I spend those first 20-30 seconds making them completely flatten out, getting all their frames to collapse, and making them feel the weight to the point where they start trying desperate escapes. That's when I move - when they give me something out of desperation rather than technique. The key is being patient enough to wait for full consolidation but aggressive enough that they never get comfortable. I'm constantly making micro-adjustments with my pressure, shifting my hips slightly, changing the crossface angle, moving from chest pressure to hip pressure and back. This keeps them defensive and reactive instead of offensive and proactive. Once I see their breathing get heavy and their frames start shaking from fatigue, that's my signal that consolidation is complete and it's time to hunt for the mount or the submission. Most competitors rush this phase and end up in scrambles they could have avoided with another 15 seconds of patient pressure work.
-
-### Eddie Bravo
-
-Side control consolidation is where you really cook your opponent and set up the whole game plan. In 10th Planet, we're always thinking about the sequence: consolidate, isolate an arm, then transition to truck or take the back. But you can't rush it - you gotta let that pressure really sink in and make them panic first. What I teach is using the consolidation phase to read what kind of defensive fighter they are. Do they try to turn in? Do they try to frame and create distance? Do they go totally defensive and just try to survive? Each reaction tells you which path to take. If they turn in, you're getting that darce or going to knee on belly. If they frame hard, you're hunting that arm triangle. If they turtle up defensive, you're transitioning to north-south and looking for that choke. The consolidation phase is like a laboratory where you test their defenses and figure out what they're most afraid of, then you exploit that fear with your next move. It's not just about holding position; it's about gathering intelligence for your attack sequence.
 
 </section>
 

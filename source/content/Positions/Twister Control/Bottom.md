@@ -8,7 +8,7 @@ description: "Master defensive strategies for Twister Control Bottom. Learn esca
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -410,24 +410,6 @@ Practice hand fighting and neck protection while in rotated position. Partner at
 
 **Average Time in Position**: 15-30 seconds before submission or escape
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Twister Control Bottom represents what I call compound mechanical failure - the position simultaneously compromises spinal integrity, breathing mechanics, and power generation from the hips. The key to defense is understanding that this is not a position you survive through toughness or flexibility alone. You must work systematically to address the mechanical problems in sequence: first protect the neck from immediate submission, then reduce the leg control that maintains rotation, and finally realign the spine to enable conventional escape mechanisms. The mistake most people make is attempting to generate explosive movement while the spine is still under rotational load, which only increases the submission danger. This position requires technical precision and systematic problem-solving under extreme discomfort.
-
-### Gordon Ryan
-
-Being caught in Twister Control is one of the most uncomfortable experiences in jiu-jitsu, and I've felt it from some of the best 10th Planet guys. The reality is that if someone really good gets you in deep Twister Control, your chances of escape are low and you need to be prepared to tap to protect your spine. The key defensively is catching it early - if you feel someone going for truck position and starting to twist your spine, that's when you need to address it aggressively. Once they have your leg trapped and significant rotation established, you're in serious trouble. I focus on preventing the leg from being captured in the first place, because once it's trapped, the rest of their control system comes together quickly. If you do get stuck deep, protect your neck, work the leg, and don't be a hero if the Twister is locked in - tap and reset.
-
-### Eddie Bravo
-
-The Twister Control is the heart of the 10th Planet system and it's designed to completely shut down even the most athletic opponents. When you're on bottom in Twister Control, you're experiencing exactly what we designed the position to do - take away your explosive power, compromise your breathing, and make you incredibly uncomfortable. The best defense is to never let someone who knows the Twister system get to truck position in the first place, but if you do get caught, you need to stay calm which is really hard because the position is so uncomfortable. Work your leg first - that's the foundation of their control. If you can get your leg free, you can start to reduce the rotation and turn into them. But here's the thing - if someone good has you in deep Twister Control, you might just need to tap. There's no shame in tapping to protect your spine. We've had people get injured trying to tough it out, and that's just stupid. Tap, learn from it, and work on your prevention.
 
 </section>
 

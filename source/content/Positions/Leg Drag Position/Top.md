@@ -8,7 +8,7 @@ description: "Control and finish the leg drag position with systematic passing s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Partner in leg drag bottom randomly turns away during the round. Practice immedi
 
 **Average Time in Position**: 8-15 seconds to complete pass or transition to back
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg drag represents one of the most mechanically efficient passing positions available to the modern grappler. Its effectiveness stems from the simultaneous achievement of multiple objectives: you control the opponent's hip directly, you remove their ability to create distance with their legs, and you establish an angle that naturally facilitates progression to dominant positions. The critical technical detail that separates effective from ineffective leg drags is the perpendicular relationship between your torso and theirs. When you maintain this angle while applying chest pressure to the dragged leg, you create a geometric configuration where their escape options are severely limited. They cannot turn into you without exposing their back, they cannot create frames because your pressure pins their hip, and they cannot shrimp effectively because their leg position prevents normal hip mobility. The position demands active finishing - you must immediately transition to either the knee slice pass, back step to back control, or pressure pass. Static maintenance of the leg drag allows skilled opponents to find timing for escapes through granby rolls or butterfly hook recovery.
-
-### Gordon Ryan
-
-The leg drag is one of my highest percentage passing positions in competition because it gives me multiple finishing options while keeping the opponent extremely limited in what they can do. When I establish the leg drag, I'm immediately reading whether they're staying flat or starting to turn away. If they stay flat and try to frame, I'm finishing with the knee slice or pressure pass. If they turn away even slightly, I'm taking the back without hesitation - that back step is probably 80% effective at my level. The key is not sitting in the position trying to hold them down. You use the leg drag as a checkpoint position - you establish it, read their defensive reaction, and immediately go to the appropriate finish. I also pay close attention to their free leg. If I feel them trying to get a butterfly hook, I'm adjusting my angle or driving my knee through immediately. The worst thing you can do is let them establish frames and hooks while you're trying to hold the position. Be aggressive in finishing from the leg drag.
-
-### Eddie Bravo
-
-The leg drag works great in no-gi because you don't have to worry about their grips slowing you down. What I like about it is that it naturally flows into other positions - if they defend the pass, you can often get the back, and if they defend the back take, you can finish the pass. It's a win-win situation. The thing we emphasize is keeping your head tight to their body and staying mobile. You're not sitting there holding them down forever - you're actively working to finish. We also chain the leg drag with the body lock a lot in 10th Planet because they complement each other really well. If the leg drag is getting defended, you can switch to the body lock and vice versa. The beauty of modern passing is that everything connects and flows together. The leg drag is one of those positions that opens up so many doors if you know how to use it right.
 
 </section>
 

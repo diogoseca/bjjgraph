@@ -8,7 +8,7 @@ description: "Master the Shin to Shin Pull in BJJ. Step-by-step execution from S
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -338,15 +338,6 @@ The shin-to-shin pull serves as a critical entry point into the modern guard-bas
 - [[Seated Guard]] - Base position for executing shin-to-shin pull
 - [[Guard Pull]] - General category of guard establishment techniques
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The shin-to-shin position represents a sophisticated understanding of guard pulling mechanics where we establish structural control before committing to inferior position. Traditional guard pulls often fail because the practitioner sits to guard without establishing any control mechanisms, essentially giving the opponent a free passing opportunity. The shin-to-shin pull solves this problem by creating a distance management frame - your shin against theirs - that immediately disrupts their ability to establish pressure and forward movement. From a biomechanical perspective, the perpendicular shin placement creates maximum surface area contact while the pulling grip generates a lever system that compounds the off-balancing effect. This is systematic guard establishment - you're not hoping to survive after pulling guard, you're engineering a position where you have immediate offensive options while the opponent has limited passing entries. The free leg's positioning determines your tactical options post-pull, and skilled players will have three to four pre-planned pathways based on opponent reactions.
-- **Gordon Ryan**: I use shin-to-shin pulls constantly in competition because it's one of the highest percentage ways to establish guard against someone who knows you want to pull. The reality is most opponents at high levels will defend traditional guard pulls well, but shin-to-shin creates problems they can't solve easily. When I pull shin-to-shin, I'm not just establishing a position - I'm immediately threatening single leg X sweeps which score points if successful. That threat forces them to react defensively which prevents them from passing. The key in competition is speed of execution and immediate transition to attacking positions. I don't sit in shin-to-shin and wait; I'm either sweeping to single leg X or coming up on a technical standup within 2-3 seconds. Against elite competition, the shin-to-shin pull also sets up my leg lock entries because it's already a leg entanglement position. If they defend the sweep by pulling their leg back, I can often catch outside ashi or saddle entries. It's a complete system, not just a guard pull.
-- **Eddie Bravo**: Shin-to-shin pulling is something we've integrated heavily into the 10th Planet system, especially in no-gi where traditional gi grips aren't available. What I love about it is that it's both a guard pull and an immediate attacking position - you're not wasting time consolidating, you're already threatening. In our system, we often chain shin-to-shin with rubber guard or lockdown entries depending on how the opponent reacts. If they stand heavy on that shin-to-shin leg, we can transition to lockdown half guard. If they try to back out, we come up on technical standups or pursue the leg for calf slicers and toe holds. The innovation here is recognizing that shin-to-shin isn't just one position - it's a gateway to multiple 10th Planet positions. We also use it to set up the truck position; when they drive forward to pass the shin-to-shin, we can often invert underneath and access crotch ripper or banana split entries. The creativity comes from not viewing it as a static guard but as a dynamic transition point in the scramble.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master pressure passing methodology in BJJ. Learn systematic guard
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Sustained Forward Pressure - Maintain constant downward and forward weight distribution on opponent's core and hips
 - Connection Point Dominance - Control superior grips (crossface, underhook, head control) while denying opponent's frames
 - Space Compression - Systematically reduce opponent's ability to create distance through hip pressure and chest-to-chest connection
@@ -179,9 +179,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Headquarters Establishment**: The ability to establish and maintain the headquarters position with proper weight distribution on opponent's legs while controlling grips. This includes achieving the crossface, preventing re-guard, and maintaining forward pressure while neutralizing leg-based guard retention.
 
 **Crossface Mechanics**: Understanding proper crossface application including shoulder pressure direction, head control maintenance, and using the crossface to turn opponent's face away from the passing direction. This skill involves proper shoulder placement and sustained pressure without relying purely on arm strength.
@@ -202,28 +202,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Pressure Application]]** (Prerequisite): Understanding fundamental pressure mechanics is essential before implementing pressure passing framework, as the framework builds on basic pressure principles applied specifically to guard passing contexts.
-- **[[Guard Passing]]** (Extension): Pressure passing represents one specific application of broader guard passing principles, emphasizing pressure and connection over mobility and speed-based approaches.
-- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution forms the foundation of effective pressure passing, as strategic weight placement determines the effectiveness of pressure application and connection dominance.
-- **[[Connection Breaking]]** (Complementary): While pressure passing emphasizes maintaining your own connections, understanding connection breaking allows you to systematically remove opponent's defensive frames and grips during passing sequences.
-- **[[Base Maintenance]]** (Prerequisite): Strong base is essential for pressure passing as you must maintain stability while applying forward pressure, preventing opponent from sweeping or off-balancing you during passing attempts.
-- **[[Position Chains]]** (Complementary): Pressure passing relies heavily on position chaining, smoothly transitioning between passing positions based on opponent reactions while maintaining continuous pressure throughout the sequence.
-- **[[Forward Pressure]]** (Prerequisite): Forward pressure is the foundational concept that all pressure passing techniques build upon, providing the constant gravitational advantage that makes the framework effective.
-- **[[Hip Pressure]]** (Prerequisite): Hip pressure mechanics are critical for effective pressure passing, as hip placement and weight distribution determine the ability to pin opponent's legs and prevent mobility.
-- **[[Shoulder Pressure]]** (Prerequisite): Shoulder pressure through crossface and chest contact is essential for controlling opponent's upper body and preventing them from sitting up or creating frames during pressure passes.
-- **[[Control Point Hierarchy]]** (Complementary): Understanding which connection points dominate others (crossface beats arm frames, underhook beats shoulder frames) is essential for systematic frame removal in pressure passing.
-- **[[Guard Retention]]** (Complementary): Understanding guard retention strategies allows pressure passers to anticipate and counter defensive responses, as pressure passing specifically targets the frames and distance management that retention relies on.
-- **[[Dilemma Creation]]** (Extension): Advanced pressure passing creates dilemmas where opponent's defensive choices all lead to different passing positions, with pressure maintained throughout regardless of which option they choose.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Initial pressure establishment through posture breaking, grip control, and forward weight distribution before opening guard. Crossface and shoulder pressure prevent opponent from sitting up or maintaining strong posture control.
 
 **Half Guard**: Sustained pressure on trapped leg using hip and shoulder pressure to prevent opponent from recovering full guard. Crossface and underhook control combined with forward pressure create passing opportunities while preventing sweeps.
@@ -258,9 +239,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Initial Guard Engagement**: Establish forward pressure and secure dominant grips (crossface, underhook, or head control) while preventing opponent from establishing distance management grips or frames. Assess guard type and defensive posture.
 2. **Connection Dominance Assessment**: Evaluate grip battle outcome. If superior connections secured, begin pressure application. If opponent has strong defensive frames, systematically remove frames starting with most dangerous (knee shield, feet on hips) before advancing.
 3. **Pressure Platform Selection**: Choose appropriate pressure passing position based on guard type and opponent's defensive structure (headquarters for leg-based guards, smash pass for half guard, knee slice for open guard). Establish chosen position with proper weight distribution.
@@ -273,9 +254,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Rushing Through Positions
   - **Consequence**: Attempting to advance too quickly through passing positions breaks pressure continuity, allows opponent to recover guard or create frames, and often results in losing dominant grips or getting swept.
   - **Correction**: Embrace incremental advancement. Wait for opponent to create space or make defensive error before progressing. Maintain pressure at each stage until position is fully established before moving to next phase.
@@ -301,9 +282,9 @@ The Pressure Passing Framework represents a systematic approach to guard passing
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Progressive Resistance Passing** (Focus: Developing proper pressure application mechanics, weight distribution patterns, and incremental advancement timing without needing to overcome full resistance initially. Builds muscle memory for proper technique.)
 Partner offers incrementally increasing resistance to passing attempts, starting from 30% resistance and building to 100% over weeks. This allows development of proper pressure mechanics and position chaining without overwhelming defensive responses.
 
@@ -323,9 +304,9 @@ Record passing attempts and analyze pressure application, weight distribution, b
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can establish basic forward pressure and maintain it briefly against passive resistance
 - Understands concept of crossface and underhook positions but application is inconsistent
@@ -368,10 +349,26 @@ Record passing attempts and analyze pressure application, weight distribution, b
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Pressure Application]]** (Prerequisite): Understanding fundamental pressure mechanics is essential before implementing pressure passing framework, as the framework builds on basic pressure principles applied specifically to guard passing contexts.
+- **[[Guard Passing]]** (Extension): Pressure passing represents one specific application of broader guard passing principles, emphasizing pressure and connection over mobility and speed-based approaches.
+- **[[Weight Distribution]]** (Prerequisite): Proper weight distribution forms the foundation of effective pressure passing, as strategic weight placement determines the effectiveness of pressure application and connection dominance.
+- **[[Connection Breaking]]** (Complementary): While pressure passing emphasizes maintaining your own connections, understanding connection breaking allows you to systematically remove opponent's defensive frames and grips during passing sequences.
+- **[[Base Maintenance]]** (Prerequisite): Strong base is essential for pressure passing as you must maintain stability while applying forward pressure, preventing opponent from sweeping or off-balancing you during passing attempts.
+- **[[Position Chains]]** (Complementary): Pressure passing relies heavily on position chaining, smoothly transitioning between passing positions based on opponent reactions while maintaining continuous pressure throughout the sequence.
+- **[[Forward Pressure]]** (Prerequisite): Forward pressure is the foundational concept that all pressure passing techniques build upon, providing the constant gravitational advantage that makes the framework effective.
+- **[[Hip Pressure]]** (Prerequisite): Hip pressure mechanics are critical for effective pressure passing, as hip placement and weight distribution determine the ability to pin opponent's legs and prevent mobility.
+- **[[Shoulder Pressure]]** (Prerequisite): Shoulder pressure through crossface and chest contact is essential for controlling opponent's upper body and preventing them from sitting up or creating frames during pressure passes.
+- **[[Control Point Hierarchy]]** (Complementary): Understanding which connection points dominate others (crossface beats arm frames, underhook beats shoulder frames) is essential for systematic frame removal in pressure passing.
+- **[[Guard Retention]]** (Complementary): Understanding guard retention strategies allows pressure passers to anticipate and counter defensive responses, as pressure passing specifically targets the frames and distance management that retention relies on.
+- **[[Dilemma Creation]]** (Extension): Advanced pressure passing creates dilemmas where opponent's defensive choices all lead to different passing positions, with pressure maintained throughout regardless of which option they choose.
+
+
+### Related Content
 - [[Headquarters Position]] (Position) - Core pressure passing platform position where framework principles are most clearly demonstrated
 - [[Headquarters Control]] (Position) - Consolidated version of headquarters with dominant grips and weight distribution established for pressure passing
 - [[Knee Slice Pass]] (Transition) - Primary pressure passing technique connecting headquarters to side control consolidation
@@ -384,15 +381,6 @@ Record passing attempts and analyze pressure application, weight distribution, b
 - [[Base Maintenance]] (Principle) - Essential concept for applying pressure without becoming vulnerable to sweeps
 - [[Bernardo Faria Pressure System]] (System) - Complete systematic application of pressure passing framework at elite competition level
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: The pressure passing framework represents a fundamental strategic choice in guard passing methodology - you are choosing connection dominance over mobility. This is not simply about being heavy or applying random pressure, but rather the systematic application of biomechanical principles to compress space, remove frames, and advance position incrementally. The framework succeeds because it creates a thermodynamic problem for the guard player: they must generate explosive energy to create space against sustained gravitational pressure. Efficiency favors the passer who uses bodyweight rather than muscular effort. The critical insight is that pressure passing is a war of attrition - you are not trying to pass in one explosive moment, but rather to systematically degrade the opponent's defensive capacity through sustained pressure until their frames collapse and positional advancement becomes inevitable. Understanding proper connection hierarchy is essential: crossface beats all arm-based frames, underhook beats all shoulder-based frames, and hip pressure beats all leg-based frames. Master these connection dominances and the framework becomes a systematic path from guard engagement to passing consolidation.
-- **Gordon Ryan**: I built my entire passing game on pressure passing framework because it's the highest percentage approach against modern guard retention systems. Here's why it works at the absolute highest level of competition: retention-based guards rely on distance management and frames, and pressure passing completely nullifies both. When I'm in headquarters with a tight crossface and my weight distributed properly, even the best guard players in the world struggle to create the space they need for their retention systems to function. The key competitive advantage is that pressure passing is less timing-dependent than speed passing - I don't need to catch a perfect moment, I just need to systematically break down their defensive structure through sustained pressure and incremental advancement. Against elite opponents, you can't rely on explosive passes because they won't give you those moments. But everyone has to deal with gravity, everyone gets tired carrying weight, and everyone's frames eventually collapse under sustained pressure. I chain between headquarters, knee slice, and smash pass based on their defensive adjustments, but I never release pressure during those transitions. That's the difference between good pressure passing and great pressure passing - maintaining pressure continuity so they never get a chance to reset their guard or recover their frames.
-- **Eddie Bravo**: What I love about pressure passing framework is how you can innovate within it while keeping the core principles intact. Traditional pressure passing focused on smash passes and knee cuts, but you can apply the same pressure framework to leg drag positions, body lock passes, and even some leg entanglement passes. The 10th Planet approach takes pressure passing concepts and applies them in no-gi contexts where traditional crossface grips aren't available - you're using shoulder pressure, head control, and whizzer control instead, but the biomechanical principles remain the same. The innovation opportunity comes from recognizing that pressure isn't just about being heavy, it's about creating dilemmas through connection dominance. When I'm teaching pressure passing, I emphasize creating situations where the opponent's defensive choices all lead to different passing positions - if they defend the knee slice, I transition to leg drag; if they defend the leg drag, I transition to smash pass. But throughout all those transitions, pressure never releases. That constant pressure combined with position chaining is what makes modern pressure passing so effective even against guard players who know it's coming. The framework allows for creativity in how you apply pressure and which positions you chain together, while maintaining the systematic approach that makes it high-percentage.
 
 </section>
 

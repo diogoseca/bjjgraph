@@ -8,7 +8,7 @@ description: "Defend twister side control with systematic escape strategies. Lea
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -422,24 +422,6 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The defensive hierarchy in twister side control must be absolutely clear in the practitioner's mind: spinal protection supersedes all other considerations. The twister submission operates through rotational torque on the cervical and thoracic spine, creating injury potential that demands immediate defensive response. Only after establishing spinal safety can the defender address the secondary control layers of shoulder pressure and leg entanglement. The common error of attempting full positional escape before dismantling these control elements reveals fundamental misunderstanding of positional problem-solving. Each control layer must be addressed sequentially, with patient systematic approach triumphing over explosive panic responses. The defender who understands this hierarchy and maintains composure under pressure significantly improves their survival probability.
-
-### Gordon Ryan
-
-Getting caught in twister side control means you made mistakes earlier in the sequence, probably in the truck or during a failed back take defense. My approach to defending this position is preventing it entirely through better positional awareness. But when you do get caught, don't panic and don't try hero escapes. Create frames, protect your spine, and work systematically to get your legs free. I see a lot of guys turn away trying to escape, which just gives up the back or makes the twister deeper. Stay facing the threat, build your frames, and grind your way out. It's not pretty but it works. And after you escape, figure out where your defense failed earlier so you don't end up there again.
-
-### Eddie Bravo
-
-Defending twister side control requires understanding the position from the attacking perspective. You need to know what I'm hunting for to effectively defend it. The twister requires specific mechanics: I need your spine rotated, your shoulder driven down, and your legs controlled. If you can deny any one of these elements completely, the submission becomes impossible. Most people focus on the leg entanglement because that's what feels most uncomfortable, but the real danger is the spinal rotation. Keep your spine neutral at all costs, even if it means accepting some discomfort elsewhere. And remember, this position is designed to create panic. The more you freak out, the tighter it gets. Stay cool, address one problem at a time, and you can escape even when it feels hopeless.
 
 </section>
 

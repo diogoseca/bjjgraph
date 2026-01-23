@@ -8,7 +8,7 @@ description: "Master the Balloon Sweep from Closed Guard in BJJ. Complete guide 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -337,15 +337,6 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 - [[Triangle from Closed Guard]] - Setup - failed triangle creates Balloon Sweep opportunity
 - [[Back Take Generic]] - Alternative - transition if opponent defends by turning
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The Balloon Sweep represents an excellent example of biomechanical efficiency in Brazilian Jiu-Jitsu. The technique leverages the principle of creating vertical displacement before rotational movement, which is far more difficult for an opponent to defend than purely lateral sweeping motions. From a systematic perspective, the sweep requires three critical mechanical elements working in perfect synchronization: upper body control to prevent posting, hip positioning to create the proper rotational axis, and explosive leg extension to generate vertical lift. The genius of this technique lies in how it exploits the fundamental weakness in human base - we are far more stable against lateral forces than vertical displacement. When you compress the opponent's weight onto a small surface area (your butterfly hook or posting foot) and then explosively extend, you create a moment of weightlessness where their defensive posting becomes ineffective. This is pure physics applied to grappling. The key is understanding that the power comes not from muscular strength but from the stored elastic energy created during the compression phase, combined with the mechanical advantage of your skeletal structure working as a lever system.
-- **Gordon Ryan**: In competition, the Balloon Sweep is one of my go-to attacks from closed guard because it works at the highest levels against world-class opponents who know it's coming. The reason it remains effective is that it capitalizes on an unavoidable dilemma - to maintain strong top pressure and passing position, opponents must keep their weight forward, but this forward weight is exactly what makes them vulnerable to the sweep. I use it extensively because it leads directly to mount, which is worth 4 points in IBJJF competition, and it bypasses all the intermediary positions where technical opponents can create problems. The key to making it work at elite levels is perfect timing and disguising the setup within your other guard attacks. I often set it up by attacking triangles or kimuras first, which forces opponents to posture and defend, then immediately hit the Balloon Sweep when they relax their defensive posture. The sweep also works exceptionally well in no-gi with proper adaptations using overhooks instead of collar grips. Against heavy pressure passers who try to smash through your guard, the Balloon Sweep becomes even more effective because you're using their own pressure and forward momentum against them.
-- **Eddie Bravo**: The Balloon Sweep is beautiful because it embodies the chaos and unpredictability that makes jiu-jitsu an art form. In the 10th Planet system, we use this sweep as a transitional bridge between high guard attacks and our rubber guard system. What I love about it is how it creates scrambles that favor the bottom player - even if you don't complete the sweep perfectly, you're usually ending up in advantageous positions like quarter guard, dogfight, or even the truck position. We modify the traditional Balloon Sweep by incorporating lockdown mechanics when possible, which adds extra control and prevents the opponent from basing out. The technique also sets up perfectly for taking the back, which is our primary goal in the 10th Planet system. Instead of always going for mount, we teach students to read the opponent's defensive reaction - if they turn to avoid being swept, you've got a free back take opportunity. The no-gi adaptation is crucial for MMA application, where we replace gi grips with head control and overhooks. In the cage, the Balloon Sweep becomes even more powerful because opponents can't base on their hands as effectively on the canvas, and the sweep often leads directly to ground and pound positions.
 
 </section>
 

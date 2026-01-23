@@ -8,7 +8,7 @@ description: "Master Invisible Collar from top position with grip concealment ta
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,24 +443,6 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 **Average Time in Position**: 30-90 seconds from establishment to finish or transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The invisible collar represents a sophisticated application of concealment theory in submission grappling. The mechanical advantage comes not from superior leverage alone, but from the opponent's delayed recognition of the threat. By the time most practitioners realize they are defending a choke rather than simple positional control, the grip is already established beyond the point where conventional hand fighting can remove it. The key technical detail is achieving maximum collar penetration with minimal visible telegraphing—your fingers should be as deep as anatomically possible before you begin applying rotational pressure. This position also exemplifies the principle of submission chains: the invisible collar is not merely one technique but rather a platform from which multiple submissions become available. When the opponent defends the collar, they inevitably create openings for the rear naked choke or armbar. This forced choice between equally dangerous options is the essence of high-level back attack methodology.
-
-### Gordon Ryan
-
-In competition, the invisible collar is one of the highest percentage setups I use from back control because people simply don't see it coming until it's too late. The grip looks passive, almost lazy, so opponents don't prioritize defending it while they're busy trying to remove my hooks or escape. By the time they realize what I've set up, I'm already squeezing and the tap comes fast. The competition-tested detail that matters most is waiting for the right moment—you need your opponent distracted or tired before you establish the grip. I typically threaten the armbar or work for my second hook, and while they're defending those threats, I casually sink my hand deeper into the collar. Once it's set, you have multiple finishes available and your opponent is in serious trouble. Against high-level guys, I'll often use the invisible collar as a control position rather than rushing the finish, because having that grip established means I can attack whenever I see an opening and they know they're in danger the entire time.
-
-### Eddie Bravo
-
-The invisible collar is a perfect example of how traditional gi techniques can be evolved into modern traps. At 10th Planet we focus on no-gi, but this concept translates beautifully to our back control system—instead of the collar, we use the same principle of concealed hand positioning behind the head or neck that appears defensive but is actually setting up the kill. What makes this position so dangerous is the mind game aspect: your opponent thinks they're in back control, which is bad enough, but they don't realize you're already in a submission position until you start finishing. That psychological element is huge. The invisible collar also fits perfectly into the dilemma system we teach—you're creating a situation where every defensive choice leads to a different attack. They defend the collar? Hit the RNC. They defend the neck? Take the arm. They try to turn? Crucifix time. This is high-level strategic grappling where you're controlling both the position and your opponent's decision-making process. For my students, I emphasize making the grip establishment so smooth and casual that it looks like you're just resting your hand there, not setting up a fight-ending choke.
 
 </section>
 

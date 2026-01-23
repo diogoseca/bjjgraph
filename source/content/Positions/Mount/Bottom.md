@@ -8,7 +8,7 @@ description: "Master defensive strategies from bottom Mount. Learn systematic es
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -440,24 +440,6 @@ Partner in mount, bottom practitioner practices explosive bridges with proper ar
 
 **Average Time in Position**: 45-90 seconds before escape or submission at intermediate level
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The essence of mount escape is understanding that you are working against gravity, biomechanics, and positional hierarchy simultaneously. Your goal is not to make one explosive movement but to systematically create the conditions where escape becomes possible. Begin by preventing further advancement to high mount or technical mount through proper frame placement. Then focus on creating a small wedge of space through hip movement - this wedge is your lifeline. The most common error is attempting to muscle the escape through upper body strength, when in reality the hips are the engine of all mount escapes. Master the elbow-knee escape as your primary weapon, understanding that it is a technical sequence requiring precise weight distribution and timing rather than explosive power.
-
-### Gordon Ryan
-
-In competition, I see people get mounted and immediately panic, making desperate explosive movements that accomplish nothing except depleting their energy. The reality is that a good mount escape requires accepting you're in a bad position and working systematically to improve it. My approach focuses on establishing frames immediately and never allowing the opponent to settle their full weight. I'm constantly making small adjustments, never staying completely flat, and looking for the moment when my opponent shifts weight to attack. That's when the escape happens. The bridge and roll has its place, but the hip escape to guard recovery is my primary escape - it's more reliable and doesn't require catching my opponent off-guard. Train your escapes against fully resisting opponents regularly so you develop the mental toughness to execute under pressure.
-
-### Eddie Bravo
-
-Traditional mount escapes are solid, but you need backup plans when facing someone who knows how to shut down the standard elbow escape. I emphasize the deep half entry from mount as an alternative escape route - when you can get your bottom leg between their legs and establish the deep half lockdown, you've completely changed the dynamic. The lockdown sweep from there is powerful. Also, don't underestimate the psychological element of mount survival. If you can stay calm, breathe, and defend for a full round without getting submitted, you're winning the mental game even if you don't escape. That mental toughness translates to everything else in your game. Practice survival drills regularly - just defend mount under pressure without trying to escape, focus on breathing and frame maintenance.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -486,24 +486,6 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 **Average Time in Position**: 30-90 seconds in competition, 2-5 minutes in training
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Open guard represents the most sophisticated expression of guard play in Brazilian Jiu-Jitsu, requiring systematic development of multiple interconnected subsystems. The key lies in understanding guard as a defensive hierarchy - establish inside foot positioning first, then construct frames that prevent chest-to-chest connection, and finally layer offensive threats on top of this defensive foundation. Each guard variation (butterfly, spider, de la riva, lasso, x-guard) has specific entry mechanics, retention protocols, and attack sequences that must be drilled systematically. The practitioner must develop what I call 'guard switching fluency' - the ability to transition seamlessly between variations based on opponent responses. Open guard succeeds when you create a web of interconnected positions where every defensive action by the opponent opens an offensive opportunity for you. The biomechanical principle underlying all effective open guard play is the relationship between distance management and angle creation - you must constantly adjust both variables to prevent opponent from establishing the pressure and control needed for successful passing.
-
-### Gordon Ryan
-
-My open guard game is built around constant forward pressure and creating false retreats that bait opponents into overcommitting. I use butterfly guard as my primary platform because it allows explosive entries to leg attacks and back takes while maintaining strong defensive structure. The key is never being static - I'm constantly switching between butterfly, seated guard, and leg entanglements, forcing opponents to defend multiple systems simultaneously. In competition, I focus on high-percentage sweeps like butterfly and x-guard variations that lead directly to dominant positions or leg lock entries. My philosophy is simple: make every moment in open guard a dilemma for the opponent - if they pressure in, I sweep; if they stand back, I enter leg locks; if they try to pass laterally, I take the back. The guard player should always be more dangerous than the passer. You cannot stay in generic open guard for long against elite opponents - you need to quickly transition to a specific guard that gives you concrete attacking opportunities within 2-3 seconds of engagement.
-
-### Eddie Bravo
-
-Open guard is where we transition into the specific 10th Planet systems - Mission Control, Rubber Guard when we get the lockdown variation going. The key innovation is understanding that traditional open guards leave too many gaps, so we've developed hybrid positions that combine open guard mobility with closed guard-style control. For example, our 'Carni' position uses overhook control with strategic foot positioning to create submission entries that traditional open guards miss. I teach students to immediately threaten submissions from open guard rather than just sweeping - this creates a different dynamic where opponents become defensive rather than offensive. The rubber guard system specifically solves the problem of maintaining control during transition by using the leg as a third hand. Think about open guard as the entry point to our entire no-gi system, not as a standalone position. What makes open guard so effective is that it's adaptable - you can play it aggressive and attacking, or defensive and conservative, depending on the situation and your energy levels.
 
 </section>
 

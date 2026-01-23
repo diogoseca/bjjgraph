@@ -8,7 +8,7 @@ description: "Master Kesa Gatame Bottom position in BJJ. Complete escape guide c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -435,24 +435,6 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 **Average Time in Position**: 45-90 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Kesa Gatame Bottom presents a distinctive defensive challenge that requires understanding the geometric relationship between your body and your opponent's control points. The fundamental problem is that standard side control escape mechanics—primarily lateral hip movement through shrimping—are rendered ineffective by the perpendicular angle of your opponent's torso relative to yours. The solution lies in recognizing that Kesa Gatame creates specific vulnerabilities: the top player's back is exposed, their posted leg can be attacked, and their weight distribution often sits back away from your hips. Your escape strategy must exploit these vulnerabilities through bridge-and-turn mechanics rather than hip escapes, creating rotational rather than lateral movement. The systematic approach begins with establishing defensive frames to prevent smothering and submission attacks, then progressively creating space through strategic bridging that targets the opponent's posted arm or far leg. Understanding that this position requires patience and systematic progression rather than explosive scrambling is crucial for energy conservation and successful escape execution.
-
-### Gordon Ryan
-
-In competition, Kesa Gatame Bottom is one of those positions where you need to stay absolutely calm and work your escapes systematically because panic just burns your gas tank and keeps you stuck. The key thing I focus on is immediately getting my free arm into a strong frame against their head or shoulder—this prevents them from completely smothering my face and gives me the breathing room I need to think. From there, I'm looking to attack their far arm or their posted leg because that's what's keeping them stable. If I can compromise their base by pulling on their far arm or hooking their leg with mine, the bridge and roll becomes way higher percentage. The other thing that works really well in competition is recognizing when they try to transition to mount or north-south—that's when their weight shifts and I can immediately turn into them and get to turtle or even take their back. Don't waste energy on escape attempts when they're locked in tight; wait for them to move, then capitalize on that window. The modern game has moved away from Kesa Gatame somewhat, but you still see it from judo guys or old-school practitioners, so you have to have these escapes dialed in.
-
-### Eddie Bravo
-
-Kesa Gatame Bottom is old-school judo control, and while we don't see it as much in 10th Planet no-gi, understanding the escape mechanics is crucial because the pressure and control concepts apply to other positions. The cool thing about Kesa Gatame is that when someone really commits to it, they're giving you their back—you just have to recognize the opportunity and take it. I teach my students to stay loose, keep moving, and look for the moment when the top guy sits back heavy trying to consolidate control. That's when you turn into them, attack their back, or transition to turtle and start working your own game. The ghost escape mechanics we use in 10th Planet actually work really well here because you're sliding your body away from the pressure while turning into your opponent. Don't sleep on the bridge and roll either—if you can grab their far arm or pants and time your bridge right, you can absolutely reverse this position, especially if they're not expecting it. The key is staying creative, staying patient, and recognizing that every position, even a nasty pin like Kesa Gatame, has weaknesses you can exploit if you know what to look for.
 
 </section>
 

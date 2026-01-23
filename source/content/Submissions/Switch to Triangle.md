@@ -8,7 +8,7 @@ description: "Master the Switch to Triangle in BJJ. Safety protocols, guard setu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content","expert-insights"]'>
+<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -415,15 +415,6 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 - [[Triangle Control]] - Position achieved after successful switch - finishing details
 - [[Armbar Control]] - Common starting position before switching to triangle
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The switch to triangle represents a fundamental principle in systematic guard work - the concept of attacking in sequences rather than isolated techniques. When we understand that every defensive response from our opponent creates specific openings, we transform our guard from a series of hopeful attempts into a cohesive system where escape from one attack leads directly into another. The critical detail that separates effective from ineffective triangle switches is the arm trap mechanism - the opponent's arm must be inside your leg configuration or the technique simply does not work. This is not a detail of convenience but a mechanical necessity based on the anatomy of the carotid arteries and the geometry of compression. In training, we must emphasize progressive pressure application, maintaining our culture of safety while developing the technical precision necessary for competition effectiveness. The student who masters this transition gains not merely a submission technique but a gateway into systematic thinking where positions flow seamlessly based on opponent reactions.
-- **Gordon Ryan**: In competition, the switch to triangle is one of my highest percentage attacks because most opponents are conditioned to defend single-technique attempts rather than sequences. When I threaten armbar from guard, experienced opponents immediately grip their hands together or hide their arm - this defensive reaction positions their arm perfectly for the triangle trap. The key to using this effectively at high levels is maintaining constant offensive pressure so your opponent never has time to settle and plan their defense. I always work to finish from the most advantageous angle, which means being perpendicular to my opponent rather than staying in front of them. In training, I emphasize controlled application because injured training partners cannot help you improve. But in competition, once the triangle is locked and their arm is trapped, I apply maximum pressure immediately - there is no value in giving elite opponents time to develop their escape. The distinction between training application and competition application must be clear in your mind before you enter either situation.
-- **Eddie Bravo**: The switch to triangle is built into the DNA of 10th Planet guard systems, especially from rubber guard positions like Mission Control and New York. When your opponent is defending the arm attacks from rubber guard - fighting to free their trapped arm or prevent the armbar - that defensive struggle creates perfect conditions for switching to triangle. The beauty of systematic guard work is that you're never stuck on one attack path. If they defend the omoplata, give me the triangle; if they defend the triangle by posturing, give me the armbar back. This is the dilemma concept that makes guard work so powerful against bigger, stronger opponents. In training, we emphasize smooth transitions over forced submissions because smooth is fast and forced is dangerous. Safety culture in the gym allows us to train these techniques at high volume without accumulating injuries. Remember that the switch often works best when you commit fully to the first attack - if your armbar attempt is half-hearted, your opponent won't commit to the defense that opens the triangle. Sell the first attack to set up the second.
 
 </section>
 

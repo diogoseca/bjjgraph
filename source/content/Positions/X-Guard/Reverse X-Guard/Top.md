@@ -8,7 +8,7 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -412,24 +412,6 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Reverse X-Guard Top is fundamentally about understanding the mechanical relationship between hip height and sweep vulnerability. The bottom player's primary weapon is their ability to elevate your hips above your base, creating a pendulum effect that results in the sweep. Your defense must center on maintaining hip elevation relative to theirs while establishing a wide, stable base. The key technical detail is the angle of your shin relative to their hooks - when your shin is perpendicular to the mat with proper weight distribution, their hooks lose mechanical advantage. Systematically address each hook through either pressure application that flattens their structure or angle creation that removes the hook entirely. Never allow both hooks to achieve full extension simultaneously, as this creates maximum sweeping power. The position represents a decision point between mobility-based passing that prioritizes disengagement and pressure-based passing that drives through the guard structure.
-
-### Gordon Ryan
-
-In competition, Reverse X-Guard Top is where a lot of guys get swept because they don't understand the urgency of the position. You can't be passive here - the bottom player has too many options for off-balancing and leg attacks. My approach is immediate pressure forward with the goal of smashing through to half guard or forcing them to flatten out. I'm constantly hand fighting to prevent them from getting sleeve control or ankle grips, because those grips are what they use to break my posture. If I feel them starting to elevate me backward, I immediately commit to the smash pass or widen my base dramatically. The worst thing you can do is stay neutral and let them set up their attacks. I'm also always aware of the straight ankle lock threat - if they shift their hips for the ankle, I'm backstepping immediately. Most guys at the elite level will try to bait you into certain reactions, so I'm reading their hip movement and hand position to stay one step ahead.
-
-### Eddie Bravo
-
-From the top in Reverse X-Guard, you're in this weird zone where you're defending but you also have control if you know what you're doing. The 10th Planet approach is to stay heavy and use your weight intelligently - we call it 'controlled smashing.' You're not just wildly driving forward, you're targeting specific areas like their near shoulder or hip to create the flattening effect. One thing a lot of people miss is the value of hand fighting from this position - if you can control their collar or get a crossface grip, you completely change the dynamic. They can't sweep effectively without using their hands to manipulate your balance. Also, don't be afraid to disengage if you feel them transitioning to leg locks. There's no shame in backstepping and resetting - it's way better than getting caught in a heel hook because you were too stubborn to abandon the pass. The lockdown guys love catching people in this position, so stay mobile and keep your awareness high.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master leg weave passing from top position. Advanced guard passing
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -431,24 +431,6 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 **Average Time in Position**: 30-60 seconds for pass completion at advanced level
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The leg weave represents a sophisticated passing mechanism that exploits fundamental principles of base disruption and frame negation. When you thread your leg between the opponent's legs, you're systematically destroying their ability to create the leg-based frames that are essential to modern guard retention. The key is understanding that this is not merely a leg position, but a complete control system. Your weaved leg must pin their bottom leg while your upper body controls prevent them from sitting up. The biomechanics demand that you maintain constant forward pressure with your hips while using your grips to control their upper body rotation. This creates a situation where the bottom player cannot effectively use their legs for framing or their upper body for posture recovery. The position becomes exponentially more powerful when you understand it as a platform for creating passing dilemmas rather than a singular passing technique. By threatening knee slice, leg drag, and smash pass simultaneously, you force the opponent into defensive choices that inevitably open passing lanes.
-
-### Gordon Ryan
-
-In competition, the leg weave is one of my highest percentage passing positions because it completely shuts down modern guard retention systems that rely on leg-based frames. When I get my leg threaded deep between their legs, I'm immediately looking to chain passes together - if they defend the knee slice, I'm going to the leg drag; if they defend the leg drag, I'm smashing through or taking the back. The position works so well because most people train guard retention based on keeping the passer at distance with knee shields and butterfly hooks, but the leg weave destroys those frames before they can even establish them. What makes this position elite-level is that you're not just passing - you're controlling the pace and creating situations where every defensive movement opens up a different passing opportunity. Against high-level opponents, I'm constantly adjusting my pressure and grips to keep them guessing which pass is coming. The leg weave gives me that control and those options, which is why it's a fundamental part of my no-gi passing system.
-
-### Eddie Bravo
-
-The leg weave is sick for no-gi because it takes away all those annoying leg frames that people use to stall out guard passing. When you thread that leg deep, you're basically telling their legs 'you don't work anymore' and then it's game over for their guard. I teach my guys to think of it as creating a highway to the pass - once your leg is woven in, you've got a straight shot to side control or the back depending on how they react. The beauty of this position is that it works perfectly with the modern leg lock game too. If they try to enter on your legs while you're in the leg weave, you're already in perfect position to counter with leg entanglements or take their back. What's really innovative about the leg weave is how it bridges old school pressure passing with new school leg lock systems. You can use it to pass traditionally, or you can use it as an entry point into the saddle or other leg attack positions. That versatility makes it essential for the complete modern grappler who needs to threaten both positional dominance and leg attacks.
 
 </section>
 

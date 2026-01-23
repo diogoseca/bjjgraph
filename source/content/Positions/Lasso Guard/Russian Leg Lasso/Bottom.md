@@ -8,7 +8,7 @@ description: "Master Russian Leg Lasso Bottom guard. Complete technical guide co
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -436,24 +436,6 @@ Russian Leg Lasso established, but top player actively works to break collar and
 
 **Average Time in Position**: 30-60 seconds before transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Russian Leg Lasso represents a fascinating evolution in open guard technology, taking the already effective mechanical principles of lasso guard and augmenting them with additional control layers that create compounding defensive and offensive advantages. The fundamental principle you must understand is that the lasso itself functions as a mechanical pulley - your leg threaded through the opponent's arm creates a fulcrum point around which you can generate rotational force far exceeding what pure strength would allow. What makes the Russian variation superior to standard lasso is the strategic addition of collar control which gives you the ability to break the opponent's posture precisely when you need it for sweep entries, and the deliberate positioning of your non-lasso leg which prevents the circling escape that defeats simpler lasso configurations. However, this position's effectiveness comes with a critical caveat - it is energy intensive and time limited. You cannot hold static Russian Leg Lasso and expect sustained success against elite opponents. Instead, you must view it as a dynamic launching platform, establishing the position and immediately transitioning through your offensive sequence: sweep attempts, submission entries, and alternative guard variations. The position works best when you create what I call a 'technical dilemma' - if the opponent defends your sweep by maintaining strong base, this creates the posture and positioning ideal for triangle or omoplata entries. Conversely, if they prevent submissions by staying tight and heavy, they compromise their base making sweeps highly effective. Your task is recognizing which door they've closed and immediately attacking through the one they've opened.
-
-### Gordon Ryan
-
-Russian Leg Lasso is one of those guards that can really frustrate passers if you know how to use it right, but I'll be honest - it's not one of my primary guards because it requires specific gi grip configurations that aren't always available in the highest-level no-gi competition. That said, in gi competition it's extremely effective, especially against opponents who have good passing fundamentals but haven't specifically trained against modern lasso variations. The key thing I learned from using this guard is that your success rate is directly tied to how quickly you attack - if you establish the lasso and immediately hit them with a sweep attempt or triangle setup, they're usually not ready and you get high success rates. But if you take even three or four seconds to settle into the position, good passers will start their systematic escape and then you're fighting an uphill battle trying to maintain controls while they're breaking your grips. When I use Russian Leg Lasso, I'm usually coming into it from collar-sleeve or spider guard, and I'm already thinking two moves ahead - I know that if my first sweep doesn't finish, I'm transitioning to omoplata or triangle immediately based on how they defend. The grip fighting aspect is crucial - you absolutely must maintain that collar grip because without it, the whole system loses probably 60-70% of its effectiveness. If someone's attacking my collar grip hard, I'll often just transition to different guard rather than burning energy fighting for a grip I'm going to lose anyway. The other thing is your non-lasso leg has to be active and engaged - I see a lot of people establish the lasso but then their other leg just kind of sits there doing nothing, and any competent passer will just walk around that side and pass easily.
-
-### Eddie Bravo
-
-Russian Leg Lasso is some seriously technical stuff, man - it's like they took regular lasso guard and added a bunch of upgrades to make it even more annoying for the top guy. In 10th Planet we've definitely integrated elements of this into our guard systems, especially for guys who compete in gi tournaments, because it creates this really complex problem for passers where they've got multiple things to deal with simultaneously. The thing I love about this guard is how it creates options - you've got sweeps, you've got triangles, you've got omoplatas, and all of them are setting each other up. It's like a web where the opponent is stuck and every direction they try to escape just leads them into another trap. Now, where I think a lot of people mess up with Russian Leg Lasso is they treat it like a destination instead of a gas station - you know what I mean? They get to the position and then they just chill there like 'okay, I've got lasso guard' but that's not how it works. You gotta be attacking constantly, flowing between threats, making them react so you can counter their reactions. In our system we teach it as part of a larger guard retention framework where you're combining it with rubber guard concepts, lockdown ideas, and electric chair setups. The lasso becomes one tool in a bigger toolbox. One variation we mess around with is using the lasso to set up twister side control - if they defend your sweeps by basing hard on one side, you can sometimes catch that leg and transition into truck positions. It's unorthodox but it works if you time it right. The main thing with any of these gi-dependent guards is recognizing that they're energy intensive, so you gotta be strategic about when you use them and how long you maintain the position before transitioning to something else.
 
 </section>
 

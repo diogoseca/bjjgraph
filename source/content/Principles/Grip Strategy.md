@@ -8,7 +8,7 @@ description: "Master grip strategy fundamentals in BJJ. Learn systematic control
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Prioritize grip establishment based on tactical objectives and position-specific hierarchies
 - Fight for dominant grips that enable your game while denying opponent's preferred connections
 - Establish grips systematically through sequences rather than isolated attempts
@@ -179,9 +179,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Grip Hierarchy Recognition**: The ability to identify which grips provide maximum control and offensive opportunity in specific positions, understanding that certain grips are inherently more valuable than others based on positional context and tactical objectives.
 
 **Grip Fighting Timing**: The capacity to time grip attempts and grip breaks to coincide with opponent movement, weight shifts, and positional transitions when their defensive capacity is reduced and grip establishment is most likely to succeed.
@@ -202,28 +202,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Collar Control]]** (Complementary): Collar control represents a specific application of grip strategy focused on lapel connections, providing the tactical framework for implementing collar-based grip hierarchies in gi contexts.
-- **[[Sleeve Control]]** (Complementary): Sleeve control is a parallel grip strategy domain that focuses on arm connections, working synergistically with other grip concepts to create comprehensive control systems.
-- **[[Connection Principles]]** (Prerequisite): Understanding fundamental connection principles is essential before developing sophisticated grip strategy, as it provides the theoretical foundation for why certain grips create control while others do not.
-- **[[Control Point Hierarchy]]** (Extension): Grip strategy extends control point hierarchy concepts by providing the tactical methods for establishing and maintaining control at prioritized connection points throughout positional contexts.
-- **[[Frame Management]]** (Alternative): Frame management represents the defensive counterpart to offensive grip strategy, using structural connections to prevent opponent control rather than to establish it.
-- **[[Posture Breaking]]** (Advanced form): Posture breaking represents an advanced application of grip strategy where grip establishment is specifically designed to compromise opponent structural integrity and create attacking opportunities.
-- **[[Grip Breaking]]** (Complementary): Grip breaking is the defensive component of grip strategy, providing systematic methods to remove opponent connections that threaten your position or technique execution.
-- **[[Grip Fighting]]** (Complementary): Grip fighting encompasses the competitive exchange of grip attempts and denials, representing the tactical implementation of grip strategy principles under resistance.
-- **[[Hand Fighting]]** (Complementary): Hand fighting in no-gi contexts parallels gi-based grip strategy, adapting grip concepts to environments where fabric connections are unavailable.
-- **[[Guard Retention]]** (Extension): Guard retention relies heavily on grip strategy for maintaining connections that prevent passing while creating re-guarding opportunities.
-- **[[Guard Passing]]** (Extension): Guard passing success depends on implementing grip strategies that control opponent while preventing their defensive grips from establishing effective frames.
-- **[[Distance Creation]]** (Complementary): Distance creation strategies often work in conjunction with grip strategy, using grips to control distance while preventing opponent from closing gaps.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Grip strategy in closed guard prioritizes collar and sleeve connections that break posture and create sweep or submission opportunities, with practitioners fighting to establish dominant grips while preventing opponent from establishing their preferred passing grips.
 
 **Spider Guard**: Spider guard implements grip strategy through systematic bicep and collar connections that create distance control and off-balancing opportunities, with grip maintenance being essential to the position's offensive and defensive functionality.
@@ -258,9 +239,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess positional context and tactical objectives**: Identify which position you are in and what your immediate tactical goal is (control, attack, transition, or escape), as this determines grip priority hierarchy for the specific situation.
 2. **Evaluate opponent's grip establishment attempts**: Recognize which grips opponent is fighting to establish and assess whether these grips threaten your position or technique execution, determining whether grip denial or breaking is necessary.
 3. **Identify highest-value grip in current position**: Select the single most valuable grip for your tactical objectives in the specific position, prioritizing grips that provide maximum control or offensive opportunity based on positional hierarchy.
@@ -273,9 +254,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Fighting for grips without positional awareness of their tactical value
   - **Consequence**: Practitioners expend energy establishing grips that do not support their technical objectives or fail to provide meaningful control in the specific positional context.
   - **Correction**: Study position-specific grip hierarchies to understand which grips provide maximum value in each context, only fighting for grips that directly support your tactical objectives.
@@ -301,9 +282,9 @@ Grip Strategy represents the systematic approach to establishing, maintaining, a
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional Grip Hierarchy Drilling** (Focus: Developing automatic recognition of which grips to prioritize in each position and building technical proficiency in establishing these grips under resistance.)
 Systematic practice of establishing position-specific grip hierarchies from neutral starting positions, with training partner providing graduated resistance as practitioner works to establish grips in correct priority order.
 
@@ -326,9 +307,9 @@ Scenario-based training where coach presents specific positional situations and 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes basic importance of establishing grips but lacks understanding of grip hierarchies or position-specific priorities
 - Attempts to grip wherever possible without strategic selection, often fighting for grips that do not support technical objectives
@@ -368,10 +349,26 @@ Scenario-based training where coach presents specific positional situations and 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Collar Control]]** (Complementary): Collar control represents a specific application of grip strategy focused on lapel connections, providing the tactical framework for implementing collar-based grip hierarchies in gi contexts.
+- **[[Sleeve Control]]** (Complementary): Sleeve control is a parallel grip strategy domain that focuses on arm connections, working synergistically with other grip concepts to create comprehensive control systems.
+- **[[Connection Principles]]** (Prerequisite): Understanding fundamental connection principles is essential before developing sophisticated grip strategy, as it provides the theoretical foundation for why certain grips create control while others do not.
+- **[[Control Point Hierarchy]]** (Extension): Grip strategy extends control point hierarchy concepts by providing the tactical methods for establishing and maintaining control at prioritized connection points throughout positional contexts.
+- **[[Frame Management]]** (Alternative): Frame management represents the defensive counterpart to offensive grip strategy, using structural connections to prevent opponent control rather than to establish it.
+- **[[Posture Breaking]]** (Advanced form): Posture breaking represents an advanced application of grip strategy where grip establishment is specifically designed to compromise opponent structural integrity and create attacking opportunities.
+- **[[Grip Breaking]]** (Complementary): Grip breaking is the defensive component of grip strategy, providing systematic methods to remove opponent connections that threaten your position or technique execution.
+- **[[Grip Fighting]]** (Complementary): Grip fighting encompasses the competitive exchange of grip attempts and denials, representing the tactical implementation of grip strategy principles under resistance.
+- **[[Hand Fighting]]** (Complementary): Hand fighting in no-gi contexts parallels gi-based grip strategy, adapting grip concepts to environments where fabric connections are unavailable.
+- **[[Guard Retention]]** (Extension): Guard retention relies heavily on grip strategy for maintaining connections that prevent passing while creating re-guarding opportunities.
+- **[[Guard Passing]]** (Extension): Guard passing success depends on implementing grip strategies that control opponent while preventing their defensive grips from establishing effective frames.
+- **[[Distance Creation]]** (Complementary): Distance creation strategies often work in conjunction with grip strategy, using grips to control distance while preventing opponent from closing gaps.
+
+
+### Related Content
 - [[Collar Control]] (Principle) - Specific application of grip strategy focused on lapel-based connections in gi contexts
 - [[Sleeve Control]] (Principle) - Parallel grip strategy domain focused on arm-based connections that work synergistically with other grips
 - [[Grip Breaking]] (Principle) - Defensive component of grip strategy focused on removing opponent connections
@@ -385,15 +382,6 @@ Scenario-based training where coach presents specific positional situations and 
 - [[Grip Break]] (Transition) - Defensive technique representing grip strategy's denial component
 - [[Gi-Specific Strategy]] (System) - Comprehensive system that incorporates grip strategy as central tactical element
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches grip strategy as a hierarchical decision tree where grip value is calculated based on position-specific control objectives and attacking opportunities. Emphasizes the concept of "grip cascades" where establishing primary control grips enables secondary grip establishment in systematic progression. Systematizes grip strategy according to positional contexts, teaching practitioners to recognize optimal grip configurations for each position and the most efficient sequences for establishing them. Views grip fighting not as chaotic exchange but as systematic progression toward predetermined grip configurations that enable specific technical applications. Advocates for understanding the biomechanical principles that make certain grips more valuable than others, analyzing angle of force application, leverage advantages, and structural control that superior grips provide. Emphasizes that grip strategy should be integrated with overall tactical planning, where grip establishment serves larger strategic objectives rather than being pursued as isolated goal.
-- **Gordon Ryan**: Views grip strategy through a pragmatic lens focused on what actually works under championship-level resistance and pressure. Emphasizes grip simplicity over complexity, preferring robust grip configurations that remain effective even when opponent is aware of them. Focuses on what he terms "persistent grip pressure" where strategic grip maintenance creates continuous offensive threat that forces opponent into reactive rather than proactive game plans. Advocates for grip strategies that integrate seamlessly with high-percentage attacking systems rather than requiring elaborate setup sequences. Has developed extremely efficient grip fighting methods that minimize energy expenditure while maximizing control establishment, recognizing that grip endurance becomes critical factor in extended championship matches. Emphasizes the importance of studying opponent-specific grip preferences in preparation, developing strategies to deny opponents their most relied-upon connections while establishing grips that enable his systematic passing and control approaches.
-- **Eddie Bravo**: Has developed innovative grip strategies within his 10th Planet system that often challenge conventional grip hierarchy thinking, particularly in no-gi contexts where traditional gi-based grip strategy is unavailable. When teaching grip strategy, emphasizes creative grip applications that opponents may not anticipate, particularly unconventional connections that create unique control patterns. Advocates for grip strategies that support systematic progression through his rubber guard and lockdown systems, viewing grips as integral components of comprehensive positional control rather than isolated control mechanisms. In no-gi contexts, has pioneered alternative grip strategies based on body locks, overhooks, and positional control that replace gi-based collar and sleeve connections. Emphasizes the importance of grip endurance training specific to no-gi contexts, where skin-on-skin connections require different muscular endurance than gi-based grips. Views grip strategy as area where innovation can create competitive advantages, continuously exploring new grip configurations that enable techniques opponents are less prepared to defend.
 
 </section>
 

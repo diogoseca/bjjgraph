@@ -8,7 +8,7 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -465,24 +465,6 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 **Average Time in Position**: 20-60 seconds from entry to submission or position change
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-S Mount represents a critical juncture in the mount attack system where we sacrifice some positional stability in exchange for dramatically improved submission mechanics. The perpendicular body angle creates optimal leverage for the armbar by allowing you to position your hips at an angle that makes it mechanically impossible for your opponent to keep their arm bent once you begin the extension. The key to effective S Mount control is understanding that this is not a static position - it is a transitional attacking position that should flow directly into submission. Your hip-to-shoulder connection is the critical control point. Any space here allows your opponent to begin their escape sequence. When transitioning from mount to S Mount, think of it as a smooth, connected movement rather than discrete positions. You are moving from one form of control to another while maintaining constant pressure and arm isolation. The most common error is transitioning too early before the arm is properly isolated, which results in position loss. Establish the arm control first in mount, then execute the transition with technical precision.
-
-### Gordon Ryan
-
-S Mount is probably my highest percentage position for finishing armbars in competition. The beauty of it is that once you have proper control, the armbar is almost automatic if you know the mechanics. When I transition to S Mount, I'm already thinking about the finish - the position and the submission are the same thing in my mind. The key details are: keep your hips tight to their shoulder the whole time, control their wrist with both hands until the last second, and step your leg over their head deliberately, not explosively. A lot of people rush this and lose the position. In competition, I've noticed opponents panic when I lock this up because they know what's coming. That panic is useful - they make mistakes trying to escape. If the armbar is defended well, which is rare, I immediately look to take the back or switch to a triangle. Never waste energy forcing a defended submission. The transition game from S Mount is huge - armbar, triangle, back take - all flow together naturally if you understand the position properly.
-
-### Eddie Bravo
-
-S Mount is old school but it's still money in both gi and no-gi. The 10th Planet system uses this position heavily because it sets up not just the armbar but a whole chain of attacks. Here's what most people miss: when you're in S Mount, you control their whole body with just your leg position and hip pressure. That's efficient as hell. The armbar is the obvious finish, but pay attention to their free arm. If they bring it across to defend, you've got triangle right there. If they turn away, you've got the back. The position creates these automatic reactions that you can exploit. In no-gi, S Mount is even more powerful because without grips to hold onto, their defensive options are way more limited. They can't grip their collar or gi pants to defend the arm, so the armbar comes faster. Train the transition from mount to S Mount until it's completely smooth - you should be able to do it in one motion. And always remember: if the submission isn't there, go back to mount. Don't sacrifice position chasing a submission that's not happening.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master 100 Kilos Top attacks in BJJ. Devastating pressure position
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -413,24 +413,6 @@ Apply 100 kilos pressure while training partner randomly executes one of three r
 
 **Average Time in Position**: 30-60 seconds (position sustainability window)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The 100 kilos position represents a perfect example of biomechanical pressure application where skeletal structure trumps muscular effort. The fundamental principle is gravitational force multiplication through proper body positioning - by spreading your base wide and relaxing your musculature, you convert your entire body mass into downward force concentrated on opponent's thoracic cavity. This creates respiratory restriction where each breath requires active muscular work against your body weight, rapidly depleting their glycogen stores. However, the position's effectiveness is inversely proportional to its sustainability. The same wide base and chest-forward positioning that creates maximum pressure also places significant strain on your own postural muscles. Therefore, this position must be understood as a tactical weapon with a defined operational window of 30-60 seconds, after which the law of diminishing returns makes position retention energetically inefficient. The skilled practitioner enters this position with predetermined exit strategies based on opponent response patterns, treating it as a pressure spike within a larger positional sequence.
-
-### Gordon Ryan
-
-In competition, I use 100 kilos position when I need to break someone quickly or have limited time remaining. It's brutal and effective but you have to respect its energy cost - stay too long and you'll fatigue yourself while they adapt. I look for this position when opponent is already tired from previous exchanges because the crushing pressure on an exhausted person often forces immediate taps or panic escapes that give me their back. The psychological effect is huge - people who aren't used to this pressure make mistakes. But you need to capitalize immediately because the window is short. If they don't break in 45-60 seconds, I'm transitioning to mount or side control before my own energy is compromised. Against high-level opponents who can endure pressure, this position becomes less valuable unless you're using it specifically to set up transitions. I'll also use it late in matches when I have a lead and want to run clock while creating fatigue, but even then I'm cycling between this and more sustainable positions.
-
-### Eddie Bravo
-
-100 kilos position fits into my pressure-focused approach but I treat it more like a transition point than a destination. In 10th Planet system, we'll use this crushing pressure to force reactions that open up rubber guard entries, truck positions, or back takes. The key innovation is combining the crushing chest pressure with unconventional grips and controls that set up our system positions. Most people use it just for the pressure submission, but I see it as a reaction-forcing tool - make them so uncomfortable they have to move, then capitalize on their movement with our system attacks. In no-gi especially, this kind of pressure can be devastating because there's less grip defensive options for them. But like any high-pressure position, you need the cardio to back it up or it backfires. We drill transitioning out of 100 kilos into our signature positions - when they turn away from pressure, we're going to truck or twister control; when they try to frame, we're attacking kimuras or taking the back.
 
 </section>
 

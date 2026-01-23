@@ -8,7 +8,7 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -349,15 +349,6 @@ The front headlock series occupies a unique position in the BJJ hierarchy as bot
 - [[Crucifix from Turtle]] - Alternative control position from turtle
 - [[Arm Triangle from Turtle]] - Alternative submission from turtle attack
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The front headlock series represents a perfect example of systematic position-based submission grappling. What makes this series so effective is not any individual technique, but the interconnected nature of the attacks that create what I call a 'submission ecosystem.' Each defensive response from your opponent doesn't lead to escape—it leads to a different branch of your offensive system. The key to mastering this series is understanding the biomechanical principles underlying each technique and the strategic decision-making process that determines which path to follow. Your choking arm's position relative to the carotid arteries, your angle relative to their spine, your weight distribution over their shoulder girdle—these are not random details but precise mechanical requirements that determine success or failure. Train this series with the understanding that front headlock is fundamentally a control position that happens to offer multiple high-percentage submissions, not primarily a submission position. This mindset shift—position before submission—is what separates systematic grapplers from opportunistic ones.
-- **Gordon Ryan**: Front headlock is probably the highest percentage control position in no-gi grappling when you really understand the whole system. In competition, I actively seek this position because it puts enormous pressure on my opponent with minimal energy expenditure from me. The beautiful thing about the series is that your opponent has to make choices under pressure, and every choice has consequences. They defend the guillotine, I take the anaconda. They block the anaconda, the darce is there. They turtle up tight protecting everything, I take the back. I've finished numerous matches from this position because opponents simply don't have good answers for the entire series. The key in competition is not just knowing the techniques but developing the mat sense to recognize which one is available in real-time. Against high-level opponents, you might flow through three or four options in fifteen seconds before finding the finish. That fluidity only comes from drilling the transitions between techniques, not just the techniques themselves. Also, don't underestimate the psychological factor—when your opponent knows you have a dangerous front headlock game, they'll avoid giving you turtle entirely, which opens other opportunities in your overall strategy.
-- **Eddie Bravo**: The front headlock series is where wrestling meets submission grappling in the most beautiful way, man. What I love about this position is the chaos factor—it's dynamic, it's scramble-heavy, and it rewards creativity and unconventional attacks. In the 10th Planet system, we've developed some unique entries and variations from front headlock, including transitions to the truck position and twister setups that most traditional players don't see coming. The standard series—guillotine, anaconda, darce, back take—is absolutely essential and works at all levels, but there's so much room for innovation here. One concept we emphasize is using the front headlock as a transitional hub rather than a static position. You're constantly moving, constantly creating angles, constantly forcing reactions. The opponent never gets comfortable because the position is inherently unstable for them. Also, in no-gi especially, the front headlock is your best friend after a sprawl. When someone shoots and you sprawl, that immediate transition to front headlock control gives you multiple high-percentage finishing options. We drill this transition religiously because it comes up in every single roll and every competition match. Master the front headlock series and you've got a complete attacking system from one of the most common positions in grappling.
 
 </section>
 

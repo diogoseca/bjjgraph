@@ -8,7 +8,7 @@ description: "Learn systematic saddle escapes prioritizing heel protection, hip 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -409,24 +409,6 @@ Partner establishes near-finished heel hook position. Practice recognizing when 
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Saddle represents the pinnacle of leg entanglement positions because it satisfies three critical criteria simultaneously: it immobilizes the opponent's leg completely, it creates multiple submission pathways that defend each other, and it maintains control even against explosive defensive reactions. The key to defensive success is understanding that this position operates on different mechanical principles than upper body escapes. You cannot simply 'shrimp away' or 'create space' without first addressing the specific control mechanisms—the hip pressure, the perpendicular alignment, and the heel exposure. Systematic defense requires recognizing which Saddle variation you face and executing the appropriate protocol with perfect technical precision, as even small errors cascade into submission windows.
-
-### Gordon Ryan
-
-From bottom Saddle, your primary goal is survival, not escape—that mindset shift is crucial. I've been caught here by world-class opponents, and the difference between tapping and escaping is recognizing the exact moment when escape is still possible versus when it's already too late. Most people wait too long to tap because ego prevents them from acknowledging how bad the position is. In competition, I prioritize protecting my heel above everything else, even if it means giving up other positional advantages. If my opponent has a tight Saddle, I'm thinking about how to prevent the finish first, then creating just enough movement to compromise their control without explosive actions that damage my own joints. The free leg becomes your best weapon—use it to frame and prevent your opponent from squaring their hips to your trapped leg.
-
-### Eddie Bravo
-
-The Saddle is like quicksand—the more you struggle, the worse it gets. In 10th Planet, we call this the Honey Hole, and it's one of the few positions where I tell students to respect the danger level immediately. Unlike rubber guard or lockdown where creativity and movement help you advance, the Saddle demands technical precision and patience. The key is understanding that your opponent wants you to move explosively because that helps them finish. So do the opposite—stay connected to their body, move slowly and deliberately, and attack their grips before their position. I've seen too many training injuries from people trying to muscle out of this position. Learn the systematic escapes, drill them slowly until they're automatic, and never let your ego prevent you from tapping when the escape window has closed.
 
 </section>
 

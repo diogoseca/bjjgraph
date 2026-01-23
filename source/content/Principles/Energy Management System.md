@@ -8,7 +8,7 @@ description: "Master strategic energy management in BJJ. Learn conservation tact
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Position before submission - controlling dominant positions requires less energy than defending inferior ones
 - Efficiency through technique - proper mechanics reduce energy cost of all movements by 40-60%
 - Strategic stillness - recognizing when not moving conserves energy better than constant activity
@@ -179,9 +179,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Physiological awareness**: Developing real-time awareness of your own heart rate, breathing patterns, and muscular fatigue levels while maintaining tactical focus. This includes recognizing early warning signs of anaerobic threshold crossing and adjusting intensity accordingly before performance degradation occurs.
 
 **Positional energy cost assessment**: Understanding the relative energy demands of different positions for both top and bottom players. Recognizing that defending mount requires 3-4x more energy than maintaining mount, and using this asymmetry strategically in match planning and position selection.
@@ -202,25 +202,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Energy Conservation]]** (Prerequisite): Basic energy conservation techniques provide the foundation for comprehensive energy management systems—understanding how to minimize waste before learning strategic energy deployment
-- **[[Positional Hierarchy]]** (Complementary): Positional hierarchy understanding enables energy management by clarifying which positions offer energetic advantages and which create energetic deficits for the defender
-- **[[Pacing]]** (Complementary): Pacing principles directly integrate with energy management as the tactical implementation of energy conservation and expenditure across match timelines
-- **[[Competition Strategy]]** (Extension): Competition strategy extends energy management principles to multi-match tournaments where energy conservation across rounds becomes strategically critical
-- **[[Pressure Application]]** (Complementary): Effective pressure application creates energy asymmetry where controlling player expends minimal energy while bottom player works continuously to escape or defend
-- **[[Position-Over-Submission Approach]]** (Complementary): Prioritizing positional advancement over forced submissions naturally aligns with energy management as positions compound advantages while failed submissions waste energy
-- **[[Cardio Conditioning]]** (Prerequisite): Physical cardiovascular foundation supports energy management implementation by providing the physiological capacity to execute strategic energy deployment
-- **[[Maximum Efficiency Principle]]** (Complementary): Maximum efficiency principle provides the technical foundation for energy management by optimizing mechanical execution of all techniques
-- **[[Match Strategy]]** (Extension): Match strategy incorporates energy management as a critical tactical consideration within broader competitive planning frameworks
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: From mount top, energy management involves using weight distribution and strategic stillness to maintain control with minimal muscular effort, forcing bottom player to expend energy on escape attempts while conserving reserves for submission attacks or position advancement
 
 **Closed Guard**: In closed guard, energy management means using guard retention and postural disruption efficiently rather than constant attack attempts, recognizing this as a recovery position where you can rest while maintaining threat of sweeps and submissions
@@ -255,9 +239,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current energy state and position**: Evaluate your own fatigue level (1-10 scale), breathing rate, and muscular tension against current positional situation and remaining match time
 2. **Evaluate opponent's energy state**: Observe opponent's breathing patterns, defensive reaction speed, and technical complexity degradation to identify their fatigue level relative to yours
 3. **Determine positional energy balance**: Identify whether current position favors your energy conservation or opponent's—if position allows you to rest while they must work, maintain and extend the position
@@ -270,9 +254,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Constant maximum intensity without recovery cycles
   - **Consequence**: Premature exhaustion in first 2-3 minutes of match or training round, leading to technical breakdown and defensive vulnerability in later portions when fresh opponents maintain pressure
   - **Correction**: Implement deliberate pressure-consolidation cycles where 30-60 seconds of high-intensity attack alternates with 20-40 seconds of position maintenance and active recovery while preserving control
@@ -295,9 +279,9 @@ Energy Management System represents a comprehensive strategic framework for cont
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Positional sparring with energy constraints** (Focus: Building technical efficiency and energy awareness within specific positional contexts that translate directly to competition scenarios)
 Practice specific positions with explicit energy management objectives—maintain mount for 3 minutes using minimal effort, escape side control with maximum efficiency scoring. This develops position-specific energy optimization.
 
@@ -320,9 +304,9 @@ Partner-assisted training where one person simulates fatigue responses (slower r
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Can complete 5-minute training rounds without complete exhaustion but with significant fatigue accumulation
 - Beginning to recognize the difference between muscular effort and technical efficiency in basic movements
@@ -360,10 +344,23 @@ Partner-assisted training where one person simulates fatigue responses (slower r
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Energy Conservation]]** (Prerequisite): Basic energy conservation techniques provide the foundation for comprehensive energy management systems—understanding how to minimize waste before learning strategic energy deployment
+- **[[Positional Hierarchy]]** (Complementary): Positional hierarchy understanding enables energy management by clarifying which positions offer energetic advantages and which create energetic deficits for the defender
+- **[[Pacing]]** (Complementary): Pacing principles directly integrate with energy management as the tactical implementation of energy conservation and expenditure across match timelines
+- **[[Competition Strategy]]** (Extension): Competition strategy extends energy management principles to multi-match tournaments where energy conservation across rounds becomes strategically critical
+- **[[Pressure Application]]** (Complementary): Effective pressure application creates energy asymmetry where controlling player expends minimal energy while bottom player works continuously to escape or defend
+- **[[Position-Over-Submission Approach]]** (Complementary): Prioritizing positional advancement over forced submissions naturally aligns with energy management as positions compound advantages while failed submissions waste energy
+- **[[Cardio Conditioning]]** (Prerequisite): Physical cardiovascular foundation supports energy management implementation by providing the physiological capacity to execute strategic energy deployment
+- **[[Maximum Efficiency Principle]]** (Complementary): Maximum efficiency principle provides the technical foundation for energy management by optimizing mechanical execution of all techniques
+- **[[Match Strategy]]** (Extension): Match strategy incorporates energy management as a critical tactical consideration within broader competitive planning frameworks
+
+
+### Related Content
 - [[Energy Conservation]] (Principle) - Foundational principle for energy management system—conservation techniques enable strategic deployment
 - [[Pacing]] (Principle) - Tactical implementation of energy management across match timeline and intensity modulation
 - [[Cardio Conditioning]] (Principle) - Physical foundation supporting energy management through enhanced cardiovascular capacity and recovery speed
@@ -377,15 +374,6 @@ Partner-assisted training where one person simulates fatigue responses (slower r
 - [[Deep Half Guard]] (Position) - Demonstrates bottom player energy efficiency through structural control requiring minimal energy while forcing top player work
 - [[Match Strategy]] (Principle) - Broader strategic framework that incorporates energy management as critical component of overall tactical planning
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Energy management represents perhaps the most underappreciated element of high-level grappling performance. While practitioners invest hundreds of hours developing technical systems, they often neglect the systematic approach to energy deployment that determines whether those techniques can be executed effectively in the critical late-match moments when contests are decided. The fundamental principle is straightforward: every position has an inherent energy asymmetry—one player must work significantly harder than the other to maintain or escape the position. The systematic practitioner identifies these asymmetries and structures their entire positional game to maximize time spent in energetically favorable positions while minimizing time in energetically costly ones. This creates a compounding advantage where you're continuously recovering while your opponent is continuously depleting their reserves. The result is that by the final minutes of the match, you maintain full technical capacity while your opponent's performance has degraded to perhaps sixty or seventy percent of their fresh state. This degradation opens submission opportunities and positional advancements that were completely unavailable earlier in the match when both athletes were fresh.
-- **Gordon Ryan**: In competition, energy management is what separates athletes who dominate tournaments from those who barely survive their matches. I've built my entire approach around creating situations where I'm using maybe thirty percent effort to control positions while my opponents are working at eighty or ninety percent just to survive. This isn't about being lazy—it's about being smart with when you explode and when you consolidate. When I get to mount or back control, I'm basically resting while my opponent is panicking and burning energy trying to escape. Then when I feel them start to slow down, that's when I increase the pressure and go for the finish. The key insight is that you can't go hard for ten minutes straight—nobody can. So you have to be strategic about when you push the pace and when you control the position and let yourself recover. In ADCC especially, where matches can go twenty minutes, this becomes absolutely critical. The guys who try to finish everything in the first five minutes are completely gassed by the end and become easy targets. I'm still feeling fresh in minute fifteen because I've been managing my energy output systematically throughout the entire match.
-- **Eddie Bravo**: Energy management in the 10th Planet system is all about creating positions where you're using leverage and structure instead of strength and speed. The whole lockdown game, for example, is designed to let you rest while keeping your opponent trapped and uncomfortable. You're not expending energy—you're using your body position to control them while you recover and set up your attacks. The rubber guard works the same way—once you get that position locked in, you can chill there, control their posture, and wait for the right moment to attack without burning yourself out. The mistake I see all the time is people trying to force things when they don't have the energy advantage. If you're tired, go to a control position and make them work to escape while you recover. The twister side control, the truck position—these are all designed to let you maintain control efficiently while creating really energy-expensive escape requirements for your opponent. It's like you're in an armchair while they're doing burpees trying to get out. When you approach the game this way, you can roll for hours because you're not fighting against your own exhaustion—you're using it as a weapon against your opponent.
 
 </section>
 

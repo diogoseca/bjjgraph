@@ -8,7 +8,7 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -466,24 +466,6 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 **Average Time in Position**: 20-40 seconds before finish or positional transition
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The kneebar from top position represents a fundamentally different proposition compared to bottom position variants, offering far superior risk-reward characteristics that make it particularly valuable in competition contexts where positional scoring matters. The mechanical advantage of top position kneebars stems from the ability to use gravitational force and body weight to create finishing pressure while simultaneously preventing the opponent from establishing effective defensive frames or escape pathways. When executing from positions like half guard top, headquarters, or turtle attacks, the key principle involves maintaining what I call 'persistent control' - the ability to threaten the submission while retaining positional dominance such that failed finish attempts do not result in positional loss. The systematic approach to top kneebars emphasizes leg isolation before commitment, meaning you establish control structures that prevent the opponent's leg from being extracted before you shift weight distribution toward finishing mechanics. The position also serves an important strategic function in forcing defensive reactions - when opponents recognize the kneebar threat from top position, they often create movement patterns and defensive frames that open opportunities for passing progression, mount advancement, or alternative submissions. Advanced practitioners develop the sensitivity to recognize within seconds whether the finish has high probability based on the opponent's leg position and defensive structure, allowing them to make rational decisions about pursuing the finish versus consolidating superior positions.
-
-### Gordon Ryan
-
-In my competition approach, top kneebars serve primarily as positional weapons that create advancement opportunities rather than primary finishing mechanisms. The beauty of attacking kneebars from top position is that even when the finish doesn't materialize, you typically maintain or improve your positional status, making it a low-risk, high-reward option during passing sequences or top control situations. My preferred context for top kneebars comes from half guard passing scenarios where the opponent's defensive structure exposes a leg for attack - rather than grinding through a difficult pass, I can threaten the kneebar to create defensive reactions that open simpler passing pathways or mount transitions. The key distinction between elite and intermediate execution is maintaining constant top pressure throughout the attack sequence; recreational practitioners often make the mistake of releasing pressure to pursue the submission angle, which creates escape windows that skilled opponents exploit immediately. Against high-level competition, I view top kneebars as forcing mechanisms that generate specific movement patterns - when the opponent defends by pulling their knee close or creating frames, these reactions predictably open knee cut passes, mount transitions, or north-south advances. The position also has psychological value; once you demonstrate willingness to attack legs from top position, opponents become hesitant during their defensive movements, which slows their escape timing and makes positional consolidation easier throughout the match.
-
-### Eddie Bravo
-
-Top position kneebars fit perfectly into the overall control-to-submission philosophy we emphasize in 10th Planet, where maintaining dominant position takes priority over chasing low-percentage finishes. What makes top kneebars particularly valuable in our system is how they integrate with lockdown attacks from half guard, truck position entries from turtle, and the overall leg attack game we've developed. When I'm in top half guard and the opponent has a strong underhook or is defending my passes effectively, shifting to a kneebar threat can completely change their defensive priorities - suddenly they're worried about their leg instead of fighting the underhook battle, which opens up the passing lanes I need. From turtle position, the kneebar entries we teach create excellent setups for truck position and twister attacks; when the opponent defends the kneebar by rolling or rotating, they often expose their back in ways that lead directly to our signature submissions. The teaching methodology I use emphasizes recognizing the kneebar opportunities that emerge naturally during positional transitions rather than forcing entries from inappropriate positions. For students developing their top game, I recommend viewing kneebars as optional weapons that enhance your primary strategy rather than techniques you hunt for desperately. The best top kneebars happen when you're already controlling the opponent effectively and they make a defensive mistake that exposes a leg - capitalizing on these mistakes requires awareness and technical preparation, but the position itself shouldn't be your primary objective when working from top control.
 
 </section>
 

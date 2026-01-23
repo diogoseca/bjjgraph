@@ -8,7 +8,7 @@ description: "Master Squid Guard Bottom in BJJ. Advanced asymmetrical guard with
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -452,24 +452,6 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Squid Guard represents an evolution in guard theory that exploits asymmetrical control to create mechanical disadvantages for the passer. The threading leg functions as a destabilizing lever that continuously disrupts the opponent's base geometry, while the lapel control creates a binding effect that multiplies the effectiveness of the hook by preventing them from simply stepping out. From a biomechanical perspective, the key technical element is maintaining constant tension on the lapel while using the hook to off-balance the opponent in the opposite direction, creating a push-pull dynamic that disrupts their base. What makes this position particularly interesting from a systematic perspective is how it forces the opponent into decision-making scenarios where all available responses create vulnerabilities. The asymmetrical nature means traditional bilateral passing solutions fail, requiring the top player to develop position-specific responses they may not have trained extensively. This guard exemplifies modern BJJ's movement toward positions that create confusion and force errors rather than relying solely on superior technique execution.
-
-### Gordon Ryan
-
-In competition, the Squid Guard is a high-level position that can completely shut down traditional pressure passing systems. I've used variations of this guard to neutralize opponents who rely on standard over-under or knee cut passing sequences, specifically against pressure passers because it neutralizes their primary weapon - forward pressure - and turns it into a liability. The lapel control shuts down their ability to establish strong grips or posture, and when they inevitably try to drive forward to clear the guard, you have immediate access to kiss of the dragon or berimbolo entries. The key to making it work at the highest level is understanding that it's not just about holding the position—it's about using it to create immediate attacking opportunities that force your opponent into defensive reactions. When they defend the sweep, you attack the back. When they defend the back take, you attack the submission. The guard creates a problem-solving situation where the top player is constantly reacting rather than implementing their game plan. Against elite competition, this psychological and strategic advantage is often more valuable than the technical position itself.
-
-### Eddie Bravo
-
-The Squid Guard fits perfectly into the 10th Planet philosophy of using unconventional positions to create confusion and opportunities. What I love about this guard is how it completely violates the opponent's expectations of what a guard should look like. They're programmed to deal with symmetrical threats, so when you throw this asymmetrical configuration at them, their pattern recognition fails. The beauty of this position is how it combines the technical sophistication of modern lapel guards with the fundamental effectiveness of De La Riva mechanics. When you're in squid guard, you're controlling multiple points on the opponent's body with minimal effort, using the gi itself as an extension of your limbs. The position has natural synergy with rubber guard concepts and our emphasis on active guard retention through constant movement. We've integrated Squid Guard variations into our system as part of the guard retention flow, especially when traditional Spider or De La Riva positions aren't working. The key is not getting stuck in the position—use it as a dynamic platform for attacking rather than a static defensive structure. Keep moving, keep threatening, and don't let them settle into any predictable pattern.
 
 </section>
 

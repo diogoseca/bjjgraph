@@ -8,7 +8,7 @@ description: "Master grip advantage in BJJ. Learn strategic grip acquisition, de
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Establish primary grips before opponent achieves their preferred controls
 - Recognize and exploit the hierarchy of grip effectiveness in specific positions
 - Create asymmetric control scenarios where your grips provide greater leverage than opponent's
@@ -179,9 +179,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Grip Recognition and Hierarchy Assessment**: The ability to identify which grips hold the highest strategic value in any given position and recognize the relative importance of different control points based on the current tactical situation and position type.
 
 **Preemptive Grip Denial**: Strategic positioning and hand placement that prevents opponents from establishing their primary grips, using proactive frames, arm positioning, and distance management to deny high-value control points before they can be secured.
@@ -202,28 +202,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Grip Fighting]]** (Prerequisite): Grip Fighting provides the tactical foundation and specific techniques for establishing and breaking grips, while Grip Advantage represents the strategic framework for understanding which grips to prioritize and when.
-- **[[Control Point Hierarchy]]** (Complementary): Understanding control point hierarchy allows practitioners to recognize which grips provide the most strategic value in specific positions, directly informing grip advantage strategy and prioritization.
-- **[[Posture Breaking]]** (Extension): Grip advantage often serves as the prerequisite for effective posture breaking, as dominant grips provide the leverage necessary to compromise opponent's structural integrity and defensive positioning.
-- **[[Guard Passing]]** (Complementary): In passing scenarios, grip advantage determines who controls the engagement distance and angles, with the passer seeking grips that facilitate pressure and the guard player seeking grips that enable retention and sweeps.
-- **[[Action and Reaction]]** (Complementary): Grip advantage creates action-reaction dynamics where opponent must respond to your established controls, allowing you to anticipate and exploit their defensive responses with prepared technical sequences.
-- **[[Timing and Rhythm]]** (Complementary): Effective grip acquisition and denial requires precise timing to secure controls during opponent's transitional moments or defensive gaps, making timing and rhythm essential components of grip advantage implementation.
-- **[[Collar Control]]** (Extension): Collar control represents a specific application of grip advantage principles focusing on one of the highest-value control points in gi grappling for posture manipulation and distance management.
-- **[[Sleeve Control]]** (Extension): Sleeve control embodies grip advantage through arm isolation and movement restriction, creating leverage for offensive techniques while denying opponent's ability to frame or post effectively.
-- **[[Hand Fighting]]** (Prerequisite): Hand fighting encompasses the physical contest for establishing grips, while grip advantage represents the strategic understanding of which exchanges to prioritize and how to convert tactical grip wins into positional dominance.
-- **[[Guard Retention]]** (Complementary): Effective guard retention fundamentally depends on maintaining grip advantage that controls passer's distance and angles, preventing them from establishing the grips necessary for effective passing sequences.
-- **[[Frame Management]]** (Complementary): Frame management works in conjunction with grip advantage, as establishing superior grips often requires creating frames that deny opponent's controls while facilitating your own grip acquisitions.
-- **[[Distance Creation]]** (Complementary): Grip advantage enables effective distance management by providing the leverage points necessary to create or close space according to tactical objectives, making distance control dependent on superior grips.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Closed Guard**: Guard player seeks collar and sleeve grips to control distance and posture while denying opponent's ability to establish strong grips on pants or belt, creating offensive opportunities for sweeps and submissions while limiting passing options.
 
 **Spider Guard**: Practitioner uses sleeve grips combined with feet on biceps to create powerful pushing and pulling leverage, establishing grip advantage that prevents opponent from closing distance or establishing their preferred passing grips on legs or hips.
@@ -258,9 +239,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess the current position and identify highest-value grip targets for both yourself and opponent**: Recognize which grips provide the greatest strategic advantage in the current position based on your intended offensive or defensive objectives and opponent's likely game plan.
 2. **Determine whether to prioritize offensive grip acquisition or defensive grip denial**: Based on position type and tactical situation, decide whether to focus first on establishing your primary grips or on preventing opponent from securing their most dangerous controls.
 3. **Execute initial grip contact using proper timing and technique**: Establish your first grip during opponent's transitional moment or defensive gap, using proper hand placement, grip depth, and leverage to secure a strong foundational control.
@@ -273,9 +254,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Establishing grips without strategic purpose or connection to intended techniques
   - **Consequence**: Wasted energy on maintaining grips that provide no tactical advantage, allowing opponent to focus their grip fighting on more critical control points while you invest effort in low-value controls.
   - **Correction**: Every grip should connect directly to your intended offensive or defensive objectives. Before securing a grip, identify what specific technique or positional goal it enables and ensure it serves a clear strategic purpose.
@@ -301,9 +282,9 @@ Grip Advantage represents the positional and tactical superiority achieved throu
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Position-Specific Grip Fighting Drills** (Focus: Developing position-specific grip hierarchies, automatic grip acquisition patterns, and understanding which controls provide greatest leverage in each tactical situation through repetitive isolated practice.)
 Isolated drilling focused exclusively on establishing and maintaining grip advantage in specific positions such as closed guard, passing scenarios, or clinch positions, allowing practitioners to develop automatic grip patterns and recognition skills.
 
@@ -326,9 +307,9 @@ Systematic study of high-level competition footage focusing exclusively on grip 
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Recognizes that grips serve strategic purpose beyond simple holding
 - Can identify basic high-value grips in fundamental positions like closed guard or side control
@@ -370,10 +351,26 @@ Systematic study of high-level competition footage focusing exclusively on grip 
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Grip Fighting]]** (Prerequisite): Grip Fighting provides the tactical foundation and specific techniques for establishing and breaking grips, while Grip Advantage represents the strategic framework for understanding which grips to prioritize and when.
+- **[[Control Point Hierarchy]]** (Complementary): Understanding control point hierarchy allows practitioners to recognize which grips provide the most strategic value in specific positions, directly informing grip advantage strategy and prioritization.
+- **[[Posture Breaking]]** (Extension): Grip advantage often serves as the prerequisite for effective posture breaking, as dominant grips provide the leverage necessary to compromise opponent's structural integrity and defensive positioning.
+- **[[Guard Passing]]** (Complementary): In passing scenarios, grip advantage determines who controls the engagement distance and angles, with the passer seeking grips that facilitate pressure and the guard player seeking grips that enable retention and sweeps.
+- **[[Action and Reaction]]** (Complementary): Grip advantage creates action-reaction dynamics where opponent must respond to your established controls, allowing you to anticipate and exploit their defensive responses with prepared technical sequences.
+- **[[Timing and Rhythm]]** (Complementary): Effective grip acquisition and denial requires precise timing to secure controls during opponent's transitional moments or defensive gaps, making timing and rhythm essential components of grip advantage implementation.
+- **[[Collar Control]]** (Extension): Collar control represents a specific application of grip advantage principles focusing on one of the highest-value control points in gi grappling for posture manipulation and distance management.
+- **[[Sleeve Control]]** (Extension): Sleeve control embodies grip advantage through arm isolation and movement restriction, creating leverage for offensive techniques while denying opponent's ability to frame or post effectively.
+- **[[Hand Fighting]]** (Prerequisite): Hand fighting encompasses the physical contest for establishing grips, while grip advantage represents the strategic understanding of which exchanges to prioritize and how to convert tactical grip wins into positional dominance.
+- **[[Guard Retention]]** (Complementary): Effective guard retention fundamentally depends on maintaining grip advantage that controls passer's distance and angles, preventing them from establishing the grips necessary for effective passing sequences.
+- **[[Frame Management]]** (Complementary): Frame management works in conjunction with grip advantage, as establishing superior grips often requires creating frames that deny opponent's controls while facilitating your own grip acquisitions.
+- **[[Distance Creation]]** (Complementary): Grip advantage enables effective distance management by providing the leverage points necessary to create or close space according to tactical objectives, making distance control dependent on superior grips.
+
+
+### Related Content
 - [[Grip Fighting]] (Principle) - Foundational tactical framework for implementing grip advantage strategies
 - [[Collar Control]] (Principle) - Specific application of grip advantage principles to collar-based controls in gi BJJ
 - [[Sleeve Control]] (Principle) - Strategic use of sleeve grips to create distance management and positional leverage
@@ -387,15 +384,6 @@ Systematic study of high-level competition footage focusing exclusively on grip 
 - [[Clinch]] (Position) - Standing position where grip advantage directly translates to takedown opportunities and defensive positioning
 - [[Grip Break]] (Transition) - Technical action for stripping opponent's grips to neutralize their advantage or create neutral exchange
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Grip advantage represents one of the most fundamental conceptual elements in Brazilian Jiu-Jitsu because it serves as the primary mechanism through which practitioners impose their technical game plan while simultaneously denying opponent's ability to execute their preferred techniques. The causal relationship between grip superiority and subsequent positional dominance cannot be overstated - nearly all successful offensive sequences begin with establishing asymmetric control advantages through superior grips. What separates sophisticated grip fighting from simple hand wrestling is the systematic understanding of grip hierarchies in specific positions. Not all grips are created equal, and the practitioner who can identify and secure the highest-value controls while denying opponent's most dangerous grips will invariably control the pace and direction of positional exchanges. I emphasize to my students that grip advantage must be understood as a dynamic, evolving concept rather than a static achievement. As positions transition and scrambles occur, the relative value of different grips changes, requiring constant reassessment and adaptation of grip configurations. The truly advanced practitioner doesn't simply grab available controls - they sequence their grip acquisitions strategically, using initial grips as foundations for securing progressively more dominant controls in a systematic building process.
-- **Gordon Ryan**: In competition, the grip battle is where matches are won or lost before most people even realize what's happening. I approach grip fighting like a chess match where I'm constantly creating situations where my opponent has to choose between multiple bad defensive options. If they deny one grip, they expose themselves to another that's equally dangerous. What most people don't understand is that grip advantage isn't just about establishing your own controls - it's about forcing your opponent into defensive patterns that limit their offensive options while setting up your attacks. When I compete, I'm never just grabbing grips randomly. Every control I establish serves a specific purpose in my overall game plan, whether that's setting up a specific pass, creating a sweep opportunity, or building toward a submission. The psychological component of grip fighting is huge too. When you consistently beat someone to the grips they need, you start living in their head. They become reactive instead of proactive, and that's when you can really impose your game. I spend a lot of training time specifically on grip fighting scenarios because I know that if I can win the grip battle in the first thirty seconds of an exchange, I'm probably going to control what happens for the next several minutes. Against elite opponents, you can't afford to give them their preferred grips because they'll run their entire system on you once they have the controls they want.
-- **Eddie Bravo**: The whole concept of grip advantage gets really interesting when you translate it to no-gi, which is what we're all about in the 10th Planet system. Without the gi to grab onto, you have to completely reimagine what grip advantage means - it becomes about controlling key body parts, creating strategic hooks and overhooks, and using connection points that might not look like traditional grips but serve the same strategic function. In our system, we think about grip advantage in terms of creating control configurations that restrict opponent's ability to move while maximizing our own mobility and offensive options. For example, in Rubber Guard, we're establishing what is essentially grip advantage through body positioning and unconventional controls rather than hand grips. The lockdown in half guard is another perfect example - it's a grip advantage created through leg control rather than hand fighting. What I've found is that the principles of grip advantage are universal even though the specific applications change dramatically between gi and no-gi. You still want to establish your primary controls before opponent gets theirs, you still need to understand which controls provide the most leverage in specific positions, and you still need to sequence your control acquisitions strategically. The innovation comes from finding new ways to create these advantages without traditional grip targets. We're constantly experimenting with unconventional control points and body configurations that give us the same strategic benefits that grip advantage provides in gi BJJ.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -348,15 +348,6 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 - [[Underhook Control]] - Fundamental control position utilized in this pass
 - [[Headquarters Position]] - Common starting position before securing underhook
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The underhook pass represents one of the most biomechanically efficient methods of advancing past the half guard because it addresses the fundamental problem of guard passing: controlling the opponent's ability to create frames and angles. The underhook creates what I call a 'control hierarchy' where you dominate the far side connection while the crossface neutralizes the near side. This dual control system collapses the opponent's defensive structure systematically. The key technical insight is understanding that the pass occurs not through explosive force but through progressive pressure application. Each component - the underhook, the crossface, the hip control - creates a compound effect where the sum is greater than the parts. When students struggle with this pass, it's almost always because they're trying to pass with their legs before they've established dominance with their upper body. The legs are merely the final technical detail; the real passing occurs in the chest-to-chest pressure battle.
-- **Gordon Ryan**: In competition, the underhook pass is my go-to technique from half guard because it's the highest percentage option against elite-level defenders. What makes it competition-proven is that it works even when your opponent knows it's coming. The pressure and control are so dominant that awareness doesn't equal effective defense. The critical factor most people miss is the timing of when to commit to the leg extraction. I see a lot of guys trying to yank their leg out while the opponent is still mobile. That's low percentage. You need to make them completely flat first, even if it takes 30-40 seconds of grinding pressure. Once they're flat, the leg clears easily. In my matches, I'll often use the threat of the underhook pass to set up other attacks. If they're overly defensive about their far side underhook, I can switch to knee cut passes. If they turn away to avoid the pressure, I take the back. The underhook position is a control position first, passing position second, which is why it's so reliable under pressure.
-- **Eddie Bravo**: The underhook pass is interesting because it's one of the few traditional passing techniques that works equally well in gi and no-gi, though we approach it slightly differently in the 10th Planet system. Without the gi grips, the underhook becomes even more critical because it's your primary connection point. We emphasize what I call the 'shoulder of justice' - driving that shoulder into their chest like you're trying to put it through the mat. That shoulder pressure is everything. One innovation we've added is being willing to transition to back takes more aggressively. In traditional approaches, if the guy turns away, it's sometimes seen as a problem. For us, that's perfect - we follow the turn and take the back. The underhook gives you the connection to follow wherever they go. We also use the underhook position to set up Darce chokes when guys fight hard for their underhook. If they're exposing their neck fighting the underhook battle, we're happy to switch to the submission. The key is being fluid and opportunistic rather than rigidly committed to the pass.
 
 </section>
 

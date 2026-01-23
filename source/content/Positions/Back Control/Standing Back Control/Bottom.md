@@ -8,7 +8,7 @@ description: "Master defensive strategies for standing back control bottom posit
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -446,24 +446,6 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 
 **Average Time in Position**: 10-30 seconds (should be escaped quickly or becomes grounded back control)
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Standing back control bottom represents a critical decision point in the defensive hierarchy. The fundamental mechanical problem is that you lack facing position, and the standing component removes the stability of the mat that would normally provide additional defensive leverage. Your primary concern must be neck protection - the cervical spine is vulnerable and the carotid arteries are exposed. Address this through chin position and hand placement, creating what I call a 'defensive shell' around the neck. The systematic escape must follow a specific sequence: first, eliminate the immediate submission threat through grip fighting and neck defense. Second, address the hooks or body control that prevents your movement. Third, create the angular displacement necessary to either face your opponent or transition to a grounded position where you have more defensive tools. The key insight is that standing back control is inherently unstable - your opponent must manage both positional control and their own balance. Exploit this instability through sudden directional changes, level changes, and systematic grip removal. Never attempt to escape through pure strength or panic - this is a technical problem requiring technical solutions executed in the proper sequence.
-
-### Gordon Ryan
-
-In competition, standing back control bottom is one of the worst positions you can be in because it combines submission danger with the scoring disadvantage of back exposure. My approach is aggressive and immediate - you cannot afford to stay here. The instant someone gets behind me standing, I'm hand fighting like my life depends on it because it kind of does in a match. I focus on preventing the second grip from completing the harness - if they only have one grip, their control is significantly weaker. If they get the harness locked, I immediately drop my weight and work to turtle where I have more defensive options and can start my guard recovery sequences. The key is never letting them settle - keep moving, keep fighting grips, keep creating angles. In training, I drill the worst-case scenario constantly - full harness with hooks, having to escape under pressure. This makes the partial back control situations in competition feel easy by comparison. Also, understanding the submission mechanics helps - knowing exactly how the rear naked choke works lets me defend it more efficiently while working my escapes. Don't try to be a hero and reverse to top position from here - your goal is survival and recovery to a position where you can start your offensive game.
-
-### Eddie Bravo
-
-Standing back control bottom is sketchy as hell, man. In 10th Planet, we drill this scenario all the time because it comes up in transitions, especially in no-gi where grips are harder to establish but also harder to maintain. The way I teach it is you gotta stay loose and mobile - if you stiffen up, you're done. I like the immediate granby roll option if I can create any space at all, because it completely changes the dynamic and can lead right into my rubber guard or other guard positions. The thing people don't realize is that the standing position works both ways - yeah, your opponent has back control, but they're also dealing with your entire body weight and their own balance. I teach my students to use sudden drops and direction changes - like, if they expect you to fight forward, suddenly sit back into them, or if they're pulling you back, explode forward and roll. Keep them guessing. The lockdown mentality helps here too - protect that neck at all costs using the chin tuck and hand frames, but don't be so defensive that you forget to work your escape. Think of it like a game of submission chicken - who's going to commit first? While they're thinking about the choke, you should be thinking about the escape route, and the second they adjust their grips for the submission, that's your window to move.
 
 </section>
 

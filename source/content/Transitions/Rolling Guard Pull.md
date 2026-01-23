@@ -8,7 +8,7 @@ description: "Master the Rolling Guard Pull in BJJ. Dynamic entry to multiple gu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -357,15 +357,6 @@ This technique also connects to scramble situations and guard recovery sequences
 - [[Butterfly Guard]] - Alternative guard position accessible from rolling entry
 - [[Guard Retention]] - Fundamental principle applied immediately after roll completes
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The rolling guard pull represents a biomechanically efficient method of transitioning from standing to guard by utilizing rotational momentum rather than relying solely on muscular strength to pull the opponent down. The key mechanical principle here is conservation of angular momentum - when you initiate forward movement and then convert it into rotational energy through the roll, you create a dynamic system that is difficult for the opponent to counter effectively. The most critical aspect is the timing of grip establishment relative to the initiation of the roll. If grips are secured too early, the opponent can read your intention and disengage. If grips are secured too late, you roll without anchor points and end up isolated. The optimal window is to establish grips during your forward step, using that same motion to disguise your rolling intention. From a systematic perspective, the rolling guard pull should be viewed as one tool in a broader guard establishment framework, chainable with other entries based on opponent reactions.
-- **Gordon Ryan**: In competition, the rolling guard pull is one of my favorite techniques for establishing guard against wrestlers or opponents who want to maintain top position. The reason it works so well at the highest levels is that it bypasses the entire grip fighting and stance battle that typically precedes guard pulling - you're creating movement and action that forces immediate reactions. When I execute this technique, I'm already thinking two steps ahead: if the roll is successful, which guard position gives me the highest percentage sweeps against this specific opponent? If they counter by backing away, how do I immediately re-engage without giving up positioning or points? The competition meta has evolved to where referees are very strict about guard pulling without engagement, so the rolling guard pull satisfies that requirement by creating genuine action and momentum. My success rate with this technique improved dramatically when I stopped thinking of it as just a guard pull and started viewing it as an attacking sequence where the guard establishment is step one of a sweep or submission chain.
-- **Eddie Bravo**: The rolling guard pull is beautiful because it's pure flow and movement - you're not fighting against the opponent's strength or getting stuck in static positions. In the 10th Planet system, we use rolling entries constantly to access positions like the Lockdown, Rubber Guard, or to set up inversions and berimbolos. The key innovation we've added is using the rolling momentum to immediately establish control positions that lead to our specialized techniques. For example, rolling to guard and immediately establishing the Lockdown half guard, or rolling and using the momentum to invert and attack the back. What makes this technique so effective is that most traditional jiu-jitsu training doesn't emphasize dynamic rolling entries - people are used to static guard pulls where you sit and pull on the pants. When you hit them with a rolling entry, their muscle memory doesn't have a pre-programmed response. I teach my students to make the roll explosive and committed - half-speed rolling guard pulls get stuffed every time. You need to sell it like you're doing a breakdancing move, full commitment, and then immediately attack from whatever guard position you land in.
 
 </section>
 

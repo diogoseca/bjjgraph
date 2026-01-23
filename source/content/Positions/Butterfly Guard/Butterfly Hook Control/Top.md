@@ -8,7 +8,7 @@ description: "Master Butterfly Hook Control Top in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -441,24 +441,6 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 **Average Time in Position**: 30-60 seconds before passing or being swept
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The top position against butterfly guard requires understanding the mechanical vulnerabilities in your base structure when hooks are engaged. The opponent's hooks create lever points that can redirect your center of gravity in an arc, which is why maintaining a wide, triangular base is critical—your base must extend beyond the sweep's arc to remain stable. The key technical principle is to never allow your weight to settle onto the hooks while simultaneously preventing the opponent from creating lateral angles. When facing butterfly guard, I emphasize a systematic approach: first control the upper body through crossface or collar control, then address the hooks through either extraction (standing up) or neutralization (smash pass). The critical mistake I see is practitioners attempting to pass before controlling the upper body, which allows the opponent to maintain perfect posture and sweep with high percentage. Your passing strategy must create a decision tree for the opponent where all their options lead to your advancement—if they maintain hooks, you smash or stand; if they abandon hooks, you pressure pass.
-
-### Gordon Ryan
-
-Against high-level butterfly guard players, the key is making them uncomfortable before they can establish their system. I immediately start working on breaking their posture with strong collar ties or crossface pressure, which prevents them from sitting up with good posture needed for effective sweeps. The moment they try to sweep in one direction, I use their momentum to pass in the opposite direction—their commitment becomes my opportunity. I prefer standing up against butterfly guard because it forces them to transition to different guards, and that transition moment is when I attack with leg weaves or toreando passes. If I stay on my knees, I keep my base extremely wide and my hands active, constantly breaking their grips and establishing my own controls. The worst thing you can do is be passive—if you give a good butterfly player time to perfect their grips and timing, you're getting swept. I'm always attacking their structure, forcing them to defend rather than attack, and passing when they react to my pressure.
-
-### Eddie Bravo
-
-The key to dealing with butterfly guard is understanding that the bottom player is hunting for specific reactions—if you give them what they expect, you're playing into their game plan. From the 10th Planet perspective, we focus on unconventional pressure angles and grip configurations that disrupt the traditional butterfly system. One approach is immediately attacking with guillotine threats or front headlock pressure when they sit up, which forces them to defend their neck instead of perfecting sweep grips. Another method is using the lockdown entry from the smash pass position—as you drive through their hooks, if you end up in half guard, the lockdown system gives you powerful control. Don't be predictable with your passing—mix standing passes with pressure passes, sometimes even pulling them into your own guard if they're overly committed to sweeping. The goal is to create confusion and force them to play reactive defense rather than letting them execute their systematic sweep attacks. Stay creative and unpredictable, and always be ready to capitalize on their sweep attempts by redirecting into your own passes.
 
 </section>
 

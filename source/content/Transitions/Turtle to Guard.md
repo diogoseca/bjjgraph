@@ -8,7 +8,7 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content","expert-insights"]'>
+<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -340,15 +340,6 @@ The turtle to guard recovery is a critical link in the defensive chain, sitting 
 - [[Darce from Turtle]] - Submission threat in starting position
 - [[Re-Guard]] - Related guard recovery concept
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **Danaher System**: The turtle to guard recovery exemplifies fundamental principles of defensive jiujitsu: the systematic creation of space, intelligent timing based on opponent weight distribution, and immediate transition from defensive to offensive positioning. The mechanical efficiency of this technique lies in the hip rotation creating angular momentum that opponent cannot easily counter once initiated. Most athletes fail this transition because they attempt rotation while opponent's weight is fully committed on them, making movement impossible. The key is recognizing the micro-adjustments in opponent's pressure—when they reach for grips, shift weight to establish hooks, or commit to one side—these moments create the opportunity for explosive rotation. Additionally, the immediate establishment of guard structure upon completing rotation is non-negotiable. Without frames and hooks, you've merely changed your orientation without improving your strategic position. Train this transition as a complete sequence: grip strip, space creation, explosive rotation, guard establishment, posture break, and immediate offensive threat. Each component must flow seamlessly into the next.
-- **Gordon Ryan**: In competition, the turtle to guard recovery is absolutely essential for maintaining offensive opportunities and preventing opponents from consolidating scoring positions. I've used this transition countless times when opponents attempt to take my back or when I'm forced to turtle after failed attacks. The most important aspect is timing—you must move the instant you feel opponent's weight shift or their grips weaken. Waiting even a second allows them to establish stronger control. I prefer recovering to Half Guard or Butterfly Guard rather than Closed Guard because they offer more immediate sweep opportunities, especially if I've secured an underhook during the rotation. Against elite opponents, you often get one explosive movement before they adjust, so the rotation must be committed and technically precise. I also emphasize immediately threatening attacks upon establishing guard—if opponent thinks they might get swept, they become defensive rather than pressing their top position advantage. This transition has saved me from back control attempts and poor positions countless times, often turning defensive moments into offensive opportunities within seconds.
-- **Eddie Bravo**: The turtle to guard transition is where you turn a bad situation into your game. In 10th Planet, we drill this constantly because turtle is where you end up when someone shuts down your guard or you're defending takedowns. The key is staying calm and not panicking when someone's trying to take your back. I teach my guys to immediately go to Half Guard using the Lockdown or Deep Half when they recover, because those are positions where we have systematic attacks. The rotation itself needs to be explosive, but you also need backup plans—if they block the rotation, go to the Granby Roll or stand up in base. We also use the Electric Chair setup from turtle, so sometimes we intentionally go to turtle to bait reactions. The principle is turning defensive positions into offensive opportunities. When you recover guard from turtle, you're not just escaping—you're entering positions where you have submissions and sweeps ready. Train this transition until it's automatic, because in competition or on the streets, you need to recover immediately without thinking. It's about controlling chaos and always having your game ready no matter where the scramble takes you.
 
 </section>
 

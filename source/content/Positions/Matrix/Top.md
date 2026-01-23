@@ -8,7 +8,7 @@ description: "Defend against Matrix back take attempts from top position. Strate
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -446,24 +446,6 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 **Average Time in Position**: 1-3 seconds to recognize and defend Matrix entry, 5-8 seconds total to reestablish offensive position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending the Matrix effectively requires understanding the biomechanics that make it successful, then systematically removing those elements. The technique relies on three mechanical prerequisites: a fixed pivot point (the shoulder), rotational momentum from hip elevation, and connection to the opponent's position. Your defense must target at least one of these elements. The most reliable approach is preventing the shoulder pivot from stabilizing by forcing opponent movement—if they cannot establish a fixed shoulder post, the rotation lacks its mechanical foundation. This is accomplished through maintaining offensive pressure and transitional movement rather than static positioning. The second layer of defense involves base width—your lateral stability must exceed their rotational force. Biomechanically, this requires base width beyond shoulder width with active weight distribution adjustments. The error most practitioners make is defending reactively after rotation begins; effective Matrix defense is preventative, recognizing hip elevation and shoulder posting as immediate threats requiring base adjustment before the rotation gains momentum.
-
-### Gordon Ryan
-
-In high-level competition, I've learned that the best Matrix defense is never giving them the setup in the first place. When I'm in turtle top or passing positions against Matrix-proficient opponents, I'm constantly moving and threatening attacks. The Matrix requires a moment of stillness to set up the timing properly—if you're constantly advancing, threatening darces, threatening back takes, they never get that moment. When I do see the setup starting, my immediate response is base widening combined with an offensive threat. Usually I'll widen my base while simultaneously threatening a darce or guillotine, which forces them to defend rather than complete their rotation. The psychological component matters too—if opponents know you recognize Matrix setups early and counter aggressively, they're less likely to attempt it, which opens up your other attacks. Against elite grapplers, I also use grip fighting more actively when I sense Matrix setups, breaking their connection to my hips or belt immediately because those grips are crucial for them to control my position during their rotation.
-
-### Eddie Bravo
-
-The Matrix is such a powerful technique that defending it has become a critical skill in modern jiu-jitsu, especially no-gi where there's less to grab onto. What I teach students is that Matrix defense starts way before the actual rotation—it's about your entire approach to turtle top and passing positions. If you're sitting static, you're dead. The key is constant movement and offensive pressure. When we drill Matrix defense, we focus heavily on base width and dynamic weight distribution. Your base can't be fixed; it has to respond to their hip movement. The moment you feel their hips elevating, you need to widen base and shift weight laterally away from their rotation direction. We also drill a lot of counter-attacks from Matrix defense because the best defense is offense. When they commit to a Matrix attempt and you block it, they're often vulnerable to darces, guillotines, or back steps. That two-way threat makes them hesitate on their Matrix attempts, which gives you more control over the engagement. The technique has also made us rethink turtle top strategy entirely—we now teach more transitional turtle attacks rather than static consolidation.
 
 </section>
 

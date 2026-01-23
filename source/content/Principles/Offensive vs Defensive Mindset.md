@@ -8,7 +8,7 @@ description: "Master strategic mindset selection in BJJ. Learn when to attack vs
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","key-principles","component-skills","principle-relationships","application-contexts","decision-framework","common-mistakes","training-approaches","developmental-metrics","related-content","expert-insights"]'>
+<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,9 +163,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="key-principles" class="content-section">
+<section id="building-blocks" class="content-section">
 
-## Core Components
+## Building Blocks
 - Mindset should be consciously selected based on tactical situation rather than default personality tendency
 - Offensive mindset prioritizes initiative, advancement, and creating offensive opportunities
 - Defensive mindset prioritizes preservation, recovery, and neutralizing opponent's offensive threats
@@ -179,9 +179,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="component-skills" class="content-section">
+<section id="prerequisites" class="content-section">
 
-## Component Skills
+## Prerequisites
 **Situational Assessment**: The ability to rapidly evaluate positional context, score differential, time remaining, energy levels, and opponent tendencies to determine the tactically appropriate mindset for the current moment. This includes recognizing when position quality supports offensive aggression versus when preservation becomes priority.
 
 **Risk-Reward Calculation**: The capacity to evaluate potential gains versus potential losses for offensive actions, considering factors like submission opportunity versus position compromise, sweep success versus guard loss, and pass attempt versus counter-attack vulnerability. Skilled practitioners make these calculations instantaneously based on pattern recognition.
@@ -202,28 +202,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="principle-relationships" class="content-section">
+<section id="where-to-apply" class="content-section">
 
-## Related Principles
-- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is fundamental to mindset selection, as position quality directly informs whether offensive or defensive mindset is tactically appropriate. Superior positions enable offensive mindset while inferior positions often require defensive orientation.
-- **[[Risk Assessment]]** (Complementary): Risk assessment works in tandem with mindset selection to evaluate whether offensive actions are justified or defensive preservation is required. Mindset provides strategic orientation while risk assessment provides tactical decision-making framework.
-- **[[Energy Management System]]** (Complementary): Energy state significantly influences sustainable mindset, with offensive mindset requiring higher energy expenditure than defensive approach. Fatigued practitioners must often adopt defensive mindset regardless of positional context to preserve remaining energy.
-- **[[Competition Mindset]]** (Extension): Competition mindset represents specialized application of offensive vs defensive mindset under competition-specific pressures including scoring systems, time constraints, and strategic objectives. Competition context adds additional variables to mindset selection calculations.
-- **[[Game Planning]]** (Extension): Game planning incorporates mindset selection as foundational element of pre-match strategy, determining default mindset orientation based on opponent tendencies, positional preferences, and scoring strategies. Strategic game plans specify when to prioritize offensive versus defensive approach.
-- **[[Pacing]]** (Complementary): Pacing control is closely linked to mindset selection, with offensive mindset typically associated with higher pace and defensive mindset with pace reduction. Skilled practitioners use mindset shifts to manipulate engagement pace strategically.
-- **[[Guard Passing]]** (Complementary): Guard passing requires primarily offensive mindset with constant forward pressure and advancement emphasis, though defensive elements preserve base and prevent sweeps during passing sequences.
-- **[[Guard Retention]]** (Complementary): Guard retention represents defensive mindset application focused on position preservation and threat neutralization, though can transition to offensive mindset for sweeps and submissions when retention is secure.
-- **[[Match Strategy]]** (Extension): Match strategy incorporates mindset selection throughout competition phases, determining when to push offensive pressure versus when to consolidate defensive position based on evolving tactical variables.
-- **[[Position-Over-Submission Approach]]** (Complementary): This approach represents defensive mindset application even during offensive phases, prioritizing positional security over submission attempts to maintain control hierarchy.
-- **[[Defensive Strategy]]** (Extension): Defensive strategy represents comprehensive framework for defensive mindset deployment across positions, providing systematic approach to preservation and recovery.
-- **[[Offensive Combinations]]** (Extension): Offensive combinations represent offensive mindset in action, chaining attacks to create dilemmas and advance position through sustained pressure.
-
-
-</section>
-
-<section id="application-contexts" class="content-section">
-
-## Application Contexts
+## Where to Apply
 **Mount**: From mount, offensive mindset prioritizes submission attacks and position advancement toward high mount or technical mount, accepting minor stability risks for finishing opportunities. Defensive mindset focuses on position consolidation and preventing opponent escapes while conserving energy, particularly when protecting score lead.
 
 **Defensive Position**: From defensive positions, defensive mindset typically prioritizes escape fundamentals, frame creation, and systematic recovery to better position. Offensive mindset from defensive positions involves attempting sweeps or submission counters despite positional disadvantage, accepting higher risk for potential position reversal.
@@ -262,9 +243,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="decision-framework" class="content-section">
+<section id="how-to-apply" class="content-section">
 
-## Decision Framework
+## How to Apply
 1. **Assess current positional context and hierarchy**: Evaluate whether you currently hold superior, equal, or inferior position relative to opponent. Superior positions generally support offensive mindset while inferior positions require defensive orientation. Consider position-specific opportunities and vulnerabilities.
 2. **Evaluate competition context (score, time, ruleset)**: If protecting score lead with limited time remaining, adopt defensive mindset to preserve advantage. If trailing on points, offensive mindset becomes necessary regardless of position. If time and score are neutral, position quality determines appropriate mindset.
 3. **Assess current energy state and fatigue level**: If significantly fatigued, defensive mindset becomes necessary to conserve remaining energy even from superior positions. If energy is high, offensive mindset is sustainable. Consider opponent's fatigue level as well, as exhausted opponent enables offensive pressure.
@@ -277,9 +258,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="common-mistakes" class="content-section hide-minimal">
+<section id="mistakes-to-avoid" class="content-section hide-minimal">
 
-## Common Mistakes
+## Mistakes to Avoid
 - **Mistake**: Defaulting to personality-based mindset regardless of tactical situation
   - **Consequence**: Naturally aggressive practitioners maintain offensive mindset even when defensive preservation is optimal (protecting lead, managing fatigue). Naturally cautious practitioners remain defensive even when offensive action is required (trailing on points, superior position).
   - **Correction**: Develop conscious mindset selection based on objective tactical variables (position, score, time, energy) rather than personality preference. Train both offensive and defensive approaches equally to build flexibility in mindset deployment.
@@ -305,9 +286,9 @@ Offensive vs Defensive Mindset represents the fundamental strategic orientation 
 
 </section>
 
-<section id="training-approaches" class="content-section hide-minimal">
+<section id="how-to-practice" class="content-section hide-minimal">
 
-## Training Methods
+## How to Practice
 **Mindset-Specific Positional Sparring** (Focus: Develops technical execution within each mindset and builds awareness of how mindset affects technique selection, pressure application, and risk-taking. Practitioners learn how same position feels different under different mindset orientations.)
 Conduct positional sparring rounds where participants are assigned specific mindsets (offensive or defensive) for entire round regardless of position changes. This builds capacity to execute assigned mindset even when tactical situation might suggest otherwise.
 
@@ -330,9 +311,9 @@ Conduct full competition-style rounds with scoring and time limits, but add spec
 
 </section>
 
-<section id="developmental-metrics" class="content-section">
+<section id="progress-markers" class="content-section">
 
-## Mastery Indicators
+## Progress Markers
 **Beginner Level**:
 - Defaults to personality-based mindset regardless of tactical situation (aggressive practitioners always attack, cautious practitioners always defend)
 - Has difficulty executing techniques outside their natural mindset comfort zone
@@ -371,10 +352,26 @@ Conduct full competition-style rounds with scoring and time limits, but add spec
 
 </section>
 
-<section id="related-content" class="content-section">
+<section id="related" class="content-section">
 
-## Related Content
+## Related
 
+### Related Principles
+- **[[Positional Hierarchy]]** (Prerequisite): Understanding positional hierarchy is fundamental to mindset selection, as position quality directly informs whether offensive or defensive mindset is tactically appropriate. Superior positions enable offensive mindset while inferior positions often require defensive orientation.
+- **[[Risk Assessment]]** (Complementary): Risk assessment works in tandem with mindset selection to evaluate whether offensive actions are justified or defensive preservation is required. Mindset provides strategic orientation while risk assessment provides tactical decision-making framework.
+- **[[Energy Management System]]** (Complementary): Energy state significantly influences sustainable mindset, with offensive mindset requiring higher energy expenditure than defensive approach. Fatigued practitioners must often adopt defensive mindset regardless of positional context to preserve remaining energy.
+- **[[Competition Mindset]]** (Extension): Competition mindset represents specialized application of offensive vs defensive mindset under competition-specific pressures including scoring systems, time constraints, and strategic objectives. Competition context adds additional variables to mindset selection calculations.
+- **[[Game Planning]]** (Extension): Game planning incorporates mindset selection as foundational element of pre-match strategy, determining default mindset orientation based on opponent tendencies, positional preferences, and scoring strategies. Strategic game plans specify when to prioritize offensive versus defensive approach.
+- **[[Pacing]]** (Complementary): Pacing control is closely linked to mindset selection, with offensive mindset typically associated with higher pace and defensive mindset with pace reduction. Skilled practitioners use mindset shifts to manipulate engagement pace strategically.
+- **[[Guard Passing]]** (Complementary): Guard passing requires primarily offensive mindset with constant forward pressure and advancement emphasis, though defensive elements preserve base and prevent sweeps during passing sequences.
+- **[[Guard Retention]]** (Complementary): Guard retention represents defensive mindset application focused on position preservation and threat neutralization, though can transition to offensive mindset for sweeps and submissions when retention is secure.
+- **[[Match Strategy]]** (Extension): Match strategy incorporates mindset selection throughout competition phases, determining when to push offensive pressure versus when to consolidate defensive position based on evolving tactical variables.
+- **[[Position-Over-Submission Approach]]** (Complementary): This approach represents defensive mindset application even during offensive phases, prioritizing positional security over submission attempts to maintain control hierarchy.
+- **[[Defensive Strategy]]** (Extension): Defensive strategy represents comprehensive framework for defensive mindset deployment across positions, providing systematic approach to preservation and recovery.
+- **[[Offensive Combinations]]** (Extension): Offensive combinations represent offensive mindset in action, chaining attacks to create dilemmas and advance position through sustained pressure.
+
+
+### Related Content
 - [[Competition Mindset]] (Principle) - Extension of offensive vs defensive mindset applied specifically under competition pressure with additional variables like ruleset, scoring system, and strategic objectives
 - [[Risk Assessment]] (Principle) - Complementary decision-making framework that evaluates whether offensive actions are justified based on risk-reward calculation, working together with mindset selection
 - [[Energy Management System]] (Principle) - Energy state is primary variable affecting sustainable mindset, with fatigue often requiring defensive approach regardless of position or other tactical factors
@@ -388,15 +385,6 @@ Conduct full competition-style rounds with scoring and time limits, but add spec
 - [[Guard Recovery]] (Principle) - Recovery process where defensive mindset is typically appropriate for systematic escape, though offensive mindset can attempt aggressive sweeps mid-recovery
 - [[Rear Naked Choke]] (Submission) - Primary offensive goal from back control when offensive mindset is deployed, representing highest-percentage submission that offensive orientation pursues from dominant position
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Insights
-- **John Danaher**: Approaches mindset selection as a rational decision-making process based on mathematical risk-reward analysis rather than emotional or personality-driven approach. Emphasizes that at the highest levels, practitioners must develop both offensive and defensive capabilities equally, with mindset selection becoming a strategic tool applied consciously rather than a fixed personality trait. Systematizes mindset-appropriate technique selection, creating position-specific attack and defense protocols where offensive sequences emphasize advancement and finishing while defensive sequences prioritize energy efficiency and position preservation. Particularly emphasizes the concept of 'defensive offense' where practitioners maintain offensive initiative through continuous threatening pressure while never compromising positional integrity, essentially implementing offensive mindset with defensive risk management. Views the inability to deploy both mindsets with equal facility as a fundamental gap in technical development that limits tactical flexibility and strategic options.
-- **Gordon Ryan**: Views mindset as primarily offensive regardless of position, emphasizing that elite competitors must maintain constant threatening pressure even from inferior positions to prevent opponent from establishing their own offensive sequences. Focuses on what he terms 'initiative control' where the competitor dictating pace and terms of engagement maintains psychological advantage regardless of momentary positional context. However, demonstrates sophisticated mindset adaptation in competition where he transitions to highly conservative defensive mindset when protecting score advantage late in matches, showing that true mastery includes both aggressive and conservative approaches deployed strategically. Emphasizes that psychological pressure created through offensive mindset often generates more position advancement than technical superiority alone, making aggressive approach tactically valuable beyond immediate technique success. In his teaching, stresses that defensive mindset should be temporary state used strategically rather than default orientation, with practitioners always seeking earliest opportunity to return to offensive pressure and initiative control.
-- **Eddie Bravo**: Has developed systems explicitly designed to support aggressive offensive mindset from traditionally defensive positions, particularly his rubber guard and lockdown systems that enable continuous offensive pressure from bottom positions. When teaching mindset concepts, emphasizes the psychological impact of maintaining offensive pressure even from inferior positions, noting that aggressive bottom play creates doubt in opponent and prevents them from establishing comfortable control. Advocates for what he calls 'offensive bottom' philosophy where traditional defensive positions are reconceptualized as offensive platforms, essentially refusing to accept defensive mindset even when positionally disadvantaged. However, also teaches sophisticated defensive mindset for specific strategic scenarios, particularly when opponent is significantly larger or when tactical situation requires preservation rather than advancement, showing flexibility despite generally aggressive philosophy. Particularly emphasizes how offensive mindset from bottom positions disrupts opponent's expectations and technical preparations, creating psychological advantage that complements technical execution and often generates opportunities that pure defensive approach would never create.
 
 </section>
 

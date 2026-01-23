@@ -8,7 +8,7 @@ description: "Master defensive strategies against Ashi Garami leg entanglements 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -411,24 +411,6 @@ Positional sparring starting in various Ashi positions. Top player earns points 
 
 **Average Time in Position**: 30-60 seconds before defensive resolution through escape, submission, or opponent advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Defending Ashi Garami positions requires understanding the same hierarchical principles that govern offensive play—the positions exist on a spectrum of control quality, and defensive success depends on preventing opponent advancement up that spectrum. The most common defensive error is failing to recognize position quality and responding with inappropriate urgency. A practitioner in Outside Ashi without inside space control presents minimal immediate threat; maintaining composure and systematically clearing the leg proves more effective than panicked explosive escape attempts. Conversely, when opponent achieves Saddle with proper mechanics, immediate and decisive defensive action becomes necessary. The key technical principle is inside space denial—if you prevent opponent from establishing the wedge between their hip and yours, they cannot advance position regardless of their technical knowledge. Combine inside space denial with straight leg alignment to protect the heel, and you neutralize the majority of finishing threats while creating extraction opportunities. Modern leg lock defense transforms from reactive scrambling to systematic problem-solving through positional understanding.
-
-### Gordon Ryan
-
-My approach to defending Ashi positions is fundamentally offensive—I'm looking for counter-attack opportunities from the first moment of leg contact. The reality is that high-level leg entanglement exchanges favor the practitioner with superior technical understanding and positional recognition, regardless of who initiated the exchange. When someone secures my leg, I'm immediately evaluating: Do I have inside space? Can I establish my own entanglement? Is their heel exposed? Many times, I'll allow opponents to think they have good leg control while I'm actually setting up my own finishing position. The mental game aspect is crucial—opponents expect panic and explosive escape attempts, so maintaining absolute calm and methodical positioning creates psychological pressure that forces errors. Against less experienced leg lockers, I'll often deliberately enter leg entanglement exchanges knowing my positional understanding provides significant advantage even from nominally defensive positions. The best defense is comprehensive offensive understanding that lets you recognize and exploit opponent mistakes.
-
-### Eddie Bravo
-
-The leg lock revolution has made traditional top-bottom hierarchies obsolete in many contexts—you can't just rely on being 'on top' anymore when a skilled leg locker can finish you from what looks like a defensive position. The evolution of leg lock defense requires abandoning the old mindset of 'I'm on top so I'm safe' and recognizing that leg entanglements create bilateral threat scenarios where both players can attack. The beautiful chaos of modern no-gi emerges from this reality—every exchange becomes a technical puzzle rather than simple position dominance. My defensive philosophy emphasizes staying in the fight rather than desperate escaping. If someone has my leg, I'm not just trying to rip out; I'm establishing my own controls, looking for their neck, considering counter-entanglements. The positions create multiple simultaneous problems for both practitioners, and whoever solves their problems first wins the exchange. This is the future of grappling—complex, multidimensional positional chess that rewards comprehensive technical understanding over physical advantages.
 
 </section>
 

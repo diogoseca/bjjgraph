@@ -8,7 +8,7 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -424,24 +424,6 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 **Average Time in Position**: 30-90 seconds
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The half butterfly top position represents a critical transitional moment in the guard passing sequence where the passer has achieved partial success but not complete control. The fundamental biomechanical principle here is the neutralization of the butterfly hook's lifting mechanism through precise weight distribution and pressure angles. The butterfly hook functions as a lever, and like all levers, its effectiveness is determined by the fulcrum position and the load's location. By driving your chest forward and hips low, you shift the load away from the hook's optimal leverage point, rendering it mechanically inefficient. The systematic approach requires establishing upper body control first—typically through crossface or underhook—before addressing the hook. This creates a hierarchical control system where you've secured the top of the structure before dismantling the base. The position demands understanding of pressure passing principles: constant forward pressure, connection maintenance, and strategic weight distribution to create passing opportunities while preventing guard recovery. From a decision-making perspective, you must read the bottom player's reactions and flow between passing options rather than committing rigidly to one technique. When they defend the knee slice, the smash pass becomes available. When they create space to escape, the leg drag presents itself. This adaptive passing approach, combined with proper pressure mechanics, makes the position highly effective for advancing to dominant positions.
-
-### Gordon Ryan
-
-In competition, half butterfly top is where matches get won or lost because it's such a common transitional position in modern no-gi. Every good butterfly guard player will fight to keep at least one hook as you pass, so you better know how to deal with it. The key is immediate pressure—you can't give them time to organize their defense or they'll sweep you or recover full butterfly. I like to establish a crossface immediately and drive my chest into their face, which makes the butterfly hook way less effective and also disrupts their ability to think clearly. From here, you want to be threatening multiple passes simultaneously: knee slice, smash pass, leg drag—keep them guessing about which way you're going. If they commit to stopping one, you switch to another. The worst thing you can do is stall here because that hook still has sweeping power if you're static. I've had the most success with heavy pressure and then exploding into the knee slice when they try to create space to breathe. Also watch for opportunities when they turn into you trying to escape—that's when front headlocks and back takes become available. I've finished a lot of matches from that exact sequence. The mental game is huge here - make them feel like they're drowning under your pressure and they'll make mistakes trying to escape.
-
-### Eddie Bravo
-
-Half butterfly top is interesting because it's like you're almost past but not quite, and that's when people make mistakes. From the 10th Planet perspective, we're usually on bottom in this position, so when I'm on top here I know all the sweeps and tricks they're trying. The key is to not let them get an underhook because that's game over—they'll elevate you and sweep or at minimum recover full butterfly. I like to use a lot of misdirection here: fake the knee slice to get them to react, then smash pass the other way. Or threaten the pass so heavy that they turn to turtle, and then you've got front headlock opportunities and potentially back takes. The thing about this position is it's super dynamic—nobody stays here long, either you pass or they sweep, so you gotta be decisive and commit to your attacks. If you're hesitating, they're sweeping. One thing we drill a lot is the transition from here to leg attacks if they're really good at defending the pass—sometimes the best pass is to threaten the legs and watch them give up position to defend their knees. It's all about creating dilemmas: do they defend the pass or protect against submissions? When you make them choose between two bad options, that's when you win. Stay aggressive, stay pressuring, and don't give them time to implement their game plan.
 
 </section>
 

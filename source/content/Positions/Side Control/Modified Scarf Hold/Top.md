@@ -8,7 +8,7 @@ description: "Offensive guide for Modified Scarf Hold top position. Master press
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -425,24 +425,6 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 
 **Average Time in Position**: 60-120 seconds to submission or advancement
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Modified Scarf Hold exemplifies the principle of control preceding submission. The chest-to-chest pressure creates what I term 'positional suffocation' - the opponent's ability to breathe and think clearly diminishes under sustained pressure, making submission setups significantly more effective. The critical mechanical element is maintaining your center of gravity directly over the opponent's chest while staying mobile on your toes. This creates maximum downward force while preserving your ability to counter escape attempts. The near arm control is non-negotiable - once you allow the opponent to recover that arm for framing, the position's effectiveness decreases by approximately 70%. Advanced practitioners understand that the position's true power lies not in static pressure but in dynamic pressure adjustment that responds to opponent movement, creating a moving target that prevents the accumulation of small advantages that lead to escape.
-
-### Gordon Ryan
-
-I love Modified Scarf Hold because it makes people quit. When I settle my chest pressure correctly, I can feel opponents start to panic within 15-20 seconds. They can't breathe right, they can't see clearly, and every second that passes they get more desperate. That desperation creates mistakes, and mistakes create submissions. My go-to sequence is pressure until they try to turn into me, then I slide to north-south and lock the choke. If they try to bridge, I ride it and take mount. The key is being patient with your pressure but explosive with your transitions. Don't rush submissions from the control position - let the pressure do the work, then capitalize when they move. The guys who escape are the ones who stay calm and work systematic techniques, but under real pressure at high-level competition, very few can maintain that composure.
-
-### Eddie Bravo
-
-Modified Scarf Hold is old school but it's effective, especially when you add some 10th Planet concepts to it. I teach students to think of it as a pressure testing position - you're testing whether the opponent can handle being uncomfortable and maintain technique under stress. The traditional approach is all about settling heavy weight, but I like to add some dynamic elements. Use your head pressure to create angles for different attacks - if you push their head one direction, it opens arm attacks on the other side. The position also sets up some sneaky transitions to twister control if they try to turn away. Don't just sit there and squeeze - create movement dilemmas where every direction they try to escape opens a different attack. That's when the position becomes truly oppressive and high-percentage for finishes.
 
 </section>
 

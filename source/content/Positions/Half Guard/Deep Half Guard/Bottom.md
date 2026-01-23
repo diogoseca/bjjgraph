@@ -8,7 +8,7 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -414,24 +414,6 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 **Average Time in Position**: 45-90 seconds before sweep or pass attempt
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Deep half guard represents a fundamental shift in guard philosophy - rather than controlling from the front, we control from below by removing the opponent's base entirely. The deep underhook of the far leg is non-negotiable; without it, the position ceases to function. The biomechanical advantage comes from creating a wedge with your shoulder and head against their inner thigh while maintaining an inverted position that allows you to lift their entire weight with your hips and core. Most beginners make the mistake of staying too flat - you must be inverted underneath their center of gravity to generate proper leverage. The position is a complete system with multiple sweep variations, but they all rely on the same fundamental principle: controlling the far leg while using hip elevation to disrupt their base. When entering, timing is critical - you need their weight committed forward before sliding underneath. The transition to back control via the rolling back take is particularly high percentage because it uses their defensive reactions against them.
-
-### Gordon Ryan
-
-Deep half guard is one of the most reliable positions in competition, especially in no-gi where it's harder for opponents to establish grips to defend. I use it constantly when facing heavy pressure passers who want to smash - the harder they drive forward, the easier the sweeps become. The key is not to force the position too early; wait until they commit their weight, then slide underneath and establish the deep underhook. From there, I have four or five different sweeps I can hit depending on how they react. If they whizzer, I go to electric chair. If they post out wide, I hit the old school. If they try to step over, I take the back. The position is basically a trap - every defensive option they have opens up a different attack for me. In competition, I look for deep half especially after failed passing attempts when opponents are off-balance and looking to recover. One mistake I see all the time is people giving up the underhook too easily - you need to fight like hell to keep that far leg controlled because once it's gone, the position is finished.
-
-### Eddie Bravo
-
-Deep half guard is straight-up one of the most powerful positions in jiu-jitsu, period. We've built an entire system around it in 10th Planet because it works at the highest levels and it's nearly impossible to shut down if you know what you're doing. The beautiful thing is that it's a position where you can be completely underneath someone and still be attacking - that's the mind game aspect that freaks people out. They think they're winning because they're on top, but really they're in your trap. The electric chair from deep half is money - when they whizzer to defend the sweep, boom, you've got the lockdown locked in and you're attacking their knee. Jeff Glover really pioneered this position in no-gi and showed everyone how deadly it could be. The key is staying loose and mobile underneath - you can't be stiff or you'll get smashed. You need to be able to move your hips, change angles, and create that elevation for the sweep. We drill this constantly because the entry timing is everything. Too early and they'll defend, too late and they'll have already passed. But when you time it right and get that deep underhook, you're in complete control even though you're underneath.
 
 </section>
 
