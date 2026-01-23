@@ -5,32 +5,11 @@
   &.desktop-only {
     display: flex;
   }
-}
 
-button#toc {
-  background-color: transparent;
-  border: none;
-  text-align: left;
-  cursor: pointer;
-  padding: 0;
-  color: var(--dark);
-  display: flex;
-  align-items: center;
-
-  & h3 {
+  & > h3 {
     font-size: 1rem;
-    display: inline-block;
     margin: 0;
-  }
-
-  & .fold {
-    margin-left: 0.5rem;
-    transition: transform 0.3s ease;
-    opacity: 0.8;
-  }
-
-  &.collapsed .fold {
-    transform: rotateZ(-90deg);
+    color: var(--dark);
   }
 }
 
@@ -40,33 +19,18 @@ button#toc {
   overflow-y: auto;
   flex: 1;
   min-height: 0;
-  transition:
-    max-height 0.35s ease,
-    visibility 0s linear 0s;
   position: relative;
-  visibility: visible;
 
   // Shadow indicators for scrollable content
   box-shadow:
     inset 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12),
     inset 0 -0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.12);
 
-  &.collapsed {
-    max-height: 0;
-    transition:
-      max-height 0.35s ease,
-      visibility 0s linear 0.35s;
-    visibility: hidden;
-  }
-
-  &.collapsed > .overflow::after {
-    opacity: 0;
-  }
-
   & ul {
     list-style: none;
     margin: 0.5rem 0;
     padding: 0;
+
     & > li > a {
       color: var(--dark);
       opacity: 0.35;
@@ -77,7 +41,22 @@ button#toc {
         opacity: 0.75;
       }
     }
+
+    // Top-level items (h2) get more spacing
+    & > li {
+      margin-top: 0.75rem;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+
+    // Nested items get less spacing
+    & li li {
+      margin-top: 0.15rem;
+    }
   }
+
   > ul.overflow {
     max-height: none;
     width: 100%;

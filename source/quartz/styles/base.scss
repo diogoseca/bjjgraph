@@ -196,7 +196,7 @@ a {
       gap: 2rem;
       top: 0;
       box-sizing: border-box;
-      padding: $topSpacing 2rem 2rem 2rem;
+      padding: calc(#{$topSpacing} * 1.5) 3rem 0 3rem;
       display: flex;
       height: 100vh;
       position: sticky;

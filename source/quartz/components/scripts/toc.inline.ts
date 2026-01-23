@@ -1,40 +1,27 @@
-const bufferPx = 150
-const observer = new IntersectionObserver((entries) => {
-  for (const entry of entries) {
-    const slug = entry.target.id
-    const tocEntryElement = document.querySelector(`a[data-for="${slug}"]`)
-    const windowHeight = entry.rootBounds?.height
-    if (windowHeight && tocEntryElement) {
-      if (entry.boundingClientRect.y < windowHeight) {
-        tocEntryElement.classList.add("in-view")
-      } else {
-        tocEntryElement.classList.remove("in-view")
+// Viewport-aware highlighting - items light up when in view, dim when scrolled past
+const observer = new IntersectionObserver(
+  (entries) => {
+    for (const entry of entries) {
+      const slug = entry.target.id
+      const tocEntryElement = document.querySelector(`a[data-for="${slug}"]`)
+      if (tocEntryElement) {
+        // Use isIntersecting - true when visible, false when not
+        if (entry.isIntersecting) {
+          tocEntryElement.classList.add("in-view")
+        } else {
+          tocEntryElement.classList.remove("in-view")
+        }
       }
     }
-  }
-})
-
-function toggleToc(this: HTMLElement) {
-  this.classList.toggle("collapsed")
-  this.setAttribute(
-    "aria-expanded",
-    this.getAttribute("aria-expanded") === "true" ? "false" : "true",
-  )
-  const content = this.nextElementSibling as HTMLElement | undefined
-  if (!content) return
-  content.classList.toggle("collapsed")
-}
+  },
+  {
+    // Focus on top 30% of viewport for better highlighting behavior
+    rootMargin: "-10% 0px -60% 0px",
+    threshold: 0,
+  },
+)
 
 function setupToc() {
-  const toc = document.getElementById("toc")
-  if (toc) {
-    const collapsed = toc.classList.contains("collapsed")
-    const content = toc.nextElementSibling as HTMLElement | undefined
-    if (!content) return
-    toc.addEventListener("click", toggleToc)
-    window.addCleanup(() => toc.removeEventListener("click", toggleToc))
-  }
-
   // Prevent page scroll when scrolling TOC content
   const tocContent = document.getElementById("toc-content")
   if (tocContent) {

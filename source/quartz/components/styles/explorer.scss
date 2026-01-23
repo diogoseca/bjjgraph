@@ -54,10 +54,10 @@
     }
 
     & li > a.active {
-      color: var(--secondary);
+      color: #d97706;
       font-weight: 600;
       opacity: 1;
-      background: var(--highlight);
+      background: rgba(217, 119, 6, 0.1);
       border-radius: 3px;
       padding: 0 4px;
       margin-left: -4px;
@@ -78,24 +78,13 @@
   gap: 0.3rem;
 
   & div > a {
-    color: var(--secondary);
     font-family: var(--headerFont);
-    font-size: 0.85rem;
-    font-weight: $semiBoldWeight;
     line-height: 1.3rem;
     display: inline-block;
   }
 
   & div > a:hover {
     color: var(--tertiary);
-  }
-
-  & div > a.active {
-    color: var(--tertiary);
-    background: var(--highlight);
-    border-radius: 3px;
-    padding: 0 4px;
-    margin-left: -4px;
   }
 
   & div > button {
@@ -111,14 +100,51 @@
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.85rem;
       display: inline-block;
-      color: var(--secondary);
-      font-weight: $semiBoldWeight;
       margin: 0;
       line-height: 1.3rem;
       pointer-events: none;
     }
+  }
+
+  // Top-level categories (Positions, Transitions, etc.) - depth 1
+  &.depth-1 {
+    & div > a,
+    & div > button span {
+      color: var(--secondary);
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+  }
+
+  // Sub-categories (Ashi Garami, Mount subfolder, etc.) - depth 2+
+  &.depth-2,
+  &.depth-3,
+  &.depth-4,
+  &.depth-5 {
+    & div > a,
+    & div > button span {
+      color: var(--dark);
+      font-weight: 500;
+      font-size: 0.83rem;
+      opacity: 0.85;
+    }
+
+    & div > a:hover,
+    & div > button:hover span {
+      opacity: 1;
+    }
+  }
+
+  // Active page styling - amber color for clear distinction
+  & div > a.active {
+    color: #d97706;
+    font-weight: 600;
+    opacity: 1;
+    background: rgba(217, 119, 6, 0.1);
+    border-radius: 3px;
+    padding: 0 4px;
+    margin-left: -4px;
   }
 }
 

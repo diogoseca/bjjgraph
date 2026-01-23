@@ -195,7 +195,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
         <li>
           {node.name !== "" && (
             // Render folder name with toggle indicator after
-            <div class="folder-container">
+            <div class={`folder-container depth-${node.depth}`}>
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" || node.file || hubPage ? (
                   <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref} data-for={node.file ? node.file.slug : node.name} class="folder-title">
