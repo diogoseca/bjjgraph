@@ -235,9 +235,8 @@ a {
 
     & .page-header {
       grid-area: grid-header;
-      margin: $topSpacing 0 0 0;
+      margin: 0;
       @media all and ($mobile) {
-        margin-top: 1rem;
         padding: 0 1rem 0 0;
       }
     }
