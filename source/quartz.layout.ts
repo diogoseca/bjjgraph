@@ -24,7 +24,6 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.DesktopOnly(Component.PageTitle()),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {
@@ -52,7 +51,6 @@ export const defaultListPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.DesktopOnly(Component.PageTitle()),
     Component.Search(),
     Component.DesktopOnly(Component.Explorer({
       mapFn: (node) => {

@@ -194,23 +194,8 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
         // Node with children - render as folder (even if it also has a hub page file)
         <li>
           {node.name !== "" && (
-            // Render svg button + folder name (link to hub page if file exists)
+            // Render folder name with toggle indicator after
             <div class="folder-container">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="12"
-                height="12"
-                viewBox="5 8 14 8"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="folder-icon"
-              >
-                <polyline points="6 9 12 15 18 9"></polyline>
-              </svg>
-              {/* render <a> tag if folderBehavior is "link" OR if node has a file (hub page) OR if there's a mapped hub page, otherwise render <button> */}
               <div key={node.name} data-folderpath={folderPath}>
                 {folderBehavior === "link" || node.file || hubPage ? (
                   <a href={node.file ? resolveRelative(fileData.slug!, node.file.slug!) : hubHref} data-for={node.file ? node.file.slug : node.name} class="folder-title">
@@ -222,6 +207,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
                   </button>
                 )}
               </div>
+              <span class="folder-icon" aria-label="Toggle folder">+</span>
             </div>
           )}
           {/* Recursively render children of folder */}
@@ -229,7 +215,7 @@ export function ExplorerNode({ node, opts, fullPath, fileData }: ExplorerNodePro
             <ul
               // Inline style for left folder paddings
               style={{
-                paddingLeft: node.name !== "" ? "1.4rem" : "0",
+                paddingLeft: node.name !== "" ? "1rem" : "0",
               }}
               class="content"
               data-folderul={folderPath}

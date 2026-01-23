@@ -20,21 +20,22 @@ function toggleFolder(evt: MouseEvent) {
   const target = evt.target as MaybeHTMLElement
   if (!target) return
 
-  const isSvg = target.nodeName === "svg"
+  // folder-icon is now a span after the div[data-folderpath], or could be a button click
+  const isIcon = target.classList.contains("folder-icon")
   const childFolderContainer = (
-    isSvg
-      ? target.parentElement?.nextSibling
+    isIcon
+      ? target.parentElement?.nextElementSibling
       : target.parentElement?.parentElement?.nextElementSibling
   ) as MaybeHTMLElement
   const currentFolderParent = (
-    isSvg ? target.nextElementSibling : target.parentElement
+    isIcon ? target.previousElementSibling : target.parentElement
   ) as MaybeHTMLElement
   if (!(childFolderContainer && currentFolderParent)) return
 
   childFolderContainer.classList.toggle("open")
   const isCollapsed = childFolderContainer.classList.contains("open")
   setFolderState(childFolderContainer, !isCollapsed)
-  const fullFolderPath = currentFolderParent.dataset.folderpath as string
+  const fullFolderPath = (currentFolderParent as HTMLElement).dataset.folderpath as string
   toggleCollapsedByPath(currentExplorerState, fullFolderPath)
   const stringifiedFileTree = JSON.stringify(currentExplorerState)
   localStorage.setItem("fileTree", stringifiedFileTree)
@@ -129,6 +130,19 @@ function setupExplorer() {
     // Save the updated state to localStorage so it persists
     const stringifiedFileTree = JSON.stringify(currentExplorerState)
     localStorage.setItem("fileTree", stringifiedFileTree)
+
+    // Highlight the active page in the explorer
+    // Remove any existing active classes first
+    const existingActive = document.querySelectorAll("#explorer-content a.active")
+    existingActive.forEach((el) => el.classList.remove("active"))
+
+    // Find and highlight the current page link
+    const activeLink = document.querySelector(
+      `#explorer-content a[data-for='${currentSlug}']`,
+    ) as MaybeHTMLElement
+    if (activeLink) {
+      activeLink.classList.add("active")
+    }
   }
 }
 

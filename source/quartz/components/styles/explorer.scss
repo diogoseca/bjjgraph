@@ -4,25 +4,13 @@
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  padding-top: 1rem;
   &.desktop-only {
     @media all and not ($mobile) {
       display: flex;
     }
   }
-  /*&:after {
-    pointer-events: none;
-    content: "";
-    width: 100%;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(transparent 0px, var(--light));
-  }*/
 }
-
 
 .folder-outer {
   display: grid;
@@ -46,28 +34,38 @@
 
   & ul {
     list-style: none;
-    margin: 0.08rem 0;
+    margin: 0.04rem 0;
     padding: 0;
     transition:
       max-height 0.35s ease,
       transform 0.35s ease,
       opacity 0.2s ease;
+
     & li > a {
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      font-size: 0.82rem;
+      line-height: 1.3rem;
+    }
+
+    & li > a:hover {
+      opacity: 1;
+    }
+
+    & li > a.active {
+      color: var(--secondary);
+      font-weight: 600;
+      opacity: 1;
+      background: var(--highlight);
+      border-radius: 3px;
+      padding: 0 4px;
+      margin-left: -4px;
     }
   }
+
   > #explorer-ul {
     max-height: none;
-  }
-}
-
-svg {
-  pointer-events: all;
-
-  & > polyline {
-    pointer-events: none;
   }
 }
 
@@ -75,19 +73,29 @@ svg {
   flex-direction: row;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   user-select: none;
+  gap: 0.3rem;
 
   & div > a {
     color: var(--secondary);
     font-family: var(--headerFont);
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: $semiBoldWeight;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
     display: inline-block;
   }
 
   & div > a:hover {
     color: var(--tertiary);
+  }
+
+  & div > a.active {
+    color: var(--tertiary);
+    background: var(--highlight);
+    border-radius: 3px;
+    padding: 0 4px;
+    margin-left: -4px;
   }
 
   & div > button {
@@ -103,31 +111,42 @@ svg {
     font-family: var(--headerFont);
 
     & span {
-      font-size: 0.95rem;
+      font-size: 0.85rem;
       display: inline-block;
       color: var(--secondary);
       font-weight: $semiBoldWeight;
       margin: 0;
-      line-height: 1.5rem;
+      line-height: 1.3rem;
       pointer-events: none;
     }
   }
 }
 
 .folder-icon {
-  margin-right: 5px;
-  color: var(--secondary);
+  color: var(--gray);
   cursor: pointer;
-  transition: transform 0.3s ease;
-  backface-visibility: visible;
-}
-
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-  transform: rotate(-90deg);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  user-select: none;
+  transition: color 0.2s ease;
+  flex-shrink: 0;
 }
 
 .folder-icon:hover {
   color: var(--tertiary);
+}
+
+// Show "-" when folder is open
+li:has(> .folder-outer.open) > .folder-container > .folder-icon {
+  &::before {
+    content: "−";
+  }
+  // Hide the "+" text content when open
+  font-size: 0;
+  &::before {
+    font-size: 0.75rem;
+  }
 }
 
 .no-background::after {
