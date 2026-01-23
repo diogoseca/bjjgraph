@@ -5,10 +5,6 @@ import { QuartzEmitterPlugin } from "../types"
 import spaRouterScript from "../../components/scripts/spa.inline"
 // @ts-ignore
 import popoverScript from "../../components/scripts/popover.inline"
-// @ts-ignore
-import uniformABTestingScript from "../../components/scripts/uniform-ab-testing.inline"
-// @ts-ignore
-import posthogABTrackingScript from "../../components/scripts/posthog-ab-tracking.inline"
 import styles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
@@ -81,9 +77,6 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     componentResources.css.push(popoverStyle)
   }
 
-  // uniform A/B testing (runs before DOM for zero FOUC)
-  componentResources.beforeDOMLoaded.push(uniformABTestingScript)
-
   if (cfg.analytics?.provider === "google") {
     const tagId = cfg.analytics.tagId
     componentResources.afterDOMLoaded.push(`
@@ -143,9 +136,6 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       posthog.init('${cfg.analytics.apiKey}',{api_host:'${cfg.analytics.host ?? "https://app.posthog.com"}',opt_in_site_apps:true})\`
       document.head.appendChild(posthogScript)
     `)
-
-    // Add A/B testing event tracking
-    componentResources.afterDOMLoaded.push(posthogABTrackingScript)
   } else if (cfg.analytics?.provider === "tinylytics") {
     const siteId = cfg.analytics.siteId
     componentResources.afterDOMLoaded.push(`

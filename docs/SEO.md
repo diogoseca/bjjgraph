@@ -123,30 +123,11 @@ If the sweep fails, you may end up in [[Half Guard Bottom]].
 
 ---
 
-## A/B Testing for SEO
-
-### What We Test
-
-| Element | Variants | Tracked Metric |
-|---------|----------|----------------|
-| Section ordering | Random | Time on page |
-| Section visibility | 10% hide | Scroll depth |
-| Visual styling | Enhanced/plain | Engagement |
-
-### How It Works
-
-Pure client-side testing (no server-side redirects that affect SEO):
-1. Same content served to all crawlers
-2. JavaScript applies variations after load
-3. No duplicate content issues
-4. No canonical confusion
-
-### PostHog Analytics
+## PostHog Analytics
 
 | Dashboard | Purpose |
 |-----------|---------|
 | Content Performance | Page views, time on page, bounce rate |
-| A/B Testing | Section engagement by variant |
 | User Analytics | Traffic sources, user paths |
 
 **Dashboard URL**: https://us.posthog.com/project/236155
@@ -200,7 +181,6 @@ The daily content improvement bot (`content-improvement-bot.yml`) applies SEO en
 ### PostHog
 
 - Track user engagement
-- Monitor A/B test results
 - Analyze content performance
 - Identify high-converting pages
 

@@ -21,7 +21,6 @@ source/templates/*.json  →  *.md.jinja2  →  source/content/*.md  →  Quartz
 2. **Jinja2 Templates** (`source/templates/*.md.jinja2`)
    - Generate markdown content from JSON
    - Inject SEO schema markup (HowTo, FAQ, BreadcrumbList)
-   - Add A/B testing metadata (`data-sections` attributes)
 
 3. **Generated Markdown** (`source/content/`)
    - Content pages with YAML frontmatter
@@ -64,46 +63,6 @@ Positions/
 - **Role pages excluded from graph** - Top/Bottom pages don't create separate nodes
 - **Hub aggregates links** - Both Top and Bottom links appear on hub's graph connections
 - **Prevents redundancy** - No "Mount Bottom", "Mount Top" as separate nodes
-
----
-
-## A/B Testing Infrastructure
-
-Pure client-side JavaScript implementation (no edge workers, no external APIs).
-
-### How It Works
-
-1. Script runs in `<head>` (before body renders)
-2. Reads `data-sections` from `<body>` tag metadata
-3. Generates random priority/visibility/styling per section
-4. Applies CSS instantly (order, display, enhanced styling)
-5. Tracks engagement via PostHog (async, non-blocking)
-
-### Three Independent Samples
-
-| Sample | Purpose | How It Works |
-|--------|---------|--------------|
-| **Priority** | Section ordering | Uniform random [0,1] → CSS `order` |
-| **Visibility** | Show/hide sections | 10% hide probability, 33% cap |
-| **Styling** | Enhanced vs plain | 50% enhanced probability |
-
-### Key Files
-
-| File | Purpose |
-|------|---------|
-| `source/quartz/components/scripts/uniform-ab-testing.inline.ts` | Core A/B logic (226 lines) |
-| `source/quartz/components/scripts/posthog-ab-tracking.inline.ts` | Analytics tracking |
-| `source/quartz/plugins/emitters/componentResources.ts` | Includes script in `beforeDOMLoaded` |
-
-### Persistence
-
-- Cookie-cached assignment (7 days)
-- Weekly refresh (new assignment each week)
-- User ID persists 365 days
-
-### Debug Mode
-
-Add `?debug` to any URL to see assignment data in HTML source.
 
 ---
 

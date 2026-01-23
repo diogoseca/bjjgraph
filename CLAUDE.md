@@ -12,7 +12,7 @@ BJJ knowledge graph and state machine as a static site. **Site:** https://bjjgra
 1. CLAUDE.md          ← You are here
 2. docs/Architecture.md   ← JSON pipeline, Position model
 3. docs/Content.md        ← Standards, validation rules
-4. docs/SEO.md            ← Schema markup, A/B testing
+4. docs/SEO.md            ← Schema markup, keywords, analytics
 ```
 
 ### Step 2: Ask Critical Questions
@@ -81,7 +81,7 @@ bjjgraph/
 ├── README.md                    # Quick start for contributors
 ├── PARTNERS.md                  # Partnership & sponsorship info
 ├── docs/
-│   ├── Architecture.md          # JSON pipeline, Position model, A/B testing
+│   ├── Architecture.md          # JSON pipeline, Position model
 │   ├── Content.md               # Standards, validation rules
 │   └── SEO.md                   # Schema markup, keywords, analytics
 ├── scripts/
@@ -146,18 +146,6 @@ Positions/
     ├── Top.md         # Playing as top (submissions, control)
     └── Bottom.md      # Playing as bottom (escapes, reversals)
 ```
-
-### A/B Testing (Client-Side)
-
-Pure JavaScript, no edge workers:
-- Uniform random sampling for section priority/visibility/styling
-- Runs in `<head>` before body renders (zero FOUC)
-- Weekly refresh, cookie-cached
-- PostHog tracks engagement metrics
-
-**Key files:**
-- `source/quartz/components/scripts/uniform-ab-testing.inline.ts`
-- `source/quartz/components/scripts/posthog-ab-tracking.inline.ts`
 
 ### Graph Component
 
@@ -317,14 +305,13 @@ Every submission MUST include:
 | Navigation Patterns | https://us.posthog.com/project/236155/dashboard/611437 |
 | Traffic Sources | https://us.posthog.com/project/236155/dashboard/611439 |
 | User Analytics | https://us.posthog.com/project/236155/dashboard/610768 |
-| A/B Testing | https://us.posthog.com/project/236155/dashboard/616953 |
 | Feature Flags | https://us.posthog.com/project/236155/feature_flags |
 
 ### Documentation References
 
 | Doc | Purpose |
 |-----|---------|
-| `docs/Architecture.md` | JSON pipeline, Position model, A/B testing details |
+| `docs/Architecture.md` | JSON pipeline, Position model |
 | `docs/Content.md` | Full content standards, validation rules |
 | `docs/SEO.md` | Schema markup, keywords, analytics setup |
 | `source/content/CONTRIBUTING-YAML-SCHEMA.md` | Complete YAML schema reference |

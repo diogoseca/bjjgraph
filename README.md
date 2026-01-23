@@ -62,7 +62,7 @@ Never edit `.md` files in `source/content/` directly - they are generated from J
 | Doc | Purpose |
 |-----|---------|
 | [CLAUDE.md](CLAUDE.md) | AI development workflow |
-| [docs/Architecture.md](docs/Architecture.md) | JSON pipeline, Position model, A/B testing |
+| [docs/Architecture.md](docs/Architecture.md) | JSON pipeline, Position model |
 | [docs/Content.md](docs/Content.md) | Content standards, validation rules |
 | [docs/SEO.md](docs/SEO.md) | Schema markup, keywords, analytics |
 
@@ -72,7 +72,7 @@ Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
 
 - Interactive graph visualization (D3.js)
 - Full-text search (Flexsearch)
-- Client-side A/B testing with PostHog analytics
+- PostHog analytics
 - Mobile-responsive design
 - Schema markup for SEO (HowTo, FAQ)
 
@@ -105,7 +105,6 @@ We're looking for partners who share this vision—BJJ apps, gear companies, aca
 ## Analytics
 
 - **PostHog**: https://us.posthog.com/project/236155
-- **A/B Testing**: Client-side uniform random sampling
 - **SEO**: Schema markup on all content pages
 
 ## License
