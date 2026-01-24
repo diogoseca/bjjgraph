@@ -38,7 +38,7 @@ The positional hierarchy serves multiple critical functions:
 5. **Training Focus**: Prioritizes learning dominant positions before submissions
 6. **Risk Assessment**: Quantifies the cost of failed techniques based on potential position loss
 
-John Danaher emphasizes that "Brazilian Jiu-Jitsu is fundamentally a game of positional chess where each move should improve your position or worsen your opponent's position. The hierarchy provides the scoring system for this chess game."
+Brazilian Jiu-Jitsu is fundamentally a game of positional chess where each move should improve your position or worsen your opponent's position. The hierarchy provides the scoring system for this chess game.
 
 ## The Position Ladder: Zero to Submission
 
@@ -85,7 +85,7 @@ Guard positions represent the first major branching in the hierarchy. The guard 
 
 **Defensive Priority**: Prevent guard passing at all costs. Once the guard is passed, you drop significantly in the hierarchy.
 
-Gordon Ryan notes: "Modern guard development has elevated Level 1 from purely defensive to offensively dangerous. High-level guard players can finish matches without ever reaching top position, but this requires exceptional technical skill and years of specialization."
+Modern guard development has elevated Level 1 from purely defensive to offensively dangerous. High-level guard players can finish matches without ever reaching top position, but this requires exceptional technical skill and years of specialization.
 
 ### Level 2: Guard Passing Positions (3 Points)
 
@@ -101,7 +101,7 @@ Guard passing represents the critical transition from neutral guard engagement t
 - [[Knee Cut Position]]: Dynamic pressure pass with hip control
 - [[Leg Drag Position]]: Back-take opportunity from passing
 - [[Smash Pass Position]]: Pressure-based passing with crossface control
-- [[Headquarters Position]]: Systematic passing framework (Danaher methodology)
+- [[Headquarters Position]]: Systematic passing framework
 
 **Advancement Paths from Passing**:
 - Complete pass → [[Side Control Top]] (Success Rate: Beginner 60%, Intermediate 75%, Advanced 85%)
@@ -189,7 +189,7 @@ From Back Control:
       Adjust hooks and maintain (85% success)
 ```
 
-Eddie Bravo's perspective: "Pin positions are where you cook your opponent. The longer you maintain dominant position, the more their defense deteriorates. Energy cost asymmetry is your greatest weapon—you rest while they panic."
+Pin positions are where you cook your opponent. The longer you maintain dominant position, the more their defense deteriorates. Energy cost asymmetry is your greatest weapon - you rest while they panic.
 
 ### Level 4: Submission Positions (Match Victory)
 
@@ -252,7 +252,7 @@ The point structure creates several strategic considerations:
 4. **Comeback Potential**: Back control (4 points) or mount (4 points) can erase point deficits
 5. **Advantage Gaming**: Near-successful techniques earn advantages as tiebreakers
 
-Gordon Ryan's competition insight: "Point systems reward systematic position advancement. I score early to force opponents to take risks, then capitalize on their desperate offense with submissions. The hierarchy provides the roadmap for point accumulation."
+Point systems reward systematic position advancement. Scoring early forces opponents to take risks, then you can capitalize on their desperate offense with submissions. The hierarchy provides the roadmap for point accumulation.
 
 ## Energy Cost vs Positional Value
 
@@ -287,7 +287,7 @@ One of the most critical strategic concepts in positional hierarchy is the asymm
 
 ### The "Cooking" Effect
 
-The energy asymmetry in pin positions creates what Eddie Bravo calls the "cooking" effect. The top person maintains position with minimal energy expenditure while the bottom person exhausts themselves attempting escapes.
+The energy asymmetry in pin positions creates what's known as the "cooking" effect. The top person maintains position with minimal energy expenditure while the bottom person exhausts themselves attempting escapes.
 
 **Cooking Timeline from Mount**:
 - 0-30 seconds: Bottom person defends with high energy, remains dangerous
@@ -365,7 +365,7 @@ Example 2: Submission from Guard
 - Risk Score: Positive (proceed with caution)
 ```
 
-John Danaher's risk philosophy: "The positional hierarchy exists precisely because higher positions offer better risk-reward profiles for submissions. Attempting armbars from mount carries minimal risk because failure returns you to mount. Attempting armbars from guard risks guard passage and positional disaster. Position before submission is fundamentally a risk management principle."
+The positional hierarchy exists precisely because higher positions offer better risk-reward profiles for submissions. Attempting armbars from mount carries minimal risk because failure returns you to mount. Attempting armbars from guard risks guard passage and positional disaster. Position before submission is fundamentally a risk management principle.
 
 ## Position Advancement Paths
 
@@ -532,7 +532,7 @@ Escapes require significantly more energy than maintaining dominant positions. E
 4. **Accept minor position loss**: Half guard is better than mount, even though both are inferior to top position
 5. **Preserve energy for Priority 1 defense**: Always maintain capacity for submission defense
 
-Eddie Bravo's defensive philosophy: "The hierarchy tells you when to explode and when to conserve. Defending a submission requires maximum output. Escaping mount can be methodical. Understanding the priority difference prevents exhaustion from constant explosion."
+The hierarchy tells you when to explode and when to conserve. Defending a submission requires maximum output. Escaping mount can be methodical. Understanding the priority difference prevents exhaustion from constant explosion.
 
 ## Decision Trees and Positional Flow
 
@@ -587,35 +587,7 @@ Decision trees function as reactive flowcharts during live rolling:
 5. **Reassess position** after technique completion
 6. **Repeat process** from new position
 
-John Danaher's systematic approach: "Decision trees eliminate the guesswork from positional advancement. Every defensive response has an optimal counter-technique. Mastering decision trees transforms reactive scrambling into systematic position hunting. The hierarchy provides the vertical axis (where am I?), decision trees provide the horizontal axis (where can I go?)."
-
-## Expert Insights on Positional Hierarchy
-
-### John Danaher: Systematic Position Control
-
-"Brazilian Jiu-Jitsu is fundamentally a positional control game. The submission is merely the finish of a process that begins with systematic position advancement. The hierarchy exists because certain positions offer mechanical advantages that others do not. Mount provides gravity-assisted downward pressure. Guard provides distance control but lacks finishing pressure. Back control isolates the neck while preventing opponent vision and arm defense.
-
-The principle 'position before submission' emerges from risk assessment. Attempting submissions from weak positions risks catastrophic position loss. Attempting submissions from dominant positions risks minor position adjustment at worst. The hierarchy quantifies these risk differentials.
-
-Modern competition has elevated guard positions within the hierarchy through systematic development, but the fundamental pyramid remains: pins above passing above guards above neutral. This structure will never change because it reflects biomechanical reality."
-
-### Gordon Ryan: Competition Application
-
-"In competition, positional hierarchy becomes a point accumulation system and energy management tool. I use the hierarchy strategically in two ways:
-
-First, early point accumulation forces opponents into desperation mode. If I score a takedown (2), pass the guard (3), and achieve mount (4) in the first two minutes, I'm ahead 9-0. My opponent must now take significant risks to catch up, creating submission opportunities for me.
-
-Second, the energy asymmetry of dominant positions allows me to rest while opponents exhaust themselves. I maintain mount with minimal energy while they burn through their gas tank attempting escapes. By minute three, submission success rates double because opponent defense has deteriorated.
-
-The hierarchy is the roadmap to victory. Follow it systematically and you'll win matches without spectacular techniques. Ignore it and chase submissions from bad positions, and you'll lose to less talented but more systematic opponents."
-
-### Eddie Bravo: Innovation Within Structure
-
-"The traditional positional hierarchy is real and reflects biomechanical truth. But modern innovation is finding offensive capabilities at every level. Rubber guard attacks from bottom position can be as dangerous as mount attacks from top. Deep half guard can sweep directly to the back. The hierarchy still exists, but the gap between levels has narrowed.
-
-My approach is to develop positions that the hierarchy traditionally rates as defensive and find offensive pathways. [[Williams Guard]], [[Lockdown Position]], Mission Control—these are all 'inferior' positions in classical hierarchy, but they offer submission chains and sweeps that make them competitive.
-
-The key insight: the hierarchy measures average positional value, but specialization can invert local advantages. If you develop exceptional expertise in a 'lower' position, you can beat someone in a 'higher' position who lacks specialist knowledge. The hierarchy guides beginners but specialists can bend the rules."
+Decision trees eliminate the guesswork from positional advancement. Every defensive response has an optimal counter-technique. Mastering decision trees transforms reactive scrambling into systematic position hunting. The hierarchy provides the vertical axis (where am I?), decision trees provide the horizontal axis (where can I go?).
 
 ## Conclusion: Hierarchy as Strategic Framework
 

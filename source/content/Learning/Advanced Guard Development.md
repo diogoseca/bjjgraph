@@ -72,11 +72,6 @@ The Advanced Guard Development framework provides a systematic approach to culti
 - **In competition contexts** → Develop strategic scoring opportunities within guard frameworks
 - **For physical limitations** → Modify guard mechanics while maintaining conceptual implementation
 
-## Expert Insights
-- **Danaher System**: Approaches advanced guard development through what he calls "problem-based modification" where guard systems evolve by systematically addressing specific defensive challenges rather than accumulating techniques. Emphasizes understanding the underlying "mechanical imperatives" that make certain guard positions functionally effective beyond their superficial form. Particularly focuses on developing what he terms "connection points hierarchy" where practitioners identify and control the most biomechanically significant points regardless of specific guard variation.
-- **Gordon Ryan**: Views advanced guard development as creating what he calls "layered attack systems" where multiple offensive threats operate simultaneously from the same guard configuration, forcing defensive compromises. Places particular emphasis on "guard consolidation" where practitioners develop personalized approaches that integrate elements from different established systems rather than rigidly adhering to orthodox methods. His approach emphasizes developing "sensitivity-based adaptation" where guard adjustments occur reflexively based on tactile feedback rather than visual cues.
-- **Eddie Bravo**: Has pioneered specialized guard systems through his 10th Planet approach, focusing on creating what he calls "control position chains" where guards flow seamlessly based on specific defensive reactions. When teaching advanced guard concepts, emphasizes developing what he calls "path dependency" where early engagement decisions create specific strategic branches that enhance certain techniques while precluding others. His rubber guard and related systems demonstrate how specialized guards can create unique strategic advantages through unconventional control mechanisms.
-
 ## Common Obstacles
 - **Overspecialization** → Development of complementary systems that address specialized weaknesses
 - **Technical Isolation** → Integration of techniques into coherent tactical frameworks

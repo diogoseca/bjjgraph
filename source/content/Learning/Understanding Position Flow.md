@@ -285,23 +285,23 @@ This family has revolutionized modern BJJ with its high submission rates and com
 
 Expert players develop strategic flow patterns - sequences of positions and transitions that lead reliably to their strongest positions and submissions.
 
-### John Danaher's Systematic Flow
+### Systematic Back Attack Flow
 
-John Danaher teaches systematic flow patterns based on position hierarchy and submission chains:
+Systematic flow patterns based on position hierarchy and submission chains prioritize reaching back control (the highest value position) through reliable sequences:
 
 **Back Attack Flow:**
 [[Standing Guard]] → [[Snap Down]] → [[Turtle Position Top]] → [[Back Control]] → [[Rear Naked Choke]] or [[Armbar from Back]]
 
-This flow prioritizes reaching back control (the highest value position) through a reliable sequence. Danaher emphasizes controlling the stages of the flow and never rushing forward without securing each position first.
+The key principle is controlling each stage of the flow and never rushing forward without securing each position first.
 
 **Guard Passing Flow:**
 [[Standing Guard]] → [[Leg Drag Position]] → [[Back Control]] or [[Side Control Top]] → [[Mount]] → [[Armbar from Mount]] or [[Triangle Choke]]
 
-This flow shows systematic advancement through position hierarchy, always improving position before attacking submissions.
+This flow demonstrates systematic advancement through position hierarchy, always improving position before attacking submissions.
 
-### Gordon Ryan's Competition Flow
+### Competition-Tested Flow Patterns
 
-Gordon Ryan's flow patterns emphasize high-percentage techniques that work under competition pressure:
+High-percentage techniques that work under competition pressure form the basis of effective flow patterns:
 
 **Front Headlock Flow:**
 [[Neutral Standing Position]] → [[Snap Down]] → [[Front Headlock]] → [[Guillotine Control]] or [[Anaconda Control]] → Submission
@@ -311,11 +311,11 @@ This flow leverages front headlock as a central hub connecting to multiple high-
 **Leg Lock Flow:**
 [[Closed Guard Bottom]] → [[Triangle Choke from Guard]] → Opponent defends → [[Ashi Garami]] entry → [[Inside Heel Hook]] or [[Saddle]] transition
 
-Ryan's flow shows how failed submissions can set up entries to completely different attacking systems.
+This flow shows how failed submissions can set up entries to completely different attacking systems.
 
-### Eddie Bravo's Rubber Guard Flow
+### Rubber Guard Flow
 
-Eddie Bravo's 10th Planet system features unique flow patterns:
+The 10th Planet system features unique flow patterns:
 
 **Rubber Guard Flow:**
 [[Closed Guard Bottom]] → [[Rubber Guard]] → [[Mission Control]] → [[Omoplata Control]] or [[Gogoplata Setup]] or [[Triangle Control]]

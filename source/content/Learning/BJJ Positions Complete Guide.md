@@ -21,8 +21,7 @@ This complete guide teaches you the strategic framework behind all BJJ positions
 8. [Learning Progression by Belt Level](#learning-progression-by-belt-level)
 9. [Position Retention and Success Rates](#position-retention-and-success-rates)
 10. [Strategic Frameworks and Game Plans](#strategic-frameworks-and-game-plans)
-11. [Expert Approaches to Positions](#expert-approaches-to-positions)
-12. [Training Methodology](#training-methodology)
+11. [Training Methodology](#training-methodology)
 
 ---
 
@@ -122,7 +121,7 @@ The point system shapes strategic decision-making:
 - Tied or trailing: Aggressive advancement, submission hunting
 - Final minutes: Point advantages become critical
 
-This creates "decision dilemmas" (Craig Jones concept): opponent's defensive choices open different offensive opportunities, making every position a strategic puzzle.
+This creates decision dilemmas: opponent's defensive choices open different offensive opportunities, making every position a strategic puzzle.
 
 ---
 
@@ -390,12 +389,12 @@ When opponent stands or creates distance, [[Closed Guard Bottom]] opens to [[Ope
 **[[Lockdown Guard]]**: Figure-four lock on opponent's leg (10th Planet system)
 - Extreme leg control
 - Setup for [[Electric Chair]] submission
-- Signature Eddie Bravo position
+- Signature 10th Planet position
 - Control Success: Beginner 35%, Intermediate 50%, Advanced 65%
 
 ### Specialty Guard Systems
 
-**[[Rubber Guard]]**: High guard with overhook (Eddie Bravo system)
+**[[Rubber Guard]]**: High guard with overhook (10th Planet system)
 - Extreme posture control
 - Setup for [[Gogoplata]] and [[Omoplata]]
 - Requires flexibility
@@ -482,7 +481,7 @@ Scrambles occur when both practitioners are in transitional states simultaneousl
 
 ## Leg Entanglement Systems
 
-Leg entanglement positions represent modern BJJ evolution, focusing on lower body control and leg attacks. This system gained prominence through John Danaher's systematic approach and Gordon Ryan's competitive dominance.
+Leg entanglement positions represent modern BJJ evolution, focusing on lower body control and leg attacks. This system has gained prominence in modern no-gi competition due to its systematic approach and high submission success rates.
 
 ### Understanding Leg Entanglement Strategy
 
@@ -492,7 +491,7 @@ Leg entanglement positions represent modern BJJ evolution, focusing on lower bod
 - Heel hooks provide highest submission rate in modern no-gi
 - System requires specialized training for safety
 
-**Strategic Framework (Danaher System):**
+**Strategic Framework:**
 1. **Outside Position** ([[Outside Ashi Garami]]): Controlling opponent's leg from outside
 2. **Inside Position** ([[Ashi Garami]]): Standard leg entanglement
 3. **50/50** ([[50-50 Guard]]): Symmetrical leg engagement
@@ -529,7 +528,7 @@ Leg entanglement positions represent modern BJJ evolution, focusing on lower bod
 ### Safety Considerations
 
 **CRITICAL WARNING**: Leg entanglements, especially heel hooks, can cause severe knee and ankle injuries. Training requires:
-- Qualified instruction from credible instructors
+- Qualified instruction
 - Gradual progression through system
 - Immediate tap when caught (no "tough it out")
 - Partner awareness and communication
@@ -793,9 +792,9 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 ### Position Hybridization
 
 **Complete Game:** Elite players combine frameworks:
-- Gordon Ryan: Top pressure + leg locks + back attacks
-- Buchecha: Top game with guard retention insurance
-- Musumeci: Guard game with leg lock threats + sweeps
+- Elite no-gi: Top pressure + leg locks + back attacks
+- Elite gi: Top game with guard retention insurance
+- Elite lightweight: Guard game with leg lock threats + sweeps
 
 **Building Your Game:**
 1. **Start with one framework** (guard, top, or legs)
@@ -803,63 +802,6 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 3. **Add backup positions** from other frameworks
 4. **Create position chains** that flow naturally
 5. **Drill transitions** between your positions (70%+ success)
-
----
-
-## Expert Approaches to Positions
-
-Understanding how top practitioners conceptualize positions provides insight into high-level strategy.
-
-### John Danaher: Systematic Position Theory
-
-**Core Philosophy:** Positions exist in hierarchical systems with predictable pathways. Mastery comes from understanding the system, not memorizing techniques.
-
-**Danaher Position Approach:**
-1. **Inside Position Theory**: Control the inside space in every position
-2. **Control Hierarchies**: Some controls matter more than others (e.g., head control > arm control)
-3. **Systematic Attacks**: Create sequences where opponent's defense to A opens B
-4. **Positional Pressure**: Use position to drain opponent energy before attacking
-5. **Back Attack System**: Every position should have path to [[Back Control]]
-
-**Danaher on [[Mount]]:** "The mount is not about crushing your opponent with weight. It's about creating geometric problems where every defensive movement creates a worse problem."
-
-**Danaher on [[Closed Guard Bottom]]:** "The closed guard is a systematic position where you force the opponent to choose between maintaining posture (where you sweep) or breaking posture (where you submit)."
-
-**Danaher on Leg Entanglements:** Created comprehensive leg lock system with clear positional hierarchy from [[Ashi Garami]] to [[Inside Sankaku]], treating legs as equal submission targets to upper body.
-
-### Gordon Ryan: Competition-Focused Positioning
-
-**Core Philosophy:** Positions should create decision dilemmas where opponent's correct defense to one attack opens another. Everything builds toward back attacks and leg locks.
-
-**Gordon Ryan Position Approach:**
-1. **Pressure and Problems**: Use body pressure to create constant problems
-2. **Dilemma Creation**: Attack A and B simultaneously so defending one exposes other
-3. **Dynamic Control**: Float between position variations to prevent opponent settling
-4. **Time Management**: Use positions to drain opponent's energy/time
-5. **Finish-Oriented**: Every position maintained to create finishing opportunity
-
-**Gordon Ryan on [[Side Control]]:** Uses floating side control, constantly shifting weight to prevent opponent from timing escapes. "They can't escape what they can't predict."
-
-**Gordon Ryan on [[Closed Guard Bottom]]:** Rarely plays closed guard in competition, preferring open guards that lead to [[Ashi Garami]] or immediate sweeps. "Why wait to break posture when I can sweep immediately?"
-
-**Gordon Ryan on Modern BJJ:** "The most dominant players establish their best positions fastest. Buchecha takes top position. I take inside sankaku. Both win."
-
-### Eddie Bravo: Innovation and Unorthodox Systems
-
-**Core Philosophy:** Traditional positions can be reimagined with creative control mechanisms. Flexibility and unorthodox thinking create opportunities opponents don't expect.
-
-**Eddie Bravo Position Approach:**
-1. **Rubber Guard System**: Transform [[Closed Guard Bottom]] into attacking position
-2. **Lockdown Half Guard**: Control opponent's leg to neutralize passing
-3. **Truck Position**: Back attack variation from [[Turtle Position]]
-4. **Twister**: Specialized submission from [[Truck Position]]
-5. **10th Planet System**: Interconnected positions flow from one to another
-
-**Eddie Bravo on [[Closed Guard Bottom]]:** "Traditional closed guard is passive. Rubber guard gives me control like I have mount, but from bottom." Created [[Mission Control]] and [[Rubber Guard]] variations.
-
-**Eddie Bravo on [[Half Guard Bottom]]:** Pioneered [[Lockdown Guard]] with figure-four leg control: "If I can't sweep immediately, I'll control their leg so completely they can't pass either."
-
-**Eddie Bravo on Position Innovation:** "Everyone does the same techniques from the same positions. Find new controls, find new positions, find new attacks."
 
 ---
 

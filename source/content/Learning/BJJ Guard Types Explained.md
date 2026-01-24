@@ -144,16 +144,12 @@ Guards are organized into four main families based on leg connection and control
 - Energy-intensive to maintain
 - Opponent can stack and pressure
 
-**Expert Insight - John Danaher**: "Closed guard is the foundation of all guard work. The ability to control someone's posture while they're trapped between your legs develops the fundamental understanding of distance management, hip mobility, and timing that applies to every other guard position."
-
-**Expert Insight - Gordon Ryan**: "I rarely use closed guard in competition anymore because modern guard passing has evolved to counter it, but every sweep and submission I do from open guard is based on principles I learned in closed guard first."
-
-**Expert Insight - Eddie Bravo**: "Closed guard is where I developed the entire rubber guard system. Most people think closed guard is limited, but it's only limited if you keep your legs at your opponent's waist. When you start breaking them down and getting angles, closed guard becomes an offensive powerhouse."
+Closed guard is the foundation of all guard work. The ability to control someone's posture while they're trapped between your legs develops the fundamental understanding of distance management, hip mobility, and timing that applies to every other guard position. While modern guard passing has evolved to counter it, every sweep and submission from open guard is based on principles learned in closed guard first. Closed guard is only limited if you keep your legs at your opponent's waist - when you start breaking them down and getting angles, it becomes an offensive powerhouse.
 
 ---
 
 ### Rubber Guard System
-**[[Rubber Guard]]** - Eddie Bravo's innovative closed guard variation
+**[[Rubber Guard]]** - Innovative closed guard variation from the 10th Planet system
 
 **Mechanics**: Closed guard with one leg hooked over opponent's shoulder and behind their head, using flexibility to break posture and control
 
@@ -179,7 +175,7 @@ Guards are organized into four main families based on leg connection and control
 - Good grip endurance
 - Understanding of 10th Planet system
 
-**Expert Insight - Eddie Bravo**: "Rubber guard completely changed the game because it gave guys with flexibility a way to break posture that strong guys couldn't defend with strength alone. It's not about being a contortionist - it's about using your flexibility strategically."
+Rubber guard changed the game because it gave flexible practitioners a way to break posture that strong opponents couldn't defend with strength alone. It's not about being a contortionist - it's about using flexibility strategically.
 
 ---
 
@@ -242,7 +238,7 @@ Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, y
 - Can be stacked/compressed
 - No-gi ineffective
 
-**Expert Insight - John Danaher**: "Spider guard revolutionized guard passing defense by making it impossible for the passer to get close to your hips without first breaking your grip control. It's a perfect example of using geometry - extending your legs creates angles that make passing mechanically inefficient."
+Spider guard revolutionized guard passing defense by making it impossible for the passer to get close to your hips without first breaking your grip control. It's a perfect example of using geometry - extending your legs creates angles that make passing mechanically inefficient.
 
 ---
 
@@ -272,7 +268,7 @@ Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, y
 - Single sleeve DLR - One grip variation
 - Combination DLR - Mixed with other guards
 
-**Expert Insight - Gordon Ryan**: "De La Riva is still one of the most effective guards in modern competition because it directly attacks the opponent's base and posture. Every high-level competitor has a DLR game because it's so effective at creating off-balancing opportunities."
+De La Riva remains one of the most effective guards in modern competition because it directly attacks the opponent's base and posture. Every high-level competitor has a DLR game because it's so effective at creating off-balancing opportunities.
 
 ---
 
@@ -314,7 +310,7 @@ Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, y
 - Vulnerable to stack passes
 - Active/dynamic position (not passive)
 
-**Expert Insight - John Danaher**: "Butterfly guard is the most versatile guard in jiu-jitsu because it naturally connects to nearly every other guard position. Master butterfly guard and you have access to the entire bottom game."
+Butterfly guard is the most versatile guard in jiu-jitsu because it naturally connects to nearly every other guard position. Master butterfly guard and you have access to the entire bottom game.
 
 ---
 
@@ -339,7 +335,7 @@ Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, y
 - [[Omoplata]] - Shoulder attack
 - Back takes from lasso
 
-**Expert Insight - Gordon Ryan**: "Lasso is one of those guards that's incredibly effective but also incredibly annoying to play against. When done right, it makes it almost impossible for the passer to do anything without first dealing with that lasso control."
+Lasso is one of those guards that's incredibly effective but also challenging to play against. When done right, it makes it almost impossible for the passer to do anything without first dealing with that lasso control.
 
 ---
 
@@ -443,7 +439,7 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 
 **Variations**:
 - [[Knee Shield Half Guard]] - Frame with knee shield
-- [[Lockdown Guard]] - Eddie Bravo's lockdown system
+- [[Lockdown Guard]] - 10th Planet lockdown system
 - [[Deep Half Guard]] - Get deep under opponent
 - [[Reverse Half Guard Bottom]] - Opposite leg trapped
 - [[Z-Guard Bottom]] - Knee shield variation
@@ -460,9 +456,7 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 - Requires good framing
 - Opponent can consolidate pass
 
-**Expert Insight - John Danaher**: "Half guard is not a goal position - it's a transitional position. Your objective should always be to either recover full guard or immediately sweep to top position. Staying in half guard too long allows your opponent to consolidate and pass."
-
-**Expert Insight - Gordon Ryan**: "I probably spend more time in half guard than any other position during a match. It's where everyone ends up when they're defending passes, so if you master half guard, you essentially become un-passable."
+Half guard is not a goal position - it's a transitional position. Your objective should always be to either recover full guard or immediately sweep to top position. Staying in half guard too long allows your opponent to consolidate and pass. However, it's where everyone ends up when defending passes, so if you master half guard, you essentially become un-passable.
 
 ---
 
@@ -487,7 +481,7 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 - Back take - Using knee shield distance
 - Transition to butterfly hooks
 
-**Expert Insight - Gordon Ryan**: "Knee shield is my primary defensive frame in half guard. It prevents the opponent from getting close enough to consolidate side control while giving me the distance I need to set up sweeps and back takes."
+Knee shield is a primary defensive frame in half guard. It prevents the opponent from getting close enough to consolidate side control while giving you the distance needed to set up sweeps and back takes.
 
 ---
 
@@ -512,7 +506,7 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 - [[Twister Setup]] - To truck position
 - Vaporizer sweep
 
-**Expert Insight - Eddie Bravo**: "The lockdown revolutionized half guard by giving smaller guys a way to control bigger, stronger opponents. When you lockdown their leg, all their pressure and strength becomes irrelevant because they can't move."
+The lockdown revolutionized half guard by giving smaller practitioners a way to control bigger, stronger opponents. When you lockdown their leg, all their pressure and strength becomes irrelevant because they can't move.
 
 ---
 
@@ -536,7 +530,7 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 - Waiter sweep - Technical sweep
 - Back take - From deep position
 
-**Expert Insight - John Danaher**: "Deep half guard is one of the most effective sweeping positions in all of jiu-jitsu when done correctly. You're attacking your opponent's base from underneath where they have minimal defensive options."
+Deep half guard is one of the most effective sweeping positions in all of jiu-jitsu when done correctly. You're attacking your opponent's base from underneath where they have minimal defensive options.
 
 ---
 
@@ -613,7 +607,7 @@ These guards focus on controlling opponent's legs, creating sweeps and leg lock 
 - Commitment required
 - Less submission options (primarily sweep-focused)
 
-**Expert Insight - Gordon Ryan**: "X-Guard is still one of the highest percentage sweeps in no-gi because you're attacking both of the opponent's legs simultaneously. They literally have nothing to base on when X-Guard is locked in properly."
+X-Guard is still one of the highest percentage sweeps in no-gi because you're attacking both of the opponent's legs simultaneously. They literally have nothing to base on when X-Guard is locked in properly.
 
 ---
 
@@ -639,7 +633,7 @@ These guards focus on controlling opponent's legs, creating sweeps and leg lock 
 - [[Kneebar Control]] - Knee attack
 - Back take opportunities
 
-**Expert Insight - John Danaher**: "Single Leg X is the foundation of the entire modern leg lock game. From this position, you have simultaneous threats of sweeps, back takes, and leg attacks, creating true dilemmas for your opponent."
+Single Leg X is the foundation of the entire modern leg lock game. From this position, you have simultaneous threats of sweeps, back takes, and leg attacks, creating true dilemmas for your opponent.
 
 ---
 
@@ -666,7 +660,7 @@ These guards focus on controlling opponent's legs, creating sweeps and leg lock 
 
 **Controversy**: Often criticized for stalling in competition
 
-**Expert Insight - Gordon Ryan**: "50-50 is misunderstood. People think it's a stalling position, but if you actually understand leg locks, 50-50 is a constant battle where both people are attacking and defending simultaneously. It's like a chess match with your legs."
+50-50 is often misunderstood. People think it's a stalling position, but if you actually understand leg locks, 50-50 is a constant battle where both people are attacking and defending simultaneously. It's like a chess match with your legs.
 
 ---
 
@@ -1029,50 +1023,6 @@ Regardless of which guard you choose, these principles maintain any guard:
 
 5. **Passive Grips** - Letting opponent control grips
    - Fix: Active grip fighting, establish controls first
-
----
-
-## Expert Guard Philosophies
-
-### John Danaher: Systematic Guard Approach
-
-**Philosophy**: "Every guard position should create a systematic network of attacks where the opponent's defensive reaction to one technique opens the next attack."
-
-**Key Principles**:
-- Position precedes submission
-- Create inescapable dilemmas
-- Technical precision over athleticism
-- Systematic transitions between guards
-
-**Recommended Guards**: [[Closed Guard Bottom]], [[Half Guard Bottom]], [[Ashi Garami]], [[Single Leg X Guard]]
-
----
-
-### Gordon Ryan: Competition-Tested Guards
-
-**Philosophy**: "I only use guards that have proven effective at the highest levels of competition. If it doesn't work on world-class opponents, I don't waste time on it."
-
-**Key Principles**:
-- High-percentage techniques only
-- Guard as entry to leg locks or back control
-- Dynamic guard passing/retention
-- Gi and no-gi specialization
-
-**Primary Guards**: [[Butterfly Guard]], [[Single Leg X Guard]], [[Half Guard Bottom]], [[De La Riva Guard]]
-
----
-
-### Eddie Bravo: Creative Guard Innovation
-
-**Philosophy**: "Traditional guards are limited by traditional thinking. Modern guards should use every available control - flexibility, creativity, and innovation."
-
-**Key Principles**:
-- Flexibility-based advantages
-- Unorthodox positions
-- Breaking posture completely
-- MMA-applicable guards
-
-**Signature Guards**: [[Rubber Guard]], [[Lockdown Guard]], [[Twister Control]]
 
 ---
 

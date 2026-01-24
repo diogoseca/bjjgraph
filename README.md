@@ -21,39 +21,39 @@ Brazilian Jiu-Jitsu knowledge graph and state machine as a static site.
 ## Quick Start
 
 ```bash
-cd source
-npm install          # Install dependencies (Node 20+)
-npx quartz build --serve   # Development server at localhost:8080
+cd source && npm install   # Install dependencies (Node 20+)
+cd .. && npm run dev       # Development server at localhost:8080
 ```
 
 ## Contributing
 
+### npm Scripts (Root package.json)
+
+| Command | Description |
+|---------|-------------|
+| `npm run validate` | Validate JSON and list files needing fixes |
+| `npm run generate:md` | Regenerate markdown from JSON |
+| `npm run generate:hubs` | Generate category hub pages |
+| `npm run generate:graph` | Generate BJJ graph data |
+| `npm run regenerate` | Run all generation (validate + md + hubs + graph) |
+| `npm run build` | Build static site |
+| `npm run regenerate:build` | Regenerate + build (full workflow) |
+| `npm run dev` | Development server with live reload |
+
 ### Pre-Flight Checklist
 
-Before making changes, run these commands:
-
 ```bash
-# 1. Validate JSON source files
-python3 scripts/validate_json.py
-
-# 2. Regenerate markdown from JSON
-python3 scripts/json_to_md.py
-
-# 3. Build the site
-cd source && npx quartz build
-
-# 4. Run type checking
-cd source && npm run check
+npm run regenerate:build   # Full validation, generation, and build
+cd source && npm run check # Type checking
 ```
 
 ### Content Workflow
 
 BJJGraph uses a **JSON-first** content system:
 
-1. **Edit** JSON source files in `source/content/`
-2. **Validate** with `python3 scripts/validate_json.py`
-3. **Regenerate** markdown with `python3 scripts/json_to_md.py`
-4. **Test** build with `npx quartz build --serve`
+1. **Edit** JSON source files in `source/templates/`
+2. **Validate & Regenerate** with `npm run regenerate`
+3. **Test** build with `npm run dev`
 
 Never edit `.md` files in `source/content/` directly - they are generated from JSON.
 

@@ -5,9 +5,8 @@
 ### Editing Content (JSON-First)
 
 1. **Edit JSON source** in `source/templates/*.json`
-2. **Validate** with `python3 scripts/validate_json.py`
-3. **Regenerate markdown** with `python3 scripts/json_to_md.py`
-4. **Test build** with `cd source && npx quartz build --serve`
+2. **Validate & Regenerate** with `npm run regenerate`
+3. **Test build** with `npm run dev`
 
 Never edit files in `source/content/` directly - they are regenerated from JSON.
 
@@ -57,7 +56,7 @@ Never edit files in `source/content/` directly - they are regenerated from JSON.
 
 ### Validation
 
-Run `python3 scripts/validate_json.py` to check all wikilinks resolve.
+Run `npm run validate` to check all wikilinks resolve.
 
 ---
 
@@ -198,7 +197,7 @@ tags:
 ### Run Before Every Commit
 
 ```bash
-python3 scripts/validate_json.py
+npm run regenerate:build
 ```
 
 ### What Validation Checks
@@ -211,10 +210,7 @@ python3 scripts/validate_json.py
 
 ### Fixing Validation Errors
 
-```bash
-# Auto-fill TODOs and fix common issues
-./scripts/fix_content.sh "source/templates/Positions.json"
-```
+The validation output shows files needing fixes. Edit the JSON source files directly in `source/templates/`.
 
 ---
 

@@ -54,13 +54,6 @@ Learning Psychology in BJJ explores the cognitive processes underlying skill acq
 - **Mindful Repetition** - Quality-focused drilling with attention to detailed execution
 - **Progressive Loading** - Systematically increasing resistance levels to develop skill transferability
 
-## Expert Insights
-- **Danaher System**: Emphasizes conceptual understanding as the foundation for technical development. Focuses on articulating underlying principles and creating systematic frameworks for technique selection and application. Approaches learning through problem-solving frameworks that promote deep understanding rather than rote memorization. Particularly values the ability to verbalize technical details and rationalize decision-making processes.
-
-- **Gordon Ryan**: Exemplifies the value of deliberate practice and progressive skill development through systematic exposure to increasing challenges. Demonstrates how consciously directed learning efforts targeting specific weaknesses can accelerate development. Emphasizes the importance of structured repetition within dynamically changing contexts to develop robust skill application.
-
-- **Eddie Bravo**: Approaches learning through conceptual innovation and creative problem-solving. Emphasizes the value of developing personalized understanding and adaptation of techniques to individual attributes. Particularly focuses on naming techniques and creating clear verbal/conceptual hooks to enhance learning and recall during application.
-
 ## Common Mistakes
 - **Passive Observation** → Limited skill development despite extensive watching
 - **Overloaded Working Memory** → Attempting to learn too many details simultaneously

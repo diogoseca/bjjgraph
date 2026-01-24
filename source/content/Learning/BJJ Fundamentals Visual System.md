@@ -33,7 +33,7 @@ The visual learning system changes this paradigm by representing BJJ as an inter
 
 **Pattern Recognition**: By seeing positions and transitions graphically, practitioners develop faster pattern recognition. They begin to recognize familiar structures during rolling and can anticipate transitions before they happen. This meta-awareness separates experienced practitioners from perpetual beginners.
 
-The BJJ Graph platform implements this visual learning system through an interactive knowledge graph. Each page represents a position or technique with detailed execution steps, success rates, common counters, and expert insights from John Danaher, Gordon Ryan, and Eddie Bravo. Internal links create the network structure, allowing exploration of the entire BJJ curriculum as an interconnected system.
+The BJJ Graph platform implements this visual learning system through an interactive knowledge graph. Each page represents a position or technique with detailed execution steps, success rates, and common counters. Internal links create the network structure, allowing exploration of the entire BJJ curriculum as an interconnected system.
 
 ## Five Core Concepts That Define All Techniques
 
@@ -270,7 +270,7 @@ Systematic skill development follows a predictable progression. While every prac
 **Primary Focus**: Integrate all positions into coherent game plan
 
 **Technical Goals**:
-- Develop systematic approach to position (Danaher-style systems)
+- Develop systematic approach to position (integrated systems)
 - Master transition chains between positions
 - Refine submission entries and finishes
 - Understand advanced guard variations
@@ -333,15 +333,6 @@ From [[Closed Guard Bottom]]:
 - IF opponent stands THEN transition to [[Open Guard Bottom]] or execute ankle pick sweep
 
 This decision-tree approach mirrors how experienced practitioners think during rolling, making implicit expertise explicit for learners.
-
-### Expert Commentary Integration
-
-Every technical page includes insights from three expert perspectives:
-- **John Danaher**: Systematic approach, biomechanical analysis, theoretical frameworks
-- **Gordon Ryan**: Competition application, high-percentage techniques, modern meta
-- **Eddie Bravo**: Innovation, unorthodox approaches, 10th Planet methodology
-
-This multi-perspective commentary prevents dogmatic thinking and exposes learners to different philosophical approaches to the same positions.
 
 ### Interconnected Learning Paths
 
@@ -479,58 +470,13 @@ For closed guard players:
 
 These concepts apply across all your techniques, making them system principles rather than isolated skills.
 
-## Expert Perspectives on Fundamental Development
-
-### John Danaher: Systematic Approach to Fundamentals
-
-John Danaher emphasizes developing interconnected systems rather than isolated techniques. His fundamental teaching focuses on:
-
-"Position establishes control. Control facilitates submission. This is the hierarchy that must be respected. Students who chase submissions from weak positions will struggle indefinitely, while those who establish superior position first will find submissions abundant."
-
-Danaher recommends spending entire training blocks on single positions - a month focusing exclusively on closed guard, then a month on mount, then side control. This depth-first approach develops true mastery rather than superficial familiarity.
-
-His systematic approach to fundamentals emphasizes:
-- Understanding WHY positions work mechanically
-- Developing decision trees for every position
-- Creating submission chains that flow naturally
-- Respecting positional hierarchy absolutely
-- Building comprehensive understanding before specialization
-
-### Gordon Ryan: Competition-Tested Fundamentals
-
-Gordon Ryan's approach to fundamentals emphasizes techniques that work at the highest levels of competition:
-
-"I don't care if a technique looks cool or works in the training room. I care if it works when someone is trying their absolute hardest to stop it. High-percentage fundamentals are techniques that work even when opponent knows they're coming."
-
-Ryan recommends identifying the 2-3 highest percentage techniques in each position and mastering them completely before adding variations. His fundamental game includes:
-- [[Closed Guard]] attacks with heavy emphasis on armbar and triangle
-- [[Mount]] control with patient submission setups
-- [[Back Control]] with systematic rear naked choke progression
-- Guard passing focused on [[Knee Cut Pass]] and [[Leg Drag Control]]
-
-For Ryan, fundamentals mean techniques that work at black belt world championship level, not just white belt competition. Testing techniques in hard sparring reveals which fundamentals are truly fundamental.
-
-### Eddie Bravo: Fundamental Innovation
-
-Eddie Bravo's 10th Planet system redefines fundamentals by challenging orthodox positions:
-
-"Everyone says learn fundamentals first, but what are fundamentals? They're just techniques that worked for previous generations. If we never innovate, the art never evolves. I teach fundamental concepts through innovative positions."
-
-Bravo's approach includes:
-- [[Rubber Guard]] as fundamental closed guard variation for No-Gi
-- [[Lockdown Position]] as fundamental half guard control
-- [[Twister Control]] as fundamental back attack
-- Electric chair and vaporizer as fundamental submissions
-
-While controversial, Bravo's emphasis is important: fundamental concepts (control, pressure, leverage) matter more than fundamental positions. Students who understand concepts can adapt to any position, including innovations.
-
 ## Conclusion: The Path Forward
 
 Mastering BJJ fundamentals is a journey measured in years, not months. The visual learning system accelerated this journey by providing systematic framework, explicit success probabilities, and interconnected understanding of the art.
 
 The five core concepts - base, posture, frames, leverage, and weight distribution - apply to every technique you'll learn throughout your BJJ career. The five fundamental positions - closed guard, mount, side control, back control, and standing - form the foundation upon which all advanced techniques are built.
 
-Use BJJ Graph as your learning companion. Explore the position map to understand relationships. Study decision trees to develop strategic thinking. Review expert insights to gain multiple perspectives. Track your progress through the belt progression framework.
+Use BJJ Graph as your learning companion. Explore the position map to understand relationships. Study decision trees to develop strategic thinking. Track your progress through the belt progression framework.
 
 Most importantly, train consistently. Show up to class. Drill techniques deliberately. Roll with higher belts. Compete when ready. Ask questions. Take notes. Review concepts. Stay humble. Tap early. Help training partners.
 

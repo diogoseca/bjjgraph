@@ -37,7 +37,7 @@ This pattern recognition is fundamental to advanced BJJ. The best practitioners 
 
 Many BJJ students accumulate techniques like trading cards: isolated pieces of information with no organizing structure. Visual learning forces systematic thinking. When you create or study a visual map of your guard game, you must consider how techniques connect, which positions transition to others, and where gaps exist in your system.
 
-This systematic approach aligns with expert teaching methodologies. John Danaher's success comes largely from presenting BJJ as interconnected systems rather than random technique collections. Visual learning tools enable students to adopt this systematic mindset from day one.
+This systematic approach aligns with effective teaching methodologies. Presenting BJJ as interconnected systems rather than random technique collections dramatically improves learning outcomes. Visual learning tools enable students to adopt this systematic mindset from day one.
 
 ## Visual Learning Tools for BJJ
 
@@ -131,7 +131,7 @@ The platform's search and filtering capabilities enable focused study:
 
 **Position type filtering**: View only guard positions, only top positions, or only submission finishes. This categorical filtering helps during focused study sessions.
 
-**Expert system filtering**: Isolate techniques associated with specific expert systems (Danaher, Gordon Ryan, Eddie Bravo). If you're studying leg locks, filter for Danaher-associated positions to see his systematic approach.
+**Expert system filtering**: Isolate techniques associated with specific systems like [[Gordon Ryan Passing System]] or other named systems. If you're studying leg locks, filter for systematic leg attack positions to see how they connect.
 
 **Success rate filtering**: Show only high-percentage techniques for competition preparation, or include lower-percentage techniques when expanding your game exploration.
 
@@ -355,44 +355,6 @@ The map metaphor suggests several strategic approaches:
 **Escape route prioritization**: From every position you occupy, especially vulnerable ones, know the shortest route back to safe territory. Visual mapping makes escape route learning systematic rather than panicked.
 
 **Territory expansion**: Systematically expand your territory by learning positions adjacent to your current strongholds. This incremental expansion is more effective than random technique accumulation.
-
-## Expert Insights on Systematic Learning
-
-### John Danaher: Systematic Framework Development
-
-John Danaher's teaching success stems largely from systematic, interconnected frameworks rather than isolated technique instruction. His approach aligns perfectly with visual learning methodologies:
-
-"The fundamental problem with most BJJ instruction is the lack of an organizing system. Students accumulate hundreds of techniques with no understanding of how they fit together. It's like giving someone a thousand puzzle pieces with no picture on the box to guide assembly."
-
-Danaher emphasizes hierarchical organization, where techniques group into systems, systems group into positions, and positions exist within strategic frameworks. Visual tools like knowledge graphs and hierarchical diagrams perfectly represent this organizational philosophy.
-
-"When you see the whole system laid out visually - how this guard connects to that sweep which enables this submission which chains to that position - you're not memorizing techniques anymore. You're understanding the architecture of the position, and that understanding is infinitely more powerful than memorization."
-
-His systematic approach to leg locks demonstrates visual learning principles. Rather than teaching heel hooks, toe holds, and kneebars as separate techniques, he presents them as interconnected elements of a position-based system where transitions between leg entanglements follow logical, learnable patterns that visual mapping makes explicit.
-
-### Gordon Ryan: Competition-Focused Systematic Development
-
-Gordon Ryan applies systematic thinking to competition strategy, using mental mapping to guide training priorities and match decision-making:
-
-"I don't think about individual techniques during matches. I think about position systems and pathways. I know if I get to position A, I have three high-percentage options to positions B, C, or D, and from each of those I have submission finishes or further positional advancement. That's systematic thinking."
-
-Ryan advocates for visual competition preparation, creating game plan flowcharts that account for opponent reactions and backup options. This systematic approach reduces decision-making cognitive load during matches, allowing faster, more confident execution.
-
-"Map out your A-game visually before competition. What position are you strongest from? What are the highest-percentage ways to get there? What are your finishes from that position? What if those are defended? Having this mapped out visually means you're not making it up as you go. You're executing a prepared strategy."
-
-His emphasis on understanding position relationships before learning specific techniques echoes visual learning principles. See how positions connect, understand strategic advantages and disadvantages, then learn specific techniques within that systematic context.
-
-### Eddie Bravo: Creative Innovation Through Visual Exploration
-
-Eddie Bravo's innovative approach to BJJ, particularly the 10th Planet system, demonstrates how visual thinking enables creative discovery:
-
-"The rubber guard system came from visually mapping out what positions gave me the most control while preserving attack options. I drew it out, looked at the angles, saw where control points aligned with submission mechanics, and discovered connections that weren't in traditional systems."
-
-Bravo advocates using visual exploration to discover personal techniques that work for individual body types and attributes. Rather than assuming everyone should play the same game, visual mapping reveals where your physical attributes create advantages.
-
-"Draw out your game, honestly assess your strengths and weaknesses, and look for positions where your strengths are amplified. If you're flexible, visual mapping will show you positions that most people avoid but where you might dominate. If you're strong, different positions will light up as high-leverage opportunities."
-
-His systematic development of [[Mission Control]], [[Rubber Guard]], and other positions demonstrates iteration through visual refinement - sketching positions, testing mechanics, revising visual models based on results, discovering new connections and variations through systematic visual exploration.
 
 ## Conclusion: Visual Learning as Accelerated Mastery
 

@@ -1,6 +1,6 @@
 ---
 title: "Closed Guard vs Open Guard: Complete Comparison Guide | BJJ Graph"
-description: "Master the strategic differences between closed guard and open guard in BJJ. Compare control, mobility, submissions, sweeps, and success rates across skill levels. Expert analysis from Danaher, Gordon Ryan, and Eddie Bravo."
+description: "Master the strategic differences between closed guard and open guard in BJJ. Compare control, mobility, submissions, sweeps, and success rates across skill levels."
 tags:
   - learning
   - comparison
@@ -286,20 +286,6 @@ Against skilled guard passers, having proficiency in both guard types becomes es
 - Open guard sweep success: 65-75%
 - Prevent 80% of passing attempts through superior guard retention
 
-## Expert Perspectives on Guard Selection
-
-**John Danaher's Systematic Analysis:**
-
-"The choice between closed guard and open guard is fundamentally a question of control philosophy. Closed guard represents maximum control with minimum variables - you control one major connection point and from there, manage distance and posture. This makes it the optimal learning platform for beginning students who need to develop fundamental concepts without being overwhelmed by complexity. However, the closed guard's lack of mobility becomes a significant limitation against opponents who maintain excellent posture and refuse to commit to positions where you can break that posture. At the highest levels, closed guard becomes a specialized tool rather than a primary system, used in specific tactical situations rather than as a default guard position. Open guard's complexity is simultaneously its weakness and its strength - the multiplicity of positions and transitions creates cognitive load, but this same complexity makes it adaptable to a wider range of opponent types and tactical situations."
-
-**Gordon Ryan's Competition Application:**
-
-"In modern high-level competition, especially no-gi, closed guard has become increasingly difficult to maintain and less relevant to winning strategy. The evolution of passing systems and the physical preparation of elite athletes makes maintaining closed guard against a determined, postured opponent nearly impossible. Open guard variations, particularly the leg entanglement guards and butterfly-based systems, have become the dominant bottom position game because they create immediate back take and sweep opportunities while being more sustainable in no-gi contexts. That said, closed guard remains incredibly valuable when the opportunity presents itself - if an opponent makes the error of entering broken posture positions, closed guard becomes a high-percentage finishing position. The key is recognizing which guard type the tactical situation calls for and having the skill to implement both when appropriate. My approach prioritizes open guard as the default with closed guard as an opportunistic option when opponents make tactical errors."
-
-**Eddie Bravo's Innovative Framework:**
-
-"The traditional debate between closed guard and open guard misses the fundamental point - modern guard play requires fluid transition between both systems and shouldn't be viewed as an either/or choice. The evolution of guard play in 10th Planet Jiu-Jitsu emphasizes what we call 'guard flexibility' - using closed guard to break posture and control, then transitioning to specialized open guard positions like the [[Rubber Guard]] or [[Mission Control]] before recapturing closed guard or moving to sweeps. This approach combines the control advantages of closed guard with the mobility and attacking versatility of open guard variations. The [[Lockdown Position]] exemplifies this philosophy - it's technically a half guard (open guard variation), but functions similarly to closed guard with leg lock control replacing ankle lock control. The future of guard play isn't choosing between closed and open, but rather developing the tactical awareness to flow between them based on opponent responses and strategic opportunities."
-
 ## Conclusion: Developing a Complete Guard System
 
 The closed guard versus open guard debate ultimately represents a false dichotomy. Elite guard players don't choose between these systems; they develop proficiency in both and employ them strategically based on opponent type, rule set, physical condition, and tactical objectives. The guard you use should be dictated by the current tactical situation rather than predetermined preference.
@@ -327,4 +313,4 @@ Success in guard play ultimately depends less on which guard type you choose and
 - [[Risk Assessment]] - Strategic decision making
 - [[Half Guard Bottom]] - Transitional guard system
 - [[Spider Guard]] - Gi-specific open guard
-- [[Rubber Guard]] - Eddie Bravo's system
+- [[Rubber Guard]] - High flexibility guard system

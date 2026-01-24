@@ -20,7 +20,7 @@ Brazilian Jiu-Jitsu is often described as "human chess" - a game of position, st
 
 Unlike striking arts where you can throw the same punch from countless positions, BJJ submissions are highly position-dependent. An armbar from [[Mount]] requires completely different mechanics than an armbar from [[Closed Guard Bottom]]. A submission chart makes these positional relationships crystal clear, showing you exactly which finishes are available from each position and how they connect to form devastating attack sequences.
 
-The best submission charts go beyond simple categorization. They incorporate success rate data across skill levels, showing white belts which techniques offer the best risk-reward ratio while revealing to advanced practitioners how seemingly unrelated submissions can chain together into unstoppable attack systems. This data-driven approach, pioneered by systematic coaches like John Danaher, has revolutionized modern BJJ instruction.
+The best submission charts go beyond simple categorization. They incorporate success rate data across skill levels, showing white belts which techniques offer the best risk-reward ratio while revealing to advanced practitioners how seemingly unrelated submissions can chain together into unstoppable attack systems. This data-driven approach has revolutionized modern BJJ instruction.
 
 **What This Guide Covers:**
 
@@ -138,8 +138,8 @@ Understanding which submissions are available from each position is the foundati
    - Advantage: Finishing position extremely secure
    - Counter vulnerability: Requires significant positional transition
 
-**Expert Insight - John Danaher:**
-"Mount submissions succeed because they offer multiple attack vectors simultaneously. The opponent must defend their neck, both arms, and their base - creating a 'choose your death' scenario. Focus on establishing high mount and threatening the cross collar choke, which forces arms high, opening the armbar. This systematic approach - using one threat to set up another - is the essence of effective mount attacks."
+**Strategic Principle:**
+Mount submissions succeed because they offer multiple attack vectors simultaneously. The opponent must defend their neck, both arms, and their base - creating a 'choose your death' scenario. Focus on establishing high mount and threatening the cross collar choke, which forces arms high, opening the armbar. This systematic approach - using one threat to set up another - is the essence of effective mount attacks.
 
 ### From Back Control (8+ Submissions Available)
 
@@ -171,8 +171,8 @@ Understanding which submissions are available from each position is the foundati
    - Advantage: Fast finish when hand fighting occurs
    - Counter vulnerability: Requires specific grip fight scenario
 
-**Expert Insight - Gordon Ryan:**
-"Back control is the king of positions because the opponent cannot see your attacks. My entire game is built around back takes. I focus on the body triangle to remove lower body defense, then systematically attack the neck. If they defend high, the armbar opens. If they defend the armbar, the neck reopens. The key is patience - maintain position and let them exhaust themselves defending."
+**Strategic Principle:**
+Back control is the king of positions because the opponent cannot see your attacks. The body triangle removes lower body defense, then you can systematically attack the neck. If they defend high, the armbar opens. If they defend the armbar, the neck reopens. The key is patience - maintain position and let them exhaust themselves defending.
 
 ### From Side Control (6+ Submissions Available)
 
@@ -204,8 +204,8 @@ Understanding which submissions are available from each position is the foundati
    - Advantage: Gi-specific, surprising finish angle
    - Counter vulnerability: Requires precise collar depth
 
-**Expert Insight - Eddie Bravo:**
-"From side control, I'm always thinking about the twister series. But for most people, the Kimura is king. It's not just a submission - it's a system. You can sweep with it, take the back, transition to mount, or finish the shoulder lock. The Kimura trap from side control is one of the highest-percentage control systems in all of grappling."
+**Strategic Principle:**
+From side control, the Kimura is king. It's not just a submission - it's a system. You can sweep with it, take the back, transition to mount, or finish the shoulder lock. The Kimura trap from side control is one of the highest-percentage control systems in all of grappling.
 
 ### From Guard (20+ Submissions Available)
 
@@ -281,12 +281,12 @@ Modern leg lock positions ([[Ashi Garami]], [[50-50 Guard]], [[Saddle Variations
 
 **SAFETY WARNING:** Leg locks, particularly heel hooks, have limited pain warning before catastrophic injury. Never practice heel hooks without qualified instruction. Always tap early to leg attacks. These techniques are banned at most belt levels in IBJJF competition for good reason.
 
-**Expert Insight - John Danaher:**
-"The modern leg lock game, developed through my squad's systematic approach, works because most practitioners have massive holes in their leg defense. However, these are not techniques to learn casually. One wrong movement can destroy a knee. Start with straight ankle locks, progress to kneebars at brown belt minimum, and only explore heel hooks under expert supervision at black belt with trustworthy training partners."
+**Strategic Principle:**
+The modern leg lock game works because most practitioners have massive holes in their leg defense. However, these are not techniques to learn casually. One wrong movement can destroy a knee. Start with straight ankle locks, progress to kneebars at brown belt minimum, and only explore heel hooks under expert supervision at black belt with trustworthy training partners.
 
 ## Submission Chains: Creating Unstoppable Attack Sequences
 
-The most effective submission artists don't rely on single techniques - they create chains where defending one attack directly opens the next. This systematic approach, popularized by the Danaher Death Squad and subsequent competition success, represents modern BJJ's evolution toward systematic efficiency.
+The most effective submission artists don't rely on single techniques - they create chains where defending one attack directly opens the next. This systematic approach represents modern BJJ's evolution toward systematic efficiency.
 
 ### The Classic Guard Triangle: Triangle → Armbar → Omoplata
 
@@ -317,8 +317,8 @@ Based on the Kimura grip, this chain works from multiple positions including [[S
 
 **Why It Works:** The Kimura grip provides such strong control that you can systematically attack different joints while maintaining dominant position.
 
-**Expert Insight - Gordon Ryan:**
-"The Kimura grip is the skeleton key of BJJ. I can sweep, pass, take the back, or submit directly from this single grip. When I grab the Kimura, my opponent knows they're in danger, but defending it opens up five other attacks. This is why I finish 70% of my matches - not because I'm stronger, but because I've systematized my attacks into inescapable chains."
+**Strategic Principle:**
+The Kimura grip is the skeleton key of BJJ. You can sweep, pass, take the back, or submit directly from this single grip. When you secure the Kimura, your opponent knows they're in danger, but defending it opens up five other attacks. High-level competitors finish consistently not because they're stronger, but because they've systematized their attacks into inescapable chains.
 
 ### The Gi Choke Series: Cross Collar → Loop Choke → Ezekiel
 
@@ -333,7 +333,7 @@ This gi-specific chain dominates from [[Mount]] and demonstrates how collar grip
 
 ### The Leg Lock System: Inside Heel Hook → Outside Heel Hook → Kneebar
 
-The modern leg lock meta, developed through systematic study of leg entanglement positions.
+The modern leg lock meta works through systematic study of leg entanglement positions.
 
 **Chain Logic:**
 1. Attack [[Inside Heel Hook]] - opponent defends by rotating knee inward
@@ -556,38 +556,6 @@ Immediately stop training with partners who:
 - Show ego-driven intensity in training
 
 **Remember:** Your training partners are the most valuable resource in BJJ. Protect them so they can protect you. A gym culture of safety enables long-term development for everyone.
-
-## Expert Strategic Insights
-
-### John Danaher: The Systematic Approach
-
-"Submissions are not isolated techniques - they are systematic outcomes of positional dominance. The amateur focuses on the submission itself. The professional focuses on creating the conditions that make submission inevitable.
-
-From any given position, there exists a hierarchy of threats. Learn to attack the highest-percentage threat first, using its defense to set up the second threat, and so on. This is what I call 'systematic progression' - each defensive action by your opponent creates the setup for your next attack.
-
-The triangle-armbar-omoplata sequence from guard exemplifies this perfectly. The opponent cannot simultaneously defend all three. By pressuring one attack, you force them to make a choice, and each choice leads to another submission opportunity. This is not a battle of strength or athleticism - it is systematic breakdown through intelligent threat sequencing.
-
-Study positions before submissions. A perfectly executed submission attempt from poor position will fail. A mediocre submission attempt from dominant position will often succeed. Position before submission. Always."
-
-### Gordon Ryan: The Competitive Reality
-
-"I finish matches because I've drilled my submissions ten thousand times more than my opponents have drilled their defenses. It's that simple. Everyone knows I'm going for the back, everyone knows I'm attacking the heels, but they still can't stop it because my execution is sharper than their defense.
-
-Pick three submissions and make them world-class. I'd rather have three submissions at 90% effectiveness than thirty submissions at 50% effectiveness. My primary attacks are the rear naked choke, inside heel hook, and armbar. Everything I do is designed to create one of those three scenarios.
-
-Competition data shows that athletes who finish matches have drilled their primary submissions at least 5,000 times. Not practiced - drilled with perfect technique, 5,000 times minimum. That's the difference between hoping for a submission and knowing you'll get it.
-
-Also, submissions are exponentially more effective when you're not exhausted. I spend entire rounds in dominant position, burning my opponent's energy, then attack when they're too tired to defend properly. This is why I have such high finishing rates - I'm attacking fresh opponents when they're exhausted."
-
-### Eddie Bravo: The Creative Innovator
-
-"The traditional BJJ approach is: get position, get submission. My approach is: attack from anywhere, always. Some of the highest-percentage submissions in my system come from positions that traditional BJJ considers neutral or even disadvantageous.
-
-The rubber guard system generates omoplatas and triangles from positions where my opponent thinks they're safe. The twister comes from positions that traditional BJJ doesn't even recognize as submissions-friendly. This is why 10th Planet has been so successful - we're attacking from angles and positions that opponents haven't trained to defend.
-
-Don't let belt level or tradition tell you what submissions you can or can't learn. I teach white belts the twister on day one. Why? Because if you're going to spend ten years training a technique, you might as well start now. The complexity isn't the issue - the commitment to drilling is.
-
-That said, I'm 100% with Danaher and Gordon on one thing: you need systematic drilling. My guys drill the rubber guard and twister positions thousands of times. Innovation without drilling is just flailing. But drilling without innovation is stagnation. Find the balance."
 
 ## Conclusion: Building Your Submission Game
 

@@ -58,7 +58,7 @@ Follow **C-UD pattern** after completing work:
 | Action | Why | Do Instead |
 |--------|-----|------------|
 | Edit generated `.md` in `content/` | Overwrites on regeneration | Edit `.json` source in `templates/` |
-| Skip validation before commits | Breaks build, bad data | Run `python3 scripts/validate_json.py` |
+| Skip validation before commits | Breaks build, bad data | Run `npm run regenerate:build` |
 | Create files >1000 lines | Unmaintainable | Split into focused modules |
 | Add docs without updating index | Orphaned content | Update relevant README/index |
 | Commit secrets or API keys | Security breach | Use `.env` files, check `.gitignore` |
@@ -165,26 +165,29 @@ Interactive knowledge graph visualization using PixiJS (WebGL) + D3.js force sim
 
 ## 5. COMMANDS
 
-### Essential Commands
+### npm Scripts (Root package.json)
+
+All commands run from the repo root (`bjjgraph/`):
+
+| Command | Description |
+|---------|-------------|
+| `npm run validate` | Validate JSON and list files needing fixes |
+| `npm run generate:md` | Regenerate markdown from JSON |
+| `npm run generate:hubs` | Generate category hub pages |
+| `npm run generate:graph` | Generate BJJ graph data |
+| `npm run regenerate` | Run all generation (validate + md + hubs + graph) |
+| `npm run build` | Build static site |
+| `npm run regenerate:build` | Regenerate + build (full workflow) |
+| `npm run dev` | Development server with live reload |
+
+### Quartz Scripts (source/package.json)
+
+Run from `source/` directory:
 
 ```bash
-# Validate JSON (ALWAYS run before commits)
-python3 scripts/validate_json.py
-
-# Regenerate markdown from JSON
-python3 scripts/json_to_md.py
-
-# Build static site
-cd source && npx quartz build
-
-# Development server (live reload)
-cd source && npx quartz build --serve
-
-# Type checking
-cd source && npm run check
-
-# Format code
-cd source && npm run format
+cd source && npm run check   # Type checking (tsc + prettier)
+cd source && npm run format  # Format code with prettier
+cd source && npm run test    # Run path and depgraph tests
 ```
 
 ### Content Workflow
@@ -193,24 +196,21 @@ cd source && npm run format
 # 1. Edit JSON source
 vim source/templates/Positions.json
 
-# 2. Validate
-python3 scripts/validate_json.py
+# 2. Validate and regenerate all content
+npm run regenerate
 
-# 3. Regenerate markdown
-python3 scripts/json_to_md.py
+# 3. Test build with dev server
+npm run dev
 
-# 4. Test build
-cd source && npx quartz build --serve
-
-# 5. Commit
+# 4. Commit
 git add . && git commit -m "Update position data"
 ```
 
 ### Pre-Commit Checklist
 
 ```bash
-python3 scripts/validate_json.py  # Must pass
-cd source && npx quartz build     # Must succeed
+npm run regenerate:build      # Full validation, generation, and build
+cd source && npm run check    # Type checking must pass
 ```
 
 ---

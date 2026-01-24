@@ -198,11 +198,11 @@ Attempting low-percentage passes or repeatedly failing the same technique drains
 
 **Solution:** Select high-percentage passes appropriate to the specific guard type and opponent characteristics. Abandon techniques after 1-2 failed attempts, transitioning to alternatives rather than forcing ineffective approaches.
 
-## Expert Passing Systems
+## Passing System Archetypes
 
-### John Danaher's Systematic Approach
+### Systematic Approach
 
-Danaher emphasizes building passing systems around a few core passes that chain together based on defensive reactions. His approach prioritizes understanding positional relationships and control points over accumulating numerous isolated techniques.
+Building passing systems around a few core passes that chain together based on defensive reactions proves highly effective. This approach prioritizes understanding positional relationships and control points over accumulating numerous isolated techniques.
 
 **Core Principles:**
 - Master 3-4 passes that cover all major guard types
@@ -210,22 +210,22 @@ Danaher emphasizes building passing systems around a few core passes that chain 
 - Emphasize achieving dominant positions before seeking submissions
 - Understand leverage points that multiply pressure effectiveness
 
-Danaher's systematic passing achieves exceptional success rates (70-85% at advanced levels) by addressing every defensive option within interconnected passing chains.
+Systematic passing achieves exceptional success rates (70-85% at advanced levels) by addressing every defensive option within interconnected passing chains.
 
-### Bernardo Faria's Pressure System
+### Pressure-Based Systems
 
-Five-time world champion Faria built his competition success on systematic pressure passing, particularly [[Half Guard Top]] and [[Smash Pass Position]]. His system emphasizes:
+Competition-proven pressure passing built around [[Half Guard Top]] and [[Smash Pass Position]] offers a reliable path to success. This system emphasizes:
 
 - Over-under pass variations
 - Cross-face control maintenance
 - Chest and shoulder pressure application
 - Transitioning pressure between positions during defensive attempts
 
-Faria's approach proves particularly effective for smaller practitioners who must overcome strength disadvantages through superior technique and pressure application principles.
+Pressure-based approaches prove particularly effective for smaller practitioners who must overcome strength disadvantages through superior technique and pressure application principles.
 
-### Tiago Mendes's Speed Passing
+### Speed-Based Systems
 
-Mendes demonstrates high-level speed passing focused on [[Toreando Pass]] and [[Leg Drag Control]] chains. His system relies on:
+High-level speed passing focused on [[Toreando Pass]] and [[Leg Drag Control]] chains offers an alternative approach. This system relies on:
 
 - Explosive direction changes
 - Grip manipulation that disrupts opponent's base

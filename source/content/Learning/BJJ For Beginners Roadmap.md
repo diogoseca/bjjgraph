@@ -480,30 +480,6 @@ Blue belt is where your journey truly begins. White belt was learning the alphab
 - Other blue belts will test you harder
 - Realization that you still know very little (this is humbling)
 
-## Expert Advice for Beginners
-
-### John Danaher: On Learning Methodology
-
-"The biggest mistake beginners make is trying to learn too much too fast. BJJ is a skill-based art - skills are built through repetition of movements until they become automatic. Pick five fundamental techniques and drill them 1,000 times each before moving to complex variations. The fundamentals executed with timing and precision will beat fancy techniques executed poorly.
-
-Master the hierarchy: position before submission, leverage before strength, understanding before memorization. Every technique should be understood mechanically before it's drilled extensively. Know why the hip placement in mount creates control. Understand why the angle in armbar prevents escape. Learning with understanding creates adaptable skill - learning through rote memorization creates brittle technique."
-
-### Gordon Ryan: On Competitive Mindset
-
-"Even if you never compete, train like you will. That doesn't mean train harder - it means train smarter. Every roll should have a purpose. If you're working guard, your goal is to sweep or submit. If you're passing, your goal is to pass to side control or mount. Have measurable objectives.
-
-As a beginner, your goal isn't to win - it's to execute your techniques against progressively harder resistance. If you can hit your hip bump sweep on someone your first week, great. Now hit it on someone who knows it's coming. Then hit it on someone who's defending it hard. That's progression. That's how you build competition-level technique even if you never step on a tournament mat.
-
-And tap early. There's no shame in tapping. You know what's shameful? Getting injured and missing three months of training because your ego wouldn't let you tap to an armbar. I've tapped thousands of times - it's how you learn where the technique really finishes and how to defend it next time."
-
-### Eddie Bravo: On Innovation and Style Development
-
-"Don't be afraid to experiment and find what works for your body. BJJ has traditional approaches, and you should learn them, but there's no 'one right way' to do anything. If you're flexible, explore rubber guard and triangle variations. If you're strong, develop pressure passing. If you're small, build a tricky guard game.
-
-Some of the best techniques in modern BJJ came from people who got stuck in positions and had to innovate their way out. The [[Lockdown]] came from me getting my guard passed and figuring out how to stop it. The [[Twister]] came from experimenting with wrestling moves in submission grappling.
-
-As a white belt, learn the fundamentals first - but once you have them, don't be afraid to develop your own flavor. BJJ is art and science. The science is universal, but the art is personal. Find your game."
-
 ## Conclusion: Embrace the Journey
 
 Brazilian Jiu-Jitsu will challenge you physically, mentally, and emotionally. You will feel frustrated, exhausted, and humbled. You will consider quitting multiple times in your first year. Everyone does. This is part of the process.
