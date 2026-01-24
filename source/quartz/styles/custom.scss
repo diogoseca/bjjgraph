@@ -3,6 +3,442 @@
 // put your custom CSS here!
 
 // ============================================================================
+// Landing Page (Homepage)
+// ============================================================================
+
+// Hero content
+.tagline {
+  font-size: 1.25rem;
+  color: var(--dark);
+  margin: 0;
+}
+
+.stats {
+  font-size: 0.9rem;
+  color: var(--gray);
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+// Search + Roll bar (Google-style)
+.hero-actions {
+  margin: 2rem 0;
+}
+
+.search-roll-bar {
+  display: flex;
+  max-width: 500px;
+  border: 1px solid var(--lightgray);
+  border-radius: 24px;
+  overflow: hidden;
+  background: var(--light);
+
+  &:hover, &:focus-within {
+    border-color: var(--secondary);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.search-trigger {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  color: var(--gray);
+  font-size: 0.95rem;
+
+  .search-icon {
+    flex-shrink: 0;
+    opacity: 0.7;
+  }
+
+  .search-placeholder {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &:hover {
+    color: var(--darkgray);
+  }
+}
+
+.roll-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-left: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--secondary);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s;
+
+  .roll-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  &:hover {
+    background: var(--highlight);
+  }
+}
+
+// ============================================================================
+// Move Cards (Position Pages)
+// ============================================================================
+
+.move-cards-container {
+  margin: 1.5rem 0;
+}
+
+.move-cards-title {
+  font-size: 1rem;
+  color: var(--gray);
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.move-cards {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border-radius: 3px;
+  }
+}
+
+.move-card {
+  flex: 0 0 auto;
+  min-width: 160px;
+  padding: 1rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+  cursor: pointer;
+  transition: all 0.15s;
+
+  &:hover {
+    border-color: var(--secondary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  &.submission {
+    border-color: var(--tertiary);
+    background: linear-gradient(135deg, var(--light), rgba(186, 38, 55, 0.05));
+  }
+
+  &.submission:hover {
+    border-color: var(--tertiary);
+    box-shadow: 0 4px 12px rgba(186, 38, 55, 0.15);
+  }
+}
+
+.move-card-technique {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+.move-card-probability {
+  font-size: 0.85rem;
+  color: var(--gray);
+}
+
+.probability-bar {
+  height: 4px;
+  background: var(--lightgray);
+  border-radius: 2px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+
+.probability-fill {
+  height: 100%;
+  background: var(--secondary);
+  transition: width 0.3s;
+}
+
+// ============================================================================
+// Snackbar System
+// ============================================================================
+
+#snackbar-container {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.snackbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: var(--dark);
+  color: var(--light);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  animation: slideUp 0.3s ease-out;
+  pointer-events: auto;
+
+  &.success {
+    background: #2e7d32;
+  }
+
+  &.failure {
+    background: #c62828;
+  }
+
+  &.info {
+    background: var(--secondary);
+  }
+}
+
+.snackbar-message {
+  flex: 1;
+}
+
+.snackbar-undo {
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--light);
+  cursor: pointer;
+  font-size: 0.9rem;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.snackbar-close {
+  padding: 0.25rem 0.5rem;
+  border: none;
+  background: transparent;
+  color: var(--light);
+  cursor: pointer;
+  opacity: 0.7;
+  font-size: 1.2rem;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+// ============================================================================
+// Flashcard Component (Transitions & Submissions)
+// ============================================================================
+
+.flashcard-container {
+  margin: 1.5rem 0;
+}
+
+.flashcard {
+  padding: 1.5rem;
+  border: 2px solid var(--lightgray);
+  border-radius: 12px;
+  background: var(--light);
+}
+
+.flashcard-label {
+  font-size: 0.85rem;
+  color: var(--gray);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.flashcard-question {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--dark);
+}
+
+.flashcard-answer {
+  padding: 1rem;
+  background: var(--highlight);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  color: var(--dark);
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.flashcard-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.reveal-btn {
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--secondary);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.15s;
+
+  &:hover {
+    background: var(--secondary);
+    color: var(--light);
+  }
+}
+
+.result-btns {
+  display: flex;
+  gap: 1rem;
+
+  &.hidden {
+    display: none;
+  }
+}
+
+.remembered-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #2e7d32;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #1b5e20;
+  }
+}
+
+.missed-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background: #c62828;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.15s;
+
+  &:hover {
+    background: #b71c1c;
+  }
+}
+
+// ============================================================================
+// Terminal State (Victory/Defeat)
+// ============================================================================
+
+.terminal-state {
+  text-align: center;
+  padding: 2rem;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  &.victory h2 {
+    color: #2e7d32;
+  }
+
+  &.defeat h2 {
+    color: #c62828;
+  }
+}
+
+.journey-replay {
+  margin: 1.5rem 0;
+  text-align: left;
+
+  h4 {
+    margin-bottom: 0.5rem;
+    color: var(--gray);
+  }
+}
+
+.journey-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: var(--highlight);
+  border-radius: 8px;
+}
+
+.journey-step {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+
+  &.position {
+    background: var(--graphPosition);
+    color: white;
+  }
+
+  &.transition {
+    background: var(--graphTransition);
+    color: white;
+  }
+
+  &.submission {
+    background: var(--graphSubmission);
+    color: white;
+  }
+}
+
+.roll-stats {
+  margin: 1rem 0;
+  color: var(--gray);
+}
+
+.roll-again {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+}
+
+// Terminal actions on submission pages
+.terminal-actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+// ============================================================================
 // Global Dark Mode Scrollbar Styles
 // ============================================================================
 

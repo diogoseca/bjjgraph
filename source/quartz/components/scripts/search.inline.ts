@@ -494,3 +494,80 @@ async function fillDocument(data: { [key: FullSlug]: ContentDetails }) {
 
   return await Promise.all(promises)
 }
+
+// Roll functionality - navigate to random position
+async function handleRoll() {
+  const baseUrl = document.documentElement.dataset.baseUrl ?? ""
+
+  // Fetch state graph
+  let stateGraph: any
+  try {
+    const response = await fetch(`${baseUrl}/static/stateGraph.json`)
+    stateGraph = await response.json()
+  } catch (e) {
+    console.warn("Could not load state graph for roll")
+    return
+  }
+
+  // Get all position pages (those with /top or /bottom in the slug)
+  const rolePages = Object.keys(stateGraph.positions).filter(
+    (slug) => slug.includes("/top") || slug.includes("/bottom"),
+  )
+
+  if (rolePages.length === 0) return
+
+  const randomSlug = rolePages[Math.floor(Math.random() * rolePages.length)]
+  const positionData = stateGraph.positions[randomSlug]
+  const positionName = positionData?.name || "Unknown Position"
+
+  // Clear any existing journey to start fresh
+  localStorage.setItem("bjj-journey", "[]")
+
+  // Set snackbar for arrival
+  sessionStorage.setItem(
+    "snackbar",
+    JSON.stringify({
+      type: "info",
+      message: `Roll started in ${positionName}`,
+    }),
+  )
+
+  // Build URL using path from stateGraph (handles nested positions correctly)
+  // Path format: "Twister Control/Truck/Top" → "/Positions/Twister-Control/Truck/Top"
+  let targetUrl: string
+  if (positionData?.path) {
+    // Convert path to URL format: spaces to hyphens, keep slashes
+    const urlPath = positionData.path.replace(/\s+/g, "-")
+    targetUrl = `/Positions/${urlPath}`
+  } else {
+    // Fallback: convert slug like "mount/top" to "/Positions/Mount/Top"
+    const pathParts = randomSlug.split("/")
+    const formattedParts = pathParts.map((part: string) =>
+      part
+        .split("-")
+        .map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join("-"),
+    )
+    targetUrl = `/Positions/${formattedParts.join("/")}`
+  }
+
+  window.spaNavigate(new URL(targetUrl, window.location.toString()), false)
+}
+
+// Attach to roll triggers
+function attachRollTriggers() {
+  document.querySelectorAll(".roll-trigger").forEach((trigger) => {
+    // Skip if already has listener
+    if (trigger.hasAttribute("data-roll-attached")) return
+    trigger.setAttribute("data-roll-attached", "true")
+    trigger.addEventListener("click", (e) => {
+      e.preventDefault()
+      e.stopPropagation()
+      handleRoll()
+    })
+  })
+}
+
+// Run on initial load and on SPA navigation
+document.addEventListener("nav", attachRollTriggers)
+window.addEventListener("DOMContentLoaded", attachRollTriggers)

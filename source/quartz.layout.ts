@@ -6,7 +6,10 @@ import { stripTitleSuffix } from "./quartz/util/lang"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.EditOnGithub()],
+  afterBody: [
+    Component.EditOnGithub(),
+    Component.Snackbar(),
+  ],
   // Footer with no links - may add social links later
   footer: Component.Footer({
     links: {},
@@ -18,6 +21,8 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
+    Component.MoveCards(),
+    Component.TransitionFlashcard(),
     Component.ContentMeta(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
