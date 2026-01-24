@@ -1,0 +1,123 @@
+BJJ GRAPH - PAA ANALYSIS SUMMARY
+=================================
+
+Task Status: BLOCKED - Requires DataForSEO MCP Server or WebSearch Access
+
+Articles Analyzed:
+1. source/content/Positions/Cross Body Ride.json
+   - Seed Keyword: "Cross Body Ride BJJ"
+   - Status: Template created, awaiting PAA data
+
+2. source/content/Learning/BJJ Positions Complete Guide.md
+   - Seed Keyword: "BJJ positions guide"
+   - Status: Template created, awaiting PAA data
+
+---
+
+KEY FINDINGS (Template-Based Analysis)
+======================================
+
+HIGH-PRIORITY AI SEO OPTIMIZATIONS
+-----------------------------------
+
+1. HEADING CONVERSIONS (Question-Based Format)
+   ✓ Current: "Overview" → Suggested: "What is Cross Body Ride in BJJ?"
+   ✓ Current: "Understanding Positional Hierarchy" → Suggested: "What is the BJJ Position Hierarchy?"
+   ✓ Current: "Learning Progression by Belt Level" → Suggested: "What BJJ Positions Should I Learn First?"
+
+2. FRONT-LOADING KEY FACTS
+   - Move definitions to first sentence
+   - Include success rates in opening paragraphs
+   - Lead with "why this matters" before "how to do it"
+
+3. CONTENT GAPS IDENTIFIED
+   Missing Across Both Articles:
+   - "When to use" situational guidance
+   - Common mistakes sections
+   - Comparison content ("X vs Y")
+   - Timeline expectations
+   - Home practice drills
+   - Quick reference tables
+
+4. AI SEARCH OPTIMIZATION TACTICS
+   ✓ Add featured snippet-worthy definitions (40-60 words)
+   ✓ Include numbered lists ("5 Essential Positions")
+   ✓ Add comparison tables (positions, success rates, difficulty)
+   ✓ Use question-based H2/H3 headings
+   ✓ Incorporate concrete data throughout
+
+---
+
+SUGGESTED NEW FILES CREATED
+============================
+
+File: tests/artifacts/suggested_new_files.csv
+
+1. BJJ Position FAQ.md
+   - Answers top PAA questions
+   - Optimized for AI snippets
+   - Q&A format
+
+2. BJJ Position Comparison Guide.md
+   - Mount vs Back Control
+   - Closed vs Open Guard
+   - "X vs Y" query optimization
+
+---
+
+NEXT STEPS TO COMPLETE ANALYSIS
+================================
+
+Option 1: Connect DataForSEO MCP Server
+   - Add to Claude Code config
+   - Fetch live PAA data with depth=2
+   - Populate template with real questions
+
+Option 2: Enable WebSearch
+   - Grant permission for WebSearch tool
+   - Manually extract PAA questions
+   - Less accurate than API but workable
+
+Option 3: Manual Collection
+   - Use DataForSEO API directly
+   - Search Google for seed keywords
+   - Record PAA questions and snippets
+   - Fill template at tests/artifacts/paa_analysis_template.json
+
+---
+
+TEMPLATE LOCATION
+=================
+
+tests/artifacts/paa_analysis_template.json
+
+Structure includes:
+- article_path
+- seed_keyword
+- paa_questions (empty, to be filled)
+- heading_optimizations (populated)
+- missing_content_opportunities (populated)
+- ai_search_recommendations (populated)
+
+---
+
+STRATEGIC RECOMMENDATIONS
+=========================
+
+Even without PAA data, these articles would benefit from:
+
+1. Question-based heading structure
+2. Front-loaded definitions and key facts
+3. FAQ sections (generic questions)
+4. Comparison content
+5. Concrete data emphasis (success rates)
+6. Step-by-step breakdowns
+7. Quick reference tables
+
+These optimizations align with AI search behavior and would improve
+both traditional SEO and AI-generated answer inclusion rates.
+
+---
+
+For questions or to provide PAA data, update:
+tests/artifacts/paa_analysis_template.json

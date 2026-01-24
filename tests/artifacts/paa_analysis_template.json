@@ -1,0 +1,118 @@
+{
+  "paa_analysis_instructions": "Fetch PAA data from Google SERP and populate this template",
+  "articles": [
+    {
+      "article_path": "source/content/Positions/Cross Body Ride.json",
+      "seed_keyword": "Cross Body Ride BJJ",
+      "paa_questions": [
+        {
+          "question": "[To be filled from DataForSEO]",
+          "answer_snippet": "[To be filled from DataForSEO]",
+          "source_url": "[To be filled from DataForSEO]",
+          "priority": "high|medium|low",
+          "integration_strategy": "dedicated_faq|improve_heading|add_section"
+        }
+      ],
+      "heading_optimizations": [
+        {
+          "current": "Overview",
+          "suggested": "What is Cross Body Ride in BJJ?",
+          "rationale": "Matches conversational query pattern and provides immediate answer to searcher intent"
+        },
+        {
+          "current": "Key Principles",
+          "suggested": "How Do You Control Cross Body Ride?",
+          "rationale": "Addresses technical execution questions"
+        },
+        {
+          "current": "Related Positions",
+          "suggested": "What Positions Lead to Cross Body Ride?",
+          "rationale": "Helps searchers understand positional context"
+        }
+      ],
+      "missing_content_opportunities": [
+        "Add section: When Should You Use Cross Body Ride? (timing and situation guidance)",
+        "Add section: Common Cross Body Ride Mistakes (error prevention)",
+        "Add section: Cross Body Ride vs Other Turtle Attacks (comparison content)",
+        "Add FAQ section answering top PAA questions",
+        "Add beginner-friendly setup instructions"
+      ],
+      "ai_search_recommendations": [
+        "Front-load the definition: Start with 'Cross Body Ride is...' in first sentence",
+        "Answer 'why' early: Explain strategic value in first paragraph",
+        "Include success rates: AI summaries love concrete data",
+        "Add step-by-step breakdowns: Numbered lists perform well in AI snippets",
+        "Use question-based H2s: Directly answer common queries"
+      ]
+    },
+    {
+      "article_path": "source/content/Learning/BJJ Positions Complete Guide.md",
+      "seed_keyword": "BJJ positions guide",
+      "paa_questions": [
+        {
+          "question": "[To be filled from DataForSEO]",
+          "answer_snippet": "[To be filled from DataForSEO]",
+          "source_url": "[To be filled from DataForSEO]",
+          "priority": "high|medium|low",
+          "integration_strategy": "dedicated_faq|improve_heading|add_section"
+        }
+      ],
+      "heading_optimizations": [
+        {
+          "current": "Understanding Positional Hierarchy",
+          "suggested": "What is the BJJ Position Hierarchy?",
+          "rationale": "Direct answer to common beginner question"
+        },
+        {
+          "current": "The Point Value System",
+          "suggested": "How Are BJJ Positions Scored?",
+          "rationale": "Matches competition-focused search intent"
+        },
+        {
+          "current": "Dominant Positions: 4-Point Control",
+          "suggested": "What Are the Most Dominant BJJ Positions?",
+          "rationale": "Conversational query format for AI search"
+        },
+        {
+          "current": "Learning Progression by Belt Level",
+          "suggested": "What BJJ Positions Should I Learn First?",
+          "rationale": "Addresses beginner navigation question"
+        }
+      ],
+      "missing_content_opportunities": [
+        "Add section: How Long Does It Take to Master Each Position? (timeline expectations)",
+        "Add section: Which Position Should I Specialize In? (game planning guidance)",
+        "Add section: Position Drills for Home Practice (solo training)",
+        "Add comparison table: Position Difficulty Ratings",
+        "Add FAQ section covering top 10 beginner questions",
+        "Add quick reference chart: Position → Submissions → Escapes"
+      ],
+      "ai_search_recommendations": [
+        "Add featured snippet-worthy content: Concise definition of 'BJJ position' in first 40 words",
+        "Include numbered lists: '5 Essential BJJ Positions for White Belts'",
+        "Add comparison content: Mount vs Back Control effectiveness data",
+        "Use table format: Position hierarchy with point values",
+        "Front-load key facts: Most dominant position = Back Control (80% retention rate)"
+      ]
+    }
+  ],
+  "summary": {
+    "total_articles_analyzed": 2,
+    "recommended_actions": [
+      "Convert static headings to question-based headings for AI search optimization",
+      "Add FAQ sections to both articles answering PAA questions",
+      "Front-load key facts and definitions in first paragraphs",
+      "Include comparison and 'vs' content for competitive queries",
+      "Add beginner-friendly 'getting started' sections",
+      "Incorporate concrete data (success rates, timelines) throughout"
+    ],
+    "content_gaps_identified": [
+      "Timing and situational guidance (when to use positions)",
+      "Common mistakes and error prevention",
+      "Comparison content between similar positions",
+      "Home practice drills",
+      "Difficulty ratings and time estimates"
+    ],
+    "high_priority_paa_integration": "Pending DataForSEO data fetch"
+  }
+}
