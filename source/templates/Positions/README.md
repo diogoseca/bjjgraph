@@ -152,14 +152,12 @@ This directory contains templates for creating BJJ position content with hub-and
    - 6-9 escape techniques with success rates
    - 5+ defensive errors
    - Training drills
-   - Expert insights (defensive focus)
 
 4. **Fill out top section** (~2 hours)
    - Offensive overview (400w)
    - 9+ attack techniques with success rates
    - 5+ offensive errors
    - Submission chains
-   - Expert insights (offensive focus)
 
 5. **Run build script** (30 seconds)
    ```bash

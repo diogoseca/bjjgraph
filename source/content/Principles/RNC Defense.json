@@ -1,7 +1,18 @@
 {
   "name": "RNC Defense",
   "description": "Master defensive strategies against the rear naked choke in BJJ. Learn hand fighting, chin protection, grip breaking, and emergency escape protocols.",
-  "tags": ["bjj", "principle", "defense", "rear-naked-choke", "back-control", "submission-defense", "hand-fighting", "chin-protection", "escape-mechanics", "survival"],
+  "tags": [
+    "bjj",
+    "principle",
+    "defense",
+    "rear-naked-choke",
+    "back-control",
+    "submission-defense",
+    "hand-fighting",
+    "chin-protection",
+    "escape-mechanics",
+    "survival"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -401,10 +412,5 @@
       "content_type": "Principle",
       "relationship": "Foundational escape concepts that integrate with RNC Defense for comprehensive back control survival"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The rear naked choke represents one of the highest percentage submissions in all of grappling precisely because of the mechanical advantages it provides the attacker and the limited defensive options available once properly applied. Understanding RNC Defense requires first understanding the mechanical requirements for a successful choke: the arm must cross deeply under the chin or across the neck, the opposite hand must connect to secure the position, and the attacker's body position must create forward pressure that prevents the defender from creating space. Your defensive strategy must systematically deny these requirements in reverse order of difficulty - it is far easier to prevent the initial arm crossing than to escape once the choke is locked. The concept of defensive layering is critical here: your first layer is proactive hand fighting before any arm approaches the neck, your second layer is chin protection and hand blocking as the arm approaches, your third layer is grip breaking if hands connect, and your final layer is emergency explosive escape if the choke becomes tight. Each layer buys time for the next, and mastery involves recognizing which layer you're currently in and applying the appropriate defensive response. Most practitioners fail because they skip defensive layers, attempting emergency escapes when proactive defense would work, or continuing technical defense when emergency action is required. The key to effective defense is calibrating your response to the current threat level.",
-    "gordon_ryan": "In competition, the rear naked choke is the submission I've both finished most often and had to defend most often at the highest levels. The reality is that against elite-level opponents, if you let them fully establish back control with hands in choking position, you're already in serious trouble. My RNC Defense strategy prioritizes preventing the setup over defending the finish - I focus intensely on hand fighting and controlling my opponent's arms before they can even attempt to go for the neck. The specific detail that changed my defensive game was understanding that you need to commit both hands to defending the choking arm once it starts crossing. I see so many people try to defend with one hand while pushing with the other, and it just doesn't work against high-level opposition. They're stronger with one arm across your neck than you are with one arm trying to stop them. My approach is simple: as soon as I feel a hand coming toward my neck, both my hands go to that wrist and I fight like my life depends on it, because in competition, my consciousness certainly does. The other key detail is maintaining offensive pressure even while defending - I'm always looking to improve my position while defending the neck, never purely defensive. If I can create angles or start working back to guard while defending the choke, I'm forcing my opponent to make decisions between maintaining the choking attack and preventing my positional improvement. The worst thing you can do is become purely defensive and give them all the time in the world to perfect the choke.",
-    "eddie_bravo": "RNC Defense from a 10th Planet perspective has some unique elements because of how we use the position and how we defend it. First, we spend a lot of time working from back control both attacking and defending, so we're very familiar with the angles and timing. One thing I emphasize that's different from traditional approaches is using the Lockdown and body positioning concepts even from bottom back control - creating angles with your hips and legs to make it harder for them to get flat on your back, which is when the choke is most dangerous. We also work a lot on what I call 'offensive defense' where you're immediately looking for your own attacks even while defending the neck. If I'm defending a choke, I'm simultaneously looking to attack their arms for kimuras or to spin into them for reversal opportunities. This creates dilemmas where they have to choose between finishing the choke and defending your attacks, which often opens up escape routes. Another innovation we use is practicing defense while already partially choked - sounds crazy, but we train the ability to function and execute technique even when you're getting squeezed, because in real competition situations, you're often going to be defending while under partial pressure. You need to be able to think and move effectively even when you're feeling that pressure, not just when you're comfortable. We also emphasize the mental game aspect - staying calm, breathing controlled, not panicking. Panic kills more people in RNC situations than the actual technique. Train your mind to stay ice cold even when your neck is being attacked."
-  }
+  ]
 }

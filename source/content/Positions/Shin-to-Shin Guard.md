@@ -8,7 +8,7 @@ description: "Master Shin-to-Shin Guard in BJJ. Complete guide covering setup, c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

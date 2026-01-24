@@ -54,7 +54,7 @@ class CategoryHubPageGenerator:
                 "dir": "Transitions",
                 "title": "Transitions",
                 "page_title": "Transitions | BJJ Technique Guide",
-                "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.",
+                "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, and success rates.",
                 "url_slug": "transitions",
                 "keywords": "bjj transitions, bjj techniques, bjj sweeps, guard passes"
             },
@@ -62,7 +62,7 @@ class CategoryHubPageGenerator:
                 "dir": "Submissions",
                 "title": "Submissions",
                 "page_title": "Submissions | BJJ Technique Guide",
-                "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.",
+                "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, and escapes.",
                 "url_slug": "submissions",
                 "keywords": "bjj submissions, bjj chokes, bjj armlocks, submission techniques"
             },

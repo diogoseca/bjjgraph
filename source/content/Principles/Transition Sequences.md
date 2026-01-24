@@ -4,11 +4,11 @@
 
 ---
 title: "Transition Sequences | BJJ Principle | BJJ Graph"
-description: "Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights."
+description: "Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions."
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -63,7 +63,7 @@ description: "Master Transition Sequences in BJJ. Learn to link positions system
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Transition Sequences",
-  "description": "Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights.",
+  "description": "Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions.",
   "url": "https://bjjgraph.org/Principles/Transition-Sequences",
   "isPartOf": {
     "@type": "WebSite",

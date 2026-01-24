@@ -8,7 +8,7 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -326,7 +326,7 @@ Inside ashi entry is relatively safe compared to more committed leg entanglement
 
 ## Position Integration
 
-Inside ashi entry serves as a critical gateway into the modern leg entanglement system pioneered by John Danaher and the Death Squad athletes. This position sits at the intersection of traditional open guard play and specialized leg lock systems, making it essential for contemporary BJJ competitors. Inside ashi connects directly to multiple positions: it transitions smoothly to outside ashi when opponent rotates, to saddle/honey hole when you cross your feet, to 50-50 when opponent establishes their own inside position, and back to single leg X-guard when backing out defensively. The entry itself can be initiated from numerous positions including de la riva guard, butterfly guard, seated guard, and single leg X, making it a versatile tool that integrates throughout your entire guard system. Understanding inside ashi entry is fundamental before progressing to more advanced leg entanglements because it teaches the core concepts of angle creation, inside position control, and heel grip mechanics that apply throughout leg locking. For comprehensive grappling systems, inside ashi represents the bridge between traditional positional grappling and submission-oriented leg attack systems.
+Inside ashi entry serves as a critical gateway into the modern leg entanglement system pioneered by systematic and the Death Squad athletes. This position sits at the intersection of traditional open guard play and specialized leg lock systems, making it essential for contemporary BJJ competitors. Inside ashi connects directly to multiple positions: it transitions smoothly to outside ashi when opponent rotates, to saddle/honey hole when you cross your feet, to 50-50 when opponent establishes their own inside position, and back to single leg X-guard when backing out defensively. The entry itself can be initiated from numerous positions including de la riva guard, butterfly guard, seated guard, and single leg X, making it a versatile tool that integrates throughout your entire guard system. Understanding inside ashi entry is fundamental before progressing to more advanced leg entanglements because it teaches the core concepts of angle creation, inside position control, and heel grip mechanics that apply throughout leg locking. For comprehensive grappling systems, inside ashi represents the bridge between traditional positional grappling and submission-oriented leg attack systems.
 
 </section>
 

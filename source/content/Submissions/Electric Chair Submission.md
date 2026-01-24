@@ -8,7 +8,7 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -113,7 +113,7 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
     },
     {
       "@type": "Question",
-      "name": "Why is Eddie Bravo's Electric Chair considered both a submission and a sweeping mechanism?",
+      "name": "Why is 10th Planet's Electric Chair considered both a submission and a sweeping mechanism?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "The Electric Chair functions as both submission and sweep because the inverted position and hip extension required for the submission naturally create sweeping momentum. When opponent defends the submission by attempting to maintain posture and pull their leg back, their defensive movements often facilitate sweep completion into Old School position or complete reversal. This dual-threat nature is strategic - if opponent focuses on defending the submission, the sweep becomes available; if they defend the sweep, submission pressure increases. This represents the '10th Planet dilemma' philosophy where every position offers multiple attacking options."
@@ -164,7 +164,7 @@ The Electric Chair is a signature submission technique from 10th Planet Jiu-Jits
 
 The submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.
 
-Historically developed and refined by Eddie Bravo and the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.
+Historically developed and refined by 10th Planet's and the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.
 
 **Category**: Compression
 **Type**: Knee and Hip Compression
@@ -343,7 +343,7 @@ Historically developed and refined by Eddie Bravo and the 10th Planet system, th
 **Q5**: What is the relationship between hip extension and rotational torque in creating Electric Chair pressure?
 **A**: Hip extension and rotational torque work synergistically to create the characteristic Electric Chair compression. Hip extension (driving hips forward and up) creates the primary lever arm that stretches opponent's trapped leg and compresses the knee joint. Rotational torque (turning shoulders and chest away from opponent) adds a twisting component that amplifies pressure on the IT band, hip flexors, and medial knee structures. Neither component alone produces optimal submission pressure - maximum effectiveness requires smooth integration of both extension and rotation applied progressively.
 
-**Q6**: Why is Eddie Bravo's Electric Chair considered both a submission and a sweeping mechanism?
+**Q6**: Why is 10th Planet's Electric Chair considered both a submission and a sweeping mechanism?
 **A**: The Electric Chair functions as both submission and sweep because the inverted position and hip extension required for the submission naturally create sweeping momentum. When opponent defends the submission by attempting to maintain posture and pull their leg back, their defensive movements often facilitate sweep completion into Old School position or complete reversal. This dual-threat nature is strategic - if opponent focuses on defending the submission, the sweep becomes available; if they defend the sweep, submission pressure increases. This represents the '10th Planet dilemma' philosophy where every position offers multiple attacking options.
 
 **Q7**: What specific flexibility limitations make an opponent more vulnerable to Electric Chair injury risk? **[SAFETY-CRITICAL]**
@@ -436,7 +436,6 @@ Historically developed and refined by Eddie Bravo and the 10th Planet system, th
 - [[Calf Slicer from Truck]] - Related leg compression technique often combined with Electric Chair in sequence
 - [[Truck]] - Advanced position transition available from Electric Chair defensive reactions
 - [[Lockdown to Electric Chair System]] - Complete systematic approach to lockdown attacks centering on Electric Chair as primary submission
-- [[10th Planet Half Guard Bottom System]] - Comprehensive system that includes Electric Chair as core component of lockdown game
 - [[Half Guard]] - Foundational position from which lockdown and Electric Chair are established
 - [[Dogfight Position]] - Common transition position when opponent defends Electric Chair by attempting to come up
 - [[Back Control]] - Available transition when opponent turns away from Electric Chair pressure

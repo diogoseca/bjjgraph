@@ -8,7 +8,7 @@ description: "Learn Front Headlock to Anaconda in BJJ. Step-by-step execution fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -358,7 +358,6 @@ The technique integrates seamlessly with wrestling-based takedown systems, where
 - [[D'arce-Anaconda Connection]] - Technical relationship - understanding the biomechanical connection between techniques
 - [[Snap Down to Front Headlock]] - Entry method - common way to establish front headlock control
 - [[Guillotine Choke]] - Alternative attack - another front headlock submission option
-- [[Danaher Front Headlock System]] - Strategic framework - comprehensive system including this technique
 
 
 </section>

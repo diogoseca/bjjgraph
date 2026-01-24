@@ -8,7 +8,7 @@ description: "Master the Bow and Arrow Choke in BJJ. Complete guide with safety 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -428,7 +428,6 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 - [[Submission Chains]] - Principle of chaining bow and arrow with other back attacks based on defense
 - [[Control Maintenance]] - Essential principle for maintaining back control before transitioning to submission
 - [[Back Attack System]] - Comprehensive system where bow and arrow is a primary finishing option
-- [[Danaher Straight Jacket System]] - Systematic approach to back control that includes bow and arrow as key submission
 
 
 </section>

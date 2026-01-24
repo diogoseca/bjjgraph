@@ -4,11 +4,11 @@
 
 ---
 title: "Hip Escape Mechanics | BJJ Principle | BJJ Graph"
-description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, and rotation for space creation across all bottom positions with expert insights."
+description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, hip rotation, and guard recovery for space creation across all bottom positions."
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -63,7 +63,7 @@ description: "Master hip escape mechanics in BJJ. Learn coordinated bridging, fr
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hip Escape Mechanics",
-  "description": "Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, and rotation for space creation across all bottom positions with expert insights.",
+  "description": "Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, hip rotation, and guard recovery for space creation across all bottom positions.",
   "url": "https://bjjgraph.org/Principles/Hip-Escape-Mechanics",
   "isPartOf": {
     "@type": "WebSite",

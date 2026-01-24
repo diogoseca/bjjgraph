@@ -4,11 +4,11 @@
 
 ---
 title: "Base Maintenance | BJJ Principle | BJJ Graph"
-description: "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included."
+description: "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control."
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -63,7 +63,7 @@ description: "Understand Base Maintenance in BJJ. Learn stability principles, we
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Base Maintenance",
-  "description": "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
+  "description": "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.",
   "url": "https://bjjgraph.org/Principles/Base-Maintenance",
   "isPartOf": {
     "@type": "WebSite",
@@ -159,7 +159,7 @@ description: "Understand Base Maintenance in BJJ. Learn stability principles, we
 
 ## What is Base Maintenance?
 
-Base Maintenance represents the fundamental skill of establishing and preserving structural stability through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
+Base Maintenance is a fundamental principle describing the ability to maintain stable positioning through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.
 
 </section>
 
@@ -360,6 +360,9 @@ Using stable base as platform for applying controlled pressure on partner. Focus
 - **[[Defensive Frame]]** (Complementary): Defensive framing works synergistically with base maintenance to create comprehensive defensive structure. Frames manage distance while base provides stability.
 - **[[Pressure Application]]** (Extension): Effective pressure application requires solid base maintenance as its foundation. Quality of applied pressure is directly proportional to stability of the base structure supporting it.
 - **[[Guard Retention]]** (Complementary): Guard retention relies heavily on base maintenance principles adapted to bottom positions. Maintaining hip mobility and connection points follows same fundamental concepts as top base maintenance.
+- **[[Leverage Principles]]** (Prerequisite): Leverage principles provide the mechanical foundation for understanding why certain base configurations are more stable than others. Base maintenance applies these leverage concepts to positional control.
+- **[[Energy Conservation]]** (Complementary): Proper base maintenance allows efficient energy use by reducing unnecessary compensatory movements. Stable base requires less muscular effort to maintain than constantly recovering from compromised positions.
+- **[[Control Maintenance]]** (Extension): Base maintenance is the foundational layer of control maintenance. Without stable base, all other control mechanisms become ineffective regardless of grips or positioning.
 
 
 ### Related Content

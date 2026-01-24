@@ -1,7 +1,17 @@
 {
   "name": "Buggy Choke",
   "description": "Master the Buggy Choke in BJJ. Powerful half guard compression choke targeting the carotid arteries. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-  "tags": ["bjj", "submission", "choke", "half-guard", "compression", "no-gi", "gi", "turtle", "pressure"],
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "half-guard",
+    "compression",
+    "no-gi",
+    "gi",
+    "turtle",
+    "pressure"
+  ],
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and neck compression",
@@ -320,10 +330,6 @@
   ],
   "related_content": [
     {
-      "name": "Lockdown",
-      "relationship": "Primary control position used to set up the Buggy Choke in 10th Planet system"
-    },
-    {
       "name": "Old School Sweep",
       "relationship": "Alternative attack from same half guard position when choke is defended"
     },
@@ -338,10 +344,6 @@
     {
       "name": "Crab Ride",
       "relationship": "Position that can develop from successful Buggy Choke angle creation"
-    },
-    {
-      "name": "Twister",
-      "relationship": "Advanced progression in the 10th Planet half guard submission chain"
     },
     {
       "name": "Truck",
@@ -359,10 +361,5 @@
       "name": "Underhook Sweep from Half",
       "relationship": "Alternative offensive option from the same underhook control position"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Buggy Choke represents an excellent example of using positional mechanics to overcome strength disadvantages. The critical element is understanding that this is fundamentally a compression choke created through precise body angles rather than grip strength. When properly executed, you're creating a closed system where the opponent's own arm, your shoulder, and their neck form a triangle with decreasing space. The angle of your body—typically 45 to 90 degrees relative to their spine—determines whether you achieve proper carotid compression or ineffective windpipe pressure. From a safety perspective, this submission requires exceptional control because the compression builds progressively and can reach critical levels quickly once proper position is established. Practitioners must develop sensitivity to pressure application and maintain absolute discipline in releasing immediately upon tap signals. The mechanical advantage is so significant that even small individuals can render much larger opponents unconscious within 5-7 seconds of proper application, making safety protocols absolutely non-negotiable in training environments.",
-    "gordon_ryan": "In competition, the Buggy Choke is one of my highest-percentage submissions from half guard because most opponents don't recognize it until it's too late. When someone's trying to smash through your half guard, they're so focused on the pass that they walk right into the trap. The key is patience—you don't force it, you wait for them to give you the angle by driving their weight into you. In training versus competition, there's a massive difference in application speed. In the gym, I'm applying this over 4-5 seconds minimum and stopping at like 60-70% pressure when training partners tap early. In competition, I'm still controlled but much more aggressive because I trust that referees and my opponent will signal appropriately. One mistake I see constantly is people trying to muscle it with their arms instead of using their whole body. Your shoulder should be doing most of the work, not your biceps. And here's something crucial: if you feel it's not there, don't force it—transition to the electric chair or take the back. Forcing submissions is how people get hurt and how you waste energy in competition. The Buggy Choke works best as part of a system, not as an isolated technique.",
-    "eddie_bravo": "The Buggy Choke is a cornerstone of the 10th Planet half guard system, and it's one of the most reliable submissions we have from bottom position. What makes it so effective is that it comes from a position where your opponent thinks they're winning—they're on top, they're pressuring, they're about to pass—and suddenly they're in a deep choke. From lockdown specifically, this thing is devastating because you're breaking their posture with your legs while setting up the choke with your arms. It's a total system attack. Safety-wise, this is serious business. I've seen people go out fast from this choke because it hits the arteries so efficiently when you have the right angle. In our gym, we drill this with what I call 'touch and release' for the first few months—you get the position, light contact, partner taps, you release. We build up pressure over time because the consequence of screwing around with this technique is people getting hurt. The other thing is understanding the chain: Buggy to Electric Chair to Lockdown sweep to Old School—they all connect. When one doesn't work, you flow to the next. That's how you build a dangerous half guard game. But it all starts with respecting the power of these techniques and training them with your partner's safety as the top priority, because without training partners, you've got nothing."
-  }
+  ]
 }

@@ -1,7 +1,14 @@
 {
   "name": "Triangle from Back",
-  "description": "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Expert insights included.",
-  "tags": ["bjj", "submission", "triangle-choke", "back-control", "blood-choke", "advanced-technique"],
+  "description": "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "triangle-choke",
+    "back-control",
+    "blood-choke",
+    "advanced-technique"
+  ],
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
@@ -362,10 +369,5 @@
       "name": "Seat Belt Control Back",
       "relationship": "Key control position used during triangle from back setup"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The triangle from back represents a sophisticated evolution in our understanding of back control submission systems. Traditionally, grapplers viewed back control through the narrow lens of the rear naked choke as the primary, often singular, finishing mechanism. However, modern high-level competition has shown us that skilled opponents can defend the rear naked choke effectively through proper chin position and hand fighting. The triangle from back addresses this defensive adaptation by attacking the neck through an entirely different mechanical pathway - using leg configuration rather than arm-based choking. What makes this submission particularly valuable from a systematic perspective is that it creates a genuine dilemma for the defending opponent: defend the rear naked choke and expose yourself to the triangle, or defend the triangle and expose your neck to traditional back attacks. The key is maintaining what I call 'positional supremacy' throughout the transition - you must never sacrifice back control in pursuit of the triangle. If the triangle attempt compromises your back position, you've made a tactical error. The submission should emerge naturally from your opponent's defensive commitments, not from your forcing a technique that isn't available. From a safety standpoint, the triangle from back requires exceptional control and awareness because of the powerful leg-based pressure combined with the positional control of back mount. The potential for rapid unconsciousness is significant, making progressive pressure application and clear communication absolutely essential in training environments.",
-    "gordon_ryan": "Triangle from back is one of those submissions that separates hobbyists from serious competitors - it requires real technical sophistication and body awareness to pull off under pressure. In competition, I'm always looking for ways to finish from back because you're burning energy and risking the opponent escaping if you just hold the position. The beauty of the triangle is that it catches guys who think they've got the RNC defended. They're so focused on keeping their chin down and grabbing your choking arm that they completely forget about their legs. Here's the real key though - you need to bait the defense first. If I just attack the triangle randomly, good opponents will see it coming. But if I make a committed rear naked choke attempt, get them really focused on defending that, then switch to triangle, their defense is already committed to the wrong threat. In training versus competition, there's a massive difference in how I finish this. In the gym, I'll get to the position and just hold it with light pressure so my partner can work their defense. But in a match, once I lock that triangle, I'm finishing fast because I know my opponent won't tap until they absolutely have to. That's the competition mindset - you assume they'll defend to the last second. One more thing - flexibility matters here more than people think. If you can't get your leg over their shoulder smoothly while maintaining back control, you'll give up the position trying to force it. I spent months working on my hip flexibility specifically for this technique.",
-    "eddie_bravo": "Dude, the triangle from back is straight 10th Planet philosophy - we're always looking for ways to use our legs for submissions while keeping our hands free for control. The traditional RNC is great, but what happens when a guy knows what he's doing and locks down that defense? You're stuck. But if you can bring your leg game into back control, now you've got this whole other dimension of attacks. Here's where it gets creative - we don't just hit the standard triangle from back. We'll use it as part of a bigger system where we're threatening it from body triangle, from the truck, from gift wrap, all these different back control variations. The opponent doesn't know which version of triangle is coming, and that uncertainty is what creates the opening. In the 10th Planet system, we emphasize the transition more than the finish. If you can transition smoothly from hooks in to triangle position without losing any control, you're doing it right. If it feels forced or you're struggling, you're doing it wrong. One thing I always tell my guys - don't be married to the finish. If the triangle isn't there, switch back to the armbar, to the RNC, to whatever's available. The triangle is just one tool in the back attack toolbox. And for safety in training, man, we're super serious about this. Blood chokes are no joke. We've got a whole culture around tapping early and finishing slowly because we want everybody training for decades, not getting brain damage in the gym trying to prove they're tough."
-  }
+  ]
 }

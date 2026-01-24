@@ -8,7 +8,7 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -414,7 +414,6 @@ The Armbar from Back Control represents one of the most devastating finishing se
 - [[Back Control to Crucifix]] - Related transition when opponent defends armbar
 - [[Mount]] - Alternative position for armbar application with similar mechanics
 - [[Triangle Control]] - Follow-up submission when armbar is defended by bent arm
-- [[Danaher Straight Jacket System]] - System emphasizing back control submission chains including this armbar
 - [[Back Attack System]] - Strategic framework for maximizing submissions from back control
 - [[Submission Control Position]] - Principle of maintaining control throughout submission attempts
 

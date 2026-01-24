@@ -8,7 +8,7 @@ description: "Master Gift Wrap position in BJJ - a dominant back control variati
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

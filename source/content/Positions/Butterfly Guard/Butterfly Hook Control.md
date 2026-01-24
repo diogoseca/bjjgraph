@@ -8,7 +8,7 @@ description: "Master Butterfly Hook Control in BJJ. Strategic guide covering hoo
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

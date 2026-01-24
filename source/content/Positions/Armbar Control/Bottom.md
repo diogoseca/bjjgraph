@@ -8,7 +8,7 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -434,7 +434,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 - **[[Closed Guard]]** - Common escape target - safe position after successful defense
 - **[[Mount]]** - Common origin - position often attacked from mount
 - **[[Hip Escape Mechanics]]** - Core concept - fundamental movement pattern for escapes
-- **[[Danaher Straight Jacket System]]** - Related system - systematic approach to armbar attacks and defenses
+- **[[systematic approach Straight Jacket System]]** - Related system - systematic approach to armbar attacks and defenses
 
 
 </section>

@@ -8,7 +8,7 @@ description: "Master the Calf Slicer in BJJ. Complete guide with safety protocol
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -422,7 +422,6 @@ The Calf Slicer is a compression-based leg submission that targets the calf musc
 - [[Kneebar]] - Joint lock alternative when Calf Slicer position is available
 - [[Twister]] - Primary submission from Truck when opponent defends Calf Slicer
 - [[Truck Entry]] - Essential transition to access Calf Slicer from back attacks
-- [[Danaher Leg Lock System]] - Systematic framework incorporating Calf Slicer in leg attack chains
 - [[Craig Jones Leg Lock System]] - Modern approach to chaining Calf Slicers with heel hooks
 - [[Banana Split]] - Similar compression-based submission targeting different muscle groups
 - [[Leg Entanglement]] - Fundamental principle underlying all Calf Slicer positions

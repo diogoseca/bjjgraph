@@ -1,7 +1,13 @@
 {
   "name": "Reverse De La Riva Recovery",
   "description": "Master Reverse De La Riva Recovery in BJJ. Learn how to re-establish guard control from compromised positions. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "tags": ["bjj", "guard-recovery", "reverse-de-la-riva", "defensive-transition", "guard-retention"],
+  "tags": [
+    "bjj",
+    "guard-recovery",
+    "reverse-de-la-riva",
+    "defensive-transition",
+    "guard-retention"
+  ],
   "starting_position": "Reverse De La Riva Guard",
   "ending_position": "Reverse De La Riva Guard",
   "success_rates": {
@@ -261,10 +267,5 @@
       "name": "Shin Shield Recovery",
       "relationship": "Related guard retention concept for different guard systems"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The concept of guard recovery represents a fundamental understanding of positional chess in Brazilian Jiu-Jitsu. When we examine RDLR recovery from a systematic perspective, we must recognize that recovery is not simply returning to a previous position - it is the application of specific mechanical principles to rebuild structural advantages that have been compromised. The hip escape movement creates angular change that is geometrically necessary for hook reinsertion. Without this angle, the hook cannot physically pass underneath opponent's leg. The frame mechanics create the distance that makes the angle meaningful. This is not random defensive movement - this is the systematic application of leverage principles to rebuild positional structure. Advanced practitioners understand that recovery sequences are predictive rather than reactive. They feel weight distribution changes and grip pressure variations that indicate incoming attacks, allowing them to begin recovery movements before position is completely compromised. This predictive recovery is vastly more efficient than reactive recovery and represents the difference between defensive survival and true positional control.",
-    "gordon_ryan": "In competition, your guard recovery determines whether you can actually use your guard game under real pressure. I've won matches specifically because opponents couldn't pass my guard even when they got close - and that's entirely about having reliable recovery sequences. With RDLR specifically, I use the recovery hip escape as both defensive reset and offensive opportunity creation. When I hip escape during recovery, I'm looking to immediately transition to Kiss of the Dragon or go underneath for the leg drag counter. The recovery movement creates the angle I need for those attacks, so I'm never purely defensive. That's the competition mindset you need - even when defending, you're setting up your next attack. Against high-level opponents, they will compromise your RDLR structure repeatedly. The question is whether you can recover it faster than they can capitalize on the compromised position. That's the meta-game of modern guard retention. I drill RDLR recovery constantly because it's a high-percentage defensive sequence that also creates attacking opportunities. If you can't recover your guard under pressure, you can't compete at the highest levels. It's that simple.",
-    "eddie_bravo": "RDLR recovery is where a lot of traditional guard players struggle because they're trying to perfectly rebuild the position instead of staying fluid and adapting. In the 10th Planet system, we look at recovery as flow between related positions rather than rigid restoration of exact structure. If my RDLR is getting smashed, maybe I granby roll into it and come up with a totally different angle, or maybe I accept the position change and switch to butterfly or even stand up. The key is maintaining movement and not getting fixated on making the exact original position work when it's severely compromised. We also use RDLR recovery as a setup for leg attacks - when I hip escape to recover, I'm looking for opportunities to enter into leg entanglements if opponent overcommits to their pass. This creates a dilemma for them because aggressive passing opens up leg locks, but passive passing allows me to recover and sweep. Recovery sequences should create these kinds of dilemmas rather than just being pure defense. Keep moving, stay unpredictable, and turn defensive moments into offensive opportunities. That's how you make recovery actually work in real situations against explosive athletes who aren't going to let you slowly rebuild perfect position."
-  }
+  ]
 }

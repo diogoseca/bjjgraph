@@ -1,7 +1,17 @@
 {
   "name": "Space Creation",
   "description": "Master Space Creation in BJJ. Learn frame mechanics, hip escape principles, bridging techniques, and defensive applications across positions with proven training methods.",
-  "tags": ["bjj", "principle", "space creation", "defense", "frames", "escapes", "fundamentals", "hip movement", "bridging"],
+  "tags": [
+    "bjj",
+    "principle",
+    "space creation",
+    "defense",
+    "frames",
+    "escapes",
+    "fundamentals",
+    "hip movement",
+    "bridging"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -398,10 +408,5 @@
       "content_type": "Transition",
       "relationship": "Explosive space creation technique from mount using bridging mechanics"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Space creation is not a technique—it is the fundamental mechanical principle underlying all escape science. The relationship is mathematical: compression eliminates options, space generates options. When we examine any escape sequence from any inferior position, we find that the first phase must always involve space generation through either bridging mechanics or hip displacement mechanics. The amateur makes the catastrophic error of attempting to execute complex escape movements from completely flattened positions where biomechanical space does not exist. The professional understands that space must be created first, often in multiple progressive stages, before the actual escape movement becomes mechanically possible. Frame construction creates the lever, hip movement creates the displacement, and timing ensures these movements occur when the opponent's pressure system is momentarily compromised. This is not optional technique—this is fundamental mechanical law. The practitioner who masters space creation under pressure has solved the most important problem in defensive jiu-jitsu: how to create opportunity from disadvantage.",
-    "gordon_ryan": "You cannot escape what you cannot move away from—that's basic. Space creation is the difference between being stuck under pressure for entire rounds versus flowing through positions and getting back to your game. What I've learned through competition is that you need to be creating space constantly, not waiting for the perfect moment. Every small adjustment the top guy makes, every grip change, every weight shift—that's when I'm shrimping an inch, framing a bit harder, making micro-adjustments that add up. By the time I'm ready to actually escape, I've already created most of the space I need through these continuous small movements. The guys who wait for one big explosive escape attempt get stuffed every time because it's too obvious. My approach is to make space creation a constant background process—always framing, always moving the hips slightly, always making the top position just a bit worse for my opponent. After thousands of rounds, I can create space even against the best pressure players in the world because I'm not trying to do it all at once. Progressive, relentless space creation beats explosive, one-time attempts every time in high-level competition.",
-    "eddie_bravo": "The beautiful thing about space creation is that it's where traditional technique meets street effectiveness—this concept works whether you're in the gi, no-gi, or in a real situation. What we emphasize in 10th Planet is that you need to be comfortable creating space from the worst positions possible, because that's what happens in real scenarios. We drill a lot of space creation from fully flattened positions, from back control with both hooks in, from mounted crucifix—positions where most people would tap to pressure alone. The key is understanding that you can create space even when it seems impossible by using explosive hip movement combined with precise framing. We also add a psychological element: the person who stays calm under pressure and keeps working for space will eventually find it, while the person who panics and stops moving is finished. I've seen smaller guys create space against much bigger opponents by using perfect timing and leverage rather than strength. The lockdown from half guard is one of our favorite tools because it creates space by controlling the opponent's leg, preventing them from bringing pressure effectively. Space creation isn't just about escaping—it's about never accepting a bad position as permanent."
-  }
+  ]
 }

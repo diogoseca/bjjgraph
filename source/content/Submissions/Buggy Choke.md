@@ -8,7 +8,7 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -407,12 +407,10 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Additional Related Content
 
-- [[Lockdown]] - Primary control position used to set up the Buggy Choke in 10th Planet system
 - [[Old School Sweep]] - Alternative attack from same half guard position when choke is defended
 - [[Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
 - [[Electric Chair Submission]] - Primary follow-up submission when opponent defends the Buggy Choke
 - [[Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
-- [[Twister]] - Advanced progression in the 10th Planet half guard submission chain
 - [[Truck]] - Alternative back attack position accessible from similar half guard entries
 - [[Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
 - [[Turtle to Back Control]] - Similar pressure and angle concepts when applying from turtle position

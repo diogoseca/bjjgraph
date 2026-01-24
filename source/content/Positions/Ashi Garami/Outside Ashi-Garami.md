@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

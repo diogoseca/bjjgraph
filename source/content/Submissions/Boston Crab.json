@@ -350,20 +350,12 @@
       "relationship": "Back control position with leg control access to Boston Crab setup"
     },
     {
-      "name": "Twister System",
-      "relationship": "Eddie Bravo's system incorporating Boston Crab-type mechanics and spine control"
-    },
-    {
       "name": "Spine Lock",
       "relationship": "Similar compression submission targeting spinal hyperextension"
     },
     {
       "name": "Turtle to Back Control",
       "relationship": "Entry pathway where Boston Crab becomes option if traditional back control is defended"
-    },
-    {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "System that includes understanding of spinal lock mechanics and leg control positions"
     },
     {
       "name": "Back Control",
@@ -380,15 +372,6 @@
     {
       "name": "Twister Control",
       "relationship": "Spinal lock position that shares anatomical targets with Boston Crab"
-    },
-    {
-      "name": "Game Over",
-      "relationship": "Leg control position from 10th Planet system related to Boston Crab entries"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Boston Crab represents an interesting study in spinal mechanics and leverage principles, though it is largely absent from modern sport jiu-jitsu due to rule restrictions on spinal compression. From a biomechanical perspective, the submission creates force through a simple lever system where the fulcrum is the opponent's upper torso contact with the mat, the load is their lower body weight, and the effort is your sitting-back motion while controlling their ankles. The lumbar spine, which normally tolerates significant compressive load in neutral position, becomes extremely vulnerable when forced into hyperextension beyond physiological limits. What makes this submission particularly dangerous compared to joint locks is that spinal structures have less proprioceptive feedback - the opponent may not feel the danger until structural damage begins. The key technical principle is that submission pressure must be applied progressively enough for the opponent's nervous system to register threat and initiate tap response. In training contexts, this submission serves primarily as an educational tool for understanding spinal vulnerability and the importance of leg control from back positions. The mechanics inform our understanding of why protecting your lower back when opponent controls your legs is so critical in turtle or bottom positions. While rarely seen in IBJJF competition, the Boston Crab principles appear in catch wrestling and demonstrate important concepts about compression submissions that differ fundamentally from joint manipulation or strangulation techniques.",
-    "gordon_ryan": "The Boston Crab is not part of my competition game because it's illegal in IBJJF and most high-level no-gi competitions, but understanding the mechanics is valuable for complete grappling knowledge and for scenarios where spinal locks are legal. In my back attack system, if an opponent is successfully defending rear naked choke attempts and I have leg control opportunities from turtle or transitional positions, the Boston Crab represents one potential finishing option in rulesets where it's permitted. The key distinction is knowing when technique application is appropriate - in training, this should be practiced with extreme caution and clear safety protocols because spinal injuries can be career-ending. In competition scenarios where legal, the Boston Crab can be effective against opponents who are very difficult to submit with traditional methods because they have excellent defensive hand positioning but poor awareness of leg vulnerability. The psychological element is also significant - many modern sport grapplers have never trained defense against spinal compression techniques, so in catch wrestling or submission-only formats without spinal lock restrictions, they may panic or tap quickly when the position is established. However, I emphasize to my students that position and safety come before submissions. The Boston Crab should never be attempted as a desperation technique or forced from poor positions. If you're going to use it in competition where legal, you must have absolute control first and apply the finish with technical precision. In training, I recommend drilling this submission only with advanced training partners who understand the risks and have agreed to work on it specifically. The risk-reward ratio in training is not favorable for frequent practice.",
-    "eddie_bravo": "The Boston Crab has interesting applications in no-gi grappling and represents some of the catch wrestling heritage that influenced 10th Planet development, though it's not a primary technique in our system because of rule restrictions in most competitions we enter. Where the Boston Crab connects to our methodology is in the understanding of leg control and spinal mechanics - similar principles apply in the Twister and Banana Split positions that are signature 10th Planet techniques. The concept of controlling both legs and creating spinal pressure appears throughout our turtle attack sequences and transitional positions like the Truck. When teaching the Boston Crab, I emphasize the catch wrestling roots and explain that this represents a different grappling philosophy where all body parts are legitimate targets including the spine. In our training room, we practice this technique sparingly and with clear safety parameters because our focus is on competition-legal submissions that build toward our main competition strategies. However, understanding the Boston Crab helps students appreciate the full spectrum of submission possibilities and improves their defensive awareness when in turtle or bottom positions with leg exposure. The technique also appears in MMA contexts where I've coached fighters - if you have back control or turtle dominance and traditional submissions are defended, the Boston Crab can be viable in MMA rules where spinal locks are typically legal. The innovation opportunity with this submission lies in the entry mechanics - finding creative ways to establish the leg control from modern guards or transition positions. At 10th Planet, we focus on making techniques flow together as systems, and while the Boston Crab isn't a hub of our system, the leg control principles absolutely inform positions like the Lockdown, Electric Chair, and our Twister entries. Train it safely, know your rules, and understand that not every technique needs to be high-frequency - sometimes having a technique in your arsenal for specific scenarios is valuable even if you only use it occasionally."
-  }
+  ]
 }

@@ -8,7 +8,7 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 <section id="overview" class="content-section">
 
-The Crotch Ripper is a compression-based leg lock submission originating from Eddie Bravo's 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning. The Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions.
+The Crotch Ripper is a compression-based leg lock submission originating from the 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning. The Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions.
 
 **Category**: Compression
 **Type**: Groin Compression
@@ -404,9 +404,7 @@ The Crotch Ripper is a compression-based leg lock submission originating from Ed
 - [[Electric Chair]] - Primary combination sweep when Crotch Ripper is defended - creates submission/sweep dilemma
 - [[Old School Sweep]] - Alternative lockdown attack when angle for Crotch Ripper is not available
 - [[Truck]] - Advanced position that can be entered from lockdown system, shares leg entanglement principles
-- [[10th Planet Half Guard Bottom System]] - Complete system that includes Crotch Ripper as one component of lockdown offense
 - [[Lockdown to Electric Chair System]] - Systematic approach linking Crotch Ripper submission threat with Electric Chair sweep
-- [[Twister System]] - Related Eddie Bravo system with similar leg control and compression principles
 - [[Leg Entanglement]] - Fundamental principle underlying all lockdown-based attacks including Crotch Ripper
 - [[Half Guard Sweeps]] - Transition category that includes Electric Chair and Old School from lockdown position
 - [[Flexibility Training]] - Essential physical preparation for executing lockdown system effectively

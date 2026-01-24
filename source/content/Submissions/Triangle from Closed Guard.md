@@ -8,7 +8,7 @@ description: "Master triangle choke from closed guard. Complete guide with safet
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -305,7 +305,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 **High Guard to Triangle**: Establish high guard with both legs high on opponent's back, controlling both their arms. When opponent tries to posture or pull arms free, use their movement to swing one leg over their shoulder into immediate triangle. The high guard position makes the triangle setup much faster. (When to use: Against opponents who are defensive in closed guard; high guard forces them to react, and their defensive movements create triangle opportunities)
 
-**Flower Sweep to Triangle**: When attempting flower sweep from closed guard with overhook, if opponent bases hard to prevent the sweep, abandon the sweep and immediately swing your outside leg over their back into triangle. The overhook you already have perfectly isolates their arm. (When to use: Creates sweep-submission combination where opponent's defensive commitment to preventing sweep opens triangle; Eddie Bravo frequently teaches this connection)
+**Flower Sweep to Triangle**: When attempting flower sweep from closed guard with overhook, if opponent bases hard to prevent the sweep, abandon the sweep and immediately swing your outside leg over their back into triangle. The overhook you already have perfectly isolates their arm. (When to use: Creates sweep-submission combination where opponent's defensive commitment to preventing sweep opens triangle; 10th Planet's frequently teaches this connection)
 
 
 
@@ -427,7 +427,6 @@ The technical execution of the triangle from closed guard requires precise angle
 - [[Posture Breaking]] - Essential principle and prerequisite for triangle success; opponent's broken posture is required for triangle effectiveness
 - [[Hip Movement]] - Fundamental principle for creating the angle necessary for triangle; hip mobility directly impacts triangle success rate
 - [[Submission Chains]] - Strategic principle where triangle serves as centerpiece of closed guard attack system connecting to multiple submissions
-- [[Rubber Guard]] - Alternative guard position that provides enhanced control for triangle setups; Eddie Bravo's system frequently uses this path
 
 
 </section>

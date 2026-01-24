@@ -4,11 +4,11 @@
 
 ---
 title: "Cross Body Ride Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics with expert insights."
+description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master defensive strategies from Cross Body Ride Bottom in BJJ. Co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Cross Body Ride Bottom",
-  "description": "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics with expert insights.",
+  "description": "Master defensive strategies from Cross Body Ride Bottom in BJJ. Complete guide covering escapes, transitions, and survival tactics.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

@@ -8,7 +8,7 @@ description: "Master Piranha Guard in BJJ. Advanced lapel-based guard with power
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

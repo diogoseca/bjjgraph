@@ -8,7 +8,7 @@ description: "Master 3-4 Mount position in BJJ. Complete guide covering asymmetr
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -8,7 +8,7 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -328,7 +328,6 @@ The triangle to omoplata transition is a fundamental component of modern guard a
 - [[Omoplata to Back]] - Follow-up transition extending the attacking sequence
 - [[Closed Guard]] - Common guard position where this chain initiates
 - [[Spider Guard]] - Alternative guard position for triangle entry
-- [[Rubber Guard]] - Eddie Bravo system utilizing similar mechanics
 - [[Triangle from Closed Guard]] - Primary submission setup leading to this transition
 
 

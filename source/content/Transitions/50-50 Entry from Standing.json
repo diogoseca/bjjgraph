@@ -1,7 +1,14 @@
 {
   "name": "50-50 Entry from Standing",
   "description": "Master the 50-50 Entry from Standing in BJJ. Step-by-step execution from standing position to 50-50 Guard. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
-  "tags": ["bjj", "technique", "50-50", "guard pull", "leg entanglement", "standing"],
+  "tags": [
+    "bjj",
+    "technique",
+    "50-50",
+    "guard pull",
+    "leg entanglement",
+    "standing"
+  ],
   "starting_position": "Standing Position",
   "ending_position": "50-50 Guard",
   "success_rates": {
@@ -275,10 +282,5 @@
       "name": "Heel Hook",
       "relationship": "Common submission finish from 50-50 position"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The 50-50 guard entry from standing represents a sophisticated understanding of modern leg entanglement theory. What makes this entry particularly interesting from a systematic perspective is how it simultaneously addresses two fundamental problems in guard pulling: maintaining connection with your opponent during the transition and establishing immediate offensive threats upon landing. The symmetrical nature of the final position creates what I call a 'strategic stalemate' - both competitors have similar attacking and defensive options, which means victory goes to whoever has superior technical knowledge and execution within the position itself. When teaching this entry, I emphasize the critical importance of the outside leg frame - this single detail determines whether you achieve a controlled position or simply fall to your back beneath a standing opponent. The timing of threading this leg inside your opponent's thigh must be simultaneous with your sitting motion, not sequential. Students often make the mistake of sitting first and then trying to establish the leg configuration, which gives their opponent time to counter. From a biomechanical standpoint, the entry requires coordinating three separate actions: maintaining upper body connection, controlling the target leg, and configuring your own legs - all while managing your center of gravity during the descent to the mat. This level of coordination only comes through systematic drilling of the component parts before attempting the full technique under resistance.",
-    "gordon_ryan": "I use the 50-50 entry from standing constantly in competition because it puts me directly into a position where I have a massive advantage - most people don't understand 50-50 at a high level, so they're immediately uncomfortable and making mistakes. The key to making this entry work at the elite level is your grip fighting before you sit. You need to control their movement so they can't just back away when you drop. I like to use a collar tie or wrist control and actually pull them slightly forward as I sit, which makes it very hard for them to sprawl effectively. Once I'm in 50-50, I'm looking for the inside heel hook immediately, but I'm also constantly adjusting my position to break down their defensive structure. A lot of people think 50-50 is a stalling position, but that's only true if you don't know how to attack from it. When I enter from standing, I'm already thinking about my finishing sequence - usually I'm setting up to transition to outside ashi within 10-15 seconds if I don't get the immediate tap from 50-50. The standing entry is also great because it's hard to pin any negative points on you in most rulesets - you're pulling guard, but you're immediately establishing a complex entanglement that referees recognize as advancement. I've won multiple matches by entering 50-50 from standing in the first 30 seconds and finishing with a heel hook within the first minute. The entry is that effective when you understand the complete system.",
-    "eddie_bravo": "The 50-50 entry from standing is one of those techniques that shows how much the game has evolved beyond traditional positions. In 10th Planet, we look at leg entanglements as their own complete game, not just something you do occasionally. This entry is beautiful because it completely bypasses all the traditional guard passing scenarios - you're not in closed guard, you're not in half guard, you're in this weird position where both guys have the same theoretical opportunities but the person who pulled it knows the position better and has the advantage. What I love about teaching this is how it opens people's minds to non-traditional entries. We don't always have to do a traditional guard pull and then work to entangle the legs - we can create the entanglement during the pull itself. When I'm coaching someone on this entry, I tell them to think of it like setting a trap. Your opponent doesn't realize they're in danger until they're already entangled. The way I modify this for my students is to emphasize the importance of immediately attacking once you establish the position - don't just sit in 50-50 and wait, start threatening the heel hook or transition to saddle right away. That aggressive mentality is what makes the position work. The sitting entry also fits perfectly with our overall philosophy of being comfortable on your back and attacking from what traditionally might be considered defensive positions. In 10th Planet, there's no such thing as a purely defensive position if you know the right attacks."
-  }
+  ]
 }

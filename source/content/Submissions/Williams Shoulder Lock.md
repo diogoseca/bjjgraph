@@ -8,7 +8,7 @@ description: "Master Williams Shoulder Lock in BJJ. Complete guide with safety p
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -421,7 +421,6 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 - [[Biomechanical Principles]] - Understanding shoulder joint structure and vulnerability
 - [[Submission Chains]] - Framework for linking Williams Shoulder Lock with other attacks
 - [[Triangle from Guard]] - Alternative attack when opponent defends shoulder lock
-- [[10th Planet Rubber Guard System]] - System that sometimes incorporates overhook shoulder attacks
 - [[Tarikoplata]] - Advanced shoulder lock with similar mechanics but different entry
 
 

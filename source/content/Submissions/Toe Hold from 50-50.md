@@ -8,7 +8,7 @@ description: "Master the Toe Hold from 50-50 Guard with comprehensive safety pro
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -433,7 +433,6 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 - [[Outside Ashi-Garami]] - Transition position that can lead to 50-50 toe hold opportunities
 - [[Kneebar from 50-50]] - Alternative finishing option from 50-50 when opponent defends foot attacks
 - [[Saddle]] - Advanced transition from 50-50 when toe hold is defended - escalates to saddle position
-- [[Danaher Leg Lock System]] - Systematic framework that contextualizes toe hold within complete leg attack system
 - [[X-Guard]] - Entry position that can transition to 50-50 for toe hold setup
 
 

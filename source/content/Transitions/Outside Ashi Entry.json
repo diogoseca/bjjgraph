@@ -1,7 +1,16 @@
 {
   "name": "Outside Ashi Entry",
   "description": "Master the Outside Ashi Entry from standing. Learn systematic approach to leg entanglements with proper mechanics. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "leg-locks", "ashi-garami", "entry", "standing", "leg-entanglement", "outside-ashi", "no-gi"],
+  "tags": [
+    "bjj",
+    "leg-locks",
+    "ashi-garami",
+    "entry",
+    "standing",
+    "leg-entanglement",
+    "outside-ashi",
+    "no-gi"
+  ],
   "starting_position": "Standing Position",
   "ending_position": "Outside Ashi-Garami",
   "success_rates": {
@@ -268,10 +277,5 @@
       "name": "Single Leg Takedown",
       "relationship": "Traditional technique that can transition to outside ashi if defended"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The outside ashi entry represents a fundamental gateway into leg entanglement systems and must be understood through the lens of systematic entry mechanics. The most critical element is maintaining continuous connection to the opponent's leg throughout the entire sequence - any break in connection allows them to escape and reestablish their base. The entry succeeds because it creates a positional dilemma: the opponent must simultaneously defend the leg attack while managing their balance and posture. From a biomechanical perspective, the rotation component is what differentiates competent outside ashi entries from failed attempts. Many practitioners make the error of dropping straight down rather than rotating to the perpendicular angle, which allows opponents to simply step over or pull their leg free. The rotation must be initiated simultaneously with the level change, not sequentially. Additionally, the grip positioning at the ankle or lower shin provides maximum mechanical advantage - gripping higher on the leg gives the opponent too much range of motion to defend. When teaching this entry, I emphasize that it should be thought of as a complete system entry rather than an isolated technique, meaning students must understand what comes after successful entry just as thoroughly as they understand the entry mechanics themselves.",
-    "gordon_ryan": "In competition, the outside ashi entry has become one of my highest percentage pathways into leg attacks, particularly in no-gi matches where traditional takedowns can be difficult to complete against elite competition. The key to making this entry work at the highest levels is creating genuine reactions through feints and combination attacks - you cannot simply drop for the entry against a prepared opponent. I often set it up by threatening upper body attacks, collar ties, or even fake takedown attempts that cause the opponent to react, then capitalize on their movement with the ashi entry. The timing element is everything in competition: I'm looking for the opponent's forward step, their reaction to a feint, or the moment they're posting weight on one leg. Against other leg lock specialists, the outside ashi entry is particularly valuable because it's lower risk than inside ashi entries - your head position is safer and you're less exposed to counter leg entanglements. Once I establish outside ashi, I immediately start working toward either straight ankle locks as my primary attack or transitioning to saddle position if they defend in predictable ways. The entry has to be explosive but controlled - you need the speed to catch them off-guard but the control to land in a stable, dominant position rather than scrambling on the mat.",
-    "eddie_bravo": "The outside ashi entry fits perfectly into the 10th Planet philosophy of creating modern, unorthodox pathways to dominant positions. What I love about this entry is how it completely changes the dynamic of standing exchanges - instead of just wrestling for takedowns, you're introducing a leg attack dimension that most traditionally-trained grapplers aren't comfortable defending. In our system, we often combine this entry with rubber guard threats or mission control setups when training transitions from standing to ground. The beauty of outside ashi from a strategic perspective is that it forces conservative grapplers out of their comfort zone. They can't just stand static and defend - they have to move, and movement creates opportunities. I teach students to use the entry as part of combination attack sequences: threaten a guillotine which makes them posture up and pull back, then immediately dive for outside ashi on the leg they post weight on. The entry also works incredibly well in MMA contexts because fighters are less familiar with leg entanglement defenses compared to traditional BJJ positions. When drilling this, I want students to feel comfortable entering from every angle and position - from clinches, from failed shots, from opponent's kicks, anywhere there's a leg exposed. The more creative you get with entry timing and setups, the higher your success rate becomes because you're presenting problems opponents haven't prepared for in their training."
-  }
+  ]
 }

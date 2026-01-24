@@ -8,7 +8,7 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -20,7 +20,7 @@ description: "Master Pocket Half Guard in BJJ. Deep underhook half guard positio
 
 Pocket Half Guard is a specialized half guard variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket' - the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.
 
-From the bottom perspective, Pocket Half Guard excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through Eddie Bravo's 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers.
+From the bottom perspective, Pocket Half Guard excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through the 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers.
 
 From the top perspective, Pocket Half Guard Top represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts. Modern practitioners have developed this into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management. The position represents a critical strategic battleground where underhook depth, chest pressure, and crossface control determine the outcome.
 

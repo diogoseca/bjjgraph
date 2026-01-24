@@ -8,7 +8,7 @@ description: "Master Modified Mount in BJJ. Strategic position trading some cont
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

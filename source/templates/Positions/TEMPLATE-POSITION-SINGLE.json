@@ -22,8 +22,7 @@
     "training_drills",
     "optimal_submission_paths",
     "related_content",
-    "position_metrics",
-    "expert_insights"
+    "position_metrics"
   ],
   "properties": {
     "name": {
@@ -481,33 +480,6 @@
           "examples": [
             "30-90 seconds in competitive BJJ (varies significantly by ruleset and strategy)"
           ]
-        }
-      }
-    },
-    "expert_insights": {
-      "type": "object",
-      "description": "Insights from all 3 experts (REQUIRED, 200+ characters each)",
-      "additionalProperties": false,
-      "required": [
-        "danaher",
-        "gordon_ryan",
-        "eddie_bravo"
-      ],
-      "properties": {
-        "danaher": {
-          "type": "string",
-          "minLength": 200,
-          "description": "John Danaher - systematic/biomechanical perspective"
-        },
-        "gordon_ryan": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Gordon Ryan - competition/practical application"
-        },
-        "eddie_bravo": {
-          "type": "string",
-          "minLength": 200,
-          "description": "Eddie Bravo - innovation/10th Planet approach"
         }
       }
     }

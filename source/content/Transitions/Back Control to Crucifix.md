@@ -8,7 +8,7 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -316,7 +316,7 @@ The back control to crucifix transition involves significant pressure on the opp
 
 ## Position Integration
 
-The back control to crucifix transition occupies a critical position in modern back attack systems, representing the logical evolution when standard back control submissions are being effectively defended. This transition integrates into the larger back attack hierarchy by providing an alternative path when rear naked chokes are defended through hand fighting or collar grips. The crucifix serves as both a destination position for submissions and a waypoint toward mounted crucifix or return to standard back control, creating a positional flow that prevents stagnation. Within the Danaher Death Squad and modern no-gi systems, the crucifix is considered one of the highest-value positions due to its dual-arm control mechanism, placing it alongside truck position and inside sankaku in terms of submission efficiency. The transition also connects to gift wrap position, as many practitioners use gift wrap as a preliminary arm trap before completing full crucifix control. Understanding this transition elevates your back attack game from basic choke attempts to a sophisticated system of interconnected positions that systematically remove defensive options. Competition data shows that practitioners who actively hunt for crucifix from back control have significantly higher submission rates than those who rely solely on rear naked choke variations, making this transition essential knowledge for serious competitors.
+The back control to crucifix transition occupies a critical position in modern back attack systems, representing the logical evolution when standard back control submissions are being effectively defended. This transition integrates into the larger back attack hierarchy by providing an alternative path when rear naked chokes are defended through hand fighting or collar grips. The crucifix serves as both a destination position for submissions and a waypoint toward mounted crucifix or return to standard back control, creating a positional flow that prevents stagnation. Within the modern leg lock pioneers and modern no-gi systems, the crucifix is considered one of the highest-value positions due to its dual-arm control mechanism, placing it alongside truck position and inside sankaku in terms of submission efficiency. The transition also connects to gift wrap position, as many practitioners use gift wrap as a preliminary arm trap before completing full crucifix control. Understanding this transition elevates your back attack game from basic choke attempts to a sophisticated system of interconnected positions that systematically remove defensive options. Competition data shows that practitioners who actively hunt for crucifix from back control have significantly higher submission rates than those who rely solely on rear naked choke variations, making this transition essential knowledge for serious competitors.
 
 </section>
 

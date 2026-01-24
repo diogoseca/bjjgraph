@@ -8,7 +8,7 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -333,7 +333,7 @@ When practicing back take transitions, never cross your feet after establishing 
 
 ## Position Integration
 
-The back take represents the ultimate positional objective from nearly every position in Brazilian Jiu-Jitsu, serving as the connection point between offensive and defensive situations. From bottom guard positions (closed guard, open guard variations, half guard), the back take provides a path to complete reversal and dominance. From turtle, it's the most common attacking goal for the top player. From side control and mount top positions, the back take constitutes positional advancement toward match-ending submissions. The systematic BJJ player develops reliable back take pathways from every position they commonly encounter. For example, from bottom half guard, the deep half chair sit to back should be automatic. From standing, the arm drag or single leg to back take becomes the primary strategy when takedowns are defended. Back take success fundamentally depends on understanding the broader positional game - you must first achieve the prerequisite position (turtle top, side control, dominant guard) before the back take becomes available. Champions like Gordon Ryan and Garry Tonon have built entire competitive systems around funneling opponents into positions where back takes become inevitable, demonstrating that back take integration extends beyond the transition itself to encompass the entire strategic approach to the match.
+The back take represents the ultimate positional objective from nearly every position in Brazilian Jiu-Jitsu, serving as the connection point between offensive and defensive situations. From bottom guard positions (closed guard, open guard variations, half guard), the back take provides a path to complete reversal and dominance. From turtle, it's the most common attacking goal for the top player. From side control and mount top positions, the back take constitutes positional advancement toward match-ending submissions. The systematic BJJ player develops reliable back take pathways from every position they commonly encounter. For example, from bottom half guard, the deep half chair sit to back should be automatic. From standing, the arm drag or single leg to back take becomes the primary strategy when takedowns are defended. Back take success fundamentally depends on understanding the broader positional game - you must first achieve the prerequisite position (turtle top, side control, dominant guard) before the back take becomes available. Champions like elite competitors' and Garry Tonon have built entire competitive systems around funneling opponents into positions where back takes become inevitable, demonstrating that back take integration extends beyond the transition itself to encompass the entire strategic approach to the match.
 
 </section>
 

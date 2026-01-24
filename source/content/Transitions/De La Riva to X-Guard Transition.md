@@ -8,7 +8,7 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR co
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -320,7 +320,7 @@ This transition is generally safe when practiced progressively, but several prec
 
 ## Position Integration
 
-The De La Riva to X-Guard transition represents a critical connection in modern guard systems, functioning as both a positional upgrade and an offensive pressure multiplier. Within the broader BJJ framework, this transition allows practitioners to maintain continuous attacking pressure even when initial DLR attacks are defended, preventing opponent from settling into defensive positions. It connects to the broader Open Guard System as a key pathway between De La Riva Guard, X-Guard, and Single Leg X Guard positions. The transition integrates with Back Attack System through Kiss of the Dragon variations and connects to Leg Entanglement Systems when opponent's defensive reactions expose leg attack opportunities. Understanding this transition is essential for developing what Danaher terms 'position chaining' - the ability to flow seamlessly between connected guard positions based on opponent reactions. It also exemplifies the principle that elite guard players don't view positions as isolated states but rather as connected nodes in a systematic framework, where defensive reactions in one position become offensive opportunities in another.
+The De La Riva to X-Guard transition represents a critical connection in modern guard systems, functioning as both a positional upgrade and an offensive pressure multiplier. Within the broader BJJ framework, this transition allows practitioners to maintain continuous attacking pressure even when initial DLR attacks are defended, preventing opponent from settling into defensive positions. It connects to the broader Open Guard System as a key pathway between De La Riva Guard, X-Guard, and Single Leg X Guard positions. The transition integrates with Back Attack System through Kiss of the Dragon variations and connects to Leg Entanglement Systems when opponent's defensive reactions expose leg attack opportunities. Understanding this transition is essential for developing what systematic approach terms 'position chaining' - the ability to flow seamlessly between connected guard positions based on opponent reactions. It also exemplifies the principle that elite guard players don't view positions as isolated states but rather as connected nodes in a systematic framework, where defensive reactions in one position become offensive opportunities in another.
 
 </section>
 

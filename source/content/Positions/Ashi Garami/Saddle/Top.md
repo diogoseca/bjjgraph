@@ -8,7 +8,7 @@ description: "Master saddle position mechanics with systematic entries, control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -453,7 +453,7 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 - **[[Outside Ashi-Garami]]** - Primary entry pathway via back step progression
 - **[[50-50 Guard]]** - Entry position with elevation and clearing mechanics
 - **[[Inside Heel Hook]]** - Primary finishing submission from this position
-- **[[Danaher Leg Lock System]]** - Comprehensive systematic approach to saddle and leg entanglements
+- **[[systematic approach Leg Lock System]]** - Comprehensive systematic approach to saddle and leg entanglements
 - **[[Craig Jones Leg Lock System]]** - Competition-tested saddle entries and finishes
 - **[[Leg Entanglement]]** - Conceptual framework for position hierarchy
 

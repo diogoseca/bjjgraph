@@ -8,7 +8,7 @@ description: "Master Brabo Choke variations in BJJ. Complete guide covering no-g
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -432,7 +432,6 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 - [[Front Headlock to Darce]] - Fundamental transition showing how to recognize and execute brabo opportunity from control position
 - [[Turtle Transition]] - Common position where opponent exposes neck for brabo entry while attempting to recover guard
 - [[Snap Down]] - Standing technique that creates front headlock position for brabo entries
-- [[Danaher Front Headlock System]] - Comprehensive system integrating brabo variations within complete front headlock attack framework
 - [[Back Control]] - Superior position to transition to when opponent defends brabo by rolling
 - [[Guillotine Control]] - Alternative choke option when opponent postures up during brabo attempt
 - [[D'arce Control]] - Gi-based version sharing fundamental mechanics with no-gi brabo variations

@@ -8,7 +8,7 @@ description: "Master the Americana shoulder lock in BJJ. Complete strategic guid
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

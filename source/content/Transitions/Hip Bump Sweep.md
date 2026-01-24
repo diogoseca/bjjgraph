@@ -4,11 +4,11 @@
 
 ---
 title: "Hip Bump Sweep | BJJ Technique | BJJ Graph"
-description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, common errors, and expert insights. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
+description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution and common errors. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%."
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -122,7 +122,7 @@ description: "Master the Hip Bump Sweep from Closed Guard. Step-by-step executio
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Hip Bump Sweep",
-  "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, common errors, and expert insights. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "description": "Master the Hip Bump Sweep from Closed Guard. Step-by-step execution and common errors. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "url": "https://bjjgraph.org/Transitions/Hip-Bump-Sweep",
   "isPartOf": {
     "@type": "WebSite",

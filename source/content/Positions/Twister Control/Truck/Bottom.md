@@ -8,7 +8,7 @@ description: "Defensive survival position requiring systematic escape mechanics 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ Truck Bottom position is a highly disadvantageous defensive position where your 
 
 Success in this position requires understanding the mechanical principles of spinal rotation limits, hip mobility, and weight distribution. The bottom practitioner must maintain awareness of submission threats (primarily the Twister, but also calf slicers, neck cranks, and back attacks) while executing defensive frames and hip movement to create escape opportunities. The psychological challenge cannot be understated—the unfamiliar body configuration and multiple submission threats create panic in inexperienced practitioners.
 
-The position emerged from wrestling's turk ride and was popularized in BJJ through Eddie Bravo's 10th Planet system, where it serves as a gateway to the Twister submission and various back attacks. Unlike more stable bottom positions, the Truck Bottom offers limited offensive options, making escape the primary tactical objective. The granby roll is the primary escape mechanism, but timing and setup are critical.
+The position emerged from wrestling's turk ride and was popularized in BJJ through the 10th Planet system, where it serves as a gateway to the Twister submission and various back attacks. Unlike more stable bottom positions, the Truck Bottom offers limited offensive options, making escape the primary tactical objective. The granby roll is the primary escape mechanism, but timing and setup are critical.
 
 </section>
 

@@ -1,7 +1,14 @@
 {
   "name": "Achilles Lock",
   "description": "Master the Achilles Lock leg submission with comprehensive safety protocols, setup mechanics, and finishing details. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "submission", "leg-lock", "achilles-lock", "ankle-lock", "joint-lock"],
+  "tags": [
+    "bjj",
+    "submission",
+    "leg-lock",
+    "achilles-lock",
+    "ankle-lock",
+    "joint-lock"
+  ],
   "submission_category": "Joint Lock",
   "submission_type": "Leg Lock",
   "target_area": "Achilles tendon and ankle joint",
@@ -336,10 +343,6 @@
       "relationship": "Advanced leg entanglement position including Achilles variations"
     },
     {
-      "name": "Danaher Leg Lock System",
-      "relationship": "Systematic approach to leg locks including Achilles variations"
-    },
-    {
       "name": "Craig Jones Leg Lock System",
       "relationship": "Modern leg lock methodology featuring Achilles Lock applications"
     },
@@ -347,10 +350,5 @@
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework for understanding Ashi positions and controls"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Achilles Lock represents the entry point into the leg lock system - it is the submission that teaches fundamental principles of heel control, hip extension, and fulcrum mechanics that apply across all leg attacks. The primary technical error I observe is practitioners attempting to muscle the submission with arm strength rather than using hip extension as the primary motor. Your arms are merely connectors - they position the fulcrum and control the heel, but your hips generate the breaking pressure. The second critical element is understanding that the Achilles Lock, when applied correctly, should feel inevitable to the opponent rather than sudden. Proper positioning eliminates their escape options before you even begin to apply pressure. In training, this submission must be approached with exceptional care because the Achilles tendon has less blood supply than many other tissues, making injury recovery particularly difficult. Apply pressure slowly and progressively, treating every repetition as an opportunity to refine positional control rather than pursuing the tap. The student who masters the Achilles Lock with perfect technique and safety consciousness has built the foundation for understanding the entire leg lock ecosystem.",
-    "gordon_ryan": "In competition, the Achilles Lock is incredibly high-percentage when you truly commit to the position and understand the mechanics. Too many people bail on the position or apply it half-heartedly, but if you establish proper Ashi control and configure your grips correctly, this submission is extremely difficult to defend. The key distinction between training and competition application is psychological - in training, you must give your partners time to tap and apply pressure slowly. In competition, while you still extend your hips progressively, you're applying pressure with intent to finish immediately. That said, even in competition I'm extending my hips over 2-3 seconds rather than spiking it - it's about committed, progressive pressure versus slow, teaching pressure. The Achilles also serves as an excellent setup for other leg attacks. When opponents defend by turning their knee, you can transition to outside Ashi or toe hold. When they pull back, you can follow to inside Ashi or 50-50. The submission itself is dangerous but manageable with proper technique - I've finished countless Achilles Locks in competition and training without causing serious injury because I understand the mechanics and apply them precisely. Master this before moving to heel hooks.",
-    "eddie_bravo": "The Achilles Lock is fundamental, but it's also where a lot of people get creative with variations in the 10th Planet system. We look at it not just as an isolated submission but as part of a leg control system that includes transitions to Electric Chair, Vaporizer, and other positions. One variation we emphasize is the belly-down Achilles Lock where you turn face-down and use your body weight - this is particularly effective in no-gi when grips are sweaty and harder to maintain. The traditional gi approach of sitting back works great, but when you go belly-down, you can use your chest and shoulder pressure to drive the submission while maintaining better control. Safety-wise, this is one area where we're extremely conservative in the gym. The Achilles tendon is no joke - I've seen too many injuries from people cranking ankle locks too fast. In our system, you drill the position and mechanics extensively before ever applying pressure, and even advanced students go slow in training. The innovation comes in how you enter the position and chain submissions together, not in how fast or hard you apply pressure to the joint. Create the dilemma - threaten the Achilles, be ready to transition to knee attacks or sweeps when they defend. Keep your training partners healthy so they can train tomorrow."
-  }
+  ]
 }

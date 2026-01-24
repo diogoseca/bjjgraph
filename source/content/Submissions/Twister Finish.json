@@ -8,7 +8,7 @@
     "spinal-lock",
     "truck-position",
     "10th-planet",
-    "eddie-bravo",
+    "eddie-10th Planet",
     "advanced-technique"
   ],
   "submission_category": "Compression",
@@ -20,7 +20,7 @@
     "intermediate": 35,
     "advanced": 55
   },
-  "overview": "The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by Eddie Bravo and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.",
+  "overview": "The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by 10th Planet's and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -208,7 +208,7 @@
     },
     {
       "variation_name": "Twister from Lockdown Half Guard",
-      "description": "The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is Eddie Bravo's signature Twister entry and represents the systematic approach to the submission.",
+      "description": "The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is 10th Planet's signature Twister entry and represents the systematic approach to the submission.",
       "when_to_use": "From bottom half guard when you have the lockdown secured. Particularly effective against opponents who try to smash through your half guard with forward pressure."
     },
     {
@@ -325,20 +325,12 @@
       "relationship": "Comprehensive system containing this submission as primary finish"
     },
     {
-      "name": "10th Planet No-Gi Guard System",
-      "relationship": "Parent system where Twister was developed and popularized"
-    },
-    {
       "name": "Lockdown",
       "relationship": "Common starting position for systematic Twister entries"
     },
     {
       "name": "Old School",
       "relationship": "Sweep that creates back exposure for Truck entry"
-    },
-    {
-      "name": "Rubber Guard",
-      "relationship": "Related 10th Planet position emphasizing flexibility and control"
     },
     {
       "name": "Flexibility Training",
@@ -356,10 +348,5 @@
       "name": "Gift Wrap",
       "relationship": "Upper body control that can transition to Truck setup"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Twister represents an interesting case study in submission mechanics - it's one of the few submissions in Brazilian Jiu-Jitsu that targets the spine rather than a limb or the neck independently. The mechanical efficiency comes from the creation of opposed rotational forces, where the lower body is anchored through leg entanglement while the upper body is rotated in the opposite direction. This creates what we might call a 'torque differential' across the spinal column, specifically targeting the thoracic vertebrae. From a systematic perspective, the Twister cannot be viewed as an isolated technique but rather as the culmination of a positional hierarchy beginning with back control, progressing through the truck position, and ending with the submission itself. The safety considerations are paramount - the spine's proximity to the spinal cord means that injury here carries catastrophic potential. Therefore, in training, we must treat this submission with extreme respect, applying pressure over a minimum of five to seven seconds and never, under any circumstances, jerking or spiking the finish. The technique's effectiveness in competition is limited not by mechanical inefficiency but by the difficulty of securing the prerequisite positions against elite opposition and by various rule restrictions. For instructional purposes, I emphasize the Twister as an advanced teaching tool that develops understanding of spinal mechanics and rotational control, rather than as a high-percentage finishing option for competition.",
-    "gordon_ryan": "The Twister is one of those submissions that looks way more spectacular than it actually is in competition. I've hit it a few times in training, but in high-level no-gi competition, you're almost never going to catch someone in a position this complicated. The amount of control you need to lock up the truck and then finish the Twister is massive - if you have that much control, you can probably just take the back and get the choke, which is higher percentage and works under any ruleset. That said, the positions you learn getting to the Twister - the truck, the crab ride, the leg entanglement game - those are absolutely legit and useful. I use truck position entries all the time to threaten the back or to attack legs. The key difference between training and competition is that in training, you can play around with these complex positions and really develop the control. In competition, you need to be efficient and go for the highest percentage finish. If I get to someone's back, I'm going for the rear naked choke ninety-nine times out of a hundred because it works under ADCC rules, IBJJF rules, submission-only, whatever. The Twister is illegal in most gi competitions and even in a lot of no-gi formats. But here's the thing - training the Twister makes you better at back control, better at understanding body mechanics, and way more comfortable in scrambles. So I tell people: learn it, drill it slowly and safely with experienced partners, understand the mechanics, but don't build your competition game around it. Use the positional understanding it gives you to improve your back attacks and your overall control game.",
-    "eddie_bravo": "The Twister is the submission that put 10th Planet Jiu-Jitsu on the map, and I'm incredibly proud of it, but I'm also incredibly respectful of it. This is not a submission you fuck around with - it attacks the spine, and that's serious business. When I first started developing the Twister back in the day, it came from my background in wrestling and my obsession with leg rides and back control. I was watching wrestling matches and seeing these positions where guys had incredible control, and I thought, 'How can we weaponize this for submission grappling?' The Twister was the answer. But here's the thing nobody talks about enough - this submission is as much about the journey as the destination. The whole system leading to the Twister - the lockdown, the Old School sweep, the truck position - that's where the real innovation lives. Yeah, you can finish the Twister, and it's devastating when you do, but the positions you learn getting there make your entire back attack game next level. In the 10th Planet system, we teach the Twister methodically and we emphasize safety constantly. You do not practice this on white belts, you do not go fast, and you tap your partner, not the other way around. When I show this technique, I'm always conscious that I'm demonstrating something that can really hurt somebody if they're careless. The beauty of the Twister is that it requires you to be creative, to think outside the box, to use your whole body in this coordinated way that's almost like a puzzle. It's not brute strength - it's technique, timing, and understanding of body mechanics. For me, the Twister represents what 10th Planet is all about: innovation, systematic thinking, and respect for the art and your training partners."
-  }
+  ]
 }

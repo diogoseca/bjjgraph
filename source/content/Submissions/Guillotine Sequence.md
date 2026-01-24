@@ -8,7 +8,7 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -423,7 +423,6 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 - [[Guillotine Counter]] - Recognizing counters allows preemptive adjustments during sequence
 - [[Snap Down to Front Headlock]] - Common standing entry that initiates guillotine sequence from standing exchanges
 - [[Marcelo Garcia Guillotine System]] - Expert systematic framework for developing complete guillotine game
-- [[Danaher Front Headlock System]] - Comprehensive system incorporating guillotine as part of front headlock attacks
 - [[Submission Chains]] - Fundamental principle of flowing between related submissions rather than forcing single techniques
 - [[Chin Protection]] - Defensive principle that impacts guillotine application and variation selection
 - [[D'arce Control]] - Position achieved when transitioning from guillotine to D'arce choke variation

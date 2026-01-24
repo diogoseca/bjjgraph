@@ -168,9 +168,6 @@
         "position_metrics": {
           "$ref": "#/$defs/position_metrics"
         },
-        "expert_insights": {
-          "$ref": "#/$defs/expert_insights"
-        },
         "name": {
           "type": "string",
           "description": "Must be '{hub_name} Bottom' format",
@@ -258,9 +255,6 @@
         },
         "position_metrics": {
           "$ref": "#/$defs/position_metrics"
-        },
-        "expert_insights": {
-          "$ref": "#/$defs/expert_insights"
         },
         "name": {
           "type": "string",
@@ -663,11 +657,6 @@
           "description": "Average time spent in position (optional)"
         }
       }
-    },
-    "expert_insights": {
-      "type": "object",
-      "description": "DEPRECATED - Expert insights removed for copyright reasons",
-      "additionalProperties": true
     },
     "skill_level_success_rates": {
       "type": "object",

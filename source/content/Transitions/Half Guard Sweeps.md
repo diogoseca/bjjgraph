@@ -8,7 +8,7 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -351,7 +351,6 @@ Half guard sweeps are integral to a complete BJJ game and serve as a critical br
 - [[Kimura from Half Guard]] - Combination attack - submission that complements sweep attempts
 - [[Half Guard Pass]] - Counter-technique - understanding passing helps defend and create sweep opportunities
 - [[Butterfly Sweep]] - Related technique - similar sweeping mechanics from different guard position
-- [[10th Planet Half Guard Bottom System]] - System integration - comprehensive half guard attack system including sweeps
 - [[Andrew Wiltse Half Guard System]] - System integration - modern competition-tested half guard sweep system
 - [[Deep Half Guard]] - Position transition - advanced half guard variation with specialized sweeps
 - [[Dogfight Position]] - Position transition - common intermediate position during half guard sweeps

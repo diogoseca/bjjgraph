@@ -8,7 +8,7 @@ description: "Master Headquarters Position in BJJ. Strategic passing control pos
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -449,24 +449,6 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 **Average Time in Position**: 30-90 seconds before advancing to side control or mount, or returning to guard configurations
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Headquarters position represents the central hub of systematic guard passing methodology where controlling the opponent's knee-line creates the fundamental decision point in modern guard passing systems. The position's power lies not in forcing any specific pass, but in creating a control structure that systematically limits the opponent's defensive options while maintaining multiple offensive pathways simultaneously. By establishing headquarters, you compress the infinite complexity of guard passing into a finite series of if-then sequences that can be executed methodically. When the opponent extends their leg, you execute long step. When they turn toward you, you execute knee slice. When they create frames, you execute smash pass. This systematic reduction transforms guard passing from a chaotic scramble into a controlled technical progression with clear decision trees. The critical principle is maintaining connection with the trapped leg throughout all transitions - this connection is the thread that ties together your entire passing system and prevents the chaos of scrambles. The biomechanical efficiency stems from the triangulated base structure combined with the mechanical advantage created by pinning the opponent's knee to the mat, which eliminates their primary tool for creating angles and recovering guard structures. Modern competitors who master headquarters can maintain this position with minimal energy expenditure while methodically breaking down even the most sophisticated guard retention systems.
-
-### Gordon Ryan
-
-In competition, headquarters is my absolute favorite passing position because it puts maximum pressure on my opponent to make decisions while I stay relatively safe and maintain complete control of the passing sequence. When I get to headquarters, I know I'm passing - it's just a matter of which direction based on how they defend and what mistakes they make under pressure. I don't commit heavy pressure initially because I want to float just enough to make them think they can escape, which causes them to show me their defensive strategy and commit to specific movements. Once they commit to pushing my knee, turning into me, or trying to frame, I already know exactly which pass is going to work based on their defensive choice. The key is not telegraphing your intention early - if they can't tell whether you're going knee slice, long step, or smash pass, they can't defend all three simultaneously and must guess. I'll often feint one direction to get them overcommitted, then immediately switch to the now-open passing lane they've abandoned. Against high-level opponents, headquarters also gives me time to control their grips and establish my preferred grip configurations before committing to the pass, which dramatically increases my success rate in the actual passing sequence. I use headquarters especially against leg lockers because it keeps me safe from entries while I systematically break down their guard with minimal risk.
-
-### Eddie Bravo
-
-From headquarters-type positions, I'm always looking for opportunities to create unconventional control angles that traditional systematic passers tend to ignore in their focus on the standard passes. While everyone is thinking about the knee slice or long step, I'm analyzing how to use that trapped leg as an anchor point to create rotational pressure that leads into twister side control or truck position entries that open up entirely different submission systems. If the opponent is defending the standard passes effectively, they're typically not ready for you to suddenly change levels and attack their back or transition to unconventional leg positions and 10th Planet-specific controls. The 10th Planet approach is to use headquarters as a launching point for creative transitions rather than just a passing position with predetermined outcomes. For example, if they defend the knee slice by turning toward me, instead of forcing the pass through their defense I might transition to calf slicer control or even look for the truck entry if they give me their back during the defensive movement. Don't get stuck thinking headquarters only leads to side control - it can lead to much more interesting and submission-rich positions if you're willing to think outside the traditional systematic passing box. We also look for the electric chair and banana split from headquarters when the opponent tries to recover half guard, adding submission threats that create additional dilemmas beyond just the passing pressure.
 
 </section>
 

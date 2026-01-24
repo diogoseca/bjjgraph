@@ -8,7 +8,7 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -443,7 +443,6 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 - [[Straight Ankle Lock]] - Related foot lock submission that can be transitioned to from toe hold if rotation is unsuccessful
 - [[Kneebar from Top]] - Alternative leg lock that attacks same leg from similar positions, often used in combination sequences
 - [[Leg Entanglement]] - Conceptual framework for understanding the positional control required before attempting toe hold
-- [[Danaher Leg Lock System]] - Systematic approach to leg locks that integrates toe hold within broader attacking sequences and positional hierarchy
 - [[Craig Jones Leg Lock System]] - Modern leg lock methodology emphasizing toe hold as part of complete leg attack system with dynamic entries
 
 

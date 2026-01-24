@@ -8,7 +8,7 @@ description: "Master Rear Triangle position in BJJ. Advanced back control variat
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

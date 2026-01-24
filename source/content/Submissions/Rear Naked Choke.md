@@ -8,7 +8,7 @@ description: "Master the Rear Naked Choke in BJJ. Complete safety guide with pro
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -417,7 +417,6 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 - [[Hand Fighting from Back]] - Essential skill for creating neck entry opportunities
 - [[RNC Defense]] - Defensive principles and techniques to counter this submission
 - [[Back Attack System]] - Systematic approach to attacking from back control
-- [[Danaher Straight Jacket System]] - John Danaher's systematic method for back attacks including RNC
 - [[Arm Drag to Back]] - Entry method to establish back control for choke attempts
 - [[Back Defense Protocol]] - Systematic defensive framework against back control attacks
 

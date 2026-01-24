@@ -4,11 +4,11 @@
 
 ---
 title: "New York | BJJ Position Guide | BJJ Graph"
-description: "Master New York position control in Eddie Bravo's Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks."
+description: "Master New York position control in 10th Planet's Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,11 +18,11 @@ description: "Master New York position control in Eddie Bravo's Rubber Guard sys
 
 <section id="overview" class="content-section">
 
-New York is a fundamental control position within Eddie Bravo's Rubber Guard system, serving as a critical gateway between Mission Control and advanced attacking positions like Invisible Collar and Zombie. The position is characterized by the bottom practitioner establishing a strong overhook on one arm while simultaneously controlling their own shin across the opponent's back using the opposite hand, creating a flexible yet controlling frame that neutralizes posture and opens multiple submission pathways.
+New York is a fundamental control position within 10th Planet's Rubber Guard system, serving as a critical gateway between Mission Control and advanced attacking positions like Invisible Collar and Zombie. The position is characterized by the bottom practitioner establishing a strong overhook on one arm while simultaneously controlling their own shin across the opponent's back using the opposite hand, creating a flexible yet controlling frame that neutralizes posture and opens multiple submission pathways.
 
 The strategic value of New York lies in its ability to simultaneously break the opponent's posture while maintaining offensive options. By securing the overhook and controlling the shin, the bottom player creates a system where the top player cannot establish strong base or generate meaningful pressure. This control mechanism is particularly effective in no-gi grappling where traditional collar grips are unavailable, making it a cornerstone of 10th Planet Jiu-Jitsu.
 
-From a biomechanical perspective, New York exploits the opponent's compromised structure by forcing them into a hunched, defensive posture. The overhook eliminates one posting base while the shin control prevents them from creating distance or improving their position. This dual-control system creates what Eddie Bravo calls a "control web" where every escape attempt opens a different submission or positional advancement.
+From a biomechanical perspective, New York exploits the opponent's compromised structure by forcing them into a hunched, defensive posture. The overhook eliminates one posting base while the shin control prevents them from creating distance or improving their position. This dual-control system creates what 10th Planet's calls a "control web" where every escape attempt opens a different submission or positional advancement.
 
 The position requires significant hip flexibility and core strength from the bottom player, as maintaining the shin-to-shoulder connection while managing the overhook demands both mobility and muscular endurance. Athletes with limited hip flexibility will struggle to maintain New York effectively and may find themselves forced back to more traditional closed guard positions.
 

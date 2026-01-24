@@ -8,7 +8,7 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@ description: "Master Electric Chair Bottom position in BJJ. Complete guide cover
 
 <section id="overview" class="content-section">
 
-Electric Chair Bottom is an advanced attacking position from the lockdown half guard system, primarily associated with Eddie Bravo's 10th Planet Jiu-Jitsu methodology. This position combines the lockdown leg configuration with specific grips and body positioning to create a powerful sweeping mechanism and submission threat simultaneously. The practitioner on bottom uses the lockdown to trap one of the opponent's legs while securing an underhook and specific grips that allow them to extend the opponent's trapped leg, creating intense pressure on the knee, hip, and groin.
+Electric Chair Bottom is an advanced attacking position from the lockdown half guard system, primarily associated with the 10th Planet Jiu-Jitsu methodology. This position combines the lockdown leg configuration with specific grips and body positioning to create a powerful sweeping mechanism and submission threat simultaneously. The practitioner on bottom uses the lockdown to trap one of the opponent's legs while securing an underhook and specific grips that allow them to extend the opponent's trapped leg, creating intense pressure on the knee, hip, and groin.
 
 The position is characterized by its dual-threat nature: it functions as both a high-percentage sweep to reverse position and a legitimate submission threat through the banana split/electric chair submission. The bottom practitioner maintains active offensive pressure while the top player is forced into defensive postures, making this a position-reversal technique within the half guard hierarchy. Success in this position requires precise lockdown mechanics, proper grip sequencing, and understanding of the biomechanical leverage that makes the position effective.
 

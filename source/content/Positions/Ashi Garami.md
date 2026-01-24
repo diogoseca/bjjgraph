@@ -8,7 +8,7 @@ description: "Master Ashi Garami leg entanglements with control mechanics, hiera
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

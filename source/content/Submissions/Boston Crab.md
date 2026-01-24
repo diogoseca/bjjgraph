@@ -8,7 +8,7 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -420,15 +420,12 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 - [[Turtle]] - Primary starting position for Boston Crab entries
 - [[Truck Entry]] - Alternative leg control position that can transition to Boston Crab
 - [[Crab Ride]] - Back control position with leg control access to Boston Crab setup
-- [[Twister System]] - Eddie Bravo's system incorporating Boston Crab-type mechanics and spine control
 - [[Spine Lock]] - Similar compression submission targeting spinal hyperextension
 - [[Turtle to Back Control]] - Entry pathway where Boston Crab becomes option if traditional back control is defended
-- [[10th Planet Half Guard Bottom System]] - System that includes understanding of spinal lock mechanics and leg control positions
 - [[Back Control]] - Can transition to Boston Crab if opponent defends traditional choke attacks
 - [[Lockdown]] - Half guard control that shares leg control principles with Boston Crab mechanics
 - [[Banana Split]] - Another compression submission involving hip and groin pressure with leg control
 - [[Twister Control]] - Spinal lock position that shares anatomical targets with Boston Crab
-- [[Game Over]] - Leg control position from 10th Planet system related to Boston Crab entries
 
 
 </section>

@@ -8,7 +8,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ description: "Master Double Jump Bottom position in BJJ. Dynamic entry to deep h
 
 Double Jump Bottom is an advanced dynamic entry position used to recover guard and transition into deep half guard when under pressure from top control. This explosive technique involves shooting both legs underneath the opponent's hips while on your side, creating a brief airborne moment before establishing deep half hooks. The position is particularly effective against heavy pressure passing and allows the bottom player to quickly transition from a defensive scenario to an offensive deep half guard system.
 
-The Double Jump Bottom position represents a modern approach to guard recovery that prioritizes dynamic movement over static frames. Unlike traditional elbow escapes that rely on incremental hip movement, the double jump commits fully to explosive leg insertion, making it difficult for opponents to predict and counter. This position is foundational in Eddie Bravo's 10th Planet system and has been refined by competitors like Geo Martinez and Richie Martinez to create devastating sweep and back-take chains.
+The Double Jump Bottom position represents a modern approach to guard recovery that prioritizes dynamic movement over static frames. Unlike traditional elbow escapes that rely on incremental hip movement, the double jump commits fully to explosive leg insertion, making it difficult for opponents to predict and counter. This position is foundational in the 10th Planet system and has been refined by competitors like Geo Martinez and Richie Martinez to create devastating sweep and back-take chains.
 
 Successful execution of Double Jump Bottom requires precise timing, explosive hip mobility, and the ability to read your opponent's weight distribution. When executed properly, it bypasses traditional passing defenses and immediately places you in an advantageous deep half position with multiple offensive options including the old school sweep, electric chair, and waiter sweep sequences.
 

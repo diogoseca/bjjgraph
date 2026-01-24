@@ -8,7 +8,7 @@ description: "Master the Meathook position in BJJ. Strategic Rubber Guard contro
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -30,7 +30,7 @@ For the top player, Meathook represents a dangerous predicament requiring immedi
 
 The position functions as a central hub in the 10th Planet system's submission chains. From Meathook, practitioners can flow seamlessly to Mission Control (for triangle setups), Carni (for omoplata attacks), or directly to finishing positions like Gogoplata Control. This interconnected web of positions creates the "system" aspect of Rubber Guard—each position feeds multiple others, creating endless attack combinations that overwhelm defensive structure.
 
-Understanding Meathook requires grasping its place in the larger Rubber Guard ecosystem. It typically follows Mission Control or New York, representing an escalation in control and attack potential. The position epitomizes Eddie Bravo's philosophy of breaking conventional guard rules—trading traditional hip mobility for extreme upper body control and submission leverage. While initially counterintuitive to practitioners trained in classical guard retention, Meathook demonstrates how systematic position chaining can overcome seemingly disadvantageous configurations through superior control mechanics and submission threats.
+Understanding Meathook requires grasping its place in the larger Rubber Guard ecosystem. It typically follows Mission Control or New York, representing an escalation in control and attack potential. The position epitomizes 10th Planet's philosophy of breaking conventional guard rules—trading traditional hip mobility for extreme upper body control and submission leverage. While initially counterintuitive to practitioners trained in classical guard retention, Meathook demonstrates how systematic position chaining can overcome seemingly disadvantageous configurations through superior control mechanics and submission threats.
 
 </section>
 

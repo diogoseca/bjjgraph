@@ -1,7 +1,16 @@
 {
   "name": "Side Control Escapes",
   "description": "Master systematic side control escape frameworks in BJJ. Learn frame creation, hip mechanics, space generation, and progressive escape sequences under pressure.",
-  "tags": ["bjj", "principle", "side-control", "escapes", "defensive", "pin-escape", "framing", "hip-escape"],
+  "tags": [
+    "bjj",
+    "principle",
+    "side-control",
+    "escapes",
+    "defensive",
+    "pin-escape",
+    "framing",
+    "hip-escape"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -365,10 +374,5 @@
       "content_type": "System",
       "relationship": "Parallel defensive framework for different pin position—comparison between side control and back escape systems reveals universal principles of defensive hierarchy"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The conceptual framework of side control escapes must be understood as a hierarchical decision tree with clear prioritization at each decision node. Your first priority is always preventing advancement to a worse position—mount or north-south represent catastrophic failures of your defensive system. Only after you have secured this baseline defensive achievement can you shift focus to creating escape opportunities. The mechanical execution of escapes revolves entirely around connection breaking—opponent controls you through specific anatomical contact points, primarily the crossface and hip control. Your systematic approach must identify which connections can be broken most efficiently given current pressure distribution, then exploit the broken connection through immediate space creation before opponent can re-establish control. The efficiency of your defensive frames determines your energy expenditure rate—proper frame angles allow you to support opponent's weight through bone structure rather than muscular effort, enabling you to survive extended periods while waiting for optimal escape timing. Advanced practitioners develop exquisite sensitivity to pressure distribution changes, recognizing the precise moment when opponent's base becomes vulnerable during weight shifts or submission attempts, and executing escape sequences timed to these vulnerabilities rather than forcing escapes against consolidated pressure.",
-    "gordon_ryan": "In competition, your side control escape capability directly determines your survival probability and competitive viability. When I'm defending side control, I'm not panicking or scrambling—I'm systematically working through my escape hierarchy while managing my energy to ensure I have enough in the tank for the full match. The underhook battle is absolutely critical because achieving the underhook fundamentally changes the position's dynamic, giving me the primary pathway to either recover guard or take the back. If opponent is heavy and consolidated, I'm not wasting energy trying to force escapes that won't work—I'm maintaining my frames, controlling my breathing, and waiting for them to make a mistake or attempt a submission that creates the space I need. Most competitors lose position from side control because they give up mount or back trying to escape too aggressively at the wrong time. My approach is patient and systematic—I'd rather spend two minutes in side control waiting for the right moment than escape desperately into an even worse position. When the escape opportunity appears, I'm executing with maximum commitment and precision, chaining multiple movements together so opponent can't recover before I'm back to guard. The difference between elite and intermediate escape capability is timing and technical precision—knowing exactly when to go and executing perfectly when you do.",
-    "eddie_bravo": "Side control escapes in the 10th Planet system integrate our philosophy of creating chaos and using unconventional pathways that opponents don't expect. The standard elbow escape is fine, but when it's not there, I'm looking at inverted escapes, granby rolls, and other creative solutions that catch opponent off guard. The lockdown can be employed even from bottom side control if you can capture their leg—suddenly you're not just escaping, you're attacking with electric chair and old school sweeps from what appeared to be a fully defensive position. Energy management is huge—I teach my students to think of side control defense like you're underwater holding your breath. You need to be relaxed and efficient because panicking and thrashing will drown you. Use the rubber guard concepts even from bottom side—control their posture with overhooks and creative grips while you work your hips free. The mission control position can sometimes be entered from bottom side control if you can get your leg configurations right, completely changing the dynamic. Don't just accept the traditional escape pathways—be creative, be unconventional, and make them defend positions they've never seen before. When everyone expects you to shrimp to closed guard, maybe you invert and come up on a single leg instead. The unpredictability itself becomes a weapon because they can't settle into their control when they don't know what weird escape you're about to attempt."
-  }
+  ]
 }

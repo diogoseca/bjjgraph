@@ -8,7 +8,7 @@ description: "Master the Front Headlock Series in BJJ. Complete system covering 
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -362,7 +362,6 @@ The Front Headlock Series represents a critical bridge between standing and grou
 - [[Arm Triangle]] - Alternative submission when transitioning to side control from front headlock
 - [[D'arce-Anaconda Connection]] - System understanding the relationship between the two primary chokes
 - [[Guillotine Sequence]] - Extended system for Guillotine variations from front headlock
-- [[Danaher Front Headlock System]] - Complete systematic approach to this position
 
 
 </section>

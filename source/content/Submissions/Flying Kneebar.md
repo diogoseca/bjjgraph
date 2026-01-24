@@ -8,7 +8,7 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -434,7 +434,6 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 - [[Flying Armbar]] - Similar dynamic aerial submission with comparable risk/reward profile
 - [[Rolling Armbar]] - Ground-based alternative to aerial submission entries
 - [[Ashi Garami]] - Static entry to same leg lock position system
-- [[Danaher Leg Lock System]] - Systematic framework for understanding leg lock position hierarchies
 - [[Craig Jones Leg Lock System]] - Modern competition-focused leg lock methodology
 - [[Leg Entanglement]] - Core concept governing all leg lock positions and transitions
 

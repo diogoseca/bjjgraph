@@ -8,7 +8,7 @@ description: "Master mounted triangle position in BJJ. High-risk, high-reward po
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

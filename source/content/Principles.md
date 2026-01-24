@@ -793,7 +793,7 @@ Master systematic back escape protocols in BJJ. Learn hand fighting, hook remova
 
 ### [[Base Maintenance]]
 
-Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.
+Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.
 
 ### [[Biomechanical Principles]]
 
@@ -1009,7 +1009,7 @@ Master hip elevation mechanics in BJJ. Learn biomechanical principles, timing re
 
 ### [[Hip Escape Mechanics]]
 
-Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, and rotation for space creation across all bottom positions with expert insights.
+Master hip escape mechanics in BJJ. Learn coordinated bridging, framing, hip rotation, and guard recovery for space creation across all bottom positions.
 
 ### [[Hip Movement]]
 
@@ -1241,7 +1241,7 @@ Master transition management in BJJ. Learn timing recognition, risk assessment, 
 
 ### [[Transition Sequences]]
 
-Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions with expert insights.
+Master Transition Sequences in BJJ. Learn to link positions systematically, create momentum chains, and develop flowing tactical progressions.
 
 ### [[Underhook Defense]]
 

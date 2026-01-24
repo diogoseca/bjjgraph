@@ -8,7 +8,7 @@ description: "Master the Inverted Triangle submission in BJJ. Complete guide cov
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -424,7 +424,6 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 - [[Switch to Triangle]] - Alternative transition - switching from other guards to triangle variations
 - [[Closed Guard to Triangle]] - Primary entry path - standard triangle from closed guard
 - [[Ryan Hall Triangle System]] - Systematic framework - comprehensive triangle variations and setups
-- [[10th Planet Rubber Guard System]] - Related system - rubber guard positions naturally flow to inverted triangles
 - [[Armbar Finish]] - Common chain - inverted triangle often follows failed armbar attempts
 - [[Triangle Choke Front]] - Contrasting technique - standard frontal triangle versus inverted angle
 - [[Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle

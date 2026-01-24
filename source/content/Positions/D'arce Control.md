@@ -8,7 +8,7 @@ description: "Master D'arce Control position in BJJ. Dominant front headlock var
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -1,7 +1,20 @@
 {
   "name": "Granby Roll Concept",
   "description": "Learn the Granby Roll movement concept in BJJ. Master rotational escape mechanics, directional control, guard recovery techniques with detailed progression frameworks.",
-  "tags": ["bjj", "principle", "granby roll", "escape", "movement", "hip rotation", "turtle", "guard recovery", "dynamic movement", "rolling escape", "defensive movement", "space creation"],
+  "tags": [
+    "bjj",
+    "principle",
+    "granby roll",
+    "escape",
+    "movement",
+    "hip rotation",
+    "turtle",
+    "guard recovery",
+    "dynamic movement",
+    "rolling escape",
+    "defensive movement",
+    "space creation"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -397,10 +410,5 @@
       "content_type": "Position",
       "relationship": "Position that Granby Roll specifically helps prevent when opponent is attacking turtle or attempting back take transitions"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Granby Roll represents a fascinating biomechanical solution to the fundamental problem of escaping consolidated top position when linear escapes are blocked. What makes this movement particularly effective is the way it converts rotational kinetic energy into positional displacement—you're not pushing against their pressure, you're rotating around it. The key technical element that most people miss is the precise coordination between shoulder contact and hip elevation. Your shoulder must maintain continuous contact with the mat throughout the roll, creating a smooth curved surface for rotation, while simultaneously your hips must elevate to create the necessary clearance for your legs to insert into guard position. The timing is crucial: you must initiate the roll at the exact moment when your opponent's weight is committed forward or when they're reaching for a grip, because these micro-moments of imbalance are when their ability to prevent your rotation is at its lowest. From a systematic perspective, the Granby belongs in your escape hierarchy as a secondary option when primary frames and hip escapes are shut down—it's your rotational solution when linear solutions fail.",
-    "gordon_ryan": "In competition, the Granby Roll is one of the highest-percentage escapes from turtle when someone's trying to take your back, which happens constantly at high levels. The biggest difference between people who hit this in competition and people who don't is commitment—you can't do a half-ass Granby, you have to fully commit to the rotation or you'll get caught in the middle and that's even worse than staying in turtle. I use it most when I'm in turtle and someone has the seatbelt but hasn't gotten their hooks in yet—that's the window. You wait for them to try to get the second hook, and when their weight shifts, you explode into the Granby toward their outside hook side. The other huge competition application is from bottom side control when they're crushing your chest and you can't shrimp—instead of trying to force the hip escape, you drive your hips up and Granby away from their pressure, and suddenly you've created a completely different angle they weren't ready for. One thing that took me a while to learn: you have to keep your frames active during the entire roll. A lot of people focus so much on the rolling part that they forget their arms, and even if they get the rotation right, the opponent just follows them because nothing blocked the path. You need one arm framing their hips or shoulder the whole time so when you complete the roll, there's actually space to get your guard.",
-    "eddie_bravo": "The Granby is one of those movements that looks weird when you first see it but once you get good at it, it becomes this secret weapon that opens up so many options. At 10th Planet we drill Granby rolls constantly, especially from turtle, because it's the perfect movement for transitioning from defense back into our weird guards like rubber guard or lockdown. Here's what most people don't realize: you can use the Granby offensively, not just as an escape. Like if you're in someone's closed guard and you want to create a weird scramble, you can Granby under them and come up into leg attacks or back takes—it's super unconventional but it works. The defensive version from turtle is obviously crucial, but I teach my guys to think of it as a position reset button. If things are getting crazy and you're not sure what's happening, Granby roll and you create distance, you create confusion, and you give yourself a second to reorient and pull some weird guard. The key thing we emphasize is keeping your chin tucked tight—I've seen people hurt their necks trying to Granby with their head up. Tuck that chin, roll across your shoulder blades, and don't stop rolling until you're either in guard or you've created enough space to set up whatever weird position you're going for. Also, chain them together. If one Granby doesn't work, do another one immediately. Keep that rolling motion going and eventually you'll find the space."
-  }
+  ]
 }

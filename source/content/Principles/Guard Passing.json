@@ -404,11 +404,6 @@
       "relationship": "Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics"
     },
     {
-      "name": "Gordon Ryan Passing System",
-      "content_type": "System",
-      "relationship": "Expert systematic integration of guard passing principles into comprehensive competitive passing framework"
-    },
-    {
       "name": "Headquarters Position",
       "content_type": "Position",
       "relationship": "Critical intermediate passing position representing midpoint between open guard and consolidated side control"
@@ -428,10 +423,5 @@
       "content_type": "Transition",
       "relationship": "Heavy pressure passing technique demonstrating systematic hip control and leg management principles"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Guard passing represents one of jiu-jitsu's most complex problem-solving domains, requiring systematic understanding that each guard type presents specific retention mechanisms demanding specific counters. The concept of passing stages is absolutely critical—practitioners must understand they cannot skip from initial engagement directly to consolidated side control; they must progress through sequential phases where each stage has specific control requirements. I emphasize hierarchical passing priorities: first maintain defensive posture preventing attacks, then establish grip dominance, then control hips, then manage legs, finally consolidate position. Most passing failures occur because practitioners attempt inappropriate actions for their current stage. Additionally, understanding pressure type variation is essential—some guards collapse under heavy pinning pressure while others require floating, mobility-based approaches. Developing this strategic intelligence determining which approach suits which guard represents the difference between limited and comprehensive passing ability.",
-    "gordon_ryan": "My passing game is built on relentless, continuous pressure that never allows opponents to establish comfortable defensive rhythm. I focus heavily on grip fighting dominance as the foundational element—if you lose the grip battle, you'll probably fail to pass regardless of technical knowledge. Unlike traditional passing instruction emphasizing predetermined sequences, I maintain flexibility to switch passing approaches mid-sequence based on opponent's reactions and defensive patterns. This requires developing multiple passing systems you can chain together seamlessly. I particularly stress the importance of recognizing when a pass isn't working and making strategic adjustments rather than stubbornly persisting with ineffective approaches. Against elite guard players, passing success comes from creating offensive pressure that forces defensive reactions, then exploiting the openings those reactions create rather than attempting passes against statically defensive opponents. The key is making them react to your pressure, then passing through the spaces their reactions create.",
-    "eddie_bravo": "While I'm known for innovative guard systems, understanding passing principles from the attacking perspective has been crucial for developing effective guards—you need to understand how guards get passed to build better retention. Within 10th Planet methodology, we sometimes challenge traditional passing principles while still achieving passing objectives through alternative mechanics. I emphasize understanding opponent's guard system dependencies rather than just memorizing passing techniques—if you can identify and attack the foundational elements their entire guard system relies on, you can collapse their defensive structure. We also teach that passing principles can be expressed through varied approaches including leg-based passing, floating passes, and pressure passes depending on individual attributes and opponent preferences. The key is developing a personal passing style reflecting your strengths while maintaining fundamental principles of control, progression, and consolidation. I encourage students to experiment with unconventional passing entries that opponents haven't developed specific defenses against, creating strategic advantages through innovation while respecting core passing mechanics."
-  }
+  ]
 }

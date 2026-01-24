@@ -8,7 +8,7 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -164,11 +164,11 @@ Front headlock top is one of the most dominant offensive control positions in Br
 
 The strategic value of front headlock top lies in its versatility and the dilemmas it creates for your opponent. Unlike many positions where you must choose between maintaining control and hunting submissions, the front headlock allows both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional dominance. This synergy makes it one of the highest-percentage attacking positions in modern grappling.
 
-Front headlock top typically arises during scrambles, when your opponent turtles defensively, during failed takedown attempts, or as a deliberate entry from guard passing sequences. The position has become increasingly systematized in modern BJJ, with comprehensive front headlock systems developed by instructors like John Danaher becoming standard curriculum at high-level academies. Understanding these systems transforms the front headlock from an opportunistic position into a deliberate strategic destination.
+Front headlock top typically arises during scrambles, when your opponent turtles defensively, during failed takedown attempts, or as a deliberate entry from guard passing sequences. The position has become increasingly systematized in modern BJJ, with comprehensive front headlock systems developed by instructors like systematic becoming standard curriculum at high-level academies. Understanding these systems transforms the front headlock from an opportunistic position into a deliberate strategic destination.
 
 The biomechanics of front headlock control revolve around creating downward pressure with your chest while controlling your opponent's head and far shoulder. Your weight drives into their upper back, collapsing their posture and preventing them from standing up or improving position. Your arms work in tandem - one controls the head (setting up chokes), while the other controls the far shoulder or arm (preventing escapes). This dual control system creates a cage around your opponent's upper body.
 
-Modern competitors have demonstrated the effectiveness of front headlock top at the highest levels of competition. Practitioners like Gordon Ryan, Garry Tonon, and Danaher Death Squad members have built entire competitive strategies around achieving and maintaining front headlock control, using it as both a submission platform and a gateway to back attacks. The position works equally well in gi and no-gi contexts, though the specific grips and tactics vary.
+Modern competitors have demonstrated the effectiveness of front headlock top at the highest levels of competition. Practitioners like elite competitors', Garry Tonon, and modern leg lock pioneers members have built entire competitive strategies around achieving and maintaining front headlock control, using it as both a submission platform and a gateway to back attacks. The position works equally well in gi and no-gi contexts, though the specific grips and tactics vary.
 
 Mastering front headlock top requires understanding both the technical details of individual submissions and the overarching strategic framework that connects them. You must develop the ability to read your opponent's defensive responses and adapt your attacks accordingly, creating submission chains where each defensive movement opens a new attack. This systematic approach, combined with positional patience and technical precision, makes the front headlock one of the most powerful weapons in modern Brazilian Jiu-Jitsu.
 
@@ -485,7 +485,7 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 - **[[Anaconda Control]]** - Arm-in submission option - front headlock converts to anaconda with arm trap
 - **[[D'arce Control]]** - Arm-in submission option - front headlock converts to darce with underhook
 - **[[Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
-- **[[Danaher Front Headlock System]]** - Complete systematic approach to front headlock attacks and transitions
+- **[[systematic approach Front Headlock System]]** - Complete systematic approach to front headlock attacks and transitions
 - **[[Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control
 - **[[Head Control]]** - Fundamental principle underlying all front headlock techniques
 - **[[Collar Control]]** - Gi-specific control method for establishing front headlock in gi

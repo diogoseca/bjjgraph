@@ -8,7 +8,7 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -485,7 +485,7 @@ Partner starts in turtle position. Practice back take entry establishing harness
 - **[[Mounted Crucifix]]** - Related dominant control position
 - **[[Turtle]]** - Common entry position before back take
 - **[[Back Attack System]]** - Systematic offensive framework for this position
-- **[[Danaher Straight Jacket System]]** - Expert system featuring harness control as foundation
+- **[[systematic approach Straight Jacket System]]** - Expert system featuring harness control as foundation
 - **[[Back Defense Protocol]]** - Defensive counterpart system opponent uses
 - **[[Standing Back Control]]** - Standing application of same principles
 

@@ -164,7 +164,6 @@ The daily content improvement bot (`content-improvement-bot.yml`) applies SEO en
 - Converts statements to questions (featured snippets)
 - Front-loads key facts in descriptions
 - Fills missing success rates
-- Adds expert insights
 - Fixes broken wikilinks
 
 ---

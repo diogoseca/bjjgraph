@@ -8,7 +8,7 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -335,7 +335,6 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 - [[Kimura from Half Guard]] - Submission attack when opponent posts arm to defend sweep
 - [[Side Control]] - Common ending position after successful sweep completion
 - [[Knee on Belly]] - Alternative top position finish when opponent rolls through
-- [[10th Planet Half Guard Bottom System]] - Comprehensive system incorporating lumberjack sweep with lockdown variations
 - [[Underhook Control]] - Conceptual framework for understanding underhook control importance
 - [[Hip Movement]] - Fundamental concept underlying the angle creation and sweep mechanics
 - [[Sweep Mechanics]] - General principles that govern all sweeping techniques including lumberjack

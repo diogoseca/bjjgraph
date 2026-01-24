@@ -8,7 +8,7 @@ description: "Master sprawl defense mechanics in Brazilian Jiu-Jitsu. Learn take
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">

@@ -8,7 +8,7 @@ description: "Master S Mount in BJJ - the ultimate armbar setup position. Comple
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

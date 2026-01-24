@@ -4,11 +4,11 @@
 
 ---
 title: "Lockdown Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard with leg entanglement for powerful sweeps and submissions. 65% sweep success rate at advanced level."
+description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard with leg entanglement for powerful sweeps and submissions. 65% sweep success rate at advanced level."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Lockdown Bottom",
-  "description": "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard with leg entanglement for powerful sweeps and submissions. 65% sweep success rate at advanced level.",
+  "description": "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard with leg entanglement for powerful sweeps and submissions. 65% sweep success rate at advanced level.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master Lockdown Bottom in BJJ. Eddie Bravo's signature half guard 
 
 <section id="overview" class="content-section">
 
-Lockdown Bottom is Eddie Bravo's signature half guard variation where the bottom practitioner uses a triangled leg configuration to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.
+Lockdown Bottom is 10th Planet's signature half guard variation where the bottom practitioner uses a triangled leg configuration to control the opponent's trapped leg. This 10th Planet system position transforms traditional half guard from a stalling position into a dynamic offensive platform. The lockdown prevents the top player from completing passes while creating leverage for sweeps and back takes. By extending and controlling the trapped leg, the bottom practitioner can off-balance opponents, create angles, and attack with the whip-up, Old School sweep, and Electric Chair submissions. The position emphasizes active offense over passive defense, using the leg triangle as both a retention mechanism and an attacking lever. This position revolutionized half guard play in no-gi grappling and has become a fundamental component of modern BJJ game plans.
 
 </section>
 

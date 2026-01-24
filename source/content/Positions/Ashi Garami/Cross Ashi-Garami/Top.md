@@ -8,7 +8,7 @@ description: "Master Cross Ashi-Garami from top position. Outside leg entangleme
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ Cross Ashi-Garami Top (also known as Cross Ashi or Outside Ashi-Garami in some s
 
 The mechanical advantage of Cross Ashi-Garami Top comes from the ability to control the opponent's hip rotation while simultaneously isolating the ankle and heel. The crossed leg configuration prevents the opponent from sitting up or turning into the entanglement, forcing them to defend from a compromised position. Unlike standard Ashi-Garami where the legs run parallel, the crossed configuration creates additional torque on the knee joint and limits the opponent's defensive options significantly.
 
-This position is fundamental to modern leg lock systems, particularly those developed by John Danaher and his students. It serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
+This position is fundamental to modern leg lock systems, particularly those developed by systematic and his students. It serves as both a powerful finishing position and a transitional hub to other leg entanglements like Saddle (Honey Hole) and Inside Ashi-Garami. The position's effectiveness has made it a staple in high-level no-gi competition, where practitioners must understand both its offensive potential and defensive counters to compete successfully in the contemporary meta-game.
 
 </section>
 
@@ -462,7 +462,7 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 - **[[Outside Ashi-Garami]]** - Variation - alternative nomenclature for same position in some systems
 - **[[Single Leg X-Guard]]** - Common entry position - frequently used to establish cross ashi
 - **[[Heel Hook]]** - Primary submission - most common finish from this position
-- **[[Danaher Leg Lock System]]** - System integration - core position in Danaher's leg lock framework
+- **[[systematic approach Leg Lock System]]** - System integration - core position in systematic approach's leg lock framework
 - **[[Leg Entanglement]]** - Concept - fundamental principle underlying position mechanics
 - **[[50-50 Guard]]** - Related leg entanglement with symmetric control structure
 - **[[Honey Hole]]** - Alternative name for saddle - common transition target

@@ -8,7 +8,7 @@ description: "Master Crab Ride Top attacks in BJJ. Complete guide covering back 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ Crab Ride Top is a highly effective attacking position from the turtle, where th
 
 The position gets its name from the sideways orientation and the characteristic way the attacker 'rides' the opponent's back and hips, similar to how a crab might cling to its prey. The top practitioner typically establishes control with one leg hooking under the opponent's near hip while maintaining upper body control through strategic gripping on the far side. This asymmetrical configuration creates tremendous pressure and limits the bottom player's mobility.
 
-Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems taught by experts like Danaher and Garry Tonon.
+Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts, where it serves as an essential transitional position between turtle and back control. The position offers high-percentage pathways to the back, crucifix, and various submission attacks, making it a cornerstone of complete turtle attack systems taught by experts like systematic approach and Garry Tonon.
 
 </section>
 

@@ -8,7 +8,7 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

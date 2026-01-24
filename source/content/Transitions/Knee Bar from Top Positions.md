@@ -8,7 +8,7 @@ description: "Master kneebar control from top positions in BJJ. Learn entries fr
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -348,7 +348,6 @@ The Knee Bar from Top Positions integrates seamlessly into modern BJJ systems by
 - [[Knee Slice Pass]] - Common entry position where leg becomes isolated during passing sequence
 - [[Mount]] - Alternative advancement target when kneebar is defended by pulling knee close
 - [[Half Guard]] - Frequent starting scenario where kneebar opportunities arise during passing attempts
-- [[Danaher Leg Lock System]] - Comprehensive system integrating this technique within systematic leg attack framework
 - [[Straight Ankle Lock]] - Alternative leg submission when kneebar control is established but finishing angle is compromised
 
 

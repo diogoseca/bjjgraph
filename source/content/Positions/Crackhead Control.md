@@ -4,11 +4,11 @@
 
 ---
 title: "Crackhead Control | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's innovative turtle control system covering bottom defense and top attacks with expert analysis."
+description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's innovative turtle control system covering bottom defense and top attacks with expert analysis."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

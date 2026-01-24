@@ -4,11 +4,11 @@
 
 ---
 title: "Triangle from Back | BJJ Submission | BJJ Graph"
-description: "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Expert insights included."
+description: "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%."
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -134,7 +134,7 @@ description: "Master Triangle from Back in BJJ. Complete guide with safety proto
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Triangle from Back",
-  "description": "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Expert insights included.",
+  "description": "Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
   "url": "https://bjjgraph.org/Submissions/Triangle-from-Back",
   "isPartOf": {
     "@type": "WebSite",

@@ -1,7 +1,18 @@
 {
   "name": "Speed Passing",
   "description": "Master Speed Passing in BJJ. Learn rapid guard passing through explosive movement, angle multiplication, and overwhelming pace. Includes footwork mechanics and timing strategies.",
-  "tags": ["bjj", "principle", "guard passing", "speed", "pressure", "timing", "footwork", "explosiveness", "competition", "no-gi"],
+  "tags": [
+    "bjj",
+    "principle",
+    "guard passing",
+    "speed",
+    "pressure",
+    "timing",
+    "footwork",
+    "explosiveness",
+    "competition",
+    "no-gi"
+  ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Intermediate to Advanced",
@@ -357,10 +368,5 @@
       "content_type": "Principle",
       "relationship": "Opposing concept - understanding retention principles helps identify vulnerabilities to exploit"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Speed passing represents a high-risk, high-reward methodology that succeeds by overwhelming the opponent's decision-making capacity through rapid presentation of multiple threats. The fundamental principle is creating cognitive overload - by the time the guard player recognizes and begins responding to one passing angle, you've already transitioned to the next. This creates a cumulative lag between their perception and action that eventually results in defensive breakdown. However, speed passing without technical precision is merely athletic scrambling that skilled opponents can exploit. The key is maintaining technical standards at high velocity - your knee slice at maximum speed must be as mechanically sound as your knee slice in slow drilling. This requires thousands of repetitions to ingrain proper movement patterns that persist under fatigue and pressure. I emphasize to my students that speed passing should be built on a foundation of pressure passing competency. Learn to pass slowly and methodically first, understanding the mechanical principles of hip control, frame management, and base maintenance. Only after these fundamentals are automatic should you layer speed on top. The common error is attempting to compensate for technical deficiencies with pure athleticism - this fails against opponents with superior technical understanding who can redirect your momentum and capitalize on the balance vulnerabilities inherent in rapid movement. Elite speed passing requires the conditioning to sustain explosive output, the technical precision to maintain proper mechanics at high speed, and the tactical intelligence to recognize when speed passing is advantageous versus when pressure passing is more appropriate.",
-    "gordon_ryan": "Speed passing is incredibly effective in modern competition jiu-jitsu, especially in no-gi where reduced grip options make it harder for guard players to slow you down. I use speed passing extensively when I'm confident in my cardio advantage or when I need to score quickly due to time constraints. The key is making the guard player defend multiple angles simultaneously - I'll threaten toreando, then switch to leg drag, then back to toreando, then smash pass, constantly forcing them to adjust their defensive positioning. Eventually they make a mistake - they're half a second too slow recovering their frames, or they grip one side while I attack the other, and that's when I explode through and consolidate the pass. The biggest thing people get wrong is thinking speed passing means being reckless. I'm extremely calculated about when I commit fully to a passing angle versus when I keep circulating. If their defensive structure is strong, I don't force it - I keep moving and wait for the opening. But when I see that their frames collapse or their grips break, I immediately capitalize with maximum pressure before they can recover. I also use speed passing strategically to tire opponents - even if I don't pass immediately, maintaining high pace for 2-3 minutes significantly fatigues their legs and arms from constantly defending, making them more vulnerable to pressure passing later in the match. Against high-level guys, I'll blend speed and pressure - use rapid circulation to create an opening, then switch to heavy pressure to prevent recovery once I've advanced position. Pure speed passing rarely works against elite opponents, but speed passing to create opportunities followed by pressure consolidation is extremely effective.",
-    "eddie_bravo": "Speed passing is all about creating chaos and forcing your opponent to play your game at your pace. In 10th Planet, we incorporate speed passing elements into our no-gi passing system because it complements our aggressive submission hunting mentality. The beautiful thing about speed passing is that even when it doesn't result in immediate passing, it creates scrambles and transitional moments where we can hit submissions. I teach my guys to look for guillotines, darces, and front headlock attacks during the scrambles that speed passing creates. You're not just passing to get to side control - you're creating dynamic situations where submission opportunities present themselves. The key innovation we've brought to speed passing is integrating it with our truck entries and twister attacks. When you're circulating rapidly and the opponent defends one passing angle, sometimes you can immediately transition to taking the back or entering the truck rather than continuing to try to pass. This makes the guard player defend both passing AND back takes simultaneously, which is cognitively overwhelming. We also emphasize the importance of unorthodox angles in speed passing - not just the traditional toreando and knee slice, but incorporating cartwheel passes, matrix passes, and leg weave passes that opponents don't see as frequently. The element of surprise amplifies the effectiveness of speed. One drill we use extensively is what I call 'chaos passing' - you have 30 seconds to pass by any means necessary, encouraging creativity and explosive attacks from unconventional angles. This builds the comfort with high-speed, dynamic passing situations that makes speed passing second nature under competition pressure."
-  }
+  ]
 }

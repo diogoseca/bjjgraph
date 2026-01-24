@@ -8,7 +8,7 @@ description: "Master Front Headlock Series in BJJ. Complete guide to control and
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -156,7 +156,7 @@ The Front Headlock Series represents one of the most versatile and high-percenta
 
 The beauty of the front headlock series lies in its systematic nature—each defensive response from the opponent opens a different offensive pathway. When they defend the guillotine, the anaconda becomes available. When they block the anaconda, the darce appears. When they counter choke attempts, the transition to back control presents itself. This branching decision tree makes the front headlock one of the most frustrating positions to defend and one of the most rewarding to master.
 
-Developed and refined by high-level competitors including Marcelo Garcia, John Danaher's Death Squad, and countless others, the front headlock series has proven itself in the highest levels of competition. Understanding this series requires not just technical proficiency in individual techniques, but also the strategic awareness to recognize which branch to follow based on opponent reactions. Mastery of this series transforms the front headlock from a simple control position into a complete submission system.
+Developed and refined by high-level competitors including Marcelo Garcia, systematic Death Squad, and countless others, the front headlock series has proven itself in the highest levels of competition. Understanding this series requires not just technical proficiency in individual techniques, but also the strategic awareness to recognize which branch to follow based on opponent reactions. Mastery of this series transforms the front headlock from a simple control position into a complete submission system.
 
 **Starting Position**: [[Front Headlock]]
 **Ending Position**: [[Back Control]]

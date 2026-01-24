@@ -8,7 +8,7 @@ description: "Master the Smash Pass in BJJ. Complete guide covering pressure pas
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -339,7 +339,6 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 - [[Darce Choke]] - Submission opportunity - available when opponent turns in during smash pass
 - [[Deep Half Guard]] - Counter position - opponent's defense that requires pass adjustment
 - [[Lockdown]] - Counter position - defensive structure that complicates smash pass
-- [[Gordon Ryan Passing System]] - System integration - smash pass is core component of this system
 - [[Pressure Passing]] - Conceptual framework - smash pass exemplifies pressure passing principles
 
 

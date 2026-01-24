@@ -8,7 +8,7 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -460,7 +460,7 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 - **[[Single Leg X-Guard]]** - Offensive counter-position
 - **[[50-50 Guard]]** - Counter-entanglement option
 - **[[Lachlan Giles Leg Lock Defense Framework]]** - Systematic defensive approach
-- **[[Danaher Leg Lock System]]** - Comprehensive leg entanglement theory
+- **[[systematic approach Leg Lock System]]** - Comprehensive leg entanglement theory
 - **[[Leg Entanglement]]** - Core conceptual framework
 
 

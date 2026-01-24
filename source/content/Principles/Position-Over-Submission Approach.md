@@ -8,7 +8,7 @@ description: "Master the Position-Over-Submission philosophy in BJJ. Learn strat
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -383,7 +383,6 @@ Training exercises where practitioners must maintain dominant positions for spec
 - [[Risk Assessment]] (Principle) - Provides analytical framework for evaluating when submission attempts justify potential position loss risks
 - [[Energy Management System]] (Principle) - Complements position-first approach by demonstrating energy efficiency gained through positional control versus submission chasing
 - [[Escape Hierarchy]] (Principle) - Shows defensive parallel to position-over-submission where positional recovery precedes offensive considerations
-- [[Danaher Leg Lock System]] (System) - Advanced systematic approach that demonstrates position-first principles applied to leg entanglement positions before finishing attacks
 - [[Roger Gracie Fundamental System]] (System) - Exemplifies traditional position-over-submission philosophy through systematic positional advancement and control-based finishing
 
 

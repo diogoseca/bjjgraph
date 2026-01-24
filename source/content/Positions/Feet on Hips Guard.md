@@ -8,7 +8,7 @@ description: "Master feet on hips guard in BJJ. Strategic guide covering distanc
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

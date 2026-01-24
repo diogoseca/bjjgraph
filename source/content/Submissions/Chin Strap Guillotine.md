@@ -8,7 +8,7 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -426,7 +426,6 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 - [[Guillotine from Turtle]] - Alternative entry from turtle position attacks
 - [[Chin Protection]] - Key defensive principle opponent uses to prevent chin strap
 - [[Marcelo Garcia Guillotine System]] - Expert system featuring chin strap variations and entries
-- [[Danaher Front Headlock System]] - Comprehensive system including chin strap mechanics and theory
 - [[D'arce Control]] - Alternative front headlock attack if chin strap is defended
 - [[Anaconda Control]] - Alternative front headlock attack if chin strap angle is unavailable
 - [[Guillotine Sequence]] - Chain of guillotine variations including chin strap as progression

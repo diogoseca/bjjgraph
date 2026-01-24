@@ -8,7 +8,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -430,7 +430,7 @@ Start from front headlock or turtle positions and work to establish darce contro
 - **[[Darce from Turtle]]** - Entry transition - turtle attack
 - **[[Turtle]]** - Common preceding position
 - **[[Pressure Application]]** - Fundamental concept - shoulder pressure mechanics
-- **[[Danaher Front Headlock System]]** - Systematic framework - comprehensive system
+- **[[systematic approach Front Headlock System]]** - Systematic framework - comprehensive system
 - **[[Shoulder Pressure]]** - Key concept - finishing mechanics
 
 

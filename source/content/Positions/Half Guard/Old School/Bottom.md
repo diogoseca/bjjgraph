@@ -4,11 +4,11 @@
 
 ---
 title: "Old School Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Old School Bottom position in BJJ half guard. Classic Eddie Bravo sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back."
+description: "Master Old School Bottom position in BJJ half guard. Classic 10th Planet's sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic Eddie
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Old School Bottom",
-  "description": "Master Old School Bottom position in BJJ half guard. Classic Eddie Bravo sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
+  "description": "Master Old School Bottom position in BJJ half guard. Classic 10th Planet's sweep with 60% intermediate success rate. Control opponent's head and arm for powerful sweep to mount or back.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master Old School Bottom position in BJJ half guard. Classic Eddie
 
 <section id="overview" class="content-section">
 
-Old School Bottom Position is a classical half guard bottom position made famous by Eddie Bravo and the 10th Planet system. From half guard bottom with lockdown control, the practitioner secures a deep underhook on one side while controlling the opponent's head with the opposite arm, creating a powerful sweeping position. This position is characterized by the bottom player's ability to break the opponent's posture down while maintaining lockdown control of their trapped leg, setting up the signature Old School sweep to mount or back control.
+Old School Bottom Position is a classical half guard bottom position made famous by 10th Planet's and the 10th Planet system. From half guard bottom with lockdown control, the practitioner secures a deep underhook on one side while controlling the opponent's head with the opposite arm, creating a powerful sweeping position. This position is characterized by the bottom player's ability to break the opponent's posture down while maintaining lockdown control of their trapped leg, setting up the signature Old School sweep to mount or back control.
 
 The position represents a fundamental component of the 10th Planet half guard system, offering both offensive sweeping opportunities and defensive frames against passing attempts. The head and arm control combined with lockdown creates a dilemma for the top player: defending the sweep requires posture, but maintaining posture breaks the lockdown control. This position is particularly effective in no-gi grappling where the lockdown's leg entanglement provides superior control compared to traditional gi grips.
 
@@ -456,7 +456,7 @@ Start in Old School position with full controls established. Bottom player attem
 - **[[Mount]]** - Primary target position - most common sweep destination
 - **[[Back Control]]** - Alternative target position - second sweep destination option
 - **[[Old School Sweep]]** - Primary technique - signature attack from this position
-- **[[10th Planet Half Guard Bottom System]]** - System context - part of comprehensive Eddie Bravo half guard system
+- **[[10th Planet Half Guard Bottom System]]** - System context - part of comprehensive 10th Planet's half guard system
 - **[[Lockdown to Electric Chair System]]** - System integration - tactical framework connecting related positions
 - **[[Underhook Control]]** - Similar position - shares underhook control theme with different leg configuration
 

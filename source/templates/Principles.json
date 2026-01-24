@@ -38,7 +38,7 @@
       "minLength": 140,
       "maxLength": 180,
       "examples": [
-        "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, cross-position application. Expert insights included."
+        "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, cross-position application."
       ]
     },
     "tags": {
@@ -321,11 +321,6 @@
           }
         }
       }
-    },
-    "expert_insights": {
-      "type": "object",
-      "description": "DEPRECATED - Expert insights removed for copyright reasons",
-      "additionalProperties": true
     }
   }
 }

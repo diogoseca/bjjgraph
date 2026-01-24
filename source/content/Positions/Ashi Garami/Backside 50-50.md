@@ -8,7 +8,7 @@ description: "Master Backside 50-50 in BJJ. Strategic guide covering leg entangl
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

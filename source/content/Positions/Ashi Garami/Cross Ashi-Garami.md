@@ -8,7 +8,7 @@ description: "Master Cross Ashi-Garami position in BJJ. Strategic guide covering
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -22,7 +22,7 @@ Cross Ashi-Garami is a fundamental leg entanglement position in modern Brazilian
 
 This position emerged from the evolution of leg lock systems in submission grappling and no-gi competition, where practitioners discovered that the crossed leg configuration provided superior mechanical advantage for heel hook applications compared to traditional parallel leg positioning. The crossing of the legs creates a wedge effect that prevents the opponent from sitting up or turning effectively, while simultaneously allowing the top player to generate powerful rotational forces on the ankle and knee joints. The position serves as both a finishing platform for leg locks and a transitional hub connecting to other leg entanglement positions like Saddle (Honey Hole) and Inside Ashi-Garami.
 
-From the bottom perspective, Cross Ashi-Garami represents a defensive challenge requiring sophisticated understanding of leg entanglement escape mechanics, distance management, and counter-attack opportunities. The bottom player must navigate heel hook threats while maintaining defensive leg positioning and seeking opportunities to either escape to guard or enter their own leg attacks. From the top perspective, the position offers high-percentage submission opportunities and multiple paths to advancement, making it a cornerstone of modern leg lock systems taught by instructors like John Danaher and his students.
+From the bottom perspective, Cross Ashi-Garami represents a defensive challenge requiring sophisticated understanding of leg entanglement escape mechanics, distance management, and counter-attack opportunities. The bottom player must navigate heel hook threats while maintaining defensive leg positioning and seeking opportunities to either escape to guard or enter their own leg attacks. From the top perspective, the position offers high-percentage submission opportunities and multiple paths to advancement, making it a cornerstone of modern leg lock systems taught by instructors like systematic and his students.
 
 The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be overstated - it has fundamentally changed the meta-game of no-gi competition and forced all serious competitors to develop both offensive proficiency and defensive competence in this position. Understanding Cross Ashi-Garami from both perspectives is essential for anyone competing in modern submission grappling formats where leg locks are permitted.
 
@@ -254,7 +254,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 - **[[Leg Entanglement]]** - Fundamental concept underlying cross ashi mechanics
 
-- **[[Danaher Leg Lock System]]** - Systematic framework incorporating cross ashi as core position
+- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating cross ashi as core position
 
 
 </section>

@@ -1,7 +1,15 @@
 {
   "name": "Arm Extraction",
   "description": "Master Arm Extraction escape from Side Control. Learn systematic arm removal to recover guard. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "tags": ["bjj", "escape", "side-control-escape", "guard-recovery", "defensive-technique", "framing", "hip-escape"],
+  "tags": [
+    "bjj",
+    "escape",
+    "side-control-escape",
+    "guard-recovery",
+    "defensive-technique",
+    "framing",
+    "hip-escape"
+  ],
   "starting_position": "Side Control",
   "ending_position": "Guard Recovery",
   "success_rates": {
@@ -254,10 +262,5 @@
       "name": "Hitchhiker Escape",
       "relationship": "Alternative escape to use if opponent transitions to north-south during arm extraction attempt"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The arm extraction escape represents a fundamental principle in defensive grappling: systematic dismantling of opponent's control mechanisms in order of priority. The trapped arm under crossface or underhook control is not merely uncomfortable—it is the mechanical lynchpin of their entire pinning structure. By extracting this arm, you eliminate their ability to control your shoulder rotation, which in turn enables hip escape and guard recovery. The technique's elegance lies in its incremental approach. Rather than explosive, all-or-nothing escape attempts that often fail against skilled opponents, arm extraction uses small, technically precise movements to progressively degrade the opponent's control. The shoulder rotation phase—often only 2-3 inches of movement—creates just enough space for the elbow to begin its extraction path. This is pure leverage mechanics: you're using rotational force where opponent is applying linear pressure, creating a mechanical advantage. Students must understand that frames are not passive structures but active tools for maintaining the space you create. The moment you release a frame before your guard is established, you've surrendered the space you fought to create. This is perhaps the most common technical error I observe: premature frame release. The extraction must be viewed as a complete sequence with no shortcuts.",
-    "gordon_ryan": "In high-level competition, side control escapes often determine match outcomes more than attacks from advantageous positions. Everyone at the elite level can attack from top positions—it's surviving bad positions that separates champions from competitors. I've won multiple ADCC and No-Gi Worlds matches specifically because my arm extraction fundamentals allowed me to neutralize superior wrestlers who put me in bottom side control. The key competitive application is timing recognition: you must hit the extraction during the brief window when opponent is settling their weight but hasn't yet established their full control structure. If you wait until they're fully settled, the technique's success rate drops dramatically. I prefer the variation leading to butterfly guard in no-gi, as it immediately creates sweep threats that force opponent into defensive mode rather than allowing them to attempt to re-pass. The psychological aspect is also critical—when you successfully extract and recover guard multiple times, opponents begin to hesitate in their passing attempts, fearing the scramble. This hesitation is exactly the opening you need to launch your own attacks. In my matches, I've noticed that drilling arm extraction with specific focus on the two-stage progressive version has the highest success rate under maximum pressure. The pause between elbow extraction and final hand positioning creates a micro-reset that disguises your full intentions.",
-    "eddie_bravo": "The arm extraction is fundamental 10th Planet system mechanics because it creates the space necessary for all our guard recovery pathways—whether you're going to lockdown, butterfly, or rubber guard. What makes this technique especially powerful in our system is how we chain it with our other defensive concepts. If the extraction gets countered, we immediately flow to either electric chair entries from the partial extraction position, or we use the opponent's counter-pressure to hit the twister side control position. Everything connects. The beauty of arm extraction in no-gi is that it's one of the few escapes that doesn't rely on gi grips—it's pure body mechanics and frame structure. I teach my students to view the extracted arm not just as an escape tool but as the foundation for immediate offensive transition. The moment that arm clears and establishes the frame, you should already be thinking about your next attack sequence. We drill a specific variation where you extract the arm and immediately overhook opponent's arm while inserting the lockdown—this creates instant electric chair setups. The key innovation in our approach is treating the arm extraction as both defensive and offensive simultaneously. Most people view escapes as purely defensive survival tactics, but we see them as position chains leading to attacks. Your mindset should be: extract, recover guard, attack—all as one continuous flow."
-  }
+  ]
 }

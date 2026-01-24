@@ -8,7 +8,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 
 <section id="overview" class="content-section">
 
-The Old School Sweep is a fundamental half guard technique popularized by Eddie Bravo and the 10th Planet system. This sweep capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. The technique is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position.
+The Old School Sweep is a fundamental half guard technique popularized by 10th Planet's and the 10th Planet system. This sweep capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. The technique is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position.
 
 **Starting Position**: [[Half Guard]]
 **Ending Position**: [[Side Control]]

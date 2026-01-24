@@ -8,7 +8,7 @@ description: "Master Anaconda Choke in BJJ. Complete guide with safety protocols
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -426,7 +426,6 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 - [[Anaconda Setup]] - General setup technique for establishing Anaconda control
 - [[Darce from Turtle]] - Alternative submission from same position with related mechanics
 - [[Darce Setup]] - Complementary technique with shared setup principles
-- [[Danaher Front Headlock System]] - Systematic approach to front headlock attacks including Anaconda
 - [[Submission Chains]] - Principle of linking Anaconda with Darce and Guillotine
 - [[Head Control]] - Fundamental principle required for Anaconda setup
 - [[Shoulder Pressure]] - Key principle for maintaining turtle control before submission

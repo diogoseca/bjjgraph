@@ -1,7 +1,18 @@
 {
   "name": "Single Leg Variations",
   "description": "Master Single Leg Variations in BJJ - comprehensive guide to high crotch finishes, outside trips, inside trips, running the pipe, and dump variations.",
-  "tags": ["bjj", "principle", "takedowns", "single-leg", "wrestling", "entries", "finishing", "variations", "base-disruption", "angle-creation"],
+  "tags": [
+    "bjj",
+    "principle",
+    "takedowns",
+    "single-leg",
+    "wrestling",
+    "entries",
+    "finishing",
+    "variations",
+    "base-disruption",
+    "angle-creation"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -373,10 +384,5 @@
       "content_type": "Transition",
       "relationship": "Alternative takedown approach that serves as complementary attack creating systematic takedown game"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The single leg attack represents perhaps the most versatile takedown system in grappling because it offers the greatest number of mechanical finishing variations from a single initial control position. When you secure a single leg, you have isolated one of the opponent's primary base points while maintaining distance from their upper body control - this asymmetric advantage is the foundation of all finishing variations. The key to systematic single leg attacking is understanding that your first finishing attempt will rarely succeed against skilled opposition. Instead, view each attempted finish as a probe that generates a specific defensive reaction, and have prepared technical responses to each possible defense. The high crotch creates backward weight shift, the outside trip requires far leg posting, the inside trip demands near leg loading - each finish attempt creates predictable compensations that open pathways to alternative finishes. This is not random technique chaining but systematic exploitation of mechanical necessities. Train each variation to technical perfection in isolation, but understand that mastery lies in the decision tree that determines variation sequencing based on opponent responses. The practitioner who can chain four to five variations seamlessly, maintaining leg control throughout, will finish the overwhelming majority of single leg attempts regardless of opponent defensive skill.",
-    "gordon_ryan": "In competition, single leg variations are my highest percentage takedown system because they work equally well against defensive specialists and aggressive opponents. The beauty of single leg attacks is that they don't require the deep penetration and explosive power of double legs - you can enter from longer range, you can adjust angles mid-sequence, and you have multiple finishing pathways if your first option gets defended. My approach is to make the opponent defend multiple things simultaneously. When I secure the leg, I immediately threaten the high crotch, which forces them to sprawl their hips back. That backward weight shift makes them vulnerable to the outside trip. If they post that leg heavy to defend the trip, now they're loaded for the inside trip. If they try to limp leg out, I'm running the pipe and driving them backward until they fall. The key is relentless offensive pressure - never give them time to settle into a defensive structure. I chain variations rapidly, sometimes attempting three different finishes within five seconds, because each defense creates the opening for the next attack. Against elite competition, I've found that the dump variations are extremely effective when opponents get good at defending the standard finishes - the rotational mechanics catch them by surprise. Train your single leg variations until you can hit any finish from any angle without thinking, because in competition, the mental hesitation kills more takedown attempts than technical deficiency.",
-    "eddie_bravo": "Single leg variations are fundamental to the 10th Planet no-gi game because they bridge perfectly between standing exchanges and ground positions. What I love about single leg attacks is how they flow into our whole system - you can enter from standing, you can hit them from the dogfight position, you can transition into them when someone stands in your guard. The versatility is incredible. My approach focuses heavily on using the single leg as a transition tool, not just a pure takedown. If I get the single leg standing and they defend well, I'm immediately looking to pull them into my closed guard or transition to the truck position. From dogfight, the single leg sweep is one of our highest percentage techniques because you already have the leg controlled from the lockdown. The key innovation we emphasize is using single leg control to create unconventional pathways - transitioning to twister side control, setting up calf slicers, or converting to leg entanglements. Don't think of single leg variations as purely wrestling techniques. They're positional control concepts that apply across the entire grappling spectrum. Train the finishing variations, absolutely, but also explore how single leg control integrates into your guard game, your leg lock game, your back attack game. The most creative and effective applications often come from adapting traditional single leg mechanics to unexpected positional contexts."
-  }
+  ]
 }

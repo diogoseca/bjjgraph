@@ -8,7 +8,7 @@ description: "Master Paper Cutter Choke in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -414,7 +414,6 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 - [[Collar Control]] - Fundamental principle for establishing effective grip
 - [[Pressure Application]] - Core principle for maintaining side control during setup
 - [[Submission Chains]] - Principle for combining paper cutter with other side control attacks
-- [[Danaher Straight Jacket System]] - System that incorporates paper cutter as part of side control attack series
 
 
 </section>

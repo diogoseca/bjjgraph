@@ -8,7 +8,7 @@ description: "Master guard passing fundamentals in BJJ. Learn systematic framewo
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -385,7 +385,6 @@ Video review or mental replay of unsuccessful passing attempts to identify speci
 - [[Toreando Pass]] (Transition) - Specific passing technique demonstrating application of floating pressure passing principles
 - [[Knee Slice Pass]] (Transition) - Common passing technique exemplifying stage progression from headquarters to side control consolidation
 - [[Long Step Pass]] (Transition) - Passing variation demonstrating mobility-based approach to bypassing guard retention mechanics
-- [[Gordon Ryan Passing System]] (System) - Expert systematic integration of guard passing principles into comprehensive competitive passing framework
 - [[Headquarters Position]] (Position) - Critical intermediate passing position representing midpoint between open guard and consolidated side control
 - [[Combat Base]] (Position) - Foundational passing posture demonstrating proper base and structure for initiating passing sequences
 - [[Grip Fighting Strategies]] (Principle) - Essential prerequisite concept as grip dominance typically predicts passing success before movement begins

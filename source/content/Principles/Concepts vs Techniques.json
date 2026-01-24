@@ -1,7 +1,14 @@
 {
   "name": "Concepts vs Techniques",
   "description": "Master the critical distinction between BJJ concepts and techniques. Learn how principles guide execution, enable adaptation, and develop strategic thinking.",
-  "tags": ["bjj", "concept", "learning-theory", "strategy", "principles", "technical-understanding"],
+  "tags": [
+    "bjj",
+    "concept",
+    "learning-theory",
+    "strategy",
+    "principles",
+    "technical-understanding"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
@@ -354,11 +361,6 @@
       "relationship": "Core concept that operates across all positions and informs countless techniques, exemplifying the concept-technique relationship"
     },
     {
-      "name": "Danaher Front Headlock System",
-      "content_type": "System",
-      "relationship": "Exemplifies systematic organization of techniques around conceptual principles, demonstrating expert-level integration of concepts and techniques"
-    },
-    {
       "name": "Drilling Methodology",
       "content_type": "Principle",
       "relationship": "Must be adapted based on whether developing technical proficiency or conceptual understanding"
@@ -373,10 +375,5 @@
       "content_type": "Principle",
       "relationship": "Core concept operating across all positions, exemplifying how principles transcend specific technical applications"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The distinction between concepts and techniques represents perhaps the most critical epistemological framework in jiu-jitsu education. A technique is a specific instance of principle application—a particular answer to a particular problem. A concept is the underlying principle itself, which can generate multiple answers to multiple problems. The tragedy of most jiu-jitsu education is that we teach techniques as discrete, disconnected units without making explicit the conceptual principles that unite them. This creates practitioners with large vocabularies but no grammar—they can recite individual words but cannot construct coherent sentences. True mastery requires recognizing that techniques are surface-level manifestations of deeper principles. When you understand the concept of breaking opponent structure, you can generate countless techniques spontaneously. When you only know techniques mechanically, you are trapped by your limited repertoire. The transition from technique-focused to concept-focused training marks the boundary between intermediate and advanced development. Before this transition, you are accumulating knowledge; after it, you are generating understanding. This is not to diminish technical proficiency—mechanics matter enormously. But mechanical skill without conceptual understanding is inherently limited. The goal is integration: conceptual frameworks guiding technical application, with technical refinement providing the vehicle for conceptual expression. This integration cannot be rushed. Beginners must first build a sufficient technical foundation before conceptual patterns become visible. Attempting to teach concepts abstractly, disconnected from technical practice, produces superficial understanding. But once technical foundations exist, the deliberate extraction and articulation of underlying concepts accelerates development dramatically. The instructor's responsibility is to make implicit conceptual knowledge explicit, naming and explaining the principles at work in every technique. This metacognitive practice—thinking about thinking, analyzing why movements work—is what transforms practitioners from mechanical executors into strategic thinkers.",
-    "gordon_ryan": "In competition, the difference between conceptual and technical understanding shows up immediately under pressure. Guys who only know techniques mechanically freeze when their preferred moves get shut down. They try the same thing harder instead of adapting because they don't understand the principle behind the movement. I can't tell you how many times I've seen this at high levels—someone has a killer technique in the gym, but in competition when it gets countered, they have no backup because they never understood the concept. My approach is building systems around concepts, not just collecting techniques. Take my passing game—it's not about knowing a hundred different passes. It's about understanding the core concepts of distance management, posture control, and pressure application. Once you get those concepts, you can adapt your passing to whatever guard you're facing. The technique is just how you express the concept in that specific situation. When I prepare for opponents, I'm not worried about their specific techniques. I'm analyzing their conceptual approach. What principles are they operating from? What's their strategic framework? Then I can counter not just individual techniques but their entire game plan because I'm addressing the concepts, not the surface-level movements. The training has to reflect this. I don't just drill techniques repetitively—I drill concepts with variation. If I'm working on back attacks, I'm not just hitting the same rear naked choke entry fifty times. I'm practicing the concept of defensive hand control through different grips, angles, and setups. That way, in competition, I'm not locked into one technique—I'm flowing through whatever expression of the concept works in that moment. This is what separates world-class grapplers from good ones. Good grapplers have techniques. Great grapplers have conceptual frameworks that let them solve problems in real-time. You can't prepare for every specific situation you'll face, but if your concepts are sound, you can handle anything.",
-    "eddie_bravo": "The beautiful thing about understanding concepts versus just techniques is that it opens up infinite creativity. When you're stuck on techniques, you're basically copying what everyone else does. But when you understand the underlying concepts, you can innovate, create new stuff, find your own path. That's how I developed the whole 10th Planet system—I wasn't just learning rubber guard as a technique, I was exploring the concepts of breaking posture, controlling distance, creating angles from guard. Once I understood those concepts, I could develop all these different paths and positions that apply the same principles in new ways. Most people get stuck because they're taught techniques like recipes—do this, then this, then this. But what happens when the opponent doesn't cooperate with step two? If you only know the recipe, you're screwed. If you understand the cooking principles, you can improvise. That's the difference. I always tell my students, don't just learn the lockdown as a specific technique. Understand the concept of what it's doing—restricting mobility, controlling distance, creating angle opportunities. Then you can apply that concept from different positions, create your own variations, develop your own game. The concept is the seed; techniques are just different ways that seed can grow. And here's the thing about innovation—you can't innovate if you're just copying techniques. Innovation comes from understanding concepts deeply enough to apply them in new contexts. All the creative stuff I've developed came from conceptual understanding, not technique collection. When you understand concepts, you become a creator, not just a consumer. You can look at positions and problems and generate solutions based on principles, not just rely on techniques someone showed you. That's where the real freedom in jiu-jitsu comes from. It's the difference between speaking a language and just memorizing phrases from a phrasebook. Techniques are the phrases; concepts are the grammar that lets you create infinite new sentences."
-  }
+  ]
 }

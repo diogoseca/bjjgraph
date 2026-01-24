@@ -8,7 +8,7 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ description: "Master defensive strategies from Crucifix Bottom in BJJ. Complete 
 
 Crucifix Bottom Position represents one of the most disadvantaged and vulnerable defensive positions in Brazilian Jiu-Jitsu, where the practitioner finds themselves trapped with both arms controlled—one arm typically trapped behind the opponent's leg while the other is controlled by the opponent's grip or trapped under their own body. This asymmetric arm control severely limits defensive options and exposes the neck to multiple choke attacks, particularly the rear naked choke and various arm-in chokes.
 
-From a positional hierarchy standpoint, Crucifix Bottom sits near the absolute bottom of defensive positions, comparable only to fully mounted back control with both hooks. The fundamental challenge lies in the complete elimination of frames and the inability to create defensive barriers with the arms. Unlike standard back control where both arms remain somewhat mobile, the crucifix's defining characteristic is the systematic removal of arm functionality, creating what John Danaher describes as a structural collapse of defensive architecture.
+From a positional hierarchy standpoint, Crucifix Bottom sits near the absolute bottom of defensive positions, comparable only to fully mounted back control with both hooks. The fundamental challenge lies in the complete elimination of frames and the inability to create defensive barriers with the arms. Unlike standard back control where both arms remain somewhat mobile, the crucifix's defining characteristic is the systematic removal of arm functionality, creating what systematic describes as a structural collapse of defensive architecture.
 
 Survival from this position requires immediate recognition, calm systematic defense, and precise technical execution under extreme pressure. The window for escape narrows rapidly as the top player consolidates control and advances toward submissions. Understanding the hierarchy of threats, maintaining defensive posture of the neck and remaining free arm, and executing precise escape sequences represent the core competencies required for position recovery. Competition statistics show that practitioners who recognize crucifix entry early and act decisively have significantly higher escape rates than those who allow full consolidation of the position.
 

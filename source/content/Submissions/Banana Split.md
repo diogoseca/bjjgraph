@@ -8,7 +8,7 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ description: "Master the Banana Split submission in BJJ. Complete guide covering
 
 <section id="overview" class="content-section">
 
-The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from deep half guard or lockdown positions, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through Eddie Bravo's 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions. Unlike traditional joint locks, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. The technique requires precise control of the opponent's legs and hips while maintaining a stable base. Understanding the biomechanics of hip rotation and groin flexibility is essential for safe application. The Banana Split often works in combination with other attacks from half guard, creating multiple offensive threats that force defensive errors.
+The Banana Split is a unique compression submission that targets the opponent's hip adductors, groin muscles, and lower back through forced over-extension of the legs. Primarily executed from deep half guard or lockdown positions, this technique creates extreme discomfort by splitting the opponent's legs apart while controlling their upper body. The submission gained prominence through the 10th Planet system, where it serves as both a finishing technique and a powerful position to force reactions. Unlike traditional joint locks, the Banana Split relies on muscular compression and flexibility limitations, making it particularly effective against less flexible opponents. The technique requires precise control of the opponent's legs and hips while maintaining a stable base. Understanding the biomechanics of hip rotation and groin flexibility is essential for safe application. The Banana Split often works in combination with other attacks from half guard, creating multiple offensive threats that force defensive errors.
 
 **Category**: Compression
 **Type**: Groin Stretch
@@ -407,8 +407,6 @@ The Banana Split is a unique compression submission that targets the opponent's 
 - [[Lockdown]] - Essential control mechanism for near leg in classic variation
 - [[Electric Chair]] - Common transition point - shares similar leg controls
 - [[Truck]] - Alternative entry position with similar leg trapping mechanics
-- [[10th Planet Half Guard Bottom System]] - System that popularized banana split in modern BJJ
-- [[Danaher Leg Lock System]] - Systematic approach to leg attacks including compression submissions
 - [[Leg Entanglement]] - Core principle for controlling opponent's legs during setup
 - [[Hip Movement]] - Essential principle for generating splitting pressure from bottom
 - [[Flexibility Training]] - Understanding flexibility helps both attack and defense of this submission

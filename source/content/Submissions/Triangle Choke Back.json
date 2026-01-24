@@ -1,7 +1,14 @@
 {
   "name": "Triangle Choke Back",
   "description": "Master Triangle Choke from Back Control in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "submission", "triangle-choke", "back-control", "blood-choke", "advanced-technique"],
+  "tags": [
+    "bjj",
+    "submission",
+    "triangle-choke",
+    "back-control",
+    "blood-choke",
+    "advanced-technique"
+  ],
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
@@ -347,10 +354,5 @@
       "name": "Submission Chains",
       "relationship": "Conceptual framework explaining how this technique fits into multi-attack sequences from back"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The triangle choke from back control represents one of the most theoretically sound applications of submission chains because it exploits the inherent defensive structure opponents create when protecting against the rear naked choke. When your opponent brings both hands to their neck to defend the choke, they inadvertently create the perfect geometric configuration for the triangle - one arm isolated near the neck, space created by their defensive posture, and their attention focused on the wrong threat. The key technical element most practitioners miss is the necessity of creating a genuine angle before attempting the leg insertion. You cannot simply throw your leg over from directly behind - physics won't allow it. You must shift your hips to create perpendicularity, which simultaneously creates the space for leg entry and positions you for optimal finishing mechanics. The triangle from back should never be viewed as a desperation technique when the rear naked choke fails, but rather as a deliberate next step in a planned sequence of attacks. From a safety perspective, this is one of the more dangerous chokes because it combines neck cranking potential with bilateral carotid compression, so the application in training must be extraordinarily controlled and progressive.",
-    "gordon_ryan": "In high-level competition, the triangle from back is actually becoming more relevant because everyone at the elite level has phenomenal rear naked choke defense. They know how to hand fight, they understand chin position, they're comfortable being uncomfortable on the back. But what I've found is that most competitors, even really good ones, don't expect the triangle from back because it's not a common attack. That element of surprise is huge. When I'm attacking the back in competition, I'm usually looking at a sequence: rear naked choke attempt, they defend, I transition to triangle or armbar depending on how they defend. The triangle works best when they defend the RNC by bringing both arms high to their neck - that's your signal. One thing that's different in competition versus training is the speed of the finish. In training, you need to be super slow and give your partner time. In competition, once I have that triangle locked, I'm finishing it immediately because there's no benefit to giving them time to escape. But you have to earn that right through years of slow, controlled practice. The competition application is the end result of thousands of reps done safely.",
-    "eddie_bravo": "The triangle from back fits perfectly into the 10th Planet philosophy of creating positions where your opponent has to make impossible choices. From the back, if they defend the choke, boom, triangle's there. If they defend the triangle, you go back to the choke or hit the armbar. It's beautiful because you're never stuck - you're always flowing. One variation we use a lot in the 10th Planet system is hitting the triangle when we're transitioning from body triangle back control. The body triangle gives you this awesome stable base to work from, and when you open it to throw that leg over for the triangle, you can do it with a lot of control. We also look at the inverted triangle from back, which is kind of unorthodox but it works when they've got really good posture and you can't get over the top. You slide under instead. The mindset with this technique has to be about the flow - you're not hunting for one submission, you're creating a system where something's gonna be there. And the safety culture is super important. In our gym, we're always emphasizing slow, controlled finishes in training. The creativity comes in the setup and the position, but the finish has to be respectful and safe."
-  }
+  ]
 }

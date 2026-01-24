@@ -58,7 +58,16 @@
   "bottom": {
     "name": "Overhook Guard Bottom",
     "description": "Master Overhook Guard Bottom in BJJ. Complete guide covering control mechanics, sweeps, and submissions with 65% sweep success rate at advanced levels.",
-    "tags": ["bjj", "position", "overhook-guard", "bottom", "closed-guard", "offensive-guard", "sweeps", "submissions"],
+    "tags": [
+      "bjj",
+      "position",
+      "overhook-guard",
+      "bottom",
+      "closed-guard",
+      "offensive-guard",
+      "sweeps",
+      "submissions"
+    ],
     "overview": "Overhook Guard Bottom is a highly offensive variation of guard where the bottom practitioner controls one of the opponent's arms with an overhook (also called a whizzer). This position creates significant control over the opponent's posture and base while opening multiple sweep and submission opportunities. The overhook effectively neutralizes one of the opponent's posting hands, making them vulnerable to off-balancing attacks and limiting their passing options.\n\nThe position is characterized by the bottom player wrapping their arm over and around the opponent's arm, with the hand gripping the opponent's back or lat muscle. This creates a strong frame that can be used to break posture, prevent stacking, and generate rotational movements for sweeps. When combined with proper hip movement and leg control, the overhook becomes a powerful weapon for creating advantageous positions.\n\nOverhook Guard is particularly effective against opponents who attempt to establish strong grips or posture in guard. It allows the bottom player to dictate the pace and direction of exchanges while maintaining a safe defensive structure. The position seamlessly integrates with various submission systems, including triangles, omoplatas, and kimuras, making it a versatile component of modern guard play.",
     "state_properties": {
       "point_value": 0,
@@ -393,17 +402,19 @@
         "advanced": 55
       },
       "average_time": "45-90 seconds before sweep or submission attempt"
-    },
-    "expert_insights": {
-      "danaher": "The overhook in guard represents a fundamental asymmetry in control that creates predictable mechanical advantages for the bottom player. When you establish the overhook, you effectively remove one of your opponent's primary defensive tools—their ability to post and create frames with that arm. This creates a systematic hierarchy of attacks based on their reactions. If they attempt to recover the overhook, the triangle becomes available as their arm crosses their centerline. If they posture backward to reduce pressure, the hip bump sweep exploits their elevated center of gravity. If they drive forward to stack, the omoplata sweep capitalizes on their forward momentum. The key is recognizing that the overhook itself is not the finish—it is the control mechanism that forces your opponent into positions where their defensive options all lead to your offensive opportunities. Maintain the overhook with relentless tension through your lat and elbow connection, and your attacks will flow naturally from their inevitable reactions.",
-      "gordon_ryan": "In competition, overhook guard is one of my go-to positions because it gives me immediate offensive options while maintaining a safe defensive structure. The beauty of this position is that it forces my opponent to make difficult decisions under time pressure. If they sit back and try to establish posture, I can hit the hip bump sweep almost at will—it's extremely high percentage when you time it with their backward weight shift. If they try to drive into me, I'm already set up for the triangle or omoplata, and both lead to either the finish or a dominant sweep position. The critical detail that most people miss is the grip on the back with your overhook hand—you need to grip deep on their lat or shoulder blade, not just wrap the arm loosely. This deep grip gives you the leverage to break their posture and control their shoulder rotation, which is essential for both sweeps and submissions. I also use the overhook to set up my back takes by creating an angle and rolling them over my shoulder. It's a complete offensive system disguised as a simple control position.",
-      "eddie_bravo": "Overhook guard is where 10th Planet's mission control system begins, and it's absolutely crucial for no-gi guard play because you're not relying on gi grips to control your opponent. The overhook gives you that same level of control through pure body mechanics and positioning. What I love about this position is how it sets up the zombie and other rubber guard variations—once you have that overhook established, you can start working your leg up to control their head and transition into high-level attacks. But even before you get fancy with it, the basic overhook gives you immediate access to sweeps and submissions that work at the highest levels. The hip bump sweep from overhook is money, especially in MMA or no-gi where people are more aggressive with their posture. You can also use the overhook to set up the truck position by rolling them over your shoulder—this is a huge part of our system because it leads directly to back takes and the twister. The key is staying active with it, never letting them settle or recover their base. Keep threatening, keep moving, and use that overhook as your anchor point for everything you do from guard."
     }
   },
   "top": {
     "name": "Overhook Guard Top",
     "description": "Master Overhook Guard Top position in BJJ. Control opponent's arm while maintaining guard top position with 60% pass success rate at advanced levels.",
-    "tags": ["bjj", "position", "guard-top", "overhook", "control", "passing"],
+    "tags": [
+      "bjj",
+      "position",
+      "guard-top",
+      "overhook",
+      "control",
+      "passing"
+    ],
     "overview": "Overhook Guard Top represents a controlling position where the top practitioner has trapped one of the bottom player's arms with an overhook while navigating the guard. This position creates asymmetrical control that limits the bottom player's defensive options while opening passing opportunities. The overhook provides a powerful control mechanism that disrupts the guard player's ability to create frames, recover guard, or execute sweeps effectively.\n\nFrom this position, the top player maintains pressure and control while working to advance their passing game. The overhook can be used to flatten the opponent, eliminate space, and create passing lanes. Strategic positioning of weight and hip pressure becomes critical as the guard player will attempt to recover their arm or use their free arm to establish defensive frames. The top player must balance maintaining the overhook control while progressing their guard pass, often transitioning to more dominant positions like side control or mount.\n\nThis position is particularly effective in both gi and no-gi grappling, though the mechanics differ slightly. In gi, the overhook can be reinforced with collar grips, while in no-gi, the control relies more heavily on body positioning and shoulder pressure. Understanding how to maximize control while maintaining mobility is essential for successful guard passing from this configuration.",
     "state_properties": {
       "point_value": 0,
@@ -728,11 +739,6 @@
         "advanced": 35
       },
       "average_time": "45-90 seconds before pass or guard recovery"
-    },
-    "expert_insights": {
-      "danaher": "The overhook from guard top creates what I term 'asymmetrical control' - your opponent is reduced to single-arm defensive capabilities while you maintain two-arm offensive potential. The biomechanical advantage lies in your ability to drive shoulder pressure through their trapped arm directly into their torso, compromising their ability to maintain guard structure. This isn't merely about gripping the arm; it's about understanding how shoulder pressure, hip positioning, and systematic advancement work in concert. The overhook must be maintained through constant forward pressure - the moment you allow space, the control dissolves. From this position, your passing game becomes simplified because you've eliminated half of their defensive apparatus. Focus on maintaining pressure while progressing position systematically rather than rushing the pass. The overhook becomes the fulcrum around which all your passing mechanics revolve, and when properly maintained, it transforms guard passing from a battle of equal forces into a systematic progression of positional dominance.",
-      "gordon_ryan": "In competition, the overhook from top position is one of my highest-percentage guard passing setups because it immediately puts opponents in defensive mode. When I secure the overhook, I'm not just holding their arm - I'm controlling their entire upper body and limiting their options. The key is keeping constant pressure and never letting them breathe or establish their frames. I like to combine the overhook with strategic grips on their pants or belt to control their lower body while I work the pass. The smash pass becomes incredibly effective from here because they can't create the frames they need to defend. If they try to turn into the overhook to escape, I'm immediately looking for the back take. This position wins matches because it's a controlling position that leads directly to passes and often submissions. Against world-class opponents, the overhook is one of the few controls that consistently disrupts their guard retention systems and forces them into reactive rather than proactive defense.",
-      "eddie_bravo": "The overhook from guard top is powerful in both gi and no-gi, but you've got to understand how to use it differently in each context. In no-gi, the overhook is all about shoulder pressure and body positioning since you don't have fabric to grab. I teach my students to think of the overhook as a pathway to either the pass or the back - you're creating a dilemma for your opponent. If they defend the pass, the back becomes available. If they defend the back, the pass opens up. The innovation here is using the overhook not just as a control position but as a transition hub. From here, you can hit kimuras, take the back, or smash through to side control. Don't be static with it - the overhook should be dynamic, constantly threatening multiple attacks while you advance position. This is especially effective in MMA contexts where you can combine the overhook with ground-and-pound, making it nearly impossible for your opponent to focus on both striking defense and position recovery simultaneously."
     }
   }
 }

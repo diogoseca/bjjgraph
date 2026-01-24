@@ -8,7 +8,7 @@ description: "Master crucifix submissions in BJJ. Complete guide covering arm is
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -417,7 +417,6 @@ The Crucifix position represents one of the most dominant control positions in B
 - [[Seat Belt Control Back]] - Back control variation that facilitates crucifix entry
 - [[Armbar from Back]] - Alternative submission from similar back attack positions
 - [[Mounted Crucifix]] - Top mount variation of crucifix control and submissions
-- [[Danaher Straight Jacket System]] - Systematic approach to back attacks including crucifix position
 - [[Back Attack System]] - Overall strategic system incorporating crucifix submissions
 
 

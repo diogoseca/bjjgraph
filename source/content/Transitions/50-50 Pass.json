@@ -1,7 +1,17 @@
 {
   "name": "50-50 Pass",
   "description": "Learn the 50-50 Pass in BJJ. Systematic leg extraction from dangerous entanglement to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "technique", "pass", "leg-locks", "50-50", "guard-passing", "leg-entanglement", "no-gi", "leg-defense"],
+  "tags": [
+    "bjj",
+    "technique",
+    "pass",
+    "leg-locks",
+    "50-50",
+    "guard-passing",
+    "leg-entanglement",
+    "no-gi",
+    "leg-defense"
+  ],
   "starting_position": "50-50 Guard",
   "ending_position": "Side Control",
   "success_rates": {
@@ -276,10 +286,5 @@
       "name": "X-Guard to Ashi Transition",
       "relationship": "Entry Path - common route into 50-50 position"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The 50-50 position represents a perfect example of positional symmetry creating a tactical dilemma. Both athletes have access to similar attacking options, which paradoxically often results in defensive stalemate. The pass must be executed with systematic precision - you cannot skip steps. First, establish heel safety through grip fighting or positioning. Second, create the mechanical space needed for extraction through hip pressure manipulation. Third, extract the bottom leg using a circular motion that follows the natural range of motion of the hip joint. Fourth, immediately capitalize on the extraction by stepping over before opponent can reorganize their defensive structure. The key biomechanical principle is maintaining constant downward pressure on opponent's torso while your legs create space and extract. Many students fail because they attempt to stand up or elevate, which removes the pressure that prevents opponent from sitting up and re-entangling. The 50-50 pass is not about explosive movement but rather about systematic application of pressure and spatial awareness. Understanding the mechanics of this position makes you dangerous both offensively and defensively in the modern leg entanglement game.",
-    "gordon_ryan": "In competition, I see the 50-50 as a position that rewards patience and understanding. You cannot force the pass when opponent has strong control - you will either get submitted or swept. The key is recognizing when opponent is vulnerable, usually when they are focused on attacking your heel or when they have weak upper body control. I always prioritize breaking any heel hook grip before even thinking about passing. Once that threat is neutralized, I focus on heavy shoulder pressure to prevent them from sitting up. From there, the pass is about timing - creating space when they push, extracting when they pull. One detail that changed my success rate dramatically is keeping my chest glued to opponent's chest throughout the entire sequence. Many passers make the mistake of rising up to create room for their legs to extract, but this allows opponent to sit up underneath you. Stay heavy, stay low, and extract your legs while maintaining that pressure. In training, I always practice this pass against high-level leg lock players because that's where you need it most in competition. If you can't pass from 50-50, you will be forced into defensive stalling in matches against leg lock specialists.",
-    "eddie_bravo": "The 50-50 is one of those positions where creativity and systematic defense need to balance perfectly. From a 10th Planet perspective, we study this position extensively because our opponents often try to use it to shut down our leg attack game. The traditional pass works, but I've developed variations that create more chaos and opportunities. One technique I love is the 'electric chair bait' where you appear to be passing traditionally but suddenly switch your bottom leg into their far leg and threaten the electric chair submission. This forces them to react, often breaking their 50-50 structure and giving you easier passing opportunities. Another innovation is using a corkscrew motion with your legs during extraction - instead of pulling straight back, rotate your knees in opposite directions which creates leverage against their entanglement. The crossface is absolutely critical in our system because we want to prevent opponent from getting any upward mobility. In training, we practice this pass in combination with rubber guard transitions because both positions involve complex leg entanglements and similar hip mechanics. Don't be afraid to experiment with grip variations and different extraction angles - the traditional method is a great foundation, but sometimes creativity opens up passing lanes that systematic approaches miss."
-  }
+  ]
 }

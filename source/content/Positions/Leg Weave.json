@@ -53,7 +53,15 @@
   "bottom": {
     "name": "Leg Weave Bottom",
     "description": "Master defensive strategies from leg weave bottom. High-pressure half guard position with frame-based escapes. Success rates: Beginner 25%, Intermediate 40%, Advanced 55% for guard recovery.",
-    "tags": ["bjj", "position", "half-guard", "defensive", "bottom", "leg-weave", "guard-retention"],
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "defensive",
+      "bottom",
+      "leg-weave",
+      "guard-retention"
+    ],
     "overview": "Leg Weave Bottom Position represents a challenging defensive scenario in half guard where the top player has threaded their leg through your guard structure, establishing a powerful passing position. This position occurs when the passer has successfully weaved their knee-side leg between your legs while maintaining upper body control, creating significant pressure and limiting your mobility. The bottom player faces immediate threats of guard passes to side control, mount, or back control if defensive frames and hip movement are not properly established. While disadvantageous, this position offers specific defensive pathways and counter-attacks that can recover guard or create scrambles when executed with proper timing and technique. Understanding the mechanics of maintaining frames, creating angles, and preventing the complete pass is essential for survival and eventual escape from this high-pressure position. Success requires constant movement, precise framing against the opponent's pressure points, and recognition of timing windows for transitions to more favorable positions like knee shield, deep half, or dogfight.",
     "state_properties": {
       "point_value": 0,
@@ -405,17 +413,20 @@
         "advanced": 20
       },
       "average_time": "30-90 seconds before pass or escape"
-    },
-    "expert_insights": {
-      "danaher": "The leg weave bottom position represents a critical junction in the half guard passing sequence where the battle of angles and frames determines outcome. The fundamental principle at work here is the concept of inside position versus outside position - the top player has achieved inside leg positioning through the weave, creating a biomechanical advantage that must be neutralized through superior frame construction and hip angle management. The key defensive insight is that frames are not static structures but dynamic tools that create distance, which then enables angle creation through shrimping mechanics. Most bottom players make the catastrophic error of accepting the flat position, at which point the passer's weight advantage becomes insurmountable. The intelligent escape sequence begins with establishing frames that prevent complete chest-to-chest contact, then immediately creating hip angle to insert the knee shield or transition to deep half guard. Understanding that this position is fundamentally about the battle for inside control - once lost with the leg weave, it must be systematically recovered through precise technical sequences rather than explosive scrambling.",
-      "gordon_ryan": "Leg weave bottom is honestly one of the worst positions to be in during competition because good passers will flatten you and pass in seconds if you don't know the specific escapes. From my experience at the highest levels, the absolute key is never letting them settle their weight - you need to be moving your hips constantly even if it's small movements. The frame on the neck is non-negotiable, that's your survival tool that buys you time to hip escape. What works for me when I end up here is immediately recognizing whether they're driving forward pressure or trying to step over - if they drive forward, that's your deep half window, if they elevate to step over, that's when you come up to dogfight. Against elite guys like Lachlan Giles or Nick Rodriguez who have incredible pressure, I've found that the old school sweep becomes viable because they commit so much weight forward trying to flatten you. The biggest mistake I see is people giving up the position mentally and just accepting the pass - if you keep fighting for frames and angles, you'd be surprised how many scrambles you can create even against world-class passers.",
-      "eddie_bravo": "The leg weave is basically the passer trying to kill your lockdown and half guard game, but there's some sick counters if you know the 10th Planet system. First thing, don't let them flatten you bro - that's death. You gotta keep that electric chair option alive by maintaining your leg connection and looking for that ankle. A lot of people don't realize that when they weave their leg through, they're actually giving you a potential path to the twister side control if you can get the underhook and roll them. The deep half entry is money here too, especially if you've been drilling the dogfight to deep half connection. What I teach is to always be thinking about the lockdown recovery even from bad positions like this - if you can get your foot across their hip while they're weaving, you can sometimes trap their leg and create the whole lockdown game again. The vaporizer sweep is also there if they commit too much weight forward and you have that far leg hook. Bottom line is leg weave bottom is dangerous but it's not game over - you've got electric chair, deep half, dogfight, and if you're flexible enough, rubber guard entries when they post their hands. Keep moving, maintain that hook, and look for the counters."
     }
   },
   "top": {
     "name": "Leg Weave Top",
     "description": "Master leg weave passing from top position. Advanced guard passing control with leg threading mechanics. Success rates: Beginner 35%, Intermediate 55%, Advanced 70% for pass completion.",
-    "tags": ["bjj", "position", "leg-weave", "guard-passing", "top-position", "half-guard-pass", "pressure-passing"],
+    "tags": [
+      "bjj",
+      "position",
+      "leg-weave",
+      "guard-passing",
+      "top-position",
+      "half-guard-pass",
+      "pressure-passing"
+    ],
     "overview": "The Leg Weave Top Position is an advanced guard passing control where the top player threads one leg between the bottom player's legs while maintaining upper body control. This position creates a powerful passing platform by neutralizing the bottom player's leg-based guards and frames, particularly effective against opponents who rely heavily on knee shield, butterfly hooks, or other leg-based defensive structures. The leg weave represents a transitional control point in modern BJJ guard passing systems, bridging the gap between initial guard engagement and final passing positions like side control or mount. The position is characterized by the top player's leg creating a weave pattern through the opponent's guard, disrupting their defensive structure while maintaining forward pressure and control. Mastery of the leg weave position requires precise weight distribution, understanding of angles, and the ability to chain multiple passing sequences together. Elite practitioners use this position to create passing dilemmas where the bottom player must choose between defending different passing threats, often leading to successful guard passes with high percentage rates at advanced levels. The position has become increasingly prevalent in modern no-gi grappling where traditional gi grips are unavailable, forcing practitioners to rely more heavily on positional mechanics and weight distribution.",
     "state_properties": {
       "point_value": 0,
@@ -746,11 +757,6 @@
         "advanced": 15
       },
       "average_time": "30-60 seconds for pass completion at advanced level"
-    },
-    "expert_insights": {
-      "danaher": "The leg weave represents a sophisticated passing mechanism that exploits fundamental principles of base disruption and frame negation. When you thread your leg between the opponent's legs, you're systematically destroying their ability to create the leg-based frames that are essential to modern guard retention. The key is understanding that this is not merely a leg position, but a complete control system. Your weaved leg must pin their bottom leg while your upper body controls prevent them from sitting up. The biomechanics demand that you maintain constant forward pressure with your hips while using your grips to control their upper body rotation. This creates a situation where the bottom player cannot effectively use their legs for framing or their upper body for posture recovery. The position becomes exponentially more powerful when you understand it as a platform for creating passing dilemmas rather than a singular passing technique. By threatening knee slice, leg drag, and smash pass simultaneously, you force the opponent into defensive choices that inevitably open passing lanes.",
-      "gordon_ryan": "In competition, the leg weave is one of my highest percentage passing positions because it completely shuts down modern guard retention systems that rely on leg-based frames. When I get my leg threaded deep between their legs, I'm immediately looking to chain passes together - if they defend the knee slice, I'm going to the leg drag; if they defend the leg drag, I'm smashing through or taking the back. The position works so well because most people train guard retention based on keeping the passer at distance with knee shields and butterfly hooks, but the leg weave destroys those frames before they can even establish them. What makes this position elite-level is that you're not just passing - you're controlling the pace and creating situations where every defensive movement opens up a different passing opportunity. Against high-level opponents, I'm constantly adjusting my pressure and grips to keep them guessing which pass is coming. The leg weave gives me that control and those options, which is why it's a fundamental part of my no-gi passing system.",
-      "eddie_bravo": "The leg weave is sick for no-gi because it takes away all those annoying leg frames that people use to stall out guard passing. When you thread that leg deep, you're basically telling their legs 'you don't work anymore' and then it's game over for their guard. I teach my guys to think of it as creating a highway to the pass - once your leg is woven in, you've got a straight shot to side control or the back depending on how they react. The beauty of this position is that it works perfectly with the modern leg lock game too. If they try to enter on your legs while you're in the leg weave, you're already in perfect position to counter with leg entanglements or take their back. What's really innovative about the leg weave is how it bridges old school pressure passing with new school leg lock systems. You can use it to pass traditionally, or you can use it as an entry point into the saddle or other leg attack positions. That versatility makes it essential for the complete modern grappler who needs to threaten both positional dominance and leg attacks."
     }
   }
 }

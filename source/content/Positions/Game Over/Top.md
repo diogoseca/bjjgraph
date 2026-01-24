@@ -8,7 +8,7 @@ description: "Master submission completion and control to finish matches. Compre
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ Game Over Top represents the offensive terminal state where a practitioner succe
 
 Achieving Game Over Top requires more than submission technique—it demands the positional control necessary to safely apply submissions, the sensitivity to recognize when submissions are fully locked versus when opponent escape is still possible, and the judgment to apply techniques with control that forces tap without causing injury. In training contexts especially, reaching Game Over Top carries the responsibility of protecting your partner's safety while still developing realistic submission skills.
 
-The path to Game Over Top typically follows BJJ's positional hierarchy. Practitioners advance from neutral or defensive positions through the guard, then establish dominant positions like side control, mount, or back control before attempting high-percentage submissions. This progression reflects John Danaher's principle of "position before submission"—the understanding that submissions applied from poor positions are low percentage and risky, while submissions from dominant control are high percentage and safe.
+The path to Game Over Top typically follows BJJ's positional hierarchy. Practitioners advance from neutral or defensive positions through the guard, then establish dominant positions like side control, mount, or back control before attempting high-percentage submissions. This progression reflects systematic principle of "position before submission"—the understanding that submissions applied from poor positions are low percentage and risky, while submissions from dominant control are high percentage and safe.
 
 However, modern BJJ has also developed submission-focused games that attack directly from guard or during scrambles. The triangle choke from closed guard, guillotine during takedown defense, or heel hooks from leg entanglements demonstrate that Game Over Top can be reached from positions traditionally considered defensive or neutral. This evolution has created strategic diversity in BJJ, where practitioners can choose between position-focused methodologies and submission-focused approaches based on their physical attributes and tactical preferences.
 
@@ -511,7 +511,7 @@ Spend entire round in one dominant position (mount, back, side control) with goa
 - **[[Saddle]]** - Modern leg entanglement with direct Game Over Top threats
 - **[[Triangle Control]]** - Guard control position leading to Game Over Top
 - **[[Back Attack System]]** - Systematic approach to achieving Game Over Top from back control
-- **[[Danaher Leg Lock System]]** - Modern system for Game Over Top via leg attacks
+- **[[systematic approach Leg Lock System]]** - Modern system for Game Over Top via leg attacks
 - **[[Competition Strategy]]** - Strategic framework where Game Over Top is ultimate tactical goal
 
 

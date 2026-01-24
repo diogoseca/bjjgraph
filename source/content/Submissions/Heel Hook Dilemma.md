@@ -8,7 +8,7 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ description: "Master the Heel Hook Dilemma in BJJ. Strategic finishing system fr
 
 <section id="overview" class="content-section">
 
-The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through the work of the Danaher Death Squad and subsequent evolution by Craig Jones and the B-Team. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.
+The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through the work of the modern leg lock pioneers and subsequent evolution by Craig Jones and the B-Team. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.
 
 **Category**: Joint Lock
 **Type**: Leg Lock
@@ -406,7 +406,6 @@ The Heel Hook Dilemma is an advanced leg lock system that creates a binary choic
 
 ## Additional Related Content
 
-- [[Danaher Leg Lock System]] - Primary system teaching heel hook dilemma principles
 - [[Craig Jones Leg Lock System]] - Modern application of dilemma principles in competition
 - [[B-Team Dilemma System]] - Evolution of dilemma creation across entire game
 - [[Dilemma Creation]] - Core principle underlying the heel hook dilemma concept

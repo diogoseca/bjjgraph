@@ -8,7 +8,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@ description: "Dominant back-attack position combining leg entanglement with perp
 
 <section id="overview" class="content-section">
 
-Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.
+Truck Top Position is a dominant back-attack variation where you control your opponent from behind with their legs entangled, using your boot (foot) pressed against their hip to create torque and control while hunting for twister, calf slicer, banana split, or back control finishes. Popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system, this position represents an evolution of traditional back control that emphasizes leg entanglement and spinal attacks.
 
 The position's power comes from the dilemma it creates: defending the upper body (twister) exposes the lower body (calf slicer/banana split), while defending the lower body allows upper body attacks. This multiple-threat system makes the truck one of the highest finishing-rate positions in modern BJJ. The boot control is the engine of the position, creating the torque that enables all subsequent attacks. The position serves as both a submission hunting platform and a back control entry system.
 
@@ -464,7 +464,7 @@ Start in established truck position. Top player works for submissions and positi
 - **[[Turtle]]** - Entry position - turtle attacks lead to truck
 - **[[Twister Control]]** - Submission position - primary attack from truck
 - **[[Crucifix]]** - Transition target - alternative control position
-- **[[Twister System]]** - Expert system - Eddie Bravo's comprehensive truck system
+- **[[Twister System]]** - Expert system - 10th Planet's comprehensive truck system
 - **[[10th Planet No-Gi Guard System]]** - Expert system - broader context for truck position
 - **[[Control Maintenance]]** - Core principle - essential for position retention
 - **[[Off-Balancing]]** - Core principle - boot pressure creates off-balancing

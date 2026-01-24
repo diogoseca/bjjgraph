@@ -8,7 +8,7 @@ description: "Master the Straight Footlock in BJJ. Safety guide with setup and e
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -420,7 +420,6 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 - [[Single Leg X-Guard]] - Common entry position combining sweep threats with submission
 - [[Kneebar]] - Primary chained submission when opponent defends ankle lock
 - [[Toe Hold]] - Alternative leg attack from same entanglement
-- [[Danaher Leg Lock System]] - Systematic approach incorporating straight footlock as foundational technique
 - [[Craig Jones Leg Lock System]] - Modern leg lock system using straight footlock as entry point
 - [[X-Guard to Ashi Transition]] - Common entry sequence from guard position
 - [[Leg Entanglement]] - Fundamental principle underlying all leg lock positions

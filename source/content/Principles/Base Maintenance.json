@@ -1,6 +1,6 @@
 {
   "name": "Base Maintenance",
-  "description": "Understand Base Maintenance in BJJ. Learn stability principles, weight distribution, and cross-position application. Expert insights from Danaher, Ryan, and Bravo included.",
+  "description": "Master base maintenance in BJJ: stability principles, weight distribution techniques, positional awareness. Learn how proper base prevents sweeps and enables control.",
   "tags": [
     "bjj",
     "principle",
@@ -14,7 +14,7 @@
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  "overview": "Base Maintenance represents the fundamental skill of establishing and preserving structural stability through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
+  "overview": "Base Maintenance is a fundamental principle describing the ability to maintain stable positioning through proper weight distribution, alignment, and connection points that maximize control while minimizing vulnerability to displacement. Unlike specific techniques, base maintenance is a comprehensive conceptual framework that applies across all positions and phases of BJJ. This concept encompasses the biomechanical principles, dynamic adjustments, and strategic approach to creating stable platforms from which techniques can be executed effectively. Base maintenance serves as both a defensive mechanism that prevents sweeps, reversals, and off-balancing, and an offensive foundation that enables powerful technique application. The ability to maintain an effective base often determines whether a practitioner can successfully implement techniques or remains vulnerable to positional reversals, making it one of the most essential conceptual elements in BJJ.",
   "key_principles": [
     "Distribute weight optimally across multiple support points",
     "Maintain proper alignment between base points and center of gravity",
@@ -105,6 +105,21 @@
       "principle_name": "Guard Retention",
       "relationship_type": "Complementary",
       "description": "Guard retention relies heavily on base maintenance principles adapted to bottom positions. Maintaining hip mobility and connection points follows same fundamental concepts as top base maintenance."
+    },
+    {
+      "principle_name": "Leverage Principles",
+      "relationship_type": "Prerequisite",
+      "description": "Leverage principles provide the mechanical foundation for understanding why certain base configurations are more stable than others. Base maintenance applies these leverage concepts to positional control."
+    },
+    {
+      "principle_name": "Energy Conservation",
+      "relationship_type": "Complementary",
+      "description": "Proper base maintenance allows efficient energy use by reducing unnecessary compensatory movements. Stable base requires less muscular effort to maintain than constantly recovering from compromised positions."
+    },
+    {
+      "principle_name": "Control Maintenance",
+      "relationship_type": "Extension",
+      "description": "Base maintenance is the foundational layer of control maintenance. Without stable base, all other control mechanisms become ineffective regardless of grips or positioning."
     }
   ],
   "application_contexts": [
@@ -383,10 +398,5 @@
       "content_type": "Principle",
       "relationship": "Concept that targets base vulnerabilities, understanding both concepts enhances performance"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Base maintenance represents one of the most scientifically precise applications of biomechanical principles in Brazilian Jiu-Jitsu. The concept fundamentally concerns the relationship between an individual's center of gravity and the geometric area defined by their support points - what we term the 'stability polygon.' Effective base maintenance requires understanding that stability is not a binary state but rather a continuum that must be calibrated to task requirements. The common error among developing grapplers is treating maximum stability as always optimal, when in reality we must create what I call 'functional base' - the minimum stability necessary to accomplish the current objective while maintaining maximum mobility and offensive capability. This requires sophisticated understanding of force vectors, weight distribution mechanics, and the dynamic relationship between base configuration and technical execution. The truly advanced practitioner develops the ability to make preemptive base adjustments based on reading opponent intentions, creating a defensive base structure before the attack is fully manifested, which represents the highest expression of base maintenance skill.",
-    "gordon_ryan": "In competition, base maintenance separates winners from losers more than any single technical factor. I've won countless matches not through superior technique execution but simply through maintaining better base than my opponent throughout the match. The key understanding that transformed my base maintenance was recognizing it as a dynamic, constantly evolving system rather than static positions. Against elite opponents, you cannot simply establish a wide base and expect it to remain effective - they will constantly probe, adjust pressure angles, and create situations where your base becomes vulnerable. I focus heavily on what I call 'preemptive base adjustment' where I'm modifying my base structure before the opponent's attack fully develops, staying one step ahead of their off-balancing attempts. This requires deep positional experience and the ability to recognize the subtle setup movements that precede sweep attempts. In my guard passing, base maintenance enables me to apply sustained pressure without becoming vulnerable to counters - I can drive forward aggressively because my base structure provides safety if the pass fails. The integration of offensive pressure with defensive base awareness is what allows high-level competitors to maintain relentless attacks without getting reversed.",
-    "eddie_bravo": "Traditional base maintenance concepts get challenged heavily in the 10th Planet system because we're often working from positions where conventional base doesn't exist. In rubber guard, lockdown, and truck positions, you're creating what I call 'connected base' where your stability comes from integration with the opponent's structure rather than independent support points. This requires completely rethinking base principles - instead of trying to maintain base separate from your opponent, you're using their body as part of your base structure. It's a more sophisticated concept but incredibly powerful once you understand it. In our system, we also emphasize base manipulation more than base maintenance in some situations - actively disrupting your own base to create momentum for techniques like the vaporizer or electric chair. This violates conventional wisdom but works because the momentum generated by controlled base disruption exceeds what you could generate from static base. However, this only works if you have exceptional base recovery skills and deep understanding of when temporary base sacrifice is worth the offensive opportunity created. For most students, I emphasize mastering conventional base maintenance first before experimenting with these more advanced concepts of using base dynamically as an offensive tool rather than purely defensive concern."
-  }
+  ]
 }

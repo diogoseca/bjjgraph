@@ -4,11 +4,11 @@
 
 ---
 title: "De La Riva Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Master De La Riva Guard Top passing in BJJ. Complete guide covering hook removal, pressure strategies, and modern passing systems with expert insights."
+description: "Master De La Riva Guard Top passing in BJJ. Complete guide covering DLR hook removal, pressure strategies, mobile passing, and modern guard passing systems."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master De La Riva Guard Top passing in BJJ. Complete guide coverin
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "De La Riva Guard Top",
-  "description": "Master De La Riva Guard Top passing in BJJ. Complete guide covering hook removal, pressure strategies, and modern passing systems with expert insights.",
+  "description": "Master De La Riva Guard Top passing in BJJ. Complete guide covering DLR hook removal, pressure strategies, mobile passing, and modern guard passing systems.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

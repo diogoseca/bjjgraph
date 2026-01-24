@@ -8,7 +8,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ description: "Master Outside Heel Hook in BJJ. Safety guide covering proper appl
 
 <section id="overview" class="content-section">
 
-The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution pioneered by practitioners like John Danaher's Death Squad and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.
+The Outside Heel Hook is one of the most dangerous and effective leg lock submissions in Brazilian Jiu-Jitsu, targeting the knee joint through rotational force applied to the heel and foot. Unlike inside heel hooks which attack from inside positioning, the outside heel hook is applied when controlling the opponent's leg from the outside position, typically from outside ashi-garami or similar leg entanglement positions. This submission creates torque on the knee joint by rotating the foot and lower leg while the upper leg remains fixed, placing tremendous stress on the ACL, MCL, meniscus, and other knee structures. The outside heel hook gained prominence in modern no-gi competition through the leg lock revolution pioneered by practitioners like systematic Death Squad and has become a fundamental finishing position in high-level competition. Due to its extreme injury potential and the speed at which damage occurs, this technique requires exceptional technical precision, safety awareness, and should only be practiced by experienced grapplers with trustworthy training partners. The mechanical advantage created by proper hip positioning and heel control makes this one of the highest percentage finishing attacks from leg entanglement positions, but also one requiring the greatest responsibility and control during application.
 
 **Category**: Joint Lock
 **Type**: Leg Lock
@@ -416,7 +416,6 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 - [[Saddle]] - Alternative attacking position with similar mechanics
 - [[Cross Ashi-Garami]] - Entry position providing outside control
 - [[Kneebar]] - Alternative leg attack from same positions
-- [[Danaher Leg Lock System]] - Systematic framework including this submission
 - [[Craig Jones Leg Lock System]] - Modern competition system featuring this technique
 - [[Lachlan Giles Leg Lock Defense Framework]] - Defense concepts for countering this submission
 - [[50-50 Guard]] - Common entry position requiring transition to outside control

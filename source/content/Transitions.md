@@ -1,6 +1,6 @@
 ---
 title: "Transitions | BJJ Technique Guide | BJJ Graph"
-description: "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques."
+description: "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, and success rates."
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +9,7 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Transitions | BJJ Technique Guide",
-  "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.",
+  "description": "Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, and success rates.",
   "url": "https://bjjgraph.org/transitions",
   "isPartOf": {
     "@type": "WebSite",
@@ -1407,7 +1407,7 @@ description: "Master all BJJ transitions and techniques. Complete guide to sweep
 }
 </script>
 
-Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, success rates, and expert insights for 68+ techniques.
+Master all BJJ transitions and techniques. Complete guide to sweeps, passes, takedowns, and escapes. Learn execution steps, and success rates.
 
 
 
@@ -1749,7 +1749,7 @@ Learn Headquarters Pass in BJJ. Step-by-step execution from headquarters positio
 
 ### [[Heel Grab Sweep]]
 
-Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%.
+Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, timing, and execution steps. Success rates: 35%, 60%, 75%.
 
 ### [[High Crotch]]
 
@@ -1757,7 +1757,7 @@ Master the High Crotch takedown in BJJ. Complete step-by-step execution from sta
 
 ### [[Hip Bump Sweep]]
 
-Master the Hip Bump Sweep from Closed Guard. Step-by-step execution, common errors, and expert insights. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Hip Bump Sweep from Closed Guard. Step-by-step execution and common errors. Success rates: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 ### [[Hip Bump Sweep V2]]
 

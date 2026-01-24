@@ -54,7 +54,16 @@
   "bottom": {
     "name": "Reverse X-Guard Bottom",
     "description": "Master Reverse X-Guard Bottom in BJJ. Advanced guard position with 60% sweep success. Control opponent's posture while attacking legs and creating off-balancing opportunities.",
-    "tags": ["bjj", "position", "guard", "bottom", "reverse-x-guard", "leg-entanglement", "sweep", "advanced"],
+    "tags": [
+      "bjj",
+      "position",
+      "guard",
+      "bottom",
+      "reverse-x-guard",
+      "leg-entanglement",
+      "sweep",
+      "advanced"
+    ],
     "overview": "Reverse X-Guard Bottom is an advanced open guard position where the bottom practitioner controls the opponent using an inverted X-Guard configuration with hooks on the same side. The practitioner places both legs on the same side of the opponent's body, with one hook behind the knee and the other controlling the hip or thigh, creating a powerful off-balancing platform. This position excels at generating sweeps through controlled elevation and rotation of the opponent's base.\n\nDeveloped as a counter to modern passing systems and standing guards, Reverse X-Guard Bottom provides exceptional control over the opponent's posture and weight distribution. The position is particularly effective against opponents attempting to disengage or stand up from traditional guard positions. By inverting the standard X-Guard configuration, the bottom player gains leverage advantages for sweeps while maintaining options to transition to other leg entanglement positions or back takes.\n\nThe position requires high technical proficiency, hip mobility, and timing to execute effectively. Success depends on maintaining constant pressure with the hooks while using grip control to manipulate the opponent's upper body. Practitioners must understand the relationship between hook placement, angle creation, and sweep mechanics to maximize effectiveness. Reverse X-Guard Bottom serves as a hub position within modern guard systems, offering pathways to multiple advanced positions and submissions.",
     "state_properties": {
       "point_value": 0,
@@ -389,17 +398,19 @@
         "advanced": 45
       },
       "average_time": "30-60 seconds"
-    },
-    "expert_insights": {
-      "danaher": "Reverse X-Guard Bottom represents an evolution in guard systems, utilizing inverted hook configurations to create biomechanical advantages unavailable from traditional guards. The critical factor is understanding that both hooks must work in concert to control the opponent's base—the primary hook behind the knee prevents backward movement and establishes vertical control, while the secondary hook on the hip controls rotation and lateral stability. The positioning creates a kinetic chain where elevating pressure through the hooks directly transfers force into off-balancing the opponent. Practitioners must recognize that this is fundamentally a transitional hub position within modern guard systems. Success comes not from remaining static in Reverse X-Guard, but from using it as a platform to access multiple positions based on opponent reactions. The inverted body angle creates unique leverage advantages for sweeps, but also requires superior hip mobility and core strength to maintain. Study the relationship between hook angle, grip placement, and opponent's center of gravity to maximize effectiveness.",
-      "gordon_ryan": "In competition, Reverse X-Guard Bottom is one of my go-to positions when opponents try to stand and disengage from standard guard systems. The beauty of this position is that it gives you incredible control over one leg while setting up multiple high-percentage sweeps and back takes. When I establish Reverse X, I'm immediately thinking about elevation sweeps or transitioning to Single Leg X if they try to pull away. The key is being aggressive with your hooks—you can't just hold the position, you need to constantly be lifting and off-balancing them. Against high-level opponents, I often use Reverse X as a transitional position rather than a destination. If they defend the sweep well, I'm already moving to Ashi Garami or inverting to take the back. The position works exceptionally well in no-gi because you can maintain connection through the hooks even without gi grips. My advice is to drill the entries religiously because getting to Reverse X cleanly from standing guards or De La Riva is what separates good guard players from great ones. Once you're there, stay active and trust your sweep mechanics.",
-      "eddie_bravo": "Reverse X-Guard is a sick position that fits perfectly into the 10th Planet system because it's all about creating angles and attacking from unconventional positions. We've integrated Reverse X as a key component of our no-gi guard game, especially when transitioning between different leg entanglement positions. The inverted configuration lets you create unique sweeping angles that opponents don't expect, and it sets up perfectly for our lockdown entries and back attacks. What I love about Reverse X is how it forces your opponent to deal with constant elevation pressure while you're already thinking three steps ahead. From Reverse X, you can flow to Honey Hole, hit technical stand-ups, or invert for back takes—it's a total system position. The key is understanding that your hips are your engine in this position. You need to be constantly moving, creating angles, and making your opponent react. Don't get stuck holding static Reverse X; use it as a launching pad for attacks. We drill Reverse X entries from butterfly, seated guard, and even from bottom half as part of our guard recovery sequences. Master this position and your sweep game becomes incredibly dynamic and hard to defend."
     }
   },
   "top": {
     "name": "Reverse X-Guard Top",
     "description": "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pass rate. Complete guide covering pressure passing, leg defense, and transitions.",
-    "tags": ["bjj", "position", "top", "leg-entanglement", "passing", "reverse-x-guard"],
+    "tags": [
+      "bjj",
+      "position",
+      "top",
+      "leg-entanglement",
+      "passing",
+      "reverse-x-guard"
+    ],
     "overview": "Reverse X-Guard Top is a controlling position where the top player defends against the bottom player's Reverse X-Guard attack while working to pass or advance position. The top player faces significant threats from sweeps and leg attacks but maintains several strategic advantages through proper posture, weight distribution, and hand fighting. This position requires the top player to balance defensive awareness with offensive pressure, as the bottom player has both their feet actively controlling the top player's legs.\n\nThe top player's primary objectives are to maintain upright posture, prevent the bottom player from off-balancing them backward or to the side, and systematically remove the hooks while advancing to more dominant positions. Success in this position depends on understanding leg entanglement mechanics, proper base management, and recognizing when to disengage versus when to pressure through the guard. The position is common in modern no-gi grappling and requires specific technical knowledge to navigate safely while avoiding leg lock entries.\n\nStrategically, Reverse X-Guard Top represents a transitional state where the top player must make critical decisions about passing methodology. Pressure-based approaches involve driving weight forward to flatten the opponent, while mobility-based methods focus on creating angles and disengaging hooks. Understanding these options and reading the opponent's reactions determines success rates, with advanced practitioners achieving 60-70% pass rates through systematic application of passing principles.",
     "state_properties": {
       "point_value": 0,
@@ -681,7 +692,7 @@
         "relationship": "Alternative passing position from angle creation"
       },
       {
-        "name": "Danaher Leg Lock System",
+        "name": "systematic approach Leg Lock System",
         "relationship": "System covering leg entanglement defense principles"
       }
     ],
@@ -702,11 +713,6 @@
         "advanced": 15
       },
       "average_time": "30-90 seconds"
-    },
-    "expert_insights": {
-      "danaher": "Reverse X-Guard Top is fundamentally about understanding the mechanical relationship between hip height and sweep vulnerability. The bottom player's primary weapon is their ability to elevate your hips above your base, creating a pendulum effect that results in the sweep. Your defense must center on maintaining hip elevation relative to theirs while establishing a wide, stable base. The key technical detail is the angle of your shin relative to their hooks - when your shin is perpendicular to the mat with proper weight distribution, their hooks lose mechanical advantage. Systematically address each hook through either pressure application that flattens their structure or angle creation that removes the hook entirely. Never allow both hooks to achieve full extension simultaneously, as this creates maximum sweeping power. The position represents a decision point between mobility-based passing that prioritizes disengagement and pressure-based passing that drives through the guard structure.",
-      "gordon_ryan": "In competition, Reverse X-Guard Top is where a lot of guys get swept because they don't understand the urgency of the position. You can't be passive here - the bottom player has too many options for off-balancing and leg attacks. My approach is immediate pressure forward with the goal of smashing through to half guard or forcing them to flatten out. I'm constantly hand fighting to prevent them from getting sleeve control or ankle grips, because those grips are what they use to break my posture. If I feel them starting to elevate me backward, I immediately commit to the smash pass or widen my base dramatically. The worst thing you can do is stay neutral and let them set up their attacks. I'm also always aware of the straight ankle lock threat - if they shift their hips for the ankle, I'm backstepping immediately. Most guys at the elite level will try to bait you into certain reactions, so I'm reading their hip movement and hand position to stay one step ahead.",
-      "eddie_bravo": "From the top in Reverse X-Guard, you're in this weird zone where you're defending but you also have control if you know what you're doing. The 10th Planet approach is to stay heavy and use your weight intelligently - we call it 'controlled smashing.' You're not just wildly driving forward, you're targeting specific areas like their near shoulder or hip to create the flattening effect. One thing a lot of people miss is the value of hand fighting from this position - if you can control their collar or get a crossface grip, you completely change the dynamic. They can't sweep effectively without using their hands to manipulate your balance. Also, don't be afraid to disengage if you feel them transitioning to leg locks. There's no shame in backstepping and resetting - it's way better than getting caught in a heel hook because you were too stubborn to abandon the pass. The lockdown guys love catching people in this position, so stay mobile and keep your awareness high."
     }
   }
 }

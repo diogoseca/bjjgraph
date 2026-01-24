@@ -1,7 +1,14 @@
 {
   "name": "Elevator Sweep",
   "description": "Master the Elevator Sweep from butterfly guard. Step-by-step execution with hook control and elevation. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "technique", "sweep", "butterfly-guard", "hook-control", "elevation"],
+  "tags": [
+    "bjj",
+    "technique",
+    "sweep",
+    "butterfly-guard",
+    "hook-control",
+    "elevation"
+  ],
   "starting_position": "Butterfly Guard",
   "ending_position": "Mount",
   "success_rates": {
@@ -277,10 +284,5 @@
       "name": "Deep Half Entry",
       "relationship": "Bail-out position - available when opponent sits back heavily"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The elevator sweep represents a perfect example of mechanical advantage overcoming strength and size disadvantages in grappling. The technique's power derives from the biomechanical principle of leverage combined with bilateral symmetry - both hooks working in concert create exponentially more force than either could produce alone. The critical element that most practitioners miss is the necessity of maintaining an upright posture throughout execution. When you sit upright, your core musculature can engage properly, your hooks can generate vertical force vectors, and your upper body grips can apply rotational torque efficiently. The moment you lie back, you sacrifice all three mechanical advantages and reduce the technique to arm strength alone, which is inevitably insufficient. Additionally, understand that the elevator sweep is not primarily about explosive power but about systematic removal of opponent's defensive structures - first you remove their posting ability through head position and overhook control, then you remove their base through angled attack, and finally you remove their remaining stability through coordinated lift and pull. Each element must be present and properly sequenced for optimal results. Study the technique as a system of controls and mechanical advantages rather than as a single explosive movement.",
-    "gordon_ryan": "In competition, the elevator sweep is one of my highest percentage butterfly guard attacks because it works against both passive and aggressive opponents. When opponents sit heavy in your guard trying to shut down your movement, the elevator sweep punishes that static defense with pure mechanical lifting power. When they're trying to pass actively, the sweep capitalizes on their forward pressure and momentum. The key to making this sweep work at the highest levels is understanding that it's rarely the first move - it's almost always set up by threatening something else first. I'll threaten an arm drag or guillotine to get them thinking about their arms and head, then when they react to those threats, the elevator sweep becomes wide open. Against elite grapplers, you also need to be prepared to chain multiple sweeps together. If they defend the elevator sweep well, I'm immediately flowing to basic butterfly sweep the other direction, or transitioning to single leg X-guard if they pull back. The other crucial detail is finishing position - I always aim to land in high mount or immediately transition to back control rather than settling for basic mount. The elevator sweep generates enough momentum and positional advantage that you should capitalize fully by securing the most dominant position possible. Don't waste a successful sweep by accepting a mediocre top position.",
-    "eddie_bravo": "The elevator sweep is sick from butterfly guard, but where it really gets interesting is when you start combining it with the 10th Planet system, particularly the lockdown and electric chair positions. When someone whizzers your overhook during the elevator sweep attempt - which happens all the time - that's actually a gift because now you can roll under into the electric chair and you've got them in a serious dilemma. Their whizzer becomes their prison. I also love hitting the elevator sweep as a transition from other positions, not just static butterfly guard. When you're coming up from deep half or transitioning from rubber guard, opponents aren't expecting the elevator sweep mechanics to suddenly appear, so they're not prepared to defend it. Another innovation we use is combining the elevator sweep with the twister side control system - when you complete the sweep, instead of going to mount, you immediately transition to twister side control where their near arm is trapped and you've got the truck position available. The beauty of the elevator sweep in the 10th Planet system is that it forces opponent to choose between getting swept and giving up the back or the electric chair, and all three outcomes are dominant positions for you. That's the kind of dilemma-based grappling that wins matches. Don't just do the elevator sweep the traditional way - experiment with how it connects to your entire submission system and guard game."
-  }
+  ]
 }

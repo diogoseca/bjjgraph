@@ -8,7 +8,7 @@ description: "Master the Toe Hold leg lock in BJJ. Complete guide with safety pr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -441,7 +441,6 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 - [[Inside Heel Hook]] - Primary heel attack from inside positions, often chained with Toe Hold
 - [[Outside Heel Hook]] - Heel attack from outside positions, creates dilemmas when combined with Toe Hold
 - [[Calf Slicer]] - Compression-based leg attack that can be combined with Toe Hold in certain positions
-- [[Danaher Leg Lock System]] - Systematic approach to leg locks incorporating Toe Hold as part of complete attack system
 
 
 </section>

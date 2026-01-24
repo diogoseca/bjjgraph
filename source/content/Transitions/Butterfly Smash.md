@@ -8,7 +8,7 @@ description: "Master the Butterfly Smash pass in BJJ. Break down butterfly hooks
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -317,7 +317,7 @@ The butterfly smash is generally a safe passing technique when performed with co
 
 ## Position Integration
 
-The Butterfly Smash integrates into a comprehensive pressure passing system as a fundamental response to butterfly guard. It connects seamlessly with other pressure-based passes like the double under pass, long step pass, and knee slice, forming a coherent passing chain. When opponents defend the butterfly smash by transitioning to half guard, you can immediately switch to appropriate half guard passing sequences. The technique also serves as an entry point for back-takes when opponents turn away to defend, and for mount attacks when you achieve full crossface control. Understanding this pass builds the foundational pressure mechanics needed for more advanced passing systems like those developed by Bernardo Faria and Gordon Ryan.
+The Butterfly Smash integrates into a comprehensive pressure passing system as a fundamental response to butterfly guard. It connects seamlessly with other pressure-based passes like the double under pass, long step pass, and knee slice, forming a coherent passing chain. When opponents defend the butterfly smash by transitioning to half guard, you can immediately switch to appropriate half guard passing sequences. The technique also serves as an entry point for back-takes when opponents turn away to defend, and for mount attacks when you achieve full crossface control. Understanding this pass builds the foundational pressure mechanics needed for more advanced passing systems like those developed by Bernardo Faria and elite competitors'.
 
 </section>
 

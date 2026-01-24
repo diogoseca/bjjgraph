@@ -62,7 +62,16 @@
   "bottom": {
     "name": "Technical Mount Bottom",
     "description": "Technical Mount Bottom defensive position in BJJ. Complete guide covering armbar defense, escape mechanics, and guard recovery. High-risk position requiring immediate escape response with success rates varying by skill level.",
-    "tags": ["bjj", "position", "technical-mount", "bottom", "defensive", "mount-escape", "high-risk", "armbar-defense"],
+    "tags": [
+      "bjj",
+      "position",
+      "technical-mount",
+      "bottom",
+      "defensive",
+      "mount-escape",
+      "high-risk",
+      "armbar-defense"
+    ],
     "overview": "Technical Mount Bottom is a highly disadvantageous defensive position where the opponent has achieved a hybrid control position between standard mount and side control. The top player has one leg stepped over your body (typically near your head or shoulder) while maintaining chest-to-chest pressure, creating an asymmetrical pin that severely limits your defensive options. This position represents a critical escape scenario as the top player has multiple high-percentage submission threats (primarily armbars and triangles) while maintaining the ability to transition to full mount or take the back.\n\nFrom the bottom perspective, Technical Mount represents one of the most precarious positions in BJJ, as the stepped leg creates an immediate armbar threat while the chest pressure prevents effective hip escape. The position requires immediate defensive framing to protect the arms and create enough space to begin escape sequences. Understanding the specific vulnerabilities of this position - particularly arm exposure and limited hip mobility - is essential for survival and recovery to more favorable defensive positions like half guard or closed guard. The defensive strategy must balance protecting the threatened arm while generating explosive movement to create escape windows during the brief moments when the top player commits weight to submission attempts.",
     "state_properties": {
       "point_value": 4,
@@ -357,17 +366,21 @@
         "advanced": 0
       },
       "average_time": "15-45 seconds before escape or submission"
-    },
-    "expert_insights": {
-      "danaher": "Technical mount from bottom represents a critical junction in defensive strategy where mechanical understanding becomes survival. The position creates what I call compound mechanical disadvantage - the stepped leg simultaneously isolates your arm while preventing the hip mobility needed to escape. Your defensive response must recognize that this position exists on a spectrum of control, and your options diminish rapidly as the top player settles their weight. The key principle is that arm extension in any direction accelerates your path to submission, so all defensive frames must originate from the opposite side while the threatened arm remains in a tightly bent configuration. Escape windows open during micro-transitions when the top player commits weight to specific submissions - this weight commitment necessarily creates temporary reduction in pin pressure. Your training must develop automatic motor patterns that activate during these brief windows rather than requiring conscious decision-making under pressure, as the time available for effective response is measured in fractions of seconds.",
-      "gordon_ryan": "Being in technical mount bottom is one position I absolutely hate because the top player has too many high-percentage attacks and I have very few good options. In competition, if I end up here, my immediate thought is getting out within the first few seconds before they settle their weight and really establish control. Against high-level opponents, you're probably getting armbarred if you don't escape fast. My defense is aggressive bridging combined with my free leg creating frames against their hip - I'm forcing them to choose between maintaining position or committing to the submission, and when they commit to the submission, that's my escape window. The mistake I see constantly is people trying to be too defensive and careful, which doesn't work because time is against you in this position. You need to be offensive in your defense with big committed movements that force reactions, then capitalize on the split-second where their weight shifts. Against elite grapplers you might only get one escape attempt, so make it count with full commitment and timing.",
-      "eddie_bravo": "Technical mount bottom is like being in a modified electric chair but you're the one getting shocked - it's a gnarly position requiring creative thinking to escape. Traditional BJJ defense doesn't work well here because the position is designed to counter conventional escapes. What we teach at 10th Planet is controlled panic response - you need the urgency of panic but the precision of control. One approach from our methodology is using lockdown concepts even without full lockdown established - if you can hook your free leg over their leg before they fully settle, you change the entire dynamic. The other option is immediate granby roll to turtle, which sounds crazy giving your back, but if you time it right when they're setting up the armbar, you're actually safer in turtle with good posture than staying flat in technical mount. The key is accepting this position is high-risk no matter what, so your defense has to match that risk level with equally high-commitment movements. Playing it safe in technical mount bottom is how you get tapped - you need bold moves accepting that even a 40% success rate on risky escape beats a 90% submission rate if you stay put."
     }
   },
   "top": {
     "name": "Technical Mount Top",
     "description": "Master Technical Mount Top in BJJ. Complete offensive guide covering armbar setups, submission chains, and back takes. Success rates: Beginner 55%, Intermediate 70%, Advanced 85%.",
-    "tags": ["bjj", "position", "mount", "top", "offensive", "submission", "technical-mount", "armbar-setup"],
+    "tags": [
+      "bjj",
+      "position",
+      "mount",
+      "top",
+      "offensive",
+      "submission",
+      "technical-mount",
+      "armbar-setup"
+    ],
     "overview": "Technical Mount Top is a specialized mount variation where the top player posts one leg out (shin perpendicular to the opponent's body) while keeping the other leg hooked underneath the opponent, creating an asymmetric base that facilitates armbar attacks and back takes. Unlike traditional mount where both knees are on the mat for control, Technical Mount sacrifices some stability to create optimal angles for finishing submissions and transitions. The position is fundamentally transitional in nature—it's entered with specific attacking intent and should quickly resolve into either a submission finish, back control, or return to regular mount.\n\nThe posted leg in Technical Mount serves multiple functions: it provides base against rolling attempts, creates the proper angle for armbar entries, and positions the body for swinging over to complete the submission. The position emerged as practitioners recognized that the defensive reaction of extending an arm while being mounted creates a natural opportunity to transition into an attacking posture. In modern BJJ, Technical Mount is considered an essential skill for mount offense, particularly for smaller practitioners who may struggle to maintain traditional mount against larger, stronger opponents.\n\nThis position represents a critical junction in mount offense where the practitioner commits to finishing rather than controlling. The success of Technical Mount depends on timing, proper arm isolation, and the ability to read the opponent's defensive reactions. When executed correctly, it creates a high-percentage pathway to submission or dominant back control, making it one of the most important positions in the submission game from mount.",
     "state_properties": {
       "point_value": 4,
@@ -696,11 +709,6 @@
         "advanced": 75
       },
       "average_time": "3-8 seconds (highly transitional)"
-    },
-    "expert_insights": {
-      "danaher": "Technical Mount represents a fundamental principle in submission grappling: the willingness to sacrifice positional stability for finishing opportunity. The position works because it exploits a biomechanical reality—when an opponent extends their arm defensively from mount, they create the exact angle and leverage required for armbar mechanics. The posted leg serves a dual purpose: it acts as a stabilizing pillar against rolling attempts while simultaneously positioning your center of mass for the swing-over motion. What makes Technical Mount effective is not the position itself, but the timing of entry and commitment to finishing. You must recognize the moment of arm extension and immediately capitalize before the opponent can retract the limb. The position also creates what I call a submission fork—if they defend the armbar by turning, you take the back; if they defend the back by staying flat, you complete the armbar. This binary choice is the essence of high-level submission strategy where every defensive option leads to a corresponding offensive opportunity.",
-      "gordon_ryan": "I use Technical Mount primarily as an armbar entry rather than a position I consciously seek. When someone extends their arm defensively from mount, I immediately transition to Technical Mount and attack the armbar. The key is not telegraphing the transition—I maintain mount pressure and control right up until the moment I post my leg and swing over. In no-gi especially, Technical Mount is brief because opponents can recover their arm quickly without gi grips slowing them down. My sequence is: feel the arm extend, secure wrist and elbow control, post leg out, swing over—all in one fluid motion taking less than two seconds. If they defend the armbar by pulling their arm back, that's when I take the back, as their defensive reaction naturally exposes it. The position is about creating a dilemma: defend the armbar and expose the back, or defend the back and give up the arm. Against high-level opponents, I'm often in Technical Mount for less than two seconds before committing to the finish, and that speed is what makes it work at the highest levels of competition.",
-      "eddie_bravo": "Technical Mount fits into the 10th Planet system as a gateway to several finishing positions. We connect it to both the traditional armbar and to our truck system entries. When the opponent defends the armbar by turning, we're ready to immediately transition to the back or truck, creating submission chains they can't defend. The posted leg position is also useful for setting up the reverse triangle from mount—when they defend the armbar, we can bring our posted leg over their head for the triangle. The key innovation is recognizing that Technical Mount isn't just about the armbar—it's about creating a decision tree where every defensive option leads to a different submission or positional threat. We drill Technical Mount not as a static position but as a dynamic transition point in our submission chains. From our perspective, you should never be holding Technical Mount—you should be flowing through it on your way to a finish. That transitional mindset is what makes the position dangerous, because the opponent never knows which attack is coming next in the chain."
     }
   }
 }

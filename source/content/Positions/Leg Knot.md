@@ -8,7 +8,7 @@ description: "Master Leg Knot position in BJJ. Advanced leg entanglement creatin
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -8,7 +8,7 @@ description: "Master back defense in BJJ with systematic escape protocols. Learn
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
+<body data-content-type="systems">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">

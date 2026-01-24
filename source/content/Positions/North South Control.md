@@ -8,7 +8,7 @@ description: "Master North-South control in BJJ. Complete strategic guide coveri
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

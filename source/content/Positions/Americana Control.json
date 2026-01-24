@@ -297,11 +297,6 @@
         "description": "Probability of being submitted from Americana control"
       },
       "average_time": "5-15 seconds (extremely brief - tap or escape quickly)"
-    },
-    "expert_insights": {
-      "danaher": "The Americana is a mechanically efficient shoulder lock that creates extreme leverage disadvantage for the bottom player. Once the figure-four grip is completed and the attacker begins rotation, the submission window closes rapidly. Defense must be proactive - prevent the grip from ever being completed by keeping your elbows connected to your body and using both hands to fight the attempted control. If caught in a locked Americana, recognize that attempting to muscle out is futile and dangerous. The intelligent response is immediate tap to preserve shoulder health for future training.",
-      "gordon_ryan": "I see people get hurt from Americanas in training because they don't tap fast enough. In competition, I use the Americana constantly from mount because people panic and make mistakes. From the bottom, your only real defense is preventing the setup entirely - once I have the figure-four locked, you're done. Don't be a hero, just tap and reset. Shoulder injuries will keep you off the mat for months.",
-      "eddie_bravo": "The Americana is old school but effective, especially in gi where you can trap the sleeve. From bottom, you need to be explosive - bridge hard and hand fight like crazy. If you're caught, don't wait around hoping it gets better. In 10th Planet we emphasize the truck and twister over Americana, but the shoulder lock principles are similar - tap early, train tomorrow."
     }
   },
   "top": {
@@ -589,11 +584,6 @@
         "description": "Probability of finishing submission from Americana control"
       },
       "average_time": "10-20 seconds (finish quickly or transition)"
-    },
-    "expert_insights": {
-      "danaher": "The Americana represents one of the fundamental shoulder locks in grappling, offering excellent mechanical advantage from dominant top positions. The key to successful Americana application is complete arm isolation before attempting the figure-four grip. Many practitioners rush to the grip without properly controlling the arm position, resulting in easy defenses. Once you have isolated the arm perpendicular to the opponent's body, the figure-four should be secured with your hand gripping your own wrist, not interlacing fingers which creates a weaker structure. Apply rotational pressure progressively, always maintaining base to prevent bridge escapes. If defended, the Americana naturally chains to armbar or kimura transitions.",
-      "gordon_ryan": "The Americana is one of my favorite submissions from mount because it's so reliable when done correctly. Most people make the mistake of trying to force it when the arm isn't properly isolated. I wait for the moment when their arm extends, then I lock it up fast. The submission itself should be smooth - you're rotating their forearm toward their head, not cranking it violently. In competition, if someone defends the Americana well, I immediately switch to armbar or back to mount control. Don't waste energy fighting a losing battle.",
-      "eddie_bravo": "The Americana is fundamental but we don't emphasize it as much in 10th Planet compared to other submissions. It's solid from mount in gi, but in no-gi people can slip out easier. When I do use it, I make sure the arm is completely isolated first. The beauty of the Americana is how it opens up other attacks - if they defend by pulling their arm in, you've got an easy armbar. If they try to bridge, you can transition to gift wrap or take the back. Use it as part of a chain, not just a single attack."
     }
   }
 }

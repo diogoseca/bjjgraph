@@ -1,7 +1,14 @@
 {
   "name": "Double Under Pass",
   "description": "Master the Double Under Pass in BJJ. Control-based guard pass using bilateral underhooks. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%. Step-by-step execution guide.",
-  "tags": ["bjj", "technique", "guard-pass", "pressure-passing", "top-game", "fundamentals"],
+  "tags": [
+    "bjj",
+    "technique",
+    "guard-pass",
+    "pressure-passing",
+    "top-game",
+    "fundamentals"
+  ],
   "starting_position": "Open Guard",
   "ending_position": "Side Control",
   "success_rates": {
@@ -273,10 +280,5 @@
       "name": "De La Riva Guard",
       "relationship": "Starting position where double under can be applied"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The double under pass represents fundamental principles of positional control applied to guard passing. When we examine this technique through a biomechanical lens, we see that the bilateral underhook configuration creates a control system where the opponent's defensive tools are systematically neutralized. Their legs, which normally provide both offensive and defensive capabilities in guard, are rendered ineffective because your underhooks control them from beneath—a position where they have minimal mechanical advantage. Your chest pressure, when applied correctly, creates a weight distribution that prevents hip movement, which is the foundation of all guard retention. The beauty of this pass lies not in athleticism or speed, but in the creation of a positional hierarchy where your control points dominate their defensive structure. This is pressure passing in its purest form—you create a position where time works in your favor because the opponent's energy expenditure to defend vastly exceeds your energy expenditure to maintain pressure. From a systematic perspective, this pass should be viewed as part of a larger passing framework where headquarters, knee slice, and stack passing all interconnect based on the opponent's defensive reactions.",
-    "gordon_ryan": "The double under pass is one of the highest percentage passes I use in competition because it's fundamentally sound and extremely difficult to defend when executed with proper pressure and timing. In high-level competition, this pass works because it doesn't give opponents the dynamic opportunities they're looking for—it forces them into a grinding, pressure-based defensive scenario where their athleticism and explosive reactions are largely neutralized. I typically enter this pass from headquarters position when I feel the opponent overcommitting to defending the knee slice. The key in competition is understanding that you don't need to rush the pass—if you have the position locked down with both underhooks and heavy pressure, you can take your time clearing the legs because the opponent has very limited options to escape or counter. I've finished this pass against world-class competitors because it's a technique where superior pressure and weight distribution overcome even exceptional guard retention skills. The most important competition detail is ensuring your underhooks are deep enough that you can weather any defensive storm the opponent creates. If your hooks are shallow, high-level guys will extract their legs immediately. But with deep hooks and relentless pressure, this pass becomes nearly unstoppable against any level of competition.",
-    "eddie_bravo": "While the double under pass is definitely more of a traditional, old-school technique, there are ways to make it work in modern no-gi grappling, especially when you adapt it with some creative elements. In 10th Planet, we look at the double under position as a control platform that can lead to multiple outcomes—not just side control. If you're passing someone's guard with double unders and they turn to their side to defend, that's a perfect opportunity to transition to the truck position or take the back instead of forcing the side control pass. We also combine the double under control with lockdown passing strategies when someone catches half guard during the pass attempt. The key innovation I'd suggest is thinking about the double under pass not as a single technique but as a control position that opens up multiple pathways—you can pass to side control, you can take the back, you can even transition to leg attacks if the opponent tries to invert or create distance. Don't be so married to the traditional completion that you miss creative opportunities. That said, the fundamental pressure principles are solid, and understanding how to apply crushing chest pressure is essential for any top player. Even in the rubberguard era, you still need to know how to pass with pressure when the situation calls for it."
-  }
+  ]
 }

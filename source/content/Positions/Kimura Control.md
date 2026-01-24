@@ -8,7 +8,7 @@ description: "Master Kimura Control in BJJ. Strategic guide covering grip mechan
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -22,7 +22,7 @@ Kimura Control is a fundamental control position in Brazilian Jiu-Jitsu built ar
 
 The position exists in two primary contexts: from bottom position where it serves as a defensive yet opportunistic control that can neutralize passing attempts and create sweep opportunities, and from top position where it functions as a dominant control that can lead directly to submissions or facilitate transitions to mount, back control, or other finishing positions. The Kimura grip's versatility makes it effective across all levels of competition and training, from fundamental self-defense applications to high-level sport grappling.
 
-What distinguishes Kimura Control from other grip-based positions is its dual-purpose nature. The grip itself acts as both a primary control mechanism and an immediate submission threat, forcing opponents into defensive postures that create secondary opportunities. Modern practitioners like Craig Jones, Gordon Ryan, and members of the Danaher Death Squad have elevated Kimura Control into a systematic approach, demonstrating how a single grip structure can anchor an entire positional game plan. Understanding the biomechanics of shoulder rotation, the principles of grip retention under pressure, and the decision trees for capitalizing on defensive reactions transforms Kimura Control from a simple grip into a comprehensive strategic position that connects guard work, passing, and submission finishing into a cohesive system.
+What distinguishes Kimura Control from other grip-based positions is its dual-purpose nature. The grip itself acts as both a primary control mechanism and an immediate submission threat, forcing opponents into defensive postures that create secondary opportunities. Modern practitioners like Craig Jones, elite competitors', and members of the modern leg lock pioneers have elevated Kimura Control into a systematic approach, demonstrating how a single grip structure can anchor an entire positional game plan. Understanding the biomechanics of shoulder rotation, the principles of grip retention under pressure, and the decision trees for capitalizing on defensive reactions transforms Kimura Control from a simple grip into a comprehensive strategic position that connects guard work, passing, and submission finishing into a cohesive system.
 
 </section>
 

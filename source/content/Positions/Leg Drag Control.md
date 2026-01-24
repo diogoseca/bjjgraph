@@ -8,7 +8,7 @@ description: "Master leg drag control in BJJ. Complete analysis of this dominant
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -4,11 +4,11 @@
 
 ---
 title: "Estima Lock Top | BJJ Position Guide | BJJ Graph"
-description: "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate. Expert insights included."
+description: "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Estima Lock Top Position in BJJ. Control opponent's foot an
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Estima Lock Top",
-  "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate. Expert insights included.",
+  "description": "Master Estima Lock Top Position in BJJ. Control opponent's foot and ankle from top position. Advanced leg lock setup with 50% submission rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -436,7 +436,7 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 - **[[Saddle]]** - Related leg entanglement position accessible through backstep
 - **[[50-50 Guard]]** - Common entry position for establishing Estima Lock control
 - **[[Single Leg X-Guard]]** - Common entry position offering direct foot control opportunities
-- **[[Danaher Leg Lock System]]** - Systematic framework including this position in comprehensive leg attack sequences
+- **[[systematic approach Leg Lock System]]** - Systematic framework including this position in comprehensive leg attack sequences
 - **[[Leg Entanglement]]** - Core conceptual framework for understanding position in broader context
 - **[[Straight Ankle Lock Control]]** - Related footlock position with similar control principles
 

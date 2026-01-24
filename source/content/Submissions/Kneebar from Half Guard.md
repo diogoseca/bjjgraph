@@ -8,7 +8,7 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -402,8 +402,6 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 - [[Inside Ashi-Garami]] - Alternative leg entanglement position that shares similar kneebar finishing mechanics
 - [[50-50 Guard]] - Common transition target if opponent defends kneebar by sitting back
 - [[Truck]] - Advanced position accessible if opponent rolls during kneebar defense
-- [[Danaher Leg Lock System]] - Systematic approach to leg locks that includes half guard kneebar entries
-- [[10th Planet Half Guard Bottom System]] - System that incorporates kneebar attacks from lockdown half guard variations
 - [[Leg Entanglement]] - Foundational principle for understanding control mechanics in this submission
 
 

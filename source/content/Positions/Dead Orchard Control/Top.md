@@ -8,7 +8,7 @@ description: "Master Dead Orchard Control Top in BJJ. Advanced anaconda variatio
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -443,7 +443,7 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 - **[[Guillotine Control]]** - Alternative control - different front headlock choke configuration
 - **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
 - **[[Front Headlock to Anaconda]]** - Entry transition - technique for establishing dead orchard from front headlock
-- **[[Danaher Front Headlock System]]** - Strategic framework - systematic approach to front headlock positions including anaconda variations
+- **[[systematic approach Front Headlock System]]** - Strategic framework - systematic approach to front headlock positions including anaconda variations
 - **[[Turtle]]** - Common entry - opponent position from which dead orchard is frequently established
 - **[[Mount]]** - Transition target - high-percentage advancement when opponent defends submission
 - **[[Pressure Application]]** - Core concept - fundamental principle for maintaining dead orchard control effectively

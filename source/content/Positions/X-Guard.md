@@ -8,7 +8,7 @@ description: "Master X-Guard in BJJ with comprehensive analysis from both top an
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

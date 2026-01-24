@@ -8,7 +8,7 @@ description: "Master the mounted crucifix in BJJ. Complete guide covering arm is
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

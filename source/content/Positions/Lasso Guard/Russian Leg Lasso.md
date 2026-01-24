@@ -8,7 +8,7 @@ description: "Master Russian Leg Lasso position in BJJ. Strategic guide covering
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

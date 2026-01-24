@@ -8,7 +8,7 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -452,7 +452,7 @@ Start in established outside ashi garami, bottom player works to maintain positi
 - **[[Straight Ankle Lock]]** - Alternative submission targeting ankle joint
 - **[[Ashi Garami Escape]]** - Opponent's primary escape sequence to understand
 - **[[Single Leg X-Guard]]** - Related leg control position with different angles
-- **[[Danaher Leg Lock System]]** - Systematic approach to leg entanglement hierarchy
+- **[[systematic approach Leg Lock System]]** - Systematic approach to leg entanglement hierarchy
 
 
 </section>

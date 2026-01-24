@@ -8,7 +8,7 @@ description: "Navigate Butterfly Guard Top in BJJ. Strategic passing vs dynamic 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -478,7 +478,7 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 - **[[Combat Base]]** - Fundamental position for maintaining base and stability against butterfly guard attacks
 - **[[Headquarters Position]]** - Alternative controlling position when disengaging from butterfly guard hooks
 - **[[Standing Guard]]** - Tactical option for clearing hooks and transitioning to standing passes
-- **[[Gordon Ryan Passing System]]** - Modern systematic approach to passing guards including butterfly guard strategies
+- **[[elite competitors' Passing System]]** - Modern systematic approach to passing guards including butterfly guard strategies
 - **[[Pressure Passing Framework]]** - Core principles for applying pressure effectively while managing butterfly guard threats
 - **[[Guard Passing Concepts]]** - Fundamental concepts underlying successful passing against various guard types including butterfly
 - **[[Grip Fighting Strategies]]** - Essential skill set for preventing opponent from establishing dominant butterfly guard controls

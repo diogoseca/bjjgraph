@@ -8,7 +8,7 @@ description: "Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety gu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -419,7 +419,6 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 - [[50-50 Guard]] - Primary starting position providing leg entanglement structure
 - [[Inside Ashi-Garami]] - Alternative leg entanglement position with similar submission access
-- [[Danaher Leg Lock System]] - Systematic framework incorporating calf slicer within leg attack hierarchy
 - [[Craig Jones Leg Lock System]] - Modern competition system emphasizing 50-50 position and submission chains
 - [[Leg Entanglement]] - Core positional principle enabling all leg-based submissions
 - [[Inside Heel Hook]] - Primary follow-up submission when opponent defends calf slicer

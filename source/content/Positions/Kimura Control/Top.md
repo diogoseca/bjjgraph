@@ -8,7 +8,7 @@ description: "Master Kimura Control from top in BJJ. Dominant control position w
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -475,7 +475,7 @@ Bottom partner starts in turtle position, top partner works to establish Kimura 
 - **[[Kimura from North-South]]** - Alternative finishing angle with increased leverage
 - **[[Kimura to Back Take]]** - Primary transition when opponent defends submission
 - **[[Americana Control]]** - Similar shoulder lock control from top position with different mechanics
-- **[[Danaher Straight Jacket System]]** - Comprehensive systematic approach to Kimura-based control and attacks
+- **[[systematic approach Straight Jacket System]]** - Comprehensive systematic approach to Kimura-based control and attacks
 
 
 </section>

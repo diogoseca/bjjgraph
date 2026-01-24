@@ -8,7 +8,7 @@ description: "Attacking perspective in reversed leg entanglement. Master control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -461,7 +461,7 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 - **[[Inside Heel Hook]]** - Primary submission finish from ushiro ashi-garami with adjusted mechanics
 - **[[Back Control]]** - Common transition target when following opponent's continued inversion
 - **[[Honey Hole]]** - Alternative high-control position accessible from ushiro configuration
-- **[[Danaher Leg Lock System]]** - Comprehensive framework including specific ushiro ashi-garami attacking protocols
+- **[[systematic approach Leg Lock System]]** - Comprehensive framework including specific ushiro ashi-garami attacking protocols
 - **[[Craig Jones Leg Lock System]]** - Modern competitive approach with emphasis on attacking through transitions like ushiro
 - **[[Leg Entanglement]]** - Fundamental principle governing all ushiro ashi-garami control and submission options
 

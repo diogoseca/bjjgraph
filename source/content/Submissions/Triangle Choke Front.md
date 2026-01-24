@@ -8,7 +8,7 @@ description: "Master Triangle Choke from front positions in BJJ. Complete guide 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ The Triangle Choke from front positions is one of the most fundamental and high-
 
 The front triangle is distinguished from rear and side triangles by the attacker's position relative to the opponent - in this variation, you face your opponent while controlling them between your legs. This position offers unique advantages including superior angle control, easier transitions to armbars and omoplatas, and the ability to break posture effectively before finishing. The submission is particularly powerful because it creates a dilemma for the defender: any attempt to escape by pulling the head out typically exposes the arm to an armbar, while attempts to remove the choking leg often result in the defender posting their hand and creating an omoplata opportunity.
 
-Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu since the earliest days of the Gracie family's development of the art. Modern practitioners have refined the technique through countless competitive applications, with champions like Roger Gracie, Demian Maia, and more recently Gordon Ryan demonstrating its effectiveness at the highest levels. The front triangle remains essential curriculum from white belt through black belt, with advanced practitioners developing sophisticated set-ups, entries, and finishing details that make the submission nearly inescapable when properly applied.
+Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu since the earliest days of the Gracie family's development of the art. Modern practitioners have refined the technique through countless competitive applications, with champions like Roger Gracie, Demian Maia, and more recently elite competitors' demonstrating its effectiveness at the highest levels. The front triangle remains essential curriculum from white belt through black belt, with advanced practitioners developing sophisticated set-ups, entries, and finishing details that make the submission nearly inescapable when properly applied.
 
 **Category**: Choke
 **Type**: Blood Choke
@@ -427,7 +427,6 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 - [[Armbar from Guard]] - Closely related submission often chained with triangle from guard positions
 - [[Omoplata from Guard]] - Alternative submission when triangle is defended by posting or stacking
 - [[Ryan Hall Triangle System]] - Systematic approach to triangle attacks and entries developed by Ryan Hall
-- [[Rubber Guard to Triangle System]] - 10th Planet system for triangle entries from rubber guard positions
 
 
 </section>

@@ -8,7 +8,7 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

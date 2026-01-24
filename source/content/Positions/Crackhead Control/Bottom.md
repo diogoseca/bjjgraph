@@ -4,11 +4,11 @@
 
 ---
 title: "Crackhead Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate."
+description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Bottom",
-  "description": "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
+  "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master Crackhead Control Bottom in BJJ. Eddie Bravo's innovative t
 
 <section id="overview" class="content-section">
 
-Crackhead Control Bottom is an innovative defensive turtle position developed by Eddie Bravo as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.
+Crackhead Control Bottom is an innovative defensive turtle position developed by 10th Planet's as part of the 10th Planet Jiu-Jitsu system. This position represents a modern evolution of traditional turtle defense, characterized by extreme hip mobility, aggressive hand fighting, and constant motion to prevent back takes and maintain defensive integrity. Unlike static turtle positions, Crackhead Control emphasizes dynamic movement, making it exceptionally difficult for opponents to establish dominant grips or secure controlling positions.
 
 The position derives its name from the frenetic, unpredictable energy required to maintain it effectively - constantly shifting weight, rotating hips, and fighting grips with relentless intensity. This approach transforms turtle from a passive defensive shell into an active, offensive-minded position that creates scramble opportunities and potential for guard recovery or even reversals. The system is particularly effective in no-gi grappling where traditional gi grips are unavailable, forcing opponents to rely on body control that can be disrupted through constant movement and intelligent positioning.
 

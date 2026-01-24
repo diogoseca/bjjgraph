@@ -8,7 +8,7 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -466,7 +466,7 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 - **[[Inside Heel Hook]]** - Primary submission attack available from this position
 - **[[Defensive Strategy]]** - Conceptual framework for managing inferior positions like backside 50-50 bottom
 - **[[X-Guard]]** - Alternative leg entanglement position accessible through proper transitions
-- **[[Danaher Leg Lock System]]** - Systematic framework incorporating this position into comprehensive leg attack hierarchy
+- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating this position into comprehensive leg attack hierarchy
 
 
 </section>

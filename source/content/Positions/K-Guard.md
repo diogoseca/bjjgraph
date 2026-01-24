@@ -8,7 +8,7 @@ description: "Master K-Guard position in BJJ. Dynamic half guard variation with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

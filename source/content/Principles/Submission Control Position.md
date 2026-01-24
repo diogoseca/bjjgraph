@@ -8,7 +8,7 @@ description: "Master submission control positioning in BJJ. Learn control mainte
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -380,7 +380,6 @@ Practice flowing between related submissions with emphasis on maintaining consis
 - [[Control Maintenance]] (Principle) - General control principle that applies specifically to submission scenarios
 - [[Rear Naked Choke]] (Submission) - High-percentage submission requiring excellent back control throughout finishing sequence
 - [[Armbar Finish]] (Submission) - Common submission demonstrating importance of control during extension phase
-- [[Danaher Leg Lock System]] (System) - System emphasizing control-first approach to leg lock finishing
 
 
 </section>

@@ -8,7 +8,7 @@ description: "Master System Building in BJJ. Learn to develop interconnected tec
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -374,10 +374,7 @@ Develop separate systems for different position categories (guard, top control, 
 - [[Dilemma Creation]] (Principle) - Advanced application of System Building that designs technique relationships to trap opponents in lose-lose scenarios
 - [[Submission Chains]] (Principle) - Finishing component of offensive systems that integrates with positional control frameworks
 - [[Position Chains]] (Principle) - Structural backbone showing how positions connect within larger systematic frameworks
-- [[Danaher Leg Lock System]] (System) - Example of comprehensive system building with clear entries, positional hierarchy, and submission progressions
-- [[Gordon Ryan Passing System]] (System) - Demonstrates competition-tested system integration connecting passing, control, and submission elements
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Exemplifies bottom position system building with interconnected sweeps, submissions, and back takes
-- [[10th Planet Rubber Guard System]] (System) - Shows innovative system development around unorthodox positions with unique technique relationships
 - [[Transition Sequences]] (Principle) - Technical execution component that connects system positions through efficient movement patterns
 - [[Match Strategy]] (Principle) - Competitive application of System Building adapted to specific opponents and match contexts
 

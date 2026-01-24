@@ -8,7 +8,7 @@ description: "Master the Achilles Lock leg submission with comprehensive safety 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -408,7 +408,6 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 - [[Toe Hold]] - Alternative leg attack from similar positions, different target
 - [[Kneebar]] - Leg lock targeting different joint, often chained with Achilles Lock
 - [[Saddle]] - Advanced leg entanglement position including Achilles variations
-- [[Danaher Leg Lock System]] - Systematic approach to leg locks including Achilles variations
 - [[Craig Jones Leg Lock System]] - Modern leg lock methodology featuring Achilles Lock applications
 - [[Leg Entanglement]] - Conceptual framework for understanding Ashi positions and controls
 

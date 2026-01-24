@@ -1,7 +1,18 @@
 {
   "name": "Side Control Defensive Framework",
   "description": "Master Side Control Defensive Framework in BJJ. Learn systematic escape principles, frame management, hip escape timing, and hierarchical recovery strategies for dominant pins.",
-  "tags": ["bjj", "principle", "defense", "side-control", "escape", "framework", "pins", "bottom-position", "survival", "guard-recovery"],
+  "tags": [
+    "bjj",
+    "principle",
+    "defense",
+    "side-control",
+    "escape",
+    "framework",
+    "pins",
+    "bottom-position",
+    "survival",
+    "guard-recovery"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -354,10 +365,5 @@
       "content_type": "Principle",
       "relationship": "Complementary concept for managing opponent pressure during defense"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The systematic defensive framework for side control represents one of the most important conceptual structures in all of Jiu-Jitsu because side control is simultaneously one of the most common dominant positions and one of the most escapable when approached correctly. The key insight is understanding that escape is not a single explosive movement but rather a systematic progression through clearly defined stages: first survival and frame establishment, then space creation through coordinated hip movement, and finally position recovery through guard reconstruction. Most students fail in side control defense not because they lack individual techniques, but because they lack the systematic framework connecting these techniques into a coherent whole. They attempt random escape movements without understanding the hierarchical relationship between survival, space, and position recovery. The framework teaches us that each stage must be successfully completed before advancing to the next - attempting guard recovery without sufficient space creation is as futile as attempting submissions without positional control. Furthermore, the framework reveals the critical importance of timing: escape attempts must be synchronized with opponent weight shifts, grip changes, or transitions when control is temporarily reduced. The sophisticated practitioner develops sensitivity to these micro-opportunities, exploiting them systematically rather than relying on strength or explosive athleticism. This transforms side control defense from desperate struggle into calculated systematic progression.",
-    "gordon_ryan": "In competition, side control defense separates winners from losers more than almost any other skill because everyone will end up on bottom in side control at some point - the question is whether you can escape efficiently or whether you burn out fighting uselessly. The framework approach is critical because it gives you a systematic plan when you're under pressure and might otherwise panic. I focus heavily on two specific elements: first, never letting them settle their weight and get comfortable, and second, creating constant dilemmas where every defensive action I take sets up multiple escape options. Frame management is absolutely non-negotiable - if you don't establish frames immediately, you're going to get smashed, transitioned to mount, or submitted. But frames alone aren't enough; you need to coordinate them with hip movement to create actual space. The timing element is huge in high-level competition. Against elite opponents, you're not going to muscle your way out through strength - you have to recognize the split-second windows when they adjust their base or change grips and capitalize immediately. I also emphasize accepting strategic bad positions sometimes. If someone's about to take my back and I can give up side control instead, I'll take side control every time because I have confidence in my systematic approach to escaping it. That confidence comes from drilling the framework until it's automatic, so when you're exhausted in competition and someone gets side control, your body executes the systematic progression without your brain having to think about it.",
-    "eddie_bravo": "The traditional side control defense framework is solid but I teach students to add some unconventional elements that catch people off guard and create unique escape opportunities. The basic frame and shrimp approach works, but everyone expects it, so I like to add some misdirection and creative options that open up when traditional escapes get shut down. For example, when someone's really smashing you in side control and the standard hip escape isn't working, sometimes going to deep half guard or even inverting and attacking the truck position can completely change the game. The framework should include these alternative routes, not just the classic elbow escape progression. I also emphasize the underhook battle more than traditional approaches because getting that underhook and coming up to dogfight gives you so many offensive options - you can sweep, take the back, or hit submissions from there. Another thing I focus on is using the lockdown when they try to knee slice or if you can get them into half guard - that lockdown gives you powerful control and sets up all kinds of sweeps and electric chair submissions. The framework shouldn't be rigid; it should be fluid and give you options to adapt based on what your opponent gives you. If the standard escape route is blocked, you should have three other creative routes ready to go. That's what makes defensive frameworks truly complete - not just having the fundamental systematic approach, but also having the creative adaptations for when fundamentals get countered."
-  }
+  ]
 }

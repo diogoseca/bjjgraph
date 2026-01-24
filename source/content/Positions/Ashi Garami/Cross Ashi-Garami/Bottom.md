@@ -8,7 +8,7 @@ description: "Master defensive Cross Ashi-Garami from bottom position. Learn hee
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -432,7 +432,7 @@ From established cross ashi bottom position, partner deliberately creates openin
 - **[[Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
 - **[[Heel Hook]]** - Primary submission threat from opponent in this position
 - **[[Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
-- **[[Danaher Leg Lock System]]** - Systematic approach to understanding leg entanglement positions and defenses
+- **[[systematic approach Leg Lock System]]** - Systematic approach to understanding leg entanglement positions and defenses
 - **[[X-Guard]]** - Recovery position through X-guard to ashi transition
 - **[[Single Leg X-Guard]]** - Alternative recovery position from saddle defense
 

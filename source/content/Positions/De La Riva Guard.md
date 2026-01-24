@@ -8,7 +8,7 @@ description: "Master De La Riva Guard in BJJ. Hook-based open guard with berimbo
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

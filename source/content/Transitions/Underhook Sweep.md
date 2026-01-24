@@ -8,7 +8,7 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Complete techni
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -320,7 +320,7 @@ The underhook sweep is generally a safe technique with low injury risk when prac
 
 ## Position Integration
 
-The underhook sweep is a cornerstone technique of modern half guard bottom game, serving as the primary offensive threat that defines half guard strategy. It integrates seamlessly with the entire spectrum of half guard variations - from traditional half guard to deep half, knee shield, lockdown, and Z-guard positions. The threat of the underhook sweep forces opponents into defensive reactions that open pathways to other attacks: their wide base creates old school sweep opportunities, their whizzer creates back-take entries, their backward weight shift allows butterfly guard transitions, and their forward pressure facilitates deep half guard entries. This technique is central to the half guard systems taught by Eddie Bravo (10th Planet), Bernardo Faria, and Lucas Leite, each emphasizing the underhook as the fundamental control that enables all other half guard attacks. The underhook sweep also connects to broader positional concepts - it teaches proper angle creation, base removal, and the use of opponent momentum principles that apply throughout Brazilian Jiu-Jitsu. Understanding this sweep is essential for both playing bottom half guard offensively and defending against it when passing, making it a required technique at all skill levels from white belt fundamentals through black belt competition strategy.
+The underhook sweep is a cornerstone technique of modern half guard bottom game, serving as the primary offensive threat that defines half guard strategy. It integrates seamlessly with the entire spectrum of half guard variations - from traditional half guard to deep half, knee shield, lockdown, and Z-guard positions. The threat of the underhook sweep forces opponents into defensive reactions that open pathways to other attacks: their wide base creates old school sweep opportunities, their whizzer creates back-take entries, their backward weight shift allows butterfly guard transitions, and their forward pressure facilitates deep half guard entries. This technique is central to the half guard systems taught by 10th Planet's (10th Planet), Bernardo Faria, and Lucas Leite, each emphasizing the underhook as the fundamental control that enables all other half guard attacks. The underhook sweep also connects to broader positional concepts - it teaches proper angle creation, base removal, and the use of opponent momentum principles that apply throughout Brazilian Jiu-Jitsu. Understanding this sweep is essential for both playing bottom half guard offensively and defending against it when passing, making it a required technique at all skill levels from white belt fundamentals through black belt competition strategy.
 
 </section>
 

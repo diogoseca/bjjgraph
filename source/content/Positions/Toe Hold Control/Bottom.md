@@ -4,11 +4,11 @@
 
 ---
 title: "Toe Hold Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols. Expert insights on leg entanglement defense."
+description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Toe Hold Control Bottom position in BJJ. Defensive guide co
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Toe Hold Control Bottom",
-  "description": "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols. Expert insights on leg entanglement defense.",
+  "description": "Master Toe Hold Control Bottom position in BJJ. Defensive guide covering escape mechanics, counter-attacks, and safety protocols.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -444,7 +444,7 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 - **[[Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
 - **[[Saddle Defense]]** - Primary defensive transition technique for escaping toe hold control
 - **[[Ashi Garami Escape]]** - Key escape pathway to safer positions
-- **[[Danaher Leg Lock System]]** - Expert system providing theoretical framework for leg entanglement defense
+- **[[systematic approach Leg Lock System]]** - Expert system providing theoretical framework for leg entanglement defense
 - **[[Lachlan Giles Leg Lock Defense Framework]]** - Expert defensive system specific to leg lock escapes and prevention
 - **[[Leg Entanglement]]** - Fundamental concept underlying principles of position
 

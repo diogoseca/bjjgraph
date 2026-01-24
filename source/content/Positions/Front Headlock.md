@@ -8,7 +8,7 @@ description: "Master front headlock position in BJJ. Strategic control position 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -24,7 +24,7 @@ The front headlock's strategic value lies in its ability to control an opponent'
 
 The mechanics of front headlock control revolve around maintaining downward pressure on your opponent's head while controlling their far shoulder or arm. Your chest weight drives into their upper back, preventing them from standing up or improving their position. This creates a dilemma: if they stay static, you can work your submissions; if they try to escape, you can transition to back control or other dominant positions.
 
-Historically, the front headlock has evolved from wrestling into one of modern BJJ's most sophisticated control systems. Coaches like John Danaher have systematized the position into comprehensive attack sequences, while competitors like Gordon Ryan and Garry Tonon have demonstrated its effectiveness at the highest levels of competition. The position is equally effective in gi and no-gi contexts, though the specific grips and submission mechanics vary slightly.
+Historically, the front headlock has evolved from wrestling into one of modern BJJ's most sophisticated control systems. Coaches like systematic have systematized the position into comprehensive attack sequences, while competitors like elite competitors' and Garry Tonon have demonstrated its effectiveness at the highest levels of competition. The position is equally effective in gi and no-gi contexts, though the specific grips and submission mechanics vary slightly.
 
 The front headlock represents the intersection of positional control and submission threat. Unlike positions where you must choose between maintaining control and hunting for submissions, the front headlock allows you to do both simultaneously. Your control mechanics naturally set up your submission attacks, and your submission threats reinforce your positional control. This synergy makes it one of the highest-percentage positions in all of grappling.
 

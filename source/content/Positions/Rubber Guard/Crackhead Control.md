@@ -4,11 +4,11 @@
 
 ---
 title: "Crackhead Control | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control in BJJ - Eddie Bravo's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics."
+description: "Master Crackhead Control in BJJ - 10th Planet's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,11 +18,11 @@ description: "Master Crackhead Control in BJJ - Eddie Bravo's high-risk, high-re
 
 <section id="overview" class="content-section">
 
-Crackhead Control represents one of Eddie Bravo's most innovative and controversial positions within the 10th Planet guard system. This high-risk, high-reward configuration emerges from the Rubber Guard family when the practitioner achieves an exceptionally deep overhook on the opponent's arm while simultaneously controlling their posture with the leg. The position gets its distinctive name from the seemingly reckless commitment required - the bottom player exposes their back significantly while hunting for submissions, creating what appears to be a desperate or "cracked out" positioning strategy.
+Crackhead Control represents one of 10th Planet's most innovative and controversial positions within the 10th Planet guard system. This high-risk, high-reward configuration emerges from the Rubber Guard family when the practitioner achieves an exceptionally deep overhook on the opponent's arm while simultaneously controlling their posture with the leg. The position gets its distinctive name from the seemingly reckless commitment required - the bottom player exposes their back significantly while hunting for submissions, creating what appears to be a desperate or "cracked out" positioning strategy.
 
 The mechanical foundation of Crackhead Control centers on creating an asymmetric control structure where the bottom player's leg and deep overhook work synergistically to break the opponent's base and posture. Unlike traditional closed guard positions that prioritize safety and gradual advancement, Crackhead Control immediately puts both practitioners in a state of tactical tension. The bottom player gains exceptional access to submissions like the gogoplata, omoplata, and triangle variations, while simultaneously accepting considerable back exposure if the position fails.
 
-From a biomechanical perspective, Crackhead Control exploits the opponent's instinctive response to the deep overhook by forcing them to either commit weight forward (opening submission opportunities) or pull back (creating sweep opportunities). The position functions as a forcing mechanism - it doesn't allow the top player to remain neutral or conservative. This dilemma-creation principle, central to Eddie Bravo's systematic approach, makes Crackhead Control particularly effective against conservative players who prefer to wait for mistakes rather than engage offensively.
+From a biomechanical perspective, Crackhead Control exploits the opponent's instinctive response to the deep overhook by forcing them to either commit weight forward (opening submission opportunities) or pull back (creating sweep opportunities). The position functions as a forcing mechanism - it doesn't allow the top player to remain neutral or conservative. This dilemma-creation principle, central to the 10th Planet systematic approach, makes Crackhead Control particularly effective against conservative players who prefer to wait for mistakes rather than engage offensively.
 
 The strategic value of Crackhead Control lies in its ability to rapidly transition between multiple submission threats without requiring the bottom player to release control and restart their offense. The deep overhook acts as an anchor point that remains constant even as the legs transition between different configurations - from triangle setups to omoplata entries to gogoplata attempts. This submission chain connectivity makes Crackhead Control particularly dangerous for opponents who successfully defend one attack, as they often transition directly into another threat without ever establishing safety.
 

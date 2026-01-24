@@ -1,13 +1,20 @@
 {
   "name": "Knee on Belly Escape",
   "description": "Master knee on belly escape mechanics in BJJ. Learn frame creation, hip escape timing, base disruption, and systematic guard recovery pathways for this high-pressure position.",
-  "tags": ["bjj", "principle", "escape", "defensive", "knee-on-belly", "framing", "hip-escape", "guard-recovery"],
+  "tags": [
+    "bjj",
+    "principle",
+    "escape",
+    "defensive",
+    "knee-on-belly",
+    "framing",
+    "hip-escape",
+    "guard-recovery"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-
   "overview": "Knee on Belly Escape represents a critical defensive concept addressing one of the most pressure-intensive positions in Brazilian Jiu-Jitsu. The position creates exceptional discomfort for the bottom player while offering the top player high mobility and submission threats. Effective escape requires understanding the mechanics of frame creation, hip mobility, and timing to exploit the inherent instability of the position.\n\nThe concept integrates multiple fundamental principles: defensive framing to manage pressure points, hip escape mechanics to create distance, and base disruption to capitalize on the top player's elevated center of gravity. Unlike escaping from more stable pins like Side Control, Knee on Belly escapes leverage the position's mobility against itself. The top player's weight concentrated on one knee creates opportunities for timing-based reversals and guard recoveries.\n\nMastery of this concept develops through understanding the hierarchy of escape options—from immediate frame-based defenses to prevent submissions, through hip escapes to create space, to offensive reversals that capitalize on the opponent's commitment to maintaining pressure. This systematic approach transforms a highly disadvantageous position into a manageable defensive scenario with clear pathways to recovery.",
-
   "key_principles": [
     "Immediate frame establishment to prevent submission attacks and manage pressure distribution",
     "Hip escape mechanics to create distance between hips and opponent's base",
@@ -19,7 +26,6 @@
     "Systematic approach: frame, escape, recover guard or reverse",
     "Maintaining composure despite significant discomfort and pressure"
   ],
-
   "component_skills": [
     {
       "skill_name": "Defensive Framing Under Pressure",
@@ -46,7 +52,6 @@
       "description": "Identifying moments when aggressive escapes can transition to offensive reversals—typically when opponent overcommits to maintaining the position or attempts submissions. Developing the awareness to capitalize on these windows with techniques like ankle picks or elevator sweeps."
     }
   ],
-
   "principle_relationships": [
     {
       "principle_name": "Frame Creation",
@@ -109,7 +114,6 @@
       "description": "Advanced understanding of how frames reduce felt pressure even when opponent's weight remains constant improves tolerance and escape execution."
     }
   ],
-
   "application_contexts": [
     {
       "context": "Knee on Belly",
@@ -144,7 +148,6 @@
       "how_applied": "When attempting to recover from turtle and opponent establishes Knee on Belly, understanding escape mechanics enables immediate defensive response rather than accepting the position."
     }
   ],
-
   "decision_framework": [
     {
       "step_number": 1,
@@ -187,7 +190,6 @@
       "action": "If multiple attempts unsuccessful, focus on preventing submissions and position advancement while conserving energy for high-percentage escape opportunities"
     }
   ],
-
   "common_errors": [
     {
       "error": "Pushing directly against the knee without hip movement",
@@ -220,7 +222,6 @@
       "correction": "Recognize that discomfort is temporary and the position is inherently unstable for the top player. Focus on systematic defensive responses—frame, time the escape, recover guard—rather than the immediate discomfort"
     }
   ],
-
   "training_approaches": [
     {
       "approach_name": "Positional Sparring from Established Position",
@@ -248,7 +249,6 @@
       "focus": "Maintaining defensive composure through position transitions, adapting escape mechanics to different pin variations, and preventing opponent from stabilizing any position"
     }
   ],
-
   "developmental_metrics": [
     {
       "level": "Beginner",
@@ -296,7 +296,6 @@
       ]
     }
   ],
-
   "related_content": [
     {
       "name": "Knee on Belly",
@@ -348,13 +347,5 @@
       "content_type": "Transition",
       "relationship": "Related escape mechanics that share framing and hip movement principles applicable to Knee on Belly scenarios"
     }
-  ],
-
-  "expert_insights": {
-    "danaher": "The fundamental error in Knee on Belly escape is treating it as a strength problem when it is actually a leverage and timing problem. Students instinctively push against the knee with maximum force, exhausting themselves against the opponent's entire bodyweight concentrated through that single point. The correct approach recognizes that Knee on Belly, while tremendously uncomfortable, is inherently less stable than other pins because the opponent's center of gravity is elevated and their base is narrowed. Your escape mechanics should exploit this instability rather than fight the pressure directly. Establish frames not to push the opponent away but to create structural barriers that prevent submission attacks and maintain distance. Time your explosive hip escapes to coincide with the opponent's necessary adjustments—when they change grips, attempt submissions, or shift weight. The position cannot be maintained perfectly static; it requires constant adjustment. Your systematic approach should be: frames prevent attacks, timing creates opportunities, hip movement generates distance, and guard recovery completes the escape sequence.",
-
-    "gordon_ryan": "In competition, Knee on Belly is one of the most draining positions because it combines physical discomfort with submission threats and the constant possibility of transitioning to mount. I've spent hundreds of rounds defending this position from training partners who excel at it, and what separates successful escapes from failed attempts is commitment and timing. You can't half-heartedly shrimp and expect to create enough space—the opponent will simply follow your hips and establish mount. Your escape attempts need to be explosive, fully committed movements timed perfectly with their weight shifts. I specifically watch for when my opponent reaches for collar grips or adjusts their knee position—these moments of reduced base stability are windows for immediate, aggressive escapes. Also, don't neglect offensive opportunities. When high-level players overcommit to maintaining Knee on Belly against my escape attempts, I'll transition to ankle picks or sit-up sweeps rather than purely defensive guard recovery. The position's instability works both ways—if they commit too heavily to maintaining it, they become vulnerable to reversals. The key is maintaining composure despite extreme discomfort and recognizing these offensive windows within your defensive movements.",
-
-    "eddie_bravo": "Traditional Knee on Belly escapes work, but they're predictable and energy-intensive. I teach students to think about making the position unstable before trying to escape it. Instead of immediately shrimping away, I control their posting leg—grabbing the ankle or pushing the knee—while simultaneously framing their upper body. This creates a dilemma: they either lose base stability or lose their pressure advantage. Once they're dealing with that problem, your escapes become way more effective because they can't properly defend them while managing their own balance. Also, nobody talks about going inverted from Knee on Belly defense. If I can't escape conventionally and I'm flexible enough, I'll sometimes invert toward their legs, which completely changes the dynamics and can lead to leg entanglement positions where their Knee on Belly advantage disappears. The rubber guard mentality applies here too—use your flexibility as a weapon. If you can get your leg between their knee and your body, you've essentially created a barrier they have to deal with before re-establishing pressure. Don't just accept the traditional escape pathways; look for unconventional solutions that exploit your specific attributes against their position's inherent weaknesses."
-  }
+  ]
 }

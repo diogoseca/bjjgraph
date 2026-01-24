@@ -4,11 +4,11 @@
 
 ---
 title: "Kesa Gatame Top | BJJ Position Guide | BJJ Graph"
-description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, transitions, and expert insights."
+description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Kesa Gatame Top",
-  "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, transitions, and expert insights.",
+  "description": "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 70% retention rate. Complete guide covering control, submissions, and transitions.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

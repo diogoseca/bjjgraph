@@ -8,7 +8,7 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -158,7 +158,7 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 
 <section id="overview" class="content-section">
 
-The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The position derives its name from the 10th Planet system where Eddie Bravo systematized these entries as gateways to the Twister and other spine-locking submissions. The Truck Entry capitalizes on the turtle position's inherent vulnerability - while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities.
+The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The position derives its name from the 10th Planet system where the 10th Planet systematized these entries as gateways to the Twister and other spine-locking submissions. The Truck Entry capitalizes on the turtle position's inherent vulnerability - while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities.
 
 **Starting Position**: [[Turtle]]
 **Ending Position**: [[Truck]]

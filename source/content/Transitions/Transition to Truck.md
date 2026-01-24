@@ -8,7 +8,7 @@ description: "Master the Truck transition in BJJ. Step-by-step execution from Tu
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -339,7 +339,6 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 - [[Turtle to Back Take]] - Alternative transition - traditional back attack when Truck is defended
 - [[Lockdown Sweeps]] - Technical similarity - uses similar leg triangle mechanics
 - [[Old School Sweep]] - Related technique - uses similar leg control concepts from different position
-- [[Electric Chair]] - System connection - part of the same 10th Planet attacking sequence
 - [[Banana Split]] - Related submission - similar leg spreading mechanics and pain compliance
 
 

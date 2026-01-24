@@ -8,7 +8,7 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -20,7 +20,7 @@ description: "Master Stoner Control in BJJ. Advanced 10th Planet position with r
 
 Stoner Control is an advanced control position from the 10th Planet Jiu-Jitsu system that exists in two distinct variations: a rubber guard variant emphasizing posture breaking and submission setups, and a half guard lockdown variant focusing on sweeps and back attacks. Both variations share the core principle of using deep overhook control combined with leg entanglement to 'stone' or freeze the opponent's mobility while creating offensive opportunities.
 
-The rubber guard variation of Stoner Control represents a critical checkpoint in Eddie Bravo's guard system, where the bottom practitioner has successfully broken the opponent's posture with the rubber guard leg while securing a deep overhook on one side. This configuration severely limits defensive options while opening multiple high-percentage submission pathways including triangles, omoplatas, and gogoplatas. The position requires significant hip flexibility but rewards practitioners with extremely high finishing rates.
+The rubber guard variation of Stoner Control represents a critical checkpoint in 10th Planet's guard system, where the bottom practitioner has successfully broken the opponent's posture with the rubber guard leg while securing a deep overhook on one side. This configuration severely limits defensive options while opening multiple high-percentage submission pathways including triangles, omoplatas, and gogoplatas. The position requires significant hip flexibility but rewards practitioners with extremely high finishing rates.
 
 The lockdown half guard variation combines the mechanical control of the 10th Planet lockdown with specialized upper body control, creating powerful attacking opportunities for back takes and sweeps. Unlike traditional half guard that emphasizes space creation, this version focuses on closing distance and maintaining constant pressure, forcing opponents into predictable defensive patterns. Both variations embody the 10th Planet philosophy of creating dilemmas where every defensive choice opens a specific offensive opportunity.
 

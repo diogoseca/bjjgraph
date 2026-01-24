@@ -8,7 +8,7 @@ description: "Master lapel guard in BJJ with comprehensive strategies for contro
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

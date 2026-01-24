@@ -8,7 +8,7 @@ description: "Master Single Leg X Entry in BJJ. Step-by-step execution from seat
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -320,7 +320,7 @@ Single Leg X Entry is generally a safe technique when practiced with proper cont
 
 ## Position Integration
 
-Single Leg X Entry serves as a crucial hub position in modern guard systems, particularly for no-gi grappling and leg entanglement-based games. The position functions as a primary entry point into leg attack systems, connecting seated guard variations with more dominant positions like X-Guard, Ashi Garami, and Saddle positions. Within systematic guard retention, Single Leg X provides both offensive and defensive value—it can be used aggressively to off-balance opponents and create sweeping opportunities, or defensively as a recovery position when guard is under pressure. The entry integrates seamlessly with Butterfly Guard, De La Riva Guard, and Reverse De La Riva systems, often serving as the transitional position when those guards are being passed or stripped. For competitors, Single Leg X Entry has become essential knowledge, as it connects standing guard pull sequences to immediate ground-based attacking positions without passing through vulnerable neutral zones. The position also serves as a gateway to modern leg lock systems popularized by competitors like Garry Tonon, Craig Jones, and Gordon Ryan, making it fundamental for understanding contemporary submission grappling.
+Single Leg X Entry serves as a crucial hub position in modern guard systems, particularly for no-gi grappling and leg entanglement-based games. The position functions as a primary entry point into leg attack systems, connecting seated guard variations with more dominant positions like X-Guard, Ashi Garami, and Saddle positions. Within systematic guard retention, Single Leg X provides both offensive and defensive value—it can be used aggressively to off-balance opponents and create sweeping opportunities, or defensively as a recovery position when guard is under pressure. The entry integrates seamlessly with Butterfly Guard, De La Riva Guard, and Reverse De La Riva systems, often serving as the transitional position when those guards are being passed or stripped. For competitors, Single Leg X Entry has become essential knowledge, as it connects standing guard pull sequences to immediate ground-based attacking positions without passing through vulnerable neutral zones. The position also serves as a gateway to modern leg lock systems popularized by competitors like Garry Tonon, Craig Jones, and elite competitors', making it fundamental for understanding contemporary submission grappling.
 
 </section>
 

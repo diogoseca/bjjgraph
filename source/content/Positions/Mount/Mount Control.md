@@ -8,7 +8,7 @@ description: "Master mount control in BJJ. Complete guide covering offensive att
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

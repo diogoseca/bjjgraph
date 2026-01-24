@@ -8,7 +8,7 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -345,7 +345,6 @@ The Bullfighter Pass is a cornerstone technique in modern standing guard passing
 - [[Side Control]] - Standard ending position after successful pass
 - [[Guard Passing]] - Conceptual foundation for this technique
 - [[Pressure Passing]] - General category this technique belongs to
-- [[Gordon Ryan Passing System]] - Expert system that heavily features this pass
 - [[Modern No-Gi Passing System]] - Strategic framework where this pass is central
 - [[Inside Ashi-Garami]] - Leg entanglement option when using backstep variation
 

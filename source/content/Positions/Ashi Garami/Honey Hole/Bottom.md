@@ -8,7 +8,7 @@ description: "Master Honey Hole defense in BJJ. Escape techniques, heel hook def
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -478,7 +478,7 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 - **[[Inside Heel Hook]]** - Primary submission threat from this position - highest danger submission
 - **[[Ashi Garami Escape]]** - General escape methodology applicable to all ashi variations including inside position
 - **[[Leg Entanglement]]** - Conceptual framework - understanding leg lock systems essential for defense
-- **[[Danaher Leg Lock System]]** - Expert system that developed modern inside position dominance - study for defensive understanding
+- **[[systematic approach Leg Lock System]]** - Expert system that developed modern inside position dominance - study for defensive understanding
 - **[[Lachlan Giles Leg Lock Defense Framework]]** - Defensive system specifically addressing escapes from this position
 - **[[Kneebar Control]]** - Alternative submission position - opponent may transition here from Honey Hole
 - **[[Turtle]]** - Common escape target via inversion - provides temporary safety if executed correctly

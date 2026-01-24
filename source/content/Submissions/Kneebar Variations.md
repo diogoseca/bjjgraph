@@ -8,7 +8,7 @@ description: "Master Kneebar Variations in BJJ. Complete guide covering entries 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -415,7 +415,6 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 - [[Cross Ashi-Garami]] - Leg entanglement position enabling straight kneebar attacks
 - [[Backside 50-50]] - Position reached after opponent attempts kneebar defense roll
 - [[Ushiro Ashi-Garami]] - Back-facing ashi position with unique kneebar finishing angle
-- [[Danaher Leg Lock System]] - Systematic framework teaching kneebar as part of comprehensive leg attack system
 - [[Craig Jones Leg Lock System]] - Modern leg lock methodology emphasizing kneebar entries and finishes
 - [[Straight Footlock to Kneebar Chain]] - Submission chain using kneebar as follow-up to footlock defense
 - [[De La Riva Guard]] - Guard position allowing kneebar entries during sweep attempts

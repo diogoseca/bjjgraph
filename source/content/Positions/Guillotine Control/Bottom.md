@@ -8,7 +8,7 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -491,7 +491,7 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 - **[[Anaconda Choke]]** - Alternative submission - counter when opponent turns
 - **[[Triangle Control]]** - Chain submission - transition when arm crosses
 - **[[Marcelo Garcia Guillotine System]]** - Expert system - comprehensive guillotine methodology
-- **[[Danaher Front Headlock System]]** - Expert system - systematic front headlock approach
+- **[[systematic approach Front Headlock System]]** - Expert system - systematic front headlock approach
 
 
 </section>

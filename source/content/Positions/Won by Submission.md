@@ -8,7 +8,7 @@ description: "Terminal state in BJJ where practitioner successfully forces oppon
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -430,24 +430,6 @@ One partner plays referee while two others roll with focus on proper submission 
 
 **Average Time in Position**: Instantaneous - terminal state
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The moment of submission represents the culmination of systematic technical application and the opponent's recognition of mechanical inevitability. A properly applied submission creates a situation where the opponent faces two choices: submit or sustain injury. This dilemma is not created through strength or aggression, but through precise understanding of leverage mechanics, joint anatomy, and control hierarchies. The key to achieving submissions consistently lies not in the final finishing motion, but in the systematic progression through control positions that eliminate defensive options sequentially. Each control position should reduce the opponent's movement capacity while increasing your offensive capabilities. When you reach the submission phase, the opponent should already be operating within such constrained parameters that escape becomes biomechanically impossible. The tap itself is merely acknowledgment of this reality. In training, the ethical application of submissions requires understanding that the purpose is education, not domination - you must give your partner adequate time to recognize the submission and respond appropriately, applying pressure gradually over several seconds rather than explosively.
-
-### Gordon Ryan
-
-In competition, getting the tap is what separates winning from almost winning - there's no partial credit for having a submission almost locked in. I focus on submission finishes that have proven track records under the highest levels of competition pressure, where opponents will defend desperately and refuse to tap until the absolute last moment. The key is developing submissions with such perfect mechanics that the opponent faces catastrophic consequences for not tapping - this psychological pressure combined with technical precision forces the tap. I prioritize submissions from my strongest positions: back control for rear naked chokes, top saddle for heel hooks, and mount for armbars. Each of these positions allows me to maintain dominant control while finishing, meaning even if the first submission attempt fails, I'm not giving up position. My philosophy is position before submission, but when you have the position secured, you must be absolutely ruthless in your finishing mechanics. In training, I drill submission finishes thousands of times to ensure my mechanics are flawless when fatigue sets in during competition. The difference between good and great grapplers is finish rate from dominant positions - I aim for 80%+ finish rate from back control because my mechanics and control are systematically developed to that standard.
-
-### Eddie Bravo
-
-The submission finish is where all the creative setup work pays off - you've broken their posture, created the angles, isolated the limb or neck, and now you're cashing in on that investment. What I love about submissions is that they're the great equalizer - a smaller person with superior technique can force a larger, stronger opponent to tap through precise application of leverage and anatomy. In the 10th Planet system, we emphasize submission chains and creating situations where the opponent is constantly dealing with multiple threats, so when they defend one submission, they're walking into another. The key is making your opponent choose between bad options - defend the choke and give up the arm, defend the arm and give up the back. We also focus heavily on submissions from unconventional positions because that's where you can catch even experienced opponents by surprise - rubber guard to gogoplata, truck to twister, lockdown to electric chair. These aren't low-percentage moves when you've systematically developed the positions and understand the mechanics deeply. In training, I teach students to embrace the tap - tapping is learning, not losing. The more comfortable you are tapping to new positions and techniques, the faster you'll develop defensive awareness and eventually learn to finish those same techniques on others.
 
 </section>
 

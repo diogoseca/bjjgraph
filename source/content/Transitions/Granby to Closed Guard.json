@@ -1,7 +1,15 @@
 {
   "name": "Granby to Closed Guard",
   "description": "Learn Granby to Closed Guard recovery technique. Master Granby roll mechanics to recover guard from compromised positions. Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "technique", "escape", "guard-recovery", "granby-roll", "defensive-technique", "movement"],
+  "tags": [
+    "bjj",
+    "technique",
+    "escape",
+    "guard-recovery",
+    "granby-roll",
+    "defensive-technique",
+    "movement"
+  ],
   "starting_position": "Turtle",
   "ending_position": "Closed Guard",
   "success_rates": {
@@ -261,10 +269,5 @@
       "name": "Frame and Shrimp",
       "relationship": "Alternative escape combining framing with linear movement"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Granby roll to closed guard represents one of the most mechanically sophisticated defensive movements in Brazilian Jiu-Jitsu, combining rotational dynamics with precise timing to transform defensive vulnerability into offensive opportunity. The critical element that most practitioners miss is the relationship between the initial space creation and the rotational momentum - these are not separate actions but rather a unified explosive movement where the hip extension directly feeds into the shoulder roll. From a biomechanical perspective, the technique exploits the opponent's forward vector of pressure by redirecting it through a rotational plane that they cannot effectively follow. The compact body positioning throughout the roll is not merely defensive; it creates a moment of inertia that accelerates the rotation while simultaneously protecting vulnerable joints. The sequential leg threading is perhaps the most important technical detail - by establishing the inside leg frame first, you create a mechanical barrier that prevents the opponent from following your rotation, while the outside leg hook redirects their momentum into your closed guard structure. This technique should be viewed as a fundamental pillar of the defensive framework, as important as the bridge and shrimp, because it provides the solution to forward pressure scenarios where linear escape mechanics fail.",
-    "gordon_ryan": "In competition, the Granby to closed guard is an absolute game-changer for defensive situations, but it requires serious drilling to be reliable under pressure. I've used this escape countless times when opponents think they've got me pinned in turtle or are about to pass my guard - the explosive hip extension combined with the roll completely changes the dynamic of the exchange. What makes it so effective at the highest levels is that most competitors are conditioned to expect linear escape movements like shrimping, so the rotational attack completely disrupts their pressure and base. The key to making this work in competition is commitment - you cannot half-ass a Granby roll. If you hesitate or slow down mid-movement, you're giving your opponent your back on a platter. I drill this movement pattern almost daily, not just from static positions but from live scrambles where the timing is less predictable. When you hit it perfectly against a strong opponent who's driving hard into you, their own pressure actually helps you complete the rotation faster. From the closed guard position you establish, you're immediately in a position to attack or sweep, so this isn't just an escape - it's a transition to offense. The technique is especially valuable in no-gi where the reduced friction makes rotational movements smoother and faster.",
-    "eddie_bravo": "The Granby to closed guard is pure jiu-jitsu wizardry, man - it's like you're getting smashed, and then suddenly you're on bottom playing your game. In the 10th Planet system, we use variations of this movement constantly, especially in our lockdown and rubber guard games where we need to recover guard from bad positions. What I love about the Granby is that it's so unexpected - most people are trained to defend against straight shrimping escapes, but when you start rolling and inverting, it blows their mind and their base. We've developed some sick variations where you Granby into lockdown half guard instead of closed guard, which sets up the whole electric chair and vaporizer sequence. The technique is also fundamental for our Twister side control escapes. One thing I emphasize with my students is that the Granby roll isn't just an escape - it's a transition into attacks. You should be thinking submission or sweep as soon as you hit closed guard, not just 'phew, I escaped.' We drill Granby movements from everywhere - standing, sitting, turtle, side control - because the body mechanics translate across all these positions. The rotational power you develop from practicing Granby rolls also translates into better inverting for guard work and more explosive scrambling ability. This is essential modern jiu-jitsu movement that every player should have in their defensive arsenal."
-  }
+  ]
 }

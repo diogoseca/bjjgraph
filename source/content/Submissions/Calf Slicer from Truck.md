@@ -4,11 +4,11 @@
 
 ---
 title: "Calf Slicer from Truck | BJJ Submission | BJJ Graph"
-description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from Eddie Bravo's system. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
+description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%."
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Calf Slicer from Truck",
-  "description": "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from Eddie Bravo's system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
+  "description": "Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.",
   "url": "https://bjjgraph.org/Submissions/Calf-Slicer-from-Truck",
   "isPartOf": {
     "@type": "WebSite",
@@ -160,7 +160,7 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 <section id="overview" class="content-section">
 
-The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by Eddie Bravo's 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
+The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
 
 **Category**: Compression
 **Type**: Leg Compression Lock
@@ -418,12 +418,10 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 - [[Truck]] - Primary starting position - truck control must be mastered before attempting this submission
 - [[Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack
-- [[Twister System]] - Complete system context - calf slicer is one finish option within Eddie Bravo's truck-based attack sequence
 - [[Transition to Truck]] - Entry mechanics - learn how to achieve truck position from various starting points
 - [[Truck Entry]] - Setup sequences - multiple pathways to establish truck position for this submission
 - [[Lockdown]] - Alternative entry - can transition from electric chair position in lockdown system
 - [[Crab Ride]] - Related control position - similar back exposure with different leg configuration
-- [[10th Planet Half Guard Bottom System]] - System context - truck position emerges from lockdown/electric chair sequences
 - [[Banana Split]] - Alternative finish from truck - when calf slicer is defended, switch to hip-splitting attack
 - [[Deep Half Guard]] - Entry position - can roll into truck from deep half sweeps gone wrong
 - [[Leg Entanglement]] - Conceptual principle - understanding leg control mechanics applicable to truck position

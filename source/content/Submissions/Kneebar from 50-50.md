@@ -8,7 +8,7 @@ description: "Master Kneebar from 50-50 Guard in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -423,7 +423,6 @@ This submission represents a critical component of modern leg lock systems and i
 - [[50-50 Guard]] - Primary attacking position—this submission is executed from this specific guard
 - [[Inside Ashi-Garami]] - Transitional position that often leads to 50-50 entry and kneebar setup
 - [[Saddle]] - Alternative leg entanglement position with similar control concepts but different submission angles
-- [[Danaher Leg Lock System]] - Comprehensive system that includes this submission as part of systematic leg attack approach
 - [[Craig Jones Leg Lock System]] - Modern leg lock system emphasizing 50-50 entries and kneebar finishes
 - [[Heel Hook Dilemma]] - Strategic concept where kneebar defense opens heel hook attack and vice versa
 - [[50-50 Entry from Standing]] - Primary entry method to establish the position for this submission

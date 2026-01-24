@@ -8,7 +8,7 @@ description: "Master Triangle Control in BJJ. Dominant submission platform with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

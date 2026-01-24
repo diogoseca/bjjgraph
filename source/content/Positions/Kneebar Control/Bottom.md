@@ -8,7 +8,7 @@ description: "Master bottom kneebar control in BJJ. Complete technical guide cov
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -486,7 +486,7 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 - **[[Straight Ankle Lock Control]]** - Alternative leg submission when kneebar angle is compromised
 - **[[50-50 Guard]]** - Symmetrical leg entanglement offering mutual kneebar threats
 - **[[Single Leg X-Guard]]** - Sweeping position accessible from kneebar control structure
-- **[[Danaher Leg Lock System]]** - Systematic approach integrating kneebar control into comprehensive leg attack framework
+- **[[systematic approach Leg Lock System]]** - Systematic approach integrating kneebar control into comprehensive leg attack framework
 - **[[Ashi Garami Escape]]** - Primary defensive transition opponent uses to escape bottom kneebar control
 - **[[Leg Entanglement]]** - Core principle governing all bottom kneebar control mechanics
 

@@ -130,7 +130,6 @@
         "optimal_submission_paths",
         "related_content",
         "position_metrics",
-        "expert_insights",
         "name",
         "description",
         "tags"
@@ -589,32 +588,6 @@
           },
           "additionalProperties": false
         },
-        "expert_insights": {
-          "type": "object",
-          "required": [
-            "danaher",
-            "gordon_ryan",
-            "eddie_bravo"
-          ],
-          "properties": {
-            "danaher": {
-              "type": "string",
-              "description": "John Danaher's insight (2-3 sentences)",
-              "minLength": 200
-            },
-            "gordon_ryan": {
-              "type": "string",
-              "description": "Gordon Ryan's insight (2-3 sentences)",
-              "minLength": 200
-            },
-            "eddie_bravo": {
-              "type": "string",
-              "description": "Eddie Bravo's insight (2-3 sentences)",
-              "minLength": 200
-            }
-          },
-          "additionalProperties": false
-        },
         "name": {
           "type": "string",
           "description": "Position name with perspective (e.g., 'Mount Bottom')",
@@ -656,7 +629,6 @@
         "optimal_submission_paths",
         "related_content",
         "position_metrics",
-        "expert_insights",
         "name",
         "description",
         "tags"
@@ -1111,32 +1083,6 @@
               "type": "string",
               "description": "Typical duration in position",
               "minLength": 1
-            }
-          },
-          "additionalProperties": false
-        },
-        "expert_insights": {
-          "type": "object",
-          "required": [
-            "danaher",
-            "gordon_ryan",
-            "eddie_bravo"
-          ],
-          "properties": {
-            "danaher": {
-              "type": "string",
-              "description": "John Danaher's insight (2-3 sentences)",
-              "minLength": 200
-            },
-            "gordon_ryan": {
-              "type": "string",
-              "description": "Gordon Ryan's insight (2-3 sentences)",
-              "minLength": 200
-            },
-            "eddie_bravo": {
-              "type": "string",
-              "description": "Eddie Bravo's insight (2-3 sentences)",
-              "minLength": 200
             }
           },
           "additionalProperties": false

@@ -1,7 +1,14 @@
 {
   "name": "Lasso Guard Sweeps",
   "description": "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps from lasso control with step-by-step execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "sweep", "lasso-guard", "open-guard", "gi", "spider-variations"],
+  "tags": [
+    "bjj",
+    "sweep",
+    "lasso-guard",
+    "open-guard",
+    "gi",
+    "spider-variations"
+  ],
   "starting_position": "Lasso Guard",
   "ending_position": "Mount",
   "success_rates": {
@@ -262,10 +269,5 @@
       "name": "Triangle from Spider Guard",
       "relationship": "Submission chain from similar control"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The lasso guard sweep represents a perfect illustration of leverage mechanics in Brazilian Jiu-Jitsu. By isolating one arm and controlling the diagonal opposite leg, you create what I call a 'control diamond' that encompasses all of the opponent's primary base points. The lasso configuration forces the opponent into a mechanically disadvantaged position where their strength becomes largely irrelevant. The key technical element that most practitioners miss is the necessity of creating angular force rather than linear pulling. When you pull directly toward yourself, the opponent can resist with their core strength and posting ability. However, when you create a 45-degree angle by rotating your hips away from the lasso side, you target what I call the 'geometric weak point' between their base supports. This transforms a strength-based struggle into a technical problem they cannot solve with athleticism alone. The integration of the lasso sweep into a broader guard retention system exemplifies the systematic approach to jiu-jitsu, where each position connects to multiple others through logical transitions based on opponent reactions.",
-    "gordon_ryan": "In competition, lasso sweeps are high-percentage techniques when you understand the timing and can chain them together rapidly. I use the lasso primarily as a setup for other attacks rather than relying solely on the sweep itself. When opponents defend the sweep by establishing wide base, I'm already transitioning to triangle, omoplata, or inverting to attack their legs. The reality of modern competition is that elite opponents will defend your primary lasso sweep, so you need to have two or three backup options that flow naturally from the same grip configuration. I've had tremendous success using the lasso to create sweep-submission dilemmas where the opponent must choose between being swept or defending a submission attack. My preference is the lasso to triangle combination because it keeps constant offensive pressure regardless of their defense. Against leg lock players, be cautious with inverted lasso variations as they can expose your legs to counters. In ADCC-style no-gi competition, the lasso obviously doesn't exist, which is why my guard system emphasizes positions that work in both gi and no-gi contexts.",
-    "eddie_bravo": "The lasso guard is sick for creating chaos and off-balancing opponents, but you've got to make it dynamic and unpredictable. In the 10th Planet system, we look at the lasso as one tool in the rubber guard family where arm control is paramount. What I teach my guys is to never stay static in the lasso—you should constantly be threatening different attacks to keep opponents guessing. We combine traditional lasso sweeps with our lockdown system when we get to half guard, creating this hybrid control that's really difficult to deal with. One variation I love is what we call the 'electric lasso' where you establish lasso control and immediately start working toward the opponent's back instead of just going for the sweep. The inverted lasso is absolutely crucial in modern jiu-jitsu because it lets you attack the legs while maintaining upper body control. I've also developed sequences where you use the lasso to set up the truck position, which opens up the whole twister game. The key innovation is seeing the lasso not as a position to hold, but as a transitional control point that leads to more dangerous attacks. Don't be afraid to experiment with different lasso grips and leg configurations—some of the sickest sweeps come from unconventional lasso variations."
-  }
+  ]
 }

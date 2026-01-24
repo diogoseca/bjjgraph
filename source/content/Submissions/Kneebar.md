@@ -8,7 +8,7 @@ description: "Master the Kneebar in BJJ. Complete guide with safety protocols, s
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -418,7 +418,6 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 - [[Cross Ashi-Garami]] - Alternative leg entanglement with different angle, allows kneebar finish with modified mechanics
 - [[Kneebar Control]] - Specific control position optimized for kneebar finishing, emphasizes proper angle and hip placement
 - [[Leg Entanglement]] - Broader category of positions that includes all kneebar setups and control variations
-- [[Danaher Leg Lock System]] - Comprehensive system that places kneebar within ecosystem of leg attacks, entries, and transitions
 - [[Craig Jones Leg Lock System]] - Modern approach emphasizing kneebar as dilemma-creating tool within aggressive leg lock game
 - [[Knee Bar from Top Positions]] - Transition technique for entering kneebar from passing positions
 - [[Outside Ashi Entry]] - Entry method for establishing kneebar-ready position from standing or top control

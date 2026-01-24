@@ -1,7 +1,15 @@
 {
   "name": "Baseball Bat Choke",
   "description": "Master the Baseball Bat Choke in BJJ. Devastating collar choke from top positions with tight control. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "submission", "choke", "collar-choke", "top-position", "gi-technique", "blood-choke"],
+  "tags": [
+    "bjj",
+    "submission",
+    "choke",
+    "collar-choke",
+    "top-position",
+    "gi-technique",
+    "blood-choke"
+  ],
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
@@ -356,10 +364,5 @@
       "name": "Chin Protection",
       "relationship": "Defensive principle that is largely ineffective against baseball bat mechanics"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The baseball bat choke represents one of the most mechanically efficient collar attacks in Brazilian Jiu-Jitsu. The crossed-forearm configuration creates a lever system where your elbows act as the primary drivers of force, allowing even smaller practitioners to generate tremendous choking pressure. What makes this submission particularly valuable from a systematic perspective is that it maintains your positional dominance throughout the finishing sequence - you never sacrifice your top position to hunt the submission. The key technical element that most practitioners miss is the importance of grip depth on the far collar. Your first grip must penetrate as deeply as possible, ideally reaching to the opponent's far shoulder blade area. This deep grip is non-negotiable because it provides the foundation for all subsequent pressure. The near collar grip is secondary and simply completes the scissors configuration. From a teaching methodology standpoint, I emphasize that students must understand the distinction between pulling with their hands versus driving with their elbows - the elbows create the mechanical advantage that makes this choke devastating regardless of your grip strength. When properly executed with deep grips and correct elbow mechanics, the baseball bat choke is virtually impossible to defend once established.",
-    "gordon_ryan": "The baseball bat choke is one of my highest percentage submissions from top turtle and side control in both training and competition. What I love about this technique is that it's relatively low-risk from a positional standpoint - you're never gambling your position to get it. In competition, I look for the baseball bat especially when I've passed guard and the opponent turtles or turns to their side trying to recover. That's when their collar is most exposed and they're thinking about guard recovery, not defending collar grips. The competition mindset for baseball bat is different from training though - in training you need to be extremely careful with the application speed because this choke works fast once the grips are set. I've seen too many training injuries from people spiking this choke. But in competition, once I have both grips deep, I commit fully and finish quickly because there's no real defense if your grips are correct. The opponent's only option is to tap. One competition-specific detail: if your opponent is wearing a thick gi, you need to work your grips even deeper than normal because the extra fabric creates more space. I'll spend 10-15 seconds working my far grip as deep as possible before even attempting the near grip, and that patience pays off with a quick finish once both grips are established.",
-    "eddie_bravo": "The baseball bat choke is old school technique that still works like crazy, especially in the gi. What's interesting from a 10th Planet perspective is how the body mechanics of this choke can actually inform your no-gi game even though you obviously can't use collar grips. The principle of crossing your arms and creating that scissoring pressure translates to setups like the Hindulotine and other arm-triangle variations where you're creating similar compression patterns without the gi. But in gi training, the baseball bat is straight up money from turtle - it's probably the highest percentage finish I teach from the top turtle position because the angle is perfect and they can't really see it coming when they're focused on not getting their back taken. One thing I emphasize with this choke is the importance of that chest pressure and hip position - a lot of guys just focus on the collar grips and forget that your body weight is what prevents the escape. You need to make them carry your weight while you're choking them, that's what makes it unstoppable. Safety-wise, this is one of those techniques where you really need to chill in training because it comes on fast when done right. In our gym culture, we're very serious about tap-and-release with any blood choke. The second you feel that tap, you let go completely - no ego, no holding it an extra second. Training partners are precious, and this choke can put someone out quick if you're not careful."
-  }
+  ]
 }

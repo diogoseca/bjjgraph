@@ -8,7 +8,7 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,13 +18,13 @@ description: "Master twister side control in BJJ. Complete strategic guide cover
 
 <section id="overview" class="content-section">
 
-Twister Side Control represents a unique positional variant within Eddie Bravo's 10th Planet system, distinguished by its emphasis on lateral spinal torque and submission-oriented control. Unlike traditional side control positions that prioritize chest-to-chest pressure and immobilization, Twister Side Control leverages leg entanglement and rotational mechanics to create devastating submission threats.
+Twister Side Control represents a unique positional variant within the 10th Planet system, distinguished by its emphasis on lateral spinal torque and submission-oriented control. Unlike traditional side control positions that prioritize chest-to-chest pressure and immobilization, Twister Side Control leverages leg entanglement and rotational mechanics to create devastating submission threats.
 
 The position derives its name and strategic foundation from the twister submission itself, though it functions as a control position with multiple finishing options. From the bottom perspective, the practitioner faces immediate spinal pressure and must navigate between defending the twister, preventing back exposure, and managing the constant threat of transitional submissions. The top player maintains control through a combination of leg hooks, shoulder pressure, and strategic weight distribution that limits the bottom player's defensive options.
 
 What makes Twister Side Control strategically distinct is its emphasis on offensive finishing over positional consolidation. While traditional side control focuses on maintaining dominant position and gradually advancing to mount or back control, Twister Side Control accepts reduced positional stability in exchange for immediate submission proximity. This trade-off makes it particularly effective in no-gi competition where grips are limited and positional advancement can be challenging.
 
-The position emerged from Eddie Bravo's systematic approach to creating submission-oriented control positions that bypass traditional positional hierarchies. By incorporating elements from wrestling's twister and adding jiu-jitsu refinements, Bravo developed a control framework that generates multiple submission threats while maintaining sufficient control to prevent escapes. The leg entanglement characteristic of Twister Side Control serves dual purposes: it restricts the bottom player's mobility while creating the foundational structure for spinal attacks.
+The position emerged from the 10th Planet systematic approach to creating submission-oriented control positions that bypass traditional positional hierarchies. By incorporating elements from wrestling's twister and adding jiu-jitsu refinements, 10th Planet developed a control framework that generates multiple submission threats while maintaining sufficient control to prevent escapes. The leg entanglement characteristic of Twister Side Control serves dual purposes: it restricts the bottom player's mobility while creating the foundational structure for spinal attacks.
 
 Understanding Twister Side Control requires recognizing its place within the broader truck position system. While the truck represents the primary entry point for twister attacks, Twister Side Control functions as a lateral variant that can be reached through various pathways including failed back takes, defensive responses to leg entanglements, and direct entries from top positions. The position shares mechanical principles with other 10th Planet innovations like the lockdown and rubber guard, emphasizing control through unconventional positioning rather than traditional pressure.
 

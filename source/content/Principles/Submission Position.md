@@ -8,7 +8,7 @@ description: "Master Submission Position principles in BJJ. Learn control hierar
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -387,7 +387,6 @@ Partner provides increasing resistance levels across multiple rounds from same s
 - [[Rear Naked Choke]] (Submission) - Highest-percentage submission exemplifying proper position-before-submission principles
 - [[Armbar from Mount]] (Submission) - Classic submission demonstrating positional control requirements before joint manipulation
 - [[Kimura]] (Submission) - Versatile submission available from multiple positions requiring specific control configuration
-- [[Danaher Leg Lock System]] (System) - Systematic approach to leg-based submission positions emphasizing control hierarchy and mechanical advantage
 
 
 </section>

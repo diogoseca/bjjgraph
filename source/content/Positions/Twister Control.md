@@ -8,7 +8,7 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,7 +18,7 @@ description: "Master Twister Control in BJJ. Complete guide covering entries, sp
 
 <section id="overview" class="content-section">
 
-Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from Eddie Bravo's 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.
+Twister Control represents one of Brazilian Jiu-Jitsu's most distinctive control positions, originating from the 10th Planet system and gaining prominence through high-level no-gi competition. This position creates a unique biomechanical dilemma by combining back exposure with spinal rotation, forcing the opponent into an extremely uncomfortable configuration that severely limits their defensive options.
 
 The position exists at the intersection of back control and spinal manipulation, creating what can be described as rotational constraint under load. Unlike traditional back control where the focus is on attacking the neck and arms, Twister Control emphasizes spinal torque and lower body immobilization. The top player controls the opponent's upper body with what resembles a modified truck position while simultaneously controlling one leg and creating rotation through the spine.
 

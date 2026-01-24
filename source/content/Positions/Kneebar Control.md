@@ -8,7 +8,7 @@ description: "Master kneebar control position in BJJ. Complete guide covering en
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -28,7 +28,7 @@ From a strategic perspective, kneebar control serves multiple functions within a
 
 The risk profile of kneebar control varies significantly based on the specific variation and the opponent's defensive knowledge. Top position kneebars offer greater stability and escape options for the attacker, while bottom position variants like ashi garami kneebars create mutual risk where both practitioners are vulnerable to counters. Understanding when to commit to the finish versus when to use the position as a gateway to other attacks represents a crucial decision point in modern leg lock systems.
 
-Historically, the kneebar has existed in grappling arts for centuries, appearing in judo, sambo, and catch wrestling before being systematically integrated into Brazilian Jiu-Jitsu. The position gained prominence in no-gi competition through the innovations of practitioners like Dean Lister, Eddie Bravo, and later the Danaher Death Squad, who developed comprehensive systems linking kneebar control to heel hooks, toe holds, and positional advancement. The modern understanding emphasizes the kneebar not as an isolated technique but as one component of an interconnected leg attack ecosystem where each position flows naturally to others based on defensive reactions.
+Historically, the kneebar has existed in grappling arts for centuries, appearing in judo, sambo, and catch wrestling before being systematically integrated into Brazilian Jiu-Jitsu. The position gained prominence in no-gi competition through the innovations of practitioners like Dean Lister, 10th Planet's, and later the modern leg lock pioneers, who developed comprehensive systems linking kneebar control to heel hooks, toe holds, and positional advancement. The modern understanding emphasizes the kneebar not as an isolated technique but as one component of an interconnected leg attack ecosystem where each position flows naturally to others based on defensive reactions.
 
 </section>
 

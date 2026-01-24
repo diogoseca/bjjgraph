@@ -8,7 +8,7 @@ description: "Master overhook control (whizzer) in BJJ. Complete guide covering 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

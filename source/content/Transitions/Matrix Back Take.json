@@ -1,7 +1,14 @@
 {
   "name": "Matrix Back Take",
   "description": "Master the Matrix Back Take from turtle. Step-by-step execution with control maintenance and weight distribution. Success rates: Beginner 45%, Intermediate 60%, Advanced 75%.",
-  "tags": ["bjj", "technique", "back-take", "turtle", "transition", "advanced"],
+  "tags": [
+    "bjj",
+    "technique",
+    "back-take",
+    "turtle",
+    "transition",
+    "advanced"
+  ],
   "starting_position": "Turtle",
   "ending_position": "Back Control",
   "success_rates": {
@@ -249,10 +256,5 @@
       "name": "Crucifix",
       "relationship": "Follow-up transition if opponent defends the neck from back control"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The matrix back take exemplifies the principle that superior technique is about creating pathways of least resistance rather than overwhelming force. When analyzing this technique from a biomechanical perspective, we observe that the defender in turtle position has structural advantages that make direct back takes challenging against skilled opponents. Their base is typically strong, their defensive frames are well-positioned, and their ability to turn into attacks is preserved. The matrix entry solves this problem through a sophisticated application of angular momentum and weight distribution. By threading underneath the opponent's center of gravity while maintaining critical connection points, you create a situation where their defensive structure becomes irrelevant. The defender cannot effectively defend against an attack coming from an angle their body position is not designed to address. The key technical element that practitioners often miss is the absolute necessity of maintaining shoulder control throughout the transition. Without this connection point, you are simply moving your body around an opponent who maintains the ability to track and counter your movement. With proper shoulder control, you create a fixed point around which your movement occurs, making the transition predictable and controllable. This is fundamental physics applied to grappling: establish a stable reference point, then move relative to that point.",
-    "gordon_ryan": "In competition, the matrix back take is one of my highest percentage techniques from turtle precisely because most elite grapplers have developed such strong turtle defense. When everyone is defending the standard back take entries effectively, you need something unexpected in your arsenal. What makes this technique competition-viable is how quickly it can be executed once you recognize the opportunity. The entire sequence from initial entry to hooks established can happen in under three seconds if you've drilled it properly. That speed is crucial because in matches, your opponent will only give you small windows of opportunity. The key to making this work against high-level opponents is disguising your intention. I'll typically threaten a standard back take or even a crucifix entry first to get my opponent focused on defending those attacks. Once they're committed to that defensive mindset, the matrix entry becomes available because they're not expecting the angular change. One thing I emphasize is never attempting this technique if you haven't secured proper control of the far hip. That hip control is what allows you to guide the opponent's body orientation during your entry, and without it, you're just hoping they don't move. In competition, hope is not a strategy. The other critical detail is maintaining offensive pressure even as you transition. The moment you pause or hesitate during the hip slide, experienced opponents will capitalize and escape or counter.",
-    "eddie_bravo": "The matrix back take is pure flow, man. It's about becoming water and moving around obstacles rather than trying to smash through them. This is exactly the kind of technique that represents the evolution of no-gi grappling, where you can't rely on gi grips to force positions, so you have to develop this smooth, almost dance-like movement quality. What I love about this entry is that it completely violates the opponent's expectations of how back takes should work. They're expecting you to come over the top or maybe go around the side, but suddenly you're sliding underneath them like you're doing the limbo. That moment of confusion is everything. In 10th Planet, we've integrated the matrix entry into our turtle top system, and it chains beautifully with our truck game. If the opponent tries to counter by rolling, they're often giving you truck position, which is exactly where we want to be anyway. The variation I teach involves looking for this entry specifically when the opponent is really tight and defensive in turtle, especially if they're a no-gi specialist who understands traditional back takes. The matrix gives you an option when conventional entries aren't there. One thing I stress is not forcing the technique if the angle isn't right. This is a position of opportunity, not a position of force. You need to feel when the opponent's weight is distributed in a way that allows the slide, and if you try to make it happen when it's not there, you'll just end up in a bad scramble."
-  }
+  ]
 }

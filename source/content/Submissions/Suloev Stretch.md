@@ -8,7 +8,7 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -404,7 +404,6 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Additional Related Content
 
-- [[Danaher Leg Lock System]] - Parent system - The Suloev Stretch fits within modern leg lock systems as a compression-based finish from top positions
 - [[Craig Jones Leg Lock System]] - Related system - Craig Jones teaches the Suloev Stretch as part of his pressure passing and leg attack integration
 - [[Calf Slicer from 50-50]] - Similar mechanism - Both use calf-to-hamstring compression but from different positional contexts
 - [[Half Guard Pass]] - Primary entry - The most common context for setting up the Suloev Stretch is during half guard passing sequences

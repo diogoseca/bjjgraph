@@ -265,10 +265,6 @@
       "relationship": "Combination technique - can transition between this and back take based on opponent's defense"
     },
     {
-      "name": "Lockdown",
-      "relationship": "Position variation - 10th Planet approach to same back take concept"
-    },
-    {
       "name": "Deep Half Guard",
       "relationship": "Alternative entry - different half guard variation that can lead to same back take"
     },
@@ -284,10 +280,5 @@
       "name": "Rear Naked Choke",
       "relationship": "Primary submission - most common finishing technique after successful back take"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The half guard to back take transition represents one of the highest-percentage positional advancements in Brazilian Jiu-Jitsu when executed with proper underhook control and systematic angle creation. The key to this technique lies not in explosive athleticism but in understanding the biomechanical principles that make it work. The underhook creates a lever against the opponent's far shoulder, and when combined with the perpendicular angle, it creates a mechanical disadvantage for the top player that is nearly impossible to defend if executed correctly. The systematic approach emphasizes maintaining multiple connection points throughout the transition rather than relying on single-point explosive movements that sacrifice control for speed. Students must understand that the underhook is not merely a grip but a structural control that dictates the opponent's available movements. When you establish the perpendicular angle, you're not just moving your body - you're creating a geometric relationship that makes their defensive options increasingly limited. The transition should feel inevitable rather than forced, with each step flowing naturally from the previous one based on sound mechanical principles.",
-    "gordon_ryan": "In competition, the half guard back take is absolutely essential for any serious half guard player, and I've used it countless times to turn defensive bottom positions into dominant attacks. The key difference between drilling this in the gym and executing it in competition is understanding the timing and explosive nature required at the highest levels. I focus on creating the angle first through patient underhook work, then executing the back take explosively once my position is established and I feel opponent's weight commit forward. You cannot hesitate in competition - when you feel that perpendicular angle lock in and their hip is blocked, you must attack the back immediately and decisively. One critical detail many people miss is that you need to be comfortable with the technique failing and transitioning to other attacks like the old school sweep or deep half. Against high-level opponents, they will defend the back take, so you need to chain it with other attacks seamlessly. I often use the threat of the back take to set up sweeps, and use sweep attempts to set up back takes. The key is making opponent choose between bad options, then capitalizing on whichever defense they choose.",
-    "eddie_bravo": "From the 10th Planet system perspective, the half guard back take is fundamental, but we approach it differently than traditional gi-based methods. We use the lockdown position to control their base and break down their posture, making the back take much higher percentage than standard half guard approaches. The electric chair threat is key here - when you torque their knee with the lockdown and they feel that pressure building, they naturally want to turn away from the pain and post their far arm. That's exactly when you release the lockdown and climb to their back. It's beautiful because you're using their defensive reaction to a submission threat to create the back take opportunity. We also emphasize the whip-up motion from lockdown, which elevates them and creates the angle automatically rather than having to manually create it with just the underhook. The rubber guard concepts apply here too - you want to break their posture completely before attempting the back take, which is why we focus so much on the lockdown and leg control rather than just upper body. When you combine the leg control with the underhook, you're controlling both ends of their body, making the back take almost unstoppable if you time it right with their defensive movements."
-  }
+  ]
 }

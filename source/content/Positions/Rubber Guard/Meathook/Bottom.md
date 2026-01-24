@@ -8,7 +8,7 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -170,7 +170,7 @@ Energy management in Meathook requires careful attention. The extreme leg config
 
 Flexibility prerequisites are non-negotiable. Practitioners without adequate hip mobility and hamstring flexibility risk injury when attempting Meathook. The position requires the ability to bring the shin over the opponent's shoulder while maintaining closed guard hip positioning—a range of motion that must be developed gradually through dedicated stretching. Forcing the position without proper flexibility leads to hip strain, hamstring tears, and compromised control that negates the position's advantages.
 
-Tactically, Meathook Bottom functions as a central hub in the 10th Planet submission chain system. Eddie Bravo's methodology emphasizes flowing between positions rather than forcing single techniques, and Meathook exemplifies this approach. The position connects seamlessly to Mission Control, Carni, Invisible Collar, and multiple finishing positions, creating a web of options that overwhelms defensive structure through sheer variety and interconnection.
+Tactically, Meathook Bottom functions as a central hub in the 10th Planet submission chain system. 10th Planet's methodology emphasizes flowing between positions rather than forcing single techniques, and Meathook exemplifies this approach. The position connects seamlessly to Mission Control, Carni, Invisible Collar, and multiple finishing positions, creating a web of options that overwhelms defensive structure through sheer variety and interconnection.
 
 Competition application requires understanding rule sets and opponent body types. In IBJJF competition where certain leg locks are restricted, Meathook's choke and joint lock options remain fully legal and highly effective. Against larger, stronger opponents, the position's mechanical leverage negates size advantages by removing their ability to use strength effectively. Against flexible opponents, transitions may occur more rapidly as they attempt athletic escapes that open attack opportunities.
 

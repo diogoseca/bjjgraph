@@ -8,7 +8,7 @@ description: "Master back control in BJJ with comprehensive guide covering hooks
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

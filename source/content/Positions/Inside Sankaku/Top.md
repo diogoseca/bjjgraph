@@ -8,7 +8,7 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -501,7 +501,7 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 - **[[Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
 - **[[Cross Ashi-Garami]]** - Related position - similar leg configuration with different attacking opportunities
 - **[[Back Control]]** - Transition target - available when opponent gives back defending leg attack
-- **[[Danaher Leg Lock System]]** - Expert system - systematic approach to leg entanglements including Inside Sankaku
+- **[[systematic approach Leg Lock System]]** - Expert system - systematic approach to leg entanglements including Inside Sankaku
 - **[[Craig Jones Leg Lock System]]** - Expert system - modern competition-tested leg lock methodology
 - **[[Lachlan Giles Leg Lock Defense Framework]]** - Defensive system - understanding opponent's defense improves offensive approach
 - **[[Inside Sankaku]]** - Opposite perspective - understanding defensive mechanics aids offensive strategy

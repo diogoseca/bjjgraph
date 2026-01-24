@@ -8,7 +8,7 @@ description: "Establish New York control from bottom position with overhook and 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@ description: "Establish New York control from bottom position with overhook and 
 
 <section id="overview" class="content-section">
 
-New York Bottom represents one of the most versatile control positions in modern Brazilian Jiu-Jitsu, particularly within Eddie Bravo's revolutionary Rubber Guard system. The position emerged from Bravo's study of traditional closed guard combined with insights from yoga and flexibility training, creating a guard system that thrives in no-gi environments where traditional gi-based controls are unavailable.
+New York Bottom represents one of the most versatile control positions in modern Brazilian Jiu-Jitsu, particularly within 10th Planet's revolutionary Rubber Guard system. The position emerged from 10th Planet study of traditional closed guard combined with insights from yoga and flexibility training, creating a guard system that thrives in no-gi environments where traditional gi-based controls are unavailable.
 
 The fundamental structure of New York Bottom involves the practitioner lying on their back with one leg wrapped high around the opponent's back (typically the right leg around the left side of the opponent's body), with the same-side hand (right hand) gripping their own shin while the opposite arm (left arm) secures a deep overhook on the opponent's arm. This creates a triangulated control system where the shin across the back prevents posture, the overhook eliminates one base, and the grip on the shin maintains structural integrity.
 

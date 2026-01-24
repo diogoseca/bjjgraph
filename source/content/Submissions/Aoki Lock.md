@@ -8,7 +8,7 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -419,7 +419,6 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 - [[Honey Hole]] - Alternative leg entanglement for similar attacks
 - [[Kneebar]] - Common transition if Aoki Lock is defended
 - [[Inside Heel Hook]] - Creates dilemma with Aoki Lock from same position
-- [[Danaher Leg Lock System]] - Systematic approach integrating Aoki Lock
 - [[Craig Jones Leg Lock System]] - Modern leg lock system utilizing compression attacks
 - [[50-50 Guard]] - Alternative position for Aoki Lock application
 - [[Leg Entanglement]] - Fundamental principle underlying technique

@@ -245,7 +245,6 @@ SELECT (git age, JSON-first)
 - Safety sections for submissions
 - Entity consistency (canonical names with bold emphasis)
 
-
 ## 7. CONTENT STANDARDS (Quick Reference)
 
 ### Success Rates

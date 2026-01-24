@@ -4,7 +4,6 @@
   "description": "Master Leg Hook position in BJJ. Transitional half guard control using leg entanglement for sweeps, guard recovery, and leg attacks. Complete guide covering both bottom and top perspectives.",
   "variant_uniqueness": "Dynamic leg control for mobile transitions",
   "overview": "The Leg Hook Position is a transitional control position characterized by active leg hooking mechanics that bridge various half guard variations and advanced leg entanglement systems. This position serves as a critical decision point in modern guard play, offering both offensive and defensive capabilities depending on perspective and practitioner skill level.\n\nHistorically emerging from traditional half guard evolution, the Leg Hook Position gained prominence as no-gi grappling developed and leg entanglement systems became more sophisticated. Unlike static half guard positions where the legs wrap passively around the opponent's trapped leg, the leg hook emphasizes dynamic movement and active leg control to create dilemmas and off-balancing opportunities.\n\nThe position offers unique advantages in creating off-balancing opportunities, controlling distance, and setting up both sweeps and leg attacks from bottom, while providing powerful passing mechanics and submission threats from top. The leg hook functions as a mechanical lever that disrupts base, controls hip mobility, and creates branching pathways to various positions based on opponent reactions.\n\nThis position requires precise understanding of weight distribution, hip positioning, and leg mechanics to maximize effectiveness while minimizing exposure to passes or reversals. When executed properly, the Leg Hook Position provides excellent retention capabilities from bottom while maintaining offensive threat, and dominant passing progression from top with multiple finishing options.",
-  
   "key_principles": [
     "Maintain dynamic leg hook tension with constant adjustments based on opponent movement and weight distribution",
     "Coordinate upper and lower body control to create unified control system preventing opponent's optimal responses",
@@ -12,7 +11,6 @@
     "Recognize position as transitional decision point with multiple pathways rather than static destination",
     "Time transitions based on opponent's weight commitment and defensive reactions for maximum success rates"
   ],
-  
   "related_positions": [
     {
       "name": "Half Guard",
@@ -47,14 +45,19 @@
       "relationship": "Common passing target from leg hook top position"
     }
   ],
-  
   "bottom": {
     "name": "Leg Hook Bottom",
     "description": "Master Leg Hook Bottom in BJJ. Transitional half guard control with leg entanglement for sweeps, guard recovery, and back attacks. Learn dynamic retention with 55% average success rate.",
-    "tags": ["bjj", "position", "half-guard", "bottom", "leg-hook", "defensive", "transitional"],
-    
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "bottom",
+      "leg-hook",
+      "defensive",
+      "transitional"
+    ],
     "overview": "Leg Hook Bottom Position represents a critical transitional state within the half guard family, characterized by the bottom player's ability to control one of the top player's legs using their own leg hooks while maintaining a defensive frame. This position often emerges when the bottom practitioner is working to recover full guard from side control or prevent the completion of a guard pass. The leg hook provides crucial control over the top player's base and mobility, creating opportunities for sweeps, back takes, and guard recovery while simultaneously defending against passes. Unlike traditional half guard where the legs are wrapped around the opponent's trapped leg, the leg hook position features more dynamic leg entanglement that can quickly transition to deep half guard, X-guard variations, or single leg X positions. The position requires constant movement and adjustment, as the top player will actively work to free their trapped leg and establish dominant pressure. Success in this position depends on maintaining active frames with the arms, using the leg hook to off-balance the opponent, and timing transitions to more advantageous positions. The leg hook bottom position is particularly valuable in no-gi grappling where traditional gi grips are unavailable, making the leg-based control even more essential for defensive success.",
-    
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive with offensive options",
@@ -62,7 +65,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
     },
-    
     "state_invariants": [
       "Bottom player on their side or back with one leg hooked around opponent's leg, creating entanglement that restricts top player's mobility and base while maintaining connection through constant pressure",
       "Top player applying forward pressure attempting to flatten bottom player or free their trapped leg, typically with weight distributed toward bottom player's torso and attempting to establish dominant shoulder control",
@@ -70,7 +72,6 @@
       "Bottom player's free leg positioned to create additional barriers, push opponent's hips, or establish additional hooks for guard recovery or sweep execution",
       "Top player's trapped leg bent and controlled by bottom player's leg hook, limiting their ability to step over or extract the leg for passing progression"
     ],
-    
     "prerequisites": [
       "One of opponent's legs controlled with your leg hook establishing initial control point",
       "Defensive frame established with at least one arm preventing immediate flattening",
@@ -78,7 +79,6 @@
       "Bottom player maintaining hip mobility and not completely flattened to mat",
       "Space management preventing opponent from achieving full crossface control"
     ],
-    
     "key_principles": [
       "Maintain constant leg hook tension to control opponent's base and prevent leg extraction",
       "Keep hips mobile and active, never allowing opponent to flatten you completely to the mat",
@@ -88,7 +88,6 @@
       "Protect against crossface control which would severely limit mobility and escape options",
       "Combine leg hook control with upper body frames to create off-balancing opportunities"
     ],
-    
     "offensive_transitions": [
       {
         "technique": "Deep Half Entry",
@@ -163,7 +162,6 @@
         }
       }
     ],
-    
     "defensive_responses": [
       {
         "technique": "Knee Slice Pass",
@@ -191,7 +189,6 @@
         "success_rate": 45
       }
     ],
-    
     "counter_transitions": [
       {
         "technique": "Frame and Shrimp",
@@ -214,7 +211,6 @@
         "trigger": "Opponent commits weight forward without proper base"
       }
     ],
-    
     "decision_tree": [
       {
         "condition": "If opponent drives forward with heavy pressure attempting to flatten you",
@@ -277,7 +273,6 @@
         ]
       }
     ],
-    
     "common_errors": [
       {
         "error": "Allowing opponent to establish dominant crossface control without fighting hands",
@@ -310,7 +305,6 @@
         "correction": "Every grip and frame should serve specific purpose: preventing crossface, creating distance, or setting up transitions"
       }
     ],
-    
     "training_drills": [
       {
         "name": "Leg Hook Retention Drill",
@@ -333,7 +327,6 @@
         "duration": "10 repetitions each side at each resistance level"
       }
     ],
-    
     "optimal_submission_paths": [
       {
         "name": "Leg Lock Path via Deep Half",
@@ -352,7 +345,6 @@
         "path": "Leg Hook Bottom → Underhook Sweep from Half → Side Control → Kimura from Half Guard"
       }
     ],
-    
     "related_content": [
       {
         "name": "Half Guard",
@@ -395,7 +387,6 @@
         "relationship": "Modern systematic approach to half guard bottom positions"
       }
     ],
-    
     "position_metrics": {
       "retention_rate": {
         "beginner": 45,
@@ -413,24 +404,21 @@
         "advanced": 40
       },
       "average_time": "30-90 seconds before transition or pass"
-    },
-    
-    "expert_insights": {
-      "danaher": "The leg hook bottom position represents a fascinating study in biomechanical leverage and base disruption. What makes this position particularly valuable from a systematic perspective is that the leg hook creates a mechanical disadvantage for the top player that is difficult to overcome without proper technique. The bottom player's leg hook acts as a powerful fulcrum point that can be used to off-balance the opponent in multiple directions - forward into deep half guard, backward to create distance for guard recovery, or laterally for sweep opportunities. The critical element that most practitioners miss is the relationship between the leg hook tension and the defensive frames created with the arms. These two control systems must work in concert - the leg hook disrupts the opponent's base while the frames prevent them from using their superior top position to flatten you and eliminate your mobility. From a training methodology perspective, you must develop the ability to maintain leg hook control while simultaneously fighting hands and establishing frames, as losing either element severely compromises the position's defensive and offensive capabilities. The transition to deep half guard is particularly high-percentage because it capitalizes on the natural defensive response of the top player driving their weight forward to prevent being swept backward.",
-      
-      "gordon_ryan": "In competition, the leg hook bottom position is one of those spots where you're walking a tightrope between recovering guard and getting passed, so your timing and decision-making have to be absolutely on point. What I've found at the highest levels is that you can't afford to be passive in this position - if you just hold the leg hook without active frames and constant pressure, good passers will systematically break you down and complete the pass. The key is using the leg hook to create immediate threats that force your opponent to react, giving you windows to transition to better positions. Against elite competition, I'm looking for the deep half entry almost immediately if they drive forward with pressure, or I'm converting to single leg X if they try to stand and break my hooks. The old school sweep can work at any level if you time it right when their weight commits forward. What separates advanced practitioners in this position is their ability to read the opponent's weight distribution and pressure instantly and select the appropriate transition without hesitation. You need to have all your options so ingrained that you can execute them explosively when the window opens, because that window is often only available for 1-2 seconds at the elite level.",
-      
-      "eddie_bravo": "The leg hook position is where a lot of my half guard system really starts to shine, man. From 10th Planet perspective, this is one of those transitional spots where you can flow into lockdown, deep half, or even set up the electric chair if you know what you're doing. What I teach my students is to never be static with that leg hook - you gotta be constantly adjusting, constantly threatening, constantly making the top guy uncomfortable. One thing that most people don't realize is how important your free leg is in this position. That free leg can push their hips, create butterfly hooks, help you get under for deep half, or even start setting up leg locks if you transition to outside positions. The beauty of no-gi grappling from leg hook position is that without gi grips, the top player really has to rely on weight and pressure, which makes them predictable. You know they're either going to try to smash you flat or try to step over and pass, and both of those reactions give you opportunities. I'm also a huge fan of using the leg hook to set up back takes - if you can get that leg hook deep and combine it with good hand fighting, you can roll under to the truck position or take the back. The key is not seeing this as a defensive position you're stuck in, but as an offensive launching pad for all kinds of crazy stuff."
     }
   },
-  
   "top": {
     "name": "Leg Hook Top",
     "description": "Master Leg Hook Top in BJJ. Control position from half guard top with hook control. Learn passing mechanics, leg control strategies, and submission threats with 65% average pass rate.",
-    "tags": ["bjj", "position", "half-guard", "top-position", "leg-hook", "passing", "control"],
-    
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top-position",
+      "leg-hook",
+      "passing",
+      "control"
+    ],
     "overview": "Leg Hook Top Position represents a transitional control state where the top practitioner has achieved significant advancement in passing half guard by controlling the bottom player's leg with a hooking motion. This position occurs when the top player has managed to get their leg underneath or around the bottom player's defending leg, creating a powerful mechanical advantage for completing the pass. The hook serves multiple purposes: it controls the bottom player's hip mobility, prevents them from recovering full guard, and provides a stable base for the top player to advance their position. This is a critical waypoint in the passing sequence, where the top player has moved beyond the initial stages of half guard engagement but has not yet fully cleared the legs to achieve side control or mount. The position requires precise weight distribution, hip control, and timing to prevent the bottom player from using the momentary instability to re-guard or create scrambles. Understanding this position is essential for both passers who need to recognize the window of opportunity it creates, and bottom players who must understand the defensive requirements to prevent advancement.",
-    
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -438,7 +426,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
-    
     "state_invariants": [
       "Top player's leg is hooked underneath or around bottom player's defending leg, creating mechanical control of the hip and limiting bottom player's ability to recover guard or create distance",
       "Top player maintains forward chest pressure on bottom player's upper body, typically with shoulder or chest pressure on the sternum or shoulder line to prevent bottom player from sitting up or creating frames",
@@ -446,7 +433,6 @@
       "Top player's weight is distributed between the hooked leg, grounded knee, and upper body pressure, creating a stable tripod base that resists bottom player's attempts to off-balance or reverse",
       "Bottom player's far leg (not hooked) may be free but lacks the positional leverage to effectively recover guard without first addressing the hook control"
     ],
-    
     "prerequisites": [
       "Top player has initiated half guard passing sequence and achieved initial control",
       "Bottom player's leg is accessible for hooking (not deeply locked in half guard or other defensive configuration)",
@@ -454,7 +440,6 @@
       "Bottom player's upper body is controlled enough to prevent immediate re-guarding attempts",
       "Top player has maintained base and balance throughout the transitional movement"
     ],
-    
     "key_principles": [
       "Maintain constant forward pressure with chest and shoulders to prevent bottom player from creating space or establishing defensive frames",
       "Control bottom player's far hip with hand or forearm to prevent hip escape and limit their ability to turn into you or away to recover guard",
@@ -464,7 +449,6 @@
       "Monitor bottom player's far leg and prevent them from using it to create butterfly hooks, push off your hips, or establish other re-guarding mechanisms",
       "Transition smoothly to the next phase of the pass once the hook has served its controlling purpose, typically moving to leg drag, knee slice, or direct pressure pass completion"
     ],
-    
     "offensive_transitions": [
       {
         "technique": "Knee Slice Pass",
@@ -539,7 +523,6 @@
         }
       }
     ],
-    
     "defensive_responses": [
       {
         "technique": "Hip Escape",
@@ -567,7 +550,6 @@
         "success_rate": 20
       }
     ],
-    
     "counter_transitions": [
       {
         "technique": "Pressure Pass",
@@ -595,7 +577,6 @@
         "trigger": "Bottom player fully commits to turning away"
       }
     ],
-    
     "decision_tree": [
       {
         "condition": "If bottom player is flat on their back with minimal defensive frames",
@@ -673,7 +654,6 @@
         ]
       }
     ],
-    
     "common_errors": [
       {
         "error": "Maintaining static hook position without advancing the pass or adjusting pressure",
@@ -711,7 +691,6 @@
         "correction": "Have a clear technical sequence planned before establishing the hook, using it as one step in a multi-part passing chain that leads to position advancement or submission threats"
       }
     ],
-    
     "training_drills": [
       {
         "name": "Hook Establishment Flow Drill",
@@ -739,7 +718,6 @@
         "duration": "5 minutes per round"
       }
     ],
-    
     "optimal_submission_paths": [
       {
         "name": "Shortest path to submission",
@@ -762,7 +740,6 @@
         "path": "Leg Hook Top → Transition to Mount → Mount → Armbar from Mount"
       }
     ],
-    
     "related_content": [
       {
         "name": "Half Guard",
@@ -805,7 +782,6 @@
         "relationship": "Defensive system - understanding opponent's systematic defense from bottom"
       }
     ],
-    
     "position_metrics": {
       "retention_rate": {
         "beginner": 60,
@@ -823,14 +799,6 @@
         "advanced": 35
       },
       "average_time": "15-45 seconds"
-    },
-    
-    "expert_insights": {
-      "danaher": "The leg hook in half guard passing represents a critical mechanical leverage point where you transform the bottom player's defensive structure into a controlled pathway for advancement. The hook itself is not the destination but rather a systematic tool for managing the bottom player's hip mobility while you progress through the passing sequence. From a biomechanical perspective, the hook creates a mechanical disadvantage for the bottom player by controlling their hip from underneath, limiting their ability to generate the rotational force needed for guard recovery while simultaneously providing you with a stable base for applying forward pressure. The key technical consideration is understanding that the hook must be integrated into a complete control system that includes upper body pressure, far hip control, and systematic progression toward pass completion. Many practitioners make the error of viewing the hook as a static position rather than as one phase in a dynamic passing sequence. The hook's primary value lies in its ability to neutralize the bottom player's most powerful re-guarding mechanisms—hip escape and rotation—while creating the spatial and temporal window needed to complete more traditional passing techniques such as the knee slice or leg drag.",
-      
-      "gordon_ryan": "In competition, the leg hook position is incredibly valuable because it puts you in a dominant transitional state where you're clearly advancing the pass but you haven't yet committed your weight in a way that makes you vulnerable to scrambles or reversals. What makes this position so effective at the highest levels is that it gives you multiple high-percentage finishing options depending on how the bottom player defends. If they stay flat and try to prevent the pass defensively, you have clean entries to knee slice or leg drag passes. If they turn away or try to come up, you have immediate back takes or front headlock positions available. If they make the mistake of extending their arms to frame or push, you have darce, anaconda, and kimura submissions readily available. The psychological pressure this creates is significant—the bottom player knows they're in a bad spot but any movement they make can lead to an even worse position or a submission. In my experience, the key to using this position effectively in competition is staying patient and not rushing the pass completion. Use the hook to control their hip, maintain constant forward pressure with your chest, and wait for them to make a defensive error that opens up your highest percentage finishing technique. The competitors who struggle from this position are those who try to force the pass before they've fully established the necessary control points.",
-      
-      "eddie_bravo": "The leg hook top position is interesting because it represents a moment where the traditional passing game intersects with more creative control options and submission threats. From a 10th Planet perspective, we recognize that the bottom player in this position is often going to attempt aggressive guard recovery techniques—deep half entries, butterfly hooks, lockdown attempts—and those attempts create specific windows for counters and submissions. What I teach my students is to use the leg hook as a trigger point for reading the bottom player's defensive strategy. If they're trying to get deep on you, you can use that forward motion to set up guillotine or darce chokes. If they're trying to create distance and frames, that's when you have optimal conditions for the knee slice or leg drag passes. One thing that's often overlooked is the submission game from this position—when you have the hook established and you're controlling their hip, they often have to use their arms in defensive ways that create vulnerabilities. The kimura is obviously there if they reach to defend or frame, but the darce and anaconda become available when they try to turn away or address the hook. The key is staying loose and fluid in the position rather than getting rigid and static. Keep your weight moving, pressure constantly shifting, and be ready to flow into whatever opportunity they give you. That's how you maximize the offensive potential of what might seem like just a transitional passing position."
     }
   }
 }

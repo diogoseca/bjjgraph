@@ -8,7 +8,7 @@ description: "Master Lasso Guard in BJJ. Complete guide covering setup mechanics
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

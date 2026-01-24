@@ -8,7 +8,7 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@ description: "Master the Twister submission in BJJ. Complete guide with safety p
 
 <section id="overview" class="content-section">
 
-The Twister is an advanced spinal lock submission popularized by Eddie Bravo and the 10th Planet Jiu-Jitsu system. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap. Due to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of Eddie Bravo's systematic approach to back attacks and is the signature submission of the 10th Planet system.
+The Twister is an advanced spinal lock submission popularized by 10th Planet's and the 10th Planet Jiu-Jitsu system. This technique creates a corkscrew-like torque on the opponent's spine by controlling their lower body with a lockdown or body triangle while simultaneously controlling their upper body in the opposite direction. The Twister is primarily entered from the Truck position, where you have your opponent's back while they are belly-down, with their legs controlled in a specific entanglement. The submission applies pressure to the entire spinal column, creating a twisting motion that forces the tap. Due to the complex mechanics and significant injury potential, the Twister is considered an advanced technique requiring extensive training under qualified instruction. In competition, it is illegal in many rulesets including IBJJF gi divisions, though it is legal in most no-gi competitions at brown and black belt levels. The Twister represents the culmination of the 10th Planet systematic approach to back attacks and is the signature submission of the 10th Planet system.
 
 **Category**: Joint Lock
 **Type**: Spinal Lock
@@ -425,7 +425,6 @@ The Twister is an advanced spinal lock submission popularized by Eddie Bravo and
 - [[Truck Entry]] - Transition technique to achieve Truck position from various positions
 - [[Turtle to Back Control]] - Common entry path to Truck position and subsequent Twister setup
 - [[Twister System]] - Comprehensive system built around this submission and related techniques
-- [[10th Planet No-Gi Guard System]] - Overall strategic framework where Twister is signature submission
 - [[Crab Ride to Back]] - Alternative back attack entry that can transition to Truck
 - [[Back Attack System]] - Broader system of back attacks where Twister is advanced option
 - [[Transition to Truck]] - Generic transition category for entering Truck position

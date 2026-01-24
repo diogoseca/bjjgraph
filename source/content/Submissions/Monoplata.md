@@ -8,7 +8,7 @@ description: "Master the Monoplata submission in BJJ. Complete guide covering se
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -410,7 +410,6 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 - [[Triangle Control]] - Alternative finish when monoplata is defended; failed triangle can transition to monoplata
 - [[Transition to Omoplata]] - Backup transition if figure-four configuration cannot be secured
 - [[Closed Guard to Triangle]] - Related attack chain sharing similar setup requirements and control principles
-- [[10th Planet Rubber Guard System]] - Systematic framework where monoplata serves as key finishing option
 - [[Rubber Guard to Omoplata System]] - Technical system integrating monoplata within broader shoulder attack sequences
 - [[Submission Chains]] - Conceptual principle explaining how monoplata connects to triangle and omoplata attacks
 - [[New York]] - Rubber guard position that can transition to monoplata when opponent defends traditional attacks

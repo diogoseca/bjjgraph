@@ -8,7 +8,7 @@ description: "Master Combat Base in BJJ. Essential neutral position for guard pa
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -486,24 +486,6 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 **Average Time in Position**: 30-90 seconds in competitive BJJ depending on guard style and passing strategy
 
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-Combat Base represents the fundamental mechanical platform from which all guard passing systems must originate. The position's efficacy derives from its geometric efficiency—the triangulated structure created by the posted knee, planted foot, and elevated hips forms a stable base that can withstand multi-directional forces while maintaining mobility for dynamic passing sequences. The key biomechanical principle is weight distribution: approximately 60% of body weight should transfer through the posted knee to create downward pressure that limits the opponent's hip mobility, while 40% remains on the planted foot to enable rapid directional changes and angular movement around the guard. The upright posture is non-negotiable from a defensive perspective—forward lean compromises structural integrity and creates vulnerability to submission attacks by placing the head and arms within the opponent's offensive sphere. When executed correctly with proper weight distribution and postural alignment, combat base transforms the guard passing game from a chaotic scramble into a systematic progression where each movement maintains structural advantages while progressively limiting the opponent's defensive options. The position serves as the universal starting point for pressure passing, distance passing, and leg-drag-based passing systems, making it perhaps the most important foundational position to master for effective guard passing across all competitive contexts and rule sets.
-
-### Gordon Ryan
-
-In competition at the highest level, combat base is your default position whenever you're working to pass guard—it's the position you return to after every passing attempt, every grip fight, every scramble that doesn't immediately result in a pass. The difference between good combat base and great combat base that you see at black belt world championship level is your ability to make constant micro-adjustments based on what the opponent is doing with their legs, hips, and grips. If they're trying to establish De La Riva hooks on your posted leg, you adjust your stance wider and shift weight to the threatened side to neutralize the hook. If they're setting up butterfly hooks underneath you, you narrow your base and drive forward pressure to prevent elevation. The planted foot is your mobility engine in this position—use it constantly to circle, to create new angles, to step over legs and change directions. I'm never static in combat base during matches; I'm always moving, always pressuring, always forcing the bottom player to react to my movements rather than executing their game plan. The moment you become stationary in combat base and allow the bottom player to set their grips and establish their preferred guard style, you've given them the initiative and they'll start their attacks. Modern guard retention at the elite level is too good and too systematic to allow that luxury—you need to be threatening passes and creating pressure before they can get settled into their A-game guard.
-
-### Eddie Bravo
-
-Combat base in no-gi grappling is completely different than in the gi because you can't rely on collar and sleeve grips to maintain distance and control, so your base structure has to be even more dynamic and pressure-oriented to compensate for the lack of friction and grip controls. In the 10th Planet system, we think of combat base as the launching pad for our passing sequences rather than a static position to hold, but we're also hyper-aware of leg entanglement threats that the traditional gi-based approach doesn't emphasize as much. The modern leg lock game has fundamentally changed combat base mechanics because you can't just post a knee inside someone's guard without considering inside heel hook entries, X-guard transitions, and other leg entanglement attacks that can happen instantly. We teach a more mobile, pressure-heavy version of combat base where you're constantly switching which leg is posted, which foot is planted, creating this flowing movement pattern that makes it hard for the bottom player to establish hooks or control points on your legs. The key innovation in our approach is integrating upper body pressure with lower body mobility—use your shoulder and chest to create frames and pressure against the opponent's legs and hips while your base structure allows you to flow around their guard without getting stuck. It's less about static stability and more about controlled chaos where you're always moving and pressuring but never off-balance or vulnerable to sweeps. This dynamic approach to combat base has proven incredibly effective in submission-only formats where you can't rely on stalling or holding positions.
 
 </section>
 

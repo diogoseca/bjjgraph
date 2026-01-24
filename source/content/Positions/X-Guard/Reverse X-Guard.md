@@ -8,7 +8,7 @@ description: "Master Reverse X-Guard in BJJ. Strategic guide covering when to us
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

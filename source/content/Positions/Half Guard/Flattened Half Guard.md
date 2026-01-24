@@ -8,7 +8,7 @@ description: "Master the flattened half guard position in BJJ. Complete guide co
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -8,7 +8,7 @@ description: "Master toe hold variations in BJJ. Learn setups from 50-50, ashi g
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -419,7 +419,6 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 - [[Outside Ashi-Garami]] - Top control position offering superior toe hold mechanics and pressure
 - [[Saddle]] - Advanced leg entanglement allowing transitions between heel hooks and toe holds
 - [[Inside Ashi-Garami]] - Leg control position offering toe hold opportunities from bottom or top
-- [[Danaher Leg Lock System]] - Systematic framework including toe hold as part of comprehensive leg attack strategy
 - [[Craig Jones Leg Lock System]] - Modern approach to leg locks emphasizing toe hold variations and transitions
 - [[Straight Footlock to Kneebar Chain]] - Submission system where toe hold serves as alternative attack angle
 - [[Leg Entanglement]] - Fundamental principle for controlling opponent's leg before attempting toe hold

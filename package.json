@@ -1,0 +1,15 @@
+{
+  "name": "bjjgraph",
+  "version": "1.0.0",
+  "description": "BJJ knowledge graph and state machine",
+  "scripts": {
+    "validate": "./scripts/regenerate_list_of_content_files_to_fix.sh",
+    "generate:md": "python3 scripts/json_to_md.py --all",
+    "generate:hubs": "python3 scripts/generate_category_hub_pages.py",
+    "generate:graph": "python3 scripts/generate_bjj_graph.py",
+    "regenerate": "npm run validate && npm run generate:md && npm run generate:hubs && npm run generate:graph",
+    "build": "cd source && npx quartz build",
+    "regenerate:build": "npm run regenerate && npm run build",
+    "dev": "cd source && npx quartz build --serve"
+  }
+}

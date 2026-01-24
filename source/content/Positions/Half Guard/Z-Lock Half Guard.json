@@ -49,7 +49,16 @@
   "bottom": {
     "name": "Z-Lock Half Guard Bottom",
     "description": "Master Z-Lock Half Guard Bottom in BJJ. Advanced lockdown variation with unique leg configuration creating powerful sweeping mechanics. 45% sweep success for intermediates.",
-    "tags": ["bjj", "position", "half-guard", "z-lock", "lockdown-variation", "bottom", "defensive", "sweeps"],
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "z-lock",
+      "lockdown-variation",
+      "bottom",
+      "defensive",
+      "sweeps"
+    ],
     "overview": "Z-Lock Half Guard Bottom is an advanced variation of the lockdown half guard system where the bottom practitioner uses a unique leg configuration to create a 'Z' shape with their legs while controlling the opponent's trapped leg. This position combines elements of traditional lockdown with butterfly hook mechanics, creating a versatile platform for both defensive retention and offensive sweeping attacks. The Z-Lock configuration allows for greater mobility than standard lockdown while maintaining strong control over the opponent's base.\n\nThe position is characterized by the bottom player having one leg creating a standard lockdown on the opponent's trapped leg, while the other leg creates a butterfly hook or similar configuration that resembles the letter 'Z' when viewed from above. This dual-leg system provides multiple attack vectors including old school sweeps, electric chair attacks, and transitions to deep half guard. The Z-Lock is particularly effective against opponents who base out wide to counter traditional lockdown attacks, as the butterfly hook element allows for attacks to the opposite side.\n\nDeveloped primarily within the 10th Planet Jiu-Jitsu system and refined by lockdown specialists, the Z-Lock represents an evolution of half guard bottom concepts that prioritizes dynamic movement over static control. Success in this position requires excellent hip mobility, understanding of leverage angles, and the ability to chain multiple attacking sequences together to prevent the opponent from consolidating a passing position.",
     "state_properties": {
       "point_value": 0,
@@ -357,17 +366,20 @@
         "advanced": 42
       },
       "average_time": "45-90 seconds"
-    },
-    "expert_insights": {
-      "danaher": "The Z-Lock Half Guard represents an intelligent evolution of lockdown mechanics that addresses fundamental weaknesses in traditional lockdown systems. The standard lockdown creates powerful control of one leg but leaves the practitioner vulnerable to pressure passing and crossface control from opponents who understand proper defensive posture. By incorporating a butterfly hook element with the outside leg, the Z-Lock creates a dual-threat system that forces the top player into genuine dilemmas - they cannot simultaneously defend against lockdown-based attacks to one side and butterfly-based attacks to the other. The biomechanical principle at work is the creation of opposing vectors of force that destabilize the opponent's base regardless of which direction they commit their weight. However, the position requires excellent hip mobility and sophisticated timing to execute properly - practitioners must master the ability to maintain the Z-configuration under pressure while continuously threatening attacks to prevent the opponent from methodically breaking down their defenses.",
-      "gordon_ryan": "In competition, I've found the Z-Lock to be one of the most effective half guard variations against opponents who have excellent pressure passing games and understand traditional lockdown counters. The beauty of this position is that it keeps me offensive even when I'm technically on bottom - I'm constantly threatening sweeps and electric chair submissions that force my opponent to stay defensive and cautious. The key to making it work at the highest levels is maintaining relentless offensive pressure and never allowing the opponent to settle into a comfortable passing rhythm. I'll fake the old school sweep to get them to base out wide, then immediately switch to a butterfly sweep when their weight shifts. Or I'll threaten the electric chair to get them backing up, then transition to deep half when they try to pull their leg out. The position works because it creates genuine uncertainty - my opponent literally cannot defend everything simultaneously, so they have to choose what to give me. That's the kind of position control I want to have even from bottom positions.",
-      "eddie_bravo": "The Z-Lock is one of my favorite developments in the 10th Planet system because it takes the lockdown to the next level of complexity and offensive capability. Traditional lockdown is powerful, but experienced grapplers learn to counter it by basing out wide and applying heavy shoulder pressure. The Z-Lock solves this problem by adding the butterfly hook element that creates attacks to the opposite side - when they base out wide to defend the old school, you've got the butterfly sweep ready; when they try to pressure through the middle, you've got the electric chair and deep half. It's all about creating multiple layers of offensive threats that keep your opponent guessing and defensive. The position also fits perfectly into no-gi competition where you don't have gi grips to rely on - the lockdown control and butterfly hook work entirely through leg positioning and hip movement. To really master it, you need to drill the hell out of transitioning smoothly between the different attacks while maintaining that lockdown control throughout. It's technical, it's dynamic, and it frustrates the shit out of people who think they can just smash through half guard."
     }
   },
   "top": {
     "name": "Z-Lock Half Guard Top",
     "description": "Master Z-Lock Half Guard Top in BJJ. Complete guide covering control mechanics, passing options, pressure systems. Dominant half guard control with 65% pass rate.",
-    "tags": ["bjj", "position", "half-guard", "top-position", "z-lock", "passing", "pressure"],
+    "tags": [
+      "bjj",
+      "position",
+      "half-guard",
+      "top-position",
+      "z-lock",
+      "passing",
+      "pressure"
+    ],
     "overview": "Z-Lock Half Guard Top represents a dominant controlling position where the top player has successfully trapped their opponent's bottom leg while maintaining heavy shoulder pressure and preventing the knee shield. This position is characterized by the top player's knee blocking the bottom player's hip while the shin creates a 'Z' shape across the opponent's lower body, effectively neutralizing both the lockdown and the ability to recover full guard. The Z-lock is particularly effective against lockdown specialists as it removes their primary control mechanism while establishing superior pressure points.\n\nFrom a strategic perspective, Z-Lock Half Guard Top serves as a transitional control position that bridges standard half guard passing with submission opportunities. The position allows the top player to methodically break down the bottom player's defensive structure through sustained pressure and systematic limb isolation. Unlike traditional half guard top positions where the bottom player maintains significant mobility and sweep threats, the Z-lock severely restricts movement options while creating immediate passing lanes to side control, mount, or back control. The position is especially valuable in no-gi grappling where the absence of gi grips makes maintaining positional control more challenging.",
     "state_properties": {
       "point_value": 0,
@@ -690,11 +702,6 @@
         "advanced": 35
       },
       "average_time": "45-90 seconds before passing or submission attempt"
-    },
-    "expert_insights": {
-      "danaher": "The Z-lock half guard top position represents a systematic solution to the modern half guard game's most challenging elements - the lockdown and the knee shield. By establishing the characteristic Z-shape with your shin across the opponent's hip, you create a biomechanical barrier that simultaneously prevents their primary control mechanisms while establishing superior pressure points for passing. The key to understanding this position lies in recognizing it as a pressure-based control system rather than a static holding pattern. Your weight must be distributed through three primary contact points: your shoulder driving into their upper body, your knee blocking their hip movement, and your trapped leg maintaining the half guard entanglement. This triangulated pressure system creates what I call 'directional immobility' - your opponent can move, but only in directions that favor your passing sequences. The position is particularly effective because it removes the bottom player's ability to create the angles necessary for modern half guard attacks while simultaneously loading all your passing mechanics.",
-      "gordon_ryan": "Z-lock half guard top is one of the highest percentage positions in my passing game because it completely shuts down the lockdown players and knee shield specialists who dominate modern competition half guard. When I establish the Z-lock, I'm immediately looking for one of three things: knee slice to side control if they stay flat, smash pass if they try to turn in, or back take if they turn away. The beautiful thing about this position is that every defensive choice they make opens a different passing lane. In competition, I've found the most success comes from maintaining relentless pressure while staying patient enough to read their reactions. Don't rush the pass - use the Z-lock to cook them with pressure, force them to make a move, then capitalize on whatever opening they give you. The position also sets up some nasty submissions, especially the kimura on their trapped side if they're foolish enough to extend that arm. I probably finish 60-70% of my half guard passes from Z-lock variation simply because it removes their best defensive tools while giving me multiple attacking options.",
-      "eddie_bravo": "The Z-lock position is like the antidote to the lockdown game that we developed at 10th Planet. When I see someone establish a proper Z-lock on one of my students, I know they've studied the position because it specifically counters our entire half guard system. The genius of the Z-lock is that it uses your shin to create the same kind of control we're trying to establish with the lockdown, but from the top position. It's a mirror image that flips the script. From a 10th Planet perspective, if someone gets you in Z-lock, you're in serious trouble because all your standard lockdown sweeps and electric chair setups are neutralized. That said, the position also teaches us something important about innovation in jiu-jitsu - every dominant position eventually develops counter-systems, and understanding those counters makes you better at both the position and its escapes. When teaching Z-lock to my students, I emphasize the importance of the shoulder pressure and crossface because without those elements, crafty half guard players can still create scrambles and recover position. The Z-lock works best when you combine the leg position with aggressive upper body control."
     }
   }
 }

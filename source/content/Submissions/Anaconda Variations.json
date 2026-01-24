@@ -212,7 +212,7 @@
     },
     {
       "variation_name": "High Elbow Anaconda",
-      "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles. Gordon Ryan frequently employs this variation in no-gi competition.",
+      "description": "Instead of rolling or dropping elbow, maintain elevated elbow position near opponent's temple while driving shoulder into their neck. This creates darce-style shoulder pressure while maintaining anaconda arm configuration. Highly effective standing or when opponent sprawls. Requires less body movement, making it faster to finish in scrambles. elite competitors' frequently employs this variation in no-gi competition.",
       "when_to_use": "When opponent stands or sprawls making rolling difficult; when in scramble situation requiring quick finish; against flexible opponents who can defend standard roll; in transitions from takedown attempts"
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "variation_name": "Reverse Anaconda Roll",
-      "description": "After securing standard anaconda, roll toward your non-choking shoulder instead of choking shoulder. This unorthodox direction often surprises opponents and can create tighter angle when their body positioning makes standard roll awkward. Requires excellent body awareness and comfort with unusual mechanics. Eddie Bravo 10th Planet system includes this variation for specific scramble situations.",
+      "description": "After securing standard anaconda, roll toward your non-choking shoulder instead of choking shoulder. This unorthodox direction often surprises opponents and can create tighter angle when their body positioning makes standard roll awkward. Requires excellent body awareness and comfort with unusual mechanics. the 10th Planet system includes this variation for specific scramble situations.",
       "when_to_use": "When opponent's base is particularly strong on choking side; when standard roll direction is blocked by cage or training partner; as surprise tactic against opponents familiar with your standard pattern"
     },
     {
@@ -259,7 +259,7 @@
     },
     {
       "question": "Why is variation mastery considered more important than perfecting a single anaconda technique, according to modern competitive evidence?",
-      "answer": "Modern competitive data shows opponents who defend one anaconda variation often expose themselves to another variation. If they post their arm to stop the roll, they create the arm-in setup. If they stand to prevent rolling, they expose the high elbow variation. If they defend neck positioning perfectly for standard anaconda, the marce angle defeats their structure. Single-technique specialists succeed against unprepared opponents but fail against those familiar with that specific defense. Variation specialists maintain finishing capability across multiple defensive responses, dramatically increasing overall submission percentage. The anaconda becomes a system rather than a technique, where each defensive choice opens a different finishing path. This systems approach mirrors John Danaher's teaching philosophy - create dilemmas where opponent's defensive options are limited and each choice leads to submission threat.",
+      "answer": "Modern competitive data shows opponents who defend one anaconda variation often expose themselves to another variation. If they post their arm to stop the roll, they create the arm-in setup. If they stand to prevent rolling, they expose the high elbow variation. If they defend neck positioning perfectly for standard anaconda, the marce angle defeats their structure. Single-technique specialists succeed against unprepared opponents but fail against those familiar with that specific defense. Variation specialists maintain finishing capability across multiple defensive responses, dramatically increasing overall submission percentage. The anaconda becomes a system rather than a technique, where each defensive choice opens a different finishing path. This systems approach mirrors systematic teaching philosophy - create dilemmas where opponent's defensive options are limited and each choice leads to submission threat.",
       "safety_critical": false
     }
   ],
@@ -372,10 +372,6 @@
       "relationship": "Control position that creates anaconda entry - trapped arm creates variation opportunities"
     },
     {
-      "name": "Danaher Front Headlock System",
-      "relationship": "Systematic approach incorporating all anaconda variations into comprehensive front headlock game"
-    },
-    {
       "name": "Darce Variations",
       "relationship": "Parallel variation system - understanding both creates complete front headlock submission mastery"
     },
@@ -383,10 +379,5 @@
       "name": "Arm Triangle Progression",
       "relationship": "Related compression choke system - shares shoulder pressure principles with marce variation"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The anaconda variation system exemplifies proper submission evolution - we begin with a fundamental technique and systematically adapt it to account for every defensive response. The arm-in variation is not a different submission; it is the same mechanical structure optimized for a specific defensive pattern. When opponents post their arm to prevent rolling, that defensive arm becomes incorporated into our choking mechanism. This is efficiency through adaptation. The high elbow variation demonstrates how positional context determines mechanical approach - standing anacondas require different pressure vectors than ground-based applications. Students must understand that variation mastery is not about learning multiple techniques; it is about understanding one technique so thoroughly that you can modify its expression to suit any context. Safety in blood choke training requires understanding the difference between submission and unconsciousness. The submission occurs when proper technique is applied and your partner recognizes they cannot escape. Unconsciousness occurs when we ignore the tap and continue pressure. There is never a legitimate training reason to render your partner unconscious. Competition perhaps requires this in rare situations, but training absolutely forbids it. Your technical growth depends on having healthy, willing training partners. Injuring them through negligence destroys your own development opportunity.",
-    "gordon_ryan": "In competition, I view anaconda variations as a front headlock finishing system rather than individual techniques. When I secure front headlock, I'm not thinking 'anaconda' or 'darce' - I'm reading my opponent's defensive response and selecting the variation that defeats their specific defense. If they post arm, I trap it for arm-in. If they stand, I use high elbow. If they create weird angle, marce finishes. This variation fluency is what separates competition-level front headlock games from recreational attempts. The critical competition distinction is recognizing submission windows - moments when technique is fully locked and escape is virtually impossible. In those moments, I finish quickly and decisively because I know they cannot escape. But here's what's crucial: in training, you must develop the skill to recognize those windows without actually testing them to unconsciousness. You feel when the lock is perfect, when all their defensive options are eliminated, when the choke is inevitable. That feeling is what you chase in training, not the actual unconsciousness. Competition mindset in training destroys your training partners and eventually destroys your own development when no one wants to train with you. Variation timing differs from standard anaconda - the marce often finishes faster because of the shoulder driving angle. High elbow can finish standing which the standard cannot. Understanding these timing differences informs your variation selection in scrambles where speed matters.",
-    "eddie_bravo": "The anaconda variation game is where creativity meets technique. At 10th Planet, we've developed some unconventional anaconda variations that most traditional schools don't teach - reverse rolling anacondas, standing variations that blend with our twister system entries, arm-in variations that set up truck positions. The beauty of the anaconda family is that it works seamlessly in no-gi, which is our specialty. No collar to grip means front headlock becomes even more valuable. What most people miss is that anaconda variations can be entry points to other submissions, not just finishing attempts. I hit arm-in anaconda variations specifically to create gift wrap control, which opens the entire twister system. Marce variations can transition to modified darce entries when angles shift. This is systems thinking - every technique connects to five others. Safety culture at 10th Planet is non-negotiable, and it needs special emphasis with chokes because they finish faster than joint locks. With an armbar, you feel your elbow about to hyperextend and you tap. With a blood choke, you can go from feeling fine to unconscious in two seconds if someone spikes it. That's why we drill the hell out of progressive pressure and immediate release. I want my students to be anaconda killers in competition, but I need them to be safe training partners every day. Innovation in variation development should never come at the expense of safety fundamentals - new techniques must be introduced at slow speed with clear communication protocols before adding any resistance."
-  }
+  ]
 }

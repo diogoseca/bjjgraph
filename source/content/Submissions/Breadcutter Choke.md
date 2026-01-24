@@ -8,7 +8,7 @@ description: "Master the Breadcutter Choke in BJJ. Devastating collar choke from
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -417,7 +417,6 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 - [[North-South]] - Breadcutter can be applied from North-South when opponent turns to side
 - [[Bow and Arrow Choke]] - Similar collar-based choking mechanism with different body positioning
 - [[Kesa Gatame]] - Can transition to Breadcutter when opponent turtles from scarf hold
-- [[Danaher Straight Jacket System]] - Breadcutter fits into systematic approach to back attacks and turtle control
 
 
 </section>

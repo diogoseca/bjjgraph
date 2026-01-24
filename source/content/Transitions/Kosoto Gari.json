@@ -1,7 +1,15 @@
 {
   "name": "Kosoto Gari",
   "description": "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step execution from standing clinch to dominant position. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.",
-  "tags": ["bjj", "judo", "takedown", "foot-sweep", "standing", "technique", "ashi-waza"],
+  "tags": [
+    "bjj",
+    "judo",
+    "takedown",
+    "foot-sweep",
+    "standing",
+    "technique",
+    "ashi-waza"
+  ],
   "starting_position": "Standing Position",
   "ending_position": "Side Control",
   "success_rates": {
@@ -273,10 +281,5 @@
       "name": "Underhook Control",
       "relationship": "Alternative control system for no-gi variation"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The elegance of Kosoto Gari lies in its perfect marriage of kuzushi and kake - off-balancing and execution. Most students fail to understand that the throw is won or lost in the initial off-balancing phase, not in the sweep itself. You must first create a mechanical situation where the opponent's weight is committed to the rear leg with no immediate escape. This requires understanding weight distribution as a dynamic system - you create forward pressure, opponent resists by posting weight backward, and you attack precisely at the moment of their committed resistance. The sweep is merely the mechanical exploitation of the off-balanced state you created. From a biomechanical perspective, Kosoto Gari utilizes a Type 1 lever system where your pulling hands create the fulcrum, their body is the resistance, and the sweep provides the effort force. Understanding this lever principle allows you to minimize strength requirements and maximize efficiency. The technique's true sophistication emerges when you chain it systematically with other attacks, creating a decision tree where every defensive response opens a new attacking pathway.",
-    "gordon_ryan": "In competition, Kosoto Gari is my go-to throw because it's low-risk and high-reward. Unlike explosive forward throws that can get you countered if you miss, Kosoto Gari keeps your base relatively safe while attacking theirs. I set it up through grip-fighting - I'm constantly fighting for that deep collar grip that gives me the pulling power I need. Against most opponents, I'll fake a few forward pressure attempts to get them posting weight backward, then hit the Kosoto Gari when they're defending the wrong attack. The key in high-level competition is disguising your intention - if they see the Kosoto Gari coming, they'll just step back and you'll look stupid chasing them around the mat. I chain it with Kouchi Gari to the opposite leg, so if they defend by stepping back with one leg, I'm already attacking the other. Once I land the throw, I'm immediately hunting for side control and looking for the transition to mount or taking the back. The points from the takedown mean nothing if you stall in a neutral scramble afterward. Follow through aggressively and your opponent is fighting from behind for the rest of the match.",
-    "eddie_bravo": "Kosoto Gari is sick because it works in both gi and no-gi, which most throws don't. In 10th Planet system, we use it constantly when guys try to snap us down or get aggressive with the clinch. The no-gi version requires you to get tight with underhooks or overhooks, but the sweeping motion is identical to the gi. What I love about this throw is you can hit it from the Twister position if you're standing - get that overhook control, pull them onto their heel, and sweep them to the mat where you can immediately start working your leg attacks or back takes. We also use it as a counter when guys shoot shitty singles - instead of sprawling, you can catch the overhook and Kosoto Gari them to their back while they're committed forward. It's all about being creative with traditional techniques. Don't just drill the basic judo version - experiment with different grips, different angles, and see how it fits into your personal game. Maybe you hit it from a weird Russian tie position, or off a collar drag attempt. The fundamental mechanics work, but how you get there should be unique to your style."
-  }
+  ]
 }

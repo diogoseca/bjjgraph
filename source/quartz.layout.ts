@@ -21,6 +21,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
+    Component.VictoryDisplay(),
     Component.MoveCards(),
     Component.TransitionFlashcard(),
     Component.ContentMeta(),

@@ -8,7 +8,7 @@ description: "Master Shoulder of Justice side control in BJJ. Strategic guide co
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -8,7 +8,7 @@ description: "Master the Front Headlock to Guillotine transition in BJJ. Complet
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -327,7 +327,7 @@ The Front Headlock to Guillotine transition is a cornerstone technique within th
 
 This technique integrates seamlessly with turtle position attacks, as opponents frequently end up in turtle when defending takedowns, guard passes, or scrambles. It also connects to the standing game, particularly in no-gi grappling where wrestling-style tie-ups and snap downs create front headlock opportunities. The guillotine finish can be achieved from multiple guard positions (closed guard, half guard, butterfly guard) as well as standing positions, making it a truly universal submission that appears throughout the entire BJJ system.
 
-From a strategic perspective, this transition exemplifies the principle of submission chains - having multiple attacks available from a single position so that defending one attack opens up another. When integrated with the darce and anaconda chokes from the same front headlock position, an opponent faces a genuine dilemma where any defensive movement potentially worsens their position. This transition is fundamental to the Danaher Front Headlock System and the Marcelo Garcia Guillotine System, representing different philosophical approaches to the same core technique. Understanding this transition is essential for developing a complete front headlock game and for both gi and no-gi practitioners at all skill levels.
+From a strategic perspective, this transition exemplifies the principle of submission chains - having multiple attacks available from a single position so that defending one attack opens up another. When integrated with the darce and anaconda chokes from the same front headlock position, an opponent faces a genuine dilemma where any defensive movement potentially worsens their position. This transition is fundamental to the systematic approach Front Headlock System and the Marcelo Garcia Guillotine System, representing different philosophical approaches to the same core technique. Understanding this transition is essential for developing a complete front headlock game and for both gi and no-gi practitioners at all skill levels.
 
 </section>
 

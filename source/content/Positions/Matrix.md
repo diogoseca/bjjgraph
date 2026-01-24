@@ -8,7 +8,7 @@ description: "Master the Matrix back take in BJJ. Complete guide to the dynamic 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

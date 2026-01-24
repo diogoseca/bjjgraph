@@ -8,7 +8,7 @@ description: "Master the Kneebar Finish in BJJ. Complete guide covering knee iso
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -418,7 +418,6 @@ The Kneebar Finish represents one of the most mechanically efficient lower body 
 
 - [[Kneebar]] - Parent technique—kneebar finish is the completion phase of the broader kneebar system
 - [[Ashi Garami]] - Primary control position family from which most kneebar finishes are executed
-- [[Danaher Leg Lock System]] - Systematic framework that positions the kneebar as part of comprehensive leg entanglement strategy
 - [[Heel Hook]] - Alternative leg lock finish from similar positions—understanding both creates finishing dilemmas
 - [[Straight Ankle Lock]] - Entry-level leg lock that introduces leg control concepts before advancing to kneebar mechanics
 - [[Kneebar from 50-50]] - Specific positional application where both grapplers are entangled and racing to finish

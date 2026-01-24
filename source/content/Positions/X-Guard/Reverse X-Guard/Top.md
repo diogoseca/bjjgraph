@@ -8,7 +8,7 @@ description: "Master Reverse X-Guard Top in BJJ. Control leg attacks with 60% pa
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -426,7 +426,7 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 - **[[Half Guard]]** - Common transition target from smash passing
 - **[[Side Control]]** - Target position from successful knee slice pass
 - **[[Leg Drag Control]]** - Alternative passing position from angle creation
-- **[[Danaher Leg Lock System]]** - System covering leg entanglement defense principles
+- **[[systematic approach Leg Lock System]]** - System covering leg entanglement defense principles
 
 
 </section>

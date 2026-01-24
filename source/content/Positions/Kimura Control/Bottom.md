@@ -8,7 +8,7 @@ description: "Master Kimura Control from bottom in BJJ. Defensive position with 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -472,7 +472,7 @@ Bottom partner maintains Kimura grip while top partner applies various passing p
 - **[[Omoplata Control]]** - Alternative shoulder lock when opponent drives into grip
 - **[[Kimura to Back Take]]** - High-percentage transition when opponent turns away
 - **[[Rolling Kimura]]** - Dynamic sweep option that maintains submission threat
-- **[[Danaher Straight Jacket System]]** - Systematic approach to Kimura control and applications
+- **[[systematic approach Straight Jacket System]]** - Systematic approach to Kimura control and applications
 - **[[Americana Control]]** - Similar shoulder lock control from bottom position
 - **[[Kimura from Guard]]** - Direct submission finish from this control position
 - **[[Kimura from Half Guard]]** - Common entry point for establishing this control

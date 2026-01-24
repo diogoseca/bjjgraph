@@ -8,7 +8,7 @@ description: "Master guillotine variations in BJJ. Complete guide covering high 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -429,7 +429,6 @@ The guillotine choke represents one of the most versatile submission families in
 - [[Guillotine Counter]] - Counters to guillotine attempts inform better attacking strategies
 - [[Front Headlock to Guillotine]] - Primary transition to guillotine variations
 - [[Marcelo Garcia Guillotine System]] - Systematic approach to guillotine variations and finishing details
-- [[Danaher Front Headlock System]] - Strategic framework for front headlock to guillotine attacks
 - [[D'arce Control]] - Alternative choke from similar positions when guillotine is defended
 - [[Anaconda Control]] - Alternative choke variation when opponent turns away from guillotine
 - [[Guard Pull]] - Common entry to guard-based guillotine finishes

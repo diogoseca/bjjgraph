@@ -370,24 +370,9 @@
       "relationship": "Structural backbone showing how positions connect within larger systematic frameworks"
     },
     {
-      "name": "Danaher Leg Lock System",
-      "content_type": "System",
-      "relationship": "Example of comprehensive system building with clear entries, positional hierarchy, and submission progressions"
-    },
-    {
-      "name": "Gordon Ryan Passing System",
-      "content_type": "System",
-      "relationship": "Demonstrates competition-tested system integration connecting passing, control, and submission elements"
-    },
-    {
       "name": "Marcelo Garcia Butterfly Guard System",
       "content_type": "System",
       "relationship": "Exemplifies bottom position system building with interconnected sweeps, submissions, and back takes"
-    },
-    {
-      "name": "10th Planet Rubber Guard System",
-      "content_type": "System",
-      "relationship": "Shows innovative system development around unorthodox positions with unique technique relationships"
     },
     {
       "name": "Transition Sequences",
@@ -399,10 +384,5 @@
       "content_type": "Principle",
       "relationship": "Competitive application of System Building adapted to specific opponents and match contexts"
     }
-  ],
-  "expert_insights": {
-    "danaher": "System building represents the difference between technical knowledge and technical mastery. Most students accumulate techniques randomly, creating fragmented skill sets where each technique stands alone without meaningful connections. This approach dooms them to perpetual inefficiency because when their primary technique fails, they must start over from neutral with no clear progression. The systematic approach recognizes that Brazilian Jiu-Jitsu is fundamentally a problem-solving endeavor where opponents present defensive solutions to your offensive problems. Your system must therefore be organized not around what you want to do, but around what opponents typically do in response to your attacks. Every technique in your system should branch into multiple follow-up options based on predictable defensive patterns, creating decision trees that maintain offensive initiative regardless of opponent responses. The depth of your system matters far more than its breadth - I would rather have a student with fifteen techniques connected in profound ways than a student with one hundred fifty disconnected techniques. Build your system methodically: start with positions you reach naturally, identify your highest percentage attacks from these positions, catalog common defensive reactions, and develop specific counters for each reaction that return you to familiar offensive terrain. This systematic organization allows you to maintain constant forward pressure because every defensive success by your opponent simply moves them to a different branch of your system rather than escaping it entirely.",
-    "gordon_ryan": "In competition, you see the difference between guys who have systems and guys who just know a bunch of moves within the first two minutes. The guys with systems never stop attacking - when you defend one thing, they immediately flow to the next threat without any reset or scramble back to neutral. That's because they've built their game around reality, around what actually happens when people defend their attacks under full resistance. I built my entire no-gi game around a few core positions - back control, mount, ashi garami variations - and drilled thousands of reps of every common defensive response until I had automatic answers. When someone defends my back take, I don't think about what to do next, my body just flows to the mounted triangle or armbar because I've connected those techniques through endless drilling. The key is being honest about what actually works at the highest level and building your system around high-percentage technique relationships that remain functional when both people are trying their hardest. Most people waste time developing systems around low-percentage moves they never hit in competition, or they copy someone else's system without having the physical attributes or technical foundation to make it work. Your system needs to match your body and your skill level, and every single connection in it needs to be pressure tested until you trust it completely in competition. That's how you beat world-class guys - not by knowing more techniques than them, but by having deeper systems that keep attacking through multiple defensive layers while they're still trying to survive the current threat.",
-    "eddie_bravo": "System building is where you move from being a technician to being an artist, where you start creating your own game instead of just copying what everyone else does. The beautiful thing about systems is that once you understand how to build them, you can invent completely new pathways that nobody else is using. Look at the rubber guard system - I didn't invent every technique in it, but I connected them in ways that created a unique offensive framework that attacks from bottom. That's what system building lets you do: take existing techniques, unconventional positions, and your own innovations, then organize them into something cohesive that works for your style. The mistake people make is thinking systems have to be traditional or proven - some of the best systems come from asking 'what if?' and exploring connections other people ignore. When I developed the lockdown to electric chair system, people thought I was crazy because it went against conventional wisdom about half guard, but it worked because I built complete technical pathways from entry to finish and tested every connection until it was reliable. Don't be afraid to build systems around positions or techniques that seem unorthodox if they match your attributes and create genuine advantages. The key is making sure every technique in your system connects to multiple others, so you're never stuck when something gets defended. Your system should feel like a maze where you know every pathway but your opponent is just trying to survive. That's when jiu-jitsu becomes really fun - when you're operating inside your system and everything flows automatically while they're fighting just to understand what's happening."
-  }
+  ]
 }

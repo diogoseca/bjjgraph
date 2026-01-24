@@ -4,11 +4,11 @@
 
 ---
 title: "Crackhead Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master the bottom perspective of Eddie Bravo's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks."
+description: "Master the bottom perspective of 10th Planet's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master the bottom perspective of Eddie Bravo's Crackhead Control -
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Bottom",
-  "description": "Master the bottom perspective of Eddie Bravo's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks.",
+  "description": "Master the bottom perspective of 10th Planet's Crackhead Control - deep overhook guard position with high submission threat density and strategic back exposure for aggressive attacks.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master the bottom perspective of Eddie Bravo's Crackhead Control -
 
 <section id="overview" class="content-section">
 
-From the bottom perspective, Crackhead Control represents a calculated gamble where positional safety is exchanged for immediate submission access. The position demands exceptional hip flexibility, submission chain knowledge, and psychological comfort with back exposure. Bottom players must develop the ability to recognize when opponent defensive reactions signal transitions to different submissions, creating a dynamic flow state where multiple attacks connect seamlessly. The deep overhook serves as the positional anchor that remains constant throughout submission chains, allowing rapid transitions without reestablishing control from scratch. Success requires not just technical knowledge but also the mental fortitude to maintain aggressive offense even when opponents threaten back takes. The position exemplifies Eddie Bravo's philosophy of creating action-forcing scenarios where defensive success by the opponent merely transitions them into a different dangerous situation.
+From the bottom perspective, Crackhead Control represents a calculated gamble where positional safety is exchanged for immediate submission access. The position demands exceptional hip flexibility, submission chain knowledge, and psychological comfort with back exposure. Bottom players must develop the ability to recognize when opponent defensive reactions signal transitions to different submissions, creating a dynamic flow state where multiple attacks connect seamlessly. The deep overhook serves as the positional anchor that remains constant throughout submission chains, allowing rapid transitions without reestablishing control from scratch. Success requires not just technical knowledge but also the mental fortitude to maintain aggressive offense even when opponents threaten back takes. The position exemplifies 10th Planet's philosophy of creating action-forcing scenarios where defensive success by the opponent merely transitions them into a different dangerous situation.
 
 </section>
 

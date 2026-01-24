@@ -8,7 +8,7 @@ description: "Master Estima Lock foot submission with safety protocols, setup fr
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -432,7 +432,6 @@ The technique requires precise control and understanding of leg entanglement mec
 - [[Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
 - [[Calf Slicer from 50-50]] - Alternative compression submission from 50-50 position
 - [[Toe Hold from 50-50]] - Direct transition when opponent pulls foot during Estima Lock defense
-- [[Danaher Leg Lock System]] - Systematic framework integrating Estima Lock into comprehensive leg attack system
 - [[Craig Jones Leg Lock System]] - Modern leg lock approach emphasizing Estima Lock transitions and setups
 - [[Ashi Garami Escape]] - Counter technique defending leg entanglements that lead to Estima Lock
 

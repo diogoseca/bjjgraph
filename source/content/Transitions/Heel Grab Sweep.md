@@ -4,11 +4,11 @@
 
 ---
 title: "Heel Grab Sweep | BJJ Technique | BJJ Graph"
-description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%."
+description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, timing, and execution steps. Success rates: 35%, 60%, 75%."
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -128,7 +128,7 @@ description: "Master the Heel Grab Sweep from Single Leg X Guard. Complete techn
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Heel Grab Sweep",
-  "description": "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, execution, and expert insights. Success rates: 35%, 60%, 75%.",
+  "description": "Master the Heel Grab Sweep from Single Leg X Guard. Complete technical breakdown with setup, timing, and execution steps. Success rates: 35%, 60%, 75%.",
   "url": "https://bjjgraph.org/Transitions/Heel-Grab-Sweep",
   "isPartOf": {
     "@type": "WebSite",

@@ -1,11 +1,21 @@
 {
   "name": "Submission Chains",
   "description": "Master submission chains in BJJ. Learn systematic attack sequences, transition logic between submissions, and chain-based offensive systems. Includes training methods.",
-  "tags": ["bjj", "principle", "submissions", "chains", "offense", "strategy", "sequences", "combinations", "systematic-attacks"],
+  "tags": [
+    "bjj",
+    "principle",
+    "submissions",
+    "chains",
+    "offense",
+    "strategy",
+    "sequences",
+    "combinations",
+    "systematic-attacks"
+  ],
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
-  "overview": "Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.\n\nThe fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.\n\nAt the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like Gordon Ryan and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.",
+  "overview": "Submission Chains represent the systematic linking of multiple submission attempts into cohesive offensive sequences where each defensive response opens a new attacking opportunity. Rather than viewing submissions as isolated techniques, chain thinking creates a web of interconnected attacks where the opponent's escape from one submission feeds directly into the setup for another. This conceptual framework transforms submission attempts from binary win-lose scenarios into continuous offensive pressure systems that compound defensive errors and create submission inevitability.\n\nThe fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.\n\nAt the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like elite competitors' and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.",
   "key_principles": [
     "Every defensive action creates specific offensive opportunities that can be systematically exploited",
     "Submission attempts should be viewed as positional improvements even when they don't finish, as they force reactions that open new attacks",
@@ -366,19 +376,9 @@
       "relationship": "Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions"
     },
     {
-      "name": "Danaher Leg Lock System",
-      "content_type": "System",
-      "relationship": "Exemplary systematic approach to submission chains in the leg entanglement domain"
-    },
-    {
       "name": "Ryan Hall Triangle System",
       "content_type": "System",
       "relationship": "Comprehensive chain system built around triangle as central hub position"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The entire conceptual framework of submission chains rests upon a single fundamental truth: defensive actions are not random but instead follow predictable mechanical patterns determined by the structural requirements of escape. When an opponent attempts to escape an armbar by pulling their arm back toward their body, they necessarily create space between their arm and their torso—this is not a choice but a mechanical requirement of the escape. This space is precisely what the triangle requires for its structure. Therefore, the armbar-to-triangle chain is not a clever trick but an inevitable consequence of defensive mechanics. The systematic grappler studies these mechanical relationships exhaustively, building comprehensive chain maps where every defensive action is pre-matched to an optimal attacking response. At the highest level, submission chains become deterministic systems where the outcome is statistically predetermined by the attacker's superior knowledge of action-reaction relationships. This is why position and control are paramount—you cannot execute sophisticated chains without the positional dominance required to dictate the tempo and observe defensive patterns clearly.",
-    "gordon_ryan": "In competition, submission chains are the difference between being a good grappler and being a dominant champion. I don't hunt for single submissions—I hunt for positions that allow chain attacks, because that's where finish rates skyrocket. My entire mount attack system is built around forcing opponents into a triangle-armbar-triangle loop that has no good defensive answer. When they pull the arm out to stop the armbar, triangle. When they posture against the triangle, opposite armbar. When they defend that, back to the original armbar. Three moves, but the opponent has to be perfect on all three defenses while I only need them to make one mistake. That's the beauty of chains—they compound opponent error rates. In my matches, I'm usually two attacks ahead mentally of where we are physically. I know before they defend the first armbar that they're going to posture into the triangle, so I'm already preparing that transition. This mental chess game, combined with relentless pressure, creates the inevitable finish that spectators see. Chains also have massive cardio advantages—I'm using their defensive energy to set up my next attack, while single-attack hunters are constantly resetting and burning energy to establish new attacks from scratch.",
-    "eddie_bravo": "Traditional submission chains are good, but where it gets really interesting is when you start creating chains that cross between orthodox and unorthodox positions. From my rubber guard system, I'm not just chaining omoplata to triangle to armbar like traditional closed guard—I'm flowing from zombie to invisible collar to crackhead to kung fu move to the Twister. The beauty is that most people have never seen these chains, so they can't pattern-recognize the defensive solutions. It's like speaking a language they don't understand. I've always believed that innovation in chains comes from exploring positions that other people consider 'weird' or 'low-percentage'—those positions often have unexplored submission relationships that create entire new chain families. The 10th Planet system is really just a massive library of unconventional chains that conventional grapplers aren't prepared for. Plus, when you're building chains around your own unique positions, you're not competing with everyone else's development—you're pioneering new territory. My advice is to study the classical chains to understand chain logic, then go explore weird positions and discover your own chain relationships. That's where you find the secret weapons that win ADCC matches."
-  }
+  ]
 }

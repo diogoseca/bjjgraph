@@ -4,11 +4,11 @@
 
 ---
 title: "Mount | BJJ Position Guide | BJJ Graph"
-description: "Master the Mount position in BJJ. Learn control mechanics, submission attacks, and defense strategies from top and bottom perspectives with expert insights."
+description: "Master the Mount position in BJJ. Learn control mechanics, submission chains, escape strategies, and systematic progression from top and bottom perspectives."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

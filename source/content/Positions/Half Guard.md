@@ -8,7 +8,7 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -20,7 +20,7 @@ description: "Master Half Guard in BJJ with comprehensive bottom and top strateg
 
 Half Guard represents one of the most strategically complex positions in Brazilian Jiu-Jitsu, existing at the critical intersection between guard retention and being passed. This position is characterized by one player trapping a single leg of their opponent between their own legs, creating an asymmetric control structure that offers unique offensive and defensive possibilities for both practitioners. Unlike symmetric guard positions where both legs are either inside or outside the opponent's legs, Half Guard's one-leg-in, one-leg-out configuration creates distinct mechanical advantages and vulnerabilities that require specialized technical knowledge.
 
-Historically dismissed as a stalling position or mere transitional state, Half Guard has evolved into a sophisticated offensive system through the innovations of practitioners like Roberto Gordo Correa, Eddie Bravo, Bernardo Faria, and Lucas Leite. The position's modern development has spawned numerous sub-variations including Deep Half, Lockdown, Knee Shield, Z-Guard, and Butterfly Half, each offering distinct strategic pathways and requiring specific technical responses. This evolution has transformed Half Guard from a last-ditch defensive position into a primary offensive platform capable of generating sweeps, submissions, and back takes at the highest levels of competition.
+Historically dismissed as a stalling position or mere transitional state, Half Guard has evolved into a sophisticated offensive system through the innovations of practitioners like Roberto Gordo Correa, 10th Planet's, Bernardo Faria, and Lucas Leite. The position's modern development has spawned numerous sub-variations including Deep Half, Lockdown, Knee Shield, Z-Guard, and Butterfly Half, each offering distinct strategic pathways and requiring specific technical responses. This evolution has transformed Half Guard from a last-ditch defensive position into a primary offensive platform capable of generating sweeps, submissions, and back takes at the highest levels of competition.
 
 Success in Half Guard demands understanding the fundamental asymmetry that defines the position. The trapped leg serves as an anchor point and fulcrum for leverage, while the free leg provides base and mobility for the top player or framing and distance management for the bottom player. The battle for upper body control through underhooks, crossfaces, and frames determines positional hierarchy and dictates available offensive sequences. Modern Half Guard play emphasizes constant movement, systematic position improvement, and the creation of offensive dilemmas that force opponents into defensive reactions, making it an essential component of any complete guard system.
 

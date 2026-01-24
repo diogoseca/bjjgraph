@@ -8,7 +8,7 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -20,9 +20,9 @@ description: "Master Honey Hole position in BJJ. Advanced leg entanglement with 
 
 Honey Hole position, also known as Inside Sankaku, Saddle, or 4/11, represents one of the most dominant and dangerous leg entanglement positions in modern Brazilian Jiu-Jitsu. This position features an inside leg configuration where one practitioner traps their opponent's leg between their own legs with an inside leg triangle, creating mechanical control that severely limits escape options while providing direct access to heel hooks, kneebars, and toe holds.
 
-The position's strategic significance stems from its asymmetric control dynamics - the top player maintains overwhelming mechanical advantage through perpendicular body alignment and leg configuration, while the bottom player faces extremely limited defensive options and high submission danger. The inside leg triangle around the opponent's thigh creates what John Danaher calls 'rotational imprisonment,' where natural escape mechanisms through hip rotation are directly countered by the entanglement geometry.
+The position's strategic significance stems from its asymmetric control dynamics - the top player maintains overwhelming mechanical advantage through perpendicular body alignment and leg configuration, while the bottom player faces extremely limited defensive options and high submission danger. The inside leg triangle around the opponent's thigh creates what systematic calls 'rotational imprisonment,' where natural escape mechanisms through hip rotation are directly countered by the entanglement geometry.
 
-From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappling, particularly in submission-only and IBJJF brown/black belt competition where heel hooks are legal. The position's development through the Danaher Death Squad and subsequent adoption by elite competitors has made it a fundamental component of contemporary leg lock systems. Understanding both offensive and defensive aspects of this position is essential for any serious no-gi practitioner, as the submission threat timeline is measured in seconds rather than minutes, requiring immediate recognition and response from the defensive perspective.
+From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappling, particularly in submission-only and IBJJF brown/black belt competition where heel hooks are legal. The position's development through the modern leg lock pioneers and subsequent adoption by elite competitors has made it a fundamental component of contemporary leg lock systems. Understanding both offensive and defensive aspects of this position is essential for any serious no-gi practitioner, as the submission threat timeline is measured in seconds rather than minutes, requiring immediate recognition and response from the defensive perspective.
 
 </section>
 
@@ -266,7 +266,7 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 
 - **[[Kneebar]]** - Secondary submission option when heel exposure is defended
 
-- **[[Danaher Leg Lock System]]** - Systematic framework incorporating Honey Hole as cornerstone control position
+- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating Honey Hole as cornerstone control position
 
 
 </section>

@@ -4,7 +4,6 @@
   "description": "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives.",
   "variant_uniqueness": "Leg entanglement isolates shoulder joint",
   "overview": "The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.\n\nFrom the structural perspective, Aoki Lock control involves isolating the opponent's shoulder girdle through leg positioning while maintaining base and applying rotational pressure to the shoulder joint. The top player uses leg entanglement to trap the arm and shoulder complex, preventing rotation and extraction while maintaining stable base through posted leg and hip positioning. The bottom player faces dual threats of shoulder and wrist manipulation, requiring immediate defensive action and escape execution.\n\nThis position appears most commonly in no-gi competition, submission-only formats, and MMA contexts where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure application protocols. The position carries moderate to high risk for both practitioners - aggressive defense can create scrambles while improper application can cause serious shoulder injuries. Success depends on technical precision, positional awareness, and commitment to safety protocols throughout execution.",
-  
   "key_principles": [
     "Leg entanglement provides primary control mechanism for isolating shoulder complex",
     "Progressive pressure application prevents injury while maintaining submission threat",
@@ -14,18 +13,30 @@
     "Position serves as hub for multiple transition opportunities to back control, truck, and crucifix",
     "Both perspectives require immediate action - bottom must escape, top must finish or transition"
   ],
-
   "related_positions": [
-    {"name": "Omoplata Control", "relationship": "Similar shoulder lock mechanics with different control method"},
-    {"name": "Kimura Control", "relationship": "Related shoulder manipulation with different grip configuration"},
-    {"name": "Truck", "relationship": "Common transition target from top Aoki Lock position"},
-    {"name": "Back Control", "relationship": "Primary advancement target when opponent defends shoulder lock"},
-    {"name": "Turtle", "relationship": "Common entry position for Aoki Lock attacks"}
+    {
+      "name": "Omoplata Control",
+      "relationship": "Similar shoulder lock mechanics with different control method"
+    },
+    {
+      "name": "Kimura Control",
+      "relationship": "Related shoulder manipulation with different grip configuration"
+    },
+    {
+      "name": "Truck",
+      "relationship": "Common transition target from top Aoki Lock position"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Primary advancement target when opponent defends shoulder lock"
+    },
+    {
+      "name": "Turtle",
+      "relationship": "Common entry position for Aoki Lock attacks"
+    }
   ],
-
   "bottom": {
     "overview": "The Aoki Lock Bottom Position represents a critical defensive scenario where you are being attacked with a leg-entangled shoulder lock submission. Named after legendary Japanese fighter Shinya Aoki, this position occurs when your opponent has secured leg entanglement control over your shoulder while applying omoplata-style pressure, typically from side control, turtle, or transitional scrambles. Unlike traditional kimura or omoplata control, the Aoki Lock combines leg trapping with shoulder manipulation, creating a unique defensive challenge that requires specialized escape protocols.\n\nFrom bottom, your primary objectives are immediate escape, preventing submission finish, and creating offensive opportunities from defensive positions. The position requires understanding shoulder lock mechanics, maintaining defensive posture despite leg entanglement, and recognizing the specific movement patterns needed to neutralize the attack. While highly uncomfortable and dangerous, proper defensive technique can turn this position into a pathway back to guard or even position reversals.\n\nThis position commonly arises when defending turtle position, during scrambles from guard passing attempts, or when opponent capitalizes on arm isolation during transitions. Understanding the mechanical differences between Aoki Lock and traditional shoulder locks is essential for mounting effective defense and preventing catastrophic shoulder injuries. The leg entanglement component limits traditional escape routes, requiring specific counter-strategies that address both the shoulder pressure and leg control simultaneously.",
-
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -33,7 +44,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Short"
     },
-
     "state_invariants": [
       "Your shoulder is trapped by opponent's leg entanglement with thigh over shoulder and shin controlling upper arm",
       "Opponent maintains hip pressure directed into your shoulder joint creating rotational stress on shoulder capsule",
@@ -41,7 +51,6 @@
       "Opponent posts free leg on mat for stable base while hands control your hips preventing escape angles",
       "Your defensive posture focuses on preventing full shoulder rotation while creating space for arm extraction"
     ],
-
     "prerequisites": [
       "Opponent has secured leg entanglement over your shoulder and upper arm",
       "Your shoulder is under rotational pressure from opponent's hip positioning",
@@ -49,7 +58,6 @@
       "You are typically on side or stomach with limited rotation capability",
       "Understanding of shoulder lock defense principles and injury awareness"
     ],
-
     "key_principles": [
       "Keep shoulder internally rotated to resist external rotation pressure from opponent's hip drive",
       "Prevent full arm extension by keeping elbow bent when possible without compromising shoulder safety",
@@ -59,7 +67,6 @@
       "Recognize tap threshold early - shoulder locks cause serious injury if defended too aggressively",
       "Prioritize position escape over submission defense if pressure becomes dangerous"
     ],
-
     "offensive_transitions": [
       {
         "technique": "Rolling Escape to Guard",
@@ -116,7 +123,6 @@
         }
       }
     ],
-
     "defensive_responses": [
       {
         "technique": "Increased Hip Pressure",
@@ -139,7 +145,6 @@
         "success_rate": 45
       }
     ],
-
     "counter_transitions": [
       {
         "technique": "Rolling Escape When Pressure Increases",
@@ -157,7 +162,6 @@
         "trigger": "Opponent's leg entanglement loosens to adjust shoulder angle"
       }
     ],
-
     "decision_tree": [
       {
         "condition": "If opponent is applying progressive shoulder pressure with tight leg control",
@@ -205,7 +209,6 @@
         ]
       }
     ],
-
     "common_errors": [
       {
         "error": "Rolling away from trapped arm direction against the pressure",
@@ -233,7 +236,6 @@
         "correction": "Immediately engage free hand in attacking opponent's posted leg or controlling their hip to create angles"
       }
     ],
-
     "training_drills": [
       {
         "name": "Progressive Aoki Lock Defense Drill",
@@ -256,7 +258,6 @@
         "duration": "5 minutes with multiple repetitions"
       }
     ],
-
     "optimal_submission_paths": [
       {
         "name": "Safest escape path",
@@ -271,15 +272,28 @@
         "path": "Aoki Lock Bottom → Base Attack → Scramble Position → Standing Position"
       }
     ],
-
     "related_content": [
-      {"name": "Omoplata Control", "relationship": "Related submission defense - similar shoulder mechanics"},
-      {"name": "Kimura Control", "relationship": "Related shoulder lock defense"},
-      {"name": "Turtle", "relationship": "Common entry position and escape destination"},
-      {"name": "Closed Guard", "relationship": "Primary escape target position"},
-      {"name": "Submission Defense", "relationship": "Conceptual framework for defending submissions"}
+      {
+        "name": "Omoplata Control",
+        "relationship": "Related submission defense - similar shoulder mechanics"
+      },
+      {
+        "name": "Kimura Control",
+        "relationship": "Related shoulder lock defense"
+      },
+      {
+        "name": "Turtle",
+        "relationship": "Common entry position and escape destination"
+      },
+      {
+        "name": "Closed Guard",
+        "relationship": "Primary escape target position"
+      },
+      {
+        "name": "Submission Defense",
+        "relationship": "Conceptual framework for defending submissions"
+      }
     ],
-
     "position_metrics": {
       "retention_rate": {
         "beginner": 20,
@@ -301,21 +315,20 @@
       },
       "average_time": "15-45 seconds before escape or submission"
     },
-
-    "expert_insights": {
-      "danaher": "The Aoki Lock bottom position represents a biomechanical nightmare where leg entanglement control eliminates the traditional escape vectors available in standard shoulder lock defense. The key to survival lies in understanding that your opponent has created a geometric trap where your shoulder's range of motion is artificially constrained by the leg positioning. Your primary defensive mechanism must focus on rolling toward the trapped arm rather than away from it, following the path of least resistance while simultaneously reducing the pressure angle on your shoulder joint. The critical error most practitioners make is treating this as a traditional omoplata or kimura defense and attempting to fight against the pressure direction. The sophisticated escape artist recognizes that the leg entanglement, while appearing to strengthen opponent control, actually commits their body weight in a specific direction that can be exploited through proper rolling mechanics. The moment you recognize this position, you must commit to your escape immediately - static defense in Aoki Lock bottom is merely delaying the inevitable submission. Focus on creating continuous movement toward your escape vector rather than attempting to muscle out of the position.",
-      "gordon_ryan": "From a competition standpoint, ending up in Aoki Lock bottom means you've made serious positional errors and you're in immediate submission danger. I've never been caught in this position at the highest levels because I prioritize arm positioning in scrambles and turtle defense, but I've seen it finish matches at every belt level. The key is immediate, explosive action the moment you recognize the leg entanglement over your shoulder. You have maybe 5-10 seconds to execute your escape before the pressure becomes too dangerous to defend. My preference is the rolling escape because it's proactive and uses opponent's pressure against them - when they drive into you, you roll with that momentum toward your trapped arm. The alternative is trying to extract your arm, but this requires perfect timing when they adjust position. In training, I emphasize tapping early from this position because shoulder injuries are career-ending and this submission can cause serious damage before you realize you're in danger. Never let ego prevent you from tapping to an Aoki Lock - the position is too dangerous to defend beyond your safety threshold.",
-      "eddie_bravo": "The Aoki Lock bottom position is brutal and you need to get out immediately using that 10th Planet philosophy of creating chaos and movement. Traditional jiu-jitsu defense protocols don't work well here because the leg entanglement changes the whole dynamic of how you can move. We train our guys to immediately initiate the rolling escape sequence the moment they feel that leg come over their shoulder - you cannot wait to see what happens or try to defend statically. The beautiful thing about the rolling escape is that it works with the opponent's pressure rather than fighting against it, which is core to our flow philosophy. I've also seen some of our guys successfully attack the opponent's base with their free hand to create scrambles, but this requires high-level timing and risk tolerance. The main thing is understanding that this position represents a failure in your defensive structure earlier in the sequence - if you're ending up in Aoki Lock bottom regularly, you need to fix your turtle defense and scramble positioning. When training this position, we never go hard because shoulder locks are too dangerous. Practice the escape mechanics at 40-50% pressure maximum and develop your feel for the correct rolling direction and timing."
-    },
-
     "name": "Aoki Lock Bottom",
     "description": "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 40% escape rate.",
-    "tags": ["bjj", "position", "aoki-lock", "bottom", "defense", "shoulder-lock-defense", "escape"]
+    "tags": [
+      "bjj",
+      "position",
+      "aoki-lock",
+      "bottom",
+      "defense",
+      "shoulder-lock-defense",
+      "escape"
+    ]
   },
-
   "top": {
     "overview": "The Aoki Lock Top Position represents an advanced submission control state where the top practitioner has secured a leg-entangled shoulder lock position, named after Shinya Aoki's signature application. This position combines elements of leg entanglement control with omoplata-style shoulder lock mechanics, creating a powerful finishing position that controls the opponent's mobility while applying progressive pressure to the shoulder joint. The top player maintains dominant leverage through hip pressure and precise limb control, making this one of the most controlling submission positions in modern no-gi grappling.\n\nFrom the top perspective, this position offers exceptional control over the opponent's upper body rotation and shoulder mobility while simultaneously managing their leg positioning. The practitioner uses their legs to trap the opponent's arm and shoulder complex while maintaining stable base through posted leg and applying rotational pressure to the shoulder joint. Success requires precise technical execution, strong positional awareness, and deep understanding of shoulder lock mechanics and safety protocols.\n\nThe Aoki Lock top position is particularly effective in no-gi competition where the absence of gi grips makes traditional shoulder lock escapes more difficult. It commonly arises from turtle attacks, front headlock positions, or guard passing sequences where the opponent's arm becomes isolated. Understanding proper entry mechanics, pressure application protocols, and transition options is essential for high-level execution. The position serves as a hub for multiple offensive paths including direct submission finish, back control advancement, truck system entry, and crucifix capture.",
-
     "state_properties": {
       "point_value": 4,
       "position_type": "Offensive/Controlling",
@@ -323,7 +336,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Short to Medium"
     },
-
     "state_invariants": [
       "Top player's legs are entangled with opponent's trapped arm with thigh positioned over shoulder and shin controlling upper arm",
       "Opponent is typically on side or stomach with trapped shoulder isolated and unable to rotate freely",
@@ -332,7 +344,6 @@
       "Opponent's trapped arm is extended and isolated between top player's legs with elbow pointing away from body",
       "Top player's hands control opponent's hips or far-side limbs preventing rotation and escape angles"
     ],
-
     "prerequisites": [
       "Successful entry from front headlock, turtle, or guard passing position with arm isolated",
       "Control of opponent's shoulder with legs positioned for entanglement",
@@ -340,7 +351,6 @@
       "Base established through posting leg and hip positioning",
       "Understanding of shoulder lock mechanics and progressive pressure application protocols"
     ],
-
     "key_principles": [
       "Maintain constant hip pressure directed into opponent's shoulder to prevent rotation and create submission threat",
       "Control opponent's trapped arm angle with legs keeping elbow pointed away from their body",
@@ -350,7 +360,6 @@
       "Keep weight distributed through hips into opponent's shoulder rather than relying on arm strength",
       "Maintain leg entanglement tightness to prevent arm extraction and position escape"
     ],
-
     "offensive_transitions": [
       {
         "technique": "Aoki Lock Finish",
@@ -407,7 +416,6 @@
         }
       }
     ],
-
     "defensive_responses": [
       {
         "technique": "Roll Through Escape",
@@ -430,7 +438,6 @@
         "success_rate": 30
       }
     ],
-
     "counter_transitions": [
       {
         "technique": "Back Take from Roll Attempt",
@@ -453,7 +460,6 @@
         "trigger": "Opponent stops moving and tightens defensive posture without escape attempt"
       }
     ],
-
     "decision_tree": [
       {
         "condition": "If opponent attempts to roll forward through the position",
@@ -516,7 +522,6 @@
         ]
       }
     ],
-
     "common_errors": [
       {
         "error": "Posting too far from opponent with free leg reducing hip pressure on shoulder",
@@ -554,7 +559,6 @@
         "correction": "Recognize when opponent's defense is strong and transition to back control, truck, or crucifix"
       }
     ],
-
     "training_drills": [
       {
         "name": "Aoki Lock Entry Repetitions",
@@ -577,7 +581,6 @@
         "duration": "10 minutes"
       }
     ],
-
     "optimal_submission_paths": [
       {
         "name": "Direct finish from control",
@@ -600,18 +603,40 @@
         "path": "Aoki Lock Top → North-South → North-South Choke"
       }
     ],
-
     "related_content": [
-      {"name": "Aoki Lock", "relationship": "Primary submission finish from this position"},
-      {"name": "Truck", "relationship": "Transition target - alternative control position"},
-      {"name": "Back Control", "relationship": "Transition target - superior control position"},
-      {"name": "Crucifix", "relationship": "Transition target - alternative submission control"},
-      {"name": "Kimura Control", "relationship": "Transition target - related shoulder lock control"},
-      {"name": "Omoplata", "relationship": "Related submission - similar shoulder lock mechanics"},
-      {"name": "Kimura Trap System", "relationship": "Related system - shoulder lock control methodology"},
-      {"name": "Submission Control Position", "relationship": "Concept - submission position fundamentals"}
+      {
+        "name": "Aoki Lock",
+        "relationship": "Primary submission finish from this position"
+      },
+      {
+        "name": "Truck",
+        "relationship": "Transition target - alternative control position"
+      },
+      {
+        "name": "Back Control",
+        "relationship": "Transition target - superior control position"
+      },
+      {
+        "name": "Crucifix",
+        "relationship": "Transition target - alternative submission control"
+      },
+      {
+        "name": "Kimura Control",
+        "relationship": "Transition target - related shoulder lock control"
+      },
+      {
+        "name": "Omoplata",
+        "relationship": "Related submission - similar shoulder lock mechanics"
+      },
+      {
+        "name": "Kimura Trap System",
+        "relationship": "Related system - shoulder lock control methodology"
+      },
+      {
+        "name": "Submission Control Position",
+        "relationship": "Concept - submission position fundamentals"
+      }
     ],
-
     "position_metrics": {
       "retention_rate": {
         "beginner": 55,
@@ -633,15 +658,16 @@
       },
       "average_time": "30-90 seconds before finish or transition"
     },
-
-    "expert_insights": {
-      "danaher": "The Aoki Lock top position represents a sophisticated blend of leg entanglement control and shoulder lock mechanics that requires deep understanding of both systems. The key to success lies in the precise geometric relationship between your hip pressure vector and the opponent's shoulder joint axis of rotation. Your legs function as a clamping mechanism that isolates the shoulder while your hips provide the directional force that creates the submission threat. The position's effectiveness stems from the opponent's limited defensive options - they cannot simply roll out as in traditional shoulder locks because your leg entanglement controls their rotation, and they cannot extract their arm without first escaping your hip pressure. Focus on maintaining three points of control simultaneously: leg pressure on the shoulder complex, hip pressure directed into the joint, and hand control preventing hip rotation. The submission finish requires gradual, progressive pressure application with constant awareness of the opponent's tap signals, as shoulder locks can cause serious injury if applied too quickly or forcefully. The sophisticated practitioner recognizes that this position serves as a control hub - when the finish becomes difficult, multiple high-percentage transitions to back control, truck, and crucifix remain available.",
-      "gordon_ryan": "From a competition standpoint the Aoki Lock top position is one of the highest-percentage finishes available once you've secured proper control. In my matches I use this position primarily as a finishing sequence rather than a holding position - if I've isolated the shoulder and established the leg entanglement correctly I'm looking to finish within 15-30 seconds or transition to back control. The key competitive advantage is that most opponents don't train this position extensively so their defensive reactions are often incorrect creating multiple transition opportunities. When they try to roll through which is the most common defense you have a direct path to back control. When they turn away you can enter the truck system. The position also works exceptionally well in no-gi competition where traditional shoulder lock escapes using gi grips aren't available. I prioritize quick entries from turtle and front headlock positions securing the arm isolation before the opponent recognizes the danger. Once you have the position focus on finishing efficiently rather than holding - the longer you maintain the position without finishing the more time the opponent has to find defensive solutions. In training never apply this submission explosively or with full power - shoulder injuries end careers and this position can cause serious damage if applied incorrectly.",
-      "eddie_bravo": "The Aoki Lock top position fits perfectly into the 10th Planet philosophy of control positions that create multiple submission and transition paths while keeping you safe from counters. What makes this position special is how it combines elements from our truck system with shoulder lock finishing mechanics - you're essentially creating a submission control position that can flow into our entire back attack system if the opponent defends the shoulder lock. We teach students to think of this position as a hub in their submission game rather than just an isolated technique. From here you can finish the shoulder lock, transition to the truck for twister setups, take the back for rear naked choke, or capture the crucifix if they expose their far arm. The innovation comes from recognizing that the leg entanglement doesn't just control the arm - it also limits their ability to create the angles needed for most escapes. We drill this position extensively with resistance teaching students to read the opponent's defensive energy and flow with it rather than fighting against it. If they roll you roll to back control. If they turn away you follow to truck. If they freeze up you finish the lock. The key is staying relaxed and maintaining your control points while reading their movement patterns. This position represents the evolution of no-gi grappling where we're integrating concepts from different submission systems to create new hybrid positions."
-    },
-
     "name": "Aoki Lock Top",
     "description": "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 60% finish rate.",
-    "tags": ["bjj", "position", "aoki-lock", "top", "submission-control", "shoulder-lock", "advanced"]
+    "tags": [
+      "bjj",
+      "position",
+      "aoki-lock",
+      "top",
+      "submission-control",
+      "shoulder-lock",
+      "advanced"
+    ]
   }
 }

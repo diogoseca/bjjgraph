@@ -8,7 +8,7 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,7 +18,7 @@ description: "Master Old School position in BJJ half guard. Strategic guide cove
 
 <section id="overview" class="content-section">
 
-Old School position represents a critical battleground in modern half guard, where the lockdown creates a powerful control system that transforms half guard from defensive holding to offensive launching pad. This position gained prominence through Eddie Bravo's 10th Planet system, establishing lockdown-based attacks as legitimate alternatives to traditional half guard approaches. The position exists in constant tension between bottom's sweeping threats and top's passing pressure, creating a dynamic chess match of control and counter-control.
+Old School position represents a critical battleground in modern half guard, where the lockdown creates a powerful control system that transforms half guard from defensive holding to offensive launching pad. This position gained prominence through the 10th Planet system, establishing lockdown-based attacks as legitimate alternatives to traditional half guard approaches. The position exists in constant tension between bottom's sweeping threats and top's passing pressure, creating a dynamic chess match of control and counter-control.
 
 From bottom perspective, Old School provides immediate offensive threats through the signature Old School Sweep, Electric Chair submissions, and various lockdown-based attacks. The lockdown's figure-four leg configuration immobilizes the opponent's trapped leg while creating leverage for powerful rotational sweeps. Combined with underhook and head control, bottom creates a multi-layered threat system that forces top into defensive reactions.
 

@@ -8,7 +8,7 @@ description: "Master the critical distinction between BJJ concepts and technique
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -376,7 +376,6 @@ Structure sparring rounds around specific concepts rather than positions or tech
 - [[Progressive Resistance Training]] (Principle) - Training methodology must account for the distinction between technical and conceptual development, as these require different approaches
 - [[Frame Management]] (Principle) - Example of a transferable concept that manifests through multiple techniques across different positions
 - [[Connection Principles]] (Principle) - Core concept that operates across all positions and informs countless techniques, exemplifying the concept-technique relationship
-- [[Danaher Front Headlock System]] (System) - Exemplifies systematic organization of techniques around conceptual principles, demonstrating expert-level integration of concepts and techniques
 - [[Drilling Methodology]] (Principle) - Must be adapted based on whether developing technical proficiency or conceptual understanding
 - [[Biomechanical Principles]] (Principle) - Foundational concepts that underlie all technique execution and enable conceptual understanding
 - [[Leverage Principles]] (Principle) - Core concept operating across all positions, exemplifying how principles transcend specific technical applications

@@ -4,11 +4,11 @@
 
 ---
 title: "Zombie | BJJ Position Guide | BJJ Graph"
-description: "Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining Eddie Bravo's 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates."
+description: "Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining the 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

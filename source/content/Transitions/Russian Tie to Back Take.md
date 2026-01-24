@@ -8,7 +8,7 @@ description: "Master the Russian Tie to Back Take in BJJ. Step-by-step execution
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -156,7 +156,7 @@ The Russian Tie to Back Take is a fundamental wrestling-based technique that has
 
 What makes this technique particularly effective is its versatility - it can be executed from various standing positions including neutral stance, collar tie situations, or failed takedown attempts. The key principle is creating an angle where the opponent cannot effectively defend their back while their arm is compromised. Unlike traditional wrestling back takes that rely on explosive speed, the Russian Tie allows for controlled, technical progression to back control.
 
-This technique is favored by modern grapplers like Gordon Ryan and Garry Tonon because it seamlessly integrates wrestling and jiu-jitsu principles. The Russian Tie creates a dilemma: if the opponent pulls their arm back, you can shoot for their legs; if they maintain position, you can circle to their back. This makes it an excellent high-percentage technique for competitors at all levels, with success rates ranging from 35% for beginners to 70% for advanced practitioners.
+This technique is favored by modern grapplers like elite competitors' and Garry Tonon because it seamlessly integrates wrestling and jiu-jitsu principles. The Russian Tie creates a dilemma: if the opponent pulls their arm back, you can shoot for their legs; if they maintain position, you can circle to their back. This makes it an excellent high-percentage technique for competitors at all levels, with success rates ranging from 35% for beginners to 70% for advanced practitioners.
 
 **Starting Position**: [[Standing Position]]
 **Ending Position**: [[Back Control]]

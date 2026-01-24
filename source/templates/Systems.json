@@ -281,11 +281,6 @@
           }
         }
       }
-    },
-    "expert_insights": {
-      "type": "object",
-      "description": "DEPRECATED - Expert insights removed for copyright reasons",
-      "additionalProperties": true
     }
   }
 }

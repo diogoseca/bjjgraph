@@ -8,7 +8,7 @@ description: "Master pressure passing methodology in BJJ. Learn systematic guard
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -159,7 +159,7 @@ description: "Master pressure passing methodology in BJJ. Learn systematic guard
 
 ## What is Pressure Passing Framework?
 
-The Pressure Passing Framework represents a systematic approach to guard passing that prioritizes sustained physical pressure, strategic weight distribution, and connection control over speed and agility. This methodology focuses on making the guard player carry the passer's weight while systematically removing their defensive frames and limiting their mobility. Rather than attempting to pass around the guard quickly, pressure passing seeks to establish dominant grips, compress the guard player's space, and advance position incrementally while maintaining superior connection points. This framework is particularly effective against retention-based guard systems that rely on distance management and framing, as it nullifies these defensive strategies through constant forward pressure and strategic positioning. The approach demands strong positional awareness, excellent base maintenance, and the ability to chain positions together while never allowing the guard player to create the distance necessary for effective defense. Pressure passing has become a cornerstone of modern competitive BJJ, with practitioners like Bernardo Faria and Gordon Ryan demonstrating its effectiveness at the highest levels of competition. The framework encompasses multiple passing positions including headquarters, knee slice, smash pass, and leg drag variations, all unified by the common principle of sustained pressure and connection dominance.
+The Pressure Passing Framework represents a systematic approach to guard passing that prioritizes sustained physical pressure, strategic weight distribution, and connection control over speed and agility. This methodology focuses on making the guard player carry the passer's weight while systematically removing their defensive frames and limiting their mobility. Rather than attempting to pass around the guard quickly, pressure passing seeks to establish dominant grips, compress the guard player's space, and advance position incrementally while maintaining superior connection points. This framework is particularly effective against retention-based guard systems that rely on distance management and framing, as it nullifies these defensive strategies through constant forward pressure and strategic positioning. The approach demands strong positional awareness, excellent base maintenance, and the ability to chain positions together while never allowing the guard player to create the distance necessary for effective defense. Pressure passing has become a cornerstone of modern competitive BJJ, with practitioners like Bernardo Faria and elite competitors' demonstrating its effectiveness at the highest levels of competition. The framework encompasses multiple passing positions including headquarters, knee slice, smash pass, and leg drag variations, all unified by the common principle of sustained pressure and connection dominance.
 
 </section>
 

@@ -1,6 +1,6 @@
 ---
 title: "Submissions | BJJ Technique Guide | BJJ Graph"
-description: "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights."
+description: "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, and escapes."
 ---
 
 <!-- Schema Markup for SEO -->
@@ -9,7 +9,7 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Submissions | BJJ Technique Guide",
-  "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.",
+  "description": "Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, and escapes.",
   "url": "https://bjjgraph.org/submissions",
   "isPartOf": {
     "@type": "WebSite",
@@ -843,7 +843,7 @@ description: "Master all BJJ submission techniques. Complete guide to chokes, jo
 }
 </script>
 
-Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, escapes, and expert insights.
+Master all BJJ submission techniques. Complete guide to chokes, joint locks, and finishing positions. Learn setups, and escapes.
 
 
 
@@ -993,7 +993,7 @@ Master the Calf Slicer from 50-50 Guard in BJJ. Complete safety guide covering s
 
 ### [[Calf Slicer from Truck]]
 
-Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from Eddie Bravo's system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
+Master the Calf Slicer from Truck in BJJ. Complete guide with safety protocols, setup, execution from the 10th Planet system. Success: Beginner 30%, Intermediate 50%, Advanced 70%.
 
 ### [[Can Opener]]
 
@@ -1337,7 +1337,7 @@ Master Triangle Choke Side from top position in BJJ. Complete safety guide cover
 
 ### [[Triangle from Back]]
 
-Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%. Expert insights included.
+Master Triangle from Back in BJJ. Complete guide with safety protocols, setup, execution. Success rates: Beginner 35%, Intermediate 50%, Advanced 65%.
 
 ### [[Triangle from Closed Guard]]
 

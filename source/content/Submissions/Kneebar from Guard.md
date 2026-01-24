@@ -8,7 +8,7 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -415,7 +415,6 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 - [[X-Guard to Ashi Transition]] - Alternative leg entanglement entry that can lead to kneebar opportunities
 - [[Ashi Garami]] - Understanding escapes helps recognize defensive patterns to counter
 - [[De La Riva to X-Guard Transition]] - Common sweep chain that can convert to kneebar attacks
-- [[Danaher Leg Lock System]] - Systematic framework for understanding kneebar within complete leg lock game
 - [[Craig Jones Leg Lock System]] - Modern competitive approach emphasizing kneebar from guard positions
 - [[Leg Entanglement]] - Fundamental principle underlying all kneebar entries and control
 - [[Inside Ashi-Garami]] - Related leg entanglement position with similar finishing mechanics

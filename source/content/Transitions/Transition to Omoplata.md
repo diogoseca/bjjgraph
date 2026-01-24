@@ -8,7 +8,7 @@ description: "Learn Transition to Omoplata in BJJ. Complete guide to entering om
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -282,7 +282,7 @@ Attempt omoplata transitions during normal rolling without pre-arrangement. Focu
 
 **Triangle Defense to Omoplata**: When opponent defends triangle choke by hiding their arm and creating posture, transition directly to omoplata by rotating hips and threading leg over their shoulder. This is one of the highest percentage entries as opponent's defensive position naturally sets up the omoplata angle. (When to use: When triangle attack is defended and opponent tucks their arm tight to their body, or when they attempt to stack and pass during triangle defense.)
 
-**Rubber Guard to Omoplata (Mission Control Entry)**: From rubber guard mission control position, break opponent's posture using high guard and rotate to omoplata by releasing mission control and threading leg over shoulder. The rubber guard provides extreme posture control making this entry very high percentage. Part of Eddie Bravo's dead orchard system. (When to use: When controlling opponent in rubber guard positions and they attempt to defend by pulling their arm back, or as part of systematic rubber guard attack sequences.)
+**Rubber Guard to Omoplata (Mission Control Entry)**: From rubber guard mission control position, break opponent's posture using high guard and rotate to omoplata by releasing mission control and threading leg over shoulder. The rubber guard provides extreme posture control making this entry very high percentage. Part of 10th Planet's dead orchard system. (When to use: When controlling opponent in rubber guard positions and they attempt to defend by pulling their arm back, or as part of systematic rubber guard attack sequences.)
 
 **Rolling Omoplata from Standing**: When opponent stands in your guard, establish sleeve and collar grip, place foot on hip, and execute rolling motion while threading leg over their shoulder as you invert. This creates dynamic entry using their standing posture against them. Requires excellent timing and hip mobility. (When to use: When opponent stands up to pass or break your guard, particularly in competition scenarios where standing passes are common.)
 

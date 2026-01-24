@@ -8,7 +8,7 @@ description: "Master grasshopper guard in BJJ. Strategic guide covering elevatio
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -26,7 +26,7 @@ From a systematic perspective, grasshopper guard functions as both a transitiona
 
 The position gained popularity in modern no-gi competition, where the absence of gi grips makes inverted guards more viable. Without collar and sleeve controls to worry about, practitioners can focus entirely on leg positioning and hip movement. The grasshopper configuration particularly shines when opponents attempt to back step or circle away from leg attacks, as the inverted player can chase and adjust angles more freely than from traditional seated guards.
 
-Strategically, grasshopper guard creates what John Danaher describes as "asymmetric engagement" - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.
+Strategically, grasshopper guard creates what systematic describes as "asymmetric engagement" - the bottom player invests heavily in leg control while sacrificing upper body connection. This trade-off works when the practitioner has superior leg entanglement skills and can transition faster than the opponent can establish passing pressure. The guard becomes dangerous when the bottom player can seamlessly flow between inversion angles, preventing the top player from settling into stable passing positions.
 
 The energy dynamics of grasshopper guard differ significantly from traditional guards. Maintaining inverted positioning requires considerable core strength and flexibility, making it unsustainable for extended periods. Successful grasshopper guard players treat it as a transitional hunting ground rather than a resting position, constantly looking to convert the inversion into submission attempts or sweeps before fatigue sets in.
 

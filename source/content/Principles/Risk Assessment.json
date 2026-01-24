@@ -1,7 +1,16 @@
 {
   "name": "Risk Assessment",
   "description": "Master strategic decision-making in BJJ through comprehensive risk assessment. Learn position evaluation, success probability estimation, and context-based strategy.",
-  "tags": ["bjj", "principle", "strategy", "decision-making", "risk-management", "competition", "training", "mental-game"],
+  "tags": [
+    "bjj",
+    "principle",
+    "strategy",
+    "decision-making",
+    "risk-management",
+    "competition",
+    "training",
+    "mental-game"
+  ],
   "application_level": "Intermediate",
   "complexity_level": "High",
   "development_timeline": "Intermediate to Expert",
@@ -372,10 +381,5 @@
       "content_type": "Principle",
       "relationship": "Direct application of risk assessment for prioritizing escape options from inferior positions"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Risk assessment represents the transition from mechanical technique execution to strategic decision-making, which is the hallmark of advanced jiu-jitsu. The fundamental principle is that every action must be evaluated not merely by its mechanical correctness, but by its probability of success in the current context and the consequences of failure. I emphasize to my students that position is the foundation of all offense - when you have dominant position, you can be patient and selective because failed attacks rarely result in position loss. Conversely, from inferior positions, only the highest-percentage escapes should be attempted, and submission attacks are almost never justified unless the setup is exceptional. The critical insight is that risk assessment must be dynamic and continuous - what was high percentage thirty seconds ago may now be low percentage due to changes in grips, base, or positioning. Elite competitors distinguish themselves not by having more techniques, but by having superior judgment about when to apply which techniques. This judgment is built through thousands of hours of experience, careful analysis of successes and failures, and honest self-assessment of one's capabilities. The student who develops systematic risk assessment will consistently defeat more athletic or technically diverse opponents through superior strategic thinking.",
-    "gordon_ryan": "In competition, risk assessment is everything - it's the difference between being a gym hero and a tournament champion. I approach every match with a clear understanding of what I do at the highest level and what carries more risk for me personally. From top position, I can be extremely patient because I know my passing and control is world-class, so I wait for the perfect submission setup rather than forcing low-percentage attacks. But if I'm down on points with two minutes left, the entire calculation changes - I'll accept much higher risks because the status quo means I lose anyway. The key is being brutally honest about your skill level in different areas. If your guard passing is average but your leg locks are elite, pulling guard against a strong wrestler might be the right risk assessment even though it seems defensive. I see a lot of guys lose because they try to prove something instead of playing the percentages - they want to show they can wrestle or pass guard even when it's not their A-game. In my matches, you'll notice I almost never attempt submissions from bad positions because giving up dominant control for a low-percentage finish is terrible risk-reward. I'd rather spend three minutes securing mount perfectly and then finish with a high-percentage attack than rush an armbar from half guard that might get me swept. Competition is about winning, not about showing off every technique you know.",
-    "eddie_bravo": "Risk assessment in 10th Planet is all about creating situations where the risk-reward ratio is in your favor through position and control, but we also embrace calculated risks that other systems might avoid. The rubber guard is a perfect example - conventional wisdom says attacking from bottom guard is risky, but when you have the opponent's posture completely broken and their arm isolated, the risk-reward of going for omoplata or triangle is actually better than trying to sweep to a top position you might not be comfortable in anyway. The key is understanding what risks make sense for your game. If you're a guard player, staying on bottom against a strong top player and working your attacks might be lower risk than trying to get on top where you're less comfortable. We also think about risk differently in no-gi versus gi - in no-gi, positions are more fluid and escapes are faster, so sometimes you have to take the submission when it's there because the window might close. I teach my guys to know their path - if you're working the lockdown system, you need to understand the risk at each stage and when to commit to the electric chair versus when to return to half guard. The biggest mistake I see is people playing too conservative from their A-game positions because they're applying general risk assessment rules instead of understanding the specific risk-reward of their personal system. You've got to know when your system gives you advantages that change the normal calculations, and that comes from drilling your sequences until you know exactly what works and what doesn't."
-  }
+  ]
 }

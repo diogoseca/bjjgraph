@@ -8,7 +8,7 @@ description: "Master control maintenance in BJJ. Learn pressure modulation, conn
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -380,7 +380,6 @@ Study video footage of high-level competition matches focusing specifically on c
 - [[Back Control]] (Position) - Highest-value position where control maintenance enables submission opportunities
 - [[Knee on Belly]] (Position) - Dynamic position requiring continuous control maintenance through pressure modulation
 - [[North-South]] (Position) - Transitional position where control maintenance prevents guard recovery
-- [[Danaher Straight Jacket System]] (System) - Systematic approach to pin control where maintenance enables submission sequences
 
 
 </section>

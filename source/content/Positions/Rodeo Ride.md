@@ -8,7 +8,7 @@ description: "Master Rodeo Ride position in BJJ. Advanced turtle attack with asy
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

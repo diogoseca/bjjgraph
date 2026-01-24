@@ -8,7 +8,7 @@ description: "Master leg weave position in BJJ. Advanced guard passing control w
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

@@ -8,7 +8,7 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -413,7 +413,6 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 - [[Submission Chains]] - Strategic framework for combining crucifix armbar with other attacks
 - [[Control Maintenance]] - Fundamental principle for maintaining crucifix throughout submission sequence
 - [[Position-Over-Submission Approach]] - Core philosophy - crucifix control makes armbar possible
-- [[Danaher Straight Jacket System]] - Systematic approach to crucifix attacks including this armbar variation
 - [[Back Attack System]] - Comprehensive system including crucifix entries and finishes
 - [[Arm Extraction]] - Key transition skill for isolating the arm from crucifix position
 - [[Rodeo Ride]] - Alternative back control position with similar arm isolation opportunities

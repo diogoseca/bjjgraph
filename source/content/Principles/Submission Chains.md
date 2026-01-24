@@ -8,7 +8,7 @@ description: "Master submission chains in BJJ. Learn systematic attack sequences
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -163,7 +163,7 @@ Submission Chains represent the systematic linking of multiple submission attemp
 
 The fundamental principle underlying submission chains is that defensive actions are predictable and can be systematically exploited. When an opponent defends an armbar by pulling their arm out, they create specific mechanical opportunities for triangle attacks. When they posture up to escape a triangle, they expose their arms for kimura grips. This action-reaction relationship forms the basis of all effective chain systems, where the attacker maintains initiative by staying one step ahead of defensive responses.
 
-At the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like Gordon Ryan and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.
+At the highest levels of competition, submission chains represent the difference between occasional submission success and systematic finishing ability. Elite grapplers like elite competitors' and Garry Tonon don't hunt for single submissions—they create submission ecosystems where every defensive option leads to another attack. Understanding and developing chain-based offensive systems is essential for advancing beyond intermediate-level grappling and achieving consistent submission success against skilled opponents.
 
 </section>
 
@@ -374,7 +374,6 @@ Set specific chain completion goals (e.g., 'Complete triangle-armbar-omoplata ch
 - [[Back Control]] (Position) - Highest-percentage position for submission chains in competition contexts
 - [[Offensive Combinations]] (Principle) - Broader concept that submission chains represent the highest expression of in the submission domain
 - [[Action and Reaction]] (Principle) - Fundamental principle underlying all chain logic—chains exploit predictable defensive reactions
-- [[Danaher Leg Lock System]] (System) - Exemplary systematic approach to submission chains in the leg entanglement domain
 - [[Ryan Hall Triangle System]] (System) - Comprehensive chain system built around triangle as central hub position
 
 

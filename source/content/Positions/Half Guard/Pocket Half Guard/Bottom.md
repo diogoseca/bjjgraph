@@ -8,7 +8,7 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ description: "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard 
 
 Pocket Half Guard Bottom is a specialized half guard variant characterized by a deep underhook on the opponent's far side combined with tight hip connection and the trapped leg locked between your legs. The 'pocket' refers to the space created by pulling the opponent's far shoulder down with the underhook while using your bottom leg to create a frame against their near hip. This position excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while the tight leg control prevents them from advancing to mount or establishing a strong passing position.
 
-The position gained prominence through Eddie Bravo's 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard half guard where the underhook may be shallow, Pocket Half Guard demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps.
+The position gained prominence through the 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard half guard where the underhook may be shallow, Pocket Half Guard demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps.
 
 Pocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.
 

@@ -8,7 +8,7 @@ description: "Master Side Control in BJJ with comprehensive guides covering subm
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

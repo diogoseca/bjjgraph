@@ -8,7 +8,7 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,7 +18,7 @@ description: "Master Rubber Guard in BJJ with this comprehensive guide covering 
 
 <section id="overview" class="content-section">
 
-The Rubber Guard is a specialized guard position developed and popularized by Eddie Bravo within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various 10th Planet-specific submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize the 10th Planet approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions.
+The Rubber Guard is a specialized guard position developed and popularized by 10th Planet's within his 10th Planet Jiu-Jitsu system. This position builds upon the closed guard by adding a high degree of upper body control through a series of complex leg and arm configurations. At its core, the Rubber Guard involves the bottom player using their leg to trap the opponent's arm against their own chest, typically by bringing one leg high across the opponent's back and securing the shin or foot with the opposite arm. This creates exceptional posture control and provides unique attacking opportunities, particularly for triangles, omoplatas, and various 10th Planet-specific submissions. The position is especially effective in no-gi grappling and MMA contexts where it can neutralize the opponent's striking while setting up submissions. The Rubber Guard system includes multiple named positions such as Mission Control, New York, Invisible Collar, and Zombie, each representing a specific configuration within the overall framework. Success in this position requires exceptional flexibility, particularly in the hips and hamstrings, along with systematic understanding of the progression sequences that characterize the 10th Planet approach. The strategic trade-off inherent in Rubber Guard is clear: practitioners sacrifice some positional stability and mobility in exchange for superior arm control and unique submission pathways unavailable from conventional closed guard positions.
 
 </section>
 

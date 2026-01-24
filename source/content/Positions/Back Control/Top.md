@@ -8,7 +8,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -459,7 +459,7 @@ Partner works specific escape sequences while you practice countering escapes an
 - **[[Mount]]** - Alternative dominant position and common transition from back control
 - **[[Rear Naked Choke]]** - Primary submission attack from back control with highest success rate
 - **[[Back Attack System]]** - Comprehensive systematic approach to back control and submissions
-- **[[Danaher Straight Jacket System]]** - Advanced back control methodology focusing on arm control before submission
+- **[[systematic approach Straight Jacket System]]** - Advanced back control methodology focusing on arm control before submission
 
 
 </section>

@@ -8,7 +8,7 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -410,12 +410,10 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 ## Additional Related Content
 
 - [[Omoplata Control]] - Parent position - tarikoplata is variation with added wrist control
-- [[Rubber Guard]] - Primary entry system for tarikoplata in 10th Planet methodology
 - [[Mission Control]] - Optimal rubber guard position for transitioning to tarikoplata
 - [[Triangle Control]] - Alternative transition when triangle is defended - flow to tarikoplata
 - [[Baratoplata]] - Related shoulder lock variation using similar mechanics
 - [[Gogoplata]] - Complementary rubber guard submission, creates submission chain
-- [[10th Planet Rubber Guard System]] - Systematic framework where tarikoplata is key finishing option
 - [[Submission Chains]] - Principle of combining tarikoplata with triangle and omoplata attacks
 - [[Flexibility Training]] - Essential physical preparation for executing tarikoplata
 - [[Guard Opening Sequence]] - Initial control establishment before advancing to tarikoplata

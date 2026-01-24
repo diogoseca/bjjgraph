@@ -8,7 +8,7 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -113,10 +113,10 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
     },
     {
       "@type": "Question",
-      "name": "Why is the gogoplata particularly associated with Eddie Bravo's 10th Planet Jiu-Jitsu system?",
+      "name": "Why is the gogoplata particularly associated with the 10th Planet Jiu-Jitsu system?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eddie Bravo popularized the gogoplata through his 10th Planet Jiu-Jitsu system, which emphasizes rubber guard positions and high-level flexibility. The rubber guard positions (like mission control) create ideal setups for the gogoplata by maintaining broken posture, controlling the opponent's arm, and positioning the hips high on the opponent's back. Bravo's system specifically develops the flexibility and positional awareness needed for gogoplata success through dedicated rubber guard training. The technique fits perfectly into the 10th Planet philosophy of using flexibility and unconventional positions to create submission opportunities. While the gogoplata existed before Bravo (notably used in catch wrestling and by fighters like Shinya Aoki), his systematic approach to setting it up from rubber guard made it more accessible and repeatable for practitioners willing to develop the necessary flexibility."
+        "text": "10th Planet's popularized the gogoplata through his 10th Planet Jiu-Jitsu system, which emphasizes rubber guard positions and high-level flexibility. The rubber guard positions (like mission control) create ideal setups for the gogoplata by maintaining broken posture, controlling the opponent's arm, and positioning the hips high on the opponent's back. 10th Planets system specifically develops the flexibility and positional awareness needed for gogoplata success through dedicated rubber guard training. The technique fits perfectly into the 10th Planet philosophy of using flexibility and unconventional positions to create submission opportunities. While the gogoplata existed before 10th Planet (notably used in catch wrestling and by fighters like Shinya Aoki), his systematic approach to setting it up from rubber guard made it more accessible and repeatable for practitioners willing to develop the necessary flexibility."
       }
     }
   ]
@@ -160,7 +160,7 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 <section id="overview" class="content-section">
 
-The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with Eddie Bravo's 10th Planet Jiu-Jitsu system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.
+The Gogoplata is an advanced submission technique that utilizes the shin bone to create a choke by pressing against the opponent's trachea while simultaneously pulling their head forward. This highly technical submission is most commonly associated with the 10th Planet Jiu-Jitsu system and requires exceptional flexibility, precise positioning, and excellent timing. The Gogoplata is executed primarily from rubber guard positions, though variations exist from mount and other control positions.
 
 What makes the Gogoplata particularly effective is its unexpected nature and the difficulty opponents face in defending once the position is established. Unlike traditional chokes that rely on arm or collar grips, the Gogoplata uses the shin bone as the primary choking mechanism, making it extremely difficult to grip-fight or hand-fight out of the submission. The technique's success heavily depends on the practitioner's ability to maintain high guard control, break the opponent's posture, and possess the hip flexibility necessary to bring the shin across the throat.
 
@@ -306,7 +306,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 ## Variations
 **Gogoplata from High Mount**: When you have secured high mount position, opponent's defensive posture often creates an opening for the gogoplata. Thread your shin across their throat from the top position, using your body weight to drive the pressure down rather than pulling their head up. This variation requires even more flexibility but can be highly effective against defensive opponents who tuck their elbows in mount. (When to use: When you have high mount and opponent is defending with elbows tight to their body, creating space near their neck. Particularly effective when opponent turns to their side attempting to escape mount.)
 
-**Gogoplata from Mission Control**: From Eddie Bravo's mission control position (a specific rubber guard configuration), the gogoplata becomes more accessible. With opponent's arm trapped and their posture already compromised, thread your shin across while maintaining the mission control structure. This setup provides better control and makes the shin placement easier due to the arm trap. (When to use: When you have successfully entered mission control in the 10th Planet system and opponent's posture is broken. This is often the highest-percentage gogoplata setup for practitioners of the rubber guard system.)
+**Gogoplata from Mission Control**: From 10th Planet's mission control position (a specific rubber guard configuration), the gogoplata becomes more accessible. With opponent's arm trapped and their posture already compromised, thread your shin across while maintaining the mission control structure. This setup provides better control and makes the shin placement easier due to the arm trap. (When to use: When you have successfully entered mission control in the 10th Planet system and opponent's posture is broken. This is often the highest-percentage gogoplata setup for practitioners of the rubber guard system.)
 
 **Gogoplata from Failed Triangle Attempt**: If your triangle choke attempt is defended (opponent pulls their arm out), you can transition directly to gogoplata by adjusting your leg position. The transition is smooth because opponent's head is already controlled and their posture is broken from the triangle attempt. Simply adjust the choking leg's position to bring the shin across instead of the traditional triangle leg configuration. (When to use: When opponent defends your triangle by pulling their trapped arm free. The defensive motion often leaves their head in perfect position for gogoplata. This creates a powerful triangle-to-gogoplata combination attack.)
 
@@ -334,8 +334,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 **Q5**: What should you do immediately if your opponent goes limp or stops resisting during a gogoplata attempt? **[SAFETY-CRITICAL]**
 **A**: IMMEDIATELY release all pressure by removing your shin from their throat and releasing head control. Allow their head to return to a neutral position and remove your top leg from over their head completely. Lower your hips and release all pressure. Check on your training partner's condition immediately - they may have lost consciousness or suffered an injury. Do not continue training until you have confirmed they are okay and they have had adequate recovery time (minimum 2-3 minutes). If they lost consciousness, they should not continue training that day and should seek medical evaluation. Loss of resistance during a tracheal choke can indicate serious airway compromise or loss of consciousness, both of which require immediate cessation of the technique and medical assessment.
 
-**Q6**: Why is the gogoplata particularly associated with Eddie Bravo's 10th Planet Jiu-Jitsu system?
-**A**: Eddie Bravo popularized the gogoplata through his 10th Planet Jiu-Jitsu system, which emphasizes rubber guard positions and high-level flexibility. The rubber guard positions (like mission control) create ideal setups for the gogoplata by maintaining broken posture, controlling the opponent's arm, and positioning the hips high on the opponent's back. Bravo's system specifically develops the flexibility and positional awareness needed for gogoplata success through dedicated rubber guard training. The technique fits perfectly into the 10th Planet philosophy of using flexibility and unconventional positions to create submission opportunities. While the gogoplata existed before Bravo (notably used in catch wrestling and by fighters like Shinya Aoki), his systematic approach to setting it up from rubber guard made it more accessible and repeatable for practitioners willing to develop the necessary flexibility.
+**Q6**: Why is the gogoplata particularly associated with the 10th Planet Jiu-Jitsu system?
+**A**: 10th Planet's popularized the gogoplata through his 10th Planet Jiu-Jitsu system, which emphasizes rubber guard positions and high-level flexibility. The rubber guard positions (like mission control) create ideal setups for the gogoplata by maintaining broken posture, controlling the opponent's arm, and positioning the hips high on the opponent's back. 10th Planets system specifically develops the flexibility and positional awareness needed for gogoplata success through dedicated rubber guard training. The technique fits perfectly into the 10th Planet philosophy of using flexibility and unconventional positions to create submission opportunities. While the gogoplata existed before 10th Planet (notably used in catch wrestling and by fighters like Shinya Aoki), his systematic approach to setting it up from rubber guard made it more accessible and repeatable for practitioners willing to develop the necessary flexibility.
 
 
 
@@ -422,7 +422,6 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - [[Triangle Choke]] - Complementary submission - failed triangle can transition to gogoplata, and vice versa. Both require broken posture and high guard control
 - [[Omoplata]] - Part of the rubber guard submission system - can chain together with gogoplata as opponent defends one attack
 - [[Baratoplata]] - Another shin-based submission from rubber guard - similar setup requirements and flexibility demands
-- [[10th Planet Rubber Guard System]] - Strategic framework that encompasses gogoplata as a primary finishing option from rubber guard positions
 - [[Closed Guard]] - Starting position before establishing rubber guard - must transition through closed guard to access gogoplata setups
 - [[Mounted Triangle]] - Alternative finishing position - can transition from mount to gogoplata when flexibility allows
 - [[Inverted Guard]] - Advanced position allowing inverted gogoplata variations for extremely flexible practitioners

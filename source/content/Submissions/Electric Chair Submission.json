@@ -1,7 +1,16 @@
 {
   "name": "Electric Chair Submission",
   "description": "Master the Electric Chair from lockdown. Complete guide with compression mechanics, setup, and safety. Success: Beginner 35%, Intermediate 55%, Advanced 70%.",
-  "tags": ["bjj", "submission", "electric-chair", "lockdown", "leg-lock", "knee-compression", "half-guard", "10th-planet"],
+  "tags": [
+    "bjj",
+    "submission",
+    "electric-chair",
+    "lockdown",
+    "leg-lock",
+    "knee-compression",
+    "half-guard",
+    "10th-planet"
+  ],
   "submission_category": "Compression",
   "submission_type": "Knee and Hip Compression",
   "target_area": "Knee joint, hip flexors, and posterior chain",
@@ -11,7 +20,7 @@
     "intermediate": 55,
     "advanced": 70
   },
-  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined by Eddie Bravo and the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
+  "overview": "The Electric Chair is a signature submission technique from 10th Planet Jiu-Jitsu, primarily executed from the lockdown position in half guard. This compression-based submission creates intense pressure on the opponent's trapped leg by combining hip extension, knee torque, and spinal rotation. Unlike traditional joint locks that isolate a single articulation, the Electric Chair simultaneously attacks multiple anatomical structures including the knee joint, hip flexors, IT band, and lower back.\n\nThe submission derives its effectiveness from the lockdown control system, where the bottom player uses a figure-four leg configuration to trap and extend the opponent's leg while controlling their posture. From this foundation, the practitioner transitions to an inverted position, creating a powerful lever that forces the opponent's knee into hyperextension while applying rotational torque to the hip joint. The Electric Chair represents a perfect example of how systematic position control can lead to high-percentage finishing opportunities.\n\nHistorically developed and refined by 10th Planet's and the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -269,7 +278,7 @@
       "safety_critical": false
     },
     {
-      "question": "Why is Eddie Bravo's Electric Chair considered both a submission and a sweeping mechanism?",
+      "question": "Why is 10th Planet's Electric Chair considered both a submission and a sweeping mechanism?",
       "answer": "The Electric Chair functions as both submission and sweep because the inverted position and hip extension required for the submission naturally create sweeping momentum. When opponent defends the submission by attempting to maintain posture and pull their leg back, their defensive movements often facilitate sweep completion into Old School position or complete reversal. This dual-threat nature is strategic - if opponent focuses on defending the submission, the sweep becomes available; if they defend the sweep, submission pressure increases. This represents the '10th Planet dilemma' philosophy where every position offers multiple attacking options.",
       "safety_critical": false
     },
@@ -376,10 +385,6 @@
       "relationship": "Complete systematic approach to lockdown attacks centering on Electric Chair as primary submission"
     },
     {
-      "name": "10th Planet Half Guard Bottom System",
-      "relationship": "Comprehensive system that includes Electric Chair as core component of lockdown game"
-    },
-    {
       "name": "Half Guard",
       "relationship": "Foundational position from which lockdown and Electric Chair are established"
     },
@@ -395,10 +400,5 @@
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework for understanding how Electric Chair controls and attacks the leg"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The Electric Chair represents a fascinating case study in submission mechanics because it violates certain traditional principles while remaining highly effective. Most leg attacks in our systematic approach isolate single joints - the straight ankle lock attacks the ankle, the heel hook attacks the knee, and so forth. The Electric Chair, by contrast, creates a multi-structural attack that simultaneously compromises the knee joint, hip flexors, IT band, and lower back through a combination of extension and rotation. From a biomechanical perspective, this distributed pressure pattern makes the submission difficult to defend because protecting one anatomical structure often increases vulnerability in another. The key technical element is the lockdown control system, which functions analogously to how we use inside sankaku control in heel hook positions - it immobilizes the target leg and creates a stable platform for applying rotational and extensional forces. The submission's effectiveness stems from proper sequencing: lockdown establishment, posture disruption, angle creation through inversion, and progressive pressure application. Students must understand that the Electric Chair requires exceptional safety awareness because its multi-structural nature means injury can occur in multiple locations simultaneously if applied explosively. In training environments, I recommend application times of 7-10 seconds minimum to ensure adequate tap opportunity. The position also teaches important lessons about creating attacking dilemmas - when executed properly, opponent's defensive responses to the submission often facilitate sweep completion, exemplifying how position and submission should work synergistically rather than as isolated techniques.",
-    "gordon_ryan": "The Electric Chair is one of those submissions where there's a huge difference between how it works in the training room versus competition. In training, you can take your time setting it up from lockdown, inverting slowly, and applying progressive pressure over 5-7 seconds. In competition, especially at high levels, you rarely get that luxury because opponents understand the danger signs and defend aggressively the moment they feel lockdown pressure. My approach to Electric Chair in competition is to view it primarily as a sweeping mechanism with submission as a secondary bonus finish. When I get lockdown control, I'm immediately working toward Old School sweep or other positional advancement, and if opponent overcommits to defending the sweep, the Electric Chair becomes available. The submission finish happens maybe 20% of the time in high-level competition, but the threat of it happening creates the reactions I need to complete sweeps and take the back. That said, when the finish is there - usually because opponent has made a defensive error or I've set it up perfectly from a scramble - it's extremely high percentage because the pressure accumulates so quickly once you achieve proper inversion angle. The key difference-maker is hip extension power and timing. You need explosive hip drive to maximize the lever arm, but in training you must control that explosiveness and apply it progressively. I've tapped plenty of high-level black belts with this technique when they underestimate the pressure or defend incorrectly, but I've also learned that forcing it against elite defensive players often leads to losing position. The modern competitive meta requires you to flow between Electric Chair attempts, sweeps, and back take options rather than committing exclusively to the submission finish.",
-    "eddie_bravo": "The Electric Chair is the heart and soul of the 10th Planet lockdown system, man. I developed this submission because I was frustrated with how limited traditional half guard seemed - you could stall there all day but finishing from bottom half was rare. The Electric Chair changed everything because it turned half guard into this aggressive attacking position where you're constantly threatening to destroy their leg and sweep them at the same time. The beauty of it is the dilemma creation: if they defend the submission by pulling their leg back, they help you sweep; if they defend the sweep by driving forward, the submission gets tighter. It's a perfect example of the 10th Planet philosophy - create positions where every defensive option leads to another attack. Now, let me be real about safety because this submission can absolutely wreck somebody's knee if you're stupid with it. I've seen too many white belts try to rip this thing on like it's a heel hook, and that's how people get hurt. In our academy, we drill the hell out of the setup and inversion mechanics before we ever apply real pressure, and even then it's slow as hell in training - like 7 to 10 seconds minimum from start to finish. The submission works because of the rotation combined with extension, not because of speed or strength. When you're teaching this, emphasize the journey not the destination - the goal is controlling the lockdown, achieving perfect inversion, and creating the angle. The tap is just what happens when you do everything right. Also, this submission has evolved a ton since I first developed it. We've got variations from Old School position, transitions to Twister and Banana Split, entries from deep half - it's become this whole web of attacks. The key is staying creative and not getting locked into just one way of finishing it. Every body type is different, every flexibility level is different, so you gotta adjust your angle and pressure based on what you're working with. But always, always, always prioritize safety over the tap. There's gonna be another roll tomorrow, and your training partners need their knees to keep training."
-  }
+  ]
 }

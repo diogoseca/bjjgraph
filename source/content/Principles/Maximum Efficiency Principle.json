@@ -1,7 +1,16 @@
 {
   "name": "Maximum Efficiency Principle",
   "description": "Master the principle of maximum efficiency with minimum effort in BJJ. Learn leverage mechanics, force redirection, and energy conservation for sustainable technique execution.",
-  "tags": ["bjj", "principle", "efficiency", "leverage", "biomechanics", "energy conservation", "judo principle", "technical precision"],
+  "tags": [
+    "bjj",
+    "principle",
+    "efficiency",
+    "leverage",
+    "biomechanics",
+    "energy conservation",
+    "judo principle",
+    "technical precision"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Expert",
@@ -374,10 +383,5 @@
       "content_type": "Principle",
       "relationship": "Demonstrates efficiency through minimal force application to disrupt opponent equilibrium"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Maximum efficiency is not merely a training principle—it represents the fundamental philosophical divergence between grappling arts and other combat systems. In striking, you can compensate for poor mechanics with speed and power, but in grappling, the truth of mechanical advantage is absolute and cannot be overcome through athleticism alone. When I teach this principle, I emphasize that every position has an optimal structural configuration where control becomes nearly effortless, where the geometry of bone alignment and lever arms makes opponent escape attempts strengthen rather than weaken your position. The systematic study of these optimal configurations across all positions creates a game that improves with age rather than deteriorating, as mechanical understanding deepens even as athletic capacity declines. Students must understand that the appearance of effortlessness in high-level grapplers isn't genetic—it's the visible manifestation of thousands of hours spent eliminating unnecessary movement and muscular tension, refining each position until only the essential mechanical components remain. This is why I structure all my teaching systems around identifying and exploiting these mechanical truths rather than relying on attributes that fluctuate with conditioning or age.",
-    "gordon_ryan": "In competition, maximum efficiency becomes the difference between finishing strong in the final matches versus barely surviving. I've won ADCC finals that went the full time period not because I have superior cardio to other elite competitors, but because my positional control requires almost no energy expenditure while forcing opponents to burn massive amounts trying to escape. When I have someone in mount or back control, I'm positioned so that their escape attempts tighten my controls—I'm literally resting while they exhaust themselves. This efficiency advantage compounds throughout a tournament; in my final match I'm still finishing with submissions while opponents who relied on strength and pressure all day are surviving on fumes. The key insight is that efficiency isn't just about individual techniques—it's about building entire positional systems where every defensive option the opponent has requires them to expend energy while you maintain control through structure. In my passing game, I use angles and pressure points that force the guard player to constantly adjust and re-guard, burning their energy while I'm moving forward through optimal mechanical pathways. By the time I pass to mount, they're already compromised from the cumulative energy deficit, making submissions readily available. This is how you can compete multiple times in a day against the world's best—your game has to be built on efficiency principles at every level.",
-    "eddie_bravo": "Most people misunderstand efficiency and think it means being passive or defensive, but maximum efficiency can be wildly offensive when you understand leverage multiplication. In 10th Planet system, we use rubber guard and lockdown specifically because they create mechanical traps where opponent strength works against them—the harder they fight, the tighter the position gets. When you have someone in Mission Control with the overhook trapped, they can be a world champion and they still can't get out without giving you their back or their arm. That's pure efficiency—I'm not using strength to hold them there, the position itself is doing the work through geometric control. The lockdown in half guard is another example; when I whip up the electric chair, I'm not lifting them with my legs muscularly, I'm creating a lever system where small hip movements generate enormous spine pressure. This concept of efficiency through position structure allowed me to tap guys way bigger and stronger throughout my career. The innovation in no-gi is finding new geometric configurations that create these efficient control mechanisms, positions where the mechanical advantage is so severe that athleticism becomes irrelevant. That's what I'm always searching for—new positions where size and strength don't matter because the leverage math is so overwhelmingly in your favor that technique becomes absolute. When you find these positions, you can roll forever without getting tired because you're not fighting against them, you're just maintaining structure while they exhaust themselves trying to overcome the geometry."
-  }
+  ]
 }

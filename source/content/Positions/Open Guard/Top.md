@@ -8,7 +8,7 @@ description: "Master Open Guard Top in BJJ. Complete guide covering passing stra
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -481,7 +481,7 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 - **[[Closed Guard]]** - Related position with closed leg configuration
 - **[[Guard Passing Principles]]** - Fundamental concept governing this position
 - **[[Pressure Passing Framework]]** - Strategic system applicable from this position
-- **[[Gordon Ryan Passing System]]** - Expert system built around open guard passing
+- **[[elite competitors' Passing System]]** - Expert system built around open guard passing
 
 
 </section>

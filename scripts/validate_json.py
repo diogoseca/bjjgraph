@@ -284,9 +284,6 @@ def validate_success_rate_ordering(data, path=""):
     return errors
 
 
-# validate_expert_insights() removed - schema enforces this via required fields and minLength
-
-
 def validate_name_matches_filename(data, json_file_path, category):
     """Validate that name field matches filename"""
     errors = []

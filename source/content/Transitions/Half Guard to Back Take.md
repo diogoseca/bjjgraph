@@ -8,7 +8,7 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -350,7 +350,6 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 - [[Seat Belt Control Back]] - Follow-up control - primary grip configuration after achieving back
 - [[Underhook Sweep from Half]] - Alternative attack - complementary technique using same underhook control
 - [[Old School Sweep]] - Combination technique - can transition between this and back take based on opponent's defense
-- [[Lockdown]] - Position variation - 10th Planet approach to same back take concept
 - [[Deep Half Guard]] - Alternative entry - different half guard variation that can lead to same back take
 - [[Kimura to Back Take]] - Related technique - alternative grip configuration for same positional outcome
 - [[Dogfight Position]] - Transitional position - often occurs during back take attempt when opponent defends

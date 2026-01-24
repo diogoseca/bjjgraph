@@ -8,7 +8,7 @@ description: "Master D'arce choke variations in BJJ. Complete guide covering set
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -411,7 +411,6 @@ The D'arce choke represents one of the most versatile blood chokes in modern Bra
 - [[Front Headlock to Darce]] - Transition sequence for establishing choking position
 - [[Anaconda Setup]] - Alternative choke when D'arce is defended or unavailable
 - [[Snap Down to Front Headlock]] - Standing entry creating front headlock control for D'arce
-- [[Danaher Front Headlock System]] - Comprehensive system incorporating D'arce variations
 - [[Head Control]] - Fundamental principle for all D'arce entries
 - [[Shoulder Pressure]] - Critical pressure point for finishing D'arce effectively
 - [[Control Maintenance]] - Principle for holding position during D'arce transitions

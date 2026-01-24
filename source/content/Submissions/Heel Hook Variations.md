@@ -8,7 +8,7 @@ description: "Master heel hook variations in BJJ. Complete guide covering inside
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -436,7 +436,6 @@ The heel hook represents one of the most devastating and dangerous submissions i
 ## Additional Related Content
 
 - [[Ashi Garami]] - Parent position family for all heel hook variations
-- [[Danaher Leg Lock System]] - Systematic framework for heel hook entries and finishes
 - [[Craig Jones Leg Lock System]] - Modern competitive application of heel hook variations
 - [[Garry Tonon Leg Lock to Back System]] - Strategic system combining heel hooks with back takes
 - [[Lachlan Giles Leg Lock Defense Framework]] - Essential defensive principles against heel hook attacks

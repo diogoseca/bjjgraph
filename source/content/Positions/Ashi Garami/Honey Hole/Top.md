@@ -8,7 +8,7 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -162,7 +162,7 @@ description: "Master Honey Hole Position Top in BJJ. Advanced leg entanglement c
 
 Honey Hole Position Top, also known as Inside Sankaku or 411 position, is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.
 
-The Honey Hole represents the culmination of modern leg lock development, pioneered by John Danaher and his students. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.
+The Honey Hole represents the culmination of modern leg lock development, pioneered by systematic and his students. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.
 
 This position excels in no-gi grappling and submission-only rulesets where leg attacks are permitted. It requires careful control and technical precision to maintain while setting up submissions. The risk level is medium because improper execution can result in counter-entanglements or leg lock exposure for the attacker. The position's effectiveness stems from its ability to create mechanical disadvantage for the defender while establishing multiple submission threats simultaneously.
 
@@ -466,7 +466,7 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 - **[[X-Guard]]** - Common entry position for establishing honey hole
 - **[[Single Leg X-Guard]]** - Frequent starting position for honey hole entries
 - **[[Leg Entanglement]]** - Core concept governing all aspects of position control
-- **[[Danaher Leg Lock System]]** - System incorporating honey hole as key control position
+- **[[systematic approach Leg Lock System]]** - System incorporating honey hole as key control position
 
 
 </section>

@@ -1,13 +1,21 @@
 {
   "name": "Space Generation",
   "description": "Master Space Generation in BJJ. Learn frame mechanics, hip escape techniques, defensive positioning to create distance. Essential for escapes and guard retention.",
-  "tags": ["bjj", "principle", "space generation", "defense", "escape", "frames", "shrimping", "distance", "survival"],
+  "tags": [
+    "bjj",
+    "principle",
+    "space generation",
+    "defense",
+    "escape",
+    "frames",
+    "shrimping",
+    "distance",
+    "survival"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
-  
   "overview": "Space Generation is the fundamental defensive concept of creating distance between yourself and an opponent to prevent control, escape disadvantageous positions, and recover to more favorable positions. This concept represents the opposite of pressure passing and control maintenance—where offensive players seek to eliminate space, defensive players must actively create it to survive and escape. Space generation involves the coordinated use of frames, hip movement, shrimping, bridging, and strategic positioning to systematically create the gaps necessary for defensive maneuvers. Understanding space generation is essential for effective guard retention, pin escapes, and submission defense, as nearly all defensive sequences begin with the creation of space.\n\nThe ability to generate space under pressure separates competent defensive grapplers from those who get smashed and submitted. Space generation is not simply about pushing away—it requires precise timing, proper body mechanics, frame placement, and an understanding of leverage principles. Effective space generation creates windows of opportunity where defensive options become available: inserting guard frames, recovering hooks, escaping hips, or transitioning to better positions. The concept scales from fundamental white belt escapes to advanced black belt guard retention systems, with increasing sophistication in timing, efficiency, and strategic application.\n\nSpace generation fundamentally relies on the principle that control requires contact and pressure. By systematically creating distance at key control points—head, shoulders, hips, and legs—the defensive player disrupts the opponent's control structure and creates pathways for movement. This concept integrates closely with frame management, hip escape mechanics, and defensive posture to form the foundation of all defensive jiu-jitsu.",
-
   "key_principles": [
     "Space is required for all defensive movement—without distance, there can be no escape or recovery",
     "Frames create initial space by establishing structural barriers between your body and the opponent's pressure",
@@ -19,7 +27,6 @@
     "The amount of space needed varies by context—just enough to insert a frame, recover a hook, or escape completely",
     "Timing space generation with opponent's movements multiplies effectiveness and reduces energy expenditure"
   ],
-
   "component_skills": [
     {
       "skill_name": "Frame Construction",
@@ -54,7 +61,6 @@
       "description": "The ability to hold created space against opponent's attempts to recapture position. This involves active frame pressure, proper angle maintenance, and continuous adjustment to prevent space collapse and pressure reestablishment."
     }
   ],
-
   "principle_relationships": [
     {
       "principle_name": "Frame Creation",
@@ -117,7 +123,6 @@
       "description": "The escape hierarchy defines which spaces must be created first based on position severity and control points"
     }
   ],
-
   "application_contexts": [
     {
       "context": "Side Control",
@@ -192,7 +197,6 @@
       "how_applied": "Frame against hips to prevent grapevine while bridging to create space for hip escape, then immediately shrimp to begin mount escape sequence"
     }
   ],
-
   "decision_framework": [
     {
       "step_number": 1,
@@ -235,7 +239,6 @@
       "action": "Use active frames, distance management, and continuous adjustment to hold space while executing guard recovery, position improvement, or complete escape sequence"
     }
   ],
-
   "common_errors": [
     {
       "error": "Attempting to create space purely through arm strength without proper hip movement",
@@ -273,7 +276,6 @@
       "correction": "Plan sequential space generation—small space allows frame, frame allows bigger shrimp, bigger shrimp allows guard recovery, treating space generation as progressive process"
     }
   ],
-
   "training_approaches": [
     {
       "approach_name": "Pin Escape Drilling",
@@ -306,7 +308,6 @@
       "focus": "Perfect the fundamental movement patterns of space generation without resistance, developing smooth technical execution before adding pressure"
     }
   ],
-
   "developmental_metrics": [
     {
       "level": "Beginner",
@@ -352,7 +353,6 @@
       ]
     }
   ],
-
   "related_content": [
     {
       "name": "Frame Creation",
@@ -414,11 +414,5 @@
       "content_type": "Principle",
       "relationship": "Fundamental movement skill that is the primary method of lateral space generation in defensive sequences"
     }
-  ],
-
-  "expert_insights": {
-    "danaher": "Space generation is the fundamental requirement for all defensive movement in jiu-jitsu. You must understand that control, by definition, requires contact and pressure—therefore the systematic creation of distance is the antithesis of control. The human body has specific mechanical limitations in how it can generate space, primarily through hip extension (bridging) and hip rotation with translation (shrimping). These movements must be executed with proper timing relative to opponent's pressure cycles, as attempting to create space against maximum pressure and optimal base is biomechanically inefficient and ultimately futile. The key insight is that space generation is not a single explosive movement but rather a progressive sequence—you create small space to insert a frame, use that frame to create medium space for hip movement, and use that hip movement to create large space for position recovery. Each increment of space must be immediately secured before attempting to create more, otherwise you simply create momentary gaps that collapse under continued pressure. Understanding the hierarchy of space generation—where to create space first, how much is needed for specific purposes, and how to maintain created space under pressure—separates systematic defensive players from those who simply scramble and hope.",
-    "gordon_ryan": "In competition, the ability to generate space under pressure determines whether you survive or get smashed. I've competed against the best pressure passers in the world, and what I've learned is that you cannot wait until you're completely flattened to start creating space—by then it's too late. You need to preemptively manage space from the moment someone begins to establish pressure, constantly creating small amounts of distance that prevent them from ever achieving full consolidation. The biggest mistake I see is people trying to bench press their way out of pins using pure arm strength. Your arms will fail every single time against proper chest pressure from a skilled opponent. Instead, you need to use your frames only to create initial separation, then immediately shrimp your hips away to generate real space. The other critical element is timing—you must create space when your opponent is shifting weight, advancing position, or reaching for grips. When they're settled with maximum pressure and perfect base, you're wasting energy trying to move. Wait for their transitions, then explode into your space-generating movement when their structure is temporarily compromised. In no-gi especially, where there are fewer grips to maintain distance, superior space generation is absolutely essential for high-level guard retention and pin escapes.",
-    "eddie_bravo": "Space generation is all about creating the room you need to operate your game, man. In 10th Planet, we're constantly working lockdown, rubber guard, and electric chair positions that require very specific spacing to function properly. The key is understanding that different positions need different amounts of space—rubber guard needs just enough space to get that high leg and break posture, while escaping knee on belly needs explosive lateral movement to create big gaps. One thing that changed my game was learning to use the opponent's pressure against them. When someone drives hard into you, that forward momentum can actually help you bridge or shrimp if you time it right—it's like using their energy to amplify your movement. We drill a lot of chain movements where you combine different space-creating techniques in sequence. Like, you might start with a small bridge to get some breathing room, immediately shrimp when their weight shifts, then use that space to insert a butterfly hook or get to lockdown. Each movement creates the opportunity for the next one. The other big thing is practicing space generation when you're exhausted, because that's when you're going to need it most in competition or hard rolling. If you can only create space when you're fresh, you're going to be in trouble when someone's been grinding on you for three minutes straight."
-  }
+  ]
 }

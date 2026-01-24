@@ -8,7 +8,7 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -430,7 +430,6 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 - [[Transition to Omoplata]] - Generic transition category covering various entries from different guard positions
 - [[Triangle to Omoplata]] - Chain submission when Triangle is defended with good posture
 - [[Closed Guard to Triangle]] - Related attack chain from closed guard sharing similar control concepts
-- [[Rubber Guard to Omoplata System]] - 10th Planet system emphasizing Omoplata entries from Mission Control and other Rubber Guard positions
 - [[Hip Movement]] - Fundamental principle required for creating angle and establishing position
 - [[Shoulder Pressure]] - Core principle for maintaining control and preventing escapes during setup
 - [[Guard Retention]] - Defensive principle that complements offensive Omoplata attacks from bottom

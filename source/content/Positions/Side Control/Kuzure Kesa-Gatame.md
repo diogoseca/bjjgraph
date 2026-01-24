@@ -8,7 +8,7 @@ description: "Master modified scarf hold in BJJ. Strategic guide covering contro
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

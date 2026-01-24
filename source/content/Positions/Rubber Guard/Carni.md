@@ -8,7 +8,7 @@ description: "Master Carni position in BJJ. Advanced leg entanglement with syste
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

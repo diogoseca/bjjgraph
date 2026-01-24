@@ -8,7 +8,7 @@ description: "Master the D'arce-Anaconda connection in BJJ. Learn seamless trans
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -425,7 +425,6 @@ The D'arce-Anaconda Connection represents one of the most fundamental submission
 - [[Front Headlock Series Transition]] - Specific transition pathway from control to submission
 - [[Anaconda from Turtle]] - Common positional entry for the connection
 - [[Darce from Turtle]] - Common positional entry for the connection
-- [[Danaher Front Headlock System]] - Systematic approach incorporating this submission chain
 - [[Snap Down to Front Headlock]] - Standing entry to achieve position for connection
 - [[Guillotine Setup]] - Alternative submission from same control position
 - [[Connection Principles]] - Fundamental principle underlying smooth transitions

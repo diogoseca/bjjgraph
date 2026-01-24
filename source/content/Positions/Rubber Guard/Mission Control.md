@@ -8,7 +8,7 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,7 +18,7 @@ description: "Master Mission Control in BJJ: the dominant rubber guard control p
 
 <section id="overview" class="content-section">
 
-Mission Control is the foundational control position within Eddie Bravo's rubber guard system, representing the critical transitional state between basic high guard and the offensive attacks that define 10th Planet Jiu-Jitsu. From the bottom of closed guard, Mission Control is achieved when the practitioner establishes a high guard with one leg controlling the opponent's shoulder while maintaining strong grips on the opponent's head and arm. This position is characterized by extreme hip elevation, shoulder isolation, and the ability to break down the opponent's posture completely.
+Mission Control is the foundational control position within 10th Planet's rubber guard system, representing the critical transitional state between basic high guard and the offensive attacks that define 10th Planet Jiu-Jitsu. From the bottom of closed guard, Mission Control is achieved when the practitioner establishes a high guard with one leg controlling the opponent's shoulder while maintaining strong grips on the opponent's head and arm. This position is characterized by extreme hip elevation, shoulder isolation, and the ability to break down the opponent's posture completely.
 
 The strategic value of Mission Control lies in its dual function as both a control mechanism and an attack platform. Unlike traditional closed guard positions that focus primarily on sweeps and positional advancement, Mission Control is designed specifically to create submission opportunities through systematic shoulder isolation and neck exposure. The position forces the opponent into a severely compromised posture where their weight is loaded onto their trapped shoulder, making it extremely difficult to generate effective defensive movements or escape attempts.
 

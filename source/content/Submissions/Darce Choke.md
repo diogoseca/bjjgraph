@@ -8,7 +8,7 @@ description: "Master the Darce Choke in BJJ. Complete guide with safety protocol
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -416,7 +416,6 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 - [[Front Headlock to Darce]] - Detailed transition pathway from front headlock control to darce finish
 - [[D'arce-Anaconda Connection]] - Submission chain showing how to flow between darce and anaconda based on opponent defensive reactions
 - [[Darce Variations]] - Companion submission page covering advanced darce variations and position-specific applications
-- [[Danaher Front Headlock System]] - Systematic approach to front headlock position including darce as core finishing option
 - [[D'arce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
 - [[Anaconda Control]] - Related control position—understanding anaconda mechanics improves darce understanding and vice versa
 

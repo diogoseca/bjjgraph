@@ -4,7 +4,6 @@
   "description": "Master Knee on Belly in BJJ. Strategic control position balancing mobility with pressure. Complete guide covering both top control and bottom escapes.",
   "variant_uniqueness": "Mobile pressure trading stability for speed",
   "overview": "Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one practitioner places their knee on the opponent's torso while maintaining a mobile base. This position uniquely combines high pressure with exceptional mobility, creating a transitional platform that scores points while setting up submissions and positional advancements. Unlike static control positions such as mount or side control, Knee on Belly requires continuous weight adjustments and active pressure management. The position creates a strategic dilemma for the bottom player: defend against submissions, prevent transitions to more dominant positions, or alleviate the crushing diaphragm pressure. From the top perspective, this position offers point-scoring opportunities, submission threats, and rapid transition potential to mount, back control, or north-south. From the bottom perspective, it represents a high-risk defensive scenario requiring immediate escape protocols combining frame creation, hip movement, and systematic re-guard strategies. The position exemplifies the principle of dynamic control over static dominance, rewarding practitioners who master the balance between pressure application and transitional readiness.",
-  
   "key_principles": [
     "Knee on Belly combines mobility with pressure, requiring dynamic weight shifts rather than static settling",
     "Top player must maintain offensive momentum through constant submission and transition threats",
@@ -12,7 +11,6 @@
     "Position rewards anticipation and reaction speed, with success determined by who controls the transitional pace",
     "Proper knee placement on solar plexus/diaphragm creates respiratory distress that accelerates defensive errors"
   ],
-  
   "related_positions": [
     {
       "name": "Side Control",
@@ -47,14 +45,19 @@
       "relationship": "Re-guard destination requiring frame creation and hip escape execution"
     }
   ],
-  
   "bottom": {
     "name": "Knee on Belly Bottom",
     "description": "Master escaping Knee on Belly Bottom in BJJ. Defensive position requiring immediate frame creation and hip escape mechanics. Complete guide covering pressure management and re-guard strategies.",
-    "tags": ["bjj", "position", "knee-on-belly", "bottom", "defensive", "escape", "pressure-defense"],
-    
+    "tags": [
+      "bjj",
+      "position",
+      "knee-on-belly",
+      "bottom",
+      "defensive",
+      "escape",
+      "pressure-defense"
+    ],
     "overview": "Knee on Belly Bottom is a highly disadvantageous defensive position where the practitioner is flat on their back with the opponent's knee driving into their diaphragm or solar plexus. This position represents one of the most pressure-intensive scenarios in Brazilian Jiu-Jitsu, requiring immediate defensive action to prevent both submission attacks and further positional deterioration. The bottom player must manage overwhelming chest pressure while protecting their neck and arms from various submission threats including armbars, Americanas, and collar chokes. Understanding proper defensive framing, hip escape mechanics, and re-guard strategies is essential for survival and escape. The position scores 2 points for the top player in IBJJF competition and creates a significant advantage in the control hierarchy. Success from this position is measured not by offensive capability but by the speed and efficiency of escape back to guard or neutral positions. The key to effective defense lies in immediate frame creation, hip movement to create angles, and systematic pressure management that prevents the opponent from consolidating control or advancing to mount.",
-    
     "state_properties": {
       "point_value": 2,
       "position_type": "Defensive",
@@ -62,14 +65,12 @@
       "energy_cost": "High",
       "time_sustainability": "Short"
     },
-    
     "state_invariants": [
       "Bottom player's back is flat against the mat with shoulders making contact with the ground, limiting mobility and creating vulnerability to pressure-based attacks",
       "Top player's knee is positioned on bottom player's diaphragm, solar plexus, or sternum with direct downward pressure through their shin and kneecap, making breathing difficult and restricting movement",
       "Bottom player's torso experiences constant compressive force from top player's weight distribution, requiring active defensive frames to prevent complete immobilization and submission setup",
       "Top player maintains base with their opposite foot posted on the ground and hands controlling bottom player's upper body, creating stable platform for pressure application and attack initiation"
     ],
-    
     "prerequisites": [
       "Opponent has successfully passed guard or transitioned from another top position",
       "Bottom player is flat on their back with shoulders on mat",
@@ -77,7 +78,6 @@
       "Bottom player's movement is significantly restricted by pressure",
       "Top player controls at least one point on bottom player's upper body (collar, arm, or head)"
     ],
-    
     "key_principles": [
       "Create immediate defensive frames using forearms and elbows to manage distance and prevent full weight settlement",
       "Turn body to the side to reduce surface area exposed to pressure and create hip escape angles",
@@ -87,7 +87,6 @@
       "Use opponent's base disruption to create escape opportunities when they shift weight or attempt submissions",
       "Prioritize re-guard over stand-up escapes due to opponent's superior pressure and control position"
     ],
-    
     "offensive_transitions": [
       {
         "technique": "Elbow Escape",
@@ -153,7 +152,6 @@
         }
       }
     ],
-    
     "defensive_responses": [
       {
         "technique": "Transition to Mount",
@@ -186,7 +184,6 @@
         "success_rate": 28
       }
     ],
-    
     "counter_transitions": [
       {
         "technique": "Re-Guard",
@@ -209,7 +206,6 @@
         "trigger": "Opponent adjusts their base or grip allowing frame insertion"
       }
     ],
-    
     "decision_tree": [
       {
         "condition": "If opponent's weight is fully committed to knee pressure with hands posted low",
@@ -287,7 +283,6 @@
         ]
       }
     ],
-    
     "common_errors": [
       {
         "error": "Attempting to bench press or push opponent away with arms extended",
@@ -325,7 +320,6 @@
         "correction": "Maintain chin tuck and keep at least one hand ready to defend collar grips while executing hip escape movements"
       }
     ],
-    
     "training_drills": [
       {
         "name": "Progressive Resistance Escape Drilling",
@@ -348,7 +342,6 @@
         "duration": "5 minute rounds, 3 rounds"
       }
     ],
-    
     "optimal_submission_paths": [
       {
         "name": "Re-guard to Triangle Path",
@@ -367,7 +360,6 @@
         "path": "Knee on Belly Bottom → Elbow Escape → Half Guard → Underhook Sweep from Half → Side Control → Kimura from Side Control"
       }
     ],
-    
     "related_content": [
       {
         "name": "Knee on Belly Top",
@@ -414,7 +406,6 @@
         "relationship": "General defensive positioning principles applicable to pressure management"
       }
     ],
-    
     "position_metrics": {
       "retention_rate": {
         "beginner": 15,
@@ -432,22 +423,22 @@
         "advanced": 15
       },
       "average_time": "15-45 seconds before escape or further deterioration"
-    },
-    
-    "expert_insights": {
-      "danaher": "The knee on belly bottom position represents a critical juncture in the defensive hierarchy where the practitioner must make immediate decisions regarding escape priorities. The biomechanical disadvantage stems from the opponent's ability to concentrate their entire body weight through a single point of contact on your diaphragm, creating respiratory distress that compounds with every passing second. The systematic approach to escape requires understanding that all effective escapes share three fundamental components: frame creation to manage distance, hip angle generation to reduce pressure surface area, and directional shrimping to create the geometric space necessary for re-guard entries. The most common error I observe is students attempting to generate vertical force against the knee pressure rather than creating lateral movement away from the pressure vector. Your frames must be positioned on the opponent's hips and near-side knee, not their upper body, as this creates the mechanical leverage necessary to turn your torso and generate the critical first inches of hip escape. Once you understand that escape is fundamentally about creating angles rather than opposing force directly, your success rate will increase dramatically across all bottom positions.",
-      "gordon_ryan": "In competition, knee on belly bottom is where matches are often lost if you don't have a systematic escape protocol that you've drilled thousands of times under pressure. I've been caught here against world-class opponents and the difference between escape and submission comes down to your immediate reaction in the first two seconds. You cannot afford to be passive or wait to see what they do - you must immediately establish your defensive frames and start your escape sequence before they settle their weight. My preferred escape is the elbow-knee frame combination where I use my far elbow on their hip and my near forearm on their knee while simultaneously turning into them and shrimping away. This creates the angle I need to get my knee shield in and start working back to half guard. Against someone like Buchecha or Galvao who has incredible pressure, you have to chain your escapes together - if the first shrimp doesn't get you all the way out, you immediately hit a second and third shrimp until you've created enough space to re-guard. The key is never stopping your movement because the moment you become static, they will advance to mount or attack a submission and your bad position becomes a losing position.",
-      "eddie_bravo": "Knee on belly bottom is one of those positions where the conventional wisdom of 'stay calm and technical' can actually work against you if you're not careful. Yeah, you need good frames and hip movement, but you also need a sense of urgency because this position drains your energy faster than almost any other bottom position. What I teach at 10th Planet is to get creative with your escape entries - don't just default to the standard shrimp to half guard that everyone expects. If you can create the space, look for the lockdown entry or even the deep half because these positions give you way more offensive potential than standard half guard. One underutilized option is when they're hunting for the far side armbar and they lift their knee to step over - that's your window to either recover full guard or even hit a technical standup if you're quick. The rubber guard philosophy applies here too: use your opponent's aggression against them. If they're driving hard with that knee trying to smash you, that forward pressure can be redirected once you get your frames in. The biggest mistake I see is people giving up mentally because the pressure is uncomfortable - you've got to embrace the suck and keep working your escapes even when it feels hopeless."
     }
   },
-  
   "top": {
     "name": "Knee on Belly Top",
     "description": "Master Knee on Belly Top control in BJJ. Dynamic offensive position balancing mobility with pressure. Complete guide covering setup, transitions, and submission attacks.",
-    "tags": ["bjj", "position", "knee-on-belly", "top-position", "pressure", "control", "dominant", "intermediate"],
-    
+    "tags": [
+      "bjj",
+      "position",
+      "knee-on-belly",
+      "top-position",
+      "pressure",
+      "control",
+      "dominant",
+      "intermediate"
+    ],
     "overview": "Knee on Belly Top is a highly effective transitional control position where the top practitioner places one knee across the opponent's torso while maintaining a wide base with the other leg extended. This position creates immense pressure on the bottom player's diaphragm and solar plexus, making it difficult to breathe and forcing defensive reactions. The top player maintains constant forward pressure while staying light on their feet, ready to transition to mount, side control, or submission attacks. From a strategic standpoint, Knee on Belly Top serves as an excellent position for consolidating control after passing the guard, scoring IBJJF points, and setting up a variety of attacks. The mobility inherent in this position allows the top player to quickly respond to escape attempts while maintaining dominant pressure. Unlike more static positions like mount or side control, Knee on Belly requires active weight distribution and constant micro-adjustments to maintain effectiveness. This position is particularly valuable in competition settings where maintaining pressure while remaining mobile is essential. The threat of submissions, transitions to mount, and back takes forces the bottom player into a reactive defensive posture, allowing the top player to dictate the pace and direction of the match.",
-    
     "state_properties": {
       "point_value": 2,
       "position_type": "Offensive/Controlling",
@@ -455,7 +446,6 @@
       "energy_cost": "Medium",
       "time_sustainability": "Medium"
     },
-    
     "state_invariants": [
       "One knee positioned on opponent's torso/solar plexus area with shin perpendicular to their centerline, creating direct downward pressure through the knee joint while controlling their breathing and movement",
       "Opposite leg extended wide for base with foot planted firmly on the mat, toes pointing away from opponent to create stable tripod structure and enable quick transitions",
@@ -463,7 +453,6 @@
       "Opponent flat on their back with shoulders pinned to mat, unable to turn to their side or create effective framing due to constant knee pressure and grip control",
       "Hips positioned high and mobile, allowing quick weight shifts and transitions while maintaining pressure through the knee on the opponent's diaphragm region"
     ],
-    
     "prerequisites": [
       "Successful guard pass to side control or direct entry from standing",
       "Control of opponent's upper body through collar or cross-collar grip",
@@ -471,7 +460,6 @@
       "Ability to maintain balance on one knee while controlling opponent's movement",
       "Understanding of proper weight distribution to maximize pressure without sacrificing mobility"
     ],
-    
     "key_principles": [
       "Keep knee positioned on opponent's solar plexus or lower ribs to maximize breathing disruption and control",
       "Maintain wide base with extended leg for stability and quick transitional movement",
@@ -481,7 +469,6 @@
       "Use opponent's defensive reactions to set up submissions and transitions",
       "Keep hips high and forward to maintain downward pressure angle through the knee"
     ],
-    
     "offensive_transitions": [
       {
         "technique": "Transition to Mount",
@@ -556,7 +543,6 @@
         }
       }
     ],
-    
     "defensive_responses": [
       {
         "technique": "Elbow Escape",
@@ -584,7 +570,6 @@
         "success_rate": 25
       }
     ],
-    
     "counter_transitions": [
       {
         "technique": "Transition to Mount",
@@ -607,7 +592,6 @@
         "trigger": "Opponent attempts to bridge or escape toward head side"
       }
     ],
-    
     "decision_tree": [
       {
         "condition": "If opponent remains flat and defensive without creating frames",
@@ -670,7 +654,6 @@
         ]
       }
     ],
-    
     "common_errors": [
       {
         "error": "Placing too much weight on the knee, causing loss of mobility and balance",
@@ -703,7 +686,6 @@
         "correction": "Keep shoulders and chest forward over opponent with hips high, directing pressure downward through knee"
       }
     ],
-    
     "training_drills": [
       {
         "name": "Knee on Belly Maintenance Drill",
@@ -726,7 +708,6 @@
         "duration": "10 minutes"
       }
     ],
-    
     "optimal_submission_paths": [
       {
         "name": "High-percentage armbar path",
@@ -749,7 +730,6 @@
         "path": "Knee on Belly Top → Back Take Generic (when opponent turns) → Back Control → Rear Naked Choke"
       }
     ],
-    
     "related_content": [
       {
         "name": "Side Control",
@@ -792,7 +772,6 @@
         "relationship": "Opportunistic target when opponent turns away from pressure"
       }
     ],
-    
     "position_metrics": {
       "retention_rate": {
         "beginner": 40,
@@ -810,12 +789,6 @@
         "advanced": 55
       },
       "average_time": "30-60 seconds"
-    },
-    
-    "expert_insights": {
-      "danaher": "Knee on Belly represents a fascinating intersection of mobility and control in our positional hierarchy. The biomechanical effectiveness stems from directing your body weight through a single point of contact - the knee - onto the opponent's solar plexus or lower ribs, creating respiratory distress that compounds their defensive difficulties. The key technical element that beginners miss is the forward angle of pressure: your shoulders must be ahead of your hips, creating a downward vector through the knee rather than simply resting your weight on top. The extended base leg functions as both a stability mechanism and a launching pad for transitions. When the opponent inevitably attempts to create space by pushing your knee, this reaction opens their arms for kimuras and armbars. The position becomes truly effective when you develop the sensitivity to feel their weight shifts and breathing patterns, allowing you to predict and counter their escape attempts before they fully develop. This is not a resting position - it is an active, dynamic platform for launching attacks and maintaining offensive pressure while scoring points in competition.",
-      "gordon_ryan": "In high-level competition, Knee on Belly is one of my favorite positions because it scores points while keeping me extremely mobile and dangerous. The biggest mistake I see competitors make is treating it like a stable position where they can rest - that's completely wrong. You need to be constantly threatening submissions and transitions to keep your opponent defensive and unable to execute their escape plan. I use Knee on Belly primarily as a transitional position after passing the guard, holding it just long enough to score the points and force a reaction, then immediately attacking based on how they defend. If they push my knee, I'm going straight to the armbar. If they turn away, I'm taking the back. The pressure needs to be intense enough that they can't breathe comfortably, which forces rushed, desperate escapes that I can capitalize on. In no-gi, the baseball bat choke isn't available, so I focus more on using Knee on Belly to set up arm attacks and mount transitions. The key is staying one step ahead - you should already be transitioning to your next attack before they even start their escape. This aggressive, forward-thinking approach is what separates effective Knee on Belly control from ineffective stalling.",
-      "eddie_bravo": "Knee on Belly in the 10th Planet system is all about creating chaos and forcing your opponent into bad decisions under pressure. We use it a bit differently than traditional schools - instead of just holding position for points, we're constantly switching knees, changing angles, and threatening different attacks to keep them completely overwhelmed. One thing I love teaching is the knee switch: as soon as they start defending one side, you pop up and switch your knee to the other side of their body, which completely resets their escape progress and adds new submission opportunities. The baseball bat choke from Knee on Belly is money in the gi, but in no-gi we're looking at darce setups and truck entries when they turn away. The mobility of this position is perfect for the flow-based approach we emphasize - you're never stuck, always moving, always attacking. I also teach my students to use Knee on Belly as a recovery position when they're tired in mount or side control. You can catch your breath while still maintaining dominant pressure and points, then explode back into heavy attacks when you're ready. The creativity comes from mixing up your knee placement, grip fighting, and transition timing to keep them guessing and defensive."
     }
   }
 }

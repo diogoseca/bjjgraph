@@ -8,7 +8,7 @@ description: "Master Stoner Control Bottom in BJJ. Advanced 10th Planet control 
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -164,7 +164,7 @@ Stoner Control Bottom encompasses two distinct but related positions from the 10
 
 From the rubber guard version, the practitioner has completely broken down opponent posture, secured deep overhook on one arm, and maintains rubber guard structure on the opposite side. This configuration severely limits defensive options while opening multiple attacking pathways, particularly effective in no-gi where traditional collar grips are unavailable. The lockdown version features active lockdown squeeze on opponent's trapped leg combined with overhook on far arm, creating dilemmas between defending back attacks versus defending sweeps.
 
-Both variations represent Eddie Bravo's systematic approach where each control position serves as both defensive stronghold and offensive launching point. Success requires hip flexibility (rubber guard) or lockdown proficiency, but rewards practitioners with high submission and sweep success rates once properly established.
+Both variations represent the 10th Planet systematic approach where each control position serves as both defensive stronghold and offensive launching point. Success requires hip flexibility (rubber guard) or lockdown proficiency, but rewards practitioners with high submission and sweep success rates once properly established.
 
 </section>
 

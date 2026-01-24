@@ -4,11 +4,11 @@
 
 ---
 title: "Lockdown | BJJ Position Guide | BJJ Graph"
-description: "Master Lockdown position in BJJ. Eddie Bravo's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level."
+description: "Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level."
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -18,7 +18,7 @@ description: "Master Lockdown position in BJJ. Eddie Bravo's revolutionary half 
 
 <section id="overview" class="content-section">
 
-Lockdown is Eddie Bravo's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.
+Lockdown is 10th Planet's revolutionary half guard variation that transforms traditional half guard from a defensive holding position into an aggressive attacking platform. This position features a specialized leg entanglement where the bottom player creates a figure-four lock around the opponent's trapped leg, severely restricting their mobility while enabling powerful sweeps, back takes, and submissions. The lockdown mechanism works by using the bottom player's outside leg to hook under the opponent's shin while the inside leg wraps over the thigh, creating tremendous leverage to break posture, manipulate weight distribution, and create angles for offensive attacks. Within the 10th Planet system, Lockdown serves as the foundation for multiple attacking sequences including the Electric Chair, Old School sweep, and various paths to back control. The position is particularly effective in no-gi grappling where traditional gi grips are unavailable, and has become a cornerstone technique in modern BJJ competition. The lockdown's effectiveness lies in its ability to simultaneously neutralize passing attempts while creating offensive opportunities, making it equally important to understand from both bottom and top perspectives.
 
 </section>
 

@@ -1,7 +1,17 @@
 {
   "name": "Space Management",
   "description": "Master Space Management in BJJ. Learn frame construction, hip escape mechanics, pressure recognition across all positions. Defensive and offensive applications.",
-  "tags": ["bjj", "principle", "space", "frames", "escapes", "defense", "control", "hip-movement", "pressure"],
+  "tags": [
+    "bjj",
+    "principle",
+    "space",
+    "frames",
+    "escapes",
+    "defense",
+    "control",
+    "hip-movement",
+    "pressure"
+  ],
   "application_level": "Fundamental",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -405,10 +415,5 @@
       "content_type": "Position",
       "relationship": "Emergency defensive position that represents maximum application of space management for survival"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Space management is fundamentally about vector manipulation and structural efficiency. When we examine defensive situations, the untrained eye sees struggle and effort, but the systematic approach reveals a biomechanical problem with precise solutions. Your frames must function as architectural elements—compression members that transfer force through bone structure into the ground rather than tension members that tire your muscles. The direction of space creation is never arbitrary; it must follow the hierarchy of positions, always moving toward guard recovery or neutral rather than toward inferior positions. The most common error I observe is practitioners treating space management as a single skill, when in reality it is a complex integration of at least eight distinct component skills: pressure recognition, frame construction, hip mobility, timing awareness, directional understanding, energy conservation, breathing discipline, and immediate capitalization. Each must be developed systematically. Furthermore, offensive space denial is not simply the opposite of defensive space creation—it requires understanding control point hierarchy, pressure application vectors, and the systematic removal of defensive options. The practitioner who masters both sides of space management develops a complete positional game that functions across all scenarios.",
-    "gordon_ryan": "In competition, space management separates those who can survive against elite pressure from those who fold under it. When I'm passing someone's guard or holding them in side control, I'm constantly working to remove the space they need for their defensive techniques. I control their head to prevent them from turning into me, I control their hips to prevent them from creating the angle for their escapes, and I settle my weight in ways that make their frames collapse. On the defensive side, when someone has me in a bad position—which happens less often now but was critical in my development—I focus on never being completely flat and always maintaining at least one strong frame that gives me a structural anchor point. The key competition insight about space management is that you can't just create space randomly and hope for the best. You need to know exactly which space you're creating and what you're going to do the instant you create it. If you shrimp out from side control but don't immediately insert your knee shield or recover full guard, you've wasted energy and given your opponent a chance to reset with better control. In my guard passing, I use a lot of body lock passing and over-under passing specifically because these styles allow me to compress my opponent's space so effectively that they can't execute their defensive movements. I'm constantly removing the space they need for their escapes before they can even attempt them. This offensive application of space management has been crucial to my passing success against high-level competitors who have excellent defensive games.",
-    "eddie_bravo": "Space management in no-gi is a whole different animal because you don't have the gi grips to manage distance, so everything comes down to body positioning, frames, and understanding leverage points. In the 10th Planet system, we're huge on using the lockdown and rubber guard specifically because they're space management tools that control distance without relying on fabric. The lockdown, for example, lets you manage the space in your half guard by controlling your opponent's leg, which controls their hip, which controls how much pressure they can apply. From rubber guard, you're using your leg to manage the space at their shoulder and neck, which prevents them from posturing up and creating the space they need to pass or strike. What's crazy is that most people think space management is just defensive, but we've weaponized it offensively in positions like the truck and twister side control where we're creating specific spaces that force the opponent into submission positions. From the truck, I'm managing space to prevent them from rolling out while creating the specific angle I need for the twister. It's not just about creating any space—it's about creating the right space for your finishing techniques. In terms of training this, we do a ton of flow rolling and position-specific training where guys work from bad positions and focus entirely on space management without trying to submit. This builds the calmness and technical understanding you need when you're actually in trouble. The breathing aspect is huge too—if you panic and hold your breath when someone's crushing you, you're done. We teach guys to breathe steadily even when it's uncomfortable, which keeps them calm and allows them to think through their space management strategy rather than just exploding randomly and wasting energy."
-  }
+  ]
 }

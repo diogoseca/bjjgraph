@@ -8,7 +8,7 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -424,7 +424,6 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 - [[Ryan Hall Triangle System]] - System that teaches similar leg-based shoulder attacks
 - [[Rubber Guard]] - Guard system with multiple monoplata entry options
 - [[Gogoplata Control]] - Related advanced guard submission with similar control requirements
-- [[10th Planet Rubber Guard System]] - System that popularized the monoplata in modern BJJ
 
 
 </section>

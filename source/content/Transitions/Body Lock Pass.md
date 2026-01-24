@@ -8,7 +8,7 @@ description: "Master the Body Lock Pass in BJJ. Step-by-step execution from Half
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -337,7 +337,6 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 - [[Pressure Passing]] - Core principle underlying this technique
 - [[Guard Passing]] - Theoretical framework governing execution
 - [[Bernardo Faria Pressure System]] - Strategic system incorporating this pass
-- [[Gordon Ryan Passing System]] - Modern competitive system using this technique
 
 
 </section>

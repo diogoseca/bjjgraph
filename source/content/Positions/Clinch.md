@@ -8,7 +8,7 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -526,24 +526,6 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 </section>
 
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The clinch position represents the critical interface between standing and ground engagement, and its mastery determines the entire trajectory of the match. The fundamental principle governing clinch success is the establishment of mechanical advantage through superior head position, inside control, and proper weight distribution. Most practitioners fail to understand that the clinch is not a static position but rather a dynamic series of grip exchanges where each configuration creates specific pathways to takedowns or guard pulls. The key is understanding the causal relationship between specific grips and the takedown opportunities they create - an underhook on one side combined with head control creates entirely different mechanics than double underhooks or collar ties. Advanced practitioners must develop the ability to recognize these grip configurations instantly and execute the appropriate response before the opponent can capitalize on their advantage. The clinch is won through superior technical understanding of leverage mechanics rather than strength, and the practitioner who better understands the biomechanical implications of each grip configuration will consistently dictate the terms of engagement and funnel opponents toward disadvantageous scenarios.
-
-### Gordon Ryan
-
-In competition, the clinch is where I dictate the terms of engagement and funnel opponents into positions where my game dominates. My approach emphasizes establishing grip configurations that create immediate dilemmas for opponents - if they defend the takedown, I pull guard to my preferred positions; if they prepare for the guard pull, I execute high-percentage takedowns. The critical element is maintaining constant pressure and control through the clinch, never allowing opponents to settle into comfortable grips or stances. I specifically focus on hand fighting sequences that deny opponents their preferred grips while establishing my own dominant controls, creating situations where every defensive choice they make opens a different offensive opportunity. The modern competitive meta requires treating the clinch as a sophisticated control system rather than simply a precursor to takedowns, using it to manage energy expenditure, control engagement timing, and create advantageous scenarios for ground engagement on your terms. Understanding how to manipulate opponents through grip fighting creates scoring opportunities and prevents them from implementing their own game plans, giving you complete control over match flow and pacing.
-
-### Eddie Bravo
-
-The clinch is an often underutilized area for creating unexpected transitions, especially for getting into my preferred leg entanglement and rubber guard systems. Rather than viewing it purely as a wrestling-based takedown setup, I see the clinch as an opportunity to create angles and grips that facilitate direct entries to specialized guards. My approach emphasizes using the clinch to close distance, establish grips that set up unconventional guard pulls, and create situations where opponents are already compromised before ground engagement begins. For instance, establishing specific collar ties or body lock configurations in the clinch can create immediate pathways to positions like rubber guard or leg entanglements that opponents aren't expecting from standing exchanges. The innovation comes from recognizing that the clinch doesn't have to follow traditional wrestling patterns - you can use it as a setup for entries to advanced guard systems, creating situations where you're already several steps ahead in your game plan before your back touches the mat. This unconventional approach keeps opponents guessing and allows you to implement your preferred systems from positions they haven't trained to defend against, giving you massive tactical advantages in both gi and no-gi contexts.
-
-</section>
-
 <section id="related-content" class="content-section">
 
 ## Related Positions and Techniques
@@ -559,7 +541,6 @@ The clinch is an often underutilized area for creating unexpected transitions, e
 - **[[Guard Pull]]** - Alternative transition pathway to ground engagement
 - **[[Overhook Control]]** - Defensive grip configuration within clinch
 - **[[Standing Rear Clinch]]** - Advanced clinch variation with back exposure
-- **[[Danaher Front Headlock System]]** - Systematic approach to clinch-to-front-headlock transitions
 
 
 </section>

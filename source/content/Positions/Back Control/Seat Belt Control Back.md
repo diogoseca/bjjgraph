@@ -8,7 +8,7 @@ description: "Master Seat Belt Control from Back position in BJJ. Dominant 4-poi
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

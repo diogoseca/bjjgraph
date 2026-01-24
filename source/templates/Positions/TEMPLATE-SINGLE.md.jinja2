@@ -117,7 +117,6 @@ description: "{{ data.description }}"
   - training-drills: {{ priorities.get('training-drills', 'N/A') }}
   - optimal-submission-paths: {{ priorities.get('optimal-submission-paths', 'N/A') }}
   - position-metrics: {{ priorities.get('position-metrics', 'N/A') }}
-  - expert-insights: {{ priorities.get('expert-insights', 'N/A') }}
   - related-content: {{ priorities.get('related-content', 'N/A') }}
 
   Generated: {{ generation_timestamp }}
@@ -271,24 +270,6 @@ description: "{{ data.description }}"
 {% if data.position_metrics.average_time -%}
 **Average Time in Position**: {{ data.position_metrics.average_time }}
 {% endif %}
-
-</section>
-
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-{{ data.expert_insights.danaher }}
-
-### Gordon Ryan
-
-{{ data.expert_insights.gordon_ryan }}
-
-### Eddie Bravo
-
-{{ data.expert_insights.eddie_bravo }}
 
 </section>
 

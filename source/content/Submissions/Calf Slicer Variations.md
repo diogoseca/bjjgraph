@@ -8,7 +8,7 @@ description: "Master Calf Slicer Variations in BJJ. Complete guide covering setu
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -299,7 +299,7 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 ## Variations
 **Traditional 50-50 Calf Slicer**: From 50-50 guard position, thread your inside shin behind opponent's knee while maintaining leg entanglement. Pull their foot toward you with your outside leg while driving shin into calf. Most common entry point for calf slicers. (When to use: When opponent is defending heel hooks in 50-50 by keeping their knee tight and heel protected. Calf slicer becomes available as they defend the more dangerous heel hook.)
 
-**Truck Position Calf Slicer**: From truck position with opponent on their side, use your top leg to drive shin behind their bottom leg's knee. Your bottom leg controls their top leg while you apply compression. Eddie Bravo's signature variation from twister system. (When to use: When opponent successfully defends twister by protecting their head/neck. Calf slicer provides alternative finish from same position with their leg already trapped.)
+**Truck Position Calf Slicer**: From truck position with opponent on their side, use your top leg to drive shin behind their bottom leg's knee. Your bottom leg controls their top leg while you apply compression. 10th Planet's signature variation from twister system. (When to use: When opponent successfully defends twister by protecting their head/neck. Calf slicer provides alternative finish from same position with their leg already trapped.)
 
 **Deep Half Guard Calf Slicer**: From deep half guard, as you sweep or off-balance opponent, transition your outside leg to insert shin behind their far leg's knee. Use your deep half hook to control their near leg while compressing the far leg calf. (When to use: When opponent posts hard on their far leg to defend deep half sweeps. Their weight commitment creates opportunity to attack the posted leg with calf slicer.)
 
@@ -425,11 +425,9 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 - [[Heel Hook]] - Primary submission in leg entanglements; calf slicer serves as alternative when heel hook is defended
 - [[Kneebar from 50-50]] - Complementary leg attack from same position
 - [[Electric Chair Submission]] - Related compression submission from lockdown position
-- [[Danaher Leg Lock System]] - Systematic approach including calf slicer as part of complete leg attack system
 - [[Lockdown]] - Control position allowing transition to calf slicer variations
 - [[Leg Entanglement]] - Core principle category for all calf slicer positions
 - [[Outside Ashi-Garami]] - Leg entanglement position offering calf slicer entry angles
-- [[Twister System]] - Eddie Bravo system incorporating truck-based calf slicer variations
 - [[Banana Split]] - Related compression submission targeting different muscle groups from similar positions
 
 

@@ -8,7 +8,7 @@ description: "Master Double Jump Top position in BJJ. Advanced turtle attack wit
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -435,7 +435,7 @@ Start each round with you in Double Jump Top position with both hooks establishe
 - **[[Twister Control]]** - Submission destination - accessible through truck transitions from Double Jump
 - **[[Turtle to Back Control]]** - Primary transition technique - main method of advancing to back control
 - **[[Truck Entry]]** - Alternative transition - counter-option when opponent defends back take
-- **[[10th Planet No-Gi Guard System]]** - System context - Double Jump fits within Eddie Bravo's leg-based control methodology
+- **[[10th Planet No-Gi Guard System]]** - System context - Double Jump fits within 10th Planet's leg-based control methodology
 - **[[Twister System]]** - System progression - Double Jump serves as entry point to truck-based submissions
 
 

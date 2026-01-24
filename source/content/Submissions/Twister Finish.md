@@ -8,7 +8,7 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -154,7 +154,7 @@ description: "Master the Twister finishing sequence in BJJ. Complete guide with 
 
 <section id="overview" class="content-section">
 
-The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by Eddie Bravo and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.
+The Twister is an advanced spinal compression submission that targets the opponent's spine and shoulder through opposed rotational forces. Popularized by 10th Planet's and the 10th Planet system, the Twister represents one of the most sophisticated control-to-submission sequences in no-gi grappling. The submission works by creating a figure-four configuration with your legs to isolate the opponent's lower body while your arms control the upper body, creating a corkscrew effect on the spine. The finish involves pulling the opponent's head and shoulder in one direction while their hips are locked in the opposite direction, creating immense pressure on the thoracic spine. This technique requires exceptional positional control from the Truck position and precise understanding of spinal mechanics. The Twister is primarily a no-gi submission due to its reliance on body control rather than gi grips, though variations exist for gi training. Safety is paramount - this submission can cause serious spinal injury if applied carelessly. The technique's effectiveness lies in its multi-layered control system: leg entanglement prevents hip escape, body positioning eliminates space, and arm control secures the finish. Understanding the progression from back control through the Truck to the Twister finish is essential for safe and effective application.
 
 **Category**: Compression
 **Type**: Spinal Lock
@@ -291,7 +291,7 @@ The Twister is an advanced spinal compression submission that targets the oppone
 ## Variations
 **Twister from Crab Ride**: Entry variation beginning from crab ride position instead of traditional back control. Hook the opponent's leg with your bottom leg while riding their back, then swing your top leg over to establish the Truck. This allows you to hit the Twister from scrambles where you have back exposure but not full back control. (When to use: When opponent is defending traditional back control but gives up leg control during scrambles. Excellent in no-gi where back control can be fleeting.)
 
-**Twister from Lockdown Half Guard**: The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is Eddie Bravo's signature Twister entry and represents the systematic approach to the submission. (When to use: From bottom half guard when you have the lockdown secured. Particularly effective against opponents who try to smash through your half guard with forward pressure.)
+**Twister from Lockdown Half Guard**: The classic 10th Planet entry starting from lockdown half guard. Use the Old School sweep setup to create back exposure, then roll through to establish the Truck position. This is 10th Planet's signature Twister entry and represents the systematic approach to the submission. (When to use: From bottom half guard when you have the lockdown secured. Particularly effective against opponents who try to smash through your half guard with forward pressure.)
 
 **Arm-in Twister variation**: Instead of pulling the far arm across, this variation traps the near arm inside the Twister control. The opponent's trapped arm creates an additional lever for the spinal rotation. More common in scrambles where you catch the position opportunistically. (When to use: When opponent's near arm is accessible but their far arm is defended. Also useful when their far arm is too strong to control but their near arm is exposed.)
 
@@ -401,10 +401,8 @@ The Twister is an advanced spinal compression submission that targets the oppone
 
 - [[Truck Entry]] - Primary entry transition to establish position for Twister
 - [[Twister System]] - Comprehensive system containing this submission as primary finish
-- [[10th Planet No-Gi Guard System]] - Parent system where Twister was developed and popularized
 - [[Lockdown]] - Common starting position for systematic Twister entries
 - [[Old School]] - Sweep that creates back exposure for Truck entry
-- [[Rubber Guard]] - Related 10th Planet position emphasizing flexibility and control
 - [[Flexibility Training]] - Essential physical attribute for safely practicing this submission
 - [[Turtle to Back Take]] - Alternative entry when opponent turtles from Truck attempt
 - [[Deep Half Guard]] - Position with similar leg entanglement mechanics

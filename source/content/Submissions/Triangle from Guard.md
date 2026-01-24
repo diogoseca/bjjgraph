@@ -8,7 +8,7 @@ description: "Master Triangle from Guard in BJJ. Complete safety guide covering 
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -424,7 +424,6 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 - [[Guard Retention]] - Required skill to maintain guard if triangle entry fails
 - [[Submission Chains]] - Strategic principle of linking triangle with armbar and omoplata
 - [[Ryan Hall Triangle System]] - Comprehensive system built around triangle as primary guard submission
-- [[Rubber Guard to Triangle System]] - 10th Planet methodology for triangle entries from rubber guard positions
 
 
 </section>

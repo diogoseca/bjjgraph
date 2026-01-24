@@ -8,7 +8,7 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -421,7 +421,6 @@ The Kneebar from Top represents a high-percentage leg attack opportunity that ar
 - [[Outside Ashi-Garami]] - Transitional position often reached when opponent defends top kneebar by rolling away from pressure
 - [[Saddle]] - Advanced leg entanglement position accessible when opponent's kneebar defense exposes heel
 - [[Straight Footlock to Kneebar Chain]] - Systematic attacking sequence combining straight ankle lock and kneebar as opponent defends between submissions
-- [[Danaher Leg Lock System]] - Comprehensive instructional framework teaching top and bottom leg attacking including kneebarring principles
 - [[Craig Jones Leg Lock System]] - Modern competition-focused leg attack system emphasizing opportunistic kneebarring from scrambles
 - [[Single Leg X-Guard]] - Bottom position offering kneebar access; understanding bottom kneebarring mechanics improves top defense recognition
 - [[Leg Entanglement]] - Principle covering general leg control mechanics applicable to all leg attacks including top kneebarring

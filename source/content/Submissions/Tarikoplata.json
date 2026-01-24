@@ -323,10 +323,6 @@
       "relationship": "Parent position - tarikoplata is variation with added wrist control"
     },
     {
-      "name": "Rubber Guard",
-      "relationship": "Primary entry system for tarikoplata in 10th Planet methodology"
-    },
-    {
       "name": "Mission Control",
       "relationship": "Optimal rubber guard position for transitioning to tarikoplata"
     },
@@ -341,10 +337,6 @@
     {
       "name": "Gogoplata",
       "relationship": "Complementary rubber guard submission, creates submission chain"
-    },
-    {
-      "name": "10th Planet Rubber Guard System",
-      "relationship": "Systematic framework where tarikoplata is key finishing option"
     },
     {
       "name": "Submission Chains",
@@ -366,10 +358,5 @@
       "name": "Omoplata to Sweep",
       "relationship": "Backup option when tarikoplata cannot be secured"
     }
-  ],
-  "expert_insights": {
-    "danaher": "The tarikoplata represents a sophisticated evolution of omoplata mechanics through the addition of a secondary control point. Where traditional omoplata relies on a single lever - hip extension driving into the shoulder - the tarikoplata introduces wrist manipulation as a second lever, creating what I call a 'compound joint attack.' This is biomechanically significant because it simultaneously loads the shoulder in two planes of rotation: the omoplata configuration creates external rotation and extension of the glenohumeral joint, while the wrist control adds rotational torque through the entire kinetic chain of the arm. The critical insight is that these two pressures are synergistic rather than additive - the wrist rotation doesn't simply add more pressure, it fundamentally changes the geometry of the escape options. The rolling escape, which is the primary defensive response to omoplata, becomes not just difficult but actively dangerous when the wrist is controlled and rotated. This forces the opponent into a position where all defensive options accelerate rather than diminish the submission pressure. From a training perspective, this technique demands exceptional control and progressive application precisely because of its mechanical efficiency - it can create joint damage very quickly. I emphasize to students that mastery of traditional omoplata mechanics must precede any attempt at the tarikoplata variation, and that application speed in training must always err on the side of excessive caution.",
-    "gordon_ryan": "In competition, the tarikoplata is one of those techniques that has a very specific niche but can be absolutely devastating when the situation presents itself. I've found it most useful not as a primary attack but as a counter to omoplata defenses. When high-level guys defend the omoplata, they typically have very good rolling escape mechanics or they're excellent at creating base with their free hand. The tarikoplata specifically neutralizes both of these high-percentage defenses. What I love about it is the psychological component - most competitors are drilled extensively on omoplata escapes, so when they feel the familiar shoulder pressure, they automatically initiate their escape sequence. But when you add that wrist control, suddenly their trained response becomes a trap. I'll be honest though - in competition, I'm very selective about when I go for the finish versus when I use it as a sweep setup. The submission comes on fast and shoulder injuries are career-threatening, so unless I'm in a position where I absolutely need the finish, I'll often use the tarikoplata position to force them to give up their back or accept a sweep. In training, the speed differential between drilling and live rolling must be extreme with this technique. I've seen too many training room injuries from shoulder locks applied too quickly. My rule is simple: if you can't hit it slowly in drilling, you have no business attempting it in live training.",
-    "eddie_bravo": "The tarikoplata is one of my favorite innovations in the rubber guard system because it perfectly demonstrates how adding one element - that wrist control - can transform a technique from good to unstoppable. We developed this as an answer to guys who were getting really good at defending the traditional rubber guard omoplata by rolling or posting. The beauty of it is that it uses their defensive knowledge against them. They think they know omoplata escapes, but the wrist rotation changes everything. In the 10th Planet system, we flow into tarikoplata primarily from Mission Control and New York positions. The high guard control in these positions makes it easy to maintain pressure while you're adjusting to get that wrist grip, and your opponent is already dealing with the threat of gogoplata and triangle, so they're not expecting the shoulder attack. Training-wise, this is one technique where I'm absolutely militant about safety. The combination of shoulder pressure and wrist torque can do serious damage really fast, and I've seen people get hurt when they try to muscle it or go too fast. We drill it at super slow speed for months before anyone attempts it live, and even then, it's only with advanced students who have the body control and awareness to apply it safely. The culture around this technique has to be safety-first, always. I'd rather see a student take six months to develop it properly than have them hurt a training partner by rushing the progression."
-  }
+  ]
 }

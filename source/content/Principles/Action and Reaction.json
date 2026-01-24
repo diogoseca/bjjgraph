@@ -1,7 +1,16 @@
 {
   "name": "Action and Reaction",
   "description": "Master creating deliberate opponent responses and exploiting predictable defensive commitments. Learn reaction-based attacking across all positions with systematic frameworks.",
-  "tags": ["bjj", "principle", "intermediate", "strategy", "tactics", "reaction", "offense", "defense"],
+  "tags": [
+    "bjj",
+    "principle",
+    "intermediate",
+    "strategy",
+    "tactics",
+    "reaction",
+    "offense",
+    "defense"
+  ],
   "application_level": "Intermediate",
   "complexity_level": "Medium",
   "development_timeline": "Beginner to Advanced",
@@ -380,10 +389,5 @@
       "content_type": "Principle",
       "relationship": "Reaction-based attacking conserves energy by exploiting opponent's movements rather than forcing techniques"
     }
-  ],
-  "expert_insights": {
-    "danaher": "Approaches action and reaction as a systematic application of stimulus-response mechanics, emphasizing that every defensive movement creates specific and predictable vulnerabilities that can be catalogued and exploited methodically. Focuses extensively on what he terms 'secondary attacks' where the true objective is not the initial threat but rather the counter-attack that exploits the defensive response, treating first actions as deliberate setups rather than primary attacks. Systematizes reaction-based sequences according to position and defensive response patterns, creating comprehensive attack systems where practitioners learn not just individual techniques but entire branching decision trees based on opponent's defensive choices.",
-    "gordon_ryan": "Views action and reaction as the primary mechanism for attacking elite defensive opponents who rarely make unprovoked errors, emphasizing that at the highest levels of competition virtually all successful attacks derive from exploiting opponent's defensive commitments rather than finding static openings. Focuses on what he calls 'pressure-reaction sequences' where sustained pressure forces opponent into defensive patterns that gradually become predictable and exploitable. Emphasizes the importance of maintaining offensive initiative through continuous threat generation, creating an environment where opponent remains perpetually reactive and unable to establish their own offensive sequences, which psychologically and tactically dominates exchanges even before specific techniques succeed.",
-    "eddie_bravo": "Has developed extensive reaction-based systems within his 10th Planet methodology, particularly evident in his rubber guard system where virtually every position includes multiple attack chains predicated on opponent's defensive responses to previous threats. When teaching action and reaction, emphasizes the importance of 'commitment reading' where practitioners learn to distinguish genuine defensive commitments from defensive feints, preventing exploitation of false reactions. Advocates for creative and unpredictable initial actions that generate unusual reactions opponent hasn't trained extensively, creating cognitive load that slows defensive responses and increases exploitation windows, particularly effective in his unorthodox guard systems where opponent reactions may be less practiced."
-  }
+  ]
 }

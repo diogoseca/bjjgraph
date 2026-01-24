@@ -8,7 +8,7 @@ description: "Master Inside Heel Hook in BJJ. Complete guide with safety protoco
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -415,7 +415,6 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 - [[Inside Ashi Entry]] - Primary transition to establish position for submission
 - [[Ashi Garami Escape]] - Defensive counters to study for complete understanding
 - [[X-Guard to Ashi Transition]] - Alternative entry pathway from guard position
-- [[Danaher Leg Lock System]] - Systematic framework organizing heel hook within comprehensive leg attack system
 - [[Craig Jones Leg Lock System]] - Modern competition-tested approach to leg entanglement attacks
 - [[Garry Tonon Leg Lock to Back System]] - Integration of heel hooks with back attack transitions
 - [[Leg Entanglement]] - Fundamental principle underlying all ashi-garami positions

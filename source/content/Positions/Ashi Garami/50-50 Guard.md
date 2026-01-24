@@ -8,7 +8,7 @@ description: "Master 50-50 Guard in BJJ. Symmetrical leg entanglement with contr
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 
@@ -20,7 +20,7 @@ description: "Master 50-50 Guard in BJJ. Symmetrical leg entanglement with contr
 
 The 50-50 Guard is a symmetrical leg entanglement position where both practitioners mirror each other with their legs intertwined, each person's leg positioned across the opponent's hip line. Named for the theoretically equal positioning of both competitors, this position represents one of the most technical and controversial positions in modern Brazilian Jiu-Jitsu due to its potential for both high-level leg attacks and strategic stalemates.
 
-In the 50-50 Guard, both people occupy essentially the same position - each has one leg trapped across the opponent's hips while the other leg triangles around the opponent's trapped leg. This symmetry creates unique strategic dynamics where small positional advantages become magnified. The position gained prominence in the 2000s and 2010s through practitioners like the Mendes brothers and later the Danaher Death Squad, who demonstrated its effectiveness as both a control position and a submission platform.
+In the 50-50 Guard, both people occupy essentially the same position - each has one leg trapped across the opponent's hips while the other leg triangles around the opponent's trapped leg. This symmetry creates unique strategic dynamics where small positional advantages become magnified. The position gained prominence in the 2000s and 2010s through practitioners like the Mendes brothers and later the modern leg lock pioneers, who demonstrated its effectiveness as both a control position and a submission platform.
 
 The position's reputation is divided: traditionalists view it as a stalling position that can lead to referee standups, while modern leg lock specialists recognize it as a highly technical position with multiple submission entries and transition opportunities. Success in 50-50 requires understanding subtle grip fighting, hip positioning, and the ability to recognize and exploit momentary advantages. Under IBJJF rules, certain submissions from this position are restricted by belt level, making it crucial to understand both technical execution and competitive legality.
 

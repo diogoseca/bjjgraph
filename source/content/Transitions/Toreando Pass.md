@@ -8,7 +8,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 ---
 
 
-<body data-content-type="transitions" data-sections='["overview","key-principles","setup-requirements","execution-steps","common-counters","common-mistakes","training-progressions","variants-and-adaptations","knowledge-assessment","safety-considerations","position-integration","related-content"]'>
+<body data-content-type="transitions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -268,7 +268,7 @@ Implement Toreando Pass in regular sparring rounds. Focus on recognizing optimal
 (Resistance: Full)
 
 **Ongoing: Advanced Variations and Adaptations** - Develop personal style and master advanced variations for specific situations
-Explore Toreando variations including grip variations (sleeve/collar/ankle), different step patterns (single step vs multiple steps), and combinations with leg drags. Practice against high-level guard players who specifically defend the Toreando. Study competition footage of elite passers like Leandro Lo, Rafael Mendes, and Gordon Ryan. Develop counter-strategies for all common defensive responses.
+Explore Toreando variations including grip variations (sleeve/collar/ankle), different step patterns (single step vs multiple steps), and combinations with leg drags. Practice against high-level guard players who specifically defend the Toreando. Study competition footage of elite passers like Leandro Lo, Rafael Mendes, and elite competitors'. Develop counter-strategies for all common defensive responses.
 (Resistance: Full)
 
 

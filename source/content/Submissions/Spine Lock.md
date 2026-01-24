@@ -8,7 +8,7 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -410,7 +410,6 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 - [[Twister System]] - Overarching system that includes spine lock as finishing option
 - [[Truck Entry]] - Essential transition to establish position before spine lock attempt
 - [[Calf Slicer from Truck]] - Complementary submission that chains with spine lock from same position
-- [[10th Planet No-Gi Guard System]] - System origin that developed and refined spine lock techniques
 - [[Back Control]] - Alternative control position if Truck is defended during spine lock attempt
 - [[Submission Defense]] - Critical defensive concepts for safely defending against spine compression
 - [[Flexibility Training]] - Essential training component for both attacking and defending spine locks safely

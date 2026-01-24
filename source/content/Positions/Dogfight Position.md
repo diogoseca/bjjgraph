@@ -8,7 +8,7 @@ description: "Master the Dogfight position in BJJ half guard. Dynamic kneeling p
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","expert-insights","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo -->
 <script type="application/ld+json">
@@ -497,24 +497,6 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 
 </section>
 
-<section id="expert-insights" class="content-section expert-insight">
-
-## Expert Analysis
-
-### John Danaher
-
-The Dogfight position represents a critical inflection point in the half guard game where biomechanical advantage is determined entirely by superior control of the underhook battle and understanding of weight distribution principles. The position's effectiveness stems from the bottom player's ability to elevate their center of gravity while maintaining a strong connection through the underhook, which creates multiple sweeping vectors and back exposure opportunities that are mechanically superior to flat half guard configurations. The key biomechanical principle is that by coming up to your knees, you've created a more equal weight distribution compared to flat half guard, which allows you to generate significantly more force in your sweeping and advancing movements while simultaneously creating instability in your opponent's base. The underhook becomes your primary steering mechanism—by driving it forward and upward with proper hip connection, you can manipulate your opponent's base and create the angle necessary for back takes or leg attacks. The position demands constant activity because any static moment allows the top player to solve the puzzle through superior gripping and pressure application, consolidating their base and initiating passing sequences. I teach my students to view Dogfight not as a position to maintain, but as a launching platform for immediate advancement to either the back or a superior top position through systematic chaining of techniques based on opponent's defensive reactions.
-
-### Gordon Ryan
-
-Dogfight is one of my favorite half guard positions in competition because it's inherently aggressive and puts the top player in a defensive mindset where they're reacting to my attacks rather than imposing their passing game. From this position, I'm always threatening the back take first and foremost, which forces my opponent to defend with their whizzer and keep their hips low, and when they defend the back aggressively, the Old School sweep becomes available because they've committed their base in one direction. The key competitive insight is understanding that at high levels, you absolutely cannot stay static in Dogfight—you must immediately attack with commitment or you'll get passed by opponents who understand the position. I chain together back take attempts with the Old School sweep constantly in competition, and if both are defended effectively, I drop to deep half and start the entire sequence again from a different angle. The position rewards aggressive, forward-moving grapplers who aren't afraid to commit to their attacks and accept some risk of being countered. Against elite opponents, I've found that the threat of the back take is often more valuable than the actual back take itself, because it forces them into defensive postures with poor base that make them extremely vulnerable to sweeps and position advancements. In no-gi competition especially, this position is even more dynamic because without the gi grips to slow things down, you can really explode into your attacks and catch opponents off guard with the speed and commitment of your transitions between techniques.
-
-### Eddie Bravo
-
-The Dogfight, which we call the 'Electric Chair position' or '93 Guard' in the 10th Planet system, is where the lockdown game gets really interesting and opens up our entire half guard offensive system. While traditional BJJ focuses primarily on the underhook battle and Old School sweep from here, we've developed an entire subsystem around the lockdown and whip-up mechanics that create unique sweeping and submission opportunities that most competitors don't anticipate. The beauty of Dogfight is that it's a position of constant motion and creativity—there's no single 'correct' way to attack from here, which means you can develop your own personal style and combinations that work with your body type and athletic attributes. I teach students to use the Dogfight as both an offensive launching platform and a recovery position when they need to catch their breath in half guard because you're much harder to flatten and control when you're up on your knees with proper frames. From here, you can hit the Electric Chair sweep, whip up to the truck position for twister attacks, or if you're feeling creative, go for the Vaporizer submission. The key innovation we brought to this position is understanding that you don't always need the traditional underhook to be successful—sometimes the lockdown itself provides enough control to sweep and advance, especially if you understand the biomechanics of stretching your opponent out and creating angles that compromise their base. This position perfectly embodies the 10th Planet philosophy of turning traditionally defensive positions into aggressive, submission-hunting platforms where you're always threatening to finish the match rather than just survive and advance position.
-
-</section>
-
 <section id="related-content" class="content-section">
 
 ## Related Positions and Techniques
@@ -525,7 +507,6 @@ The Dogfight, which we call the 'Electric Chair position' or '93 Guard' in the 1
 - **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration to enter Dogfight
 - **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
 - **[[Old School Sweep]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
-- **[[Electric Chair]]** - Submission position accessible from Dogfight via lockdown mechanics in 10th Planet system
 - **[[Whizzer Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
 - **[[Z-Guard]]** - Related half guard position with similar knee shield mechanics that can transition to Dogfight
 - **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics

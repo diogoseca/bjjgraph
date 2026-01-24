@@ -1069,7 +1069,7 @@ Master Deep Half Guard in BJJ. Strategic guide covering sweeps, back takes, and 
 
 ### [[Electric Chair]]
 
-Master Electric Chair position in BJJ. Eddie Bravo's lockdown sweep with hip pressure. Setup, execution, finish guide. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
+Master Electric Chair position in BJJ. 10th Planet's lockdown sweep with hip pressure. Setup, execution, finish guide. Success: Beginner 45%, Intermediate 60%, Advanced 75%.
 
 ### [[Flattened Half Guard]]
 
@@ -1085,7 +1085,7 @@ Master Knee Shield Half Guard in BJJ. Strategic guide covering setup, defensive 
 
 ### [[Lockdown]]
 
-Master Lockdown position in BJJ. Eddie Bravo's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level.
+Master Lockdown position in BJJ. 10th Planet's revolutionary half guard control system with leg entanglement. Complete guide covering bottom and top perspectives with 65% sweep success at advanced level.
 
 ### [[Old School]]
 
@@ -1135,7 +1135,7 @@ Master Modified Mount in BJJ. Strategic position trading some control for enhanc
 
 ### [[Mount]]
 
-Master the Mount position in BJJ. Learn control mechanics, submission attacks, and defense strategies from top and bottom perspectives with expert insights.
+Master the Mount position in BJJ. Learn control mechanics, submission chains, escape strategies, and systematic progression from top and bottom perspectives.
 
 ### [[Mount Control]]
 
@@ -1170,7 +1170,7 @@ Master Chill Dog position in BJJ. Defensive turtle variant with recovery options
 
 ### [[Crackhead Control]]
 
-Master Crackhead Control in BJJ - Eddie Bravo's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.
+Master Crackhead Control in BJJ - 10th Planet's high-risk, high-reward position combining deep overhook with extreme back exposure. Complete breakdown with safety protocols and entry mechanics.
 
 ### [[Invisible Collar]]
 
@@ -1186,7 +1186,7 @@ Master Mission Control in BJJ: the dominant rubber guard control position. Learn
 
 ### [[New York]]
 
-Master New York position control in Eddie Bravo's Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks.
+Master New York position control in 10th Planet's Rubber Guard system. Complete guide covering rubber guard fundamentals, flexible control mechanics, and offensive attacks.
 
 ### [[New York Control]]
 
@@ -1198,7 +1198,7 @@ Master Rubber Guard in BJJ with this comprehensive guide covering setup, control
 
 ### [[Zombie]]
 
-Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining Eddie Bravo's 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates.
+Master Zombie position in BJJ. Defensive turtle variation with unique lockdown mechanics combining the 10th Planet system. Learn bottom escapes and top passing strategies with 40-75% success rates.
 
 
 ## Side Control
@@ -1333,7 +1333,7 @@ Master Crab Ride position in BJJ. Strategic guide covering turtle attack entries
 
 ### [[Crackhead Control]]
 
-Master Crackhead Control in BJJ. Complete guide to Eddie Bravo's innovative turtle control system covering bottom defense and top attacks with expert analysis.
+Master Crackhead Control in BJJ. Complete guide to 10th Planet's innovative turtle control system covering bottom defense and top attacks with expert analysis.
 
 ### [[Cross Body Ride]]
 
@@ -1621,6 +1621,6 @@ Master Worm Guard in BJJ. Innovative lapel-based guard with sweeps and back take
 
 ### [[Z-Guard]]
 
-Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions with expert insights.
+Master Z-Guard in BJJ. Advanced knee shield variation with high shoulder framing. Complete guide covering setup, control, sweeps, and transitions.
 
 

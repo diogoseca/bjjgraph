@@ -8,7 +8,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -477,7 +477,7 @@ Starting from backside 50-50 top, practice finishing sequence for inside heel ho
 - **[[Honey Hole]]** - Alternative leg entanglement configuration from top
 - **[[Inside Heel Hook]]** - Primary submission finish from this position
 - **[[Craig Jones Leg Lock System]]** - Competition-proven system featuring this position prominently
-- **[[Danaher Leg Lock System]]** - Systematic framework incorporating this position into comprehensive hierarchy
+- **[[systematic approach Leg Lock System]]** - Systematic framework incorporating this position into comprehensive hierarchy
 
 
 </section>

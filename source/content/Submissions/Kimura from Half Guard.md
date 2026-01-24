@@ -8,7 +8,7 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 ---
 
 
-<body data-content-type="submissions" data-sections='["overview","safety-considerations","key-principles","setup-requirements","execution-steps","opponent-defense-patterns","common-mistakes","variations-and-setups","knowledge-assessment","training-progressions-and-safety-protocols","from-positions","related-submissions","related-content"]'>
+<body data-content-type="submissions">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -413,7 +413,6 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 - [[Back Control]] - Common finishing position after successful Kimura to back take transition
 - [[Side Control]] - Position achieved after successful Kimura sweep from half guard bottom
 - [[Crucifix]] - Advanced transition available from Kimura back take when opponent defends poorly
-- [[10th Planet Half Guard Bottom System]] - System that heavily incorporates Kimura attacks from various half guard configurations
 - [[Kimura Trap System]] - Comprehensive system built around figure-four grip applications from multiple positions
 
 

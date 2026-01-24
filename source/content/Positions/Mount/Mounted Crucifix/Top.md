@@ -8,7 +8,7 @@ description: "Dominate with mounted crucifix top position in BJJ. Complete guide
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -496,7 +496,7 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 - **[[Seat Belt Control Back]]** - Transition target - natural progression when taking back from crucifix
 - **[[Control Maintenance]]** - Essential principle - maintaining crucifix requires constant pressure and adjustment
 - **[[Submission Control Position]]** - Conceptual framework - crucifix exemplifies submission-ready control positions
-- **[[Danaher Front Headlock System]]** - Related system - shares principles of arm isolation and control progression
+- **[[systematic approach Front Headlock System]]** - Related system - shares principles of arm isolation and control progression
 
 
 </section>

@@ -4,11 +4,11 @@
 
 ---
 title: "Lockdown Top | BJJ Position Guide | BJJ Graph"
-description: "Master Lockdown Top defense in BJJ. Strategic guide to countering Eddie Bravo's lockdown system. Learn leg extraction, posture maintenance, and passing strategies against lockdown."
+description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 10th Planet's lockdown system. Learn leg extraction, posture maintenance, and passing strategies against lockdown."
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -115,7 +115,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Lockdown Top",
-  "description": "Master Lockdown Top defense in BJJ. Strategic guide to countering Eddie Bravo's lockdown system. Learn leg extraction, posture maintenance, and passing strategies against lockdown.",
+  "description": "Master Lockdown Top defense in BJJ. Strategic guide to countering 10th Planet's lockdown system. Learn leg extraction, posture maintenance, and passing strategies against lockdown.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -160,7 +160,7 @@ description: "Master Lockdown Top defense in BJJ. Strategic guide to countering 
 
 <section id="overview" class="content-section">
 
-Lockdown Top represents the defensive perspective against Eddie Bravo's signature lockdown half guard system. From this position, the top practitioner must navigate the challenging task of freeing their trapped leg from the figure-four lock while defending against constant sweep attempts, submission threats, and back take opportunities. The position requires a systematic approach to leg extraction, posture maintenance, and pressure application to neutralize the bottom player's offensive advantages. Success from Lockdown Top depends on understanding the lockdown's mechanical principles and exploiting its weaknesses through proper weight distribution, grip control, and strategic leg extraction sequences. The top player must balance defensive priorities (preventing sweeps and submissions) with offensive passing opportunities, often requiring patient, methodical pressure to break down the lockdown control before completing passes to dominant positions.
+Lockdown Top represents the defensive perspective against 10th Planet's signature lockdown half guard system. From this position, the top practitioner must navigate the challenging task of freeing their trapped leg from the figure-four lock while defending against constant sweep attempts, submission threats, and back take opportunities. The position requires a systematic approach to leg extraction, posture maintenance, and pressure application to neutralize the bottom player's offensive advantages. Success from Lockdown Top depends on understanding the lockdown's mechanical principles and exploiting its weaknesses through proper weight distribution, grip control, and strategic leg extraction sequences. The top player must balance defensive priorities (preventing sweeps and submissions) with offensive passing opportunities, often requiring patient, methodical pressure to break down the lockdown control before completing passes to dominant positions.
 
 </section>
 

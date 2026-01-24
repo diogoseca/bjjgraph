@@ -8,7 +8,7 @@ description: "Master Craig Jones Leg Lock System in BJJ. High-percentage leg att
 ---
 
 
-<body data-content-type="systems" data-sections='["overview","key-principles","key-components","implementation-sequence","common-obstacles","assessment-metrics","training-methodology","related-content"]'>
+<body data-content-type="systems">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">

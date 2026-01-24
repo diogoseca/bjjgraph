@@ -8,7 +8,7 @@ description: "Master Reverse De La Riva Guard in BJJ. Strategic guide covering i
 ---
 
 
-<body data-content-type="positions-hub" data-sections='["overview","key-principles","bottom-summary","top-summary","variations-list","related-positions"]'>
+<body data-content-type="positions-hub">
 
 
 

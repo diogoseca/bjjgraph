@@ -8,7 +8,7 @@ description: "Foundational leg entanglement attacking position with heel control
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Escapes -->
 <script type="application/ld+json">
@@ -469,7 +469,7 @@ Partner attempts common escapes (heel extraction, knee rotation, hip escape, bac
 - **[[Straight Ankle Lock]]** - Foundational submission from this position
 - **[[Inside Heel Hook]]** - Advanced submission requiring proper training progression
 - **[[Leg Entanglement]]** - Core conceptual framework for understanding position
-- **[[Danaher Leg Lock System]]** - Systematic approach to leg attacks from this position
+- **[[systematic approach Leg Lock System]]** - Systematic approach to leg attacks from this position
 
 
 </section>

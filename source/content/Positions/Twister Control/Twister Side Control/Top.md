@@ -8,7 +8,7 @@ description: "Control twister side control from top position with systematic sub
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -160,7 +160,7 @@ description: "Control twister side control from top position with systematic sub
 
 <section id="overview" class="content-section">
 
-Twister Side Control from the top represents one of the most submission-oriented control positions in modern no-gi grappling, offering immediate finishing opportunities while maintaining sufficient positional control to prevent escapes. The position exemplifies Eddie Bravo's philosophy of creating submission-focused positions that bypass traditional positional hierarchies, prioritizing finishing potential over point accumulation.
+Twister Side Control from the top represents one of the most submission-oriented control positions in modern no-gi grappling, offering immediate finishing opportunities while maintaining sufficient positional control to prevent escapes. The position exemplifies 10th Planet's philosophy of creating submission-focused positions that bypass traditional positional hierarchies, prioritizing finishing potential over point accumulation.
 
 The top player in Twister Side Control leverages leg entanglement and shoulder pressure to create a mechanical framework that severely restricts the bottom player's defensive options. Unlike traditional side control where the primary focus is maintaining position and gradually advancing, Twister Side Control assumes an offensive posture from the moment of establishment, with multiple submission chains available and positional advancement serving as secondary objectives. This offensive emphasis requires different skill sets and strategic thinking compared to conventional top control positions.
 

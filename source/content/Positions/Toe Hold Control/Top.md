@@ -8,7 +8,7 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
 ---
 
 
-<body data-content-type="positions" data-sections='["overview","state-invariants","prerequisites","key-principles","offensive-transitions","defensive-responses","counter-transitions","decision-tree","common-mistakes","training-drills","optimal-submission-paths","position-metrics","related-content"]'>
+<body data-content-type="positions">
 
 <!-- Schema Markup - HowTo for Attacks -->
 <script type="application/ld+json">
@@ -439,7 +439,7 @@ Partner in bottom position performs specific escape attempts including hip escap
 - **[[Inside Ashi-Garami]]** - Alternative ashi position accessed through knee line rotation
 - **[[Saddle]]** - Advanced transition when opponent sits up or attempts leg extraction
 - **[[Straight Ankle Lock Control]]** - Alternative submission control position with similar leg entanglement
-- **[[Danaher Leg Lock System]]** - Systematic framework governing position hierarchy and transition logic
+- **[[systematic approach Leg Lock System]]** - Systematic framework governing position hierarchy and transition logic
 - **[[Craig Jones Leg Lock System]]** - Modern application methodology emphasizing control before submission
 - **[[Leg Entanglement]]** - Fundamental concept governing all ashi-based positions and controls
 - **[[Submission Control Position]]** - Conceptual framework for maintaining dominant position during submission attempts

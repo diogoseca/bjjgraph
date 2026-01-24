@@ -8,7 +8,7 @@ description: "Master Leg Entanglement principles in BJJ. Learn systematic lower 
 ---
 
 
-<body data-content-type="principles" data-sections='["overview","building-blocks","prerequisites","where-to-apply","how-to-apply","mistakes-to-avoid","how-to-practice","progress-markers","related"]'>
+<body data-content-type="principles">
 
 <!-- Schema Markup - Auto-generated from JSON -->
 <script type="application/ld+json">
@@ -372,7 +372,6 @@ Live training starting from established leg entanglement positions with specific
 - [[Control Point Hierarchy]] (Principle) - Governing principle explaining relative value of different control points in entanglement
 - [[Connection Principles]] (Principle) - Fundamental concept explaining how multiple connection points create redundant control
 - [[Hip Movement]] (Principle) - Essential skill for both establishing and escaping leg entanglements
-- [[Danaher Leg Lock System]] (System) - Comprehensive system built on leg entanglement hierarchy and systematic positional framework
 
 
 </section>
