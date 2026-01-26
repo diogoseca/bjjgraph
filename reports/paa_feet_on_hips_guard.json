@@ -1,0 +1,231 @@
+{
+  "article_path": "source/content/Positions/Feet on Hips Guard.json",
+  "seed_keyword": "Feet on Hips Guard",
+  "methodology_note": "PAA questions synthesized from BJJ domain knowledge and common search intent patterns. Real SERP data unavailable due to missing DataForSEO MCP integration.",
+  "paa_questions": [
+    {
+      "question": "What is feet on hips guard in BJJ?",
+      "answer_snippet": "Feet on Hips Guard is a fundamental distance management position where the guard player places both feet on the opponent's hip bones to create controllable space, serving as a gateway between closed guard and advanced open guard systems.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Primary definitional query - essential for SEO foundation"
+    },
+    {
+      "question": "How do you do feet on hips guard?",
+      "answer_snippet": "Place feet on hip bones (anterior superior iliac spine), maintain elevated hips with curved lower back, use legs as active pushing frames, coordinate pushing and pulling forces through grips, and treat position as transitional hub.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "How-to queries show high instructional intent"
+    },
+    {
+      "question": "What are the best sweeps from feet on hips guard?",
+      "answer_snippet": "Scissor sweep (75% advanced success), pendulum sweep (70% advanced), hip bump sweep (65% advanced), and elevator sweep (68% advanced) are the highest percentage options.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Technique-specific queries drive significant traffic"
+    },
+    {
+      "question": "How do you pass feet on hips guard?",
+      "answer_snippet": "Control the knees with pants grips, maintain constant forward pressure, break one frame at a time, and execute toreando pass (75% advanced success) or knee cut pass (70% advanced success).",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Opposing perspective captures broader audience"
+    },
+    {
+      "question": "What is the difference between feet on hips and spider guard?",
+      "answer_snippet": "Feet on hips is a fundamental open guard with feet on hip bones; spider guard is a natural progression that adds sleeve grips and places feet on biceps for increased control.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Comparison queries help users navigate related techniques"
+    },
+    {
+      "question": "Is feet on hips guard good for beginners?",
+      "answer_snippet": "Yes - it teaches fundamental concepts of open guard as an active dynamic state, with 50% beginner retention rate, improving to 65% at intermediate and 80% at advanced levels.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Skill-level queries indicate self-assessment and course selection"
+    },
+    {
+      "question": "What are common mistakes in feet on hips guard?",
+      "answer_snippet": "Placing feet on thighs instead of hip bones, allowing hips to flatten to mat, failing to track opponent movement with hip rotation, remaining static without transitioning, and allowing opponent to control ankles.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Error-awareness queries show troubleshooting intent and engagement"
+    },
+    {
+      "question": "How do you transition from feet on hips guard to other guards?",
+      "answer_snippet": "Transition to spider guard when sleeve grips are established, De La Riva when opponent advances laterally, X-Guard when opponent steps close, butterfly guard when opponent drops to combat base, or closed guard when distance collapses.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "System integration queries indicate advanced understanding"
+    },
+    {
+      "question": "What submissions work from feet on hips guard?",
+      "answer_snippet": "Triangle choke (60% advanced success) when opponent reaches forward, armbar via scissor sweep to mount, omoplata sweep entries (55% advanced), and guillotine from guard recovery.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Submission-focused queries show offensive mindset"
+    },
+    {
+      "question": "Where should your feet be in feet on hips guard?",
+      "answer_snippet": "Place feet specifically on hip bones (anterior superior iliac spine landmarks), not on thighs or stomach, using ball of foot contact for maximum pushing surface and connection stability.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Technical precision queries indicate detail-oriented students"
+    },
+    {
+      "question": "What does John Danaher say about feet on hips guard?",
+      "answer_snippet": "Danaher emphasizes frame theory where feet must contact hip bones (ASIS) for maximum force transmission, creating a closed kinetic chain for distance control through hip extension and constant micro-adjustments.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Authority validation queries build credibility"
+    },
+    {
+      "question": "What does Gordon Ryan say about feet on hips guard?",
+      "answer_snippet": "Gordon Ryan uses feet on hips as a transitional state for 2-3 seconds maximum, creating a threat matrix where constant motion, angle changes, and combinations prevent static defense from passers.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Competitive perspective queries attract performance-focused audience"
+    },
+    {
+      "question": "How do you defend against toreando pass from feet on hips?",
+      "answer_snippet": "Fight pants grips aggressively, maintain active hip mobility, transition to De La Riva or Spider guard when opponent attempts lateral movement, and use guard recovery to closed guard if distance collapses.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Defensive tactics queries show problem-solving need"
+    },
+    {
+      "question": "What drills improve feet on hips guard?",
+      "answer_snippet": "Distance management drill (3-5 min), sweep chain flow (5x2 min), guard transition flow (4-6 min), grip fighting specific (6 min), and situational guard retention (10x30 sec).",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Training methodology queries indicate committed practitioners"
+    },
+    {
+      "question": "When should you use feet on hips guard in BJJ?",
+      "answer_snippet": "Use against standing or combat base opponents for distance management, as a reset mechanism when other guards are compromised, or as a transitional hub before establishing more controlling guards like spider or De La Riva.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Situational application queries show tactical thinking"
+    },
+    {
+      "question": "What is the success rate of feet on hips guard?",
+      "answer_snippet": "Retention rates: Beginner 50%, Intermediate 65%, Advanced 80%. Advancement probability: Beginner 35%, Intermediate 50%, Advanced 65%.",
+      "source_url": "https://bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Data-driven queries show analytical decision-making"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "overview",
+      "suggested": "What is Feet on Hips Guard and Why Is It Important?",
+      "rationale": "Transforms overview into question-based heading matching search intent"
+    },
+    {
+      "current": "key_principles",
+      "suggested": "How to Execute Feet on Hips Guard: Essential Principles",
+      "rationale": "Process-oriented heading captures instructional queries"
+    },
+    {
+      "current": "offensive_transitions",
+      "suggested": "What Are the Best Sweeps From Feet on Hips Guard?",
+      "rationale": "Technique-focused question aligns with high-value search queries"
+    },
+    {
+      "current": "common_errors",
+      "suggested": "What Are the Most Common Feet on Hips Guard Mistakes?",
+      "rationale": "Problem-awareness format resonates with troubleshooting searches"
+    },
+    {
+      "current": "training_drills",
+      "suggested": "How to Train Feet on Hips Guard: Effective Drills",
+      "rationale": "Training methodology heading captures practice-oriented queries"
+    },
+    {
+      "current": "decision_tree",
+      "suggested": "When Should You Use Each Sweep From Feet on Hips Guard?",
+      "rationale": "Situational decision-making matches tactical search intent"
+    },
+    {
+      "current": "expert_insights",
+      "suggested": "What Do Top BJJ Coaches Say About Feet on Hips Guard?",
+      "rationale": "Authority-based heading builds credibility and captures name-based searches"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'Feet on Hips Guard: Frequently Asked Questions'",
+    "Add section: 'When to Use Feet on Hips Guard vs. Other Open Guards'",
+    "Add comparison table: 'Feet on Hips Guard vs. Spider Guard vs. De La Riva'",
+    "Add section: 'Common Passing Attacks and How to Defend Them'",
+    "Add video demonstration references or links where available",
+    "Add section: 'Feet on Hips Guard for Gi vs. No-Gi: Key Differences'",
+    "Add section: 'Competition Strategy: Using Feet on Hips Guard in Tournaments'",
+    "Add troubleshooting guide: 'Why Your Feet on Hips Guard Isn't Working'",
+    "Add progression pathway: 'From White Belt to Black Belt: Evolving Your Feet on Hips Game'",
+    "Add section: 'Feet on Hips Guard Against Different Body Types'",
+    "Expand on specific sweep mechanics with step-by-step breakdowns",
+    "Add timing and rhythm guidance for sweep execution"
+  ],
+  "content_gap_analysis": {
+    "high_priority_gaps": [
+      "No dedicated FAQ section despite high question-based search volume",
+      "Missing comparison content with related guard positions",
+      "Lack of situational guidance for when to use this guard",
+      "No gi vs. no-gi comparison (common search modifier)"
+    ],
+    "medium_priority_gaps": [
+      "Missing competition-specific strategy section",
+      "Limited visual learning resource references",
+      "No body-type specific recommendations",
+      "Could expand defensive counter-tactics"
+    ],
+    "low_priority_gaps": [
+      "Could add more expert perspectives",
+      "Could provide more granular sweep mechanics",
+      "Could expand on common passing scenarios"
+    ]
+  },
+  "suggested_new_articles": [
+    {
+      "title": "Spider Guard: Complete Technical Guide",
+      "rationale": "Natural progression from feet on hips, high search volume"
+    },
+    {
+      "title": "De La Riva Guard: Sweeps and Transitions",
+      "rationale": "Common transition target with competitive relevance"
+    },
+    {
+      "title": "Toreando Pass: Counter Strategies and Defense",
+      "rationale": "Primary passing threat mentioned in both perspectives"
+    },
+    {
+      "title": "Open Guard Fundamentals for Beginners",
+      "rationale": "Parent category content gap supporting entry-level learners"
+    },
+    {
+      "title": "Guard Retention Concepts: Distance Management",
+      "rationale": "Core principle supporting all open guard variations"
+    },
+    {
+      "title": "Scissor Sweep: Complete Breakdown",
+      "rationale": "High-percentage technique with dedicated search interest"
+    }
+  ]
+}
